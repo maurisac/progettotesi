@@ -5,6 +5,9 @@ import docx  # python-docx per Word
 import configparser  # Per salvare le impostazioni
 import os
 import logging
+import csv
+import pandas as pd  # Per leggere i file CSV
+
 
 # Configurazione logging
 LOG_FILE = "error.log"
@@ -16,6 +19,8 @@ text_pages = []
 current_page = 0
 current_file = None
 profile_file = "profile.ini"
+analysis_data = {}
+book_name = ""
 
 # Lettura delle impostazioni salvate
 config = configparser.ConfigParser()
@@ -46,12 +51,12 @@ def save_settings():
 
 def open_file(filepath=None):
     # Apre un file TXT, PDF o DOCX, lo divide in pagine e mostra la prima pagina.
-    global text_pages, current_page, current_file
+    global text_pages, current_page, current_file, analysis_data, book_name
     try:
         if not filepath:
             filepath = filedialog.askopenfilename(filetypes=[
-                ("Text Files", "*.txt"),
                 ("PDF Files", "*.pdf"),
+                ("Text Files", "*.txt"),
                 ("Word Documents", "*.docx")
             ])
             
@@ -59,6 +64,9 @@ def open_file(filepath=None):
             return
         
         current_file = filepath
+        book_name, _ = os.path.splitext(os.path.basename(filepath))
+        analysis_file = os.path.join(os.path.dirname(filepath), f"{book_name}-analysis.csv")
+        
         if filepath.endswith(".txt"):
             with open(filepath, "r", encoding="utf-8") as file:
                 text = file.read()
@@ -71,25 +79,49 @@ def open_file(filepath=None):
 
         text_pages = [text[i:i + PAGE_SIZE] for i in range(0, len(text), PAGE_SIZE)]
         current_page = 0
+        
+        if os.path.exists(analysis_file):
+            analysis_data = pd.read_csv(analysis_file)
+        else:
+            analysis_data = None
+        
         show_page()
     except Exception as e:
         logging.error(str(e))
         messagebox.showerror("Errore", f"Errore: {str(e)}")
 
-
 def extract_text_from_pdf(pdf_path):
-    # Estrae il testo da un file PDF.
     doc = fitz.open(pdf_path)
     return "\n".join([page.get_text() for page in doc])
 
-
 def extract_text_from_docx(docx_path):
-    # Estrae il testo da un file DOCX.
     doc = docx.Document(docx_path)
     return "\n".join([para.text for para in doc.paragraphs])
 
+def load_analysis_data(filepath):
+    global analysis_data
+    analysis_data = {}
+    csv_path = filepath.replace(".txt", ".csv").replace(".pdf", ".csv").replace(".docx", ".csv")
+    if os.path.exists(csv_path):
+        with open(csv_path, "r", encoding="utf-8") as file:
+            reader = csv.reader(file)
+            for row in reader:
+                if len(row) >= 3:
+                    chapter, start_page, results = row[0], int(row[1]), row[2]
+                    analysis_data[start_page] = (chapter, results)
+
+def update_analysis_display():
+    analysis_text.config(state=tk.NORMAL)
+    analysis_text.delete("1.0", tk.END)
+    for start_page in sorted(analysis_data.keys(), reverse=True):
+        if current_page + 1 >= start_page:
+            chapter, results = analysis_data[start_page]
+            analysis_text.insert(tk.END, f"{chapter}\n{results}")
+            break
+    analysis_text.config(state=tk.DISABLED)
 
 def show_page():
+    global book_name
     # Mostra la pagina corrente.
     if text_pages:
         text_area.config(state=tk.NORMAL)
@@ -97,16 +129,22 @@ def show_page():
         text_area.insert(tk.END, text_pages[current_page])
         text_area.config(state=tk.DISABLED)
         page_label.config(text=f"Pagina {current_page + 1} di {len(text_pages)}")
+        if analysis_data: 
+            update_analysis_display()
+        else:
+            analysis_text.config(state=tk.NORMAL)
+            analysis_text.delete("1.0", tk.END)
+            analysis_text.insert(tk.END, f"Analisi non trovata per {book_name}")
         save_settings()
 
-def next_page():
+def next_page(event=None):
     # Mostra la pagina successiva.
     global current_page
     if current_page < len(text_pages) - 1:
         current_page += 1
         show_page()
 
-def prev_page():
+def prev_page(event=None):
     # Mostra la pagina precedente.
     global current_page
     if current_page > 0:
@@ -138,9 +176,8 @@ def show_contacts():
 # Creazione GUI
 root = tk.Tk()
 root.title("Caricamento Libro a Pagine")
-root.geometry(f"{window_width}x{window_height}")  # Imposta la dimensione salvata
-root.state('zoomed')  # Avvio a schermo intero
-root.resizable(True, True)
+root.geometry(f"{window_width}x{window_height}")
+root.state('zoomed')
 
 # Menu principale
 menu_bar = Menu(root)
@@ -156,6 +193,7 @@ menu_bar.add_cascade(label="File", menu=file_menu)
 settings_menu = Menu(menu_bar, tearoff=0)
 settings_menu.add_command(label="Aumenta Zoom: ctrl + ", command=increase_font)
 settings_menu.add_command(label="Diminuisci Zoom: ctrl - ", command=decrease_font)
+settings_menu.add_separator()
 settings_menu.add_command(label="Pagina Successiva: Freccia Destra → ", command=next_page)
 settings_menu.add_command(label="Pagina precedente: Freccia Sinistra ← ", command=prev_page)
 menu_bar.add_cascade(label="Impostazioni", menu=settings_menu)
@@ -163,10 +201,9 @@ menu_bar.add_cascade(label="Impostazioni", menu=settings_menu)
 # sezione contatti
 contacts_menu = Menu(menu_bar, tearoff=0)
 contacts_menu.add_command(label="Contatti", command=show_contacts)
-menu_bar.add_cascade(label="Contatti", menu=Menu(menu_bar, tearoff=0))
+menu_bar.add_cascade(label="Contatti", menu=contacts_menu)
 
 root.config(menu=menu_bar)
-
 
 page_label = tk.Label(root, text="Pagina 1 di 1")
 page_label.pack()
@@ -174,24 +211,27 @@ page_label.pack()
 nav_frame = tk.Frame(root)
 nav_frame.pack()
 
-btn_prev = tk.Button(nav_frame, text="← Pagina Precedente", command=prev_page)
-btn_prev.pack(side=tk.LEFT, padx=5)
+tk.Button(nav_frame, text="← Pagina Precedente", command=prev_page).pack(side=tk.LEFT, padx=5)
+tk.Button(nav_frame, text="Pagina Successiva →", command=next_page).pack(side=tk.LEFT, padx=5)
 
-
-btn_next = tk.Button(nav_frame, text="Pagina Successiva →", command=next_page)
-btn_next.pack(side=tk.LEFT, padx=5)
-
-
-# Area di testo
-default_font = ("Arial", default_font_size)
-text_area = scrolledtext.ScrolledText(root, width=60, height=20, state=tk.DISABLED, font=default_font)
-text_area.pack(expand=True, fill='both', padx=10, pady=10)
 
 # Bind per lo zoom con tastiera
 root.bind("<Control-plus>", increase_font)
 root.bind("<Control-minus>", decrease_font)
+
+# Bind per il cambio pagina con le freccette
 root.bind("<Right>", next_page)
 root.bind("<Left>", prev_page)
+
+main_frame = tk.Frame(root)
+main_frame.pack(fill="both", expand=True)
+
+text_area = scrolledtext.ScrolledText(main_frame, width=60, height=20, state=tk.DISABLED, font=("Arial", default_font_size))
+text_area.pack(side=tk.LEFT, expand=True, fill='both', padx=10, pady=10)
+
+analysis_text = scrolledtext.ScrolledText(main_frame, width=30, height=20, state=tk.DISABLED, font=("Arial", default_font_size))
+analysis_text.pack(side=tk.RIGHT, expand=True, fill='both', padx=10, pady=10)
+
 
 # Ripristina ultimo file e pagina
 if last_file and os.path.exists(last_file):
