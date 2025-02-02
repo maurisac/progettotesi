@@ -65,8 +65,9 @@ def open_file(filepath=None):
         
         current_file = filepath
         book_name, _ = os.path.splitext(os.path.basename(filepath))
-        analysis_file = os.path.join(os.path.dirname(filepath), f"{book_name}-analysis.csv")
         
+        root.title(f"Book Analyzer - {book_name}")
+
         if filepath.endswith(".txt"):
             with open(filepath, "r", encoding="utf-8") as file:
                 text = file.read()
@@ -77,13 +78,14 @@ def open_file(filepath=None):
         else:
             text = "Formato non supportato."
 
+        # Dividi il testo in pagine
         text_pages = [text[i:i + PAGE_SIZE] for i in range(0, len(text), PAGE_SIZE)]
         current_page = 0
+
+        analysis_file = os.path.join(os.path.dirname(filepath), f"{book_name}-analysis.csv")
         
-        if os.path.exists(analysis_file):
-            analysis_data = pd.read_csv(analysis_file)
-        else:
-            analysis_data = None
+        # Carica le analisi (aggiungi questa chiamata)
+        load_analysis_data(analysis_file)
         
         show_page()
     except Exception as e:
@@ -101,14 +103,30 @@ def extract_text_from_docx(docx_path):
 def load_analysis_data(filepath):
     global analysis_data
     analysis_data = {}
-    csv_path = filepath.replace(".txt", ".csv").replace(".pdf", ".csv").replace(".docx", ".csv")
-    if os.path.exists(csv_path):
-        with open(csv_path, "r", encoding="utf-8") as file:
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as file:
             reader = csv.reader(file)
+            
+            # Salta la prima riga (legenda)
+            next(reader)
+            
             for row in reader:
                 if len(row) >= 3:
-                    chapter, start_page, results = row[0], int(row[1]), row[2]
-                    analysis_data[start_page] = (chapter, results)
+                    try:
+                        chapter = row[0]
+                        pages_range = row[1]  # Pagine in formato "start-end"
+                        results = row[2]
+                        
+                        # Estrai l'inizio e la fine dell'intervallo di pagine, assicurandoti che siano numeri
+                        start_page, end_page = map(int, pages_range.split('-'))
+                        # Aggiungi ogni pagina nell'intervallo al dizionario
+                        for page in range(start_page, end_page + 1):
+                            analysis_data[page] = (chapter, results)
+                            print(f"Added analysis for page {page}: {chapter} - {results}")
+                    except ValueError as e:
+                        print(f"Errore nella conversione della pagina di inizio o fine: {row[1]} - {e}")
+
+
 
 def update_analysis_display():
     analysis_text.config(state=tk.NORMAL)
@@ -121,7 +139,7 @@ def update_analysis_display():
     analysis_text.config(state=tk.DISABLED)
 
 def show_page():
-    global book_name
+    global book_name, analysis_data
     # Mostra la pagina corrente.
     if text_pages:
         text_area.config(state=tk.NORMAL)
@@ -129,7 +147,7 @@ def show_page():
         text_area.insert(tk.END, text_pages[current_page])
         text_area.config(state=tk.DISABLED)
         page_label.config(text=f"Pagina {current_page + 1} di {len(text_pages)}")
-        if analysis_data: 
+        if analysis_data is not None:
             update_analysis_display()
         else:
             analysis_text.config(state=tk.NORMAL)
