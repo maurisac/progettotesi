@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, scrolledtext, messagebox, Menu
+from tkinter import filedialog, scrolledtext, messagebox, Menu, ttk
 import fitz  # PyMuPDF per PDF
 import docx  # python-docx per Word
 import configparser  # Per salvare le impostazioni
@@ -7,6 +7,7 @@ import os
 import logging
 import csv
 import pandas as pd  # Per leggere i file CSV
+import subprocess
 
 
 # Configurazione logging
@@ -99,6 +100,21 @@ def extract_text_from_pdf(pdf_path):
 def extract_text_from_docx(docx_path):
     doc = docx.Document(docx_path)
     return "\n".join([para.text for para in doc.paragraphs])
+
+def run_analysis():
+    if not current_file:
+        messagebox.showwarning("Attenzione", "Apri prima un file da analizzare.")
+        return
+    
+    progress_bar.start(10)  # Avvia la barra di avanzamento
+    try:
+        subprocess.run(["python", "analysis.py", current_file], check=True)
+        messagebox.showinfo("Successo", "Analisi completata!")
+    except subprocess.CalledProcessError as e:
+        messagebox.showerror("Errore", f"Errore durante l'analisi: {e}")
+    finally:
+        progress_bar.stop()  # Ferma la barra di avanzamento
+
 
 def load_analysis_data(filepath):
     global analysis_data
@@ -223,14 +239,30 @@ menu_bar.add_cascade(label="Contatti", menu=contacts_menu)
 
 root.config(menu=menu_bar)
 
-page_label = tk.Label(root, text="Pagina 1 di 1")
-page_label.pack()
-
 nav_frame = tk.Frame(root)
-nav_frame.pack()
+nav_frame.pack(fill='x')
 
-tk.Button(nav_frame, text="← Pagina Precedente", command=prev_page).pack(side=tk.LEFT, padx=5)
-tk.Button(nav_frame, text="Pagina Successiva →", command=next_page).pack(side=tk.LEFT, padx=5)
+# Frame per i pulsanti di navigazione (centrali)
+nav_buttons_frame = tk.Frame(nav_frame)
+nav_buttons_frame.pack(side=tk.LEFT, expand=True)
+
+tk.Button(nav_buttons_frame, text="← Pagina Precedente", command=prev_page).pack(side=tk.LEFT, padx=5)
+
+page_label = tk.Label(nav_buttons_frame, text="Pagina 1 di 1")
+page_label.pack(side=tk.LEFT, padx=10)
+
+tk.Button(nav_buttons_frame, text="Pagina Successiva →", command=next_page).pack(side=tk.LEFT, padx=5)
+
+
+# Frame per la barra di avanzamento e il pulsante di analisi (destra)
+analysis_frame = tk.Frame(nav_frame)
+analysis_frame.pack(side=tk.RIGHT, padx=10)
+
+progress_bar = ttk.Progressbar(analysis_frame, mode='indeterminate')
+progress_bar.pack(side=tk.RIGHT, padx=5)
+
+analyze_button = tk.Button(analysis_frame, text="Avvia Analisi", command=run_analysis)
+analyze_button.pack(side=tk.RIGHT, padx=5)
 
 
 # Bind per lo zoom con tastiera
