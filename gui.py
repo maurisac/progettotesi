@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, scrolledtext, messagebox, Menu, ttk
+from tkinter import filedialog, scrolledtext, messagebox, Menu, ttk, simpledialog
 import fitz  # PyMuPDF per PDF
 import docx  # python-docx per Word
 import configparser  # Per salvare le impostazioni
@@ -102,18 +102,48 @@ def extract_text_from_docx(docx_path):
     return "\n".join([para.text for para in doc.paragraphs])
 
 def run_analysis():
-    if not current_file:
-        messagebox.showwarning("Attenzione", "Apri prima un file da analizzare.")
-        return
-    
-    progress_bar.start(10)  # Avvia la barra di avanzamento
-    try:
-        subprocess.run(["python", "analysis.py", current_file], check=True)
-        messagebox.showinfo("Successo", "Analisi completata!")
-    except subprocess.CalledProcessError as e:
-        messagebox.showerror("Errore", f"Errore durante l'analisi: {e}")
-    finally:
-        progress_bar.stop()  # Ferma la barra di avanzamento
+    if current_file:
+        progress_bar.start()
+        
+        process = subprocess.Popen(
+            ["python", "analysis.py", current_file],  # Passa il percorso completo
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True
+        )
+
+        # Stampa in tempo reale l'output nel terminale
+        for line in process.stdout:
+            print(line, end="")  # Stampa direttamente nel terminale
+
+        process.wait()
+        status_code = process.returncode
+        
+        progress_bar.stop()
+
+
+        analysis_text.config(state=tk.NORMAL)
+        analysis_text.delete("1.0", tk.END)
+
+        match status_code:
+            case 1:
+                messagebox.showerror("Errore", "Errore: specificare il file da analizzare.")
+            case 2:
+                messagebox.showerror("Errore", "Errore: file non trovato.")
+            case 3:
+                messagebox.showerror("Errore", "Errore imprevisto durante l'analisi!")
+            case 4:
+                messagebox.showerror("Errore", "Formato non supportato")
+            case 10:
+                messagebox.showinfo("Successo", "Indice trovato!")
+            case 11:
+                messagebox.showinfo("Successo", "Indice non trovato, ma capitoli individuati!")
+            case 12:
+                messagebox.showinfo("Successo", "Capitoli non rilevati, procedo all'assegnazione manuale")
+            case _:
+                messagebox.showerror("Errore", f"Codice di errore sconosciuto: {status_code}")
+            
+        analysis_text.config(state=tk.DISABLED)
 
 
 def load_analysis_data(filepath):
@@ -138,7 +168,7 @@ def load_analysis_data(filepath):
                         # Aggiungi ogni pagina nell'intervallo al dizionario
                         for page in range(start_page, end_page + 1):
                             analysis_data[page] = (chapter, results)
-                            print(f"Added analysis for page {page}: {chapter} - {results}")
+                            # print(f"Added analysis for page {page}: {chapter} - {results}")
                     except ValueError as e:
                         print(f"Errore nella conversione della pagina di inizio o fine: {row[1]} - {e}")
 
@@ -186,6 +216,9 @@ def prev_page(event=None):
         show_page()
 
 
+
+
+
 def increase_font(event=None):
     # Aumenta la dimensione del testo e della pagina interna.
     size = int(text_area["font"].split()[1]) + 2
@@ -200,6 +233,17 @@ def decrease_font(event=None):
     text_area.config(font=("Arial", size))
     text_area.pack_configure(expand=True, fill='both')
     save_settings()
+
+
+
+def go_to_page():
+    global current_page
+    page_num = simpledialog.askinteger("Vai a pagina", "Inserisci il numero della pagina:", minvalue=1, maxvalue=len(text_pages))
+    if page_num:
+        current_page = page_num - 1
+        show_page()
+
+
 
 def show_contacts():
     # Mostra la finestra con i contatti e i crediti.
@@ -230,6 +274,8 @@ settings_menu.add_command(label="Diminuisci Zoom: ctrl - ", command=decrease_fon
 settings_menu.add_separator()
 settings_menu.add_command(label="Pagina Successiva: Freccia Destra → ", command=next_page)
 settings_menu.add_command(label="Pagina precedente: Freccia Sinistra ← ", command=prev_page)
+settings_menu.add_separator()
+settings_menu.add_command(label="Vai a pagina", command=go_to_page)
 menu_bar.add_cascade(label="Impostazioni", menu=settings_menu)
 
 # sezione contatti
