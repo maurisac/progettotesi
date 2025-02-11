@@ -3,9 +3,15 @@ import re
 import os
 import fitz  # PyMuPDF per i PDF
 import docx  # python-docx per i file Word
+import multiprocessing
+import csv
+import datetime
+import time
 
 PAGE_SIZE = 3300  # Deve essere lo stesso della GUI
 DEFAULT_CHAPTER_LENGTH = 12  # Se nessun capitolo viene trovato
+
+# -------------------- FUNZIONI DI LETTURA --------------------
 
 def read_txt(file_path):
     # Legge un file di testo e lo divide in pagine.
@@ -38,6 +44,8 @@ def read_book(file_path):
         print("Errore: formato file non supportato.")
         sys.exit(4)
 
+# -------------------- FUNZIONI PER TROVARE I CAPITOLI --------------------
+
 def find_index_section(pages):
    # Cerca un possibile indice del libro nelle prime pagine.
     print("Cerco l'indice...")
@@ -55,16 +63,43 @@ def find_chapters(pages):
         matches = re.findall(r'\b(?:Capitolo|Chapter)\s+(\d+)\b', page, re.IGNORECASE)
         if matches:
             for match in matches:
-                chapters[int(match)] = page_number + 1
+                chapters[int(match)] = page
     return chapters if chapters else None
 
 def divide_by_fixed_length(pages):
     # Divide il libro in sezioni di lunghezza fissa se non trova i capitoli.
     print(f"Capitoli non trovati, suddivido manualmente ogni {DEFAULT_CHAPTER_LENGTH} pagine")
-    return {i+1: i * DEFAULT_CHAPTER_LENGTH + 1 for i in range(len(pages) // DEFAULT_CHAPTER_LENGTH)}
+    return {i+1: "\n".join(pages[i * DEFAULT_CHAPTER_LENGTH:(i + 1) * DEFAULT_CHAPTER_LENGTH]) 
+            for i in range(len(pages) // DEFAULT_CHAPTER_LENGTH)}
 
-import sys
-import os
+# -------------------- ANALISI PARALLELA --------------------
+
+def analyze_chapter(book_name, chapter_num, chapter_text):
+    file_name = f"{book_name}-capitolo{chapter_num}-analysis.csv"
+    
+    # Scrive "Analisi non completa"
+    with open(file_name, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Stato", "Analisi non completa"])
+
+        writer.writerow(["Testo", chapter_text])
+
+    # Scrive "Analisi completata"
+    completion_time = datetime.datetime.now().strftime("%d/%m/%Y alle %H:%M:%S")
+    with open(file_name, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Stato", f"Analisi completata il {completion_time}"])
+
+def parallel_analysis(book_name, chapters):
+    num_workers = min(multiprocessing.cpu_count(), len(chapters))
+    with multiprocessing.Pool(processes=num_workers) as pool:
+        tasks = [
+            pool.apply_async(analyze_chapter, (book_name, chapter, text))
+            for chapter, text in chapters.items()
+        ]
+        [task.wait() for task in tasks]  # Aspetta la fine di tutti i processi
+
+# -------------------- MAIN --------------------
 
 def main():
     input_file = sys.argv
@@ -77,7 +112,8 @@ def main():
     if not os.path.exists(file_path):
         print("Errore: file non trovato.")
         sys.exit(2)
-    
+
+    book_name = os.path.splitext(os.path.basename(file_path))[0]
     pages = read_book(file_path)
 
     # Cerca prima l'indice
@@ -89,23 +125,28 @@ def main():
     # Se nessuno dei due metodi ha funzionato, divide manualmente
     final_chapters = index_sections or chapters or divide_by_fixed_length(pages)
 
-    # Determina il codice di uscita
-    if index_sections:
-        exit_code = 10  # Indice trovato
-    elif chapters:
-        exit_code = 11  # Capitoli rilevati
-    elif final_chapters:
-        exit_code = 12  # Assegnazione manuale
-    else:
-        exit_code = 3 # Errore
-
-    # Stampa i capitoli individuati
     print("Capitoli individuati:")
-    for chapter, page in final_chapters.items():
-        print(f"Capitolo {chapter}: Pagina {page}")
+    for chapter, _ in final_chapters.items():
+        print(f"Capitolo {chapter}")
 
-    # Esce con il codice appropriato
-    sys.exit(exit_code)
+    # Analisi parallela
+    parallel_analysis(book_name, final_chapters)
+
+    # Creazione del file di riepilogo
+    summary_file = f"{book_name}-analysis.csv"
+    with open(summary_file, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Capitolo", "Stato"])
+        for chapter in final_chapters.keys():
+            chapter_file = f"{book_name}-capitolo{chapter}-analysis.csv"
+            with open(chapter_file, "r", encoding="utf-8") as ch_f:
+                reader = csv.reader(ch_f)
+                next(reader)  # Salta l'intestazione
+                status = next(reader)[1]  # Legge lo stato
+                writer.writerow([chapter, status])
+
+    print(f"Analisi completata. Riepilogo salvato in {summary_file}")
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
