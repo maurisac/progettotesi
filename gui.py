@@ -126,20 +126,12 @@ def run_analysis():
         analysis_text.delete("1.0", tk.END)
 
         match status_code:
+            case 0:
+                messagebox.showinfo("Successo", f"Analisi completata. Riepilogo salvato nel file {book_name}-analysis.csv")
             case 1:
                 messagebox.showerror("Errore", "Errore: specificare il file da analizzare.")
             case 2:
                 messagebox.showerror("Errore", "Errore: file non trovato.")
-            case 3:
-                messagebox.showerror("Errore", "Errore imprevisto durante l'analisi!")
-            case 4:
-                messagebox.showerror("Errore", "Formato non supportato")
-            case 10:
-                messagebox.showinfo("Successo", "Indice trovato!")
-            case 11:
-                messagebox.showinfo("Successo", "Indice non trovato, ma capitoli individuati!")
-            case 12:
-                messagebox.showinfo("Successo", "Capitoli non rilevati, procedo all'assegnazione manuale")
             case _:
                 messagebox.showerror("Errore", f"Codice di errore sconosciuto: {status_code}")
             
@@ -157,36 +149,59 @@ def load_analysis_data(filepath):
             next(reader)
             
             for row in reader:
-                if len(row) >= 3:
+                if len(row) >= 2:
                     try:
                         chapter = row[0]
                         pages_range = row[1]  # Pagine in formato "start-end"
-                        results = row[2]
                         
                         # Estrai l'inizio e la fine dell'intervallo di pagine, assicurandoti che siano numeri
                         start_page, end_page = map(int, pages_range.split('-'))
                         # Aggiungi ogni pagina nell'intervallo al dizionario
                         for page in range(start_page, end_page + 1):
-                            analysis_data[page] = (chapter, results)
-                            # print(f"Added analysis for page {page}: {chapter} - {results}")
+                            analysis_data[page] = chapter
+                            # print(f"Added analysis for page {page}: {chapter}")
                     except ValueError as e:
                         print(f"Errore nella conversione della pagina di inizio o fine: {row[1]} - {e}")
-
-
 
 def update_analysis_display():
     analysis_text.config(state=tk.NORMAL)
     analysis_text.delete("1.0", tk.END)
     for start_page in sorted(analysis_data.keys(), reverse=True):
         if current_page + 1 >= start_page:
-            chapter, results = analysis_data[start_page]
-            analysis_text.insert(tk.END, f"{chapter}\n{results}")
+            chapter = analysis_data[start_page]
+            analysis_text.insert(tk.END, f"{chapter}\n")
             break
     analysis_text.config(state=tk.DISABLED)
 
-def show_page():
-    global book_name, analysis_data
+def create_chapter_button(chapter, start_page):
+    button = tk.Button(chapters_frame, text=f"{chapter} - Pagina {start_page}", command=lambda: show_page(start_page - 1))
+    button.pack(fill="x", padx=5, pady=2)
+
+def update_chapters_display():
+    for widget in chapters_frame.winfo_children():
+        if isinstance(widget, tk.Button):
+            widget.destroy()
+    
+    if not analysis_data:  # Se il dizionario è vuoto, vuol dire che non ha caricato nulla
+        label = tk.Label(chapters_frame, text="File di analisi non trovato.\nPremere 'Avvia Analisi' per generarlo.", font=("Arial", default_font_size))
+        label.pack(fill="x", padx=5, pady=5)
+    else:
+        for start_page in sorted(analysis_data.keys()):
+            chapter = analysis_data[start_page]
+            create_chapter_button(chapter, start_page)
+
+def go_to_chapter(event):
+    selection = chapter_listbox.curselection()
+    if selection:
+        selected_text = chapter_listbox.get(selection[0])
+        page_num = int(selected_text.split("Pagina ")[-1])
+        show_page(page_num - 1)
+
+def show_page(page_num=None):
+    global book_name, analysis_data, current_page
     # Mostra la pagina corrente.
+    if page_num is not None:
+        current_page = page_num
     if text_pages:
         text_area.config(state=tk.NORMAL)
         text_area.delete("1.0", tk.END)
@@ -214,9 +229,6 @@ def prev_page(event=None):
     if current_page > 0:
         current_page -= 1
         show_page()
-
-
-
 
 
 def increase_font(event=None):
@@ -325,17 +337,27 @@ main_frame.pack(fill="both", expand=True)
 text_area = scrolledtext.ScrolledText(main_frame, width=60, height=20, state=tk.DISABLED, font=("Arial", default_font_size))
 text_area.pack(side=tk.LEFT, expand=True, fill='both', padx=10, pady=10)
 
-analysis_text = scrolledtext.ScrolledText(main_frame, width=30, height=20, state=tk.DISABLED, font=("Arial", default_font_size))
-analysis_text.pack(side=tk.RIGHT, expand=True, fill='both', padx=10, pady=10)
+right_frame = tk.Frame(main_frame)
+right_frame.pack(side=tk.RIGHT, fill="both", expand=True, padx=20, pady=10)
 
+chapters_frame = tk.Frame(right_frame, relief=tk.GROOVE, borderwidth=2)
+chapters_frame.pack(fill="x")
+
+chapter_label = tk.Label(chapters_frame, text="Capitoli Trovati", font=("Arial", default_font_size, "bold"))
+chapter_label.pack()
+
+chapter_listbox = tk.Listbox(chapters_frame, height=10) 
+chapter_listbox.pack(fill="both", expand=True)
+chapter_listbox.bind("<<ListboxSelect>>", go_to_chapter)
+
+analysis_text = scrolledtext.ScrolledText(right_frame, width=30, height=15, state=tk.DISABLED)
+analysis_text.pack(fill="both", expand=True, padx=10, pady=10)
 
 # Ripristina ultimo file e pagina
 if last_file and os.path.exists(last_file):
     open_file(last_file)
     current_page = min(last_page, len(text_pages) - 1)
     show_page()
-
-
 
 root.protocol("WM_DELETE_WINDOW", lambda: (save_settings(), root.destroy()))
 root.mainloop()
