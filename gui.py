@@ -122,7 +122,6 @@ def run_analysis():
         
         progress_bar.stop()
 
-
         analysis_text.config(state=tk.NORMAL)
         analysis_text.delete("1.0", tk.END)
 
@@ -137,12 +136,11 @@ def run_analysis():
                 messagebox.showerror("Errore", f"Codice di errore sconosciuto: {status_code}")
             
         analysis_text.config(state=tk.DISABLED)
-
+        load_analysis_data(os.path.join("analyses", book_name, f"{book_name}-analysis.csv"))  # Ricarica i dati di analisi
 
 def load_analysis_data(filepath):
     global analysis_data
     analysis_data = {}
-    # print(f"Caricamento dati di analisi da {filepath}")  # Debug
     if os.path.exists(filepath):
         with open(filepath, "r", encoding="utf-8") as file:
             reader = csv.reader(file)
@@ -161,11 +159,11 @@ def load_analysis_data(filepath):
                         # Aggiungi ogni pagina nell'intervallo al dizionario
                         for page in range(start_page, end_page + 1):
                             analysis_data[page] = chapter
-                            # print(f"Aggiunto capitolo {chapter} per pagina {page}")  # Debug
                     except ValueError as e:
                         print(f"Errore nella conversione della pagina di inizio o fine: {row[1]} - {e}")
     else:
         print(f"File di analisi non trovato: {filepath}")  # Debug
+    update_chapters_display()  # Aggiorna la visualizzazione dei capitoli
 
 def update_analysis_display():
     # print("Aggiornamento display analisi")  # Debug
@@ -194,31 +192,26 @@ def update_analysis_display():
     analysis_text.config(state=tk.DISABLED)
 
 def create_chapter_button(chapter, start_page):
-    button = tk.Button(chapters_frame, text=f"{chapter} - Pagina {start_page}", command=lambda: show_page(start_page - 1))
+    button = tk.Button(chapters_inner_frame, text=f"Capitolo {chapter}", command=lambda: show_page(start_page - 1), width=20)
     button.pack(fill="x", padx=5, pady=2)
-    # print(f"Creato pulsante per {chapter} - Pagina {start_page}")  # Debug
+    # print(f"Creato pulsante per Capitolo {chapter} - Pagina {start_page}")  # Debug
 
 def update_chapters_display():
-    # print("Aggiornamento display capitoli")  # Debug
-    for widget in chapters_frame.winfo_children():
-        if isinstance(widget, tk.Button):
-            widget.destroy()
+    for widget in chapters_inner_frame.winfo_children():
+        widget.destroy()
     
     if not analysis_data:  # Se il dizionario è vuoto, vuol dire che non ha caricato nulla
-        label = tk.Label(chapters_frame, text="File di analisi non trovato.\nPremere 'Avvia Analisi' per generarlo.", font=("Arial", default_font_size))
+        label = tk.Label(chapters_inner_frame, text="File di analisi non trovato.\nPremere 'Avvia Analisi' per generarlo.", font=("Arial", default_font_size))
         label.pack(fill="x", padx=5, pady=5)
-        # print("File di analisi non trovato")  # Debug
     else:
+        # Creare pulsanti solo per l'inizio di ogni capitolo
+        created_chapters = set()
         for start_page in sorted(analysis_data.keys()):
             chapter = analysis_data[start_page]
-            create_chapter_button(chapter, start_page)
+            if chapter not in created_chapters:
+                create_chapter_button(chapter, start_page)
+                created_chapters.add(chapter)
 
-def go_to_chapter(event):
-    selection = chapter_listbox.curselection()
-    if selection:
-        selected_text = chapter_listbox.get(selection[0])
-        page_num = int(selected_text.split("Pagina ")[-1])
-        show_page(page_num - 1)
 
 def show_page(page_num=None):
     global book_name, analysis_data, current_page
@@ -365,22 +358,37 @@ text_area.pack(side=tk.LEFT, expand=True, fill='both', padx=10, pady=10)
 right_frame = tk.Frame(main_frame)
 right_frame.pack(side=tk.RIGHT, fill="both", expand=True, padx=20, pady=10)
 
+# Frame per i capitoli (superiore destra)
 chapters_frame = tk.Frame(right_frame, relief=tk.GROOVE, borderwidth=2)
 chapters_frame.pack(fill="x")
 
 chapter_label = tk.Label(chapters_frame, text="Capitoli Trovati", font=("Arial", default_font_size, "bold"))
 chapter_label.pack()
 
-chapter_listbox = tk.Listbox(chapters_frame, height=10) 
-chapter_listbox.pack(fill="both", expand=True)
-chapter_listbox.bind("<<ListboxSelect>>", go_to_chapter)
+# Aggiungi una scrollbar per i pulsanti dei capitoli
+chapters_canvas = tk.Canvas(chapters_frame)
+chapters_scrollbar = tk.Scrollbar(chapters_frame, orient="vertical", command=chapters_canvas.yview)
+chapters_inner_frame = tk.Frame(chapters_canvas)
 
+chapters_inner_frame.bind(
+    "<Configure>",
+    lambda e: chapters_canvas.configure(
+        scrollregion=chapters_canvas.bbox("all")
+    )
+)
+
+chapters_canvas.create_window((0, 0), window=chapters_inner_frame, anchor="nw")
+chapters_canvas.configure(yscrollcommand=chapters_scrollbar.set)
+
+chapters_canvas.pack(side="left", fill="both", expand=True)
+chapters_scrollbar.pack(side="right", fill="y")
+
+# Frame per l'analisi (centrale/inferiore destra)
 analysis_text = scrolledtext.ScrolledText(right_frame, width=30, height=15, state=tk.DISABLED)
 analysis_text.pack(fill="both", expand=True, padx=10, pady=10)
 
 # Ripristina ultimo file e pagina
 if last_file and os.path.exists(last_file):
-    # print(f"Ripristina ultimo file: {last_file}")  # Debug
     open_file(last_file)
     current_page = min(last_page, len(text_pages) - 1)
     show_page(current_page)
