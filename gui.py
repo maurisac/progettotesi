@@ -83,9 +83,10 @@ def open_file(filepath=None):
         text_pages = [text[i:i + PAGE_SIZE] for i in range(0, len(text), PAGE_SIZE)]
         current_page = 0
 
-        analysis_file = os.path.join(os.path.dirname(filepath), f"{book_name}-analysis.csv")
+        # Modifica il percorso del file di analisi per cercarlo nella cartella "analyses"
+        analysis_file = os.path.join("analyses", book_name, f"{book_name}-analysis.csv")
         
-        # Carica le analisi (aggiungi questa chiamata)
+        # Carica le analisi
         load_analysis_data(analysis_file)
         
         show_page()
@@ -141,6 +142,7 @@ def run_analysis():
 def load_analysis_data(filepath):
     global analysis_data
     analysis_data = {}
+    # print(f"Caricamento dati di analisi da {filepath}")  # Debug
     if os.path.exists(filepath):
         with open(filepath, "r", encoding="utf-8") as file:
             reader = csv.reader(file)
@@ -159,25 +161,45 @@ def load_analysis_data(filepath):
                         # Aggiungi ogni pagina nell'intervallo al dizionario
                         for page in range(start_page, end_page + 1):
                             analysis_data[page] = chapter
-                            # print(f"Added analysis for page {page}: {chapter}")
+                            # print(f"Aggiunto capitolo {chapter} per pagina {page}")  # Debug
                     except ValueError as e:
                         print(f"Errore nella conversione della pagina di inizio o fine: {row[1]} - {e}")
+    else:
+        print(f"File di analisi non trovato: {filepath}")  # Debug
 
 def update_analysis_display():
+    # print("Aggiornamento display analisi")  # Debug
     analysis_text.config(state=tk.NORMAL)
     analysis_text.delete("1.0", tk.END)
     for start_page in sorted(analysis_data.keys(), reverse=True):
         if current_page + 1 >= start_page:
             chapter = analysis_data[start_page]
-            analysis_text.insert(tk.END, f"{chapter}\n")
+            analysis_text.insert(tk.END, f"Capitolo {chapter}\n")
+            # print(f"Mostrato capitolo {chapter} per pagina {current_page + 1}")  # Debug
+            
+            # Leggi il contenuto del file di analisi del capitolo corrente
+            analysis_file = os.path.join("analyses", book_name, f"{book_name}-capitolo{chapter}-analysis.csv")
+            if os.path.exists(analysis_file):
+                with open(analysis_file, "r", encoding="utf-8") as file:
+                    reader = csv.reader(file)
+                    next(reader)  # Salta la prima riga (legenda)
+                    for row in reader:
+                        if len(row) >= 2:
+                            analysis_text.insert(tk.END, f"{row[1]}\n")
+                            # print(f"Mostrato contenuto analisi: {row[1]}")  # Debug
+            else:
+                analysis_text.insert(tk.END, "Analisi non trovata.")
+                # print("Analisi non trovata.")  # Debug
             break
     analysis_text.config(state=tk.DISABLED)
 
 def create_chapter_button(chapter, start_page):
     button = tk.Button(chapters_frame, text=f"{chapter} - Pagina {start_page}", command=lambda: show_page(start_page - 1))
     button.pack(fill="x", padx=5, pady=2)
+    # print(f"Creato pulsante per {chapter} - Pagina {start_page}")  # Debug
 
 def update_chapters_display():
+    # print("Aggiornamento display capitoli")  # Debug
     for widget in chapters_frame.winfo_children():
         if isinstance(widget, tk.Button):
             widget.destroy()
@@ -185,6 +207,7 @@ def update_chapters_display():
     if not analysis_data:  # Se il dizionario è vuoto, vuol dire che non ha caricato nulla
         label = tk.Label(chapters_frame, text="File di analisi non trovato.\nPremere 'Avvia Analisi' per generarlo.", font=("Arial", default_font_size))
         label.pack(fill="x", padx=5, pady=5)
+        # print("File di analisi non trovato")  # Debug
     else:
         for start_page in sorted(analysis_data.keys()):
             chapter = analysis_data[start_page]
@@ -199,21 +222,23 @@ def go_to_chapter(event):
 
 def show_page(page_num=None):
     global book_name, analysis_data, current_page
-    # Mostra la pagina corrente.
     if page_num is not None:
         current_page = page_num
+    # print(f"Mostra pagina {current_page}")  # Debug
+    # Mostra la pagina corrente.
     if text_pages:
         text_area.config(state=tk.NORMAL)
         text_area.delete("1.0", tk.END)
         text_area.insert(tk.END, text_pages[current_page])
         text_area.config(state=tk.DISABLED)
         page_label.config(text=f"Pagina {current_page + 1} di {len(text_pages)}")
-        if analysis_data is not None:
+        if analysis_data:
             update_analysis_display()
         else:
             analysis_text.config(state=tk.NORMAL)
             analysis_text.delete("1.0", tk.END)
             analysis_text.insert(tk.END, f"Analisi non trovata per {book_name}")
+            # print(f"Analisi non trovata per {book_name}")  # Debug
         save_settings()
 
 def next_page(event=None):
@@ -221,14 +246,14 @@ def next_page(event=None):
     global current_page
     if current_page < len(text_pages) - 1:
         current_page += 1
-        show_page()
+        show_page(current_page)
 
 def prev_page(event=None):
     # Mostra la pagina precedente.
     global current_page
     if current_page > 0:
         current_page -= 1
-        show_page()
+        show_page(current_page)
 
 
 def increase_font(event=None):
@@ -355,9 +380,10 @@ analysis_text.pack(fill="both", expand=True, padx=10, pady=10)
 
 # Ripristina ultimo file e pagina
 if last_file and os.path.exists(last_file):
+    # print(f"Ripristina ultimo file: {last_file}")  # Debug
     open_file(last_file)
     current_page = min(last_page, len(text_pages) - 1)
-    show_page()
+    show_page(current_page)
 
 root.protocol("WM_DELETE_WINDOW", lambda: (save_settings(), root.destroy()))
 root.mainloop()
