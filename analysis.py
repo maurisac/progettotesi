@@ -7,9 +7,16 @@ import multiprocessing
 import csv
 import datetime
 import time
+from transformers import BertTokenizer, BertModel
+import torch
 
 PAGE_SIZE = 3300  # Deve essere lo stesso della GUI
 DEFAULT_CHAPTER_LENGTH = 12  # Se nessun capitolo viene trovato
+
+# Caricare il modello pre-addestrato
+MODEL_NAME = "dbmdz/bert-base-italian-xxl-cased"
+tokenizer = BertTokenizer.from_pretrained(MODEL_NAME)
+model = BertModel.from_pretrained(MODEL_NAME)
 
 # -------------------- FUNZIONI DI LETTURA --------------------
 
@@ -74,6 +81,19 @@ def divide_by_fixed_length(text):
 
 # -------------------- ANALISI PARALLELA --------------------
 
+def analyze_text_with_bert(text):
+    # Tokenizzazione del testo
+    inputs = tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
+    
+    # Esegui il modello per ottenere embedding
+    with torch.no_grad():
+        outputs = model(**inputs)
+
+    # L'output è una rappresentazione vettoriale del testo (usata per NLP avanzato)
+    embeddings = outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
+    
+    return embeddings  # Questi vettori possono essere usati per analisi più complesse
+
 def analyze_chapter(book_name, chapter_num, chapter_text, output_dir):
     file_name = os.path.join(output_dir, f"{book_name}-capitolo{chapter_num}-analysis.csv")
     
@@ -83,11 +103,15 @@ def analyze_chapter(book_name, chapter_num, chapter_text, output_dir):
         writer.writerow(["Stato", "Analisi non completa"])
         time.sleep(5)
 
-    # Scrive "Analisi completata"
+    # Esegui l'analisi con BERT
+    embeddings = analyze_text_with_bert(chapter_text)
+    
+    # Scrive "Analisi completata" e gli embedding
     completion_time = datetime.datetime.now().strftime("%d/%m/%Y alle %H:%M:%S")
     with open(file_name, "a", newline='', encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["Stato", f"Analisi completata il {completion_time}"])
+        writer.writerow(["Embeddings", embeddings.tolist()])
 
 def parallel_analysis(book_name, chapters, text, output_dir):
     num_workers = min(multiprocessing.cpu_count(), len(chapters))
