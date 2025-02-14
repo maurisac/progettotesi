@@ -162,7 +162,7 @@ def load_analysis_data(filepath):
                     except ValueError as e:
                         print(f"Errore nella conversione della pagina di inizio o fine: {row[1]} - {e}")
     else:
-        print(f"File di analisi non trovato: {filepath}")  # Debug
+        print(f"File di analisi non trovato: {filepath} ")  # Debug
     update_chapters_display()  # Aggiorna la visualizzazione dei capitoli
 
 def update_analysis_display():
