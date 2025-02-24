@@ -1,13 +1,14 @@
 import tkinter as tk
 from tkinter import filedialog, scrolledtext, messagebox, Menu, ttk, simpledialog
-import fitz  # PyMuPDF per PDF
-import docx  # python-docx per Word
+import fitz  # PyMuPDF for PDF
+import docx  # python-docx for Word
 import configparser  # Per salvare le impostazioni
 import os
 import logging
 import csv
 import pandas as pd  # Per leggere i file CSV
 import subprocess
+from collections import Counter
 
 
 # Configurazione logging
@@ -107,17 +108,20 @@ def run_analysis():
         progress_bar.start()
         
         process = subprocess.Popen(
-            ["python", "analysis.py", current_file],  # Passa il percorso completo
+            ["python", "analysis.py", current_file],  # Cambiare "python" con "python3" su Linux
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True
         )
 
-        # Stampa in tempo reale l'output nel terminale
-        for line in process.stdout:
-            print(line, end="")  # Stampa direttamente nel terminale
+        # Cattura l'output del processo
+        stdout, stderr = process.communicate()
 
-        process.wait()
+        # Stampa l'output nel terminale della GUI
+        print(stdout)
+        if stderr:
+            print(stderr)
+
         status_code = process.returncode
         
         progress_bar.stop()
@@ -162,18 +166,16 @@ def load_analysis_data(filepath):
                     except ValueError as e:
                         print(f"Errore nella conversione della pagina di inizio o fine: {row[1]} - {e}")
     else:
-        print(f"File di analisi non trovato: {filepath} ")  # Debug
+        print(f"File di analisi non trovato: {filepath}")  # Debug
     update_chapters_display()  # Aggiorna la visualizzazione dei capitoli
 
 def update_analysis_display():
-    # print("Aggiornamento display analisi")  # Debug
     analysis_text.config(state=tk.NORMAL)
     analysis_text.delete("1.0", tk.END)
     for start_page in sorted(analysis_data.keys(), reverse=True):
         if current_page + 1 >= start_page:
             chapter = analysis_data[start_page]
             analysis_text.insert(tk.END, f"Capitolo {chapter}\n")
-            # print(f"Mostrato capitolo {chapter} per pagina {current_page + 1}")  # Debug
             
             # Leggi il contenuto del file di analisi del capitolo corrente
             analysis_file = os.path.join("analyses", book_name, f"{book_name}-capitolo{chapter}-analysis.csv")
@@ -183,11 +185,23 @@ def update_analysis_display():
                     next(reader)  # Salta la prima riga (legenda)
                     for row in reader:
                         if len(row) >= 2:
-                            analysis_text.insert(tk.END, f"{row[1]}\n")
-                            # print(f"Mostrato contenuto analisi: {row[1]}")  # Debug
+                            if row[0] == "Sintesi":
+                                analysis_text.insert(tk.END, f"{row[1]}\n\n")
+                            elif row[0] == "Entities":
+                                entities = eval(row[1])
+                                people = {ent: count for (ent, label), count in entities.items() if label == "PER"}
+                                locations = {ent: count for (ent, label), count in entities.items() if label == "LOC"}
+                                analysis_text.insert(tk.END, "Persone trovate:\n")
+                                for person, count in people.items():
+                                    analysis_text.insert(tk.END, f"{person}: {count}\n")
+                                analysis_text.insert(tk.END, "\nLuoghi trovati:\n")
+                                for location, count in locations.items():
+                                    analysis_text.insert(tk.END, f"{location}: {count}\n")
+                            else:
+                                analysis_text.insert(tk.END, f"{row[1]}\n")
             else:
                 analysis_text.insert(tk.END, "Analisi non trovata.")
-                # print("Analisi non trovata.")  # Debug
+# print("Analisi non trovata.")  # Debug
             break
     analysis_text.config(state=tk.DISABLED)
 
@@ -285,7 +299,7 @@ def show_contacts():
 root = tk.Tk()
 root.title("Caricamento Libro a Pagine")
 root.geometry(f"{window_width}x{window_height}")
-root.state('zoomed')
+root.state('normal')
 
 # Menu principale
 menu_bar = Menu(root)
