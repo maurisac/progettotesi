@@ -9,6 +9,10 @@ import csv
 import pandas as pd  # Per leggere i file CSV
 import subprocess
 from collections import Counter
+import threading
+import signal
+import psutil
+import threading
 
 
 # Configurazione logging
@@ -23,6 +27,8 @@ current_file = None
 profile_file = "profile.ini"
 analysis_data = {}
 book_name = ""
+analysis_process = None
+analysis_running = False
 
 # Lettura delle impostazioni salvate
 config = configparser.ConfigParser()
@@ -104,43 +110,90 @@ def extract_text_from_docx(docx_path):
     return "\n".join([para.text for para in doc.paragraphs])
 
 def run_analysis():
+    global analysis_process, analysis_running
+    
     if current_file:
         progress_bar.start()
+        analysis_running = True
+        stop_button.config(state=tk.NORMAL)
         
-        process = subprocess.Popen(
-            ["python", "analysis.py", current_file],  # Cambiare "python" con "python3" su Linux
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
-        )
-
-        # Cattura l'output del processo
-        stdout, stderr = process.communicate()
-
-        # Stampa l'output nel terminale della GUI
-        print(stdout)
-        if stderr:
-            print(stderr)
-
-        status_code = process.returncode
-        
-        progress_bar.stop()
-
-        analysis_text.config(state=tk.NORMAL)
-        analysis_text.delete("1.0", tk.END)
-
-        match status_code:
-            case 0:
-                messagebox.showinfo("Successo", f"Analisi completata. Riepilogo salvato nel file {book_name}-analysis.csv")
-            case 1:
-                messagebox.showerror("Errore", "Errore: specificare il file da analizzare.")
-            case 2:
-                messagebox.showerror("Errore", "Errore: file non trovato.")
-            case _:
-                messagebox.showerror("Errore", f"Codice di errore sconosciuto: {status_code}")
+        def analyze():
+            global analysis_process
             
-        analysis_text.config(state=tk.DISABLED)
-        load_analysis_data(os.path.join("analyses", book_name, f"{book_name}-analysis.csv"))  # Ricarica i dati di analisi
+            analysis_process = subprocess.Popen(
+                ["python", "analysis.py", current_file],  # Cambiare "python" con "python3" su Linux
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True
+            )
+
+            # Cattura l'output del processo
+            stdout, stderr = analysis_process.communicate()
+
+            # Stampa l'output nel terminale della GUI
+            print(stdout)
+            if stderr:
+                print(stderr)
+
+            status_code = analysis_process.returncode
+            
+            global analysis_running
+            analysis_running = False
+            progress_bar.stop()
+            stop_button.config(state=tk.DISABLED)
+
+            analysis_text.config(state=tk.NORMAL)
+            analysis_text.delete("1.0", tk.END)
+
+            match status_code:
+                case 0:
+                    messagebox.showinfo("Successo", f"Analisi completata. Riepilogo salvato nel file {book_name}-analysis.csv")
+                case 10:
+                    messagebox.showerror("Errore", "Errore: specificare il file da analizzare.")
+                case 11:
+                    messagebox.showerror("Errore", "Errore: file non trovato.")
+                case _:
+                    messagebox.showerror("Errore", f"Codice di errore sconosciuto: {status_code}")
+                
+            analysis_text.config(state=tk.DISABLED)
+            load_analysis_data(os.path.join("analyses", book_name, f"{book_name}-analysis.csv"))  # Ricarica i dati di analisi
+
+        # Esegui l'analisi in un thread separato
+        analysis_thread = threading.Thread(target=analyze)
+        analysis_thread.daemon = True
+        analysis_thread.start()
+
+def stop_analysis():
+    global analysis_process, analysis_running
+    
+    if not analysis_running or not analysis_process:
+        messagebox.showinfo("Info", "Nessuna analisi in corso.")
+        return
+    
+    try:
+        # Termina il processo principale
+        parent_pid = analysis_process.pid
+        parent = psutil.Process(parent_pid)
+        
+        # Termina prima tutti i processi figli
+        children = parent.children(recursive=True)
+        for child in children:
+            try:
+                child.terminate()
+            except:
+                pass
+        
+        # Termina il processo padre
+        analysis_process.terminate()
+        
+        # Aggiorna l'interfaccia
+        progress_bar.stop()
+        analysis_running = False
+        stop_button.config(state=tk.DISABLED)
+        
+        messagebox.showinfo("Info", "Analisi interrotta.")
+    except Exception as e:
+        messagebox.showerror("Errore", f"Impossibile interrompere l'analisi: {str(e)}")
 
 def load_analysis_data(filepath):
     global analysis_data
@@ -185,10 +238,18 @@ def update_analysis_display():
                     next(reader)  # Salta la prima riga (legenda)
                     for row in reader:
                         if len(row) >= 2:
+                            analysis_text.insert(tk.END, f"Tempo totale: {times['Tempo totale']:.2f} s\n\n")
                             if row[0] == "Sintesi":
                                 analysis_text.insert(tk.END, f"{row[1]}\n\n")
+                            elif row[0] == "Tempi di analisi":
+                                times = eval(row[1])
+                                analysis_text.insert(tk.END, "Tempi di analisi:\n")
+                                for phase, duration in times.items():
+                                    analysis_text.insert(tk.END, f"{phase}: {duration:.2f} s\n")
                             elif row[0] == "Entities":
                                 entities = eval(row[1])
+                                if isinstance(entities, list):
+                                    entities = Counter(entities)
                                 people = {ent: count for (ent, label), count in entities.items() if label == "PER"}
                                 locations = {ent: count for (ent, label), count in entities.items() if label == "LOC"}
                                 analysis_text.insert(tk.END, "Persone trovate:\n")
@@ -197,11 +258,15 @@ def update_analysis_display():
                                 analysis_text.insert(tk.END, "\nLuoghi trovati:\n")
                                 for location, count in locations.items():
                                     analysis_text.insert(tk.END, f"{location}: {count}\n")
+                            elif row[0] == "Fenomeni Acustici":
+                                analysis_text.insert(tk.END, "Fenomeni acustici rilevati:\n")
+                                analysis_text.insert(tk.END, f"{row[1]}\n\n")
+                            elif row[0] == "Ambientazione":
+                                analysis_text.insert(tk.END, f"Ambientazione principale: {row[1]}\n\n")
                             else:
                                 analysis_text.insert(tk.END, f"{row[1]}\n")
             else:
                 analysis_text.insert(tk.END, "Analisi non trovata.")
-# print("Analisi non trovata.")  # Debug
             break
     analysis_text.config(state=tk.DISABLED)
 
@@ -353,6 +418,9 @@ progress_bar.pack(side=tk.RIGHT, padx=5)
 
 analyze_button = tk.Button(analysis_frame, text="Avvia Analisi", command=run_analysis)
 analyze_button.pack(side=tk.RIGHT, padx=5)
+
+stop_button = tk.Button(analysis_frame, text="Ferma Analisi", command=stop_analysis, state=tk.DISABLED)
+stop_button.pack(side=tk.RIGHT, padx=5)
 
 
 # Bind per lo zoom con tastiera
