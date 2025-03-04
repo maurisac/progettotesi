@@ -1,0 +1,1819 @@
+{
+    "Dissenatori": {
+        "location": "Dissenatori",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Andrò": {
+        "location": "Andrò",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Grifon-\ndoro": {
+        "location": "Grifon-\ndoro",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 2
+            },
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 2
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "strega orba": {
+        "location": "strega orba",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Spioscopio": {
+        "location": "Spioscopio",
+        "occurrences": 9,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 9
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Scommetto": {
+        "location": "Scommetto",
+        "occurrences": 19,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 6
+            },
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 13
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Vattene": {
+        "location": "Vattene",
+        "occurrences": 9,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            },
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 2
+            },
+            {
+                "name": "J.R.R.-TOLKIEN-IL-SILMARILLION",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Sciroppo": {
+        "location": "Sciroppo",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Rigore": {
+        "location": "Rigore",
+        "occurrences": 5,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 5
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Ripartirono": {
+        "location": "Ripartirono",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Sentirono": {
+        "location": "Sentirono",
+        "occurrences": 5,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 5
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Scopalinda": {
+        "location": "Scopalinda",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 2
+            },
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 2
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Dudders": {
+        "location": "Dudders",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Dammi": {
+        "location": "Dammi",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Credi": {
+        "location": "Credi",
+        "occurrences": 16,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 12
+            },
+            {
+                "name": "Messia-Di-Dune",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Dissendium": {
+        "location": "Dissendium",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Binky": {
+        "location": "Binky",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Rallegrante": {
+        "location": "Rallegrante",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Squarta": {
+        "location": "Squarta",
+        "occurrences": 8,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 8
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Smettila": {
+        "location": "Smettila",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 2
+            },
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 2
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Tacque": {
+        "location": "Tacque",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 2
+            },
+            {
+                "name": "Messia-Di-Dune",
+                "occurrences": 2
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Grinzafico": {
+        "location": "Grinzafico",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Oooooh": {
+        "location": "Oooooh",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Fubster": {
+        "location": "Fubster",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Siediti": {
+        "location": "Siediti",
+        "occurrences": 7,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 5
+            },
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 2
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Rallegranti": {
+        "location": "Rallegranti",
+        "occurrences": 4,
+        "books": [
+            {
+                "name": "Harry-Potter-e-il-prigioniero-di-Azkaban",
+                "occurrences": 4
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Crisopa": {
+        "location": "Crisopa",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Potentissimis": {
+        "location": "Potentissimis",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Tubazioni": {
+        "location": "Tubazioni",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Filibuster": {
+        "location": "Filibuster",
+        "occurrences": 5,
+        "books": [
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 5
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Senzatesta": {
+        "location": "Senzatesta",
+        "occurrences": 3,
+        "books": [
+            {
+                "name": "Harry-Potter-e-la-camera-dei-segreti",
+                "occurrences": 3
+            }
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        },
+        "wikipedia_info": {
+            "found": false
+        }
+    },
+    "Ministero della Magia": {
+        "location": "Ministero della Magia",
+        "categorization": {
+            "category": "edificio",
+            "confidence": 0.95,
+            "all_categories": [
+                {
+                    "label": "edificio",
+                    "score": 0.95
+                },
+                {
+                    "label": "palazzo",
+                    "score": 0.85
+                },
+                {
+                    "label": "città",
+                    "score": 0.8
+                }
+            ]
+        }
+    },
+    "Little Hangleton": {
+        "location": "Little Hangleton",
+        "categorization": {
+            "category": "villaggio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio",
+                    "score": 0.9
+                },
+                {
+                    "label": "paese",
+                    "score": 0.85
+                },
+                {
+                    "label": "villaggio maledetto",
+                    "score": 0.8
+                }
+            ]
+        }
+    },
+    "Villa Malfoy": {
+        "location": "Villa Malfoy",
+        "categorization": {
+            "category": "palazzo",
+            "confidence": 0.95,
+            "all_categories": [
+                {
+                    "label": "palazzo",
+                    "score": 0.95
+                },
+                {
+                    "label": "castello",
+                    "score": 0.9
+                },
+                {
+                    "label": "fortezza",
+                    "score": 0.85
+                }
+            ]
+        }
+    },
+    "Spinner's End": {
+        "location": "Spinner's End",
+        "categorization": {
+            "category": "strada",
+            "confidence": 0.85,
+            "all_categories": [
+                {
+                    "label": "strada",
+                    "score": 0.85
+                },
+                {
+                    "label": "città",
+                    "score": 0.8
+                },
+                {
+                    "label": "villaggio",
+                    "score": 0.75
+                }
+            ]
+        }
+    },
+    "Shell Cottage": {
+        "location": "Shell Cottage",
+        "categorization": {
+            "category": "edificio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "edificio",
+                    "score": 0.9
+                },
+                {
+                    "label": "spiaggia",
+                    "score": 0.85
+                },
+                {
+                    "label": "castello incantato",
+                    "score": 0.7
+                }
+            ]
+        }
+    },
+    "Sala delle Profezie": {
+        "location": "Sala delle Profezie",
+        "categorization": {
+            "category": "biblioteca",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "biblioteca",
+                    "score": 0.9
+                },
+                {
+                    "label": "biblioteca proibita",
+                    "score": 0.85
+                },
+                {
+                    "label": "laboratorio",
+                    "score": 0.7
+                }
+            ]
+        }
+    },
+    "Cabina Telefonica Rossa": {
+        "location": "Cabina Telefonica Rossa",
+        "categorization": {
+            "category": "edificio",
+            "confidence": 0.85,
+            "all_categories": [
+                {
+                    "label": "edificio",
+                    "score": 0.85
+                },
+                {
+                    "label": "strada",
+                    "score": 0.8
+                },
+                {
+                    "label": "città",
+                    "score": 0.75
+                }
+            ]
+        }
+    },
+    "Nurmengard": {
+        "location": "Nurmengard",
+        "categorization": {
+            "category": "prigione",
+            "confidence": 0.95,
+            "all_categories": [
+                {
+                    "label": "prigione",
+                    "score": 0.95
+                },
+                {
+                    "label": "fortezza",
+                    "score": 0.9
+                },
+                {
+                    "label": "montagna",
+                    "score": 0.75
+                }
+            ]
+        }
+    },
+    "Valle di Godric": {
+        "location": "Valle di Godric",
+        "categorization": {
+            "category": "villaggio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio",
+                    "score": 0.9
+                },
+                {
+                    "label": "paese",
+                    "score": 0.85
+                },
+                {
+                    "label": "villaggio maledetto",
+                    "score": 0.7
+                }
+            ]
+        }
+    },
+    "Testa di Porco": {
+        "location": "Testa di Porco",
+        "categorization": {
+            "category": "pub",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "pub",
+                    "score": 0.9
+                },
+                {
+                    "label": "taverna",
+                    "score": 0.85
+                },
+                {
+                    "label": "ristorante",
+                    "score": 0.7
+                }
+            ]
+        }
+    },
+    "Borgin & Burke": {
+        "location": "Borgin & Burke",
+        "categorization": {
+            "category": "negozio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "negozio",
+                    "score": 0.9
+                },
+                {
+                    "label": "biblioteca proibita",
+                    "score": 0.75
+                },
+                {
+                    "label": "museo",
+                    "score": 0.7
+                }
+            ]
+        }
+    },
+    "Stamberga Strillante": {
+        "location": "Stamberga Strillante",
+        "categorization": {
+            "category": "edificio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "edificio",
+                    "score": 0.9
+                },
+                {
+                    "label": "casa",
+                    "score": 0.85
+                },
+                {
+                    "label": "villaggio maledetto",
+                    "score": 0.8
+                }
+            ]
+        }
+    },
+    "Ufficio di Umbridge": {
+        "location": "Ufficio di Umbridge",
+        "categorization": {
+            "category": "edificio",
+            "confidence": 0.85,
+            "all_categories": [
+                {
+                    "label": "edificio",
+                    "score": 0.85
+                },
+                {
+                    "label": "palazzo",
+                    "score": 0.8
+                },
+                {
+                    "label": "ufficio",
+                    "score": 0.75
+                }
+            ]
+        }
+    },
+    "Gazza Ladra": {
+        "location": "Gazza Ladra",
+        "categorization": {
+            "category": "negozio",
+            "confidence": 0.85,
+            "all_categories": [
+                {
+                    "label": "negozio",
+                    "score": 0.85
+                },
+                {
+                    "label": "mercato",
+                    "score": 0.8
+                },
+                {
+                    "label": "stadio",
+                    "score": 0.65
+                }
+            ]
+        }
+    },
+    "Camera da Letto di Harry": {
+        "location": "Camera da Letto di Harry",
+        "categorization": {
+            "category": "edificio",
+            "confidence": 0.85,
+            "all_categories": [
+                {
+                    "label": "edificio",
+                    "score": 0.85
+                },
+                {
+                    "label": "castello",
+                    "score": 0.7
+                },
+                {
+                    "label": "prigione",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Sala Comune di Tassorosso": {
+        "location": "Sala Comune di Tassorosso",
+        "categorization": {
+            "category": "castello",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "castello",
+                    "score": 0.9
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.85
+                },
+                {
+                    "label": "grotta",
+                    "score": 0.7
+                }
+            ]
+        }
+    },
+    "Sala Comune di Corvonero": {
+        "location": "Sala Comune di Corvonero",
+        "categorization": {
+            "category": "castello",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "castello",
+                    "score": 0.9
+                },
+                {
+                    "label": "biblioteca",
+                    "score": 0.85
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.8
+                }
+            ]
+        }
+    },
+    "Sala Grande Esame": {
+        "location": "Sala Grande Esame",
+        "categorization": {
+            "category": "castello",
+            "confidence": 0.85,
+            "all_categories": [
+                {
+                    "label": "castello",
+                    "score": 0.85
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.8
+                },
+                {
+                    "label": "arena",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Ufficio del Preside": {
+        "location": "Ufficio del Preside",
+        "categorization": {
+            "category": "castello",
+            "confidence": 0.95,
+            "all_categories": [
+                {
+                    "label": "castello",
+                    "score": 0.95
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.9
+                },
+                {
+                    "label": "biblioteca",
+                    "score": 0.75
+                }
+            ]
+        }
+    },
+    "Capanna di Hagrid": {
+        "location": "Capanna di Hagrid",
+        "categorization": {
+            "category": "edificio",
+            "confidence": 0.95,
+            "all_categories": [
+                {
+                    "label": "edificio",
+                    "score": 0.95
+                },
+                {
+                    "label": "foresta",
+                    "score": 0.8
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.7
+                }
+            ]
+        }
+    },
+    "Sala d'Ingresso": {
+        "location": "Sala d'Ingresso",
+        "categorization": {
+            "category": "castello",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "castello",
+                    "score": 0.9
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.85
+                },
+                {
+                    "label": "palazzo",
+                    "score": 0.8
+                }
+            ]
+        }
+    }, 
+
+    "Oxford University": {
+      "location": "Oxford University",
+      "categorization": {
+        "category": "università",
+        "confidence": 0.98,
+        "all_categories": [
+          { "label": "università", "score": 0.98 },
+          { "label": "scuola", "score": 0.85 },
+          { "label": "edificio", "score": 0.75 }
+        ]
+      }
+    },
+    "Tower of London": {
+      "location": "Tower of London",
+      "categorization": {
+        "category": "castello",
+        "confidence": 0.95,
+        "all_categories": [
+          { "label": "castello", "score": 0.95 },
+          { "label": "fortezza", "score": 0.92 },
+          { "label": "museo", "score": 0.80 }
+        ]
+      }
+    },
+    "Maple Street": {
+      "location": "Maple Street",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "strada", "score": 0.94 },
+          { "label": "città", "score": 0.75 },
+          { "label": "villaggio", "score": 0.60 }
+        ]
+      }
+    },
+    "British Museum": {
+      "location": "British Museum",
+      "categorization": {
+        "category": "museo",
+        "confidence": 0.98,
+        "all_categories": [
+          { "label": "museo", "score": 0.98 },
+          { "label": "edificio", "score": 0.85 },
+          { "label": "biblioteca", "score": 0.65 }
+        ]
+      }
+    },
+    "Cotswolds": {
+      "location": "Cotswolds",
+      "categorization": {
+        "category": "villaggio",
+        "confidence": 0.88,
+        "all_categories": [
+          { "label": "villaggio", "score": 0.88 },
+          { "label": "paese", "score": 0.85 },
+          { "label": "montagna", "score": 0.70 }
+        ]
+      }
+    },
+    "Oak Drive": {
+      "location": "Oak Drive",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.93,
+        "all_categories": [
+          { "label": "strada", "score": 0.93 },
+          { "label": "città", "score": 0.70 },
+          { "label": "villaggio", "score": 0.65 }
+        ]
+      }
+    },
+    "Buckingham Palace": {
+      "location": "Buckingham Palace",
+      "categorization": {
+        "category": "palazzo",
+        "confidence": 0.97,
+        "all_categories": [
+          { "label": "palazzo", "score": 0.97 },
+          { "label": "edificio", "score": 0.85 },
+          { "label": "castello", "score": 0.75 }
+        ]
+      }
+    },
+    "Charles Bridge": {
+      "location": "Charles Bridge",
+      "categorization": {
+        "category": "edificio",
+        "confidence": 0.89,
+        "all_categories": [
+          { "label": "edificio", "score": 0.89 },
+          { "label": "strada", "score": 0.80 },
+          { "label": "città", "score": 0.70 }
+        ]
+      }
+    },
+    "Rosso Pomodoro": {
+      "location": "Rosso Pomodoro",
+      "categorization": {
+        "category": "ristorante",
+        "confidence": 0.92,
+        "all_categories": [
+          { "label": "ristorante", "score": 0.92 },
+          { "label": "negozio", "score": 0.60 },
+          { "label": "bar", "score": 0.50 }
+        ]
+      }
+    },
+    "Hyde Park": {
+      "location": "Hyde Park",
+      "categorization": {
+        "category": "parco",
+        "confidence": 0.96,
+        "all_categories": [
+          { "label": "parco", "score": 0.96 },
+          { "label": "giardino", "score": 0.80 },
+          { "label": "terreno naturale", "score": 0.75 }
+        ]
+      }
+    },
+    "Black Cat": {
+      "location": "Black Cat",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.88,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.88 },
+          { "label": "ristorante", "score": 0.65 },
+          { "label": "pub", "score": 0.40 }
+        ]
+      }
+    },
+    "Westminster Abbey": {
+      "location": "Westminster Abbey",
+      "categorization": {
+        "category": "chiesa",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "chiesa", "score": 0.94 },
+          { "label": "cattedrale", "score": 0.90 },
+          { "label": "edificio", "score": 0.85 }
+        ]
+      }
+    },
+    "Lake Como": {
+      "location": "Lake Como",
+      "categorization": {
+        "category": "lago",
+        "confidence": 0.97,
+        "all_categories": [
+          { "label": "lago", "score": 0.97 },
+          { "label": "terreno naturale", "score": 0.85 },
+          { "label": "villaggio", "score": 0.60 }
+        ]
+      }
+    },
+    "Red Lion": {
+      "location": "Red Lion",
+      "categorization": {
+        "category": "pub",
+        "confidence": 0.91,
+        "all_categories": [
+          { "label": "pub", "score": 0.91 },
+          { "label": "ristorante", "score": 0.80 },
+          { "label": "taverna", "score": 0.78 }
+        ]
+      }
+    },
+    "Thames River": {
+      "location": "Thames River",
+      "categorization": {
+        "category": "fiume",
+        "confidence": 0.96,
+        "all_categories": [
+          { "label": "fiume", "score": 0.96 },
+          { "label": "terreno naturale", "score": 0.85 },
+          { "label": "città", "score": 0.55 }
+        ]
+      }
+    },
+    "Great Wall": {
+      "location": "Great Wall",
+      "categorization": {
+        "category": "edificio",
+        "confidence": 0.90,
+        "all_categories": [
+          { "label": "edificio", "score": 0.90 },
+          { "label": "fortezza", "score": 0.87 },
+          { "label": "castello", "score": 0.70 }
+        ]
+      }
+    },
+    "Silver Spoon": {
+      "location": "Silver Spoon",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.85,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.85 },
+          { "label": "ristorante", "score": 0.45 },
+          { "label": "pub", "score": 0.36 }
+        ]
+      }
+    },
+    "Amalfi Coast": {
+      "location": "Amalfi Coast",
+      "categorization": {
+        "category": "mare",
+        "confidence": 0.92,
+        "all_categories": [
+          { "label": "mare", "score": 0.92 },
+          { "label": "spiaggia", "score": 0.88 },
+          { "label": "terreno naturale", "score": 0.85 }
+        ]
+      }
+    },
+    "Broadway": {
+      "location": "Broadway",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.93,
+        "all_categories": [
+          { "label": "strada", "score": 0.93 },
+          { "label": "teatro", "score": 0.85 },
+          { "label": "città", "score": 0.80 }
+        ]
+      }
+    },
+    "Golden Eagle": {
+      "location": "Golden Eagle",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.89,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.89 },
+          { "label": "bar", "score": 0.57 },
+          { "label": "pub", "score": 0.50 }
+        ]
+      }
+    },
+    "Heathrow Airport": {
+      "location": "Heathrow Airport",
+      "categorization": {
+        "category": "aeroporto",
+        "confidence": 0.98,
+        "all_categories": [
+          { "label": "aeroporto", "score": 0.98 },
+          { "label": "stazione", "score": 0.70 },
+          { "label": "edificio", "score": 0.65 }
+        ]
+      }
+    },
+    "Sorbonne University": {
+      "location": "Sorbonne University",
+      "categorization": {
+        "category": "università",
+        "confidence": 0.97,
+        "all_categories": [
+          { "label": "università", "score": 0.97 },
+          { "label": "scuola", "score": 0.85 },
+          { "label": "edificio", "score": 0.80 }
+        ]
+      }
+    },
+    "Cherry Avenue": {
+      "location": "Cherry Avenue",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.92,
+        "all_categories": [
+          { "label": "strada", "score": 0.92 },
+          { "label": "città", "score": 0.75 },
+          { "label": "villaggio", "score": 0.60 }
+        ]
+      }
+    },
+    "Royal Opera House": {
+      "location": "Royal Opera House",
+      "categorization": {
+        "category": "teatro",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "teatro", "score": 0.94 },
+          { "label": "edificio", "score": 0.85 },
+          { "label": "palazzo", "score": 0.70 }
+        ]
+      }
+    },
+    "Mont Blanc": {
+      "location": "Mont Blanc",
+      "categorization": {
+        "category": "montagna",
+        "confidence": 0.97,
+        "all_categories": [
+          { "label": "montagna", "score": 0.97 },
+          { "label": "terreno naturale", "score": 0.90 },
+          { "label": "ghiacciaio", "score": 0.80 }
+        ]
+      }
+    },
+    "Windsor Castle": {
+      "location": "Windsor Castle",
+      "categorization": {
+        "category": "castello",
+        "confidence": 0.96,
+        "all_categories": [
+          { "label": "castello", "score": 0.96 },
+          { "label": "palazzo", "score": 0.90 },
+          { "label": "fortezza", "score": 0.85 }
+        ]
+      }
+    },
+    "Summer Breeze": {
+      "location": "Summer Breeze",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.94 },
+          { "label": "bar", "score": 0.45 },
+          { "label": "nave", "score": 0.40 }
+        ]
+      }
+    },
+    "Grand Canal": {
+      "location": "Grand Canal",
+      "categorization": {
+        "category": "fiume",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "fiume", "score": 0.94 },
+          { "label": "terreno naturale", "score": 0.80 },
+          { "label": "città", "score": 0.75 }
+        ]
+      }
+    },
+    "National Gallery": {
+      "location": "National Gallery",
+      "categorization": {
+        "category": "museo",
+        "confidence": 0.95,
+        "all_categories": [
+          { "label": "museo", "score": 0.95 },
+          { "label": "edificio", "score": 0.85 },
+          { "label": "palazzo", "score": 0.70 }
+        ]
+      }
+    },
+    "Guildford": {
+      "location": "Guildford",
+      "categorization": {
+        "category": "città",
+        "confidence": 0.92,
+        "all_categories": [
+          { "label": "città", "score": 0.92 },
+          { "label": "paese", "score": 0.80 },
+          { "label": "villaggio", "score": 0.65 }
+        ]
+      }
+    },
+    "Moonlight Shadow": {
+      "location": "Moonlight Shadow",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.87,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.87 },
+          { "label": "ristorante", "score": 0.80 },
+          { "label": "bar", "score": 0.45 }
+        ]
+      }
+    },
+    "Highgate Cemetery": {
+      "location": "Highgate Cemetery",
+      "categorization": {
+        "category": "cimitero",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "cimitero", "score": 0.94 },
+          { "label": "parco", "score": 0.70 },
+          { "label": "terreno naturale", "score": 0.65 }
+        ]
+      }
+    },
+    "Amazon River": {
+      "location": "Amazon River",
+      "categorization": {
+        "category": "fiume",
+        "confidence": 0.97,
+        "all_categories": [
+          { "label": "fiume", "score": 0.97 },
+          { "label": "terreno naturale", "score": 0.90 },
+          { "label": "foresta", "score": 0.75 }
+        ]
+      }
+    },
+    "Savoy Hotel": {
+      "location": "Savoy Hotel",
+      "categorization": {
+        "category": "hotel",
+        "confidence": 0.95,
+        "all_categories": [
+          { "label": "hotel", "score": 0.95 },
+          { "label": "edificio", "score": 0.85 },
+          { "label": "ristorante", "score": 0.75 }
+        ]
+      }
+    },
+    "Morning Glory": {
+      "location": "Morning Glory",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.86,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.96 },
+          { "label": "pub", "score": 0.60 },
+          { "label": "bar", "score": 0.50 }
+        ]
+      }
+    },
+    "Trafalgar Square": {
+      "location": "Trafalgar Square",
+      "categorization": {
+        "category": "piazza",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "piazza", "score": 0.94 },
+          { "label": "città", "score": 0.85 },
+          { "label": "monumento", "score": 0.80 }
+        ]
+      }
+    },
+    "Baker Street": {
+      "location": "Baker Street",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.95,
+        "all_categories": [
+          { "label": "strada", "score": 0.95 },
+          { "label": "città", "score": 0.85 },
+          { "label": "edificio", "score": 0.60 }
+        ]
+      }
+    },
+    "Blue Lagoon": {
+      "location": "Blue Lagoon",
+      "categorization": {
+        "category": "lago",
+        "confidence": 0.90,
+        "all_categories": [
+          { "label": "lago", "score": 0.90 },
+          { "label": "terreno naturale", "score": 0.85 },
+          { "label": "spiaggia", "score": 0.75 }
+        ]
+      }
+    },
+    "Notre Dame": {
+      "location": "Notre Dame",
+      "categorization": {
+        "category": "cattedrale",
+        "confidence": 0.96,
+        "all_categories": [
+          { "label": "cattedrale", "score": 0.96 },
+          { "label": "chiesa", "score": 0.92 },
+          { "label": "edificio", "score": 0.85 }
+        ]
+      }
+    },
+    "Morning Star": {
+      "location": "Morning Star",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.89,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.89 },
+          { "label": "bar", "score": 0.45 },
+          { "label": "pub", "score": 0.35 }
+        ]
+      }
+    },
+    "Edinburgh Castle": {
+      "location": "Edinburgh Castle",
+      "categorization": {
+        "category": "castello",
+        "confidence": 0.95,
+        "all_categories": [
+          { "label": "castello", "score": 0.95 },
+          { "label": "fortezza", "score": 0.90 },
+          { "label": "museo", "score": 0.75 }
+        ]
+      }
+    },
+    "Regent Street": {
+      "location": "Regent Street",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "strada", "score": 0.94 },
+          { "label": "città", "score": 0.85 },
+          { "label": "negozio", "score": 0.75 }
+        ]
+      }
+    },
+    "Black Forest": {
+      "location": "Black Forest",
+      "categorization": {
+        "category": "foresta",
+        "confidence": 0.95,
+        "all_categories": [
+          { "label": "foresta", "score": 0.95 },
+          { "label": "bosco", "score": 0.90 },
+          { "label": "terreno naturale", "score": 0.85 }
+        ]
+      }
+    },
+    "Golden Compass": {
+      "location": "Golden Compass",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.91,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.99 },
+          { "label": "negozio", "score": 0.50 },
+          { "label": "fortezza", "score": 0.37 }
+        ]
+      }
+    },
+    "Venice Beach": {
+      "location": "Venice Beach",
+      "categorization": {
+        "category": "spiaggia",
+        "confidence": 0.93,
+        "all_categories": [
+          { "label": "spiaggia", "score": 0.93 },
+          { "label": "mare", "score": 0.88 },
+          { "label": "città", "score": 0.70 }
+        ]
+      }
+    },
+    "Oxford Street": {
+      "location": "Oxford Street",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.96,
+        "all_categories": [
+          { "label": "strada", "score": 0.96 },
+          { "label": "città", "score": 0.85 },
+          { "label": "negozio", "score": 0.80 }
+        ]
+      }
+    },
+    "King's College": {
+      "location": "King's College",
+      "categorization": {
+        "category": "università",
+        "confidence": 0.94,
+        "all_categories": [
+          { "label": "università", "score": 0.94 },
+          { "label": "scuola", "score": 0.85 },
+          { "label": "edificio", "score": 0.75 }
+        ]
+      }
+    },
+    "Eagle's Nest": {
+      "location": "Eagle's Nest",
+      "categorization": {
+        "category": "edificio",
+        "confidence": 0.86,
+        "all_categories": [
+          { "label": "edificio", "score": 0.86 },
+          { "label": "montagna", "score": 0.80 },
+          { "label": "fortezza", "score": 0.75 }
+        ]
+      }
+    },
+    "Silver Arrow": {
+      "location": "Silver Arrow",
+      "categorization": {
+        "category": "non_luogo",
+        "confidence": 0.92,
+        "all_categories": [
+          { "label": "non_luogo", "score": 0.92 },
+          { "label": "negozio", "score": 0.58 },
+          { "label": "veicolo", "score": 0.13 }
+        ]
+      }
+    },
+    "Privet Drive": {
+      "location": "Privet Drive",
+      "categorization": {
+        "category": "strada",
+        "confidence": 0.92,
+        "all_categories": [
+          { "label": "strada", "score": 0.92 },
+          { "label": "pub", "score": 0.58 },
+          { "label": "veicolo", "score": 0.29 }
+        ]
+      }
+    },
+    "Hogwarts": {
+        "location": "Hogwarts",
+        "categorization": {
+          "category": "scuola",
+          "confidence": 0.88,
+          "all_categories": [
+            { "label": "scuola", "score": 0.88 },
+            { "label": "scuola di magia", "score": 0.74 },
+            { "label": "castello", "score": 0.69 }
+          ]
+        }
+      },
+      "Camera dei segreti": {
+        "location": "Camera dei segreti",
+        "categorization": {
+          "category": "passaggio segreto",
+          "confidence": 0.52,
+          "all_categories": [
+            { "label": "passaggio segreto", "score": 0.57 },
+            { "label": "sala", "score": 0.55 },
+            { "label": "grotta", "score": 0.49 }
+          ]
+        }
+      }
+  
+  
+}

@@ -1,0 +1,1749 @@
+{
+    "Foresta Proibita": {
+        "location": "Foresta Proibita",
+        "occurrences": 5,
+        "sentences": [
+            "Harry e Hermione andarono alla Foresta Proibita per cercare Hagrid .",
+            "Gli Auror inseguirono i Mangiamorte lungo la Foresta Proibita .",
+            "La Foresta Proibita era il luogo più temuto dagli studenti .",
+            "I Centauri vivevano nella Foresta Proibita vicino a Hogwarts ."
+        ],
+        "categorization": {
+            "category": "foresta oscura",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "foresta oscura",
+                    "score": 0.9
+                },
+                {
+                    "label": "foresta",
+                    "score": 0.6
+                },
+                {
+                    "label": "terreno naturale",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Mangiamorte": {
+        "location": "Mangiamorte",
+        "occurrences": 7,
+        "sentences": [
+            "I Mangiamorte attaccarono il Ministero della Magia durante la notte .",
+            "Gli Auror inseguirono i Mangiamorte lungo la Foresta Proibita .",
+            "I Mangiamorte servivano Voldemort con fedeltà .",
+            "Lucius Malfoy finanziava i Mangiamorte in segreto .",
+            "Il Ministero della Magia fu attaccato dai Mangiamorte .",
+            "I Mangiamorte attaccarono il villaggio di Hogsmeade durante la notte ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Ministero della Magia": {
+        "location": "Ministero della Magia",
+        "occurrences": 7,
+        "sentences": [
+            "I Mangiamorte attaccarono il Ministero della Magia durante la notte .",
+            "Il Ministero della Magia aveva uffici segreti nel sottosuolo .",
+            "Il Ministero della Magia fu attaccato dai Mangiamorte .",
+            "Il Ministero della Magia aveva un ufficio per il controllo degli animali .",
+            "Arthur Weasley lavorava al Ministero della Magia .",
+            "I dipendenti del Ministero della Magia usavano una rete di camini ."
+        ],
+        "categorization": {
+            "category": "ministero",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "ministero",
+                    "score": 0.9
+                },
+                {
+                    "label": "stazione",
+                    "score": 0.6
+                },
+                {
+                    "label": "sotterraneo",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Ordine della Fenice": {
+        "location": "Ordine della Fenice",
+        "occurrences": 6,
+        "sentences": [
+            "Silente aveva fiducia nell ' Ordine della Fenice .",
+            "Grimmauld Place nascondeva il quartier generale dell' Ordine della Fenice .",
+            "Ninfadora Tonks faceva parte dell' Ordine della Fenice .",
+            "Remus Lupin era un membro importante dell' Ordine della Fenice .",
+            "Albus Silente fondò l' Ordine della Fenice contro i seguaci di Voldemort .",
+            "Kingsley Shacklebolt lavorava segretamente per l' Ordine della Fenice ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "passaggio segreto": {
+        "location": "passaggio segreto",
+        "occurrences": 2,
+        "sentences": [
+            "Tom Riddle scoprì il passaggio segreto sotto Hogwarts .",
+            "Il passaggio segreto portava alla Stamberga Strillante ."
+        ],
+        "categorization": {
+            "category": "passaggio segreto",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "passaggio segreto",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Hogwarts": {
+        "location": "Hogwarts",
+        "occurrences": 38,
+        "sentences": [
+            "Tom Riddle scoprì il passaggio segreto sotto Hogwarts .",
+            "Gilderoy Allock era un professore pessimo a Hogwarts .",
+            "I Dursley non volevano che Harry andasse a Hogwarts .",
+            "Fleur Delacour visitò Hogwarts per il Torneo Tremaghi .",
+            "I Carrow insegnavano Difesa contro le Arti Oscure a Hogwarts .",
+            "La Madama Bumb gestiva l' infermeria di Hogwarts .",
+            "Il sottosuolo di Hogwarts nascondeva la pietra filosofale .",
+            "Il Torneo Tremaghi si tenne a Hogwarts .",
+            "La signora Chips era la bibliotecaria di Hogwarts .",
+            "Molly Weasley uccise Bellatrix Lestrange durante la battaglia di Hogwarts .",
+            "I fantasmi di Hogwarts includevano il Barone Sanguinario e Nick Quasi-Senza-Testa .",
+            "La Camera dei Segreti si trovava sotto i bagni di Hogwarts .",
+            "Dolores Umbridge era odiata dagli studenti di Hogwarts .",
+            "La professoressa McGranitt insegnava Trasfigurazione a Hogwarts .",
+            "Gli Elfi Domestici lavoravano nelle cucine di Hogwarts .",
+            "La Coppa di Quidditch era esposta nella bacheca di Hogwarts .",
+            "Il negozio di Madama McClan vendeva uniformi per gli studenti di Hogwarts .",
+            "La Pietra Filosofale era custodita nel terzo piano di Hogwarts .",
+            "Il dormitorio di Grifondoro si trovava nella torre ovest di Hogwarts .",
+            "La mappa del Malandrino mostrava tutti i passaggi segreti di Hogwarts .",
+            "Argus Gazza odiava gli studenti di Hogwarts e le loro marachelle .",
+            "La tomba bianca di Silente si trovava vicino al lago di Hogwarts .",
+            "Draco riparò l' Armadio Svanitore che collegava Hogwarts a Malfoy Manor .",
+            "La Sala d' Ingresso di Hogwarts accoglieva gli studenti al loro arrivo .",
+            "I fantasmi di Hogwarts partecipavano alla festa di Halloween .",
+            "I Prefetti avevano privilegi speciali a Hogwarts .",
+            "I fondatori di Hogwarts crearono la scuola più di mille anni fa .",
+            "La professoressa Sprite insegnava Erbologia a Hogwarts .",
+            "L' ultima battaglia contro Voldemort avvenne a Hogwarts .",
+            "La battaglia di Hogwarts segnò la fine di Voldemort .",
+            "L' Espresso per Hogwarts partiva dalla stazione di King's Cross .",
+            "I Centauri vivevano nella Foresta Proibita vicino a Hogwarts .",
+            "Rubeus Hagrid era il guardacaccia e Custode delle Chiavi di Hogwarts .",
+            "La Burrobirra era la bevanda preferita dagli studenti di Hogwarts .",
+            "La Sala Grande di Hogwarts ospitava tutti i banchetti ufficiali .",
+            "Neville perse Trevor il rospo durante il viaggio verso Hogwarts .",
+            "La Torre di Astronomia era il punto più alto di Hogwarts .",
+            "Ron Weasley sconfisse la scacchiera gigante nelle profondità di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "scuola di magia",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "scuola di magia",
+                    "score": 0.9
+                },
+                {
+                    "label": "castello",
+                    "score": 0.6
+                },
+                {
+                    "label": "castello incantato",
+                    "score": 0.6
+                },
+                {
+                    "label": "fortezza",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Grifondoro": {
+        "location": "Grifondoro",
+        "occurrences": 7,
+        "sentences": [
+            "Grifondoro vinse la Coppa delle Case battendo Serpeverde .",
+            "Hermione era una studentessa di Grifondoro .",
+            "Neville Paciock affrontò il serpente Nagini con la spada di Grifondoro .",
+            "Il Cappello Parlante assegnò Harry a Grifondoro .",
+            "Il dormitorio di Grifondoro si trovava nella torre ovest di Hogwarts .",
+            "Oliver Baston era il capitano della squadra di Quidditch di Grifondoro .",
+            "La Signora Grassa custodiva l' ingresso alla sala comune di Grifondoro ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Serpeverde": {
+        "location": "Serpeverde",
+        "occurrences": 6,
+        "sentences": [
+            "Grifondoro vinse la Coppa delle Case battendo Serpeverde .",
+            "Serpeverde e Corvonero avevano una rivalità storica .",
+            "Piton era il capo della casa di Serpeverde .",
+            "Gli Inferi difendevano il medaglione di Serpeverde nella caverna .",
+            "Albus Potter fu smistato a Serpeverde contro ogni aspettativa .",
+            "Draco Malfoy divenne Cercatore per la squadra di Serpeverde ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Dursley": {
+        "location": "Dursley",
+        "occurrences": 2,
+        "sentences": [
+            "I Dursley non volevano sentire parlare di magia .",
+            "I Dursley non volevano che Harry andasse a Hogwarts ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Tassorosso": {
+        "location": "Tassorosso",
+        "occurrences": 3,
+        "sentences": [
+            "Harry giocò a Quidditch contro Tassorosso .",
+            "La Coppa di Tassorosso era nascosta nel caveau di Bellatrix a Gringott .",
+            "Cedric rappresentò Tassorosso nel Torneo Tremaghi ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Auror": {
+        "location": "Auror",
+        "occurrences": 1,
+        "sentences": [
+            "Gli Auror inseguirono i Mangiamorte lungo la Foresta Proibita ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Corvonero": {
+        "location": "Corvonero",
+        "occurrences": 4,
+        "sentences": [
+            "Serpeverde e Corvonero avevano una rivalità storica .",
+            "Gli studenti di Corvonero erano noti per la loro intelligenza .",
+            "Cho Chang giocava come Cercatrice per la squadra di Corvonero .",
+            "Il professor Vitious era il capo della casa di Corvonero ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Elfi Domestici": {
+        "location": "Elfi Domestici",
+        "occurrences": 1,
+        "sentences": [
+            "Gli Elfi Domestici lavoravano nelle cucine di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Irlanda": {
+        "location": "Irlanda",
+        "occurrences": 1,
+        "sentences": [
+            "La Coppa del Mondo di Quidditch fu vinta dall' Irlanda ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Esercito": {
+        "location": "Esercito",
+        "occurrences": 3,
+        "sentences": [
+            "L' Esercito di Silente si riuniva segretamente nella Stanza delle Necessità .",
+            "I membri dell' Esercito di Silente si esercitavano in segreto .",
+            "L' Esercito di Silente incontrò resistenza da parte della Squadra d' Inquisizione ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Club delle Lumache": {
+        "location": "Club delle Lumache",
+        "occurrences": 1,
+        "sentences": [
+            "Il professor Lumacorno organizzava feste per il Club delle Lumache ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Gazzetta del Profeta": {
+        "location": "Gazzetta del Profeta",
+        "occurrences": 1,
+        "sentences": [
+            "Rita Skeeter lavorava per la Gazzetta del Profeta ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Marauders Puking Pastilles": {
+        "location": "Marauders Puking Pastilles",
+        "occurrences": 1,
+        "sentences": [
+            "Fred e George Weasley crearono i Marauders Puking Pastilles ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "CREPA": {
+        "location": "CREPA",
+        "occurrences": 1,
+        "sentences": [
+            "Hermione fondò il CREPA per difendere i diritti degli elfi domestici ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Coppa": {
+        "location": "Coppa",
+        "occurrences": 2,
+        "sentences": [
+            "La Coppa di Quidditch era esposta nella bacheca di Hogwarts .",
+            "La Coppa di Tassorosso era nascosta nel caveau di Bellatrix a Gringott ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Firebolt": {
+        "location": "Firebolt",
+        "occurrences": 1,
+        "sentences": [
+            "Sirius Black regalò a Harry una Firebolt per Natale ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Pietra Filosofale": {
+        "location": "Pietra Filosofale",
+        "occurrences": 1,
+        "sentences": [
+            "La Pietra Filosofale era custodita nel terzo piano di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Giratempo": {
+        "location": "Giratempo",
+        "occurrences": 1,
+        "sentences": [
+            "Hermione usò la Giratempo per seguire più lezioni contemporaneamente ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "mappa del Malandrino": {
+        "location": "mappa del Malandrino",
+        "occurrences": 1,
+        "sentences": [
+            "La mappa del Malandrino mostrava tutti i passaggi segreti di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Oblivion": {
+        "location": "Oblivion",
+        "occurrences": 1,
+        "sentences": [
+            "Hermione lanciò l' incantesimo Oblivion sui suoi genitori per proteggerli ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Inferi": {
+        "location": "Inferi",
+        "occurrences": 1,
+        "sentences": [
+            "Gli Inferi difendevano il medaglione di Serpeverde nella caverna ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Pozione Polisucco": {
+        "location": "Pozione Polisucco",
+        "occurrences": 1,
+        "sentences": [
+            "Barty Crouch Jr usò la Pozione Polisucco per un anno intero ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Doni della Morte": {
+        "location": "Doni della Morte",
+        "occurrences": 2,
+        "sentences": [
+            "Gellert Grindelwald cercò i Doni della Morte per anni .",
+            "La Pietra della Resurrezione era uno dei Doni della Morte ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Storia della Magia": {
+        "location": "Storia della Magia",
+        "occurrences": 1,
+        "sentences": [
+            "Bathilda Bagshot scrisse Storia della Magia , un libro di testo fondamentale ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Armadio Svanitore": {
+        "location": "Armadio Svanitore",
+        "occurrences": 1,
+        "sentences": [
+            "Draco riparò l' Armadio Svanitore che collegava Hogwarts a Malfoy Manor ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Coppa Tremaghi": {
+        "location": "Coppa Tremaghi",
+        "occurrences": 1,
+        "sentences": [
+            "Cedric e Harry presero insieme la Coppa Tremaghi ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Antica e Nobile Casata dei Black": {
+        "location": "Antica e Nobile Casata dei Black",
+        "occurrences": 1,
+        "sentences": [
+            "L' Antica e Nobile Casata dei Black aveva molti segreti ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Prefetti": {
+        "location": "Prefetti",
+        "occurrences": 1,
+        "sentences": [
+            "I Prefetti avevano privilegi speciali a Hogwarts ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Squadra d' Inquisizione": {
+        "location": "Squadra d' Inquisizione",
+        "occurrences": 1,
+        "sentences": [
+            "L' Esercito di Silente incontrò resistenza da parte della Squadra d' Inquisizione ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Bacchetta": {
+        "location": "Bacchetta",
+        "occurrences": 1,
+        "sentences": [
+            "La Bacchetta di Sambuco fu sepolta con Silente ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Animagus": {
+        "location": "Animagus",
+        "occurrences": 1,
+        "sentences": [
+            "James Potter era un Animagus che si trasformava in cervo ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Fondo Monetario Internazionale": {
+        "location": "Fondo Monetario Internazionale",
+        "occurrences": 1,
+        "sentences": [
+            "Il Fondo Monetario Internazionale Goblin finanziava progetti a Gringott ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Goblin": {
+        "location": "Goblin",
+        "occurrences": 2,
+        "sentences": [
+            "Il Fondo Monetario Internazionale Goblin finanziava progetti a Gringott .",
+            "I Goblin gestivano Gringott con precisione e severità ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Dissennatori": {
+        "location": "Dissennatori",
+        "occurrences": 2,
+        "sentences": [
+            "Lupin insegnava a Harry come creare un Patronus contro i Dissennatori .",
+            "I Dissennatori custodivano la prigione di Azkaban ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Pietra della Resurrezione": {
+        "location": "Pietra della Resurrezione",
+        "occurrences": 1,
+        "sentences": [
+            "La Pietra della Resurrezione era uno dei Doni della Morte ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Espresso": {
+        "location": "Espresso",
+        "occurrences": 1,
+        "sentences": [
+            "L' Espresso per Hogwarts partiva dalla stazione di King's Cross ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Centauri": {
+        "location": "Centauri",
+        "occurrences": 1,
+        "sentences": [
+            "I Centauri vivevano nella Foresta Proibita vicino a Hogwarts ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Nargilli": {
+        "location": "Nargilli",
+        "occurrences": 1,
+        "sentences": [
+            "Luna Lovegood credeva nell' esistenza dei Nargilli ."
+        ],
+        "categorization": {
+            "category": "non_luogo",
+            "confidence": 1.0,
+            "all_categories": [
+                {
+                    "label": "non_luogo",
+                    "score": 1.0
+                }
+            ]
+        }
+    },
+    "Capanna di": {
+        "location": "Capanna di",
+        "occurrences": 1,
+        "sentences": [
+            "Harry e Ron mangiarono alla Capanna di Hagrid ."
+        ],
+        "categorization": {
+            "category": "capanna",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "capanna",
+                    "score": 0.9
+                },
+                {
+                    "label": "casa",
+                    "score": 0.6
+                },
+                {
+                    "label": "edificio",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Privet Drive": {
+        "location": "Privet Drive",
+        "occurrences": 1,
+        "sentences": [
+            "Privet Drive era una strada tranquilla a Little Whinging ."
+        ],
+        "categorization": {
+            "category": "strada",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "strada",
+                    "score": 0.9
+                },
+                {
+                    "label": "casa",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "strada": {
+        "location": "strada",
+        "occurrences": 1,
+        "sentences": [
+            "Privet Drive era una strada tranquilla a Little Whinging ."
+        ],
+        "categorization": {
+            "category": "strada",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "strada",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Little Whinging": {
+        "location": "Little Whinging",
+        "occurrences": 1,
+        "sentences": [
+            "Privet Drive era una strada tranquilla a Little Whinging ."
+        ],
+        "categorization": {
+            "category": "villaggio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio",
+                    "score": 0.9
+                },
+                {
+                    "label": "città",
+                    "score": 0.6
+                },
+                {
+                    "label": "strada",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Gringott": {
+        "location": "Gringott",
+        "occurrences": 5,
+        "sentences": [
+            "Elfo disse a Harry che Gringott era protetta da draghi .",
+            "Bill Weasley lavorava per Gringott come maledizionologo .",
+            "Il Fondo Monetario Internazionale Goblin finanziava progetti a Gringott .",
+            "La Coppa di Tassorosso era nascosta nel caveau di Bellatrix a Gringott .",
+            "I Goblin gestivano Gringott con precisione e severità ."
+        ],
+        "categorization": {
+            "category": "banca magica",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "banca magica",
+                    "score": 0.9
+                },
+                {
+                    "label": "bunker",
+                    "score": 0.6
+                },
+                {
+                    "label": "sotterraneo",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "sottosuolo": {
+        "location": "sottosuolo",
+        "occurrences": 2,
+        "sentences": [
+            "Il Ministero della Magia aveva uffici segreti nel sottosuolo .",
+            "Il sottosuolo di Hogwarts nascondeva la pietra filosofale ."
+        ],
+        "categorization": {
+            "category": "sotterraneo",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "sotterraneo",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Grimmauld Place": {
+        "location": "Grimmauld Place",
+        "occurrences": 4,
+        "sentences": [
+            "Grimmauld Place nascondeva il quartier generale dell' Ordine della Fenice .",
+            "Sirius Black diede a Harry la sua vecchia casa a Grimmauld Place .",
+            "La famiglia Black aveva un albero genealogico a Grimmauld Place .",
+            "Kreacher lavorava a Grimmauld Place come elfo domestico ."
+        ],
+        "categorization": {
+            "category": "casa",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "casa",
+                    "score": 0.9
+                },
+                {
+                    "label": "luogo magico",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Durmstrang": {
+        "location": "Durmstrang",
+        "occurrences": 1,
+        "sentences": [
+            "Viktor Krum era il campione di Durmstrang ."
+        ],
+        "categorization": {
+            "category": "scuola di magia",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "scuola di magia",
+                    "score": 0.9
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.6
+                },
+                {
+                    "label": "castello",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "cimitero": {
+        "location": "cimitero",
+        "occurrences": 3,
+        "sentences": [
+            "Cedric Diggory fu ucciso da Codaliscia nel cimitero .",
+            "Il cimitero di Little Hangleton fu la scena del ritorno di Voldemort .",
+            "Il cimitero di Little Hangleton era abbandonato e tetro ."
+        ],
+        "categorization": {
+            "category": "cimitero",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "cimitero",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Beauxbatons": {
+        "location": "Beauxbatons",
+        "occurrences": 1,
+        "sentences": [
+            "Olympe Maxime era la preside di Beauxbatons ."
+        ],
+        "categorization": {
+            "category": "scuola di magia",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "scuola di magia",
+                    "score": 0.9
+                },
+                {
+                    "label": "scuola",
+                    "score": 0.6
+                },
+                {
+                    "label": "castello",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "casa": {
+        "location": "casa",
+        "occurrences": 1,
+        "sentences": [
+            "Sirius Black diede a Harry la sua vecchia casa a Grimmauld Place ."
+        ],
+        "categorization": {
+            "category": "casa",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "casa",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Tana": {
+        "location": "Tana",
+        "occurrences": 3,
+        "sentences": [
+            "I Weasley festeggiarono Natale alla Tana .",
+            "La famiglia Weasley abitava nella Tana vicino a Ottery St Catchpole .",
+            "Molly Weasley preparava deliziosi pasti per tutti alla Tana ."
+        ],
+        "categorization": {
+            "category": "casa",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "casa",
+                    "score": 0.9
+                },
+                {
+                    "label": "terreno naturale",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Stamberga Strillante": {
+        "location": "Stamberga Strillante",
+        "occurrences": 2,
+        "sentences": [
+            "Il passaggio segreto portava alla Stamberga Strillante .",
+            "Il Platano Picchiatore proteggeva l' ingresso segreto alla Stamberga Strillante ."
+        ],
+        "categorization": {
+            "category": "casa",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "casa",
+                    "score": 0.9
+                },
+                {
+                    "label": "luogo magico",
+                    "score": 0.6
+                },
+                {
+                    "label": "passaggio segreto",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Notturn Alley": {
+        "location": "Notturn Alley",
+        "occurrences": 1,
+        "sentences": [
+            "A Notturn Alley si trovavano negozi di magia oscura ."
+        ],
+        "categorization": {
+            "category": "strada",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "strada",
+                    "score": 0.9
+                },
+                {
+                    "label": "luogo magico",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Ottery St Catchpole": {
+        "location": "Ottery St Catchpole",
+        "occurrences": 1,
+        "sentences": [
+            "La famiglia Weasley abitava nella Tana vicino a Ottery St Catchpole ."
+        ],
+        "categorization": {
+            "category": "villaggio magico",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio magico",
+                    "score": 0.9
+                },
+                {
+                    "label": "villaggio",
+                    "score": 0.6
+                },
+                {
+                    "label": "paese",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Malfoy Manor": {
+        "location": "Malfoy Manor",
+        "occurrences": 2,
+        "sentences": [
+            "Dobby l' elfo domestico salvò Harry dalla Malfoy Manor .",
+            "Draco riparò l' Armadio Svanitore che collegava Hogwarts a Malfoy Manor ."
+        ],
+        "categorization": {
+            "category": "casa",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "casa",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Diagon Alley": {
+        "location": "Diagon Alley",
+        "occurrences": 2,
+        "sentences": [
+            "Gli studenti potevano acquistare bacchette da Ollivander a Diagon Alley .",
+            "I gemelli Weasley aprirono il negozio Tiri Vispi Weasley a Diagon Alley ."
+        ],
+        "categorization": {
+            "category": "strada",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "strada",
+                    "score": 0.9
+                },
+                {
+                    "label": "luogo magico",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Stanza delle Necessità": {
+        "location": "Stanza delle Necessità",
+        "occurrences": 2,
+        "sentences": [
+            "La Stanza delle Necessità appariva solo quando qualcuno ne aveva bisogno .",
+            "L' Esercito di Silente si riuniva segretamente nella Stanza delle Necessità ."
+        ],
+        "categorization": {
+            "category": "stanza segreta",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "stanza segreta",
+                    "score": 0.9
+                },
+                {
+                    "label": "luogo magico",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Camera dei Segreti": {
+        "location": "Camera dei Segreti",
+        "occurrences": 2,
+        "sentences": [
+            "La Camera dei Segreti si trovava sotto i bagni di Hogwarts .",
+            "La Camera dei Segreti fu aperta per la prima volta da Tom Riddle ."
+        ],
+        "categorization": {
+            "category": "stanza segreta",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "stanza segreta",
+                    "score": 0.9
+                },
+                {
+                    "label": "sotterraneo",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Hogsmeade": {
+        "location": "Hogsmeade",
+        "occurrences": 4,
+        "sentences": [
+            "Hogsmeade era l' unico villaggio completamente magico della Gran Bretagna .",
+            "Aberforth Silente gestiva la Testa di Porco a Hogsmeade .",
+            "Molti studenti frequentavano i Tre Manici di Scopa a Hogsmeade .",
+            "I Mangiamorte attaccarono il villaggio di Hogsmeade durante la notte ."
+        ],
+        "categorization": {
+            "category": "villaggio magico",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio magico",
+                    "score": 0.9
+                },
+                {
+                    "label": "villaggio",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Gran Bretagna": {
+        "location": "Gran Bretagna",
+        "occurrences": 1,
+        "sentences": [
+            "Hogsmeade era l' unico villaggio completamente magico della Gran Bretagna ."
+        ],
+        "categorization": {
+            "category": "paese",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "paese",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Tiri Vispi Weasley": {
+        "location": "Tiri Vispi Weasley",
+        "occurrences": 1,
+        "sentences": [
+            "I gemelli Weasley aprirono il negozio Tiri Vispi Weasley a Diagon Alley ."
+        ],
+        "categorization": {
+            "category": "negozio magico",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "negozio magico",
+                    "score": 0.9
+                },
+                {
+                    "label": "negozio",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Paiolo Magico": {
+        "location": "Paiolo Magico",
+        "occurrences": 1,
+        "sentences": [
+            "Il Paiolo Magico era un pub frequentato dai maghi ."
+        ],
+        "categorization": {
+            "category": "pub magico",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "pub magico",
+                    "score": 0.9
+                },
+                {
+                    "label": "pub",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "Little Hangleton": {
+        "location": "Little Hangleton",
+        "occurrences": 3,
+        "sentences": [
+            "Il cimitero di Little Hangleton fu la scena del ritorno di Voldemort .",
+            "Il cimitero di Little Hangleton era abbandonato e tetro .",
+            "La famiglia Gaunt viveva in povertà a Little Hangleton ."
+        ],
+        "categorization": {
+            "category": "villaggio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio",
+                    "score": 0.9
+                },
+                {
+                    "label": "cimitero",
+                    "score": 0.6
+                },
+                {
+                    "label": "villaggio magico",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Godric's Hollow": {
+        "location": "Godric's Hollow",
+        "occurrences": 3,
+        "sentences": [
+            "La famiglia Potter visse a Godric's Hollow prima dell' attacco .",
+            "La notte dei morti a Godric's Hollow cambiò la vita di Harry .",
+            "Gli abitanti di Godric's Hollow celebravano segretamente la notte di Halloween ."
+        ],
+        "categorization": {
+            "category": "villaggio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio",
+                    "score": 0.9
+                },
+                {
+                    "label": "cimitero",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "torre ovest": {
+        "location": "torre ovest",
+        "occurrences": 1,
+        "sentences": [
+            "Il dormitorio di Grifondoro si trovava nella torre ovest di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "torre",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "torre",
+                    "score": 0.9
+                },
+                {
+                    "label": "castello",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Spinner's End": {
+        "location": "Spinner's End",
+        "occurrences": 1,
+        "sentences": [
+            "Piton e Lily Evans erano amici d' infanzia a Spinner's End ."
+        ],
+        "categorization": {
+            "category": "villaggio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "villaggio",
+                    "score": 0.9
+                },
+                {
+                    "label": "paese",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "caverna": {
+        "location": "caverna",
+        "occurrences": 1,
+        "sentences": [
+            "Gli Inferi difendevano il medaglione di Serpeverde nella caverna ."
+        ],
+        "categorization": {
+            "category": "grotta",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "grotta",
+                    "score": 0.9
+                },
+                {
+                    "label": "terreno naturale",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "tomba bianca": {
+        "location": "tomba bianca",
+        "occurrences": 1,
+        "sentences": [
+            "La tomba bianca di Silente si trovava vicino al lago di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "cimitero",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "cimitero",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "lago": {
+        "location": "lago",
+        "occurrences": 1,
+        "sentences": [
+            "La tomba bianca di Silente si trovava vicino al lago di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "lago",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "lago",
+                    "score": 0.9
+                },
+                {
+                    "label": "lago magico",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Sala d' Ingresso": {
+        "location": "Sala d' Ingresso",
+        "occurrences": 1,
+        "sentences": [
+            "La Sala d' Ingresso di Hogwarts accoglieva gli studenti al loro arrivo ."
+        ],
+        "categorization": {
+            "category": "sala",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "sala",
+                    "score": 0.9
+                },
+                {
+                    "label": "piazza",
+                    "score": 0.6
+                },
+                {
+                    "label": "sala magica",
+                    "score": 0.6
+                },
+                {
+                    "label": "castello",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Testa di Porco": {
+        "location": "Testa di Porco",
+        "occurrences": 1,
+        "sentences": [
+            "Aberforth Silente gestiva la Testa di Porco a Hogsmeade ."
+        ],
+        "categorization": {
+            "category": "pub magico",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "pub magico",
+                    "score": 0.9
+                },
+                {
+                    "label": "pub",
+                    "score": 0.6
+                },
+                {
+                    "label": "passaggio segreto",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Tre Manici di Scopa": {
+        "location": "Tre Manici di Scopa",
+        "occurrences": 1,
+        "sentences": [
+            "Molti studenti frequentavano i Tre Manici di Scopa a Hogsmeade ."
+        ],
+        "categorization": {
+            "category": "pub",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "pub",
+                    "score": 0.9
+                },
+                {
+                    "label": "pub magico",
+                    "score": 0.6
+                },
+                {
+                    "label": "passaggio segreto",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "stazione": {
+        "location": "stazione",
+        "occurrences": 1,
+        "sentences": [
+            "L' Espresso per Hogwarts partiva dalla stazione di King's Cross ."
+        ],
+        "categorization": {
+            "category": "stazione",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "stazione",
+                    "score": 0.9
+                },
+                {
+                    "label": "stazione magica",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "King's Cross": {
+        "location": "King's Cross",
+        "occurrences": 1,
+        "sentences": [
+            "L' Espresso per Hogwarts partiva dalla stazione di King's Cross ."
+        ],
+        "categorization": {
+            "category": "stazione",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "stazione",
+                    "score": 0.9
+                },
+                {
+                    "label": "stazione magica",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "binario 9 e 3/4": {
+        "location": "binario 9 e 3/4",
+        "occurrences": 1,
+        "sentences": [
+            "Il binario 9 e 3/4 era nascosto tra i binari 9 e 10 ."
+        ],
+        "categorization": {
+            "category": "stazione magica",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "stazione magica",
+                    "score": 0.9
+                },
+                {
+                    "label": "stazione",
+                    "score": 0.6
+                },
+                {
+                    "label": "luogo magico",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Azkaban": {
+        "location": "Azkaban",
+        "occurrences": 1,
+        "sentences": [
+            "I Dissennatori custodivano la prigione di Azkaban ."
+        ],
+        "categorization": {
+            "category": "prigione",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "prigione",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "Sala Grande": {
+        "location": "Sala Grande",
+        "occurrences": 1,
+        "sentences": [
+            "La Sala Grande di Hogwarts ospitava tutti i banchetti ufficiali ."
+        ],
+        "categorization": {
+            "category": "sala",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "sala",
+                    "score": 0.9
+                },
+                {
+                    "label": "sala magica",
+                    "score": 0.6
+                },
+                {
+                    "label": "luogo magico",
+                    "score": 0.3
+                }
+            ]
+        }
+    },
+    "Torre di Astronomia": {
+        "location": "Torre di Astronomia",
+        "occurrences": 1,
+        "sentences": [
+            "La Torre di Astronomia era il punto più alto di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "torre",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "torre",
+                    "score": 0.9
+                },
+                {
+                    "label": "castello",
+                    "score": 0.6
+                }
+            ]
+        }
+    },
+    "profondità": {
+        "location": "profondità",
+        "occurrences": 1,
+        "sentences": [
+            "Ron Weasley sconfisse la scacchiera gigante nelle profondità di Hogwarts ."
+        ],
+        "categorization": {
+            "category": "sotterraneo",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "sotterraneo",
+                    "score": 0.9
+                }
+            ]
+        }
+    },
+    "sala comune": {
+        "location": "sala comune",
+        "occurrences": 1,
+        "sentences": [
+            "La Signora Grassa custodiva l' ingresso alla sala comune di Grifondoro ."
+        ],
+        "categorization": {
+            "category": "dormitorio",
+            "confidence": 0.9,
+            "all_categories": [
+                {
+                    "label": "dormitorio",
+                    "score": 0.9
+                },
+                {
+                    "label": "sala",
+                    "score": 0.6
+                },
+                {
+                    "label": "sala magica",
+                    "score": 0.3
+                }
+            ]
+        }
+    }
+}
