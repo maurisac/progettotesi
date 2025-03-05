@@ -14,6 +14,8 @@ import ast
 import signal
 import psutil
 import threading
+from sound_controller import SoundController
+import pygame
 
 
 # Configurazione logging
@@ -30,6 +32,7 @@ analysis_data = {}
 book_name = ""
 analysis_process = None
 analysis_running = False
+sound_controller = None
 
 # Lettura delle impostazioni salvate
 config = configparser.ConfigParser()
@@ -60,7 +63,7 @@ def save_settings():
 
 def open_file(filepath=None):
     # Apre un file TXT, PDF o DOCX, lo divide in pagine e mostra la prima pagina.
-    global text_pages, current_page, current_file, analysis_data, book_name
+    global text_pages, current_page, current_file, analysis_data, book_name, sound_controller
     try:
         if not filepath:
             filepath = filedialog.askopenfilename(filetypes=[
@@ -98,6 +101,12 @@ def open_file(filepath=None):
         load_analysis_data(analysis_file)
         
         show_page()
+
+        # Inizializza il controller audio se non esiste già
+        if not sound_controller:
+            pygame.init()
+            sound_controller = SoundController()
+            sound_controller.start()
     except Exception as e:
         logging.error(str(e))
         messagebox.showerror("Errore", f"Errore: {str(e)}")
@@ -320,6 +329,12 @@ def update_analysis_display():
                     analysis_text.insert(tk.END, f"Tipo: {category}\n")
                     analysis_text.insert(tk.END, f"Confidenza: {confidence:.2f}\n")
                     analysis_text.insert(tk.END, f"Occorrenze: {count}\n\n")
+                    
+                    # Imposta i suoni per questa location
+                    if sound_controller and category:
+                        # Usa un thread per non bloccare la GUI
+                        threading.Thread(target=sound_controller.set_location_sounds, 
+                                         args=(category,), daemon=True).start()
         except Exception as e:
             logging.error(f"Errore nell'interpretazione dell'ambientazione: {e}")
     
@@ -569,6 +584,81 @@ chapters_scrollbar.pack(side="right", fill="y")
 # Frame per l'analisi (centrale/inferiore destra)
 analysis_text = scrolledtext.ScrolledText(right_frame, width=30, height=15, state=tk.DISABLED)
 analysis_text.pack(fill="both", expand=True, padx=10, pady=10)
+
+# Aggiungi questo codice dopo la creazione di analysis_text in gui.py
+
+# Frame per il controllo audio
+audio_frame = tk.LabelFrame(right_frame, text="Audio Ambientale", padx=5, pady=5)
+audio_frame.pack(fill="x", padx=10, pady=5)
+
+# Variabile per tracciare lo stato audio
+audio_enabled = tk.BooleanVar(value=True)
+
+# Controllo volume principale
+master_volume_frame = tk.Frame(audio_frame)
+master_volume_frame.pack(fill="x", pady=5)
+
+tk.Label(master_volume_frame, text="Volume principale:").pack(side=tk.LEFT)
+master_volume = tk.Scale(master_volume_frame, from_=0, to=100, orient=tk.HORIZONTAL)
+master_volume.set(50)  # Imposta al 50% inizialmente
+master_volume.pack(side=tk.LEFT, fill="x", expand=True, padx=5)
+
+def update_master_volume(event=None):
+    if sound_controller:
+        sound_controller.set_master_volume(master_volume.get() / 100.0)
+        
+master_volume.bind("<ButtonRelease-1>", update_master_volume)
+
+# Pulsanti di controllo audio
+audio_buttons_frame = tk.Frame(audio_frame)
+audio_buttons_frame.pack(fill="x", pady=5)
+
+def toggle_audio():
+    if sound_controller:
+        if audio_enabled.get():
+            sound_controller.resume_all()
+            toggle_button.config(text="Pausa")
+        else:
+            sound_controller.pause_all()
+            toggle_button.config(text="Riprendi")
+
+toggle_button = tk.Button(audio_buttons_frame, text="Pausa", command=lambda: [audio_enabled.set(not audio_enabled.get()), toggle_audio()])
+toggle_button.pack(side=tk.LEFT, padx=5)
+
+# Lista suoni attivi (viene aggiornata dinamicamente)
+sounds_list_frame = tk.Frame(audio_frame)
+sounds_list_frame.pack(fill="both", expand=True, pady=5)
+
+sounds_list = tk.Listbox(sounds_list_frame, height=3)
+sounds_list.pack(fill="both", expand=True, side=tk.LEFT)
+
+sounds_scrollbar = tk.Scrollbar(sounds_list_frame, orient=tk.VERTICAL, command=sounds_list.yview)
+sounds_scrollbar.pack(side=tk.RIGHT, fill="y")
+sounds_list.config(yscrollcommand=sounds_scrollbar.set)
+
+# Funzione per aggiornare la lista di suoni attivi
+def update_sounds_list():
+    if sound_controller:
+        sounds_list.delete(0, tk.END)
+        active_sounds = sound_controller.get_active_sounds()
+        for sound in active_sounds:
+            status = "▶️" if sound['is_playing'] else "⏸️"
+            sounds_list.insert(tk.END, f"{status} {sound['filename']} ({int(sound['volume']*100)}%)")
+    
+    # Aggiorna ogni secondo
+    root.after(1000, update_sounds_list)
+
+# Avvia l'aggiornamento della lista
+root.after(1000, update_sounds_list)
+
+# Aggiungi anche la pulizia del controller audio quando si chiude la finestra
+def on_closing():
+    save_settings()
+    if sound_controller:
+        sound_controller.cleanup()
+    root.destroy()
+    
+root.protocol("WM_DELETE_WINDOW", on_closing)
 
 # Ripristina ultimo file e pagina
 if last_file and os.path.exists(last_file):

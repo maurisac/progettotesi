@@ -1,0 +1,3268 @@
+{
+    "bosco": {
+        "direct_sounds": [
+            {
+                "filename": "bosco_339254_USJ Architecture Field Recording - Group 4 _2016_.mp3",
+                "name": "USJ Architecture Field Recording - Group 4 (2016)",
+                "id": 339254,
+                "tags": [
+                    "University-of-Saint-Joseph",
+                    "Soundscape",
+                    "Field-Recording",
+                    "Macau"
+                ],
+                "duration": 60.0
+            },
+            {
+                "filename": "bosco_514714_Waltz_PCB.wav.mp3",
+                "name": "Waltz_PCB.wav",
+                "id": 514714,
+                "tags": [
+                    "john-cage",
+                    "spring-2020",
+                    "cccx-299",
+                    "dip-in-the-lake",
+                    "section-06"
+                ],
+                "duration": 308.846
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "natura_403143_night _ frog and birds _ soft night wind.mp3",
+                "name": "night : frog and birds / soft night wind",
+                "id": 403143,
+                "tags": [
+                    "natura",
+                    "frog",
+                    "birds",
+                    "night",
+                    "bird",
+                    "wind"
+                ],
+                "duration": 424.0
+            },
+            {
+                "filename": "natura_403127_nature garden _ light urban _ distance water _ 20min.mp3",
+                "name": "nature garden / light urban , distance water / 20min",
+                "id": 403127,
+                "tags": [
+                    "ambience",
+                    "natura",
+                    "garden"
+                ],
+                "duration": 1249.91
+            },
+            {
+                "filename": "uccelli_393804_Swallow.mp3",
+                "name": "Swallow",
+                "id": 393804,
+                "tags": [
+                    "rondine",
+                    "field-recording",
+                    "nature",
+                    "birds",
+                    "uccelli",
+                    "swallow",
+                    "bird",
+                    "birdsong"
+                ],
+                "duration": 170.899
+            },
+            {
+                "filename": "uccelli_647907_Primavera a Ponte a Mensola 2022.wav.mp3",
+                "name": "Primavera a Ponte a Mensola 2022.wav",
+                "id": 647907,
+                "tags": [
+                    "school",
+                    "field-recording",
+                    "nature",
+                    "springtime",
+                    "ambient",
+                    "ambience",
+                    "birds"
+                ],
+                "duration": 674.99
+            }
+        ]
+    },
+    "foresta": {
+        "direct_sounds": [
+            {
+                "filename": "foresta_520575_Rain in the forest.mp3",
+                "name": "Rain in the forest",
+                "id": 520575,
+                "tags": [
+                    "wood",
+                    "natura",
+                    "relaxing",
+                    "nature",
+                    "woodland",
+                    "trees",
+                    "rain",
+                    "woods",
+                    "forest",
+                    "pioggia",
+                    "clatter",
+                    "foresta",
+                    "greenwood",
+                    "birds"
+                ],
+                "duration": 62.064
+            },
+            {
+                "filename": "foresta_694399_LinfaLeggiadra-AR18-2_53.mp3.mp3",
+                "name": "LinfaLeggiadra-AR18-2_53.mp3",
+                "id": 694399,
+                "tags": [
+                    "ticonsiglia",
+                    "nature",
+                    "forest",
+                    "chill"
+                ],
+                "duration": 173.683
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "natura_403143_night _ frog and birds _ soft night wind.mp3",
+                "name": "night : frog and birds / soft night wind",
+                "id": 403143,
+                "tags": [
+                    "natura",
+                    "frog",
+                    "birds",
+                    "night",
+                    "bird",
+                    "wind"
+                ],
+                "duration": 424.0
+            },
+            {
+                "filename": "natura_403127_nature garden _ light urban _ distance water _ 20min.mp3",
+                "name": "nature garden / light urban , distance water / 20min",
+                "id": 403127,
+                "tags": [
+                    "ambience",
+                    "natura",
+                    "garden"
+                ],
+                "duration": 1249.91
+            },
+            {
+                "filename": "uccelli_393804_Swallow.mp3",
+                "name": "Swallow",
+                "id": 393804,
+                "tags": [
+                    "rondine",
+                    "field-recording",
+                    "nature",
+                    "birds",
+                    "uccelli",
+                    "swallow",
+                    "bird",
+                    "birdsong"
+                ],
+                "duration": 170.899
+            },
+            {
+                "filename": "uccelli_647907_Primavera a Ponte a Mensola 2022.wav.mp3",
+                "name": "Primavera a Ponte a Mensola 2022.wav",
+                "id": 647907,
+                "tags": [
+                    "school",
+                    "field-recording",
+                    "nature",
+                    "springtime",
+                    "ambient",
+                    "ambience",
+                    "birds"
+                ],
+                "duration": 674.99
+            }
+        ]
+    },
+    "foresta_magica": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "foresta_520575_Rain in the forest.mp3",
+                "name": "Rain in the forest",
+                "id": 520575,
+                "tags": [
+                    "wood",
+                    "natura",
+                    "relaxing",
+                    "nature",
+                    "woodland",
+                    "trees",
+                    "rain",
+                    "woods",
+                    "forest",
+                    "pioggia",
+                    "clatter",
+                    "foresta",
+                    "greenwood",
+                    "birds"
+                ],
+                "duration": 62.064
+            },
+            {
+                "filename": "foresta_694399_LinfaLeggiadra-AR18-2_53.mp3.mp3",
+                "name": "LinfaLeggiadra-AR18-2_53.mp3",
+                "id": 694399,
+                "tags": [
+                    "ticonsiglia",
+                    "nature",
+                    "forest",
+                    "chill"
+                ],
+                "duration": 173.683
+            }
+        ]
+    },
+    "lago": {
+        "direct_sounds": [
+            {
+                "filename": "lago_430290_26-Lago.wav.mp3",
+                "name": "26-Lago.wav",
+                "id": 430290,
+                "tags": [
+                    "estanque",
+                    "lago",
+                    "agua"
+                ],
+                "duration": 27.3613
+            },
+            {
+                "filename": "lago_430273_24-Gota.wav.mp3",
+                "name": "24-Gota.wav",
+                "id": 430273,
+                "tags": [
+                    "lago",
+                    "gota",
+                    "agua"
+                ],
+                "duration": 0.466396
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "acqua_166991_Acqua - Supercollider.mp3",
+                "name": "Acqua - Supercollider",
+                "id": 166991,
+                "tags": [
+                    "water",
+                    "supercollider",
+                    "acqua",
+                    "nature"
+                ],
+                "duration": 25.2587
+            },
+            {
+                "filename": "acqua_120713_Indian rain.mp3.mp3",
+                "name": "Indian rain.mp3",
+                "id": 120713,
+                "tags": [
+                    "sitar",
+                    "acqua",
+                    "piano"
+                ],
+                "duration": 84.0239
+            },
+            {
+                "filename": "splash_696201_Meinl_Byzance_6__Splash_H_3.wav.mp3",
+                "name": "Meinl_Byzance_6__Splash_H_3.wav",
+                "id": 696201,
+                "tags": [
+                    "byzance",
+                    "close",
+                    "cymbals",
+                    "meinl",
+                    "one-shot",
+                    "mono",
+                    "splash",
+                    "cymbal",
+                    "splash-cymbal"
+                ],
+                "duration": 1.20001
+            },
+            {
+                "filename": "splash_696200_Meinl_Byzance_6__Splash_H_2.wav.mp3",
+                "name": "Meinl_Byzance_6__Splash_H_2.wav",
+                "id": 696200,
+                "tags": [
+                    "byzance",
+                    "close",
+                    "cymbals",
+                    "meinl",
+                    "one-shot",
+                    "mono",
+                    "splash",
+                    "cymbal",
+                    "splash-cymbal"
+                ],
+                "duration": 2.40001
+            },
+            {
+                "filename": "rane_346131_Vettabbia Frogs - Field Recording.mp3",
+                "name": "Vettabbia Frogs - Field Recording",
+                "id": 346131,
+                "tags": [
+                    "rane",
+                    "field-recording",
+                    "nature",
+                    "frogs",
+                    "spring",
+                    "chiaravalle",
+                    "milano",
+                    "wet-forest",
+                    "parco-dellavettabbia",
+                    "milan",
+                    "vettabbia-park",
+                    "bosco-umido"
+                ],
+                "duration": 218.343
+            },
+            {
+                "filename": "rane_704819_Desert ambiance near shooting range with city hum_ buggy passing by_ close voices and motor.mp3",
+                "name": "Desert ambiance near shooting range with city hum, buggy passing by, close voices and motor",
+                "id": 704819,
+                "tags": [
+                    "Felixblume",
+                    "shooting",
+                    "buggy",
+                    "Felix",
+                    "ambiance",
+                    "California",
+                    "city",
+                    "passing",
+                    "far",
+                    "Blume",
+                    "field-recording",
+                    "motor",
+                    "bird",
+                    "USA",
+                    "voices",
+                    "singing",
+                    "hum",
+                    "desert",
+                    "rane"
+                ],
+                "duration": 509.833
+            }
+        ]
+    },
+    "lago_magico": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "lago_430290_26-Lago.wav.mp3",
+                "name": "26-Lago.wav",
+                "id": 430290,
+                "tags": [
+                    "estanque",
+                    "lago",
+                    "agua"
+                ],
+                "duration": 27.3613
+            },
+            {
+                "filename": "lago_430273_24-Gota.wav.mp3",
+                "name": "24-Gota.wav",
+                "id": 430273,
+                "tags": [
+                    "lago",
+                    "gota",
+                    "agua"
+                ],
+                "duration": 0.466396
+            },
+            {
+                "filename": "magia_471319_Magia.wav.mp3",
+                "name": "Magia.wav",
+                "id": 471319,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 8.47971
+            },
+            {
+                "filename": "magia_471321_Magia 2.wav.mp3",
+                "name": "Magia 2.wav",
+                "id": 471321,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 4.86
+            }
+        ]
+    },
+    "mare": {
+        "direct_sounds": [
+            {
+                "filename": "mare_456695_zintzarri.aiff.mp3",
+                "name": "zintzarri.aiff",
+                "id": 456695,
+                "tags": [
+                    "mare",
+                    "herd",
+                    "bell"
+                ],
+                "duration": 25.52
+            },
+            {
+                "filename": "mare_394831_cavall.mp3.mp3",
+                "name": "cavall.mp3",
+                "id": 394831,
+                "tags": [
+                    "MARE",
+                    "HEAT",
+                    "IN"
+                ],
+                "duration": 3.43467
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "onde_478831_Quihubo pa onde va_.wav.mp3",
+                "name": "Quihubo pa onde va!.wav",
+                "id": 478831,
+                "tags": [
+                    "va",
+                    "onde",
+                    "No",
+                    "Proyect",
+                    "Carrera",
+                    "Paisaje",
+                    "Voces",
+                    "24",
+                    "25",
+                    "01",
+                    "SIAS",
+                    "Sonoro",
+                    "pa",
+                    "Quihubo",
+                    "Of",
+                    "Toma",
+                    "entre",
+                    "30",
+                    "Palmira",
+                    "y",
+                    "Sounds",
+                    "Soundscape"
+                ],
+                "duration": 1.44331
+            },
+            {
+                "filename": "onde_642589_rumore delle onde _cut_.wav.mp3",
+                "name": "rumore delle onde [cut].wav",
+                "id": 642589,
+                "tags": [
+                    "surf",
+                    "wave",
+                    "seaside",
+                    "sand",
+                    "ocean",
+                    "water",
+                    "shore",
+                    "sea",
+                    "waves",
+                    "coast",
+                    "beach"
+                ],
+                "duration": 30.8458
+            },
+            {
+                "filename": "gabbiani_351302_soundwalk all_alba - spiaggia della purità.mp3",
+                "name": "soundwalk all'alba - spiaggia della purità",
+                "id": 351302,
+                "tags": [
+                    "alba",
+                    "morning",
+                    "early",
+                    "bird",
+                    "sea",
+                    "spiaggia",
+                    "gabbiani",
+                    "dawn",
+                    "seagull",
+                    "sunrise"
+                ],
+                "duration": 147.493
+            },
+            {
+                "filename": "gabbiani_351146_Suoni di Gallipoli - Koinè diGabbiani e pescatori.WAV.mp3",
+                "name": "Suoni di Gallipoli - Koinè diGabbiani e pescatori.WAV",
+                "id": 351146,
+                "tags": [
+                    "talking",
+                    "talk",
+                    "Gallipoli",
+                    "chatting",
+                    "people",
+                    "Canneto",
+                    "sellers",
+                    "chat",
+                    "seagull"
+                ],
+                "duration": 140.62
+            }
+        ]
+    },
+    "fiume": {
+        "direct_sounds": [
+            {
+                "filename": "fiume_647904_fiume.wav.mp3",
+                "name": "fiume.wav",
+                "id": 647904,
+                "tags": [
+                    "relaxing",
+                    "field-recording",
+                    "stream",
+                    "nature",
+                    "water",
+                    "field",
+                    "ambient",
+                    "river"
+                ],
+                "duration": 61.8783
+            },
+            {
+                "filename": "fiume_613457_Vitorchiano_ fiume_ esterno giorno.mp3",
+                "name": "Vitorchiano, fiume, esterno giorno",
+                "id": 613457,
+                "tags": [
+                    "autumn",
+                    "field-recording",
+                    "nature",
+                    "water",
+                    "atmos",
+                    "forest",
+                    "ambient",
+                    "river",
+                    "birds"
+                ],
+                "duration": 62.1013
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "natura_403143_night _ frog and birds _ soft night wind.mp3",
+                "name": "night : frog and birds / soft night wind",
+                "id": 403143,
+                "tags": [
+                    "natura",
+                    "frog",
+                    "birds",
+                    "night",
+                    "bird",
+                    "wind"
+                ],
+                "duration": 424.0
+            },
+            {
+                "filename": "natura_403127_nature garden _ light urban _ distance water _ 20min.mp3",
+                "name": "nature garden / light urban , distance water / 20min",
+                "id": 403127,
+                "tags": [
+                    "ambience",
+                    "natura",
+                    "garden"
+                ],
+                "duration": 1249.91
+            }
+        ]
+    },
+    "castello": {
+        "direct_sounds": [
+            {
+                "filename": "castello_140249__002_ Via Ponte sul Castello.mp3",
+                "name": "[002] Via Ponte sul Castello",
+                "id": 140249,
+                "tags": [
+                    "Trapani",
+                    "people",
+                    "leaves-rustling",
+                    "nature",
+                    "Castellammare-del-golfo",
+                    "sea",
+                    "waves"
+                ],
+                "duration": 312.465
+            },
+            {
+                "filename": "castello_774064_Copertino_Largo-Castello271124.mp3",
+                "name": "Copertino_Largo-Castello271124",
+                "id": 774064,
+                "tags": [
+                    "chatter",
+                    "general-noise",
+                    "atmosphere",
+                    "bells",
+                    "people",
+                    "atmo",
+                    "soundscape",
+                    "footsteps",
+                    "atmos",
+                    "outdoor",
+                    "ambient",
+                    "background-sound",
+                    "fountain",
+                    "background",
+                    "noise",
+                    "voices",
+                    "ambiance",
+                    "field-recording",
+                    "ambience"
+                ],
+                "duration": 209.482
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            },
+            {
+                "filename": "vento_666223_Chuva forte no pátio de casa com vento _ Heavy rain in the backyard with wind.mp3",
+                "name": "Chuva forte no pátio de casa com vento | Heavy rain in the backyard with wind",
+                "id": 666223,
+                "tags": [
+                    "outdoor",
+                    "vento",
+                    "cars",
+                    "toro",
+                    "rua",
+                    "agua",
+                    "rain",
+                    "water",
+                    "forte",
+                    "street",
+                    "carros",
+                    "heavy-rain",
+                    "chuva",
+                    "wind"
+                ],
+                "duration": 481.709
+            },
+            {
+                "filename": "vento_666228_Chuva no quarto de casa com vento _ Rain in the bedroom with wind.mp3",
+                "name": "Chuva no quarto de casa com vento | Rain in the bedroom with wind",
+                "id": 666228,
+                "tags": [
+                    "casa",
+                    "room-noise",
+                    "house",
+                    "rain",
+                    "water",
+                    "agua",
+                    "quarto",
+                    "bedroom",
+                    "chuva",
+                    "home",
+                    "wind",
+                    "vento"
+                ],
+                "duration": 315.265
+            }
+        ]
+    },
+    "castello_incantato": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "castello_140249__002_ Via Ponte sul Castello.mp3",
+                "name": "[002] Via Ponte sul Castello",
+                "id": 140249,
+                "tags": [
+                    "Trapani",
+                    "people",
+                    "leaves-rustling",
+                    "nature",
+                    "Castellammare-del-golfo",
+                    "sea",
+                    "waves"
+                ],
+                "duration": 312.465
+            },
+            {
+                "filename": "castello_774064_Copertino_Largo-Castello271124.mp3",
+                "name": "Copertino_Largo-Castello271124",
+                "id": 774064,
+                "tags": [
+                    "chatter",
+                    "general-noise",
+                    "atmosphere",
+                    "bells",
+                    "people",
+                    "atmo",
+                    "soundscape",
+                    "footsteps",
+                    "atmos",
+                    "outdoor",
+                    "ambient",
+                    "background-sound",
+                    "fountain",
+                    "background",
+                    "noise",
+                    "voices",
+                    "ambiance",
+                    "field-recording",
+                    "ambience"
+                ],
+                "duration": 209.482
+            },
+            {
+                "filename": "magia_471319_Magia.wav.mp3",
+                "name": "Magia.wav",
+                "id": 471319,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 8.47971
+            },
+            {
+                "filename": "magia_471321_Magia 2.wav.mp3",
+                "name": "Magia 2.wav",
+                "id": 471321,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 4.86
+            }
+        ]
+    },
+    "scuola": {
+        "direct_sounds": [
+            {
+                "filename": "scuola_171718_spmii-11nov12-1000.ogg.mp3",
+                "name": "spmii-11nov12-1000.ogg",
+                "id": 171718,
+                "tags": [
+                    "outdoor",
+                    "field-recording",
+                    "Bologna",
+                    "rain",
+                    "traffic",
+                    "soundscape"
+                ],
+                "duration": 199.139
+            },
+            {
+                "filename": "scuola_74353_12 giugno 09 spm ii 22 46.ogg.mp3",
+                "name": "12 giugno 09 spm ii 22 46.ogg",
+                "id": 74353,
+                "tags": [
+                    "outdoor",
+                    "Bologna",
+                    "spmii",
+                    "soundscape",
+                    "field-recording",
+                    "people",
+                    "crowd",
+                    "music",
+                    "ambience"
+                ],
+                "duration": 160.91
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "campanella_751154_Liszt - La Campanella - 6 Grandes Etudes de Paganini - S. 141_ No. 3 - Arranged for Solo Violin.mp3",
+                "name": "Liszt - La Campanella - 6 Grandes Etudes de Paganini - S. 141, No. 3 - Arranged for Solo Violin",
+                "id": 751154,
+                "tags": [
+                    "movie",
+                    "solo",
+                    "apprentice",
+                    "paganini",
+                    "history",
+                    "symphony",
+                    "historic",
+                    "dramatic",
+                    "soundtrack",
+                    "orchestral",
+                    "strings",
+                    "beautiful",
+                    "vivaldi",
+                    "symphonic",
+                    "orchestra",
+                    "trailer",
+                    "liszt",
+                    "film",
+                    "campanella",
+                    "epic",
+                    "violin",
+                    "scarlatti",
+                    "classical",
+                    "allegro",
+                    "concerto",
+                    "cinematic",
+                    "schubert"
+                ],
+                "duration": 246.282
+            },
+            {
+                "filename": "campanella_421960_School bell - Campanella scuola.aif.mp3",
+                "name": "School bell - Campanella scuola.aif",
+                "id": 421960,
+                "tags": [
+                    "school",
+                    "campanella",
+                    "ring",
+                    "bell"
+                ],
+                "duration": 24.0
+            }
+        ]
+    },
+    "scuola_di_magia": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "scuola_171718_spmii-11nov12-1000.ogg.mp3",
+                "name": "spmii-11nov12-1000.ogg",
+                "id": 171718,
+                "tags": [
+                    "outdoor",
+                    "field-recording",
+                    "Bologna",
+                    "rain",
+                    "traffic",
+                    "soundscape"
+                ],
+                "duration": 199.139
+            },
+            {
+                "filename": "scuola_74353_12 giugno 09 spm ii 22 46.ogg.mp3",
+                "name": "12 giugno 09 spm ii 22 46.ogg",
+                "id": 74353,
+                "tags": [
+                    "outdoor",
+                    "Bologna",
+                    "spmii",
+                    "soundscape",
+                    "field-recording",
+                    "people",
+                    "crowd",
+                    "music",
+                    "ambience"
+                ],
+                "duration": 160.91
+            },
+            {
+                "filename": "magia_471319_Magia.wav.mp3",
+                "name": "Magia.wav",
+                "id": 471319,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 8.47971
+            },
+            {
+                "filename": "magia_471321_Magia 2.wav.mp3",
+                "name": "Magia 2.wav",
+                "id": 471321,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 4.86
+            }
+        ]
+    },
+    "casa": {
+        "direct_sounds": [
+            {
+                "filename": "casa_665916_Marreta de ferro na parede de casa _ Iron sledgehammer on the house wall.mp3",
+                "name": "Marreta de ferro na parede de casa | Iron sledgehammer on the house wall",
+                "id": 665916,
+                "tags": [
+                    "acontecimento",
+                    "marreta",
+                    "casa",
+                    "cracking",
+                    "sledgehammer",
+                    "parede",
+                    "wall",
+                    "house",
+                    "work",
+                    "ferro",
+                    "quebrando",
+                    "iron",
+                    "action",
+                    "trabalho"
+                ],
+                "duration": 129.74
+            },
+            {
+                "filename": "casa_666229_Chuva no quarto de casa _ Rain in the bedroom.mp3",
+                "name": "Chuva no quarto de casa | Rain in the bedroom",
+                "id": 666229,
+                "tags": [
+                    "casa",
+                    "house",
+                    "rain",
+                    "water",
+                    "agua",
+                    "quarto",
+                    "bedroom",
+                    "chuva",
+                    "home"
+                ],
+                "duration": 497.231
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "passi_651509_Female heels on night.mp3",
+                "name": "Female heels on night",
+                "id": 651509,
+                "tags": [
+                    "heels",
+                    "tacchi",
+                    "footsteps",
+                    "passi",
+                    "field-recording"
+                ],
+                "duration": 59.2427
+            },
+            {
+                "filename": "passi_426413_annette_04_messaggio_passi_forte_ubrec.aif.mp3",
+                "name": "annette_04_messaggio_passi_forte_ubrec.aif",
+                "id": 426413,
+                "tags": [
+                    "antimilitarism",
+                    "anti-militarism",
+                    "activism",
+                    "aporia",
+                    "sardegna",
+                    "sardinia",
+                    "against-military-occupation",
+                    "ubrec",
+                    "experimental",
+                    "sound-activist"
+                ],
+                "duration": 7.62
+            },
+            {
+                "filename": "conversazioni_351923_Aperitivo Alvino.WAV.mp3",
+                "name": "Aperitivo Alvino.WAV",
+                "id": 351923,
+                "tags": [
+                    "summer",
+                    "Sant",
+                    "general-noise",
+                    "Gallipoli",
+                    "cocktail",
+                    "Lecce",
+                    "Oronzo",
+                    "ambiance",
+                    "dinner",
+                    "chat",
+                    "estate",
+                    "Alvino",
+                    "chatter",
+                    "aperitivo",
+                    "piazza"
+                ],
+                "duration": 28.0495
+            },
+            {
+                "filename": "conversazioni_371892_Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV.mp3",
+                "name": "Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV",
+                "id": 371892,
+                "tags": [
+                    "nuove",
+                    "scale",
+                    "Gallipoli",
+                    "Agosto",
+                    "dips",
+                    "apulia",
+                    "tuffi"
+                ],
+                "duration": 113.127
+            }
+        ]
+    },
+    "sala": {
+        "direct_sounds": [
+            {
+                "filename": "sala_710586_sala by kani karaca.mp3",
+                "name": "sala by kani karaca",
+                "id": 710586,
+                "tags": [
+                    "muezzin",
+                    "sala",
+                    "istanbul",
+                    "prayer",
+                    "mosque",
+                    "call-to-prayer",
+                    "islam"
+                ],
+                "duration": 278.805
+            },
+            {
+                "filename": "sala_538886_Roomtone_Sala_G5.mp3",
+                "name": "Roomtone_Sala_G5",
+                "id": 538886,
+                "tags": [
+                    "Sala",
+                    "Roomtone",
+                    "Electret"
+                ],
+                "duration": 120.0
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "conversazioni_351923_Aperitivo Alvino.WAV.mp3",
+                "name": "Aperitivo Alvino.WAV",
+                "id": 351923,
+                "tags": [
+                    "summer",
+                    "Sant",
+                    "general-noise",
+                    "Gallipoli",
+                    "cocktail",
+                    "Lecce",
+                    "Oronzo",
+                    "ambiance",
+                    "dinner",
+                    "chat",
+                    "estate",
+                    "Alvino",
+                    "chatter",
+                    "aperitivo",
+                    "piazza"
+                ],
+                "duration": 28.0495
+            },
+            {
+                "filename": "conversazioni_371892_Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV.mp3",
+                "name": "Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV",
+                "id": 371892,
+                "tags": [
+                    "nuove",
+                    "scale",
+                    "Gallipoli",
+                    "Agosto",
+                    "dips",
+                    "apulia",
+                    "tuffi"
+                ],
+                "duration": 113.127
+            },
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            }
+        ]
+    },
+    "sala_magica": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "sala_710586_sala by kani karaca.mp3",
+                "name": "sala by kani karaca",
+                "id": 710586,
+                "tags": [
+                    "muezzin",
+                    "sala",
+                    "istanbul",
+                    "prayer",
+                    "mosque",
+                    "call-to-prayer",
+                    "islam"
+                ],
+                "duration": 278.805
+            },
+            {
+                "filename": "sala_538886_Roomtone_Sala_G5.mp3",
+                "name": "Roomtone_Sala_G5",
+                "id": 538886,
+                "tags": [
+                    "Sala",
+                    "Roomtone",
+                    "Electret"
+                ],
+                "duration": 120.0
+            },
+            {
+                "filename": "magia_471319_Magia.wav.mp3",
+                "name": "Magia.wav",
+                "id": 471319,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 8.47971
+            },
+            {
+                "filename": "magia_471321_Magia 2.wav.mp3",
+                "name": "Magia 2.wav",
+                "id": 471321,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 4.86
+            }
+        ]
+    },
+    "biblioteca": {
+        "direct_sounds": [
+            {
+                "filename": "biblioteca_277003_04b Pere i el llop.wav.mp3",
+                "name": "04b Pere i el llop.wav",
+                "id": 277003,
+                "tags": [
+                    "barcelonetasonora",
+                    "field-recording",
+                    "catalan",
+                    "biblioteca",
+                    "speech",
+                    "reading",
+                    "child",
+                    "voice",
+                    "children"
+                ],
+                "duration": 10.8297
+            },
+            {
+                "filename": "biblioteca_277004_03 Pere i el llop.wav.mp3",
+                "name": "03 Pere i el llop.wav",
+                "id": 277004,
+                "tags": [
+                    "barcelonetasonora",
+                    "field-recording",
+                    "catalan",
+                    "biblioteca",
+                    "speech",
+                    "reading",
+                    "child",
+                    "voice",
+                    "children"
+                ],
+                "duration": 15.6312
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "silenzio_201883_Silence.mp3",
+                "name": "Silence",
+                "id": 201883,
+                "tags": [
+                    "field-recording",
+                    "paesaggio-sonoro",
+                    "silenzio",
+                    "soundmap",
+                    "mappa-sonora",
+                    "soundscape",
+                    "silence"
+                ],
+                "duration": 1.63372
+            },
+            {
+                "filename": "silenzio_181114_Gallipoli settimana santa troccola e tromba.mp3.mp3",
+                "name": "Gallipoli settimana santa troccola e tromba.mp3",
+                "id": 181114,
+                "tags": [
+                    "Week",
+                    "outdoor",
+                    "field-recording",
+                    "Gallipoli",
+                    "soundscapeambience",
+                    "chatter",
+                    "trozzola",
+                    "Comments",
+                    "Holy",
+                    "peoplefootsteps",
+                    "Easter",
+                    "trumpet"
+                ],
+                "duration": 78.9823
+            },
+            {
+                "filename": "pagine_537267_tracing paper.mp3.mp3",
+                "name": "tracing paper.mp3",
+                "id": 537267,
+                "tags": [
+                    "read",
+                    "fingers",
+                    "pages",
+                    "pagine",
+                    "book",
+                    "paper",
+                    "dita",
+                    "carta",
+                    "reading",
+                    "libro"
+                ],
+                "duration": 100.609
+            },
+            {
+                "filename": "pagine_583327_Com sonen les pagines d_un llibre_.mp3",
+                "name": "Com sonen les pagines d'un llibre?",
+                "id": 583327,
+                "tags": [
+                    "field-recording",
+                    "question",
+                    "library",
+                    "bibliocasals",
+                    "sonsdebarcelona",
+                    "voice",
+                    "children"
+                ],
+                "duration": 4.69005
+            }
+        ]
+    },
+    "biblioteca_proibita": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "biblioteca_277003_04b Pere i el llop.wav.mp3",
+                "name": "04b Pere i el llop.wav",
+                "id": 277003,
+                "tags": [
+                    "barcelonetasonora",
+                    "field-recording",
+                    "catalan",
+                    "biblioteca",
+                    "speech",
+                    "reading",
+                    "child",
+                    "voice",
+                    "children"
+                ],
+                "duration": 10.8297
+            },
+            {
+                "filename": "biblioteca_277004_03 Pere i el llop.wav.mp3",
+                "name": "03 Pere i el llop.wav",
+                "id": 277004,
+                "tags": [
+                    "barcelonetasonora",
+                    "field-recording",
+                    "catalan",
+                    "biblioteca",
+                    "speech",
+                    "reading",
+                    "child",
+                    "voice",
+                    "children"
+                ],
+                "duration": 15.6312
+            }
+        ]
+    },
+    "dormitorio": {
+        "direct_sounds": [
+            {
+                "filename": "dormitorio_364099_sonido sabana moviendose.mp3.mp3",
+                "name": "sonido sabana moviendose.mp3",
+                "id": 364099,
+                "tags": [
+                    "sound",
+                    "efects",
+                    "free",
+                    "blanquet",
+                    "movement"
+                ],
+                "duration": 12.4343
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "russare_72215_russare.MP3.mp3",
+                "name": "russare.MP3",
+                "id": 72215,
+                "tags": [
+                    "snore"
+                ],
+                "duration": 68.3243
+            },
+            {
+                "filename": "passi_651509_Female heels on night.mp3",
+                "name": "Female heels on night",
+                "id": 651509,
+                "tags": [
+                    "heels",
+                    "tacchi",
+                    "footsteps",
+                    "passi",
+                    "field-recording"
+                ],
+                "duration": 59.2427
+            },
+            {
+                "filename": "passi_426413_annette_04_messaggio_passi_forte_ubrec.aif.mp3",
+                "name": "annette_04_messaggio_passi_forte_ubrec.aif",
+                "id": 426413,
+                "tags": [
+                    "antimilitarism",
+                    "anti-militarism",
+                    "activism",
+                    "aporia",
+                    "sardegna",
+                    "sardinia",
+                    "against-military-occupation",
+                    "ubrec",
+                    "experimental",
+                    "sound-activist"
+                ],
+                "duration": 7.62
+            }
+        ]
+    },
+    "cucina": {
+        "direct_sounds": [
+            {
+                "filename": "cucina_537265_boiling pot .mp3.mp3",
+                "name": "boiling pot .mp3",
+                "id": 537265,
+                "tags": [
+                    "cucina",
+                    "pot",
+                    "bollire",
+                    "boil",
+                    "kitchen"
+                ],
+                "duration": 34.141
+            },
+            {
+                "filename": "cucina_697823_rome_pigneto_skyline_viewpoint_from_the_kitchen_balcony.WAV.mp3",
+                "name": "rome_pigneto_skyline_viewpoint_from_the_kitchen_balcony.WAV",
+                "id": 697823,
+                "tags": [
+                    "rome",
+                    "people",
+                    "field-recording",
+                    "trains",
+                    "italy",
+                    "town",
+                    "traffic",
+                    "city",
+                    "metropolis",
+                    "cars",
+                    "citta",
+                    "skyline",
+                    "liminale",
+                    "pigneto",
+                    "metropoli",
+                    "rione",
+                    "liminal",
+                    "roma",
+                    "metro"
+                ],
+                "duration": 379.397
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "conversazioni_351923_Aperitivo Alvino.WAV.mp3",
+                "name": "Aperitivo Alvino.WAV",
+                "id": 351923,
+                "tags": [
+                    "summer",
+                    "Sant",
+                    "general-noise",
+                    "Gallipoli",
+                    "cocktail",
+                    "Lecce",
+                    "Oronzo",
+                    "ambiance",
+                    "dinner",
+                    "chat",
+                    "estate",
+                    "Alvino",
+                    "chatter",
+                    "aperitivo",
+                    "piazza"
+                ],
+                "duration": 28.0495
+            },
+            {
+                "filename": "conversazioni_371892_Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV.mp3",
+                "name": "Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV",
+                "id": 371892,
+                "tags": [
+                    "nuove",
+                    "scale",
+                    "Gallipoli",
+                    "Agosto",
+                    "dips",
+                    "apulia",
+                    "tuffi"
+                ],
+                "duration": 113.127
+            }
+        ]
+    },
+    "aula": {
+        "direct_sounds": [
+            {
+                "filename": "aula_193479_1_Tem_que_ser_voce_vitor_leo.ogg.mp3",
+                "name": "1_Tem_que_ser_voce_vitor_leo.ogg",
+                "id": 193479,
+                "tags": [
+                    "Cristiano",
+                    "cio",
+                    "Aula",
+                    "Exerc",
+                    "Figuer",
+                    "com"
+                ],
+                "duration": 120.545
+            },
+            {
+                "filename": "aula_486645_barulho na aula.mp3",
+                "name": "barulho na aula",
+                "id": 486645,
+                "tags": [
+                    "classroom",
+                    "barulho",
+                    "aula"
+                ],
+                "duration": 99.528
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "studenti_189636_Scontri-Polizia-Studenti-PzzaVerdi-270513.mp3.mp3",
+                "name": "Scontri-Polizia-Studenti-PzzaVerdi-270513.mp3",
+                "id": 189636,
+                "tags": [
+                    "noise",
+                    "police",
+                    "field-recording",
+                    "crowd",
+                    "people",
+                    "Bologna",
+                    "fight",
+                    "shouts",
+                    "outdoor",
+                    "yell",
+                    "soundscape"
+                ],
+                "duration": 311.368
+            }
+        ]
+    },
+    "aula_magica": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "aula_193479_1_Tem_que_ser_voce_vitor_leo.ogg.mp3",
+                "name": "1_Tem_que_ser_voce_vitor_leo.ogg",
+                "id": 193479,
+                "tags": [
+                    "Cristiano",
+                    "cio",
+                    "Aula",
+                    "Exerc",
+                    "Figuer",
+                    "com"
+                ],
+                "duration": 120.545
+            },
+            {
+                "filename": "aula_486645_barulho na aula.mp3",
+                "name": "barulho na aula",
+                "id": 486645,
+                "tags": [
+                    "classroom",
+                    "barulho",
+                    "aula"
+                ],
+                "duration": 99.528
+            },
+            {
+                "filename": "magia_471319_Magia.wav.mp3",
+                "name": "Magia.wav",
+                "id": 471319,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 8.47971
+            },
+            {
+                "filename": "magia_471321_Magia 2.wav.mp3",
+                "name": "Magia 2.wav",
+                "id": 471321,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 4.86
+            }
+        ]
+    },
+    "ufficio": {
+        "direct_sounds": [],
+        "base_sounds": []
+    },
+    "sotterraneo": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            }
+        ]
+    },
+    "negozio": {
+        "direct_sounds": [
+            {
+                "filename": "negozio_14527_0403201223_entrata-passaggio-uscita da un negozio.wav.mp3",
+                "name": "0403201223_entrata-passaggio-uscita da un negozio.wav",
+                "id": 14527,
+                "tags": [
+                    "shop",
+                    "street",
+                    "loudspeaker",
+                    "music",
+                    "field-recording",
+                    "loudspeaker-music",
+                    "florence",
+                    "firenze"
+                ],
+                "duration": 31.7055
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "clienti_352373_Suoni di Gallipoli - Mercato del pesce ferragosto.WAV.mp3",
+                "name": "Suoni di Gallipoli - Mercato del pesce ferragosto.WAV",
+                "id": 352373,
+                "tags": [
+                    "mediterranian",
+                    "fish-market",
+                    "Italy",
+                    "tourist",
+                    "Gallipoli",
+                    "people",
+                    "salento",
+                    "town",
+                    "street",
+                    "field-recording"
+                ],
+                "duration": 121.208
+            },
+            {
+                "filename": "cassa_369512_Prague Main railway station.mp3",
+                "name": "Prague Main railway station",
+                "id": 369512,
+                "tags": [
+                    "city",
+                    "train",
+                    "field-recording",
+                    "people",
+                    "czech",
+                    "father",
+                    "Prague",
+                    "mother",
+                    "ambiance",
+                    "cassa",
+                    "station",
+                    "radio",
+                    "child",
+                    "communication",
+                    "railway",
+                    "2016",
+                    "talk"
+                ],
+                "duration": 929.695
+            },
+            {
+                "filename": "cassa_264978_Choir Clip _In Latin_.mp3",
+                "name": "Choir Clip (In Latin)",
+                "id": 264978,
+                "tags": [
+                    "Choir",
+                    "Dry",
+                    "Latin",
+                    "Singing"
+                ],
+                "duration": 26.3276
+            },
+            {
+                "filename": "conversazioni_351923_Aperitivo Alvino.WAV.mp3",
+                "name": "Aperitivo Alvino.WAV",
+                "id": 351923,
+                "tags": [
+                    "summer",
+                    "Sant",
+                    "general-noise",
+                    "Gallipoli",
+                    "cocktail",
+                    "Lecce",
+                    "Oronzo",
+                    "ambiance",
+                    "dinner",
+                    "chat",
+                    "estate",
+                    "Alvino",
+                    "chatter",
+                    "aperitivo",
+                    "piazza"
+                ],
+                "duration": 28.0495
+            },
+            {
+                "filename": "conversazioni_371892_Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV.mp3",
+                "name": "Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV",
+                "id": 371892,
+                "tags": [
+                    "nuove",
+                    "scale",
+                    "Gallipoli",
+                    "Agosto",
+                    "dips",
+                    "apulia",
+                    "tuffi"
+                ],
+                "duration": 113.127
+            }
+        ]
+    },
+    "negozio_magico": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "negozio_14527_0403201223_entrata-passaggio-uscita da un negozio.wav.mp3",
+                "name": "0403201223_entrata-passaggio-uscita da un negozio.wav",
+                "id": 14527,
+                "tags": [
+                    "shop",
+                    "street",
+                    "loudspeaker",
+                    "music",
+                    "field-recording",
+                    "loudspeaker-music",
+                    "florence",
+                    "firenze"
+                ],
+                "duration": 31.7055
+            },
+            {
+                "filename": "magia_471319_Magia.wav.mp3",
+                "name": "Magia.wav",
+                "id": 471319,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 8.47971
+            },
+            {
+                "filename": "magia_471321_Magia 2.wav.mp3",
+                "name": "Magia 2.wav",
+                "id": 471321,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 4.86
+            }
+        ]
+    },
+    "pub": {
+        "direct_sounds": [
+            {
+                "filename": "pub_150336_atmosphere in the pub.wav.mp3",
+                "name": "atmosphere in the pub.wav",
+                "id": 150336,
+                "tags": [
+                    "2012",
+                    "drink",
+                    "eat",
+                    "atmosphere",
+                    "evening",
+                    "restorant",
+                    "people",
+                    "russian-language",
+                    "russian-speech",
+                    "background-music",
+                    "pub",
+                    "people-speak",
+                    "beer",
+                    "noise",
+                    "rest",
+                    "friends-company",
+                    "ambient",
+                    "russian",
+                    "party",
+                    "laughter",
+                    "speak"
+                ],
+                "duration": 332.6
+            },
+            {
+                "filename": "pub_636041_Colombian_Pub_Coffee_Bar_Quad.wav.mp3",
+                "name": "Colombian_Pub_Coffee_Bar_Quad.wav",
+                "id": 636041,
+                "tags": [
+                    "Walla",
+                    "Coffee",
+                    "Bar",
+                    "Pub",
+                    "Machine",
+                    "Ambience",
+                    "Crowds",
+                    "ChillMusic"
+                ],
+                "duration": 240.0
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "musica_494301_musica recorrido1_SIBGA.wav.mp3",
+                "name": "musica recorrido1_SIBGA.wav",
+                "id": 494301,
+                "tags": [
+                    "Santander",
+                    "Parque",
+                    "Musica",
+                    "Bucaramanga"
+                ],
+                "duration": 8.93415
+            },
+            {
+                "filename": "musica_494235_gimnasio musica1_SIBGA.wav.mp3",
+                "name": "gimnasio musica1_SIBGA.wav",
+                "id": 494235,
+                "tags": [
+                    "Parque",
+                    "Flora",
+                    "Musica",
+                    "Bucaramanga",
+                    "La"
+                ],
+                "duration": 7.10673
+            }
+        ]
+    },
+    "pub_magico": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "pub_150336_atmosphere in the pub.wav.mp3",
+                "name": "atmosphere in the pub.wav",
+                "id": 150336,
+                "tags": [
+                    "2012",
+                    "drink",
+                    "eat",
+                    "atmosphere",
+                    "evening",
+                    "restorant",
+                    "people",
+                    "russian-language",
+                    "russian-speech",
+                    "background-music",
+                    "pub",
+                    "people-speak",
+                    "beer",
+                    "noise",
+                    "rest",
+                    "friends-company",
+                    "ambient",
+                    "russian",
+                    "party",
+                    "laughter",
+                    "speak"
+                ],
+                "duration": 332.6
+            },
+            {
+                "filename": "pub_636041_Colombian_Pub_Coffee_Bar_Quad.wav.mp3",
+                "name": "Colombian_Pub_Coffee_Bar_Quad.wav",
+                "id": 636041,
+                "tags": [
+                    "Walla",
+                    "Coffee",
+                    "Bar",
+                    "Pub",
+                    "Machine",
+                    "Ambience",
+                    "Crowds",
+                    "ChillMusic"
+                ],
+                "duration": 240.0
+            }
+        ]
+    },
+    "taverna": {
+        "direct_sounds": [
+            {
+                "filename": "taverna_41876_GreekTaverna.mp3.mp3",
+                "name": "GreekTaverna.mp3",
+                "id": 41876,
+                "tags": [
+                    "ambience",
+                    "greece",
+                    "greek",
+                    "restauirant",
+                    "taverna",
+                    "plates",
+                    "clatter",
+                    "music"
+                ],
+                "duration": 325.16
+            },
+            {
+                "filename": "taverna_553168_Music in Greek taverna.mp3",
+                "name": "Music in Greek taverna",
+                "id": 553168,
+                "tags": [
+                    "guitar",
+                    "culture",
+                    "song",
+                    "taverna",
+                    "traditional",
+                    "Greek",
+                    "folk",
+                    "Greece",
+                    "singing",
+                    "people"
+                ],
+                "duration": 167.46
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "pub_150336_atmosphere in the pub.wav.mp3",
+                "name": "atmosphere in the pub.wav",
+                "id": 150336,
+                "tags": [
+                    "2012",
+                    "drink",
+                    "eat",
+                    "atmosphere",
+                    "evening",
+                    "restorant",
+                    "people",
+                    "russian-language",
+                    "russian-speech",
+                    "background-music",
+                    "pub",
+                    "people-speak",
+                    "beer",
+                    "noise",
+                    "rest",
+                    "friends-company",
+                    "ambient",
+                    "russian",
+                    "party",
+                    "laughter",
+                    "speak"
+                ],
+                "duration": 332.6
+            },
+            {
+                "filename": "pub_636041_Colombian_Pub_Coffee_Bar_Quad.wav.mp3",
+                "name": "Colombian_Pub_Coffee_Bar_Quad.wav",
+                "id": 636041,
+                "tags": [
+                    "Walla",
+                    "Coffee",
+                    "Bar",
+                    "Pub",
+                    "Machine",
+                    "Ambience",
+                    "Crowds",
+                    "ChillMusic"
+                ],
+                "duration": 240.0
+            }
+        ]
+    },
+    "ospedale": {
+        "direct_sounds": [
+            {
+                "filename": "ospedale_524359_Milano - Quarantena - ambulanza verso ospedale Sacco - tardo pomeriggio - 060420.mp3.mp3",
+                "name": "Milano - Quarantena - ambulanza verso ospedale Sacco - tardo pomeriggio - 060420.mp3",
+                "id": 524359,
+                "tags": [
+                    "ambience",
+                    "soundscape",
+                    "field-recording"
+                ],
+                "duration": 120.047
+            }
+        ],
+        "base_sounds": []
+    },
+    "ospedale_magico": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "ospedale_524359_Milano - Quarantena - ambulanza verso ospedale Sacco - tardo pomeriggio - 060420.mp3.mp3",
+                "name": "Milano - Quarantena - ambulanza verso ospedale Sacco - tardo pomeriggio - 060420.mp3",
+                "id": 524359,
+                "tags": [
+                    "ambience",
+                    "soundscape",
+                    "field-recording"
+                ],
+                "duration": 120.047
+            }
+        ]
+    },
+    "torre": {
+        "direct_sounds": [
+            {
+                "filename": "torre_77010_09-07-13_1900_Bells of Torre dos Clérigos _short_.WAV.mp3",
+                "name": "09-07-13_1900_Bells of Torre dos Clérigos (short).WAV",
+                "id": 77010,
+                "tags": [
+                    "field-recording",
+                    "florian",
+                    "digitopia",
+                    "porto",
+                    "portugal",
+                    "city",
+                    "portuguese",
+                    "church",
+                    "torre",
+                    "dos",
+                    "clerigos",
+                    "street",
+                    "bell"
+                ],
+                "duration": 30.4602
+            },
+            {
+                "filename": "torre_147155_Málaga_Busstation_Melding_vertrek_bus naar_Alhaurin de la Torre_010212.mp3.mp3",
+                "name": "Málaga_Busstation_Melding_vertrek_bus naar_Alhaurin de la Torre_010212.mp3",
+                "id": 147155,
+                "tags": [
+                    "announcement",
+                    "la",
+                    "bus",
+                    "alhaurin",
+                    "de",
+                    "busstation",
+                    "mlaga",
+                    "automated",
+                    "torre"
+                ],
+                "duration": 9.96678
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "vento_666223_Chuva forte no pátio de casa com vento _ Heavy rain in the backyard with wind.mp3",
+                "name": "Chuva forte no pátio de casa com vento | Heavy rain in the backyard with wind",
+                "id": 666223,
+                "tags": [
+                    "outdoor",
+                    "vento",
+                    "cars",
+                    "toro",
+                    "rua",
+                    "agua",
+                    "rain",
+                    "water",
+                    "forte",
+                    "street",
+                    "carros",
+                    "heavy-rain",
+                    "chuva",
+                    "wind"
+                ],
+                "duration": 481.709
+            },
+            {
+                "filename": "vento_666228_Chuva no quarto de casa com vento _ Rain in the bedroom with wind.mp3",
+                "name": "Chuva no quarto de casa com vento | Rain in the bedroom with wind",
+                "id": 666228,
+                "tags": [
+                    "casa",
+                    "room-noise",
+                    "house",
+                    "rain",
+                    "water",
+                    "agua",
+                    "quarto",
+                    "bedroom",
+                    "chuva",
+                    "home",
+                    "wind",
+                    "vento"
+                ],
+                "duration": 315.265
+            },
+            {
+                "filename": "altezza_768640_Toyota Altezza Lexus IS200 1G-FE Cold Start Idle Loop.mp3",
+                "name": "Toyota Altezza Lexus IS200 1G-FE Cold Start Idle Loop",
+                "id": 768640,
+                "tags": [
+                    "IS200",
+                    "Toyota",
+                    "AS200",
+                    "start",
+                    "loop",
+                    "Engine",
+                    "Altezza",
+                    "Lexus",
+                    "1G-FE",
+                    "cold",
+                    "RS200",
+                    "idle"
+                ],
+                "duration": 4.02631
+            },
+            {
+                "filename": "altezza_768642_Toyota Altezza Lexus IS200 1G-FE Cold Start.mp3",
+                "name": "Toyota Altezza Lexus IS200 1G-FE Cold Start",
+                "id": 768642,
+                "tags": [
+                    "cranking",
+                    "starting",
+                    "1gfe",
+                    "altezza",
+                    "is200",
+                    "as200",
+                    "toyota",
+                    "start",
+                    "lexus",
+                    "turn",
+                    "crank",
+                    "cold",
+                    "1g-fe",
+                    "engine",
+                    "rs200"
+                ],
+                "duration": 8.66775
+            },
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            }
+        ]
+    },
+    "prigione": {
+        "direct_sounds": [
+            {
+                "filename": "prigione_191095_chiavistello.wav.mp3",
+                "name": "chiavistello.wav",
+                "id": 191095,
+                "tags": [
+                    "door",
+                    "lemurate",
+                    "vecchiaprigione",
+                    "firenze",
+                    "carcere",
+                    "porta",
+                    "bolt",
+                    "prison",
+                    "latch",
+                    "oldjail",
+                    "prigione"
+                ],
+                "duration": 3.99379
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            }
+        ]
+    },
+    "carcere_magico": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "prigione_191095_chiavistello.wav.mp3",
+                "name": "chiavistello.wav",
+                "id": 191095,
+                "tags": [
+                    "door",
+                    "lemurate",
+                    "vecchiaprigione",
+                    "firenze",
+                    "carcere",
+                    "porta",
+                    "bolt",
+                    "prison",
+                    "latch",
+                    "oldjail",
+                    "prigione"
+                ],
+                "duration": 3.99379
+            }
+        ]
+    },
+    "capanna": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "fuoco_151926_Accendino.wav.mp3",
+                "name": "Accendino.wav",
+                "id": 151926,
+                "tags": [
+                    "spunk",
+                    "accendino",
+                    "fire",
+                    "cigarette-lighter",
+                    "fuoco"
+                ],
+                "duration": 1.72769
+            },
+            {
+                "filename": "fuoco_329335_Fire in fireplace.mp3",
+                "name": "Fire in fireplace",
+                "id": 329335,
+                "tags": [
+                    "fire",
+                    "fireplace",
+                    "fuoco",
+                    "caminetto",
+                    "fuego"
+                ],
+                "duration": 136.608
+            },
+            {
+                "filename": "vento_666223_Chuva forte no pátio de casa com vento _ Heavy rain in the backyard with wind.mp3",
+                "name": "Chuva forte no pátio de casa com vento | Heavy rain in the backyard with wind",
+                "id": 666223,
+                "tags": [
+                    "outdoor",
+                    "vento",
+                    "cars",
+                    "toro",
+                    "rua",
+                    "agua",
+                    "rain",
+                    "water",
+                    "forte",
+                    "street",
+                    "carros",
+                    "heavy-rain",
+                    "chuva",
+                    "wind"
+                ],
+                "duration": 481.709
+            },
+            {
+                "filename": "vento_666228_Chuva no quarto de casa com vento _ Rain in the bedroom with wind.mp3",
+                "name": "Chuva no quarto de casa com vento | Rain in the bedroom with wind",
+                "id": 666228,
+                "tags": [
+                    "casa",
+                    "room-noise",
+                    "house",
+                    "rain",
+                    "water",
+                    "agua",
+                    "quarto",
+                    "bedroom",
+                    "chuva",
+                    "home",
+                    "wind",
+                    "vento"
+                ],
+                "duration": 315.265
+            }
+        ]
+    },
+    "tana": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "animali_426348_veronica_12_ci_avete_rotto_i_colori_ubrec.aif.mp3",
+                "name": "veronica_12_ci_avete_rotto_i_colori_ubrec.aif",
+                "id": 426348,
+                "tags": [
+                    "oltre-l-aporia",
+                    "veronica",
+                    "ci",
+                    "colori",
+                    "avete",
+                    "rotto",
+                    "ubrec"
+                ],
+                "duration": 24.32
+            },
+            {
+                "filename": "animali_621239_i miei animali domestici.mp3.mp3",
+                "name": "i miei animali domestici.mp3",
+                "id": 621239,
+                "tags": [
+                    "growling",
+                    "growl",
+                    "animals",
+                    "barking",
+                    "parrot",
+                    "pet",
+                    "angry",
+                    "dog",
+                    "animal",
+                    "bark",
+                    "pets"
+                ],
+                "duration": 5191.1
+            }
+        ]
+    },
+    "parco": {
+        "direct_sounds": [
+            {
+                "filename": "parco_351926_Cicala Parco.WAV.mp3",
+                "name": "Cicala Parco.WAV",
+                "id": 351926,
+                "tags": [
+                    "field-recording",
+                    "gallipoli",
+                    "parco",
+                    "park",
+                    "cicada",
+                    "ambience",
+                    "cicala"
+                ],
+                "duration": 101.889
+            },
+            {
+                "filename": "parco_397287_E in mezzo il mare 2017 spiaggia di lido Pizzo.mp3",
+                "name": "E in mezzo il mare 2017 spiaggia di lido Pizzo",
+                "id": 397287,
+                "tags": [
+                    "Suoni",
+                    "Paseggiata",
+                    "Gallipoli",
+                    "people",
+                    "Parco",
+                    "spiaggia",
+                    "Pizzo",
+                    "sea",
+                    "ambient",
+                    "soundscape",
+                    "Punta",
+                    "Fabio",
+                    "Iaci",
+                    "Sonora",
+                    "field-recording",
+                    "di",
+                    "sounday",
+                    "Mancino",
+                    "Ilaria",
+                    "Salento",
+                    "Manna",
+                    "Maurizio"
+                ],
+                "duration": 153.585
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "natura_403143_night _ frog and birds _ soft night wind.mp3",
+                "name": "night : frog and birds / soft night wind",
+                "id": 403143,
+                "tags": [
+                    "natura",
+                    "frog",
+                    "birds",
+                    "night",
+                    "bird",
+                    "wind"
+                ],
+                "duration": 424.0
+            },
+            {
+                "filename": "natura_403127_nature garden _ light urban _ distance water _ 20min.mp3",
+                "name": "nature garden / light urban , distance water / 20min",
+                "id": 403127,
+                "tags": [
+                    "ambience",
+                    "natura",
+                    "garden"
+                ],
+                "duration": 1249.91
+            },
+            {
+                "filename": "conversazioni_351923_Aperitivo Alvino.WAV.mp3",
+                "name": "Aperitivo Alvino.WAV",
+                "id": 351923,
+                "tags": [
+                    "summer",
+                    "Sant",
+                    "general-noise",
+                    "Gallipoli",
+                    "cocktail",
+                    "Lecce",
+                    "Oronzo",
+                    "ambiance",
+                    "dinner",
+                    "chat",
+                    "estate",
+                    "Alvino",
+                    "chatter",
+                    "aperitivo",
+                    "piazza"
+                ],
+                "duration": 28.0495
+            },
+            {
+                "filename": "conversazioni_371892_Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV.mp3",
+                "name": "Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV",
+                "id": 371892,
+                "tags": [
+                    "nuove",
+                    "scale",
+                    "Gallipoli",
+                    "Agosto",
+                    "dips",
+                    "apulia",
+                    "tuffi"
+                ],
+                "duration": 113.127
+            },
+            {
+                "filename": "bambini_426348_veronica_12_ci_avete_rotto_i_colori_ubrec.aif.mp3",
+                "name": "veronica_12_ci_avete_rotto_i_colori_ubrec.aif",
+                "id": 426348,
+                "tags": [
+                    "oltre-l-aporia",
+                    "veronica",
+                    "ci",
+                    "colori",
+                    "avete",
+                    "rotto",
+                    "ubrec"
+                ],
+                "duration": 24.32
+            },
+            {
+                "filename": "bambini_699018_garibaldi_liminal_place.WAV.mp3",
+                "name": "garibaldi_liminal_place.WAV",
+                "id": 699018,
+                "tags": [
+                    "sinister",
+                    "dark",
+                    "naples",
+                    "liminal",
+                    "ambience",
+                    "creepy",
+                    "atmosphere",
+                    "suspense",
+                    "drone",
+                    "napoli",
+                    "reverb",
+                    "ambient",
+                    "liminale",
+                    "garibaldi",
+                    "children",
+                    "subway",
+                    "deep",
+                    "carpet"
+                ],
+                "duration": 322.64
+            }
+        ]
+    },
+    "giardino": {
+        "direct_sounds": [
+            {
+                "filename": "giardino_740723_Entrata_C.mp3",
+                "name": "Entrata_C",
+                "id": 740723,
+                "tags": [
+                    "bologna",
+                    "jakobgille",
+                    "giardino"
+                ],
+                "duration": 180.0
+            },
+            {
+                "filename": "giardino_740724_Entrata_C_Retune.mp3",
+                "name": "Entrata_C_Retune",
+                "id": 740724,
+                "tags": [
+                    "bologna",
+                    "jakobgille",
+                    "giardino"
+                ],
+                "duration": 180.0
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "uccelli_393804_Swallow.mp3",
+                "name": "Swallow",
+                "id": 393804,
+                "tags": [
+                    "rondine",
+                    "field-recording",
+                    "nature",
+                    "birds",
+                    "uccelli",
+                    "swallow",
+                    "bird",
+                    "birdsong"
+                ],
+                "duration": 170.899
+            },
+            {
+                "filename": "uccelli_647907_Primavera a Ponte a Mensola 2022.wav.mp3",
+                "name": "Primavera a Ponte a Mensola 2022.wav",
+                "id": 647907,
+                "tags": [
+                    "school",
+                    "field-recording",
+                    "nature",
+                    "springtime",
+                    "ambient",
+                    "ambience",
+                    "birds"
+                ],
+                "duration": 674.99
+            },
+            {
+                "filename": "natura_403143_night _ frog and birds _ soft night wind.mp3",
+                "name": "night : frog and birds / soft night wind",
+                "id": 403143,
+                "tags": [
+                    "natura",
+                    "frog",
+                    "birds",
+                    "night",
+                    "bird",
+                    "wind"
+                ],
+                "duration": 424.0
+            },
+            {
+                "filename": "natura_403127_nature garden _ light urban _ distance water _ 20min.mp3",
+                "name": "nature garden / light urban , distance water / 20min",
+                "id": 403127,
+                "tags": [
+                    "ambience",
+                    "natura",
+                    "garden"
+                ],
+                "duration": 1249.91
+            },
+            {
+                "filename": "insetti_577263_Mountain Soundscape.wav.mp3",
+                "name": "Mountain Soundscape.wav",
+                "id": 577263,
+                "tags": [
+                    "lessinia",
+                    "mountain",
+                    "field-recording",
+                    "nature",
+                    "hike",
+                    "ambiance",
+                    "ambience",
+                    "forest",
+                    "ambient",
+                    "cows",
+                    "soundscape",
+                    "soft",
+                    "birds",
+                    "wind",
+                    "cowbell"
+                ],
+                "duration": 179.375
+            }
+        ]
+    },
+    "campo": {
+        "direct_sounds": [
+            {
+                "filename": "campo_205697_2012-11-02_AMB - SIENA PLACA del CAMPO.mp3.mp3",
+                "name": "2012-11-02_AMB - SIENA PLACA del CAMPO.mp3",
+                "id": 205697,
+                "tags": [
+                    "Recording",
+                    "Italy",
+                    "Campo",
+                    "Placa",
+                    "Field",
+                    "del",
+                    "Siena",
+                    "Ambience"
+                ],
+                "duration": 338.245
+            },
+            {
+                "filename": "campo_272321_Madrugada no Campo da Manga.mp3",
+                "name": "Madrugada no Campo da Manga",
+                "id": 272321,
+                "tags": [
+                    "grilos",
+                    "noght",
+                    "sapos",
+                    "campo",
+                    "cars",
+                    "ambience",
+                    "dogs",
+                    "field",
+                    "noite",
+                    "ambient",
+                    "transportes",
+                    "soundscape",
+                    "ambiente",
+                    "cachorros"
+                ],
+                "duration": 92.9707
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "natura_403143_night _ frog and birds _ soft night wind.mp3",
+                "name": "night : frog and birds / soft night wind",
+                "id": 403143,
+                "tags": [
+                    "natura",
+                    "frog",
+                    "birds",
+                    "night",
+                    "bird",
+                    "wind"
+                ],
+                "duration": 424.0
+            },
+            {
+                "filename": "natura_403127_nature garden _ light urban _ distance water _ 20min.mp3",
+                "name": "nature garden / light urban , distance water / 20min",
+                "id": 403127,
+                "tags": [
+                    "ambience",
+                    "natura",
+                    "garden"
+                ],
+                "duration": 1249.91
+            },
+            {
+                "filename": "insetti_577263_Mountain Soundscape.wav.mp3",
+                "name": "Mountain Soundscape.wav",
+                "id": 577263,
+                "tags": [
+                    "lessinia",
+                    "mountain",
+                    "field-recording",
+                    "nature",
+                    "hike",
+                    "ambiance",
+                    "ambience",
+                    "forest",
+                    "ambient",
+                    "cows",
+                    "soundscape",
+                    "soft",
+                    "birds",
+                    "wind",
+                    "cowbell"
+                ],
+                "duration": 179.375
+            }
+        ]
+    },
+    "grotta": {
+        "direct_sounds": [
+            {
+                "filename": "grotta_419128_Sea around Sardegna.mp3",
+                "name": "Sea around Sardegna",
+                "id": 419128,
+                "tags": [
+                    "italy",
+                    "wave",
+                    "seaside",
+                    "sardegna",
+                    "ocean",
+                    "water",
+                    "shore",
+                    "sea",
+                    "waves",
+                    "coast",
+                    "beach"
+                ],
+                "duration": 285.217
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            }
+        ]
+    },
+    "passaggio_segreto": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            }
+        ]
+    },
+    "stanza_segreta": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "eco_190578_eco bounce.wav.mp3",
+                "name": "eco bounce.wav",
+                "id": 190578,
+                "tags": [
+                    "eco",
+                    "drop",
+                    "bounce",
+                    "ball"
+                ],
+                "duration": 0.386236
+            },
+            {
+                "filename": "eco_554332_200813_eco_filtro_pouring_water_2.wav.mp3",
+                "name": "200813_eco_filtro_pouring_water_2.wav",
+                "id": 554332,
+                "tags": [
+                    "pouring",
+                    "pouring-water",
+                    "liquid",
+                    "eco",
+                    "agua",
+                    "water",
+                    "filtro",
+                    "glass-of-water",
+                    "filter"
+                ],
+                "duration": 13.872
+            }
+        ]
+    },
+    "strada": {
+        "direct_sounds": [
+            {
+                "filename": "strada_699019_district_bagnoli_road_liminal_passage_at_4_20_am.WAV.mp3",
+                "name": "district_bagnoli_road_liminal_passage_at_4:20_am.WAV",
+                "id": 699019,
+                "tags": [
+                    "macchine",
+                    "street",
+                    "notte",
+                    "city",
+                    "periferia",
+                    "napoli",
+                    "bagnoli",
+                    "cars",
+                    "alba",
+                    "traffic",
+                    "field-recording",
+                    "traffico",
+                    "ambient",
+                    "strada",
+                    "after",
+                    "people",
+                    "noise"
+                ],
+                "duration": 751.565
+            },
+            {
+                "filename": "strada_747192_220129_Asuncion_StradaGeneralDiaz_ACinverters_Noon.mp3",
+                "name": "220129_Asuncion_StradaGeneralDiaz_ACinverters_Noon",
+                "id": 747192,
+                "tags": [
+                    "cars",
+                    "urban",
+                    "drone",
+                    "city",
+                    "traffic",
+                    "ambience",
+                    "air-conditioning",
+                    "asuncion",
+                    "surround",
+                    "paraguay",
+                    "street",
+                    "field-recording",
+                    "noisy",
+                    "buses",
+                    "noise",
+                    "loud"
+                ],
+                "duration": 120.105
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "traffico_440859_RoomTone_TrafficJam.wav.mp3",
+                "name": "RoomTone_TrafficJam.wav",
+                "id": 440859,
+                "tags": [
+                    "Residential",
+                    "Rome",
+                    "Jam",
+                    "Traffic",
+                    "Roma",
+                    "Ambience",
+                    "RoomTone",
+                    "Traffico",
+                    "Street"
+                ],
+                "duration": 562.859
+            },
+            {
+                "filename": "traffico_699019_district_bagnoli_road_liminal_passage_at_4_20_am.WAV.mp3",
+                "name": "district_bagnoli_road_liminal_passage_at_4:20_am.WAV",
+                "id": 699019,
+                "tags": [
+                    "macchine",
+                    "street",
+                    "notte",
+                    "city",
+                    "periferia",
+                    "napoli",
+                    "bagnoli",
+                    "cars",
+                    "alba",
+                    "traffic",
+                    "field-recording",
+                    "traffico",
+                    "ambient",
+                    "strada",
+                    "after",
+                    "people",
+                    "noise"
+                ],
+                "duration": 751.565
+            },
+            {
+                "filename": "passi_651509_Female heels on night.mp3",
+                "name": "Female heels on night",
+                "id": 651509,
+                "tags": [
+                    "heels",
+                    "tacchi",
+                    "footsteps",
+                    "passi",
+                    "field-recording"
+                ],
+                "duration": 59.2427
+            },
+            {
+                "filename": "passi_426413_annette_04_messaggio_passi_forte_ubrec.aif.mp3",
+                "name": "annette_04_messaggio_passi_forte_ubrec.aif",
+                "id": 426413,
+                "tags": [
+                    "antimilitarism",
+                    "anti-militarism",
+                    "activism",
+                    "aporia",
+                    "sardegna",
+                    "sardinia",
+                    "against-military-occupation",
+                    "ubrec",
+                    "experimental",
+                    "sound-activist"
+                ],
+                "duration": 7.62
+            },
+            {
+                "filename": "conversazioni_351923_Aperitivo Alvino.WAV.mp3",
+                "name": "Aperitivo Alvino.WAV",
+                "id": 351923,
+                "tags": [
+                    "summer",
+                    "Sant",
+                    "general-noise",
+                    "Gallipoli",
+                    "cocktail",
+                    "Lecce",
+                    "Oronzo",
+                    "ambiance",
+                    "dinner",
+                    "chat",
+                    "estate",
+                    "Alvino",
+                    "chatter",
+                    "aperitivo",
+                    "piazza"
+                ],
+                "duration": 28.0495
+            },
+            {
+                "filename": "conversazioni_371892_Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV.mp3",
+                "name": "Suoni di Gallipoli- Scale Nove tuffi e conversazioni.WAV",
+                "id": 371892,
+                "tags": [
+                    "nuove",
+                    "scale",
+                    "Gallipoli",
+                    "Agosto",
+                    "dips",
+                    "apulia",
+                    "tuffi"
+                ],
+                "duration": 113.127
+            }
+        ]
+    },
+    "stazione": {
+        "direct_sounds": [
+            {
+                "filename": "stazione_412173_Napoli - Stazione Università direzione Piscinola.mp3",
+                "name": "Napoli - Stazione Università direzione Piscinola",
+                "id": 412173,
+                "tags": [
+                    "Fieldrecording",
+                    "Stazione",
+                    "Metro",
+                    "Napoli",
+                    "ANM",
+                    "People",
+                    "Platform",
+                    "Station",
+                    "Subway",
+                    "Doors",
+                    "Piscinola",
+                    "Underground",
+                    "Train",
+                    "italian",
+                    "Soundscape",
+                    "Naples",
+                    "Approaching",
+                    "Announcement",
+                    "Lo-Fi",
+                    "Tube"
+                ],
+                "duration": 78.527
+            },
+            {
+                "filename": "stazione_140232__002_ from Stazione Notarbartolo to Stazione Francia.mp3",
+                "name": "[002] from Stazione Notarbartolo to Stazione Francia",
+                "id": 140232,
+                "tags": [
+                    "Palermo",
+                    "Train",
+                    "Stazione-Notarbartolo",
+                    "Viale-Francia",
+                    "noise"
+                ],
+                "duration": 683.012
+            }
+        ],
+        "base_sounds": [
+            {
+                "filename": "annunci_438730_G45-28-Submarine Annunciator.wav.mp3",
+                "name": "G45-28-Submarine Annunciator.wav",
+                "id": 438730,
+                "tags": [
+                    "Boats",
+                    "Vintage",
+                    "Optical",
+                    "Submarines"
+                ],
+                "duration": 25.577
+            },
+            {
+                "filename": "annunci_139321_Audible crosswalk annunciator in Paris_ France.mp3",
+                "name": "Audible crosswalk annunciator in Paris, France",
+                "id": 139321,
+                "tags": [
+                    "accessible-pedestrian-signal",
+                    "traffic-signal",
+                    "zebra-crossing",
+                    "paris",
+                    "APS",
+                    "traffic-lights",
+                    "france",
+                    "pedestrian",
+                    "pieton",
+                    "crosswalk",
+                    "rptiteur"
+                ],
+                "duration": 67.1573
+            },
+            {
+                "filename": "folla_261557_Let Union Be in All Our Hearts _.mp3.mp3",
+                "name": "Let Union Be in All Our Hearts ~.mp3",
+                "id": 261557,
+                "tags": [
+                    "Acapella",
+                    "Song",
+                    "Folk-Song",
+                    "Traditional",
+                    "Harmony",
+                    "English",
+                    "Crook-Morris",
+                    "Wassail-Day"
+                ],
+                "duration": 221.101
+            },
+            {
+                "filename": "folla_121877_folla_fiera.wav.mp3",
+                "name": "folla_fiera.wav",
+                "id": 121877,
+                "tags": [
+                    "ambient",
+                    "crowd",
+                    "exhibition",
+                    "hall",
+                    "people",
+                    "stand",
+                    "fair"
+                ],
+                "duration": 11.696
+            }
+        ]
+    },
+    "stazione_magica": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "stazione_412173_Napoli - Stazione Università direzione Piscinola.mp3",
+                "name": "Napoli - Stazione Università direzione Piscinola",
+                "id": 412173,
+                "tags": [
+                    "Fieldrecording",
+                    "Stazione",
+                    "Metro",
+                    "Napoli",
+                    "ANM",
+                    "People",
+                    "Platform",
+                    "Station",
+                    "Subway",
+                    "Doors",
+                    "Piscinola",
+                    "Underground",
+                    "Train",
+                    "italian",
+                    "Soundscape",
+                    "Naples",
+                    "Approaching",
+                    "Announcement",
+                    "Lo-Fi",
+                    "Tube"
+                ],
+                "duration": 78.527
+            },
+            {
+                "filename": "stazione_140232__002_ from Stazione Notarbartolo to Stazione Francia.mp3",
+                "name": "[002] from Stazione Notarbartolo to Stazione Francia",
+                "id": 140232,
+                "tags": [
+                    "Palermo",
+                    "Train",
+                    "Stazione-Notarbartolo",
+                    "Viale-Francia",
+                    "noise"
+                ],
+                "duration": 683.012
+            },
+            {
+                "filename": "magia_471319_Magia.wav.mp3",
+                "name": "Magia.wav",
+                "id": 471319,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 8.47971
+            },
+            {
+                "filename": "magia_471321_Magia 2.wav.mp3",
+                "name": "Magia 2.wav",
+                "id": 471321,
+                "tags": [
+                    "magician",
+                    "magic",
+                    "magia"
+                ],
+                "duration": 4.86
+            }
+        ]
+    },
+    "veicolo": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "motore_148349_Cat MotorLoopSP17.wav.mp3",
+                "name": "Cat MotorLoopSP17.wav",
+                "id": 148349,
+                "tags": [
+                    "Animal-Sounds",
+                    "Cat-Motor",
+                    "Cat-Drum",
+                    "Loop"
+                ],
+                "duration": 1.27077
+            },
+            {
+                "filename": "motore_148350_Cat MotorDrum.wav.mp3",
+                "name": "Cat MotorDrum.wav",
+                "id": 148350,
+                "tags": [
+                    "Animal-Sounds",
+                    "Cat-Motor",
+                    "Drum-loop"
+                ],
+                "duration": 0.672993
+            },
+            {
+                "filename": "viaggio_568851_acidzone.wav.mp3",
+                "name": "acidzone.wav",
+                "id": 568851,
+                "tags": [
+                    "fastidio",
+                    "inquieto",
+                    "acid",
+                    "viaggio",
+                    "acido"
+                ],
+                "duration": 17.0
+            },
+            {
+                "filename": "viaggio_721657_Jazzo del Demonio.mp3",
+                "name": "Jazzo del Demonio",
+                "id": 721657,
+                "tags": [
+                    "Soundwalk",
+                    "Soundscape",
+                    "Murgia"
+                ],
+                "duration": 1310.4
+            }
+        ]
+    },
+    "veicolo_magico": {
+        "direct_sounds": [],
+        "base_sounds": [
+            {
+                "filename": "volo_262251_ceramics_wheel.wav.mp3",
+                "name": "ceramics_wheel.wav",
+                "id": 262251,
+                "tags": [
+                    "pottery-wheel",
+                    "pottery",
+                    "field-recording",
+                    "mono",
+                    "ceramics-wheel",
+                    "wheel",
+                    "ceramics"
+                ],
+                "duration": 8.36644
+            },
+            {
+                "filename": "volo_112194_Senza_tempo_2A.wav.mp3",
+                "name": "Senza_tempo_2A.wav",
+                "id": 112194,
+                "tags": [
+                    "alien",
+                    "sci-fi",
+                    "arcane",
+                    "mystery",
+                    "thinking",
+                    "romantic",
+                    "melancholic",
+                    "narration",
+                    "feeling",
+                    "spatial",
+                    "ambience",
+                    "ambiance",
+                    "zynaddsubfx"
+                ],
+                "duration": 327.808
+            }
+        ]
+    }
+}
