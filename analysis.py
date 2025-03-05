@@ -34,16 +34,17 @@ sentiment_classifier = SentimentClassifier()
 
 # Configurazione dei pesi per la scelta del luogo principale
 LOCATION_WEIGHTS = {
-    "occurrence": 0.03,    # Peso per il numero di occorrenze
-    "confidence": 0.90,    # Peso per la confidenza di BERT
-    "early_appearance": 0.04,  # Peso per l'apparizione all'inizio
-    "spacy_loc_bonus": 0.03    # Bonus se riconosciuto come LOC da spaCy
+    "occurrence": 0.3,    # Peso per il numero di occorrenze
+    "confidence": 10,    # Peso per la confidenza di BERT
+    "early_appearance": 3,  # Peso per l'apparizione all'inizio
+    "spacy_loc_bonus": 0.2   # Bonus se riconosciuto come LOC da spaCy
+
 }
 
 # Configurazione dei pesi per la scelta del personaggio principale
 CHARACTER_WEIGHTS = {
-    "occurrence": 0.60,    # Peso per il numero di occorrenze
-    "early_appearance": 0.4,  # Peso per l'apparizione all'inizio
+    "occurrence": 1,    # Peso per il numero di occorrenze
+    "early_appearance": 2,  # Peso per l'apparizione all'inizio
 }
 
 
@@ -260,17 +261,18 @@ def analyze_emotions(text):
 def classify_location_type(location, context=""):
     """Classifica il tipo di location utilizzando il modello fine-tuned."""
     try:
-        # Carica il modello e il tokenizer
-        loc_model = BertForSequenceClassification.from_pretrained("./bert_location_classifier")
-        loc_tokenizer = BertTokenizerFast.from_pretrained("./bert_location_classifier")
+        # Verifica se il modello è già caricato (globale)
+        global loc_model, loc_tokenizer, id_to_category
         
-        # Carica il mapping delle categorie
-        with open("./bert_location_classifier/category_mapping.json", "r") as f:
-            category_mapping = json.load(f)
-        id_to_category = category_mapping["id_to_category"]
-        
-        # Converte gli id da string a int (json li salva come string)
-        id_to_category = {int(k): v for k, v in id_to_category.items()}
+        if not 'loc_model' in globals() or loc_model is None:
+            # Carica il modello e il tokenizer
+            loc_model = BertForSequenceClassification.from_pretrained("./bert_location_classifier")
+            loc_tokenizer = BertTokenizerFast.from_pretrained("./bert_location_classifier")
+            
+            # Carica il mapping delle categorie
+            with open("./bert_location_classifier/category_mapping.json", "r") as f:
+                category_mapping = json.load(f)
+            id_to_category = {int(k): v for k, v in category_mapping["id_to_category"].items()}
         
         # Limita la lunghezza del contesto per evitare problemi
         if context and len(context) > 500:
@@ -300,7 +302,7 @@ def classify_location_type(location, context=""):
             "confidence": confidence
         }
     except Exception as e:
-        logging.error(f"Errore nella classificazione della location {location}: {e}")
+        logging.error(f"Errore nella classificazione della location '{location}': {e}")
         return {
             "category": "sconosciuto",
             "confidence": 0.0
@@ -353,36 +355,51 @@ def select_main_location(locations, weights=None):
     """
     if not weights:
         weights = LOCATION_WEIGHTS
-        
-    highest_score = -1
-    main_location = None
+    
+    # Prima calcola il punteggio priority_score per TUTTE le location
+    max_count = max([d["count"] for d in locations.values()], default=1)
     
     for loc_name, loc_data in locations.items():
-        # Non considerare luoghi classificati come non_luogo con alta confidenza
-        if loc_data["category"] == "non_luogo" and loc_data["confidence"] > 0.8:
-            continue
-            
-        # Ricalcola il punteggio con i pesi attuali
-        occurrence_score = loc_data["count"] / max([d["count"] for d in locations.values()], default=1)
+        # Calcola il punteggio con i pesi attuali
+        occurrence_score = loc_data["count"] / max_count
         early_appearance_bonus = 1.0 if loc_data.get("early_appearance", False) else 0.0
         spacy_loc_bonus = 0.5 if loc_data.get("spacy_label", "") == "LOC" else 0.0
         
+        # Invece di usare la confidence specifica per categoria,
+        # usa un valore binario: 1.0 se è considerato un luogo, 0.0 altrimenti
+        is_location = loc_data["category"] != "non_luogo"
+        location_confidence = 1.0 if is_location else 0.0
+        
         priority_score = (
             weights["occurrence"] * occurrence_score + 
-            weights["confidence"] * loc_data["confidence"] + 
+            weights["confidence"] * location_confidence +  # Usa il binario luogo/non-luogo
             weights["early_appearance"] * early_appearance_bonus +
             weights["spacy_loc_bonus"] * spacy_loc_bonus
         )
         
-        if priority_score > highest_score:
-            highest_score = priority_score
+        # Aggiungi il priority_score ai dati della location
+        loc_data["priority_score"] = priority_score
+        # Salva anche il valore binario per debug
+        loc_data["is_location_binary"] = location_confidence
+    
+    # Ora trova la location con il punteggio più alto
+    highest_score = -1
+    main_location = None
+    
+    for loc_name, loc_data in locations.items():
+        # Non considerare luoghi classificati come non_luogo o con poche occorrenze
+        if loc_data["category"] == "non_luogo" or loc_data["count"] <= 1:
+            continue
+        
+        if loc_data["priority_score"] > highest_score:
+            highest_score = loc_data["priority_score"]
             main_location = {
                 "name": loc_name,
                 "category": loc_data["category"],
                 "spacy_label": loc_data.get("spacy_label", "unknown"),
                 "confidence": loc_data["confidence"],
                 "count": loc_data["count"],
-                "priority_score": priority_score,
+                "priority_score": loc_data["priority_score"],
                 "early_appearance": loc_data.get("early_appearance", False)
             }
     
@@ -520,17 +537,15 @@ def analyze_chapter(book_name, chapter_num, chapter_text, output_dir):
         # Analisi spaCy
         start = time.time()
         chapter_doc = nlp(chapter_text)
+        spacy_results = [(ent.text, ent.label_) for ent in chapter_doc.ents]
         times["Analisi con spaCy"] = time.time() - start
 
-        # Riconoscimento entità con spaCy
+        # Troviamo la posizione di ogni entità nel testo
         start = time.time()
-        spacy_results = [(ent.text, ent.label_) for ent in chapter_doc.ents]
-        
-        # Troviamo anche la posizione di ogni entità nel testo
         entity_positions = {}
         early_entities = []
         entity_count = 0
-        
+
         # Consideriamo tutte le entità (LOC, MISC, PER)
         for ent in chapter_doc.ents:
             if ent.text not in entity_positions:
@@ -540,18 +555,18 @@ def analyze_chapter(book_name, chapter_num, chapter_text, output_dir):
                 }
             entity_positions[ent.text]["positions"].append(ent.start_char)
             entity_count += 1
-        
+
         # Calcola il 10% iniziale del testo per identificare entità all'inizio
         if entity_count > 0:
-            early_text_threshold = int(len(chapter_doc.text) * 0.1)
+            early_text_threshold = int(len(chapter_text) * 0.1)
             for entity_name, entity_data in entity_positions.items():
                 if any(pos < early_text_threshold for pos in entity_data["positions"]):
                     early_entities.append(entity_name)
-        
-        # Conteggio standard per spaCy
+
+        # Conteggio delle entità
         spacy_results = Counter(spacy_results)
         times["Riconoscimento entità con spaCy"] = time.time() - start
-        
+
         # Analisi delle emozioni con Feel-it
         start = time.time()
         emotions_data = analyze_emotions(chapter_text)
@@ -591,42 +606,66 @@ def analyze_chapter(book_name, chapter_num, chapter_text, output_dir):
         total_time = time.time() - start_time
         times["Tempo totale"] = total_time
 
-        # Genera sintesi
-        summary = f"Il capitolo {chapter_num} di {book_name} presenta "
-        if emotions_data.get("dominant_emotion"):
-            summary += f"un tono emotivo predominante di '{emotions_data['dominant_emotion']}' "
-            summary += f"e un sentimento generale '{emotions_data['dominant_sentiment']}'.\n\n"
-        
-        if main_character:
-            summary += f"Il protagonista è probabilmente {main_character['name']}, "
-            summary += f"che viene menzionato {main_character['count']} volte"
-            if main_character.get("early_appearance"):
-                summary += " e appare all'inizio del capitolo."
-            else:
-                summary += "."
-            summary += "\n\n"
-        
-        if main_location:
-            summary += f"L'ambientazione principale è {main_location['name']} " \
-                       f"(tipo: {main_location['category']}, " \
-                       f"riconosciuto da spaCy come: {main_location['spacy_label']}, " \
-                       f"occorrenze: {main_location['count']}, " \
-                       f"confidenza: {main_location['confidence']:.2f})"
-
-        # Scrive i risultati nel CSV
+        # Scrive i risultati nel CSV - SENZA SINTESI - solo dati grezzi
         completion_time = datetime.datetime.now().strftime("%d/%m/%Y alle %H:%M:%S")
         with open(file_name, "a", newline='', encoding="utf-8") as f:
             print(f"\nScrittura dei risultati in {file_name}...\n")
             writer = csv.writer(f)
             writer.writerow(["Stato", f"Analisi completata il {completion_time}"])
-            writer.writerow(["Sintesi", summary])
-            writer.writerow(["Entities", spacy_results])
-            writer.writerow(["Potential Locations", locations])
-            writer.writerow(["Main Location", main_location])
-            writer.writerow(["Main Character", main_character])
+            
+            # Formatta le entities per maggiore leggibilità
+            entities_str = "{\n"
+            for (entity, label), count in sorted(spacy_results.items(), key=lambda x: x[1], reverse=True):
+                entities_str += f"  ('{entity}', '{label}'): {count},\n"
+            entities_str += "}"
+            writer.writerow(["Entities", entities_str])
+            
+            # Formatta le potential locations per maggiore leggibilità
+            locations_str = "{\n"
+            # Ordina le location per priority_score per maggiore chiarezza
+            for loc_name, loc_data in sorted(locations.items(), key=lambda x: x[1].get('priority_score', 0), reverse=True):
+                locations_str += f"  '{loc_name}': {{\n"
+                locations_str += f"    'category': '{loc_data['category']}',\n"
+                locations_str += f"    'confidence': {loc_data['confidence']},\n"
+                locations_str += f"    'spacy_label': '{loc_data['spacy_label']}',\n"
+                locations_str += f"    'count': {loc_data['count']},\n"
+                locations_str += f"    'priority_score': {loc_data.get('priority_score', 0)},\n"
+                locations_str += f"    'early_appearance': {str(loc_data['early_appearance'])},\n"
+                positions_str = str(loc_data.get('positions', []))
+                locations_str += f"    'positions': {positions_str}\n"
+                locations_str += f"  }},\n"
+            locations_str += "}"
+            writer.writerow(["Potential Locations", locations_str])
+            
+            # Formatta i dati del luogo principale per leggibilità
+            if main_location:
+                main_loc_str = "{\n"
+                for key, value in main_location.items():
+                    if isinstance(value, str):
+                        main_loc_str += f"  '{key}': '{value}',\n"
+                    else:
+                        main_loc_str += f"  '{key}': {value},\n"
+                main_loc_str += "}"
+                writer.writerow(["Main Location", main_loc_str])
+            else:
+                writer.writerow(["Main Location", "None"])
+            
+            # Formatta i dati del personaggio principale per leggibilità
+            if main_character:
+                main_char_str = "{\n"
+                for key, value in main_character.items():
+                    if isinstance(value, str):
+                        main_char_str += f"  '{key}': '{value}',\n"
+                    else:
+                        main_char_str += f"  '{key}': {value},\n"
+                main_char_str += "}"
+                writer.writerow(["Main Character", main_char_str])
+            else:
+                writer.writerow(["Main Character", "None"])
+            
             writer.writerow(["Emotions", emotions_data])
             writer.writerow(["Tempi di analisi", times])
-
+            
     except Exception as e:
         logging.error(f"Errore nell'analisi del capitolo {chapter_num}: {e}")
         with open(file_name, "a", newline='', encoding="utf-8") as f:
@@ -647,7 +686,6 @@ def update_analysis_results(file_name, main_location, main_character):
         
         # Cerca le righe da aggiornare
         updated_rows = []
-        summary_updated = False
         
         for row in rows:
             if len(row) < 2:
@@ -660,40 +698,6 @@ def update_analysis_results(file_name, main_location, main_character):
                 
             if row[0] == "Main Character":
                 updated_rows.append(["Main Character", main_character])
-                continue
-                
-            if row[0] == "Sintesi" and not summary_updated:
-                # Aggiorna la sintesi con le nuove informazioni
-                summary = row[1]
-                
-                # Rimuovi le vecchie informazioni sul protagonista e l'ambientazione
-                summary_lines = summary.split("\n\n")
-                new_summary_lines = []
-                
-                for line in summary_lines:
-                    if not line.startswith("Il protagonista è") and not line.startswith("L'ambientazione principale è"):
-                        new_summary_lines.append(line)
-                
-                # Aggiungi le nuove informazioni
-                if main_character:
-                    protagonist_line = f"Il protagonista è probabilmente {main_character['name']}, "
-                    protagonist_line += f"che viene menzionato {main_character['count']} volte"
-                    if main_character.get("early_appearance"):
-                        protagonist_line += " e appare all'inizio del capitolo."
-                    else:
-                        protagonist_line += "."
-                    new_summary_lines.append(protagonist_line)
-                
-                if main_location:
-                    location_line = f"L'ambientazione principale è {main_location['name']} " \
-                                   f"(tipo: {main_location['category']}, " \
-                                   f"riconosciuto da spaCy come: {main_location['spacy_label']}, " \
-                                   f"occorrenze: {main_location['count']}, " \
-                                   f"confidenza: {main_location['confidence']:.2f})"
-                    new_summary_lines.append(location_line)
-                
-                updated_rows.append(["Sintesi", "\n\n".join(new_summary_lines)])
-                summary_updated = True
                 continue
             
             updated_rows.append(row)
@@ -720,16 +724,13 @@ def parallel_analysis(book_name, chapters, text, output_dir):
     complete_chapter_list = sorted(chapters.items(), key=lambda x: x[1])
     
     # Limita l'analisi ai primi capitoli per risparmiare tempo (ad esempio i primi 3)
-    limited_chapter_list = complete_chapter_list[:3]  # Modifica il numero in base alle tue esigenze
+    # complete_chapter_list = complete_chapter_list[:3]  # Modifica il numero in base alle tue esigenze
     
     with mp.Pool(processes=num_workers) as pool:
         tasks = []
 
-        for i in range(len(limited_chapter_list)):
-            chapter_number, start_byte = limited_chapter_list[i]
-            
-            # Determina dove finisce questo capitolo
-            # CORREZIONE: usa la lista completa per trovare dove inizia il prossimo capitolo
+        for i in range(len(complete_chapter_list)):
+            chapter_number, start_byte = complete_chapter_list[i]
             
             # Trova la posizione dell'elemento corrente nella lista completa
             complete_idx = next((idx for idx, (num, _) in enumerate(complete_chapter_list) if num == chapter_number), None)
