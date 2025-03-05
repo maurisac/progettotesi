@@ -717,56 +717,54 @@ def update_analysis_results(file_name, main_location, main_character):
 
 def parallel_analysis(book_name, chapters, text, output_dir):
     print("Inizio analisi parallela...")
-    num_workers = min(4, len(chapters))  # Limita il numero di processi a 4
+    
+    # Usa un numero appropriato di processi basato sui core disponibili
+    num_workers = min(mp.cpu_count(), len(chapters))
+    print(f"Utilizzo {num_workers} processi paralleli")
     
     # Crea una lista di capitoli ordinati per posizione nel testo
-    # Questo è fondamentale per determinare correttamente dove finisce ciascun capitolo
     complete_chapter_list = sorted(chapters.items(), key=lambda x: x[1])
     
-    # Limita l'analisi ai primi capitoli per risparmiare tempo (ad esempio i primi 3)
+    # decommenta per limitare l'analisi ai primi capitoli per risparmiare tempo (ad esempio i primi 3)
     # complete_chapter_list = complete_chapter_list[:3]  # Modifica il numero in base alle tue esigenze
     
+    
+    # Context manager per gestire il pool
     with mp.Pool(processes=num_workers) as pool:
         tasks = []
 
         for i in range(len(complete_chapter_list)):
             chapter_number, start_byte = complete_chapter_list[i]
             
-            # Trova la posizione dell'elemento corrente nella lista completa
-            complete_idx = next((idx for idx, (num, _) in enumerate(complete_chapter_list) if num == chapter_number), None)
-            
-            if complete_idx is not None and complete_idx + 1 < len(complete_chapter_list):
-                # Se c'è un capitolo successivo nella lista completa, usa il suo inizio come fine di questo
-                _, end_byte = complete_chapter_list[complete_idx + 1]
+            # Trova la fine del capitolo
+            if i + 1 < len(complete_chapter_list):
+                end_byte = complete_chapter_list[i + 1][1]
             else:
-                # Se questo è l'ultimo capitolo nel testo completo, va fino alla fine del testo
                 end_byte = len(text)
 
             # Estrai il testo del capitolo corrente
             chapter_text = text[start_byte:end_byte]
             
-            if chapter_text.strip():  # Controlla se il capitolo non è vuoto
+            if len(chapter_text.strip()) > 100:  # Ignora capitoli troppo piccoli
                 print(f"\nAvvio analisi del capitolo {chapter_number}...")
-                print(f"Intervallo in byte: {start_byte} - {end_byte} ({end_byte-start_byte} byte)")
-                print(f"Percentuale del testo totale: {len(chapter_text)/len(text)*100:.2f}%")
-                print(f"Inizio capitolo: '{chapter_text[:100]}...'")
+                print(f"Lunghezza testo: {len(chapter_text)} caratteri")
+                print(f"Inizio capitolo: '{chapter_text[:50].replace('\n', ' ')}...'")
                 
                 # Utilizza apply_async per eseguire l'analisi in un processo separato
                 tasks.append(pool.apply_async(analyze_chapter,
                     (book_name, chapter_number, chapter_text, output_dir)))
-                
-                print(f"Analisi del capitolo {chapter_number} avviata.")
             else:
-                print(f"\nAttenzione\nCapitolo {chapter_number} vuoto, saltato.")
+                print(f"\nCapitolo {chapter_number} troppo corto, saltato.")
 
-        # Attendi il completamento di tutti i processi
+        # Attendi il completamento di tutti i processi con feedback
+        completed = 0
+        total = len(tasks)
         for task in tasks:
             task.wait()
+            completed += 1
+            print(f"Progresso: {completed}/{total} capitoli completati ({completed/total*100:.1f}%)")
 
     print("Analisi parallela completata.")
-
-
-
 
 
 
