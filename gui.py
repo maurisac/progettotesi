@@ -474,6 +474,10 @@ def show_contacts():
     # Mostra la finestra con i contatti e i crediti.
     messagebox.showinfo("Contatti", "Sviluppato da Sacca' Maurizio\nEmail: mauriziosacc4@gmail.com")
 
+def show_credits():
+    # Mostra la finestra con i contatti e i crediti.
+    messagebox.showinfo("Crediti", "Sviluppato da Sacca' Maurizio\nLibreria audio: pygame\nAnalisi testo: spaCy\nAnalisi emozioni: Feel_it\nRiconoscimento entità: spaCy + BERT\nLibreria suoni: FreeSound.org")
+
 
 
 # Creazione GUI
@@ -506,7 +510,9 @@ menu_bar.add_cascade(label="Impostazioni", menu=settings_menu)
 # sezione contatti
 contacts_menu = Menu(menu_bar, tearoff=0)
 contacts_menu.add_command(label="Contatti", command=show_contacts)
-menu_bar.add_cascade(label="Contatti", menu=contacts_menu)
+contacts_menu.add_command(label="Crediti", command=show_credits)
+menu_bar.add_cascade(label="Contatti e Crediti", menu=contacts_menu)
+
 
 root.config(menu=menu_bar)
 
