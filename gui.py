@@ -10,6 +10,7 @@ import pandas as pd  # Per leggere i file CSV
 import subprocess
 from collections import Counter
 import threading
+import ast
 import signal
 import psutil
 import threading
@@ -223,51 +224,151 @@ def load_analysis_data(filepath):
     update_chapters_display()  # Aggiorna la visualizzazione dei capitoli
 
 def update_analysis_display():
+    """Legge i dati grezzi dal CSV e li formatta per la visualizzazione"""
     analysis_text.config(state=tk.NORMAL)
     analysis_text.delete("1.0", tk.END)
+    
+    # Trova il capitolo corrente
+    current_chapter = None
     for start_page in sorted(analysis_data.keys(), reverse=True):
         if current_page + 1 >= start_page:
-            chapter = analysis_data[start_page]
-            analysis_text.insert(tk.END, f"Capitolo {chapter}\n")
-            
-            # Leggi il contenuto del file di analisi del capitolo corrente
-            analysis_file = os.path.join("analyses", book_name, f"{book_name}-capitolo{chapter}-analysis.csv")
-            if os.path.exists(analysis_file):
-                with open(analysis_file, "r", encoding="utf-8") as file:
-                    reader = csv.reader(file)
-                    next(reader)  # Salta la prima riga (legenda)
-                    for row in reader:
-                        if len(row) >= 2:
-                            analysis_text.insert(tk.END, f"Tempo totale: {times['Tempo totale']:.2f} s\n\n")
-                            if row[0] == "Sintesi":
-                                analysis_text.insert(tk.END, f"{row[1]}\n\n")
-                            elif row[0] == "Tempi di analisi":
-                                times = eval(row[1])
-                                analysis_text.insert(tk.END, "Tempi di analisi:\n")
-                                for phase, duration in times.items():
-                                    analysis_text.insert(tk.END, f"{phase}: {duration:.2f} s\n")
-                            elif row[0] == "Entities":
-                                entities = eval(row[1])
-                                if isinstance(entities, list):
-                                    entities = Counter(entities)
-                                people = {ent: count for (ent, label), count in entities.items() if label == "PER"}
-                                locations = {ent: count for (ent, label), count in entities.items() if label == "LOC"}
-                                analysis_text.insert(tk.END, "Persone trovate:\n")
-                                for person, count in people.items():
-                                    analysis_text.insert(tk.END, f"{person}: {count}\n")
-                                analysis_text.insert(tk.END, "\nLuoghi trovati:\n")
-                                for location, count in locations.items():
-                                    analysis_text.insert(tk.END, f"{location}: {count}\n")
-                            elif row[0] == "Fenomeni Acustici":
-                                analysis_text.insert(tk.END, "Fenomeni acustici rilevati:\n")
-                                analysis_text.insert(tk.END, f"{row[1]}\n\n")
-                            elif row[0] == "Ambientazione":
-                                analysis_text.insert(tk.END, f"Ambientazione principale: {row[1]}\n\n")
-                            else:
-                                analysis_text.insert(tk.END, f"{row[1]}\n")
-            else:
-                analysis_text.insert(tk.END, "Analisi non trovata.")
+            current_chapter = analysis_data[start_page]
             break
+            
+    if not current_chapter:
+        analysis_text.insert(tk.END, "Nessun capitolo trovato per questa pagina.")
+        analysis_text.config(state=tk.DISABLED)
+        return
+    
+    analysis_text.insert(tk.END, f"Capitolo {current_chapter}\n\n")
+    
+    # Leggi il contenuto del file di analisi del capitolo corrente
+    analysis_file = os.path.join("analyses", book_name, f"{book_name}-capitolo{current_chapter}-analysis.csv")
+    
+    if not os.path.exists(analysis_file):
+        analysis_text.insert(tk.END, "Analisi non trovata.")
+        analysis_text.config(state=tk.DISABLED)
+        return
+    
+    # Carica i dati dal file CSV
+    raw_data = {}
+    with open(analysis_file, "r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        for row in reader:
+            if len(row) >= 2:
+                raw_data[row[0]] = row[1]
+    
+    # Verifica lo stato dell'analisi
+    if "Stato" in raw_data and "completata" not in raw_data["Stato"]:
+        analysis_text.insert(tk.END, "Analisi in corso o incompleta.\n")
+        analysis_text.config(state=tk.DISABLED)
+        return
+    
+    # Interpreta i dati e genera il riepilogo
+    
+    # 1. Emozioni e sentimenti
+    if "Emotions" in raw_data:
+        try:
+            emotions_data = ast.literal_eval(raw_data["Emotions"])
+            if isinstance(emotions_data, dict):
+                dominant_emotion = emotions_data.get("dominant_emotion")
+                dominant_sentiment = emotions_data.get("dominant_sentiment")
+                
+                if dominant_emotion and dominant_sentiment:
+                    analysis_text.insert(tk.END, f"Tono emotivo: {dominant_emotion}\n")
+                    analysis_text.insert(tk.END, f"Sentimento: {dominant_sentiment}\n\n")
+                    
+                    # Aggiungi percentuali se disponibili
+                    if "emotion_percentages" in emotions_data:
+                        analysis_text.insert(tk.END, "Distribuzione emozioni:\n")
+                        for emotion, percentage in emotions_data["emotion_percentages"].items():
+                            analysis_text.insert(tk.END, f"- {emotion}: {percentage:.1f}%\n")
+                        analysis_text.insert(tk.END, "\n")
+        except Exception as e:
+            logging.error(f"Errore nell'interpretazione delle emozioni: {e}")
+    
+    # 2. Personaggio principale
+    if "Main Character" in raw_data:
+        try:
+            character_data = ast.literal_eval(raw_data["Main Character"])
+            if character_data and isinstance(character_data, dict):
+                name = character_data.get("name")
+                count = character_data.get("count")
+                early_appearance = character_data.get("early_appearance", False)
+                
+                if name:
+                    analysis_text.insert(tk.END, f"Protagonista: {name}\n")
+                    analysis_text.insert(tk.END, f"Occorrenze: {count}\n")
+                    if early_appearance:
+                        analysis_text.insert(tk.END, "Appare all'inizio del capitolo\n")
+                    analysis_text.insert(tk.END, "\n")
+        except Exception as e:
+            logging.error(f"Errore nell'interpretazione del personaggio principale: {e}")
+    
+    # 3. Ambientazione principale
+    if "Main Location" in raw_data:
+        try:
+            location_data = ast.literal_eval(raw_data["Main Location"])
+            if location_data and isinstance(location_data, dict):
+                name = location_data.get("name")
+                category = location_data.get("category")
+                confidence = location_data.get("confidence")
+                count = location_data.get("count")
+                
+                if name:
+                    analysis_text.insert(tk.END, f"Ambientazione: {name}\n")
+                    analysis_text.insert(tk.END, f"Tipo: {category}\n")
+                    analysis_text.insert(tk.END, f"Confidenza: {confidence:.2f}\n")
+                    analysis_text.insert(tk.END, f"Occorrenze: {count}\n\n")
+        except Exception as e:
+            logging.error(f"Errore nell'interpretazione dell'ambientazione: {e}")
+    
+    # 4. Entità riconosciute
+    if "Entities" in raw_data:
+        try:
+            entities_data = ast.literal_eval(raw_data["Entities"])
+            
+            # Converti in Counter se è una lista
+            if isinstance(entities_data, list):
+                entities_data = Counter(entities_data)
+                
+            # Estrai persone e luoghi
+            people = {}
+            locations = {}
+            
+            for (entity, label), count in entities_data.items():
+                if label == "PER":
+                    people[entity] = count
+                elif label == "LOC":
+                    locations[entity] = count
+            
+            # Mostra le persone più frequenti
+            if people:
+                analysis_text.insert(tk.END, "Persone più frequenti:\n")
+                for person, count in sorted(people.items(), key=lambda x: x[1], reverse=True)[:10]:  # Top 10
+                    analysis_text.insert(tk.END, f"- {person}: {count}\n")
+                analysis_text.insert(tk.END, "\n")
+                
+            # Mostra i luoghi più frequenti
+            if locations:
+                analysis_text.insert(tk.END, "Luoghi più frequenti:\n")
+                for location, count in sorted(locations.items(), key=lambda x: x[1], reverse=True)[:10]:  # Top 10
+                    analysis_text.insert(tk.END, f"- {location}: {count}\n")
+                analysis_text.insert(tk.END, "\n")
+        except Exception as e:
+            logging.error(f"Errore nell'interpretazione delle entità: {e}")
+    
+    # 5. Tempi di esecuzione per debug/performance
+    if "Tempi di analisi" in raw_data:
+        try:
+            times = ast.literal_eval(raw_data["Tempi di analisi"])
+            if times and isinstance(times, dict):
+                analysis_text.insert(tk.END, "Tempi di analisi:\n")
+                total_time = times.get("Tempo totale", 0)
+                analysis_text.insert(tk.END, f"Tempo totale: {total_time:.2f} s\n")
+        except Exception as e:
+            logging.error(f"Errore nell'interpretazione dei tempi: {e}")
+    
     analysis_text.config(state=tk.DISABLED)
 
 def create_chapter_button(chapter, start_page):
