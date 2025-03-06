@@ -403,6 +403,25 @@ def select_main_location(locations, weights=None):
                 "early_appearance": loc_data.get("early_appearance", False)
             }
     
+    if main_location:
+        # Aggiungi l'informazione sulla categoria per il sistema audio
+        try:
+            from sound_environment import SoundEnvironment
+            sound_env = SoundEnvironment()
+            
+            # Verifica se la categoria è supportata
+            if (sound_env.is_category_supported(main_location['category'])):
+                main_location['sound_category'] = main_location['category']
+            else:
+                # Trova una categoria alternativa
+                alternative = sound_env.find_similar_category(main_location['category'])
+                if (alternative):
+                    main_location['sound_category'] = alternative
+                    main_location['sound_category_original'] = main_location['category']
+        except:
+            # In caso di errore, continua senza categoria audio
+            pass
+    
     return main_location
 
 
@@ -719,7 +738,7 @@ def parallel_analysis(book_name, chapters, text, output_dir):
     print("Inizio analisi parallela...")
     
     # Usa un numero appropriato di processi basato sui core disponibili
-    num_workers = min(mp.cpu_count(), len(chapters))
+    num_workers = min(int((mp.cpu_count())//3), len(chapters))
     print(f"Utilizzo {num_workers} processi paralleli")
     
     # Crea una lista di capitoli ordinati per posizione nel testo
@@ -727,7 +746,6 @@ def parallel_analysis(book_name, chapters, text, output_dir):
     
     # decommenta per limitare l'analisi ai primi capitoli per risparmiare tempo (ad esempio i primi 3)
     # complete_chapter_list = complete_chapter_list[:3]  # Modifica il numero in base alle tue esigenze
-    
     
     # Context manager per gestire il pool
     with mp.Pool(processes=num_workers) as pool:
@@ -748,7 +766,7 @@ def parallel_analysis(book_name, chapters, text, output_dir):
             if len(chapter_text.strip()) > 100:  # Ignora capitoli troppo piccoli
                 print(f"\nAvvio analisi del capitolo {chapter_number}...")
                 print(f"Lunghezza testo: {len(chapter_text)} caratteri")
-                print(f"Inizio capitolo: '{chapter_text[:50].replace('\n', ' ')}...'")
+                print("Inizio capitolo: ", {chapter_text[:50].replace('\n', ' ')}, "...'")
                 
                 # Utilizza apply_async per eseguire l'analisi in un processo separato
                 tasks.append(pool.apply_async(analyze_chapter,
@@ -765,6 +783,143 @@ def parallel_analysis(book_name, chapters, text, output_dir):
             print(f"Progresso: {completed}/{total} capitoli completati ({completed/total*100:.1f}%)")
 
     print("Analisi parallela completata.")
+    
+    # Dopo che tutte le analisi sono completate, genera il file di statistiche
+    generate_stats_file(book_name, output_dir)
+
+
+def generate_stats_file(book_name, output_dir):
+    """
+    Genera un file CSV di statistiche aggregando i dati dei capitoli analizzati.
+    """
+    stats_file = os.path.join(output_dir, f"stats-{book_name}.csv")
+    chapter_files = []
+    
+    # Trova tutti i file di analisi dei capitoli
+    for file in os.listdir(output_dir):
+        if file.startswith(f"{book_name}-capitolo") and file.endswith("-analysis.csv"):
+            chapter_files.append(file)
+    
+    # Ordina i file per numero di capitolo
+    chapter_files.sort(key=lambda x: int(x.split("capitolo")[1].split("-")[0]))
+    
+    # Crea il file di statistiche
+    with open(stats_file, "w", newline='', encoding="utf-8") as f:
+        writer = csv.writer(f)
+        
+        for chapter_file in chapter_files:
+            chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
+            file_path = os.path.join(output_dir, chapter_file)
+            
+            try:
+                # Carica i dati del capitolo
+                with open(file_path, 'r', encoding='utf-8') as cf:
+                    reader = csv.reader(cf)
+                    chapter_data = list(reader)
+                
+                # Estrai i dati necessari
+                main_location = None
+                locations = {}
+                times = {}
+                
+                for row in chapter_data:
+                    if len(row) < 2:
+                        continue
+                        
+                    if row[0] == "Main Location":
+                        try:
+                            main_location = ast.literal_eval(row[1])
+                        except:
+                            main_location = {"name": "Sconosciuto", "priority_score": 0}
+                            
+                    elif row[0] == "Potential Locations":
+                        try:
+                            locations = ast.literal_eval(row[1])
+                        except:
+                            locations = {}
+                            
+                    elif row[0] == "Tempi di analisi":
+                        try:
+                            times = ast.literal_eval(row[1])
+                        except:
+                            times = {}
+                
+                # Calcola la dimensione del capitolo
+                chapter_path = os.path.join(output_dir, chapter_file)
+                file_size = os.path.getsize(chapter_path)
+                
+                # Stima del numero di pagine (usando la costante PAGE_SIZE)
+                num_pages = max(1, file_size // PAGE_SIZE)
+                
+                # Scrivi l'intestazione del capitolo
+                writer.writerow([f"Capitolo {chapter_num}:"])
+                writer.writerow([f"{file_size} byte - {num_pages} pagine"])
+                
+                # Scrivi i tempi di analisi
+                times_str = ", ".join([f"{k}: {v:.2f}s" for k, v in times.items()])
+                writer.writerow([f"Tempi di analisi: {times_str}"])
+                
+                # Scrivi il luogo principale
+                if main_location and "name" in main_location and "priority_score" in main_location:
+                    writer.writerow([f"{main_location['name']}: {main_location['priority_score']:.2f}"])
+                else:
+                    writer.writerow(["Luogo principale non identificato"])
+                
+                # Scrivi gli altri luoghi (fino a 10, ordinati per priority_score)
+                writer.writerow(["Altri luoghi:"])
+                
+                # MODIFICATO: Assegna priority_score a tutti i luoghi che non ce l'hanno
+                # Questo simula ciò che farebbe select_main_location ma solo per il calcolo dei punteggi
+                main_loc_name = main_location.get("name") if main_location else None
+                weights = LOCATION_WEIGHTS
+                max_count = max([d["count"] for d in locations.values()], default=1)
+                
+                # Lista per tenere traccia di tutti i luoghi con punteggio
+                scored_locations = []
+                
+                for loc_name, loc_data in locations.items():
+                    # Salta il luogo principale che è già stato mostrato
+                    if loc_name == main_loc_name:
+                        continue
+                        
+                    # Se il luogo non ha già un priority_score, calcolalo
+                    if "priority_score" not in loc_data:
+                        # Calcola il punteggio come in select_main_location
+                        occurrence_score = loc_data["count"] / max_count
+                        early_appearance_bonus = 1.0 if loc_data.get("early_appearance", False) else 0.0
+                        spacy_loc_bonus = 0.5 if loc_data.get("spacy_label", "") == "LOC" else 0.0
+                        
+                        # Usa valore binario per la confidenza
+                        is_location = loc_data["category"] != "non_luogo"
+                        location_confidence = 1.0 if is_location else 0.0
+                        
+                        priority_score = (
+                            weights["occurrence"] * occurrence_score + 
+                            weights["confidence"] * location_confidence +
+                            weights["early_appearance"] * early_appearance_bonus +
+                            weights["spacy_loc_bonus"] * spacy_loc_bonus
+                        )
+                    else:
+                        priority_score = loc_data["priority_score"]
+                    
+                    # Aggiungi alla lista dei luoghi con punteggio
+                    scored_locations.append((loc_name, priority_score))
+                
+                # Ordina per punteggio e prendi i primi 10
+                scored_locations.sort(key=lambda x: x[1], reverse=True)
+                
+                for loc_name, score in scored_locations[:10]:
+                    writer.writerow([f"[{loc_name}, {score:.2f}]"])
+                
+                # Aggiungi una riga vuota tra i capitoli
+                writer.writerow([])
+                
+            except Exception as e:
+                writer.writerow([f"Errore nell'elaborazione del capitolo {chapter_num}: {str(e)}"])
+                writer.writerow([])
+                logging.error(f"Errore nell'elaborazione del file di statistiche per il capitolo {chapter_num}: {e}")
+    
+    print(f"File di statistiche generato: {stats_file}")
 
 
 
