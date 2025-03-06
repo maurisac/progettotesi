@@ -42,9 +42,9 @@ LOCATION_WEIGHTS = {
 
 # Configurazione dei pesi per la scelta del personaggio principale
 CHARACTER_WEIGHTS = {
-    "occurrence": 1,    # Peso per il numero di occorrenze
-    "early_appearance": 2,  # Peso per l'apparizione all'inizio
-    "spacy_per_bonus": 0.5 # Bonus se riconosciuto come PER da spaCy
+    "occurrence": 0.2857,    # Peso per il numero di occorrenze
+    "early_appearance": 0.5714,  # Peso per l'apparizione all'inizio
+    "spacy_per_bonus": 0.1428 # Bonus se riconosciuto come PER da spaCy
 }
 
 
