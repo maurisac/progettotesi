@@ -45,6 +45,7 @@ LOCATION_WEIGHTS = {
 CHARACTER_WEIGHTS = {
     "occurrence": 1,    # Peso per il numero di occorrenze
     "early_appearance": 2,  # Peso per l'apparizione all'inizio
+    "spacy_per_bonus": 0.5 # Bonus se riconosciuto come PER da spaCy
 }
 
 
@@ -427,13 +428,17 @@ def select_main_location(locations, weights=None):
 
 
 
-def select_main_character(entities, weights=None):
+def select_main_character(entities, early_entities=None, weights=None):
     """
     Seleziona il personaggio principale in base ai pesi configurati.
     Permette di modificare i pesi senza rifare l'analisi.
     """
     if not weights:
         weights = CHARACTER_WEIGHTS
+        
+    # Usa early_entities se fornito, altrimenti inizializza un set vuoto
+    if early_entities is None:
+        early_entities = []
         
     # Filtra solo le entità che sono persone (PER)
     people = {}
@@ -444,7 +449,9 @@ def select_main_character(entities, weights=None):
         for (entity, label), count in entities.items():
             if label == "PER":
                 people[entity] = {
-                    "count": count
+                    "count": count,
+                    "early_appearance": entity in early_entities,
+                    "spacy_label": label
                 }
     elif isinstance(entities, dict) or isinstance(entities, list):
         # Se è un dizionario o una lista (caricato da CSV)
@@ -464,7 +471,11 @@ def select_main_character(entities, weights=None):
                             entity, label = entity_tuple
                             count = entity_data
                             if label == "PER":
-                                people[entity] = {"count": count}
+                                people[entity] = {
+                                    "count": count, 
+                                    "early_appearance": entity in early_entities,
+                                    "spacy_label": label
+                                }
                         except:
                             continue
             elif isinstance(entities, list):
@@ -473,13 +484,21 @@ def select_main_character(entities, weights=None):
                     if len(item) == 3:  # [entity, label, count]
                         entity, label, count = item
                         if label == "PER":
-                            people[entity] = {"count": count}
+                            people[entity] = {
+                                "count": count, 
+                                "early_appearance": entity in early_entities,
+                                "spacy_label": label
+                            }
                     elif len(item) == 2:  # [(entity, label), count]
                         key, count = item
                         if isinstance(key, tuple) and len(key) == 2:
                             entity, label = key
                             if label == "PER":
-                                people[entity] = {"count": count}
+                                people[entity] = {
+                                    "count": count, 
+                                    "early_appearance": entity in early_entities,
+                                    "spacy_label": label
+                                }
         except Exception as e:
             logging.error(f"Errore nell'interpretazione delle entità: {e}")
             return None
@@ -487,21 +506,25 @@ def select_main_character(entities, weights=None):
     if not people:
         return None
     
-    # Determina quali personaggi appaiono all'inizio (se disponibile nell'analisi)
-    early_characters = set()  # Questo dovrebbe essere ottenuto da una precedente analisi
-    
     # Calcola il punteggio di ogni personaggio
     highest_score = -1
     main_character = None
     
+    # Aggiungiamo peso per spaCy PER label
+    max_count = max([data["count"] for data in people.values()])
+    
     for character, data in people.items():
         # Normalizza il punteggio di occorrenza rispetto al personaggio più frequente
-        occurrence_score = data["count"] / max([d["count"] for d in people.values()])
-        early_appearance_bonus = 1.0 if character in early_characters else 0.0
+        occurrence_score = data["count"] / max_count
+        early_appearance_bonus = 1.0 if data.get("early_appearance", False) else 0.0
+        
+        # Aggiungi peso per il riconoscimento di spaCy
+        spacy_per_bonus = 1.0 if data.get("spacy_label", "") == "PER" else 0.0
         
         priority_score = (
             weights["occurrence"] * occurrence_score + 
-            weights["early_appearance"] * early_appearance_bonus
+            weights["early_appearance"] * early_appearance_bonus +
+            weights.get("spacy_per_bonus", 0.5) * spacy_per_bonus  # Usa 0.5 come valore predefinito
         )
         
         if priority_score > highest_score:
@@ -509,7 +532,8 @@ def select_main_character(entities, weights=None):
             main_character = {
                 "name": character,
                 "count": data["count"],
-                "early_appearance": character in early_characters,
+                "early_appearance": data.get("early_appearance", False),
+                "spacy_label": data.get("spacy_label", ""),
                 "priority_score": priority_score
             }
     
@@ -620,7 +644,7 @@ def analyze_chapter(book_name, chapter_num, chapter_text, output_dir):
         main_location = select_main_location(locations)
         
         # Seleziona il personaggio principale
-        main_character = select_main_character(spacy_results)
+        main_character = select_main_character(spacy_results, early_entities)
 
         total_time = time.time() - start_time
         times["Tempo totale"] = total_time
@@ -786,6 +810,8 @@ def parallel_analysis(book_name, chapters, text, output_dir):
     
     # Dopo che tutte le analisi sono completate, genera il file di statistiche
     generate_stats_file(book_name, output_dir)
+
+
 
 
 def generate_stats_file(book_name, output_dir):
