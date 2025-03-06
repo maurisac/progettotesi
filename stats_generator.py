@@ -1,3 +1,6 @@
+# Per eseguire questo file, usare il comando 
+# "python stats_generator.py --dir "analyses/libro" --book "nomelibro" --evaluate-bert --test-data "test_locations.json""
+
 import os
 import sys
 import csv
