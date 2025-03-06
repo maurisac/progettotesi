@@ -34,11 +34,10 @@ sentiment_classifier = SentimentClassifier()
 
 # Configurazione dei pesi per la scelta del luogo principale
 LOCATION_WEIGHTS = {
-    "occurrence": 0.3,    # Peso per il numero di occorrenze
-    "confidence": 10,    # Peso per la confidenza di BERT
-    "early_appearance": 3,  # Peso per l'apparizione all'inizio
-    "spacy_loc_bonus": 0.2   # Bonus se riconosciuto come LOC da spaCy
-
+    "occurrence": 0.0223,    # Peso per il numero di occorrenze
+    "confidence": 0.7407,    # Peso per la confidenza di BERT
+    "early_appearance": 0.2222,  # Peso per l'apparizione all'inizio
+    "spacy_loc_bonus": 0.0148   # Bonus se riconosciuto come LOC da spaCy
 }
 
 # Configurazione dei pesi per la scelta del personaggio principale
