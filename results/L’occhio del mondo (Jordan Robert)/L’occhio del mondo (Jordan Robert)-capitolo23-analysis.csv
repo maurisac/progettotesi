@@ -1,0 +1,584 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:28:43
+Entities,"{
+  ('Perrin', 'PER'): 76,
+  ('Egwene', 'PER'): 49,
+  ('Elyas', 'PER'): 40,
+  ('Burn', 'MISC'): 13,
+  ('Caemlyn', 'LOC'): 11,
+  ('Dapple', 'PER'): 11,
+  ('Aes Sedai', 'LOC'): 10,
+  ('Bela', 'PER'): 7,
+  ('Trolloc', 'ORG'): 7,
+  ('Trolloc', 'LOC'): 4,
+  ('Mezzi Uomini', 'MISC'): 4,
+  ('Shadar Logoth', 'PER'): 3,
+  ('Dapple', 'ORG'): 3,
+  ('Tenebroso', 'PER'): 3,
+  ('Tar Valon', 'LOC'): 3,
+  ('Amici delle Tenebre', 'MISC'): 3,
+  ('Perrin Aybara', 'PER'): 2,
+  ('Emond’s Field', 'MISC'): 2,
+  ('Aiel', 'PER'): 2,
+  ('Hopper', 'PER'): 2,
+  ('Senzaocchi', 'LOC'): 2,
+  ('Ajah Rossa', 'ORG'): 2,
+  ('Unico Potere', 'MISC'): 2,
+  ('Custodi', 'PER'): 2,
+  ('Odio', 'MISC'): 2,
+  ('Fratello', 'MISC'): 1,
+  ('Non intendevo…»  
+«Devo', 'MISC'): 1,
+  ('E va bene» mormorò Perrin', 'MISC'): 1,
+  ('«Mi…', 'PER'): 1,
+  ('Prendi l’acciarino', 'MISC'): 1,
+  ('Stasera', 'PER'): 1,
+  ('Non ce l’ho» rispose lentamente', 'MISC'): 1,
+  ('Moiraine Sedai', 'PER'): 1,
+  ('Il …  il Potere?', 'MISC'): 1,
+  ('Sei impazzita?» disse', 'MISC'): 1,
+  ('Unico Potere!', 'MISC'): 1,
+  ('Potere', 'LOC'): 1,
+  ('No.» Serrò le labbra', 'MISC'): 1,
+  ('Preparo l’archetto', 'MISC'): 1,
+  ('Almeno', 'PER'): 1,
+  ('Ricordi', 'ORG'): 1,
+  ('Procedevano', 'LOC'): 1,
+  ('Arinelle', 'PER'): 1,
+  ('Fumo» disse', 'MISC'): 1,
+  ('Coniglio', 'PER'): 1,
+  ('Lan', 'MISC'): 1,
+  ('Guardò Egwene', 'MISC'): 1,
+  ('Aspetta qui» disse sottovoce', 'MISC'): 1,
+  ('Rand', 'MISC'): 1,
+  ('Mat', 'MISC'): 1,
+  ('Strisciò di albero in albero', 'MISC'): 1,
+  ('Venite', 'PER'): 1,
+  ('Waterwood', 'LOC'): 1,
+  ('Egwene!', 'MISC'): 1,
+  ('Tese', 'MISC'): 1,
+  ('Elyas Machera', 'PER'): 1,
+  ('Andiamo', 'LOC'): 1,
+  ('Inarcò', 'PER'): 1,
+  ('Volevamo', 'PER'): 1,
+  ('Dorsale del 
+Mondo senza vedere anima viva', 'LOC'): 1,
+  ('Dorsale', 'LOC'): 1,
+  ('Deserto dell’Aiel', 'LOC'): 1,
+  ('Deserto', 'LOC'): 1,
+  ('Corrugò', 'LOC'): 1,
+  ('Zitta', 'PER'): 1,
+  ('Arrivano', 'LOC'): 1,
+  ('Bela nitrì', 'PER'): 1,
+  ('nitrì di nuovo', 'PER'): 1,
+  ('Calma', 'PER'): 1,
+  ('Occhi gialli', 'PER'): 1,
+  ('Fissavano', 'LOC'): 1,
+  ('Scostò', 'PER'): 1,
+  ('Bene» disse Elyas', 'MISC'): 1,
+  ('Parli con loro?', 'MISC'): 1,
+  ('Wind', 'ORG'): 1,
+  ('Primo 
+Giorno', 'MISC'): 1,
+  ('«No', 'PER'): 1,
+  ('Loro', 'PER'): 1,
+  ('Dite', 'MISC'): 1,
+  ('Una parola avventata', 'MISC'): 1,
+  ('Fade', 'ORG'): 1,
+  ('Saldaea', 'LOC'): 1,
+  ('Illian', 'PER'): 1,
+  ('Tempeste', 'MISC'): 1,
+  ('Popolo del Mare', 'LOC'): 1,
+  ('Thom Merrilin', 'PER'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Dalla Saldaea', 'LOC'): 1,
+  ('Esatto', 'PER'): 1,
+  ('Pensavamo', 'PER'): 1,
+  ('Maradon', 'PER'): 1,
+  ('Re', 'PER'): 1,
+  ('Maradon', 'LOC'): 1,
+  ('Una bella storia» annuì', 'MISC'): 1,
+  ('Bugie!» esclamò', 'MISC'): 1,
+  ('Trolloc', 'PER'): 1,
+  ('Latrati', 'LOC'): 1,
+  ('Notte d’Inverno', 'MISC'): 1,
+  ('Mat', 'PER'): 1,
+  ('Baerlon', 'LOC'): 1,
+  ('Frugò', 'PER'): 1,
+  ('Ajah Nera', 'MISC'): 1,
+  ('Potere?', 'ORG'): 1,
+  ('No, certo» ringhiò Elyas', 'MISC'): 1,
+  ('domarmi', 'MISC'): 1,
+  ('Amyrlin Seat', 'PER'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Elyas', 'MISC'): 1,
+  ('Potere', 'MISC'): 1,
+  ('«I', 'PER'): 1,
+  ('Myrddraal', 'LOC'): 1,
+  ('Accetteranno', 'LOC'): 1,
+  ('Non m’illudo', 'MISC'): 1,
+  ('Io? 
+', 'MISC'): 1,
+  ('Ah', 'MISC'): 1,
+  ('Verrò con te', 'MISC'): 1,
+  ('tu stai', 'PER'): 1,
+  ('sfidassero', 'LOC'): 1,
+  ('Domattina', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Fratello': {
+    'category': 'paese',
+    'confidence': 0.303986132144928,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9649272727272729,
+    'early_appearance': True,
+    'positions': [6]
+  },
+  'Andiamo': {
+    'category': 'paese',
+    'confidence': 0.2439856380224228,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7501272727272728,
+    'early_appearance': False,
+    'positions': [12471]
+  },
+  'Dorsale del 
+Mondo senza vedere anima viva': {
+    'category': 'casa',
+    'confidence': 0.10301221907138824,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7501272727272728,
+    'early_appearance': False,
+    'positions': [13079]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7447545454545454,
+    'early_appearance': False,
+    'positions': [4345, 8680]
+  },
+  'Odio': {
+    'category': 'paese',
+    'confidence': 0.38520514965057373,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7447545454545454,
+    'early_appearance': False,
+    'positions': [31035, 31041]
+  },
+  'Almeno': {
+    'category': 'paese',
+    'confidence': 0.27617427706718445,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [3426]
+  },
+  'Ricordi': {
+    'category': 'paese',
+    'confidence': 0.20017093420028687,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [4385]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [7857]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [8713]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [8720, 24335]
+  },
+  'Venite': {
+    'category': 'paese',
+    'confidence': 0.2677138149738312,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [10236]
+  },
+  'Calma': {
+    'category': 'paese',
+    'confidence': 0.3853134512901306,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [14666]
+  },
+  'Loro': {
+    'category': 'paese',
+    'confidence': 0.29715314507484436,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [19466]
+  },
+  'Dite': {
+    'category': 'paese',
+    'confidence': 0.27854713797569275,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [19674]
+  },
+  'Esatto': {
+    'category': 'paese',
+    'confidence': 0.26433226466178894,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [21122]
+  },
+  'Re': {
+    'category': 'paese',
+    'confidence': 0.23428751528263092,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7427272727272728,
+    'early_appearance': False,
+    'positions': [21203]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 11,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [80, 4887, 7121, 12481, 12705, 12862, 14408, 19691, 20786, 24915, 28881]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 10,
+    'priority_score': 0.027672727272727272,
+    'early_appearance': False,
+    'positions': [21561, 25008, 25243, 25585, 26009, 26141, 26446, 26695, 27004, 27874]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.01550909090909091,
+    'early_appearance': False,
+    'positions': [5385, 9193, 11566, 22736, 22947, 23055, 23100, 23224, 27697, 28048, 28255, 30279]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.013481818181818182,
+    'early_appearance': False,
+    'positions': [21544, 24934, 28926]
+  },
+  'Senzaocchi': {
+    'category': 'non_luogo',
+    'confidence': 0.274590402841568,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011454545454545455,
+    'early_appearance': False,
+    'positions': [23071, 28140]
+  },
+  'Potere': {
+    'category': 'non_luogo',
+    'confidence': 0.15005744993686676,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [3127, 27266]
+  },
+  'Procedevano': {
+    'category': 'non_luogo',
+    'confidence': 0.19433079659938812,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [4999]
+  },
+  'Waterwood': {
+    'category': 'non_luogo',
+    'confidence': 0.21882008016109467,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [10776]
+  },
+  'Dorsale': {
+    'category': 'non_luogo',
+    'confidence': 0.23714497685432434,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [13158]
+  },
+  'Deserto dell’Aiel': {
+    'category': 'non_luogo',
+    'confidence': 0.1556292623281479,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [13224]
+  },
+  'Deserto': {
+    'category': 'non_luogo',
+    'confidence': 0.20972591638565063,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [13391]
+  },
+  'Corrugò': {
+    'category': 'non_luogo',
+    'confidence': 0.3201996982097626,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [13889]
+  },
+  'Arrivano': {
+    'category': 'non_luogo',
+    'confidence': 0.31850987672805786,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [14442]
+  },
+  'Fissavano': {
+    'category': 'non_luogo',
+    'confidence': 0.26228880882263184,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [15391]
+  },
+  'Saldaea': {
+    'category': 'non_luogo',
+    'confidence': 0.314861536026001,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [20554]
+  },
+  'Popolo del Mare': {
+    'category': 'non_luogo',
+    'confidence': 0.16435225307941437,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [20867]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [21031]
+  },
+  'Dalla Saldaea': {
+    'category': 'non_luogo',
+    'confidence': 0.23438748717308044,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [21049]
+  },
+  'Maradon': {
+    'category': 'non_luogo',
+    'confidence': 0.32220304012298584,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [21158, 21360]
+  },
+  'Latrati': {
+    'category': 'non_luogo',
+    'confidence': 0.24801041185855865,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [24125]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [24723]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [28265]
+  },
+  'Accetteranno': {
+    'category': 'non_luogo',
+    'confidence': 0.17115479707717896,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [28459]
+  },
+  'sfidassero': {
+    'category': 'non_luogo',
+    'confidence': 0.20671893656253815,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [30100]
+  },
+}"
+Main Location,"{
+  'name': 'Emond’s Field',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.09198778867721558,
+  'count': 2,
+  'priority_score': 0.7447545454545454,
+  'early_appearance': False,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 76,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'anger': 11, 'sadness': 53, 'joy': 26, 'fear': 5}, 'sentiment_counts': {'negative': 65, 'positive': 30}, 'emotion_percentages': {'anger': 11.578947368421053, 'sadness': 55.78947368421052, 'joy': 27.368421052631582, 'fear': 5.263157894736842}, 'sentiment_percentages': {'negative': 68.42105263157895, 'positive': 31.57894736842105}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.7574307918548584, 'Riconoscimento entità con spaCy': 0.0039920806884765625, 'Analisi emozioni': 16.843732833862305, 'Classificazione delle location': 40.936946392059326, 'Tempo totale': 59.544102907180786}"
+Original Text Extract,"23 
+ 
+Fratello dei lupi 
+ 
+ 
+ 
+ 
+ 
+Fin dall’inizio Perrin capì che il viaggio a Caemlyn sarebbe stato tutt’altro che agevole: Egwene 
+cominciò subito a insistere di fare a turno a cavalcare Bela. Non sapevano quanto sarebbe durato il 
+viaggio, ma era senz’altro troppo lungo perché lui lo facesse tutto a piedi.  
+«Sono troppo pesante per Bela» disse Perrin. «Sono abituato a camminare e lo preferisco.»  
+«E io non sono abituata?» replicò Egwene, brusca.  
+«Non intendevo…»  
+«Devo essere l’unica a farmi venire i calli alle natiche? E quando avrai i piedi a pezzi, ti aspetti che 
+sia io a curarti?»  
+«E va bene» mormorò Perrin, visto che Egwene non intendeva smetterla.  
+«Ma fai tu il primo turno.» Per prevenire le proteste, soggiunse: «Se non monti in sella da sola, ti ci 
+metto di peso.»  
+Egwene gli diede un’occhiata di stupore e piegò le labbra in un sorriso.  
+«In questo caso…» disse. Parve sul punto di ridere, ma montò in sella.  
+Perrin brontolò tra sé, mentre si allontanavano dal fiume. Nelle storie, i capi non avevano mai 
+problemi del genere.  
+Egwene non rinunciò ai turni; se lui cercava di evitarli, lo costringeva con le cattive. A fare il 
+fabbro, non ci si snelliva il fisico, e Bela non era grossa come i cavalli normali. Ogni volta che Perrin 
+metteva il piede nella staffa, la giumenta lo fissava con quella che secondo lui era un’aria di 
+rimprovero. Piccole cose, forse, ma lo irritavano. Ben presto Perrin trasalì, ogni volta che Egwene 
+annunciava: «È il tuo turno.»  
+Nelle storie, i capi non trasalivano mai, e nessuno li intimidiva. Ma non dovevano vedersela con 
+Egwene, si disse Perrin.  
+Le scarse razioni di pane e formaggio terminarono alla fine del primo giorno. Perrin dispose lacci 
+lungo probabili piste di conigli selvatici…  
+sembravano vecchie, ma valevano un tentativo… mentre Egwene accendeva il fuoco. Decise anche 
+di provare con la fionda, prima che la luce svanisse del tutto. Non avevano visto segni di vita, però… 
+Con sorpresa snidò quasi subito un magro coniglio. Se lo vide schizzare sotto i piedi e rischiò di 
+lasciarselo scappare, ma lo colpì da quaranta passi, mentre l’animale cercava rifugio dietro un albero.  
+Tornò al campo, col coniglio. Egwene aveva preparato la legna per il fuoco, ma se ne stava in 
+ginocchio accanto al mucchietto di sterpi, a occhi chiusi. «Cosa fai?» disse Perrin. «Non basta il 
+desiderio, per accendere il fuoco.»  
+Egwene sobbalzò e si girò a fissarlo. «Mi… mi hai spaventata.»  
+«Ho avuto fortuna» disse Perrin, porgendole il coniglio. «Prendi l’acciarino. Stasera almeno 
+mangiamo bene.»  
+«Non ce l’ho» rispose lentamente Egwene. «Lo tenevo in tasca e l’ho perduto nel fiume.»  
+«Allora come…»  
+«È stato facile, sulla riva del fiume. Proprio come Moiraine Sedai mi ha mostrato. Mi è bastato 
+
+allungare la mano e…» Fece il gesto di afferrare qualcosa, poi con un sospiro lasciò ricadere la mano. 
+«Ora non riesco a trovarlo.»  
+«Il …  il Potere?» domandò Perrin, a disagio. Egwene annuì. Lui la fissò.  
+«Sei impazzita?» disse. «L’Unico Potere! Non si scherza, con certe cose!»  
+«Era facilissimo, Perrin. Posso incanalare il Potere.»  
+Perrin inspirò a fondo. «Ora costruisco un archetto per accendere il fuoco. Promettimi di non 
+provarci più.»  
+«No.» Serrò le labbra. «Rinunceresti a quell’ascia, Perrin Aybara? Andresti in giro con una mano 
+legata dietro la schiena?»  
+«Preparo l’archetto» disse Perrin, stancamente. «Almeno, prometti di non provarci più, stasera. Per 
+favore.»  
+Egwene acconsentì di malavoglia; mentre il coniglio arrostiva sullo spiedo, Perrin ebbe 
+l’impressione che Egwene non si fosse convinta. Infatti, ogni sera non rinunciò a tentare d’accendere il 
+fuoco, ma al massimo riuscì a ottenere un filo di fumo che svaniva quasi subito. Allora con lo sguardo 
+sfidava Perrin a fare commenti, ma saggiamente lui non apriva bocca.  
+Dopo quell’unico pasto caldo, si cibarono di tuberi selvatici e di qualche giovane germoglio. Non si 
+lamentarono, ma non passava pasto senza che l’uno o l’altra mandasse un sospiro di rimpianto per la 
+mancanza di un pezzetto di formaggio o del profumo del pane. Un pomeriggio, in una zona ombrosa 
+della foresta, scoprirono alcuni funghi - corone della regina, i migliori - che bastarono a far sembrare la 
+cena un autentico banchetto. Li divorarono ridendo e raccontandosi storie su Emond’s Field, che 
+iniziavano con un: «Ricordi quella volta che…»; ma i funghi non durarono a lungo, e nemmeno 
+l’allegria. C’è ben poco da stare allegri, quando si è affamati.  
+Chi dei due andava a piedi, teneva in mano la fionda, pronto a usarla se vedeva un coniglio o uno 
+scoiattolo; ma l’unica volta che scagliarono una pietra fu solo per la frustrazione. Le trappole tese con 
+tanta cura la sera, erano vuote al mattino; e non osavano fermarsi un giorno intero nello stesso posto 
+per sfruttare i lacci. Non sapevano quanto distasse Caemlyn e non si sentivano al sicuro, finché non 
+fossero giunti in quella città, ammesso che vi giungessero.  
+P"
+Token Count,6743

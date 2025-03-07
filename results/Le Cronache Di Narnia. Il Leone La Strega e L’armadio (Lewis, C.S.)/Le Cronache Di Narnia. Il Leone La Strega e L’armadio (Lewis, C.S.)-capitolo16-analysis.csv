@@ -1,0 +1,221 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:13:19
+Entities,"{
+  ('Aslan', 'PER'): 25,
+  ('Lucy', 'PER'): 19,
+  ('Susan', 'PER'): 7,
+  ('Fracassone', 'LOC'): 3,
+  ('Peter', 'PER'): 3,
+  ('Tumnus', 'PER'): 2,
+  ('Narnia', 'LOC'): 2,
+  ('Strega Bianca', 'LOC'): 2,
+  ('leone', 'PER'): 2,
+  ('Ssst!', 'MISC'): 1,
+  ('fiò', 'PER'): 1,
+  ('Immagino', 'PER'): 1,
+  ('anco-ra
+rigida', 'PER'): 1,
+  ('boc-ca', 'MISC'): 1,
+  ('A-slan', 'MISC'): 1,
+  ('Il grande cortile', 'MISC'): 1,
+  ('Susan', 'MISC'): 1,
+  ('Santo', 'PER'): 1,
+  ('Dammi', 'PER'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Chiamate il grande
+Aslan!', 'MISC'): 1,
+  ('bril-lante', 'PER'): 1,
+  ('Tumnus', 'MISC'): 1,
+  ('carlo', 'PER'): 1,
+  ('Sistemeremo', 'PER'): 1,
+  ('Gigante Fracassone', 'PER'): 1,
+  ('Bene', 'LOC'): 1,
+  ('Devo', 'PER'): 1,
+  ('Sudati', 'PER'): 1,
+  ('Io ce l'ho', 'MISC'): 1,
+  ('Fracassone', 'MISC'): 1,
+  ('Dio', 'MISC'): 1,
+  ('Scusa', 'PER'): 1,
+  ('faz-zoletto fossi tu', 'MISC'): 1,
+  ('No, no — rise', 'MISC'): 1,
+  ('Stavolta il gigante', 'MISC'): 1,
+  ('Temo', 'LOC'): 1,
+  ('Oh, no', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Fracassa', 'PER'): 1,
+  ('Gente per bene', 'MISC'): 1,
+  ('Stre-ga
+Bianca', 'LOC'): 1,
+  ('glietti', 'PER'): 1,
+  ('dante', 'PER'): 1,
+  ('Edmund', 'PER'): 1,
+  ('sguar-do', 'MISC'): 1,
+  ('Giù a terra', 'MISC'): 1,
+  ('Strega Bian-', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7629666666666667,
+    'early_appearance': False,
+    'positions': [8217, 11882]
+  },
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7629666666666667,
+    'early_appearance': False,
+    'positions': [8592, 10464]
+  },
+  'Strega Bian-': {
+    'category': 'casa',
+    'confidence': 0.1056298315525055,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7555333333333333,
+    'early_appearance': False,
+    'positions': [11978]
+  },
+  'Fracassone': {
+    'category': 'non_luogo',
+    'confidence': 0.4244791567325592,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [5989, 6706, 7303, 12441]
+  },
+  'Bene': {
+    'category': 'non_luogo',
+    'confidence': 0.30377843976020813,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [5983]
+  },
+  'Temo': {
+    'category': 'non_luogo',
+    'confidence': 0.285136342048645,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [7798]
+  },
+  'Stre-ga
+Bianca': {
+    'category': 'non_luogo',
+    'confidence': 0.26985231041908264,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [8387]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 2,
+  'priority_score': 0.7629666666666667,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Aslan',
+  'count': 25,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'fear': 11, 'joy': 42, 'sadness': 35, 'anger': 9}, 'sentiment_counts': {'negative': 58, 'positive': 39}, 'emotion_percentages': {'fear': 11.34020618556701, 'joy': 43.29896907216495, 'sadness': 36.08247422680412, 'anger': 9.278350515463918}, 'sentiment_percentages': {'negative': 59.79381443298969, 'positive': 40.20618556701031}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.8801975250244141, 'Riconoscimento entità con spaCy': 0.0010006427764892578, 'Analisi emozioni': 14.51902723312378, 'Classificazione delle location': 8.338432312011719, 'Tempo totale': 23.740659952163696}"
+Original Text Extract,"16
+Cosa accadde alle statue
+— Che posto straordinario — esclamò Lucy. — Sembra di essere in un
+museo, con tutte queste statue.
+— Ssst! — la zittì Susan. — Guarda cosa sta facendo Aslan.
+Aslan, infatti, faceva qualcosa di strano. Si era avvicinato al leone di pie-
+tra e gli soffiava addosso. Poi continuò in queste stranezze: si girò di scat-
+to, proprio come un gattino che gioca con la coda, e soffiò sul nano di pie-
+tra che dava le spalle al leone (ricordate?); quindi si spostò di fianco e sof-
+fiò su una driade, poi su un coniglietto e su due centauri più a destra. Fu in
+quel momento che Lucy gridò: — Susan, Susan, guarda il leone!
+Immagino che vi sarà capitato di vedere qualcuno che accende il fuoco
+mettendo un foglio di giornale sotto un mucchietto di ramoscelli secchi e
+accostando un fiammifero acceso: per qualche istante non succede niente,
+finché una sottile striscia di fuoco serpeggia lungo il giornale e dopo qual-
+che secondo il falò scoppietta allegramente. Ebbene, accadde qualcosa del
+genere.
+Quando Aslan aveva soffiato sul leone non era successo niente, l'anima-le
+di pietra era quello di sempre. Poi era apparsa una striscia dorata lungo il
+dorso e ben presto si era allargata e allungata, guizzando sul corpo di pietra
+come la fiamma sul giornale. La parte posteriore del leone era anco-ra
+rigida e lui già scuoteva la criniera. Le pesanti ciocche rapprese nella pietra
+si sciolsero, diventarono morbide e fluenti: vive. Il leone aprì la boc-ca, fece
+un potentissimo sbadiglio, alzò una zampa e, dato che il corpo era tornato
+completamente alla vita, si diede una bella grattatina. Poi vide A-slan, lo
+raggiunse di corsa e si mise a saltellargli intorno come un cucciolo,
+uggiolando di felicità e tentando di leccargli il muso.
+Susan e Lucy seguivano la scena con gli occhi sbarrati per la sorpresa,
+ma intorno a loro si succedevano tali e tante meraviglie che dimenticarono
+il leone e guardarono altrove.
+Il grande cortile non somigliava più a un museo, ma a uno zoo: il gelido
+biancore delle statue si era trasformato in una festa di colori tra i quali
+spiccava il bruno dorato dei gropponi dei centauri, il corno color indaco
+degli unicorni, il rossiccio delle volpi, il mantello pezzato dei cani e il piu-
+maggio variopinto degli uccelli. C'erano i nani con il cappuccio cremisi e le
+calze gialle, le ninfe che abitano gli alberi avvolte in freschi veli traspa-
+
+renti: argentei come il tronco delle betulle, verde chiaro come le foghe
+dei faggi e quasi gialli come le gemme dei larici.
+Le creature ridenti circondavano Aslan e gli danzavano intorno, nascon-
+dendolo agli occhi di Lucy e Susan. Il cortile, già invaso dal mortale silen-
+zio delle statue, ora echeggiava di ruggiti e latrati festosi, di nitriti e ab-
+baiamenti, squittii e cinguettii; e scalpitar di zoccoli, grida di gioia, risate e
+canzoni.
+— Lucy, guarda — esclamò a gran voce Susan.
+Lucy guardò dalla parte che la sorella indicava e vide Aslan soffiare sui
+piedi di un gigante grande come una casa.
+— Va bene così — gridò Aslan gioiosamente. — Quando sono a posto i
+piedi, il resto viene da sé.
+— Non è di questo che dubitavo — mormorò Susan.
+Già il gigante si risvegliava, muoveva i piedi, le gambe e il braccio che
+reggeva un'enorme clava; infine si portò una mano al viso e disse, stropic-
+ciandosi gli occhi: — Santo cielo, devo aver dormito un bel po'. Ma dove è
+andata a ficcarsi l'orribile piccola strega che mi stava tra i piedi? Non può
+essere lontana: dev'essere da queste parti.
+Qualcuno si prese la briga di spiegargli cos'era accaduto, ma il gigante
+era un po' sordo: perciò dovettero gridargli tutto da capo. Lui si mise la
+mano all'orecchio e infine capì. Allora cominciò a toccarsi il berretto in
+segno di saluto, a fare grandi inchini verso Aslan, con la faccia raggiante di
+riconoscenza (oggi i giganti sono diventati rari, soprattutto quelli molto
+buoni: scommetto che non ne avete mai visto uno con la faccia raggiante;
+be', vi assicuro che è uno spettacolo che vale la pena).
+— E adesso tutti nel castello — ordinò a un certo momento Aslan. —
+Non sappiamo quanti prigionieri ci siano là dentro. Bisognerà frugare dap-
+pertutto, anche nella camera della padrona di casa.
+Si lanciarono tutti dietro ad Aslan nell'orribile, tetro castello dove le
+stanze erano sempre buie e sapevano di chiuso. Ci fu subito un gran rumo-
+re di finestre spalancate e frasi come «Dammi una mano con questa porta»,
+oppure «Non dimenticate le cantine e le soffitte» e anche «Che odore di
+muffa, qui dentro!» E poi «Vieni per di qua, c'è un'altra scala a chiocciola»
+e ancora «Sta' attento a quella botola, guarda dove porta.»
+Poi una voce gridò: — Qui c'è un canguro di pietra, Chiamate il grande
+Aslan!
+
+— Ne abbiamo bisogno anche qui — gridò un'altra voce. — Ci sono
+molte statue, su questo pianerottolo.
+
+Ma il momento più bello fu quando Lucy si lanciò su per le scale, urlan-
+do: — Aslan, Aslan! Ho trovato il signor Tumnus. Vieni, presto! — Pochi
+minuti dopo Lucy e il fauno si tenevano per man"
+Token Count,2820

@@ -1,0 +1,271 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:57
+Entities,"{
+  ('Aslan', 'PER'): 31,
+  ('Lucy', 'PER'): 19,
+  ('Susan', 'PER'): 17,
+  ('Tavola di Pietra', 'LOC'): 7,
+  ('Strega Bianca', 'PER'): 3,
+  ('Peter', 'PER'): 3,
+  ('Beruna', 'LOC'): 2,
+  ('Peter', 'MISC'): 2,
+  ('Oh, bambine', 'MISC'): 2,
+  ('Oh', 'PER'): 2,
+  ('Il trionfo della strega
+Appena la strega', 'MISC'): 1,
+  ('Fecero colazione', 'MISC'): 1,
+  ('Marciavano', 'LOC'): 1,
+  ('Strada', 'LOC'): 1,
+  ('Grande Fiume', 'LOC'): 1,
+  ('Sei sveglia anche tu', 'MISC'): 1,
+  ('Davvero', 'PER'): 1,
+  ('Chissà', 'PER'): 1,
+  ('Pian', 'LOC'): 1,
+  ('Guarda!', 'MISC'): 1,
+  ('luna', 'LOC'): 1,
+  ('stan-co', 'PER'): 1,
+  ('avvicinaro-no', 'PER'): 1,
+  ('Venite', 'PER'): 1,
+  ('Sentirò', 'MISC'): 1,
+  ('cespu-gli', 'LOC'): 1,
+  ('Orchi con denti mostruosi', 'MISC'): 1,
+  ('Strega Bianca', 'LOC'): 1,
+  ('Basta', 'LOC'): 1,
+  ('Micio', 'PER'): 1,
+  ('Vigliacchi!', 'MISC'): 1,
+  ('Le quattro streghe aiutanti', 'MISC'): 1,
+  ('Tavola di
+Pietra', 'LOC'): 1,
+  ('La Strega Bianca', 'MISC'): 1,
+  ('Edmund', 'PER'): 1,
+  ('Grande Magia', 'LOC'): 1,
+  ('Narnia', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9734857142857142,
+    'early_appearance': True,
+    'positions': [273, 7752, 8389, 11788]
+  },
+  'Strada': {
+    'category': 'paese',
+    'confidence': 0.1975329965353012,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9734857142857142,
+    'early_appearance': True,
+    'positions': [661]
+  },
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [12447]
+  },
+  'La Strega Bianca': {
+    'category': 'torre',
+    'confidence': 0.17886945605278015,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [11494]
+  },
+  'Beruna': {
+    'category': 'non_luogo',
+    'confidence': 0.3871878683567047,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23597142857142858,
+    'early_appearance': True,
+    'positions': [192, 1715]
+  },
+  'Marciavano': {
+    'category': 'non_luogo',
+    'confidence': 0.3270457983016968,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [580]
+  },
+  'Tavola di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [4521, 6511, 7091, 7780, 9107, 10938, 11819]
+  },
+  'Grande Fiume': {
+    'category': 'non_luogo',
+    'confidence': 0.17730394005775452,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [1602]
+  },
+  'Pian': {
+    'category': 'non_luogo',
+    'confidence': 0.2609758973121643,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [3855]
+  },
+  'luna': {
+    'category': 'non_luogo',
+    'confidence': 0.26536130905151367,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [4623]
+  },
+  'cespu-gli': {
+    'category': 'non_luogo',
+    'confidence': 0.24723416566848755,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [6601]
+  },
+  'Basta': {
+    'category': 'non_luogo',
+    'confidence': 0.2983839213848114,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [9127]
+  },
+  'Tavola di
+Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [11448]
+  },
+  'Grande Magia': {
+    'category': 'non_luogo',
+    'confidence': 0.18467357754707336,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [12267]
+  },
+}"
+Main Location,None
+Main Character,"{
+  'name': 'Aslan',
+  'count': 31,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'anger': 16, 'sadness': 52, 'joy': 24, 'fear': 6}, 'sentiment_counts': {'negative': 77, 'positive': 21}, 'emotion_percentages': {'anger': 16.3265306122449, 'sadness': 53.06122448979592, 'joy': 24.489795918367346, 'fear': 6.122448979591836}, 'sentiment_percentages': {'negative': 78.57142857142857, 'positive': 21.428571428571427}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.8791961669921875, 'Riconoscimento entità con spaCy': 0.0010006427764892578, 'Analisi emozioni': 19.969600677490234, 'Classificazione delle location': 15.03470230102539, 'Tempo totale': 35.8844997882843}"
+Original Text Extract,"14
+Il trionfo della strega
+Appena la strega se ne fu andata, Aslan disse: — Dobbiamo andarcene
+anche noi, immediatamente. Questo posto è destinato ad altri scopi. Ci ac-
+camperemo al guado di Beruna.
+Tutti morivano dalla voglia di sapere cosa avessero combinato Aslan e la
+Strega Bianca, ma il leone aveva un'espressione molto grave e nell'aria
+vibrava ancora l'eco del suo terribile ruggito. Perciò nessuno osò fare do-
+mande.
+Fecero colazione all'aperto (il sole era così cocente che l'erba comincia-
+va già a inaridirsi), poi smontarono la grande tenda e si misero in viaggio.
+Marciavano senza fretta, in direzione nord-est. La meta non era molto lon-
+tana.
+Strada facendo, Aslan spiegò a Peter cosa bisognava fare per sconfiggere
+la strega.
+— Per il momento lei non si allontanerà di qui; deve sbrigare un piccolo
+affare. Poi si ritirerà nel suo castello per sostenere il nostro assedio. Non
+credo che darà battaglia in campo aperto, a meno che tu non riesca a ta-
+gliarle la strada. Forse ce la farai, forse no. — Aslan, infatti, aveva pre-
+parato due piani di battaglia: uno per lo scontro nel bosco e uno per l'assal-
+to al castello. — Dovrai disporre i centauri qui e qui — diceva. — Non
+dimenticare di piazzare le sentinelle...
+— Ma ci sarai anche tu, immagino — lo interruppe Peter, alquanto pre-
+occupato.
+— Questo non te lo posso promettere — rispose il leone, e continuò a
+dare istruzioni dettagliate.
+Nell'ultima parte del viaggio, Susan e Lucy restarono sempre vicine ad
+Aslan, che sembrava di umore triste e depresso. Quando giunsero a un
+punto dove la valle si allargava parecchio, il Grande Fiume si faceva più
+ampio e l'acqua molto bassa, Aslan diede l'ordine di fermarsi: quello era il
+guado di Beruna.
+Dato che il sole era ancora alto, Peter disse: — Non sarebbe meglio con-
+
+tinuare il cammino e accamparci almeno sull'altra sponda? Forse,
+stanotte, la strega ci attaccherà di sorpresa.
+Aslan, che sembrava immerso in tutt'altri pensieri, alzò di scatto la testa,
+scosse la magnifica criniera e chiese: — Come? Cosa hai detto?
+Peter dovette ripetere la sua osservazione e la proposta, che evidente-
+mente Aslan non aveva nemmeno sentito.
+— Certo — rispose il leone. — La tua idea è giusta. È proprio così che
+deve pensare un bravo soldato. Ma la strega non ci attaccherà stanotte, cer-
+tamente no — e fece un lungo sospiro.
+L'umore di Aslan impressionò più o meno tutti, quella sera. La cena si
+svolse in un silenzio quasi completo e ognuno si chiedeva se i momenti di
+gioia all'arrivo di Aslan non fossero stati altro che un sogno. La felicità
+sembrava svanita, ed era durata così poco!
+Peter, dal canto suo, era preoccupato all'idea di doversi impegnare in
+battaglia senza la guida di Aslan. Ce l'avrebbe fatta da solo? La strana sen-
+sazione di disagio che pervadeva tutti tormentò anche Susan, che non riu-
+sciva a prender sonno. Si voltava e rivoltava di continuo e a un certo punto
+sentì che Lucy sospirava nel buio.
+— Sei sveglia anche tu, Lucy? Non puoi dormire?
+— No — rispose Lucy. — Ma credevo che tu fossi già addormentata. Sai
+una cosa?
+— Cosa?
+— Ho un terribile presentimento. Come se ci stesse per capitare qualco-
+sa di molto brutto. Un pericolo.
+— Davvero, Lucy? Be', anch'io ho la stessa sensazione.
+— Qualcosa che riguarda Aslan, vero? — riprese Lucy.
+— Qualcosa di molto grave che capiterà a lui o che lui farà, non so bene.
+— Sì, è tutto il pomeriggio che ho la sensazione di qualcosa che non va
+— mormorò Susan, e dopo una breve pausa aggiunse: — Cosa diceva A-
+slan? Che non ci sarà, al momento della battaglia. Pensi che lo rapiranno? O
+che ci lascerà, forse proprio stanotte?
+— Chissà dov'è, ora? — rispose Lucy. — Che sia qui, sotto la grande
+tenda?
+— Non credo — rispose Susan.
+— Usciamo all'aperto, vuoi? Forse lo vedremo.
+— Sì, andiamo — fece Susan. — Sempre meglio che stare qui al buio
+senza dormire.
+
+Pian piano le due sorelle si fecero strada tra i corpi addormentati e usci-
+
+rono dalla tenda. La luna splendeva alta nel cielo e la notte era straordina-
+riamente silenziosa, tranne per il tranquillo mormorio del fiume. Improvvi-
+samente Susan afferrò il braccio di Lucy e mormorò: — Guarda!
+In lontananza, dove finiva il grande prato su cui era montata la tenda e
+cominciava il bosco, videro il leone che se ne andava lentamente. Le due
+ragazze non ebbero bisogno di consultarsi: si misero subito a seguirlo.
+Salirono per il pendio che portava oltre la valle e girarono a destra. Evi-
+dentemente Aslan seguiva la strada che avevano fatto quel giorno, diretto
+alla Tavola di Pietra. E camminava, camminava nell'ombra del bosco e nelle
+radure illuminate dal chiaro di luna, e di nuovo nel folto del bosco. Susan e
+Lucy avevano i piedi tutti bagnati per la rugiada che inzuppava l'erba, ma
+non se ne curavano. Aslan, davanti a loro, sembrava in qualche modo
+diverso dal grande leone che avevano conosciuto: camminava tra-scinando
+la coda per terra, a testa bassa e lentamente, come se fosse stan-co, stanco,
+stanco. Quando arrivarono in un grande"
+Token Count,2816

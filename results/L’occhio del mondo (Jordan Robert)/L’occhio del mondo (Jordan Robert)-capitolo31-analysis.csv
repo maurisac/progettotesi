@@ -1,0 +1,431 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:30:13
+Entities,"{
+  ('Rand', 'MISC'): 61,
+  ('Mat', 'MISC'): 44,
+  ('Grinwell', 'PER'): 10,
+  ('Thom', 'PER'): 7,
+  ('Else', 'PER'): 7,
+  ('Mastro Grinwell', 'PER'): 5,
+  ('Mat', 'PER'): 4,
+  ('Caemlyn', 'LOC'): 4,
+  ('Whitebridge', 'PER'): 3,
+  ('Rand', 'LOC'): 3,
+  ('Rand', 'PER'): 3,
+  ('Whitebridge', 'LOC'): 2,
+  ('Myrddraal', 'LOC'): 2,
+  ('Comare Grinwell', 'LOC'): 2,
+  ('Guadagnarsi', 'PER'): 1,
+  ('varcarla', 'LOC'): 1,
+  ('Almeno non pioveva', 'MISC'): 1,
+  ('Uomini', 'MISC'): 1,
+  ('Teneva', 'LOC'): 1,
+  ('Shadar Logoth', 'PER'): 1,
+  ('«', 'PER'): 1,
+  ('Strada per Caemlyn', 'LOC'): 1,
+  ('Thom Merrilin', 'PER'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Evitavano', 'PER'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Mezzi Uomini', 'MISC'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Tam', 'PER'): 1,
+  ('Tenebroso', 'PER'): 1,
+  ('Guardò', 'LOC'): 1,
+  ('luna', 'LOC'): 1,
+  ('Inquieto per i ricordi', 'MISC'): 1,
+  ('Fiumi', 'LOC'): 1,
+  ('Gemelli', 'LOC'): 1,
+  ('Arinelle', 'PER'): 1,
+  ('Baerlon', 'LOC'): 1,
+  ('Sangue', 'MISC'): 1,
+  ('ricaverei', 'PER'): 1,
+  ('Tar Valon', 'LOC'): 1,
+  ('Chissà', 'PER'): 1,
+  ('«Hai', 'PER'): 1,
+  ('Scusa', 'PER'): 1,
+  ('Fade', 'ORG'): 1,
+  ('scancio', 'PER'): 1,
+  ('Spero', 'LOC'): 1,
+  ('Stasera', 'PER'): 1,
+  ('Robusti', 'LOC'): 1,
+  ('Prendete', 'LOC'): 1,
+  ('Capisco', 'LOC'): 1,
+  ('Strada 
+per Caemlyn', 'LOC'): 1,
+  ('«Sei', 'PER'): 1,
+  ('Comare Grinwell', 'PER'): 1,
+  ('Lo disse con un 
+sorriso', 'MISC'): 1,
+  ('Vere', 'MISC'): 1,
+  ('Perrin', 'PER'): 1,
+  ('“', 'PER'): 1,
+  ('Bel Tine', 'PER'): 1,
+  ('Passo di Tarwin', 'LOC'): 1,
+  ('Aynora', 'LOC'): 1,
+  ('Il vecchio orso nero', 'MISC'): 1,
+  ('soppesava', 'LOC'): 1,
+  ('Bene', 'MISC'): 1,
+  ('Meriterebbero un premio', 'MISC'): 1,
+  ('Else nel mio letto', 'MISC'): 1,
+  ('Badò', 'PER'): 1,
+  ('Arien', 'PER'): 1,
+  ('Arien', 'MISC'): 1,
+  ('Cara Sara', 'MISC'): 1,
+  ('La strada per 
+Dun Aren', 'MISC'): 1,
+  ('Eazil Forney', 'PER'): 1,
+  ('Four Kings', 'MISC'): 1,
+  ('Quattro Re', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 4,
+    'priority_score': 0.9756428571428573,
+    'early_appearance': True,
+    'positions': [131, 1504, 2193, 3079, 3272, 3385, 3911, 5063, 6131, 6326, 7033, 7163, 8119, 9014, 9296, 9378, 9733, 10137, 10227, 10748, 11065, 12375, 12764, 13087, 13257, 13541, 14044, 14619, 14627, 15344, 15459, 15616, 16058, 16681, 16931, 17420, 18012, 18226, 18501, 18506, 18943, 22469, 22867, 23145, 23584, 23862, 24145, 24570]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'PER',
+    'count': 3,
+    'priority_score': 0.9724571428571429,
+    'early_appearance': True,
+    'positions': [37, 589, 729, 1341, 1666, 2248, 3045, 3249, 3561, 3755, 4018, 4190, 4913, 5056, 5384, 5633, 6121, 6319, 6440, 6813, 7064, 7385, 7625, 8079, 8685, 8954, 9569, 10506, 11215, 11431, 11514, 12085, 12607, 13688, 13993, 14569, 14680, 15390, 15529, 15905, 16051, 16577, 16924, 17124, 17356, 18027, 18203, 18490, 19010, 19408, 19600, 19783, 20007, 20237, 20269, 20624, 21625, 21799, 22272, 22487, 22515, 22717, 22998, 23758, 24138, 24524, 25072]
+  },
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 7,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [9200, 18542, 19002, 19189, 19280, 19531, 19884]
+  },
+  'luna': {
+    'category': 'paese',
+    'confidence': 0.2767038345336914,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [7766]
+  },
+  'Prendete': {
+    'category': 'paese',
+    'confidence': 0.3169277608394623,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [14491]
+  },
+  'Capisco': {
+    'category': 'paese',
+    'confidence': 0.29952776432037354,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [14601]
+  },
+  'Uomini': {
+    'category': 'paese',
+    'confidence': 0.24350064992904663,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [2665]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [5608]
+  },
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [6637]
+  },
+  'Sangue': {
+    'category': 'paese',
+    'confidence': 0.39529845118522644,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [9716]
+  },
+  'Whitebridge': {
+    'category': 'non_luogo',
+    'confidence': 0.16889919340610504,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23597142857142858,
+    'early_appearance': True,
+    'positions': [1434, 4177, 5572, 7483, 23817]
+  },
+  'varcarla': {
+    'category': 'non_luogo',
+    'confidence': 0.21079504489898682,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [327]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.020142857142857143,
+    'early_appearance': False,
+    'positions': [5037, 9922, 12335, 25142]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.013771428571428572,
+    'early_appearance': False,
+    'positions': [7502, 12050]
+  },
+  'Comare Grinwell': {
+    'category': 'non_luogo',
+    'confidence': 0.3027332127094269,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.013771428571428572,
+    'early_appearance': False,
+    'positions': [16325, 20143, 20577]
+  },
+  'Teneva': {
+    'category': 'non_luogo',
+    'confidence': 0.18437239527702332,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [3142]
+  },
+  'Strada per Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.10135094076395035,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [4121]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [4959]
+  },
+  'Guardò': {
+    'category': 'non_luogo',
+    'confidence': 0.1433132439851761,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [7277]
+  },
+  'Fiumi': {
+    'category': 'non_luogo',
+    'confidence': 0.18283352255821228,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8545]
+  },
+  'Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.1344870775938034,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8552]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8608]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [9959]
+  },
+  'Spero': {
+    'category': 'non_luogo',
+    'confidence': 0.21601034700870514,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [13495]
+  },
+  'Robusti': {
+    'category': 'non_luogo',
+    'confidence': 0.3294419050216675,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [14199]
+  },
+  'Strada 
+per Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.10135094076395035,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [15010]
+  },
+  'Passo di Tarwin': {
+    'category': 'non_luogo',
+    'confidence': 0.1211216151714325,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [20691]
+  },
+  'Aynora': {
+    'category': 'non_luogo',
+    'confidence': 0.278713196516037,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [20732]
+  },
+  'soppesava': {
+    'category': 'non_luogo',
+    'confidence': 0.23844075202941895,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [20889]
+  },
+}"
+Main Location,"{
+  'name': 'Mat',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.21781297028064728,
+  'count': 4,
+  'priority_score': 0.9756428571428573,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Mat',
+  'count': 4,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.8284800000000001,
+}"
+Emotions,"{'emotion_counts': {'sadness': 59, 'joy': 27, 'fear': 4, 'anger': 7}, 'sentiment_counts': {'negative': 64, 'positive': 33}, 'emotion_percentages': {'sadness': 60.824742268041234, 'joy': 27.835051546391753, 'fear': 4.123711340206185, 'anger': 7.216494845360824}, 'sentiment_percentages': {'negative': 65.97938144329896, 'positive': 34.02061855670103}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.492335319519043, 'Riconoscimento entità con spaCy': 0.002003908157348633, 'Analisi emozioni': 16.354713201522827, 'Classificazione delle location': 20.715380430221558, 'Tempo totale': 38.57343602180481}"
+Original Text Extract,"31 
+ 
+Guadagnarsi la cena 
+ 
+ 
+ 
+ 
+ 
+Rand socchiuse gli occhi e osservò il polverone che si alzava tre o quattro curve più avanti. Mat era 
+già diretto alla siepe d’arbusti selvatici che fiancheggiava la strada. Le foglie sempreverdi e i fitti rami 
+li avrebbero nascosti come un muro di pietre, se avessero trovato il modo di varcarla.  
+L’altro lato della strada era segnato da scuri scheletri di cespugli alti come una persona, e più in là 
+c’era un campo aperto di mezzo miglio, prima dei boschi. Porse faceva parte di una fattoria 
+abbandonata di recente, ma non offriva nascondigli. Rand cercò di calcolare la velocità del polverone e 
+il vento.  
+Una folata improvvisa sollevò polvere intorno a loro e oscurò ogni cosa.  
+Rand si aggiustò la sciarpa scura che gli copriva naso e bocca. Ormai non era molto pulita e gli 
+faceva prudere il viso, ma gli evitava di mangiare polvere a ogni respiro. L’aveva avuta da un 
+contadino, un tizio dal viso smunto, con le guance scavate dalle preoccupazioni.  
+«Non so da chi fuggite» aveva detto, con una ruga d’ansia in fronte. «E  
+non voglio saperlo. Capite? La mia famiglia.» A un tratto aveva tolto di tasca due lunghe sciarpe di 
+lana e le aveva messe in mano ai due ragazzi.  
+«Non è molto, ma prendetele. I miei figli ne hanno altre. Non mi avete mai visto, capito? Sono 
+tempi duri.»  
+Rand faceva tesoro della sciarpa. L’elenco delle cortesie ricevute dal giorno della fuga da 
+Whitebridge era breve e non credeva che si sarebbe allungato molto.  
+Mat, con la sciarpa avvolta intorno alla testa in modo da lasciare scoperti solo gli occhi, esaminò 
+rapidamente la siepe, scostando i rami per trovare un varco. Rand toccò l’elsa della spada, ma lasciò 
+ricadere la mano: già una volta avevano praticato un varco in una siepe e a momenti erano stati 
+scoperti. Il polverone si muoveva verso di loro e rimaneva compatto. Non era causato dal vento. 
+Almeno non pioveva: la pioggia impediva che la polvere si sollevasse, ma per quanto violenta, non 
+mutava mai in fango la terra battuta della strada. La polvere era un buon avvertimento; a volte, se si 
+aspettava di udire il rumore di gente in arrivo, era troppo tardi.  
+«Qui» chiamò piano Mat. Parve passare direttamente attraverso la siepe.  
+Rand si affrettò a raggiungerlo. Tempo addietro, in quel punto qualcuno aveva praticato un varco, 
+ormai parzialmente richiuso; da tre passi già sembrava solido come il resto della siepe, ma da vicino era 
+solo un sottile schermo di rami. Mentre lo attraversava, udì il rumore di cavalli in arrivo.  
+Si acquattò dietro l’apertura appena schermata e strinse l’elsa, mentre i cavalieri sfilavano… cinque, 
+sei, sette. Uomini con abiti ordinari, ma non semplici paesani, a giudicare dalle spade e dalle lance.  
+Alcuni indossavano sopravvesti di pelle con borchie metalliche e due avevano un copricapo rotondo, 
+di ferro. Guardie di mercanti, forse, che passavano da un impiego all’altro. Forse.  
+Un cavaliere rivolse casualmente lo sguardo alla siepe, nel passare davanti all’apertura schermata; 
+Rand sguainò una spanna di spada. Mat ringhiò in silenzio, come un tasso con le spalle al muro. 
+Teneva la mano sotto la giubba: stringeva sempre il pugnale preso a Shadar Logoth, quando c’era 
+pericolo. Rand non sapeva più se Mat volesse proteggere se stesso o il pugnale con il rubino 
+
+incastonato nell’elsa. Negli ultimi tempi, a volte Mat sembrava non ricordarsi dell’arco.  
+I cavalieri passarono al piccolo trotto, diretti chissà dove, con una meta precisa, ma senza fretta. La 
+polvere filtrò nella siepe.  
+Rand attese che il rumore di zoccoli svanisse in lontananza e sporse cautamente la testa. Il polverone 
+era lontano, nella direzione dalla quale loro provenivano; a levante il cielo era pulito. Rand uscì sulla 
+strada e guardò la colonna di polvere muoversi verso ponente.  
+«Non cercavano noi» disse. Una via di mezzo fra constatazione e domanda.  
+Mat lo raggiunse e guardò con diffidenza in tutt’e due le direzioni. «Può darsi» commentò. «Può 
+darsi.»  
+Rand la ritenne una frase ambigua, ma annuì. Non era iniziato a questo modo, il loro viaggio lungo 
+la Strada per Caemlyn.  
+Per un bel pezzo, dopo la fuga da Whitebridge, Rand aveva continuato a girarsi all’improvviso e a 
+fissare la strada. A volte vedeva qualcuno che lo induceva a trattenere il fiato, un uomo alto e magro 
+che percorreva in fretta la strada o un tizio smilzo e canuto a fianco del conducente di un carro; ma si 
+trattava sempre di venditori ambulanti o di contadini diretti al mercato, mai di Thom Merrilin. La 
+speranza si affievolì col passare dei giorni.  
+C’era un certo traffico, sulla strada: carri e carretti, gente a cavallo e gente a piedi; da soli o in 
+gruppo, una fila di carri di mercanti o una decina di cavalieri insieme. Non bloccavano la strada e 
+spesso in vista c’erano soltanto gli alberi spogli che fiancheggiavano la carreggiata di terra battuta; ma 
+Rand non aveva mai visto tanti viandanti, nei Fiumi Gemelli. La maggior parte procedeva"
+Token Count,5306

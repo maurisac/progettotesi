@@ -1,0 +1,561 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:28:40
+Entities,"{
+  ('Rand', 'MISC'): 51,
+  ('Mat', 'MISC'): 23,
+  ('Thom', 'PER'): 20,
+  ('Domon', 'PER'): 7,
+  ('Trolloc', 'ORG'): 6,
+  ('Gelb', 'PER'): 6,
+  ('Spray', 'LOC'): 5,
+  ('Arinelle', 'PER'): 3,
+  ('La Luce', 'MISC'): 3,
+  ('Gelb', 'MISC'): 3,
+  ('Rand', 'PER'): 2,
+  ('Ba’', 'MISC'): 2,
+  ('Baerlon', 'LOC'): 2,
+  ('Arinelle', 'LOC'): 2,
+  ('Shadar Logoth', 'PER'): 2,
+  ('Mat', 'PER'): 2,
+  ('Egwene', 'PER'): 2,
+  ('«', 'PER'): 2,
+  ('Popolo del Mare', 'LOC'): 2,
+  ('Tanchico', 'LOC'): 2,
+  ('Perrin', 'PER'): 2,
+  ('Tar Valon', 'LOC'): 2,
+  ('Fuga sull’', 'MISC'): 1,
+  ('Pietra', 'LOC'): 1,
+  ('alzamon', 'LOC'): 1,
+  ('Pietre lisce', 'MISC'): 1,
+  ('Cespugli', 'LOC'): 1,
+  ('Arretrò', 'LOC'): 1,
+  ('Vide', 'PER'): 1,
+  ('Sconvolto', 'LOC'): 1,
+  ('Succhiandosi', 'PER'): 1,
+  ('alzamon', 'MISC'): 1,
+  ('Occhio del Mondo', 'PER'): 1,
+  ('Gran Serpente', 'PER'): 1,
+  ('Tenebroso', 'PER'): 1,
+  ('Avvolto', 'PER'): 1,
+  ('Scricchiolio', 'MISC'): 1,
+  ('Sangue', 'MISC'): 1,
+  ('Di notte', 'MISC'): 1,
+  ('Bayle Domon', 'PER'): 1,
+  ('Imprecava', 'LOC'): 1,
+  ('Floran Gelb', 'PER'): 1,
+  ('«Cosa', 'PER'): 1,
+  ('Arrotolava', 'PER'): 1,
+  ('Diresti che tua madre', 'MISC'): 1,
+  ('Amico delle Tenebre', 'PER'): 1,
+  ('Sputò', 'LOC'): 1,
+  ('Gelb', 'LOC'): 1,
+  ('Gleb', 'PER'): 1,
+  ('Possiamo fidarci di loro', 'MISC'): 1,
+  ('Ordinanze della 
+Regina', 'MISC'): 1,
+  ('Caemlyn', 'LOC'): 1,
+  ('Trolloc', 'LOC'): 1,
+  ('Una torre di metallo', 'MISC'): 1,
+  ('Whitebridge', 'PER'): 1,
+  ('Scommetto', 'PER'): 1,
+  ('Tremalking', 'LOC'): 1,
+  ('Coramoor', 'LOC'): 1,
+  ('Prescelto', 'LOC'): 1,
+  ('Io scaverei» disse', 'MISC'): 1,
+  ('Tremalking', 'PER'): 1,
+  ('«No', 'PER'): 1,
+  ('oceano Aryth', 'LOC'): 1,
+  ('Palazzo del 
+Panarca', 'LOC'): 1,
+  ('Epoca Leggendaria', 'MISC'): 1,
+  ('Palazzo del Panarca', 'LOC'): 1,
+  ('Frattura', 'LOC'): 1,
+  ('Artur Hawkwing', 'PER'): 1,
+  ('luna', 'LOC'): 1,
+  ('Cose', 'PER'): 1,
+  ('Andavamo', 'PER'): 1,
+  ('Colline Sabbiose', 'LOC'): 1,
+  ('piano Rand', 'MISC'): 1,
+  ('No!» esclamò', 'MISC'): 1,
+  ('Emond’s Field?', 'MISC'): 1,
+  ('Tam', 'PER'): 1,
+  ('Tornerò a casa', 'MISC'): 1,
+  ('Alleverò', 'MISC'): 1,
+  ('Mat?', 'MISC'): 1,
+  ('Ah', 'PER'): 1,
+  ('Torneremo', 'PER'): 1,
+  ('Parve', 'PER'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('mantello', 'LOC'): 1,
+  ('«Vuoi', 'PER'): 1,
+  ('«Te', 'PER'): 1,
+  ('Dondolò', 'MISC'): 1,
+  ('Mordeth', 'LOC'): 1,
+  ('Moiraine', 'PER'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Ti ho già detto', 'MISC'): 1,
+  ('Senti', 'PER'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Illian', 'PER'): 1,
+  ('Ebou Dar', 'PER'): 1,
+  ('Tear', 'MISC'): 1,
+  ('Tar 
+Valon»', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Pietra': {
+    'category': 'paese',
+    'confidence': 0.32127803564071655,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.971415,
+    'early_appearance': True,
+    'positions': [834]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.96513,
+    'early_appearance': True,
+    'positions': [446, 537, 659, 999, 1822, 2457, 3573, 3904, 4177, 5522, 5697, 6117, 6437, 6817, 7105, 7351, 7391, 7537, 7870, 10137, 10529, 10978, 12105, 12169, 12523, 13006, 13336, 13625, 14601, 15672, 16092, 16434, 18069, 19587, 20040, 20243, 20480, 20716, 21064, 22003, 22174, 22285, 22515, 22681, 23057, 23602, 23883, 24184, 24248, 24725, 24987, 26223, 27312]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.96513,
+    'early_appearance': True,
+    'positions': [2489, 2501, 10960, 12113, 12182, 12234, 12529, 13632, 14050, 16442, 16752, 17399, 19896, 22355, 23410, 23627, 23988, 24344, 24506, 24897, 25041, 25082, 25293, 25597, 26991]
+  },
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 20,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [10126, 10953, 12119, 12633, 13402, 13935, 14082, 14455, 21915, 22025, 22160, 22190, 22699, 22734, 22886, 23519, 24916, 25847, 26511, 27098]
+  },
+  'Palazzo del 
+Panarca': {
+    'category': 'castello',
+    'confidence': 0.09747177362442017,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.749215,
+    'early_appearance': False,
+    'positions': [17835]
+  },
+  'Palazzo del Panarca': {
+    'category': 'castello',
+    'confidence': 0.09747177362442017,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.749215,
+    'early_appearance': False,
+    'positions': [18256]
+  },
+  'luna': {
+    'category': 'paese',
+    'confidence': 0.2767038345336914,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.749215,
+    'early_appearance': False,
+    'positions': [18585]
+  },
+  'mantello': {
+    'category': 'paese',
+    'confidence': 0.34017252922058105,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.749215,
+    'early_appearance': False,
+    'positions': [22147]
+  },
+  'Occhio del Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [5932]
+  },
+  'Sangue': {
+    'category': 'paese',
+    'confidence': 0.39529845118522644,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [8188]
+  },
+  'Una torre di metallo': {
+    'category': 'scuola di magia',
+    'confidence': 0.06682337075471878,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [16233]
+  },
+  'Scommetto': {
+    'category': 'paese',
+    'confidence': 0.26286762952804565,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [16712]
+  },
+  'Cose': {
+    'category': 'paese',
+    'confidence': 0.20713761448860168,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [18911]
+  },
+  'Emond’s Field?': {
+    'category': 'strada',
+    'confidence': 0.10860291123390198,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [19640]
+  },
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [19659]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [24944]
+  },
+  'Senti': {
+    'category': 'paese',
+    'confidence': 0.2087937891483307,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [25434]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [25808]
+  },
+  'Arinelle': {
+    'category': 'non_luogo',
+    'confidence': 0.34170958399772644,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [16, 8270, 8625, 15106, 20679]
+  },
+  'alzamon': {
+    'category': 'non_luogo',
+    'confidence': 0.3405647873878479,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.230715,
+    'early_appearance': True,
+    'positions': [2054, 5382]
+  },
+  'Spray': {
+    'category': 'non_luogo',
+    'confidence': 0.19241324067115784,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [7917, 8235, 14996, 16803, 20351]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [2776, 25497]
+  },
+  'Popolo del Mare': {
+    'category': 'non_luogo',
+    'confidence': 0.16435225307941437,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [17040, 17298]
+  },
+  'Tanchico': {
+    'category': 'non_luogo',
+    'confidence': 0.3123452067375183,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [17783, 18157]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [25262, 27458]
+  },
+  'Cespugli': {
+    'category': 'non_luogo',
+    'confidence': 0.30622896552085876,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [3957]
+  },
+  'Arretrò': {
+    'category': 'non_luogo',
+    'confidence': 0.20173707604408264,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [4275]
+  },
+  'Sconvolto': {
+    'category': 'non_luogo',
+    'confidence': 0.28295186161994934,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [4805]
+  },
+  'Imprecava': {
+    'category': 'non_luogo',
+    'confidence': 0.3132088780403137,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [9144]
+  },
+  'Sputò': {
+    'category': 'non_luogo',
+    'confidence': 0.264693945646286,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [11598]
+  },
+  'Gelb': {
+    'category': 'non_luogo',
+    'confidence': 0.33484959602355957,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [10729, 10864, 11238, 11405, 11616, 11791, 12655, 14497, 24871, 26901]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [13227]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [9272, 9366, 10091, 10643, 11166, 12786, 14902]
+  },
+  'Tremalking': {
+    'category': 'non_luogo',
+    'confidence': 0.2551203668117523,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [17015, 17430]
+  },
+  'Coramoor': {
+    'category': 'non_luogo',
+    'confidence': 0.22478120028972626,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [17352]
+  },
+  'Prescelto': {
+    'category': 'non_luogo',
+    'confidence': 0.23153701424598694,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [17365]
+  },
+  'oceano Aryth': {
+    'category': 'non_luogo',
+    'confidence': 0.3022865951061249,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [17807]
+  },
+  'Frattura': {
+    'category': 'non_luogo',
+    'confidence': 0.22967548668384552,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [18308]
+  },
+  'Colline Sabbiose': {
+    'category': 'non_luogo',
+    'confidence': 0.1114325225353241,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [19059]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [20793]
+  },
+  'Mordeth': {
+    'category': 'non_luogo',
+    'confidence': 0.3252907395362854,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [24636]
+  },
+}"
+Main Location,"{
+  'name': 'Rand',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.32787010073661804,
+  'count': 2,
+  'priority_score': 0.96513,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Arinelle',
+  'count': 3,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.757055,
+}"
+Emotions,"{'emotion_counts': {'joy': 29, 'sadness': 56, 'anger': 9}, 'sentiment_counts': {'positive': 37, 'negative': 57}, 'emotion_percentages': {'joy': 30.851063829787233, 'sadness': 59.57446808510638, 'anger': 9.574468085106384}, 'sentiment_percentages': {'positive': 39.361702127659576, 'negative': 60.63829787234043}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.519178867340088, 'Riconoscimento entità con spaCy': 0.0020020008087158203, 'Analisi emozioni': 16.87290096282959, 'Classificazione delle location': 37.08364677429199, 'Tempo totale': 55.4797306060791}"
+Original Text Extract,"24 
+ 
+Fuga sull’Arinelle 
+ 
+ 
+ 
+ 
+ 
+L’acqua sgocciolava in lontananza, con un’eco continua di schizzi sordi.  
+Da ogni parte, ponti di pietra e rampe prive di ringhiera spuntavano da ampie guglie dal tetto piatto, 
+lucide, lisce, striate di rosso e d’oro. Il labirinto si estendeva in alto e in basso nel buio, senza un chiaro 
+inizio né fine.  
+Ogni ponte portava a una guglia, ogni rampa a un’altra guglia e ad altri ponti. Da qualsiasi parte 
+Rand guardasse, la scena era sempre uguale. La scarsa luce non consentiva di vedere bene e Rand ne fu 
+quasi lieto. Alcune rampe portavano a piattaforme poste l’una sull’altra, ma di nessuna si scorgeva la 
+base. Rand andò avanti cercando di fuggire da quel labirinto, pur sapendo che si trattava d’illusione.  
+Per quanto lontano andasse, da qualsiasi parte, c’era solo pietra lucida.  
+Pietra, ma l’umidità di terra rivoltata di recente permeava l’aria, con l’odore dolciastro e nauseante 
+di decomposizione: il lezzo di una tomba aperta fuori tempo. Rand cercò di trattenere il fiato, ma il 
+lezzo gli riempiva le narici, gli restava appiccicato alla pelle come olio.  
+Con la coda dell’occhio scorse un movimento e si bloccò, acquattato contro il lucido muretto sulla 
+sommità di una guglia. Non era un nascondiglio: l’avrebbero visto da mille altri punti. L’ombra 
+riempiva l’aria, ma non c’erano ombre più fitte dove nascondersi. La luce non proveniva da lumi, 
+lanterne, torce: pareva filtrare dall’aria stessa. Permetteva di vedere, alla meno peggio, e di essere visti. 
+Ma l’immobilità offriva un po’ di protezione.  
+Il movimento si ripeté: un uomo risaliva una rampa lontana, incurante dell’abisso spalancato e della 
+mancanza di ringhiera. Procedeva a passo frettoloso, col mantello svolazzante, e girava la testa a 
+scrutare senza posa.  
+A causa della distanza, Rand scorgeva solo la sagoma nella penombra, ma sapeva che il mantello 
+aveva il colore del sangue appena sgorgato e che gli occhi ardevano come fornaci.  
+Cercò di seguire con lo sguardo il labirinto per scoprire quanti incroci Ba’alzamon dovesse superare 
+prima di raggiungerlo e subito vi rinunciò.  
+Le distanze erano ingannevoli: un punto all’apparenza lontano a volte si trovava appena dietro 
+l’angolo e uno vicinissimo poteva rivelarsi irraggiungibile. Come sempre, l’unica cosa da fare era non 
+fermarsi. Continuare a muoversi e non pensare. Pensare era pericoloso.  
+Eppure, mentre si allontanava dalla sagoma di Ba’alzamon, Rand non riuscì a non pensare a Mat. 
+Anche Mat era sperduto nel labirinto? Oppure c’erano due labirinti, due Ba’alzamon?  
+Un paio di volte aveva rischiato d’incontrare Ba’alzamon, ma non ne aveva un ricordo chiaro; per 
+moltissimo tempo aveva continuato a fuggire, sempre inseguito. Era un sogno come quello fatto a 
+Baerlon, o un semplice incubo come quelli di chiunque?  
+Per un istante, allora, capì perché pensare era pericoloso: ogni volta che pensava di trovarsi in un 
+sogno, l’aria luccicava e gli velava gli occhi, si mutava in gelatina, lo bloccava.  
+Il calore gli dava prurito e da un bel pezzo aveva la gola secca, mentre percorreva il labirinto di siepi 
+spinose. Il sudore evaporava prima di raccogliersi in goccioline, gli occhi gli bruciavano. In alto 
+ribollivano nuvole minacciose, grigie e striate di nero, ma non un filo d’aria sfiorava il labirinto.  
+
+Pietre lisce, chiare e arrotondate, formavano un vago lastricato quasi sepolto nella polvere che si 
+alzava anche al passo più leggero. La polvere gli faceva prudere il naso, rischiava di farlo starnutire 
+rivelando così la sua posizione. Rand cercò di respirare con la bocca, ma la polvere gli intasò la gola 
+fino a soffocarlo.  
+Era un luogo pericoloso, sapeva anche questo. Più avanti c’erano tre aperture nell’alta muraglia di 
+spine, poi la strada curvava fuori vista. In quel momento Ba’alzamon poteva trovarsi dietro uno di 
+quegli angoli. Ansimando nel calore, Rand si fermò a esaminare la muraglia del labirinto. Cespugli 
+spinosi fittamente intrecciati, morti, color marrone, pieni di spine nere e acuminate, simili a uncini 
+lunghi quattro dita. Una siepe troppo alta per guardare da sopra, troppo fitta per scrutarvi attraverso. 
+Rand la toccò cautamente e trasalì. Una spina gli punse il dito e bruciava come ago arroventato. 
+Arretrò, inciampando nelle pietre; scosse la mano, schizzò gocce di sangue. Il bruciore si calmò, ma 
+tutta la mano gli pulsava.  
+All’improvviso dimenticò il dolore. Con il tallone aveva scalzato una pietra. Vide le occhiaie vuote: 
+era un teschio umano. Guardò il sentiero fatto di pietre chiare e lisce, tutte uguali. Si mosse in fretta, 
+ma era costretto a camminare su quelle pietre. Un pensiero vagante gli disse che forse le cose non erano 
+quelle che apparivano, ma lui si affrettò a scacciarlo. Pensare era pericoloso.  
+Sconvolto, cercò di calmarsi. Anche fermarsi in uno stesso posto era pericoloso. Era una delle 
+nozioni confuse di cui era certo. Il fiotto di sangue si era mutato in uno sgocciolio e il dolore p"
+Token Count,5807

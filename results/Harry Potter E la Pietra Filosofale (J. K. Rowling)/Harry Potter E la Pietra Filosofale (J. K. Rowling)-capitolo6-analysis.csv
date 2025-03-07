@@ -1,0 +1,837 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:09:10
+Entities,"{
+  ('Harry', 'PER'): 92,
+  ('Ron', 'PER'): 60,
+  ('Hagrid', 'PER'): 12,
+  ('Hogwarts', 'MISC'): 10,
+  ('Percy', 'PER'): 8,
+  ('Fred', 'PER'): 8,
+  ('George', 'PER'): 8,
+  ('Edvige', 'PER'): 6,
+  ('Oh', 'PER'): 6,
+  ('Neville', 'PER'): 6,
+  ('Crosta', 'LOC'): 6,
+  ('Dursley', 'ORG'): 5,
+  ('Vernon', 'PER'): 5,
+  ('Silente', 'PER'): 5,
+  ('Hermione', 'PER'): 5,
+  ('Malfoy', 'PER'): 5,
+  ('Dudley', 'PER'): 4,
+  ('Petunia', 'PER'): 4,
+  ('Zio Vernon', 'PER'): 4,
+  ('Diagon Alley', 'MISC'): 4,
+  ('Harry Potter', 'MISC'): 4,
+  ('Bill', 'PER'): 4,
+  ('Charlie', 'PER'): 4,
+  ('Goyle', 'PER'): 4,
+  ('Londra', 'LOC'): 3,
+  ('Tu-Sai-Chi', 'ORG'): 3,
+  ('Hermione Granger', 'PER'): 3,
+  ('Casa', 'PER'): 3,
+  ('Gringott', 'ORG'): 3,
+  ('Tiger', 'PER'): 3,
+  ('King's Cross', 'MISC'): 2,
+  ('Ho-', 'LOC'): 2,
+  ('Binario', 'PER'): 2,
+  ('Aspetta e vedrai', 'MISC'): 2,
+  ('Sì» disse Harry', 'MISC'): 2,
+  ('Dài', 'PER'): 2,
+  ('Ehi', 'PER'): 2,
+  ('Sai', 'PER'): 2,
+  ('Penso', 'PER'): 2,
+  ('Babbani', 'ORG'): 2,
+  ('Voldemort', 'PER'): 2,
+  ('Cioccorane', 'MISC'): 2,
+  ('Agrippa', 'PER'): 2,
+  ('Morgana', 'LOC'): 2,
+  ('Corvonero', 'LOC'): 2,
+  ('Papà', 'PER'): 2,
+  ('Draco Malfoy', 'PER'): 2,
+  ('Storia 
+della magia', 'MISC'): 1,
+  ('Fortuna', 'PER'): 1,
+  ('Ehm... zio Vernon', 'MISC'): 1,
+  ('Ehm... domani devo essere a', 'MISC'): 1,
+  ('Potreste', 'LOC'): 1,
+  ('Grugnito', 'PER'): 1,
+  ('Stava', 'LOC'): 1,
+  ('Strano mezzo', 'MISC'): 1,
+  ('Non lo so» rispose', 'MISC'): 1,
+  ('Non dire stupidaggini» disse zio Vernon', 'MISC'): 1,
+  ('Vedrai', 'LOC'): 1,
+  ('Snobkin', 'PER'): 1,
+  ('Du-', 'MISC'): 1,
+  ('Raggiunsero King's Cross', 'MISC'): 1,
+  ('Eccoci', 'PER'): 1,
+  ('Buon anno scolastico» disse zio Vernon', 'MISC'): 1,
+  ('Fermò', 'PER'): 1,
+  ('Babbani', 'PER'): 1,
+  ('Harry...', 'MISC'): 1,
+  ('Nove', 'PER'): 1,
+  ('«Mamma', 'PER'): 1,
+  ('Tu sei troppo piccola', 'MISC'): 1,
+  ('Ginny', 'LOC'): 1,
+  ('Parola mia', 'MISC'): 1,
+  ('Scusami', 'PER'): 1,
+  ('Te l'ho fatta!', 'MISC'): 1,
+  ('Salve', 'PER'): 1,
+  ('Harry 
+annuì', 'MISC'): 1,
+  ('«Devi', 'PER'): 1,
+  ('Ehm... Va bene» disse', 'MISC'): 1,
+  ('Espresso', 'ORG'): 1,
+  ('Binario Nove', 'LOC'): 1,
+  ('Tre Quarti', 'LOC'): 1,
+  ('Una nube di fumo proveniente', 'MISC'): 1,
+  ('Nonna', 'PER'): 1,
+  ('Lee', 'PER'): 1,
+  ('Fred!', 'MISC'): 1,
+  ('Perbacco...» esclamò l'altro gemello', 'MISC'): 1,
+  ('Ehm, voglio dire', 'MISC'): 1,
+  ('Siete lì?', 'MISC'): 1,
+  ('Veniamo, mamma»', 'MISC'): 1,
+  ('dre', 'PER'): 1,
+  ('Mamma... piantala!»', 'MISC'): 1,
+  ('Ah!', 'MISC'): 1,
+  ('melli', 'PER'): 1,
+  ('Chiudi il becco!»', 'MISC'): 1,
+  ('«Eccolo', 'PER'): 1,
+  ('P. 
+«', 'PER'): 1,
+  ('Aspetta un attimo', 'MISC'): 1,
+  ('Lo baciò sulla guancia', 'MISC'): 1,
+  ('E ora, voi due... quest'anno', 'MISC'): 1,
+  ('Ronnie', 'PER'): 1,
+  ('Chiudete il becco» ripeté', 'MISC'): 1,
+  ('Ehi, mamma', 'MISC'): 1,
+  ('Oh, mamma', 'MISC'): 1,
+  ('Mamma, ti prego...» 
+«L'hai già visto', 'MISC'): 1,
+  ('Ginny', 'MISC'): 1,
+  ('Povero', 'PER'): 1,
+  ('D'', 'PER'): 1,
+  ('Ti proibisco di chiederglielo', 'MISC'): 1,
+  ('Svelti', 'MISC'): 1,
+  ('Ginny, ti manderemo stormi di gufi»', 'MISC'): 1,
+  ('Ti manderemo una tazza', 'MISC'): 1,
+  ('Dal finestrino', 'MISC'): 1,
+  ('Senti', 'PER'): 1,
+  ('Lee Jordan', 'PER'): 1,
+  ('tarantola', 'LOC'): 1,
+  ('Va bene» borbottò Ron', 'MISC'): 1,
+  ('George 
+Weasley', 'PER'): 1,
+  ('Ciao', 'MISC'): 1,
+  ('Sei davvero Harry Potter?', 'MISC'): 1,
+  ('Harry annuì', 'MISC'): 1,
+  ('Oh... be'', 'MISC'): 1,
+  ('Tu-Sai-Chi...?» 
+«Sì» rispose Harry', 'MISC'): 1,
+  ('Proprio niente?', 'MISC'): 1,
+  ('Be'... mi ricordo una gran luce verde', 'MISC'): 1,
+  ('Wow!»', 'MISC'): 1,
+  ('Eh... sì', 'MISC'): 1,
+  ('I Weasley', 'MISC'): 1,
+  ('Orribili... be'', 'MISC'): 1,
+  ('Cinque» precisò Ron', 'MISC'): 1,
+  ('Quidditch', 'PER'): 1,
+  ('Fred e Ge-', 'PER'): 1,
+  ('Cro-
+sta»', 'PER'): 1,
+  ('Tu-Sai-Chi!', 'ORG'): 1,
+  ('Non sto cercando di fare il coraggioso', 'MISC'): 1,
+  ('Scommetto', 'PER'): 1,
+  ('Ma no, vedrai', 'MISC'): 1,
+  ('Babbane', 'PER'): 1,
+  ('Desiderate', 'MISC'): 1,
+  ('Mars', 'MISC'): 1,
+  ('Bolle Bollenti', 'ORG'): 1,
+  ('Zuccotti', 'PER'): 1,
+  ('Bacchette Magiche alla Liquirizia', 'LOC'): 1,
+  ('Fame, eh?» 
+«Da morire» rispose', 'MISC'): 1,
+  ('Mamma', 'PER'): 1,
+  ('Facciamo cambio', 'MISC'): 1,
+  ('Dài!...» 
+«Ma questo è immangiabile', 'MISC'): 1,
+  ('nini', 'PER'): 1,
+  ('No» disse Ron', 'MISC'): 1,
+  ('Agrip-', 'MISC'): 1,
+  ('Dentro alle Cioccorane', 'LOC'): 1,
+  ('Streghe e maghi', 'MISC'): 1,
+  ('Tolomeo', 'PER'): 1,
+  ('Cioccorana', 'LOC'): 1,
+  ('Albus Si-', 'PER'): 1,
+  ('Silente!»', 'MISC'): 1,
+  ('Albus Silente', 'PER'): 1,
+  ('Grindelwald', 'PER'): 1,
+  ('Nicolas Flamel', 'PER'): 1,
+  ('Lo sguardo di Ron', 'MISC'): 1,
+  ('Cioccorane', 'LOC'): 1,
+  ('Serviti', 'PER'): 1,
+  ('Babbani', 'LOC'): 1,
+  ('Maghi', 'MISC'): 1,
+  ('Streghe', 'MISC'): 1,
+  ('Silente', 'LOC'): 1,
+  ('Hengist', 'MISC'): 1,
+  ('Boschi', 'LOC'): 1,
+  ('Alberico Grunnion', 'PER'): 1,
+  ('Circe', 'PER'): 1,
+  ('Paracelso', 'PER'): 1,
+  ('Merlino', 'PER'): 1,
+  ('Cliodna', 'PER'): 1,
+  ('Tuttigusti+1', 'ORG'): 1,
+  ('zetto', 'LOC'): 1,
+  ('Bleaaah!...', 'MISC'): 1,
+  ('Cavoletti', 'PER'): 1,
+  ('Bruxelles', 'LOC'): 1,
+  ('Qualcuno bussò alla porta del loro', 'MISC'): 1,
+  ('Sembrava in lacrime', 'MISC'): 1,
+  ('Scusate', 'PER'): 1,
+  ('Vedrai', 'PER'): 1,
+  ('Crosta!» 
+', 'MISC'): 1,
+  ('Il topo', 'MISC'): 1,
+  ('Ron di-', 'PER'): 1,
+  ('«Ieri', 'PER'): 1,
+  ('Rovistò', 'PER'): 1,
+  ('I peli di unicorno', 'MISC'): 1,
+  ('State', 'ORG'): 1,
+  ('Ehm... va bene»', 'MISC'): 1,
+  ('Per il sole splendente', 'MISC'): 1,
+  ('Agitò', 'PER'): 1,
+  ('Sei sicuro che sia un incantesimo', 'MISC'): 1,
+  ('Comun-', 'MISC'): 1,
+  ('Io', 'PER'): 1,
+  ('Ron Weasley', 'PER'): 1,
+  ('Davvero?» disse', 'MISC'): 1,
+  ('Storia moderna della magia', 'MISC'): 1,
+  ('Ascesa', 'MISC'): 1,
+  ('Arti Oscure', 'LOC'): 1,
+  ('Grandi eventi', 'MISC'): 1,
+  ('Ventesimo Secolo', 'MISC'): 1,
+  ('Sul serio?»', 'MISC'): 1,
+  ('Grifondoro', 'LOC'): 1,
+  ('Scaraventò la bacchetta nel baule', 'MISC'): 1,
+  ('Stupido incantesimo... Me', 'MISC'): 1,
+  ('Grifondoro', 'PER'): 1,
+  ('stezza', 'LOC'): 1,
+  ('Chissà', 'PER'): 1,
+  ('Serpeverde', 'LOC'): 1,
+  ('Casa di Vol... ehm... di Tu-Sai-Chi', 'LOC'): 1,
+  ('Case', 'ORG'): 1,
+  ('Romania', 'LOC'): 1,
+  ('Africa', 'LOC'): 1,
+  ('«Hai', 'PER'): 1,
+  ('La Gazzetta del Profeta', 'MISC'): 1,
+  ('Davvero?', 'MISC'): 1,
+  ('Male', 'PER'): 1,
+  ('Qual è la tua squadra del cuore', 'MISC'): 1,
+  ('Quidditch', 'LOC'): 1,
+  ('Ehm', 'MISC'): 1,
+  ('scopa', 'PER'): 1,
+  ('Madama McClan', 'MISC'): 1,
+  ('pallido', 'PER'): 1,
+  ('Draco Mal-
+foy»', 'PER'): 1,
+  ('Trovi buffo il mio nome', 'MISC'): 1,
+  ('Weasley', 'MISC'): 1,
+  ('Potter', 'MISC'): 1,
+  ('Allungò la mano', 'MISC'): 1,
+  ('Credo di essere capace di capire da solo le persone sbagliate', 'MISC'): 1,
+  ('Io ci andrei piano se fossi in te', 'MISC'): 1,
+  ('Potter» disse lentamente', 'MISC'): 1,
+  ('Wea-', 'LOC'): 1,
+  ('Ripetilo!', 'MISC'): 1,
+  ('Oh, oh', 'MISC'): 1,
+  ('Goyle', 'MISC'): 1,
+  ('Ab-', 'MISC'): 1,
+  ('Che cosa diavolo', 'MISC'): 1,
+  ('Crosta per la coda', 'MISC'): 1,
+  ('«No... è incredibile', 'MISC'): 1,
+  ('Conoscevate', 'MISC'): 1,
+  ('Ron cupo', 'PER'): 1,
+  ('Tu-Sai-Chi', 'LOC'): 1,
+  ('Disse-', 'MISC'): 1,
+  ('Parte Oscura', 'MISC'): 1,
+  ('Dovete sbrigarvi a vestirvi', 'MISC'): 1,
+  ('Sareste', 'PER'): 1,
+  ('Va bene... Sono venuta qui soltanto', 'MISC'): 1,
+  ('Harry?', 'MISC'): 1,
+  ('Il faccione peloso', 'MISC'): 1,
+  ('Coraggio', 'PER'): 1,
+  ('Scivolando', 'PER'): 1,
+  ('Fra', 'MISC'): 1,
+  ('Hogwarts!', 'MISC'): 1,
+  ('Appollaiato', 'LOC'): 1,
+  ('Neville', 'LOC'): 1,
+  ('Bene... SI PARTE!» 
+E le barchette', 'MISC'): 1,
+  ('Torreggiava', 'MISC'): 1,
+  ('Giù la testa!»', 'MISC'): 1,
+  ('gliera', 'LOC'): 1,
+  ('Ehi, tu!', 'MISC'): 1,
+  ('Oscar!', 'MISC'): 1,
+  ('Ha-', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 10,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [3321, 4886, 5427, 7957, 9198, 12506, 15232, 18163, 23445, 36970]
+  },
+  'Londra': {
+    'category': 'paese',
+    'confidence': 0.27257636189460754,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.9769899999999999,
+    'early_appearance': True,
+    'positions': [2742, 2854, 20539]
+  },
+  'Fortuna': {
+    'category': 'paese',
+    'confidence': 0.264813631772995,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.96513,
+    'early_appearance': True,
+    'positions': [950]
+  },
+  'Raggiunsero King's Cross': {
+    'category': 'strada',
+    'confidence': 0.08116661757230759,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.96513,
+    'early_appearance': True,
+    'positions': [3708]
+  },
+  'Bruxelles': {
+    'category': 'paese',
+    'confidence': 0.4291940927505493,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [25401]
+  },
+  'Romania': {
+    'category': 'paese',
+    'confidence': 0.45818066596984863,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [30620]
+  },
+  'Africa': {
+    'category': 'paese',
+    'confidence': 0.4738525450229645,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [30658]
+  },
+  'Diagon Alley': {
+    'category': 'strada',
+    'confidence': 0.3299392759799957,
+    'spacy_label': 'MISC',
+    'count': 4,
+    'priority_score': 0.7496200000000001,
+    'early_appearance': False,
+    'positions': [5751, 17806, 32587, 35660]
+  },
+  'Harry Potter': {
+    'category': 'scuola di magia',
+    'confidence': 0.2024143636226654,
+    'spacy_label': 'MISC',
+    'count': 4,
+    'priority_score': 0.7496200000000001,
+    'early_appearance': False,
+    'positions': [11455, 14182, 28751, 32658]
+  },
+  'Casa': {
+    'category': 'paese',
+    'confidence': 0.1523546725511551,
+    'spacy_label': 'PER',
+    'count': 3,
+    'priority_score': 0.74739,
+    'early_appearance': False,
+    'positions': [29250, 29711, 29905]
+  },
+  'Gringott': {
+    'category': 'banca magica',
+    'confidence': 0.10899363458156586,
+    'spacy_label': 'ORG',
+    'count': 3,
+    'priority_score': 0.74739,
+    'early_appearance': False,
+    'positions': [30684, 30736, 31119]
+  },
+  'Nove': {
+    'category': 'paese',
+    'confidence': 0.20772872865200043,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [6613]
+  },
+  'Nonna': {
+    'category': 'paese',
+    'confidence': 0.25574201345443726,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [10020]
+  },
+  'Sei davvero Harry Potter?': {
+    'category': 'scuola di magia',
+    'confidence': 0.15600012242794037,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [16656]
+  },
+  'Albus Silente': {
+    'category': 'scuola di magia',
+    'confidence': 0.12121553719043732,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [23411]
+  },
+  'Case': {
+    'category': 'paese',
+    'confidence': 0.2541228234767914,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [30437]
+  },
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.23502212762832642,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [32012]
+  },
+  'Coraggio': {
+    'category': 'paese',
+    'confidence': 0.24026452004909515,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [37715]
+  },
+  'Hogwarts!': {
+    'category': 'scuola di magia',
+    'confidence': 0.48463883996009827,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [38249]
+  },
+  'Ho-': {
+    'category': 'non_luogo',
+    'confidence': 0.3438929319381714,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1733, 27293]
+  },
+  'Potreste': {
+    'category': 'non_luogo',
+    'confidence': 0.30327165126800537,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [1777]
+  },
+  'Stava': {
+    'category': 'non_luogo',
+    'confidence': 0.2562633156776428,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [1874]
+  },
+  'Vedrai': {
+    'category': 'non_luogo',
+    'confidence': 0.2515486776828766,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [2642, 26246]
+  },
+  'Crosta': {
+    'category': 'non_luogo',
+    'confidence': 0.2758283019065857,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.02078,
+    'early_appearance': False,
+    'positions': [18949, 27871, 30341, 34845, 35001, 36227]
+  },
+  'Morgana': {
+    'category': 'non_luogo',
+    'confidence': 0.32704615592956543,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [24037, 24759]
+  },
+  'Corvonero': {
+    'category': 'non_luogo',
+    'confidence': 0.37149009108543396,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [29422, 30107]
+  },
+  'Ginny': {
+    'category': 'non_luogo',
+    'confidence': 0.36094459891319275,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [6794, 14326]
+  },
+  'Binario Nove': {
+    'category': 'non_luogo',
+    'confidence': 0.2214728444814682,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [9325]
+  },
+  'Tre Quarti': {
+    'category': 'non_luogo',
+    'confidence': 0.22272785007953644,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [9340]
+  },
+  'tarantola': {
+    'category': 'non_luogo',
+    'confidence': 0.22622211277484894,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [16364]
+  },
+  'Bacchette Magiche alla Liquirizia': {
+    'category': 'non_luogo',
+    'confidence': 0.13419055938720703,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [21361]
+  },
+  'Dentro alle Cioccorane': {
+    'category': 'non_luogo',
+    'confidence': 0.24298277497291565,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [22815]
+  },
+  'Cioccorana': {
+    'category': 'non_luogo',
+    'confidence': 0.33947816491127014,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [23002]
+  },
+  'Cioccorane': {
+    'category': 'non_luogo',
+    'confidence': 0.32419678568840027,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [21318, 24161, 34687]
+  },
+  'Babbani': {
+    'category': 'non_luogo',
+    'confidence': 0.4614622890949249,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [6117, 17868, 24273, 30851]
+  },
+  'Silente': {
+    'category': 'non_luogo',
+    'confidence': 0.23216769099235535,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [23514, 23754, 23884, 24464, 24749, 29393]
+  },
+  'Boschi': {
+    'category': 'non_luogo',
+    'confidence': 0.3021414577960968,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [24803]
+  },
+  'zetto': {
+    'category': 'non_luogo',
+    'confidence': 0.2775672376155853,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [25360]
+  },
+  'Arti Oscure': {
+    'category': 'non_luogo',
+    'confidence': 0.14207136631011963,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [28998]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [29308, 29935]
+  },
+  'stezza': {
+    'category': 'non_luogo',
+    'confidence': 0.26852133870124817,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [30006]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [30163]
+  },
+  'Casa di Vol... ehm... di Tu-Sai-Chi': {
+    'category': 'non_luogo',
+    'confidence': 0.23544096946716309,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [30187]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [18341, 31665]
+  },
+  'Wea-': {
+    'category': 'non_luogo',
+    'confidence': 0.3667241036891937,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [34087]
+  },
+  'Tu-Sai-Chi': {
+    'category': 'non_luogo',
+    'confidence': 0.2518521249294281,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [14698, 31345, 31462, 35791]
+  },
+  'Appollaiato': {
+    'category': 'non_luogo',
+    'confidence': 0.3596177101135254,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [38450]
+  },
+  'Neville': {
+    'category': 'non_luogo',
+    'confidence': 0.37892094254493713,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [10067, 27351, 29536, 32237, 38104, 38803, 39704]
+  },
+  'gliera': {
+    'category': 'non_luogo',
+    'confidence': 0.1777816116809845,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [39226]
+  },
+  'Ha-': {
+    'category': 'non_luogo',
+    'confidence': 0.3228439688682556,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [39830]
+  },
+}"
+Main Location,"{
+  'name': 'Hogwarts',
+  'category': 'scuola di magia',
+  'spacy_label': 'MISC',
+  'confidence': 0.4973960816860199,
+  'count': 10,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 92,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 38, 'sadness': 50, 'fear': 4, 'anger': 7}, 'sentiment_counts': {'positive': 48, 'negative': 51}, 'emotion_percentages': {'joy': 38.38383838383838, 'sadness': 50.505050505050505, 'fear': 4.040404040404041, 'anger': 7.07070707070707}, 'sentiment_percentages': {'positive': 48.484848484848484, 'negative': 51.515151515151516}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.6202328205108643, 'Riconoscimento entità con spaCy': 0.005999088287353516, 'Analisi emozioni': 18.347434520721436, 'Classificazione delle location': 102.01237845420837, 'Tempo totale': 122.98904180526733}"
+Original Text Extract,"Capitolo 6 
+Il binario nove e tre quarti 
+ 
+L'ultimo mese che Harry trascorse con i Dursley non fu affatto diverten-
+te. Anche se ora Dudley aveva tanta paura di Harry che non voleva stare 
+neanche un attimo nella stessa stanza con lui, e zia Petunia e zio Vernon 
+non lo chiudevano più nello sgabuzzino, non lo costringevano a fare niente 
+e non lo sgridavano: anzi, per la verità non gli rivolgevano neanche la pa-
+rola. Per metà terrorizzati e per metà furibondi, si comportavano come se 
+la sedia dove Harry sedeva fosse vuota. Benché, per molti versi, questo 
+rappresentasse un netto miglioramento, dopo un po' diventava deprimente. 
+Rimaneva chiuso nella sua stanza, in compagnia della sua nuova civetta. 
+Aveva deciso di chiamarla Edvige: il nome l'aveva trovato in una Storia 
+della magia. I libri di testo erano interessantissimi. Steso sul letto, leggeva 
+fino a notte fonda, con Edvige che andava e veniva, libera, dalla finestra 
+aperta. Fortuna che zia Petunia non veniva più a passare l'aspirapolvere, 
+
+perché Edvige non faceva che portare dentro topi morti. Ogni sera, prima 
+di andare a dormire, Harry spuntava un altro giorno sul foglio di carta che 
+aveva appeso alla parete, facendo il conto alla rovescia fino al primo di 
+settembre. 
+L'ultimo giorno di agosto ritenne opportuno dire agli zii che il giorno 
+dopo si sarebbe dovuto recare alla stazione di King's Cross; per questo sce-
+se in soggiorno, dove loro stavano guardando un programma di quiz alla 
+televisione. Si schiarì la gola per segnalare la sua presenza, e Dudley si 
+precipitò urlando fuori dalla stanza. 
+«Ehm... zio Vernon?» 
+Zio Vernon grugnì per far capire che stava ascoltando. 
+«Ehm... domani devo essere a King's Cross per... per andare a Ho-
+gwarts». 
+Zio Vernon grugnì di nuovo. 
+«Potreste per caso darmi un passaggio?» 
+Grugnito. Harry suppose che volesse dire sì. 
+«Grazie». 
+Stava per tornarsene di sopra, quando lo zio Vernon si decise a parlare. 
+«Strano mezzo, il treno, per raggiungere una scuola per maghi. Di' un 
+po', i tappeti volanti hanno forato?» 
+Harry non rispose. 
+«E comunque, dove si trova questa scuola?» 
+«Non lo so» rispose Harry facendo mente locale per la prima volta. Tirò 
+fuori dalla tasca il biglietto che gli aveva dato Hagrid. 
+«So solo che devo prendere il treno delle undici in punto al binario nove 
+e tre quarti» lesse. 
+Zio Vernon e zia Petunia ebbero un soprassalto. 
+«Binario che cosa?» 
+«Nove e tre quarti». 
+«Non dire stupidaggini» disse zio Vernon, «non esistono binari contras-
+segnati da questo numero». 
+«Ma è scritto sul biglietto». 
+«Ma quelli» disse zio Vernon, «sono tutti svitati, matti da legare. Vedrai, 
+vedrai. Aspetta e vedrai. E va bene, ti porteremo a King's Cross. Tanto per 
+la cronaca, a Londra ci dobbiamo andare comunque, domani. Altrimenti 
+non mi prenderei il disturbo». 
+«Perché dovete andare a Londra?» chiese Harry cercando di mantenere 
+un tono amichevole. 
+
+«A portare Dudley in ospedale» ringhiò zio Vernon. «Bisogna fargli to-
+gliere quella dannata coda, prima che vada a Snobkin». 
+ 
+Il mattino dopo, Harry si svegliò alle cinque, ma era troppo eccitato e 
+nervoso per riaddormentarsi. Si alzò e si infilò i jeans, perché non voleva 
+arrivare alla stazione con gli abiti da mago: si sarebbe poi cambiato in tre-
+no. Controllò ancora una volta l'elenco di Hogwarts per accertarsi di avere 
+tutto quel che gli serviva, verificò che Edvige fosse ben chiusa nella sua 
+gabbia, e cominciò a passeggiare per la stanza, in attesa che i Dursley si 
+alzassero. Due ore dopo, il suo voluminoso e pesante baule era stato cari-
+cato sulla macchina dei Dursley, zia Petunia era riuscita a convincere Du-
+dley a sedersi accanto a Harry, ed erano partiti. 
+Raggiunsero King's Cross alle dieci e mezzo. Zio Vernon mollò il baule 
+su un carrello, spingendolo poi personalmente fin dentro la stazione. Harry 
+si stupì per quel gesto stranamente cortese, ma si ricredette quando zio 
+Vernon si fermò di botto, davanti ai binari, con un ghigno malevolo sul 
+volto. 
+«Eccoci arrivati, ragazzo. Binario nove... binario dieci. Il tuo dovrebbe 
+essere circa a metà strada, ma non sembra che l'abbiano ancora costruito, o 
+sbaglio?» 
+Era evidente che aveva pienamente ragione. Sopra un binario torreggia-
+va un grosso numero nove, in plastica, e su quello accanto un altrettanto 
+grosso numero dieci, sempre in plastica; ma tra i due, niente. 
+«Buon anno scolastico» disse zio Vernon con un sorriso ancor più mali-
+gno. Si allontanò senza aggiungere altro. Harry si voltò e vide i Dursley ri-
+partire in macchina. Ridevano tutti e tre. Gli si seccò la bocca. Che cosa 
+diavolo avrebbe fatto? Intanto, stava cominciando ad attirare molti sguardi 
+incuriositi per via di Edvige. Avrebbe dovuto chiedere a qualcuno. 
+Fermò un poliziotto di passaggio, ma non osò fare parola del binano no-
+ve e tre quarti. L'agente non aveva mai sentito parlare di Hogwarts e quan-
+do si rese conto che Harry non era in grado di dirgli neanche in che regione 
+si trovasse, cominc"
+Token Count,9059

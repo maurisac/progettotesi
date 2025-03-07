@@ -1,0 +1,278 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:13:21
+Entities,"{
+  ('Lucy', 'PER'): 15,
+  ('Edmund', 'PER'): 14,
+  ('Aslan', 'PER'): 12,
+  ('Susan', 'PER'): 8,
+  ('Narnia', 'LOC'): 7,
+  ('Peter', 'LOC'): 4,
+  ('Peter', 'PER'): 4,
+  ('Strega Bianca', 'PER'): 3,
+  ('Castoro', 'PER'): 3,
+  ('Cair Paravel', 'LOC'): 2,
+  ('Tumnus', 'PER'): 2,
+  ('Maestà', 'PER'): 2,
+  ('La caccia al cervo bianco
+', 'MISC'): 1,
+  ('La battaglia', 'MISC'): 1,
+  ('A-', 'MISC'): 1,
+  ('slan', 'PER'): 1,
+  ('Peter al leone', 'PER'): 1,
+  ('riu-scito
+a farsi strada', 'LOC'): 1,
+  ('Presto', 'MISC'): 1,
+  ('Babbo Natale', 'PER'): 1,
+  ('Oh', 'PER'): 1,
+  ('Quella notte', 'MISC'): 1,
+  ('Grande Fiume', 'LOC'): 1,
+  ('Cair
+Paravel', 'LOC'): 1,
+  ('Peter!', 'MISC'): 1,
+  ('Adamo', 'PER'): 1,
+  ('Eva', 'PER'): 1,
+  ('Fracassone', 'LOC'): 1,
+  ('gno', 'LOC'): 1,
+  ('Nar-
+nia', 'PER'): 1,
+  ('Fracassone', 'MISC'): 1,
+  ('Esentarono', 'MISC'): 1,
+  ('Peter il
+Magnifico', 'MISC'): 1,
+  ('Susan la Gentile', 'PER'): 1,
+  ('Edmund il Giusto', 'PER'): 1,
+  ('Lucy la Gaia', 'PER'): 1,
+  ('Un bel giorno', 'MISC'): 1,
+  ('Ovest', 'LOC'): 1,
+  ('Diletti', 'PER'): 1,
+  ('Gentile', 'PER'): 1,
+  ('Direi', 'PER'): 1,
+  ('Rimasero in silenzio', 'MISC'): 1,
+  ('Ti prego di scusarmi', 'MISC'): 1,
+  ('Stavolta', 'PER'): 1,
+  ('Vorrei', 'PER'): 1,
+  ('Sorella', 'PER'): 1,
+  ('Dirò', 'PER'): 1,
+  ('Macready', 'PER'): 1,
+  ('Dio mi be-nedica', 'MISC'): 1,
+  ('FINE', 'MISC'): 1,
+  ('Your gateway to knowledge and culture', 'MISC'): 1,
+  ('Accessible for everyone', 'MISC'): 1,
+  ('Official Telegram', 'LOC'): 1,
+  ('Z-Access', 'PER'): 1,
+  ('z-lib.gs                  z-lib.fm', 'MISC'): 1,
+  ('This file was downloaded from Z-Library', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 3,
+    'priority_score': 0.9724571428571429,
+    'early_appearance': True,
+    'positions': [197, 595, 5606]
+  },
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.7704,
+    'early_appearance': False,
+    'positions': [4248, 6110, 10076, 10757, 12311, 12585, 13170]
+  },
+  'Ovest': {
+    'category': 'paese',
+    'confidence': 0.3180965483188629,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [7816]
+  },
+  'Eva': {
+    'category': 'paese',
+    'confidence': 0.21247456967830658,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [4388]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.24234285714285714,
+    'early_appearance': True,
+    'positions': [313, 6671, 7062, 8163, 8807, 9718, 9971, 11431]
+  },
+  'riu-scito
+a farsi strada': {
+    'category': 'non_luogo',
+    'confidence': 0.1802174299955368,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [706]
+  },
+  'Cair Paravel': {
+    'category': 'non_luogo',
+    'confidence': 0.28736650943756104,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.013771428571428572,
+    'early_appearance': False,
+    'positions': [3357, 4658]
+  },
+  'Grande Fiume': {
+    'category': 'non_luogo',
+    'confidence': 0.17730394005775452,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [3305]
+  },
+  'Cair
+Paravel': {
+    'category': 'non_luogo',
+    'confidence': 0.28736650943756104,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [3846]
+  },
+  'Fracassone': {
+    'category': 'non_luogo',
+    'confidence': 0.4244791567325592,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [4558, 6042]
+  },
+  'gno': {
+    'category': 'non_luogo',
+    'confidence': 0.23705683648586273,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [5495]
+  },
+  'Official Telegram': {
+    'category': 'non_luogo',
+    'confidence': 0.2626406252384186,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [13253]
+  },
+}"
+Main Location,"{
+  'name': 'Strega Bianca',
+  'category': 'carcere magico',
+  'spacy_label': 'PER',
+  'confidence': 0.10352206230163574,
+  'count': 3,
+  'priority_score': 0.9724571428571429,
+  'early_appearance': True,
+  'sound_category': 'carcere magico',
+}"
+Main Character,"{
+  'name': 'Lucy',
+  'count': 15,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'anger': 14, 'joy': 40, 'sadness': 37, 'fear': 7}, 'sentiment_counts': {'negative': 59, 'positive': 39}, 'emotion_percentages': {'anger': 14.285714285714285, 'joy': 40.816326530612244, 'sadness': 37.755102040816325, 'fear': 7.142857142857142}, 'sentiment_percentages': {'negative': 60.204081632653065, 'positive': 39.795918367346935}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.046830415725708, 'Riconoscimento entità con spaCy': 0.0010001659393310547, 'Analisi emozioni': 14.572442054748535, 'Classificazione delle location': 8.482020139694214, 'Tempo totale': 24.104292631149292}"
+Original Text Extract,"17
+La caccia al cervo bianco
+La battaglia ebbe termine in breve tempo; durante la prima carica di A-
+slan e compagni era stata uccisa la maggior parte dei nemici. I sopravvis-
+suti, vedendo che la Strega Bianca era morta, si arresero o si diedero alla
+fuga.
+Lucy, quando tutto fu finito, si avvicinò ad Aslan e a Peter che stavano in
+mezzo al campo di battaglia e si congratulavano a vicenda. Peter le sembrò
+molto cambiato: il suo viso, pallido e grave, aveva un'espressione più
+matura.
+— È tutto merito di Edmund — diceva Peter al leone. — Se non ci fosse
+stato lui, saremmo già sconfitti. La Strega Bianca stava trasformando tutti in
+statue e agitava la bacchetta a destra e a sinistra; quando Edmund è riu-scito
+a farsi strada tra due orchi, quella malvagia stava per ridurre in pietra i tuoi
+leopardi. Ma Edmund non si è lasciato impaurire e ha avuto l'accor-tezza di
+non assalirla direttamente: ha calato un gran fendente sulla bac-chetta
+magica, mandandola in pezzi. Non ha commesso l'errore degli altri, e
+infatti, quando la strega si è ritrovata senza bacchetta magica, noi abbia-mo
+cominciato a ottenere qualche successo. Purtroppo eravamo già molto
+stanchi e decimati nel numero. Edmund è gravemente ferito, andiamo da
+lui.
+Lo trovarono nelle retrovie, affidato alle cure della signora Castoro. Era
+letteralmente coperto di sangue e in stato di incoscienza, con il viso di un
+brutto colore verdognolo. Le labbra socchiuse, respirava a fatica.
+— Presto, Lucy, il cordiale — gridò Aslan.
+Allora, per la prima volta, Lucy si ricordò della preziosa bottiglietta re-
+galatale da Babbo Natale. Le mani le tremavano talmente che in un primo
+momento non riuscì a togliere il tappo; quando infine ci riuscì, si chinò su
+Edmund, gli versò qualche goccia di cordiale tra le labbra e stette a guar-
+
+dare l'espressione del fratello.
+— Ci sono altri feriti, Lucy — l'ammoni Aslan.
+— Sì, lo so — rispose Lucy brusca. — Aspetta un po'...
+— Figlia di Eva! — esclamò Aslan con voce grave. — Dovranno morire
+altre creature, a causa di Edmund?
+— Oh, scusami, Aslan — mormorò Lucy.
+E si affrettò a seguire il leone che andava in soccorso degli altri sofferen-
+ti.
+Per una buona mezz'ora furono tutti e due occupatissimi: lei a curare i
+feriti, lui a ridare la vita alle statue di pietra. Quando Lucy fu libera di tor-
+nare da Edmund, lo trovò in piedi: non solo era guarito dalle ferite, ma
+sembrava più che mai in buona salute. Inoltre aveva un'aria dolce e serena,
+da persona buona. Da quanto tempo non lo vedeva così! Eccolo tornato il
+bravo Edmund di una volta, che ti guardava dritto negli occhi... e Aslan
+decise di farlo cavaliere seduta stante.
+— Edmund sa quello che Aslan ha fatto per lui? — chiese a bassa voce
+Lucy, rivolgendosi a Susan. — Sa qual era l'accordo con la strega?
+— No, certo — mormorò Susan di rimando.
+— Eppure, sono convinta che bisognerebbe dirglielo — insistette Lucy.
+Poi qualcuno venne a interrompere il discorso e la cosa restò in sospeso.
+Quella notte si accamparono dove già si trovavano. Verso le otto Aslan
+procurò cibo per tutti (non so dirvi come abbia fatto, ma certo è che si tro-
+varono seduti nell'erba con una bella cenetta: non mancava neppure il tè
+caldo...). Il giorno dopo si misero in marcia verso est, diretti al mare, e
+quello successivo arrivarono alla foce del Grande Fiume. Sugli scogli si
+ergeva il castello di Cair Paravel; a destra e a sinistra una grande distesa di
+sabbia fine, disseminata di piccole rocce, pozze di acqua salsa e lunghe
+strisce di alghe, e poi, fino all'orizzonte estremo, chilometri e chilometri di
+onde verdeazzurre che si frangevano sulla spiaggia.
+Quella sera, dopo il tè, i ragazzi scesero sulla spiaggia a piedi nudi, per la
+gioia di sentire la sabbia fine tra le dita mentre correvano scalzi. Ma il
+giorno successivo fu dedicato a cerimonie solenni. Nella grande sala di Cair
+Paravel, un ambiente immenso con il soffitto d'avorio, la parete ovest
+tappezzata di piume di pavone e quella est aperta sul mare, Aslan li inco-
+ronò e li fece sedere sui quattro troni a loro destinati. Squillarono le trom-
+be; gli amici acclamarono a lungo e a gran voce, gridando: — Evviva re
+Peter! Evviva la regina Susan! Evviva re Edmund! Evviva la regina Lucy!
+
+— Quando si è re e regine a Narnia, si è re e regine per sempre — disse
+
+Aslan al momento dell'incoronazione. — Siatene degni, figli di Adamo.
+Siatene degne, figlie di Eva.
+I nuovi sovrani, seduti sul trono e con lo scettro in mano, decretarono
+grandi ricompense e onori per i loro amici: dal fauno Tumnus ai coniugi
+Castoro, dal gigante Fracassone ai due leopardi, dai coraggiosi centauri ai
+nani buoni e al giovane leone. Quella sera a Cair Paravel ci fu festa grande:
+dopo il banchetto vennero le danze e i fuochi artificiali; il vino scorreva a
+fiumi e la musica non aveva sosta. Nel mezzo della baldoria, Aslan se ne
+andò tranquillamente. Quando i nuovi sovrani si accorsero della sua man-
+canza non si meravigliarono, perché il signor Castoro li aveva già avvertiti
+da tempo"
+Token Count,2905

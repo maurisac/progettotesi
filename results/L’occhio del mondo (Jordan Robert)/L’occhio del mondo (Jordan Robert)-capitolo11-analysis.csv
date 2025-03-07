@@ -1,0 +1,505 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:25:31
+Entities,"{
+  ('Rand', 'MISC'): 41,
+  ('Lan', 'MISC'): 28,
+  ('Cloud', 'MISC'): 14,
+  ('Moiraine', 'PER'): 11,
+  ('Bela', 'PER'): 9,
+  ('Custode', 'LOC'): 8,
+  ('Egwene', 'PER'): 7,
+  ('Taren Ferry', 'PER'): 5,
+  ('Watch Hill', 'MISC'): 5,
+  ('Thom Merrilin', 'PER'): 4,
+  ('Draghkar', 'MISC'): 4,
+  ('Draghkar', 'PER'): 4,
+  ('Trolloc', 'ORG'): 3,
+  ('Aes Sedai', 'LOC'): 3,
+  ('Fade', 'ORG'): 2,
+  ('Ombre', 'LOC'): 2,
+  ('Cinghiale Bianco', 'MISC'): 2,
+  ('Mat', 'PER'): 2,
+  ('Mastro Torralta', 'PER'): 2,
+  ('Strada Settentrionale', 'LOC'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Draghkar… Peggio dei Trolloc', 'MISC'): 1,
+  ('Thom', 'PER'): 1,
+  ('Libero di correre', 'MISC'): 1,
+  ('Cloud', 'PER'): 1,
+  ('Egwene', 'LOC'): 1,
+  ('Disegno', 'MISC'): 1,
+  ('«', 'PER'): 1,
+  ('Watch Hill', 'PER'): 1,
+  ('Trolloc', 'LOC'): 1,
+  ('Bel Tine', 'PER'): 1,
+  ('Mat', 'MISC'): 1,
+  ('Fonte di Vino', 'LOC'): 1,
+  ('Il Cinghiale Bianco', 'MISC'): 1,
+  ('Perrin', 'PER'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Taren', 'LOC'): 1,
+  ('Faremo', 'LOC'): 1,
+  ('Scoppieranno', 'LOC'): 1,
+  ('Moiraine Sedai', 'PER'): 1,
+  ('Aes 
+Sedai', 'LOC'): 1,
+  ('Non sapevo che Moiraine', 'MISC'): 1,
+  ('Tu', 'MISC'): 1,
+  ('Custode', 'PER'): 1,
+  ('Laverà', 'PER'): 1,
+  ('A te no?»  
+«A me no, pastore', 'MISC'): 1,
+  ('Tar Valon', 'LOC'): 1,
+  ('Troppo stanca per cosa?»  
+«Rand', 'MISC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Respirò', 'MISC'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Myrddraal', 'LOC'): 1,
+  ('Mezzo Uomo', 'MISC'): 1,
+  ('Sbrigati', 'PER'): 1,
+  ('Rand!', 'MISC'): 1,
+  ('Tam', 'PER'): 1,
+  ('Ripartirono', 'PER'): 1,
+  ('Latrati', 'LOC'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Galopparono', 'LOC'): 1,
+  ('Rand', 'LOC'): 1,
+  ('Thom 
+Merrilin', 'PER'): 1,
+  ('I Myrddraal', 'MISC'): 1,
+  ('Foresta', 'LOC'): 1,
+  ('Galoppavano', 'LOC'): 1,
+  ('Piano» gridò all’improvviso', 'MISC'): 1,
+  ('Rallentate', 'PER'): 1,
+  ('Moiraine e li 
+oltrepassò d’una decina di passi', 'MISC'): 1,
+  ('Taren', 'PER'): 1,
+  ('Montagne di 
+Nebbia', 'LOC'): 1,
+  ('Qua', 'PER'): 1,
+  ('Cimadicolle', 'LOC'): 1,
+  ('Barcadipietra', 'LOC'): 1,
+  ('Credevo', 'PER'): 1,
+  ('Torralta', 'PER'): 1,
+  ('Torralta', 'LOC'): 1,
+  ('Crederai', 'LOC'): 1,
+  ('Aspetterò', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 28,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [223, 1280, 2039, 2477, 3068, 3594, 5053, 5726, 7954, 8652, 8960, 9766, 10460, 10677, 11625, 12683, 13525, 13711, 14881, 14982, 15375, 16300, 16599, 16670, 17250, 17708, 18053, 18437]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9710964285714286,
+    'early_appearance': True,
+    'positions': [551, 852, 894, 1386, 1545, 1813, 2218, 2315, 3112, 3324, 3599, 3827, 4032, 4318, 5152, 5389, 5508, 5719, 6578, 6838, 7011, 7224, 7479, 9344, 9882, 10350, 10640, 10822, 10947, 11327, 11496, 11981, 12158, 12582, 13072, 13306, 14414, 14902, 15121, 15467, 15869, 17405]
+  },
+  'Cloud': {
+    'category': 'paese',
+    'confidence': 0.3443615734577179,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9636964285714287,
+    'early_appearance': True,
+    'positions': [966, 1287, 1443, 1690, 1806, 3633, 3764, 5382, 6723, 6923, 7142, 7186, 10867, 11949, 14950]
+  },
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9636964285714287,
+    'early_appearance': True,
+    'positions': [1044]
+  },
+  'Faremo': {
+    'category': 'paese',
+    'confidence': 0.3511166274547577,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7488964285714286,
+    'early_appearance': False,
+    'positions': [5069]
+  },
+  'Foresta': {
+    'category': 'paese',
+    'confidence': 0.39306119084358215,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7488964285714286,
+    'early_appearance': False,
+    'positions': [13982]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7422928571428572,
+    'early_appearance': False,
+    'positions': [4592, 16663, 17387]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7414964285714286,
+    'early_appearance': False,
+    'positions': [4997]
+  },
+  'Tu': {
+    'category': 'paese',
+    'confidence': 0.1806042492389679,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7414964285714286,
+    'early_appearance': False,
+    'positions': [5761]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7414964285714286,
+    'early_appearance': False,
+    'positions': [8443]
+  },
+  'Sbrigati': {
+    'category': 'paese',
+    'confidence': 0.3507595956325531,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7414964285714286,
+    'early_appearance': False,
+    'positions': [9204]
+  },
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7414964285714286,
+    'early_appearance': False,
+    'positions': [9561]
+  },
+  'Qua': {
+    'category': 'paese',
+    'confidence': 0.21664901077747345,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7414964285714286,
+    'early_appearance': False,
+    'positions': [15692]
+  },
+  'Credevo': {
+    'category': 'paese',
+    'confidence': 0.2117597460746765,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7414964285714286,
+    'early_appearance': False,
+    'positions': [16624]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.23597142857142858,
+    'early_appearance': True,
+    'positions': [540, 2196, 4493, 5807, 10579, 10737, 16432, 16783, 17819]
+  },
+  'Ombre': {
+    'category': 'non_luogo',
+    'confidence': 0.12164019048213959,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23119285714285714,
+    'early_appearance': True,
+    'positions': [1117, 14495]
+  },
+  'Strada Settentrionale': {
+    'category': 'non_luogo',
+    'confidence': 0.11917391419410706,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23039642857142856,
+    'early_appearance': True,
+    'positions': [69]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23039642857142856,
+    'early_appearance': True,
+    'positions': [333, 2285, 2484, 5624, 6164, 7808, 10666, 11661, 12781, 13152, 13717, 16306]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23039642857142856,
+    'early_appearance': True,
+    'positions': [746, 2523, 4285, 10332]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.009789285714285714,
+    'early_appearance': False,
+    'positions': [2181, 4505, 10764, 11246]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [2081, 2353, 4329, 9231, 9772, 10775, 11335, 12639]
+  },
+  'Fonte di Vino': {
+    'category': 'non_luogo',
+    'confidence': 0.1638592928647995,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [4815]
+  },
+  'Taren': {
+    'category': 'non_luogo',
+    'confidence': 0.3135354816913605,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [5040, 15281]
+  },
+  'Scoppieranno': {
+    'category': 'non_luogo',
+    'confidence': 0.28254297375679016,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [5159]
+  },
+  'Aes 
+Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [5329]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [6085]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [6251]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [8775]
+  },
+  'Latrati': {
+    'category': 'non_luogo',
+    'confidence': 0.24801041185855865,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [10358]
+  },
+  'Galopparono': {
+    'category': 'non_luogo',
+    'confidence': 0.26686161756515503,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [11864]
+  },
+  'Galoppavano': {
+    'category': 'non_luogo',
+    'confidence': 0.20766231417655945,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [14377]
+  },
+  'Montagne di 
+Nebbia': {
+    'category': 'non_luogo',
+    'confidence': 0.13110803067684174,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [15331]
+  },
+  'Cimadicolle': {
+    'category': 'non_luogo',
+    'confidence': 0.24397455155849457,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [16109]
+  },
+  'Barcadipietra': {
+    'category': 'non_luogo',
+    'confidence': 0.2216862589120865,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [16123]
+  },
+  'Torralta': {
+    'category': 'non_luogo',
+    'confidence': 0.20552735030651093,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [17508, 17905]
+  },
+  'Crederai': {
+    'category': 'non_luogo',
+    'confidence': 0.23264159262180328,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008196428571428572,
+    'early_appearance': False,
+    'positions': [18346]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 28,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Moiraine',
+  'count': 11,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 27, 'sadness': 56, 'fear': 5, 'anger': 4}, 'sentiment_counts': {'positive': 32, 'negative': 60}, 'emotion_percentages': {'joy': 29.347826086956523, 'sadness': 60.86956521739131, 'fear': 5.434782608695652, 'anger': 4.3478260869565215}, 'sentiment_percentages': {'positive': 34.78260869565217, 'negative': 65.21739130434783}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.4104087352752686, 'Riconoscimento entità con spaCy': 0.002999544143676758, 'Analisi emozioni': 15.434244632720947, 'Classificazione delle location': 25.215306043624878, 'Tempo totale': 42.064958810806274}"
+Original Text Extract,"11 
+ 
+La strada per Taren Ferry 
+ 
+ 
+ 
+ 
+ 
+Sulla terra battuta della Strada Settentrionale i cavalli, criniera e coda al vento, si lanciarono al 
+galoppo sotto il chiaro di luna, battendo con gli zoccoli un ritmo costante. Lan procedeva 
+all’avanguardia, avvolto nel mantello, quasi invisibile sul suo morello. La giumenta bianca di Moiraine, 
+eguagliando lo stallone passo per passo, era una freccia chiara che saettava nel buio. Gli altri seguivano 
+in fila compatta, come se fossero tutti legati a una fune il cui capo era nel pugno del Custode.  
+Rand era l’ultimo della fila, subito dietro Thom Merrilin. Il menestrello non girò mai la testa, 
+concentrato sulla strada, non su quello da cui fuggivano. Se alle loro spalle fossero comparsi i Trolloc, 
+o il Fade sul suo destriero silenzioso, o quella creatura alata, il Draghkar, sarebbe toccato a Rand dare 
+l’allarme.  
+Ogni pochi minuti Rand girava la testa per scrutare indietro, reggendosi alla criniera di Cloud e alle 
+redini. Il Draghkar… Peggio dei Trolloc e dei Fade, aveva detto Thom. Ma il cielo era vuoto e il 
+terreno mostrava solo tenebre e ombre. Ombre che potevano nascondere un esercito.  
+Libero di correre, il grigio si lanciava nella notte come uno spettro, tenendo agevolmente il passo del 
+destriero di Lan. E Cloud avrebbe voluto andare più forte. Voleva superare il morello, si sforzava di 
+raggiungerlo.  
+Rand doveva tirare con forza le redini per trattenerlo.. Cloud si attaccava al morso come se 
+disputasse una corsa, lottando a ogni passo per avere la meglio. Rand si afferrò alla sella e alle redini, 
+tendendo ogni muscolo. Si augurò con fervore che la cavalcatura non capisse quanto era a disagio. Se 
+Cloud l’avesse fatto, lui avrebbe perso l’unico appiglio reale, per quanto precario.  
+Tenendosi basso sul collo di Cloud, Rand teneva d’occhio, preoccupato, Bela e la ragazza. Aveva 
+detto che l’irsuta giumenta poteva stare alla pari degli altri cavalli, ma non intendeva al galoppo: non 
+restava indietro solo perché correva come mai in vita sua. Lan era stato contrario alla presenza di 
+Egwene: avrebbe rallentato per lei, se Bela non ce l’avesse più fatta? O  
+l’avrebbe abbandonata? L’Aes Sedai e il Custode pensavano che Rand e i suoi amici avessero una 
+certa importanza; ma, per quanto Moiraine parlasse di Disegno, Rand non credeva che attribuissero a 
+Egwene la stessa importanza.  
+Se Bela fosse rimasta indietro, sarebbe rimasto indietro anche lui, qualsiasi cosa dicessero Lan e 
+Moiraine. Anche se c’erano il Fade e i Trolloc. E  
+il Draghkar. Con il cuore pieno di disperazione, incitò in silenzio Bela a correre e la giumenta parve 
+ascoltarlo.  
+Di tanto in tanto scorgevano per un attimo le luci di una fattoria; l’abbaiare dei cani da guardia 
+svaniva rapidamente in lontananza. Galopparono nel buio interrotto solo dal pallido chiarore della luna, 
+fra alberi che comparivano all’improvviso lungo la strada e sparivano. Solo il verso solitario d’un 
+uccello notturno, desolato e lamentoso, disturbava a volte il costante rumore di zoccoli.  
+All’improvviso Lan rallentò, poi fermò la fila di cavalli. Rand non sapeva da quanto tempo 
+correvano, ma aveva le gambe indolenzite a furia di stringere la sella. Davanti a loro brillavano delle 
+luci, come se uno sciame di lucciole si fosse radunato tra gli alberi.  
+
+Rand guardò perplesso le luci, poi rimase a bocca aperta per la sorpresa.  
+Le lucciole erano finestre, le finestre delle case che ricoprivano il pendio e la cima di una collina. 
+Watch Hill. Non riusciva a credere che fossero giunti così lontano. Seguendo l’esempio di Lan, Rand e 
+Thom Merrilin smontarono. Cloud rimase a testa bassa, ansimando. Il sudore, quasi invisibile sul pelo 
+color fumo del cavallo, gli macchiava collo e spalle. Cloud non avrebbe più portato nessuno, quella 
+notte, si disse Rand.  
+«Mi piacerebbe lasciarmi alle spalle tutti questi villaggi» disse Thom Merrilin «ma qualche ora di 
+riposo non sarebbe sprecata in questo momento. Abbiamo vantaggio sufficiente a permettercelo?»  
+Rand si stiracchiò e si massaggiò il fondoschiena. «Se ci fermiamo a Watch Hill per il resto della 
+notte, tanto vale salire in cima.»  
+Un refolo di vento portò brani di canti e profumo di cucina. A Watch Hill facevano ancora festa: non 
+c’erano stati Trolloc a disturbare Bel Tine.  
+Rand cercò Egwene: la ragazza, stanchissima, si appoggiava al fianco di Bela. Anche gli altri 
+smontavano, con più d’un sospiro e si sgranchivano i muscoli doloranti. Solo il Custode e l’Aes Sedai 
+non mostravano segno di stanchezza.  
+«Mi piacerebbe cantare un poco» disse Mat, stancamente. «E anche far fuori un bel pezzo di 
+pasticcio di montone caldo al Cinghiale Bianco.» Esitò, poi soggiunse: «Non sono mai stato più in là di 
+Watch Hill. La locanda del Cinghiale Bianco non è buona come la Fonte di Vino.»  
+«Il Cinghiale Bianco non è poi tanto male» disse Perrin. «Anche a me piacerebbe il pasticcio di 
+montone. E litri di tè caldo per togliermi il gelo dalle ossa.»  
+«Pri"
+Token Count,3878

@@ -1,0 +1,478 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:32:44
+Entities,"{
+  ('Rand', 'MISC'): 58,
+  ('Palazzo', 'LOC'): 12,
+  ('Caemlyn', 'LOC'): 11,
+  ('Mat', 'MISC'): 10,
+  ('Regina', 'PER'): 9,
+  ('Logain', 'PER'): 9,
+  ('Aes Sedai', 'LOC'): 8,
+  ('Drago', 'PER'): 6,
+  ('Città Interna', 'LOC'): 6,
+  ('Drago', 'LOC'): 5,
+  ('Gill', 'PER'): 4,
+  ('Trolloc', 'LOC'): 3,
+  ('Amici delle Tenebre', 'MISC'): 3,
+  ('Andor', 'PER'): 3,
+  ('Manti Bianchi', 'PER'): 3,
+  ('Guardie', 'PER'): 3,
+  ('Logain', 'LOC'): 3,
+  ('Perrin', 'PER'): 2,
+  ('Ogier', 'PER'): 2,
+  ('Mastro Gill', 'PER'): 2,
+  ('Mamma Grubb', 'PER'): 2,
+  ('Sovvenzione della Regina', 'MISC'): 2,
+  ('Perfino', 'LOC'): 2,
+  ('Manti Bianchi', 'LOC'): 2,
+  ('Lamgwin', 'PER'): 2,
+  ('Morgase', 'PER'): 2,
+  ('Lamgwin', 'LOC'): 2,
+  ('Tar Valon', 'LOC'): 2,
+  ('Manto Bianco', 'MISC'): 2,
+  ('Avanti il Leone', 'PER'): 2,
+  ('Guardie della Regina', 'PER'): 2,
+  ('Città Nuova', 'LOC'): 2,
+  ('Custodi', 'PER'): 2,
+  ('Egwene', 'PER'): 1,
+  ('Vieni?» domandò di nuovo', 'MISC'): 1,
+  ('Prendi con te', 'MISC'): 1,
+  ('Sangue', 'MISC'): 1,
+  ('Stupido testardo» brontolò', 'MISC'): 1,
+  ('Me ne vado', 'MISC'): 1,
+  ('Sapiente', 'MISC'): 1,
+  ('Nynaeve', 'PER'): 1,
+  ('Moiraine', 'PER'): 1,
+  ('mediconi', 'PER'): 1,
+  ('Zanna del Drago', 'LOC'): 1,
+  ('Mangiava', 'PER'): 1,
+  ('Chiede di voi', 'MISC'): 1,
+  ('«', 'PER'): 1,
+  ('Mezzo pazzo', 'MISC'): 1,
+  ('Giorni di Festa', 'MISC'): 1,
+  ('Hyam Kinch', 'PER'): 1,
+  ('Fade', 'ORG'): 1,
+  ('Ah', 'PER'): 1,
+  ('Uomo Ombra', 'PER'): 1,
+  ('Lews Therin Kinslayer', 'PER'): 1,
+  ('Vai', 'PER'): 1,
+  ('Luce!', 'ORG'): 1,
+  ('Il tizio', 'MISC'): 1,
+  ('Luce incarnata', 'MISC'): 1,
+  ('Quel giorno', 'MISC'): 1,
+  ('Luce sull’Ombra', 'ORG'): 1,
+  ('Unico Potere', 'MISC'): 1,
+  ('Luce', 'MISC'): 1,
+  ('Ombra', 'MISC'): 1,
+  ('Figlio della Luce', 'PER'): 1,
+  ('trascendesse', 'LOC'): 1,
+  ('Figli della Luce', 'MISC'): 1,
+  ('Manto Bianco', 'PER'): 1,
+  ('Leone', 'PER'): 1,
+  ('Leone Bianco', 'MISC'): 1,
+  ('Ruggisce', 'LOC'): 1,
+  ('Ombra', 'LOC'): 1,
+  ('Città 
+Nuova', 'LOC'): 1,
+  ('brontolavano', 'PER'): 1,
+  ('Rand', 'LOC'): 1,
+  ('Amico delle Tenebre o no', 'PER'): 1,
+  ('Barcollò', 'MISC'): 1,
+  ('Amico delle Tenebre', 'PER'): 1,
+  ('Logain', 'MISC'): 1,
+  ('Pensando', 'PER'): 1,
+  ('Sconsolato', 'LOC'): 1,
+  ('Leone Bianco', 'PER'): 1,
+  ('Tamburi', 'LOC'): 1,
+  ('Colline Sabbiose', 'LOC'): 1,
+  ('Triplici', 'MISC'): 1,
+  ('Sembrava', 'LOC'): 1,
+  ('Api Dorate', 'LOC'): 1,
+  ('Illian', 'PER'): 1,
+  ('Tre Mezzelune Bianche di Tear', 'MISC'): 1,
+  ('Sole Sorgente', 'LOC'): 1,
+  ('Cairhien', 'PER'): 1,
+  ('Scomparso Logain', 'PER'): 1,
+  ('Chissà', 'PER'): 1,
+  ('Vera Fonte, stupido', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 10,
+    'priority_score': 0.9814833333333333,
+    'early_appearance': True,
+    'positions': [651, 658, 789, 1257, 1412, 1475, 1784, 2044, 2455, 4912]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9721583333333333,
+    'early_appearance': True,
+    'positions': [64, 419, 1103, 1344, 1545, 2036, 2501, 2641, 3011, 3186, 3908, 4355, 5323, 5600, 5931, 6010, 6254, 6536, 6784, 7015, 7395, 8703, 9082, 9749, 10177, 10334, 10413, 10959, 11982, 12090, 12571, 13043, 13361, 13683, 13951, 14641, 14752, 15193, 15392, 15685, 15784, 16173, 16707, 16939, 17501, 17582, 18734, 18939, 19491, 19728, 20277, 20687, 20885, 21166, 22509, 24218, 24411, 24761, 24962]
+  },
+  'Sangue': {
+    'category': 'paese',
+    'confidence': 0.39529845118522644,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9647583333333334,
+    'early_appearance': True,
+    'positions': [772]
+  },
+  'Palazzo': {
+    'category': 'paese',
+    'confidence': 0.23411253094673157,
+    'spacy_label': 'LOC',
+    'count': 12,
+    'priority_score': 0.7704,
+    'early_appearance': False,
+    'positions': [3573, 11026, 12115, 12224, 12690, 18916, 19430, 20600, 21041, 21866, 23591, 23783]
+  },
+  'Città Interna': {
+    'category': 'paese',
+    'confidence': 0.09206162393093109,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.75925,
+    'early_appearance': False,
+    'positions': [9067, 10986, 11199, 11352, 17048, 18139]
+  },
+  'Regina': {
+    'category': 'paese',
+    'confidence': 0.36299997568130493,
+    'spacy_label': 'PER',
+    'count': 9,
+    'priority_score': 0.757425,
+    'early_appearance': False,
+    'positions': [3635, 5033, 7195, 7851, 8142, 9928, 11100, 16800, 18367]
+  },
+  'Drago': {
+    'category': 'paese',
+    'confidence': 0.34736984968185425,
+    'spacy_label': 'PER',
+    'count': 6,
+    'priority_score': 0.75185,
+    'early_appearance': False,
+    'positions': [7385, 8085, 10710, 11124, 14090, 14684, 17433, 17959, 18339, 22667, 23928]
+  },
+  'Città Nuova': {
+    'category': 'castello',
+    'confidence': 0.08107423037290573,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [14155, 18772]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [8369, 10589]
+  },
+  'Città 
+Nuova': {
+    'category': 'castello',
+    'confidence': 0.08107423037290573,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [11291]
+  },
+  'Sembrava': {
+    'category': 'paese',
+    'confidence': 0.20687146484851837,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [23068]
+  },
+  'Sovvenzione della Regina': {
+    'category': 'paese',
+    'confidence': 0.15508049726486206,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [3543, 3847]
+  },
+  'Vai': {
+    'category': 'paese',
+    'confidence': 0.20735855400562286,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [4802]
+  },
+  'Luce sull’Ombra': {
+    'category': 'casa',
+    'confidence': 0.0963030681014061,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [8047]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [8346]
+  },
+  'Leone': {
+    'category': 'paese',
+    'confidence': 0.2876996099948883,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [10532]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 11,
+    'priority_score': 0.25004166666666666,
+    'early_appearance': True,
+    'positions': [241, 2070, 3448, 3766, 7447, 7822, 8010, 10739, 18889, 21485, 21577]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [735, 803, 996]
+  },
+  'Zanna del Drago': {
+    'category': 'non_luogo',
+    'confidence': 0.16739250719547272,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23145833333333332,
+    'early_appearance': True,
+    'positions': [2265]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.022266666666666667,
+    'early_appearance': False,
+    'positions': [7228, 8238, 9942, 14803, 22169, 22317, 24668, 24849]
+  },
+  'Logain': {
+    'category': 'non_luogo',
+    'confidence': 0.2756613790988922,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [11066, 14826, 17778, 18393, 18853, 19024, 22567, 23028, 23600, 23734, 24208, 24680, 25185]
+  },
+  'Perfino': {
+    'category': 'non_luogo',
+    'confidence': 0.29217538237571716,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [3776, 4998]
+  },
+  'Manti Bianchi': {
+    'category': 'non_luogo',
+    'confidence': 0.2819724678993225,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [4122, 8992, 9477, 10303, 14360]
+  },
+  'Lamgwin': {
+    'category': 'non_luogo',
+    'confidence': 0.3277859091758728,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [5636, 5899, 6091, 6443]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [7240, 8177]
+  },
+  'trascendesse': {
+    'category': 'non_luogo',
+    'confidence': 0.2247091829776764,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [9449]
+  },
+  'Ruggisce': {
+    'category': 'non_luogo',
+    'confidence': 0.2771512269973755,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [10576]
+  },
+  'Sconsolato': {
+    'category': 'non_luogo',
+    'confidence': 0.2673131823539734,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [18927]
+  },
+  'Tamburi': {
+    'category': 'non_luogo',
+    'confidence': 0.2578165829181671,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [19658]
+  },
+  'Colline Sabbiose': {
+    'category': 'non_luogo',
+    'confidence': 0.1114325225353241,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [20327]
+  },
+  'Api Dorate': {
+    'category': 'non_luogo',
+    'confidence': 0.14899206161499023,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [23938]
+  },
+  'Sole Sorgente': {
+    'category': 'non_luogo',
+    'confidence': 0.17042869329452515,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [23997]
+  },
+}"
+Main Location,"{
+  'name': 'Mat',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.21781297028064728,
+  'count': 10,
+  'priority_score': 0.9814833333333333,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 2,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.777688888888889,
+}"
+Emotions,"{'emotion_counts': {'sadness': 54, 'anger': 16, 'joy': 24, 'fear': 3}, 'sentiment_counts': {'negative': 69, 'positive': 28}, 'emotion_percentages': {'sadness': 55.670103092783506, 'anger': 16.49484536082474, 'joy': 24.742268041237114, 'fear': 3.0927835051546393}, 'sentiment_percentages': {'negative': 71.1340206185567, 'positive': 28.865979381443296}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 9.181953430175781, 'Riconoscimento entità con spaCy': 0.0020008087158203125, 'Analisi emozioni': 27.526549100875854, 'Classificazione delle location': 34.62064862251282, 'Tempo totale': 71.33815574645996}"
+Original Text Extract,"39 
+ 
+Il disegno s’increspa 
+ 
+ 
+ 
+ 
+ 
+Dall’alto della finestra Rand guardò la folla vociare lungo la strada: tutti andavano di fretta nella 
+stessa direzione e agitavano bandiere e pennoni con il leone rampante in campo rosso. Abitanti di 
+Caemlyn e forestieri correvano fianco a fianco e, una volta tanto, sembrava che nessuno avesse voglia 
+di litigare. Forse quel giorno la folla era formata da una sola fazione.  
+Rand sorrise e girò le spalle alla finestra. Era il giorno che aspettava con maggior desiderio, quasi 
+quanto quello in cui avrebbe ritrovato Egwene e Perrin vivi e sorridenti per le proprie avventure.  
+«Vieni?» domandò di nuovo a Mat.  
+Mat, rannicchiato sul letto, gli lanciò un’occhiataccia. «Prendi con te quel Trolloc di cui sei tanto 
+amico.»  
+«Sangue e ceneri, Mat, non è un Trolloc. Sei solo uno stupido testardo.  
+Quanto volte dobbiamo discuterne ancora? Si direbbe che non hai mai sentito parlare degli Ogier.»  
+«Non ho mai sentito dire che avessero l’aspetto di Trolloc.» Spinse il viso contro il cuscino e si 
+raggomitolò come una palla.  
+«Stupido testardo» brontolò Rand. «Quando la smetterai di stare nascosto quassù? Sono stufo di fare 
+tutte queste scale per portarti i pasti. E sarebbe ora che tu facessi il bagno.» Mat scrollò le spalle e 
+parve volersi scavare una tana nel materasso. Con un sospiro, Rand si avviò alla porta.  
+«L’ultima possibilità di venire con me, Mat. Me ne vado.» Chiuse lentamente la porta, augurandosi 
+che Mat cambiasse idea. L’uscio si serrò con uno scatto.  
+Nel corridoio, Rand si appoggiò allo stipite. Mastro Gill aveva detto che due vie più avanti abitava 
+una vecchia, Mamma Grubb, che vendeva erbe e pomate, oltre a fare la levatrice, curare gli ammalati e 
+leggere il futuro. Pareva una sorta di Sapiente. Mat aveva bisogno di Nynaeve, o forse di Moiraine; ma 
+a portata di mano c’era solo Mamma Grubb. Però, farla venire alla locanda, ammesso che la vecchia 
+fosse disposta, avrebbe attirato l’attenzione della gente sbagliata. Anche su di lei, non solo su Rand e 
+Mat.  
+In quel periodo, a Caemlyn guaritori e mediconi si tenevano nascosti: correvano voci, su chi curava 
+con le erbe o leggeva la fortuna. Ogni notte, a volte perfino di giorno, qualcuno scarabocchiava sulle 
+porte la Zanna del Drago; e la gente dimenticava chi aveva curato febbri e mal di denti, quando si 
+alzava il grido contro gli Amici delle Tenebre. Era questo, l’umore della città.  
+A dire il vero, Mat non era ammalato. Mangiava tutto quel che Rand portava su dalla cucina (non 
+accettava niente da estranei) e non accusava febbre né dolori. Si rifiutava solo di lasciare la stanza. 
+Rand era convinto che quel giorno sarebbe uscito, ma si era sbagliato.  
+Si mise sulle spalle il mantello e girò il cinturone in modo che la spada, per quanto avvolta nella 
+stoffa rossa, restasse più coperta.  
+In fondo alle scale incontrò mastro Gill che stava per salire. «In città c’è uno che chiede di voi» 
+disse il locandiere, senza togliersi di bocca la pipa.  
+Rand sentì un’ondata di speranza. «Chiede di voi e dei vostri amici, per nome. Di voi ragazzi, 
+comunque. Pare che gli interessino soprattutto i tre ragazzi.»  
+
+Nel cuore di Rand l’ansia sostituì la speranza. «Chi è?» domandò. Lanciò un’occhiata su e giù per il 
+corridoio: a parte loro due, non c’era nessuno, dall’uscita nel vicolo alla porta sulla sala comune.  
+«Non so come si chiama. Ho solo udito delle voci. Ne corrono tante, a Caemlyn, e mi arrivano tutte. 
+Un mendicante. Mezzo pazzo, dicono. Anche così, può prendere la Sovvenzione della Regina, al 
+Palazzo, per quanto siano tempi duri. Nei Giorni di Festa, la Regina la distribuisce personalmente e mai 
+nessuno viene scacciato, per nessun motivo. Non c’è bisogno di chiedere l’elemosina, a Caemlyn. 
+Perfino i delinquenti non possono essere arrestati, mentre prendono la Sovvenzione della Regina.»  
+«Un Amico delle Tenebre?» disse Rand, riluttante. Se gli Amici delle Tenebre sapevano il loro 
+nome…  
+«Non pensi ad altro, ragazzo. Gli Amici delle Tenebre esistono, certo, ma non c’è ragione di credere 
+che la città ne sia piena, solo perché i Manti Bianchi hanno turbato tutti. E ora gli idioti hanno messo in 
+giro una nuova voce: strane figure. Pensa un po’! Strane figure che di notte sì aggirano intorno alla 
+città.» Il locandiere ridacchiò, con un tremolio di pancia.  
+Rand non si sentì di ridere. Hyam Kinch aveva parlato di strane figure, e laggiù c’era stato 
+certamente un Fade. «Che genere di figure?»  
+«Ah, non so. Strane figure. Trolloc, probabilmente. L’Uomo Ombra.  
+Lews Therin Kinslayer in persona, tornato in vita e alto cinquanta piedi.  
+Che genere di figure credi che la gente immaginerà, ora che si è messa in testa l’idea? La cosa non ci 
+deve preoccupare.» Mastro Gill lo osservò per un momento. «Vai fuori, eh? Be’, piacerebbe anche a 
+me, perfino oggi, ma qui in pratica sono da solo. E il tuo amico?»  
+«Mat non si sente bene. Forse uscirà più tardi.»  
+«Be’, non importa. Ma stai attento. Pe"
+Token Count,5203

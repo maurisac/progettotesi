@@ -1,0 +1,340 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:27:44
+Entities,"{
+  ('Perrin', 'PER'): 22,
+  ('Egwene', 'PER'): 17,
+  ('Caemlyn', 'LOC'): 8,
+  ('Trolloc', 'ORG'): 6,
+  ('Fade', 'ORG'): 4,
+  ('Moiraine Sedai', 'PER'): 4,
+  ('Custode', 'LOC'): 3,
+  ('Fade', 'MISC'): 3,
+  ('Rand', 'MISC'): 3,
+  ('Aes Sedai', 'LOC'): 3,
+  ('Moiraine', 'PER'): 3,
+  ('Mat', 'MISC'): 3,
+  ('Emond’s Field', 'MISC'): 2,
+  ('Arinelle', 'PER'): 2,
+  ('Bela', 'PER'): 2,
+  ('Lan', 'MISC'): 2,
+  ('Whitebridge', 'PER'): 2,
+  ('Luhhan', 'PER'): 1,
+  ('Arinelle', 'LOC'): 1,
+  ('Aes 
+Sedai', 'LOC'): 1,
+  ('Comare Luhhan', 'PER'): 1,
+  ('Rabbrividì alla brezza', 'MISC'): 1,
+  ('Presa', 'MISC'): 1,
+  ('Macchie d’alberi', 'LOC'): 1,
+  ('Trolloc', 'MISC'): 1,
+  ('mastro Luhhan', 'PER'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Egwene 
+riavvolgeva', 'MISC'): 1,
+  ('Trolloc', 'LOC'): 1,
+  ('Vorrei', 'PER'): 1,
+  ('Scrollò', 'LOC'): 1,
+  ('Whitebridge', 'LOC'): 1,
+  ('Penso', 'PER'): 1,
+  ('Sorpreso', 'PER'): 1,
+  ('Sapiente', 'MISC'): 1,
+  ('Mastro al’Vere', 'PER'): 1,
+  ('Sì', 'LOC'): 1,
+  ('Tracciò', 'LOC'): 1,
+  ('Lontano', 'LOC'): 1,
+  ('Chiederemo', 'LOC'): 1,
+  ('La mia preoccupazione', 'MISC'): 1,
+  ('Tar Valon', 'MISC'): 1,
+  ('Tar Valon', 'LOC'): 1,
+  ('Amyrlin Seat', 'PER'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Amyrlin Seat!', 'MISC'): 1,
+  ('bisaccia', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.968475,
+    'early_appearance': True,
+    'positions': [315, 688]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.7490625000000001,
+    'early_appearance': False,
+    'positions': [6951, 9635, 10259]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.7490625000000001,
+    'early_appearance': False,
+    'positions': [8569, 9642, 10266]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [7651, 10703]
+  },
+  'Vieni': {
+    'category': 'paese',
+    'confidence': 0.2779832184314728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [6162]
+  },
+  'Penso': {
+    'category': 'paese',
+    'confidence': 0.1903143972158432,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [8306]
+  },
+  'La mia preoccupazione': {
+    'category': 'paese',
+    'confidence': 0.14493419229984283,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [10094]
+  },
+  'Arinelle': {
+    'category': 'non_luogo',
+    'confidence': 0.34170958399772644,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2323875,
+    'early_appearance': True,
+    'positions': [961, 3651, 3957]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2323875,
+    'early_appearance': True,
+    'positions': [983, 1972, 4544, 5094, 6623, 7295, 8619, 8765]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [9320, 9650, 9690, 9820, 10187, 10211, 10403, 10734]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0157625,
+    'early_appearance': False,
+    'positions': [2092, 4488, 8499]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0157625,
+    'early_appearance': False,
+    'positions': [7134, 8480, 10161, 10639]
+  },
+  'Aes 
+Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [2075]
+  },
+  'Macchie d’alberi': {
+    'category': 'non_luogo',
+    'confidence': 0.1025015115737915,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [4012]
+  },
+  'Scrollò': {
+    'category': 'non_luogo',
+    'confidence': 0.32497838139533997,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [7395]
+  },
+  'Whitebridge': {
+    'category': 'non_luogo',
+    'confidence': 0.16889919340610504,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [8233, 8316, 9292]
+  },
+  'Sì': {
+    'category': 'non_luogo',
+    'confidence': 0.15647341310977936,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [9686]
+  },
+  'Tracciò': {
+    'category': 'non_luogo',
+    'confidence': 0.36823558807373047,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [9700]
+  },
+  'Lontano': {
+    'category': 'non_luogo',
+    'confidence': 0.2591595947742462,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [9750]
+  },
+  'Chiederemo': {
+    'category': 'non_luogo',
+    'confidence': 0.22444705665111542,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [10068]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [10286, 10515]
+  },
+  'bisaccia': {
+    'category': 'non_luogo',
+    'confidence': 0.1753106713294983,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [11117]
+  },
+}"
+Main Location,"{
+  'name': 'Emond’s Field',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.09198778867721558,
+  'count': 2,
+  'priority_score': 0.968475,
+  'early_appearance': True,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 22,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 58, 'fear': 4, 'joy': 28, 'anger': 2}, 'sentiment_counts': {'positive': 36, 'negative': 56}, 'emotion_percentages': {'sadness': 63.04347826086957, 'fear': 4.3478260869565215, 'joy': 30.434782608695656, 'anger': 2.1739130434782608}, 'sentiment_percentages': {'positive': 39.130434782608695, 'negative': 60.86956521739131}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.0142292976379395, 'Riconoscimento entità con spaCy': 0.0009999275207519531, 'Analisi emozioni': 22.72288727760315, 'Classificazione delle location': 12.306536674499512, 'Tempo totale': 36.046653032302856}"
+Original Text Extract,"22 
+ 
+Scelta di percorso 
+ 
+ 
+ 
+ 
+ 
+In un piccolo folto d’alberi, sotto una pila di rami di cedro tagliati alla buona nel buio, Perrin dormì 
+fino a mattino inoltrato. Furono gli aghi di cedro, che lo pungevano attraverso gli abiti ancora umidi, a 
+svegliarlo nonostante lo sfinimento. Nel bel mezzo di un sogno su Emond’s Field, nel quale lavorava 
+alla fucina di mastro Luhhan, aprì gli occhi e fissò senza capire i rami dal dolce profumo che gli 
+ricoprivano il viso e lasciavano filtrare la luce del sole.  
+Gran parte dei rami cadde via, quando balzò a sedere, sorpreso; ma alcuni gli rimasero impigliati nei 
+vestiti e nei capelli, dandogli una certa aria da albero. Le immagini di Emond’s Field svanirono, 
+lasciando posto al ricordo della notte precedente.  
+Cercò freneticamente l’ascia sotto il mucchio di rami. La impugnò e si guardò intorno, trattenendo il 
+fiato. Niente si muoveva. Il mattino era gelido e silenzioso. Se sulla riva orientale dell’Arinelle c’erano 
+dei Trolloc, non si facevano scorgere, almeno nelle vicinanze. Perrin trasse un profondo respiro e 
+abbassò l’ascia; attese che il cuore smettesse di battere all’impazzata.  
+Il boschetto di sempreverdi era il primo ricovero trovato la notte precedente, ma offriva scarso 
+riparo da sguardi indiscreti, se si stava in piedi.  
+Perrin si tolse di dosso qualche ramo, spinse da parte la copertura di frasche e strisciò carponi al 
+limitare degli alberi. Rimase lì disteso a esaminare la riva del fiume e a grattarsi le punture degli aghi.  
+Il vento tagliente della notte si era mutato in una brezza che increspava appena la superficie 
+dell’acqua. Il fiume scorreva, calmo e vuoto. E largo.  
+Di sicuro troppo ampio e profondo perché i Fade lo attraversassero. La riva opposta sembrava una 
+massa compatta d’alberi, a monte e a valle, fin dove arrivava la vista. Anche lì non si scorgeva 
+movimento.  
+Perrin non sapeva quali considerazioni trarne. Non sentiva certo la mancanza dei Fade e dei Trolloc, 
+ma avrebbe avuto un bel po’ di preoccupazioni in meno, se sulla riva opposta avesse scorto l’Aes 
+Sedai, o il Custode, o meglio ancora qualcuno dei suoi amici. “Se i desideri avessero le ali, le pecore 
+volerebbero” pensò. Comare Luhhan lo diceva sempre.  
+Da quando era caduto dalla scarpata, non aveva più visto segno del cavallo. Si augurò che avesse 
+attraversato a nuoto il fiume e che fosse in salvo. Quanto a lui, era abituato a camminare e aveva un 
+buon paio di robusti stivali. Non aveva niente da mangiare, ma con la fionda che teneva legata intorno 
+alla cintola o con i lacci per le trappole, che portava in tasca, non avrebbe faticato a procurarsi un 
+coniglio selvatico. Il necessario per accendere il fuoco era scomparso insieme con le bisacce, ma con 
+un po’ di lavoro i rami di cedro gli avrebbero offerto aghi secchi per fare da esca e un archetto per 
+accendere il fuoco.  
+Rabbrividì alla brezza che penetrava a folate nel suo nascondiglio. Non aveva più il mantello, finito 
+nel fiume, e la giubba e il resto erano ancora umidi e freddi. La notte precedente era talmente stanco da 
+non badare al freddo e ai vestiti bagnati, ma ora si accorgeva di ogni spiffero. Comunque non ritenne 
+necessario appendere i vestiti ad asciugare. La giornata non era freddissima, ma non invogliava a 
+spogliarsi.  
+
+Il problema era il tempo, si disse con un sospiro. Abiti asciutti, con un po’ di tempo. Un coniglio da 
+fare arrosto e un fuoco su cui cucinarlo, con un po’ di tempo. Sentì lo stomaco brontolare e decise di 
+non pensare più al cibo. Aveva da fare cose più importanti. Una alla volta, in ordine d’importanza.  
+Seguì con lo sguardo la corrente dell’Arinelle. Lui era un nuotatore più robusto di Egwene. Se 
+Egwene fosse riuscita ad attraversare il fiume… No, niente “se”: Egwene avrebbe toccato riva più a 
+valle. Tamburellò il terreno, riflettendo e soppesando.  
+Presa la decisione, raccolse l’ascia e s’incamminò lungo il fiume.  
+Da questa parte dell’Arinelle non c’era la fitta foresta dell’altra riva.  
+Macchie d’alberi punteggiavano quella che sarebbe stata una prateria, se la primavera fosse arrivata. 
+Alcune erano abbastanza estese da costituire folti boschetti, con fasce di sempreverdi fra gli spogli 
+frassini, ontani, eucalipti.  
+Più a valle, i boschetti erano più piccoli e meno fitti. Offrivano scarso riparo, ma erano l’unica 
+protezione.  
+Perrin passò da un boschetto all’altro, tenendosi chino; fra gli alberi, si stendeva a terra e scrutava le 
+rive. Secondo il Custode, il fiume rappresentava una barriera per Fade e Trolloc: ma se quelle creature 
+l’avessero visto, forse avrebbero vinto il terrore delle acque profonde. Perciò controllava con prudenza 
+da dietro gli alberi e passava di corsa da un nascondiglio all’altro, tenendosi basso.  
+In quel modo percorse alcune miglia; a un certo punto, a metà strada dall’invitante riparo d’un 
+boschetto di salici, si fermò di colpo a fissare il terreno. Chiazze di terra brulla punteggiavano il 
+marrone dell’erba secca e nel"
+Token Count,2436

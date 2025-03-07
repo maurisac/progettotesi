@@ -1,0 +1,593 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:23:46
+Entities,"{
+  ('Rand', 'MISC'): 64,
+  ('Mat', 'MISC'): 36,
+  ('Ewin', 'PER'): 21,
+  ('Mat', 'PER'): 8,
+  ('Fiumi Gemelli', 'LOC'): 6,
+  ('Vere', 'LOC'): 5,
+  ('Emond’s Field', 'MISC'): 5,
+  ('Luhhan', 'PER'): 5,
+  ('Nynaeve', 'PER'): 5,
+  ('Moiraine', 'PER'): 5,
+  ('Bran', 'LOC'): 4,
+  ('Ewin', 'MISC'): 4,
+  ('Forestieri', 'LOC'): 3,
+  ('Tam', 'PER'): 3,
+  ('Bel Tine', 'PER'): 3,
+  ('lady Moiraine', 'PER'): 3,
+  ('Fiumi Gemelli', 'PER'): 3,
+  ('Festa', 'MISC'): 2,
+  ('Bran', 'PER'): 2,
+  ('Taren Ferry', 'PER'): 2,
+  ('Comare', 'LOC'): 2,
+  ('Ewin Finngar', 'PER'): 2,
+  ('Baerlon', 'LOC'): 2,
+  ('Rand', 'LOC'): 2,
+  ('Lan', 'MISC'): 2,
+  ('Sapiente', 'MISC'): 2,
+  ('Lady Moiraine', 'PER'): 2,
+  ('Nynaeve', 'MISC'): 2,
+  ('Cenn', 'PER'): 2,
+  ('Consiglio', 'ORG'): 2,
+  ('Parco', 'LOC'): 2,
+  ('Ponte Carraio', 'LOC'): 2,
+  ('Pensate', 'PER'): 2,
+  ('Scratch', 'ORG'): 1,
+  ('fulvo gatto della locanda', 'MISC'): 1,
+  ('Consiglio del Villaggio', 'ORG'): 1,
+  ('Cenn', 'LOC'): 1,
+  ('Tam', 'LOC'): 1,
+  ('Consiglio del Villaggio', 'LOC'): 1,
+  ('Emond', 'PER'): 1,
+  ('Field', 'LOC'): 1,
+  ('Watch Hill', 'MISC'): 1,
+  ('Deven Ride', 'MISC'): 1,
+  ('Haral Luhhan', 'PER'): 1,
+  ('Jon Thane', 'PER'): 1,
+  ('Mastro Luhhan', 'PER'): 1,
+  ('Guardò', 'PER'): 1,
+  ('Zoppicando', 'MISC'): 1,
+  ('Il vecchio Luhhan', 'MISC'): 1,
+  ('«Sospetta', 'PER'): 1,
+  ('Pasticcini', 'PER'): 1,
+  ('«Altrimenti', 'PER'): 1,
+  ('Bran 
+al’Vere', 'MISC'): 1,
+  ('Adan', 'PER'): 1,
+  ('Caas', 'PER'): 1,
+  ('Dag Coplin', 'PER'): 1,
+  ('«Vedi', 'PER'): 1,
+  ('Dag', 'PER'): 1,
+  ('Ridacchiò', 'PER'): 1,
+  ('scopa', 'PER'): 1,
+  ('Luhhan', 'LOC'): 1,
+  ('Alsbet Luhhan', 'PER'): 1,
+  ('Tornati', 'LOC'): 1,
+  ('Ewing Finngar', 'PER'): 1,
+  ('Guardò Mat', 'MISC'): 1,
+  ('Rand!', 'MISC'): 1,
+  ('Cosa vogliono?» esclamò', 'MISC'): 1,
+  ('Pensaci!', 'MISC'): 1,
+  ('Sembrava', 'PER'): 1,
+  ('Moiraine» disse Ewin', 'MISC'): 1,
+  ('Lady 
+Moiraine', 'MISC'): 1,
+  ('Stamattina', 'PER'): 1,
+  ('Tutto qui?» disse', 'MISC'): 1,
+  ('Conosci il carattere', 'MISC'): 1,
+  ('Vieni', 'PER'): 1,
+  ('«', 'PER'): 1,
+  ('Salì', 'PER'): 1,
+  ('Mat?', 'MISC'): 1,
+  ('Rowan Hurn', 'PER'): 1,
+  ('Samel Crawe', 'PER'): 1,
+  ('Consiglio del 
+Villaggio', 'ORG'): 1,
+  ('Bela', 'PER'): 1,
+  ('Hu', 'LOC'): 1,
+  ('Tad', 'PER'): 1,
+  ('Mat', 'LOC'): 1,
+  ('Albero di Primavera', 'MISC'): 1,
+  ('Sporco mangiacarogne» borbottò', 'MISC'): 1,
+  ('«Mai', 'PER'): 1,
+  ('Un uccello disgustoso» disse una voce', 'MISC'): 1,
+  ('Sorpresi', 'LOC'): 1,
+  ('Montagne di Nebbia', 'LOC'): 1,
+  ('Westwood', 'LOC'): 1,
+  ('Cerchia delle Donne', 'LOC'): 1,
+  ('Gran Serpente', 'PER'): 1,
+  ('Ruota del Tempo', 'LOC'): 1,
+  ('Buon giorno… ah…', 'MISC'): 1,
+  ('Buon giorno', 'MISC'): 1,
+  ('eco Mat', 'PER'): 1,
+  ('Conoscete', 'PER'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Notte d’Inverno', 'MISC'): 1,
+  ('Matrim Cauthon… ah…', 'MISC'): 1,
+  ('Egwene', 'PER'): 1,
+  ('Emond’s Field» disse Moiraine', 'MISC'): 1,
+  ('Rise', 'ORG'): 1,
+  ('Tieni', 'PER'): 1,
+  ('Consideratela', 'PER'): 1,
+  ('cinguettò Ewin', 'PER'): 1,
+  ('Lady… voglio dire', 'MISC'): 1,
+  ('Emond’s Field?', 'MISC'): 1,
+  ('Raccolgo 
+antichi', 'MISC'): 1,
+  ('Resoconti?» disse', 'MISC'): 1,
+  ('Ruota del Tempo» disse Moiraine', 'LOC'): 1,
+  ('Grande Disegno', 'MISC'): 1,
+  ('Ruota', 'LOC'): 1,
+  ('Disegno', 'MISC'): 1,
+  ('Epoca', 'PER'): 1,
+  ('Parve soppesarli', 'MISC'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Quello era Lan» disse Ewin', 'MISC'): 1,
+  ('Scommetto', 'PER'): 1,
+  ('Custode', 'LOC'): 1,
+  ('«I Custodi', 'PER'): 1,
+  ('Grande 
+Macchia', 'LOC'): 1,
+  ('Trolloc', 'ORG'): 1,
+  ('Custode', 'PER'): 1,
+  ('Hai visto oro e gemme', 'MISC'): 1,
+  ('Abbiamo Trolloc', 'PER'): 1,
+  ('Dicono che la locanda', 'MISC'): 1,
+  ('Mille anni di pecore» replicò', 'MISC'): 1,
+  ('Vere pesare le monete', 'MISC'): 1,
+  ('Non so» rispose Mat', 'MISC'): 1,
+  ('Vedrai» rispose', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.9777333333333332,
+    'early_appearance': True,
+    'positions': [34, 744, 2196, 2429, 2633, 2967, 3560, 3861, 4308, 5161, 5593, 6095, 6767, 6923, 7218, 8022, 8189, 8829, 9671, 9922, 10574, 10633, 11169, 11241, 11883, 12463, 12734, 13496, 13892, 13976, 14964, 15119, 15527, 16004, 16249, 16361, 16546, 17149, 17285, 18080, 18262, 18398, 19552, 19692, 19940, 20318, 20557, 20950, 21041, 21162, 21805, 22085, 22687, 23280, 23923, 24224, 25033, 25282, 25802, 26014, 26177, 26560, 26726, 26815, 26883, 27081]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9740166666666666,
+    'early_appearance': True,
+    'positions': [41, 2256, 2297, 2580, 4258, 5269, 5631, 6361, 6469, 6845, 7443, 7731, 8016, 8217, 8322, 8972, 9429, 10525, 11248, 12248, 12478, 13759, 13826, 14042, 15094, 15614, 16011, 16434, 16849, 18644, 19561, 19628, 19799, 19923, 20509, 22264, 24506, 24853, 25131, 25757, 25833, 25896, 26235, 26500, 26807]
+  },
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9740166666666666,
+    'early_appearance': True,
+    'positions': [367, 1358, 3537, 6565]
+  },
+  'Field': {
+    'category': 'paese',
+    'confidence': 0.2527117431163788,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9740166666666666,
+    'early_appearance': True,
+    'positions': [1484]
+  },
+  'Festa': {
+    'category': 'paese',
+    'confidence': 0.2824993133544922,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.9703333333333333,
+    'early_appearance': True,
+    'positions': [737, 14402]
+  },
+  'Bran': {
+    'category': 'paese',
+    'confidence': 0.27615973353385925,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9703333333333333,
+    'early_appearance': True,
+    'positions': [804, 1141, 1351, 4946, 12970, 25528]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 5,
+    'priority_score': 0.7592833333333333,
+    'early_appearance': False,
+    'positions': [2886, 4108, 10274, 11473, 19124]
+  },
+  'Parco': {
+    'category': 'paese',
+    'confidence': 0.32768484950065613,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7555333333333333,
+    'early_appearance': False,
+    'positions': [14312, 16084]
+  },
+  'Hu': {
+    'category': 'paese',
+    'confidence': 0.2185426652431488,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [13676]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [11049, 19103]
+  },
+  'Consiglio': {
+    'category': 'paese',
+    'confidence': 0.3156205713748932,
+    'spacy_label': 'ORG',
+    'count': 2,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [12041, 13434]
+  },
+  'Pensate': {
+    'category': 'paese',
+    'confidence': 0.22614043951034546,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [25213, 26383]
+  },
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.3036888539791107,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [6020]
+  },
+  'Sembrava': {
+    'category': 'paese',
+    'confidence': 0.20687146484851837,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [10771]
+  },
+  'Vieni': {
+    'category': 'paese',
+    'confidence': 0.2779832184314728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [12456]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [18925]
+  },
+  'Tieni': {
+    'category': 'paese',
+    'confidence': 0.20174027979373932,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [20298]
+  },
+  'Consideratela': {
+    'category': 'paese',
+    'confidence': 0.15776404738426208,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [20638]
+  },
+  'Emond’s Field?': {
+    'category': 'strada',
+    'confidence': 0.10860291123390198,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [21097]
+  },
+  'Scommetto': {
+    'category': 'paese',
+    'confidence': 0.26286762952804565,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [24447]
+  },
+  'Vere': {
+    'category': 'non_luogo',
+    'confidence': 0.30270180106163025,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.24818333333333334,
+    'early_appearance': True,
+    'positions': [111, 2720, 3128, 3459, 12978]
+  },
+  'Forestieri': {
+    'category': 'non_luogo',
+    'confidence': 0.21198002994060516,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.24075,
+    'early_appearance': True,
+    'positions': [5, 10562, 27412]
+  },
+  'Cenn': {
+    'category': 'non_luogo',
+    'confidence': 0.29010117053985596,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23331666666666667,
+    'early_appearance': True,
+    'positions': [889, 11944, 13258]
+  },
+  'Consiglio del Villaggio': {
+    'category': 'non_luogo',
+    'confidence': 0.13690458238124847,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23331666666666667,
+    'early_appearance': True,
+    'positions': [864, 1391]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [4927, 10037, 17374, 21356, 21916, 22113, 22239, 24880, 25712]
+  },
+  'Comare': {
+    'category': 'non_luogo',
+    'confidence': 0.2761378884315491,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [3118, 3449]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [10382, 21465]
+  },
+  'Ponte Carraio': {
+    'category': 'non_luogo',
+    'confidence': 0.09269462525844574,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [23103, 27043]
+  },
+  'Luhhan': {
+    'category': 'non_luogo',
+    'confidence': 0.18656505644321442,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [5238, 5552, 5855, 6084, 7854, 7872]
+  },
+  'Tornati': {
+    'category': 'non_luogo',
+    'confidence': 0.25742536783218384,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [6953]
+  },
+  'Sorpresi': {
+    'category': 'non_luogo',
+    'confidence': 0.25343844294548035,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [15994]
+  },
+  'Montagne di Nebbia': {
+    'category': 'non_luogo',
+    'confidence': 0.13110803067684174,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [16123]
+  },
+  'Westwood': {
+    'category': 'non_luogo',
+    'confidence': 0.16402994096279144,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [16170]
+  },
+  'Cerchia delle Donne': {
+    'category': 'non_luogo',
+    'confidence': 0.1874423325061798,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [17430]
+  },
+  'Ruota del Tempo': {
+    'category': 'non_luogo',
+    'confidence': 0.11771215498447418,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [18204]
+  },
+  'Ruota del Tempo» disse Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.14794278144836426,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [22321]
+  },
+  'Ruota': {
+    'category': 'non_luogo',
+    'confidence': 0.15005111694335938,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [22577]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [18878, 19531, 20932, 21681, 22903, 24153]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [24470, 24773]
+  },
+  'Grande 
+Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.14952529966831207,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [24673]
+  },
+}"
+Main Location,"{
+  'name': 'Rand',
+  'category': 'paese',
+  'spacy_label': 'LOC',
+  'confidence': 0.32787010073661804,
+  'count': 2,
+  'priority_score': 0.9777333333333332,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Mat',
+  'count': 8,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.8230380952380953,
+}"
+Emotions,"{'emotion_counts': {'joy': 42, 'sadness': 44, 'fear': 2, 'anger': 8}, 'sentiment_counts': {'positive': 45, 'negative': 51}, 'emotion_percentages': {'joy': 43.75, 'sadness': 45.83333333333333, 'fear': 2.083333333333333, 'anger': 8.333333333333332}, 'sentiment_percentages': {'positive': 46.875, 'negative': 53.125}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.2972912788391113, 'Riconoscimento entità con spaCy': 0.003000497817993164, 'Analisi emozioni': 31.877029180526733, 'Classificazione delle location': 41.10764837265015, 'Tempo totale': 74.295969247818}"
+Original Text Extract,"2 
+ 
+Forestieri 
+ 
+ 
+ 
+ 
+ 
+Quando Rand e Mat, con i primi due barili, attraversarono la sala comune, mastro al’Vere riempiva 
+due boccali della sua miglior birra scura, spillandola da una delle botti allineate lungo la parete. 
+Scratch, il fulvo gatto della locanda, se ne stava accucciato sopra la botte, con gli occhi chiusi e la coda 
+raccolta intorno alle zampe. Tam si era accomodato di fronte al grande camino di pietra e pressava nel 
+fornello della pipa il tabacco preso dal barattolo che il locandiere teneva sempre sulla mensola. Il 
+camino, alto quasi quanto una persona, occupava metà parete dell’ampia sala quadrata; il fuoco 
+scoppiettante teneva a bada il freddo dell’esterno.  
+A quell’ora dell’indaffarata vigilia della Festa, Rand si aspettava di trovare vuota la sala comune, a 
+parte Bran, suo padre e il gatto; invece altri quattro membri del Consiglio del Villaggio, Cenn 
+compreso, sedevano sulle seggiole dall’alta spalliera poste davanti al fuoco, con in mano un boccale e 
+la testa avvolta dal fumo grigiazzurro delle pipe. Una volta tanto, nessun tavoliere per il gioco dei 
+sassolini era in funzione e i libri di Bran riposavano sullo scaffale di fronte al camino. I presenti non 
+parlavano nemmeno, si limitavano a scrutare in silenzio la birra e a battere sui denti il cannello della 
+pipa; con impazienza, in attesa che Bran e Tam si unissero a loro.  
+Per il Consiglio del Villaggio, le preoccupazioni non erano rare, in quei giorni, almeno a Emond’s 
+Field, e quasi certamente anche a Watch Hill o a Deven Ride. O perfino a Taren Ferry, anche se 
+nessuno sapeva che cosa passasse realmente per la testa della gente di quel paese.  
+Solo due degli uomini davanti al fuoco, Haral Luhhan il fabbro e Jon Thane il mugnaio, si 
+degnarono di dare un’occhiata ai ragazzi.  
+Mastro Luhhan, però, diede più d’una occhiata. Il fabbro aveva braccia grosse come cosce, con 
+muscoli in rilievo, e portava ancora il grembiule di cuoio, come se avesse appena lasciato la fucina per 
+venire alla riunione.  
+Guardò i due ragazzi e corrugò la fronte, poi si raddrizzò sulla sedia e rivolse studiatamente 
+l’attenzione a pressare il tabacco nel fornello della pipa.  
+Incuriosito, Rand rallentò il passo; trattenne a stento un grido, quando Mat gli rifilò un calcio alla 
+caviglia. Mat accennò con insistenza al vano della porta in fondo alla sala comune e si mosse senza 
+aspettare l’amico.  
+Zoppicando un poco, Rand lo seguì.  
+«Cosa t’è saltato in mente?» protestò, nel corridoio che portava alla cucina. «A momenti mi rompevi 
+la…»  
+«Il vecchio Luhhan» disse Mat, scrutando la sala comune, da sopra la spalla di Rand. «Sospetta, 
+credo, che sono stato io a…» S’interruppe di colpo, perché comare al’Vere era uscita dalla cucina 
+portandosi dietro una scia profumata di pane appena sfornato.  
+Sul vassoio aveva alcune croccanti pagnotte per cui era famosa in tutto Emond’s Field, oltre a piatti 
+di sottaceti e di formaggio. Alla vista del cibo, Rand ricordò di colpo d’avere mangiato solo un tozzo di 
+pane al mattino, prima di lasciare la fattoria. Lo stomaco emise un brontolio imbarazzante.  
+Comare al’Vere, una donna snella con la folta treccia già quasi grigia che le cadeva sulla spalla, 
+sorrise con aria materna a tutt’e due i ragazzi. «In cucina ce n’è ancora, se avete fame, e non ho mai 
+
+conosciuto ragazzi della vostra età che non fossero sempre affamati. Se preferite, stamane ho in forno 
+dolcetti al miele.»  
+Comare al’Vere era una delle poche donne sposate che non giocava mai a trovare moglie a Tam. Nei 
+confronti di Rand, il suo atteggiamento materno arrivava a sorrisi calorosi e a un rapido spuntino ogni 
+volta che il ragazzo veniva alla locanda, ma trattava allo stesso modo ogni ragazzo della zona. Forse di 
+tanto in tanto lo guardava come se volesse fare di più, ma almeno non andava al di là degli sguardi e 
+Rand gliene era grato.  
+Senza attendere risposta, la donna entrò nella sala comune. Subito si udì il rumore di sedie smosse, 
+mentre gli uomini si alzavano e si complimentavano per il profumo del pane. Lei era di gran lunga la 
+migliore cuoca di Emond’s Field e ogni uomo nel raggio di varie miglia non si lasciava sfuggire 
+l’occasione di mettersi alla sua tavola.  
+«Pasticcini al miele» disse Mat, con uno schiocco di labbra.  
+«Dopo» replicò Rand, con fermezza. «Altrimenti non finiremo più.»  
+Sopra la scala della cantina era appeso un lume, proprio accanto alla porta della cucina; un altro 
+formava una pozza luminosa nella stanza dalle pareti di pietra sotto la locanda, lasciando solo un poco 
+d’ombra negli angoli più lontani. Rastrelliere di legno lungo le pareti e sul pavimento contenevano fusti 
+d’acquavite e di sidro e botti di birra e di vino, alcune fornite di spina. Su parecchie botti di vino Bran 
+al’Vere aveva segnato col gesso l’anno d’acquisto, il fornitore e la città di produzione; ma birra e 
+acquavite erano prodotte dai contadini dei Fiumi Gemelli o da Bran stesso. A volte i venditori 
+ambulanti e perfino "
+Token Count,5978

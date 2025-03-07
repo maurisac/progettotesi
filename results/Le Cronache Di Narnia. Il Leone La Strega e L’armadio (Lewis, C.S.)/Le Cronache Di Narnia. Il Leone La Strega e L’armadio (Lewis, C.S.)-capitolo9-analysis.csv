@@ -1,0 +1,214 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:19
+Entities,"{
+  ('Edmund', 'PER'): 34,
+  ('Aslan', 'PER'): 5,
+  ('Strega Bianca', 'PER'): 4,
+  ('Castoro', 'PER'): 3,
+  ('Peter', 'LOC'): 3,
+  ('Maestà', 'PER'): 3,
+  ('Adamo', 'PER'): 2,
+  ('Narnia', 'LOC'): 2,
+  ('Maugrim', 'PER'): 2,
+  ('Strega Bianca', 'MISC'): 1,
+  ('Peter', 'PER'): 1,
+  ('Tavola di Pietra', 'LOC'): 1,
+  ('Cer-', 'MISC'): 1,
+  ('Peter con la gentilezza', 'MISC'): 1,
+  ('Comun-', 'MISC'): 1,
+  ('orribile Aslan', 'PER'): 1,
+  ('Appena', 'LOC'): 1,
+  ('Calava', 'LOC'): 1,
+  ('luna', 'LOC'): 1,
+  ('Camminò', 'LOC'): 1,
+  ('Edmund', 'MISC'): 1,
+  ('A-', 'MISC'): 1,
+  ('Puah', 'PER'): 1,
+  ('Sua Maestà', 'PER'): 1,
+  ('Riferirò', 'PER'): 1,
+  ('Sua Maestà', 'MISC'): 1,
+  ('Polizia segreta', 'ORG'): 1,
+  ('lupaccio', 'PER'): 1,
+  ('Lucy', 'PER'): 1,
+  ('Maestà', 'MISC'): 1,
+  ('Prepara', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 4,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [198, 1202, 2113, 4946, 11211]
+  },
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.75925,
+    'early_appearance': False,
+    'positions': [3355, 10191]
+  },
+  'Polizia segreta': {
+    'category': 'paese',
+    'confidence': 0.14668454229831696,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [10340]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.246325,
+    'early_appearance': True,
+    'positions': [438, 1559, 3798, 4758]
+  },
+  'Tavola di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [1016]
+  },
+  'Appena': {
+    'category': 'non_luogo',
+    'confidence': 0.2929408848285675,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [2161]
+  },
+  'Calava': {
+    'category': 'non_luogo',
+    'confidence': 0.33301448822021484,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [2525]
+  },
+  'luna': {
+    'category': 'non_luogo',
+    'confidence': 0.26536130905151367,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [4979]
+  },
+  'Camminò': {
+    'category': 'non_luogo',
+    'confidence': 0.34127163887023926,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [5646]
+  },
+}"
+Main Location,"{
+  'name': 'Strega Bianca',
+  'category': 'carcere magico',
+  'spacy_label': 'PER',
+  'confidence': 0.10352206230163574,
+  'count': 4,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'carcere magico',
+}"
+Main Character,"{
+  'name': 'Edmund',
+  'count': 34,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'fear': 6, 'sadness': 44, 'anger': 18, 'joy': 24}, 'sentiment_counts': {'negative': 64, 'positive': 28}, 'emotion_percentages': {'fear': 6.521739130434782, 'sadness': 47.82608695652174, 'anger': 19.565217391304348, 'joy': 26.08695652173913}, 'sentiment_percentages': {'negative': 69.56521739130434, 'positive': 30.434782608695656}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.009225606918335, 'Riconoscimento entità con spaCy': 0.0, 'Analisi emozioni': 14.595279216766357, 'Classificazione delle location': 13.878641605377197, 'Tempo totale': 29.48514485359192}"
+Original Text Extract,"9
+Nel castello della strega
+Ora, naturalmente, vorrete sapere cos'era accaduto a Edmund. Il ragazzo
+aveva mangiato come gli altri ma senza provarci gusto, perché continuava a
+pensare ai dolci della Strega Bianca: e non c'è niente che rovini il sapore di
+un buon pranzetto quanto il ricordo del cibo magico. Aveva ascoltato i
+discorsi degli altri senza aprire bocca; era imbronciato perché gli sembrava
+che nessuno si curasse di lui e che Peter lo trattasse con freddezza. Non era
+vero, naturalmente, ma a lui pareva così. Quando aveva sentito il nome di
+Aslan, non aveva provato la sensazione di gioia profonda e misteriosa del-le
+sorelle e del fratello, ma una specie di orribile angoscia.
+Mentre il signor Castoro ripeteva i versi sui figli di Adamo e del suo co-
+stato, Edmund si era spostato pian piano verso la tenda che copriva la porta
+d'ingresso, l'aveva scostata un poco e subito lasciata cadere dietro di sé. In
+quel momento, il vecchio signor Castoro stava parlando dell'urgenza di
+raggiungere Aslan alla Tavola di Pietra. Edmund aveva girato lentamente la
+maniglia della porta, aveva aperto senza far rumore ed era uscito richiu-
+dendosi la porta alle spalle. Così non aveva sentito che la Strega Bianca non
+era un essere umano, ma una creatura diabolica che apparteneva alla razza
+dei giganti malvagi.
+Edmund non era così cattivo da desiderare che suo fratello e le sorelle
+fossero trasformati in statue di pietra: voleva una buona razione dei magici
+dolci, aspirava a diventare principe e forse re. Soprattutto, voleva prendersi
+la rivincita su Peter che lo giudicava un ragazzino stupido e bugiardo. Cer-
+to la regina non avrebbe trattato Peter con la gentilezza che aveva avuto per
+lui, ma non era detto che sarebbe arrivata a fargli del male.
+""Quello che dicono di lei non dev'essere vero"" pensava Edmund. ""Tutte
+calunnie, perché la odiano. Forse è proprio la regina legittima... Comun-
+que, meglio una donna che l'orribile Aslan.""
+Edmund rimuginava tra sé pensieri ai quali fingeva di credere perché gli
+faceva comodo una giustificazione. Ma in fondo al cuore qualcosa diceva
+anche a lui che la Strega Bianca era un essere malvagio e crudele.
+Appena fu all'aperto si accorse che nevicava e aveva dimenticato di
+
+prendere la pelliccia, ma anche se sentiva un gran freddo non era il caso
+di rientrare. Alzò il bavero e si avviò lungo la diga dei castori. Per fortuna il
+ghiaccio era coperto da uno strato di neve fresca, così Edmund raggiunse la
+riva del fiume senza scivolare, ma lì le cose andarono peggio.
+Calava la sera (d'inverno, si sa, le giornate sono corte e in casa dei casto-
+ri si era pranzato alle tre passate) ed Edmund, con i fiocchi di neve che gli
+turbinavano intorno, non vedeva a un palmo dal naso. Inoltre, in quel tratto
+di bosco non c'erano sentieri. In compenso c'erano tronchi d'albero caduti e
+sepolti nella neve, sassi e macigni grossi come rocce e pozzanghere gelate
+che lo facevano inciampare di continuo. La corteccia ghiacciata degli albe-
+ri e la ruvida pietra gli graffiavano dolorosamente le caviglie.
+Edmund era pieno di lividi e graffi, bagnato fradicio e con un terribile
+senso di solitudine e sconforto. Il buio si faceva più fitto e credo che sa-
+rebbe tornato volentieri a far pace con i fratelli, rinunciando ai suoi cattivi
+propositi, se non l'avesse sfiorato un certo pensiero: ""Quando sarò re di
+Narnia, la prima cosa che farò sarà ordinare che costruiscano strade più
+decenti."" In questo modo si consolò e tirò avanti.
+Via nella neve e nell'oscurità crescente, fantasticando sul castello che gli
+sarebbe piaciuto e su quante automobili avrebbe avuto a disposizione, su un
+treno speciale tutto per lui e un cinema privato. Era arrivato alla pro-
+mulgazione della legge contro i castori - e al provvedimento speciale che
+avrebbe impedito a Peter di rubargli il trono - quando improvvisamente il
+tempo cambiò. Smise di nevicare, si alzò un gran vento che spazzò le nu-
+vole e in cielo comparve la luna. Era una bella luna piena che, brillando sul
+candore della neve, illuminava il bosco come se fosse giorno. Solo le om-
+bre nere confondevano ancora la vista.
+Se non fosse comparsa la luna, forse Edmund non avrebbe mai trovato la
+strada giusta. Allora vide il piccolo fiume che aveva già notato quando si
+erano diretti alla casa dei castori (lo ricordate?) e che confluiva in quello più
+grande. Lo raggiunse alla svelta e cominciò a seguirne il corso, arri-vando
+in una piccola valle.
+Era più rocciosa di quella che aveva appena lasciato e così piena di arbu-
+sti che Edmund finì per bagnarsi tutto: infatti, per aprirsi la strada doveva
+spostare i rami da cui cadevano grossi blocchi di neve. La neve si infilava
+dentro il colletto e sotto la camicia, mentre Edmund sentiva crescere il suo
+odio per Peter, come se la colpa fosse sua. Alla fine arrivò a un punto in cui
+
+la valle si apriva su una piana fiancheggiata da due colline. Là, dall'al-tra
+parte del fiume, apparve la casa della Strega Bianca inargentata dalla
+
+luna.
+Veramente, più "
+Token Count,2634

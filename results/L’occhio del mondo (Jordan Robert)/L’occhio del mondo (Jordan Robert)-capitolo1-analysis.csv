@@ -1,0 +1,876 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:23:48
+Entities,"{
+  ('Rand', 'MISC'): 52,
+  ('Tam', 'PER'): 52,
+  ('Mat', 'MISC'): 14,
+  ('Bel Tine', 'PER'): 13,
+  ('Cenn', 'PER'): 10,
+  ('Fiumi Gemelli', 'LOC'): 9,
+  ('Bela', 'PER'): 9,
+  ('Emond’s Field', 'MISC'): 9,
+  ('Bran', 'LOC'): 9,
+  ('Parco', 'LOC'): 9,
+  ('Bran', 'PER'): 9,
+  ('Wit', 'PER'): 8,
+  ('Westwood', 'LOC'): 7,
+  ('Thor', 'PER'): 7,
+  ('Tam', 'LOC'): 6,
+  ('Sapiente', 'MISC'): 6,
+  ('Epoca', 'PER'): 5,
+  ('Luce', 'LOC'): 5,
+  ('Nynaeve', 'PER'): 5,
+  ('Fonte di Vino', 'LOC'): 4,
+  ('Egwene', 'PER'): 4,
+  ('Taren Ferry', 'PER'): 4,
+  ('Cenn', 'LOC'): 4,
+  ('Deven Ride', 'MISC'): 3,
+  ('Wit Congar', 'PER'): 3,
+  ('Coplin', 'MISC'): 3,
+  ('Vere', 'LOC'): 3,
+  ('Reietti', 'MISC'): 3,
+  ('Dav', 'LOC'): 3,
+  ('Ruota del Tempo', 'LOC'): 2,
+  ('Montagne di Nebbia', 'LOC'): 2,
+  ('Colline Sabbiose', 'LOC'): 2,
+  ('Festa', 'MISC'): 2,
+  ('Odio', 'MISC'): 2,
+  ('Dov’', 'MISC'): 2,
+  ('Riverwood', 'LOC'): 2,
+  ('Mat Cauthon', 'PER'): 2,
+  ('Cenn Buie', 'PER'): 2,
+  ('Watch Hill', 'PER'): 2,
+  ('Meara', 'PER'): 2,
+  ('Cerchia delle Donne', 'LOC'): 2,
+  ('Daise', 'LOC'): 2,
+  ('Albero', 'LOC'): 2,
+  ('Baerlon', 'LOC'): 2,
+  ('Cenn Buie', 'LOC'): 2,
+  ('Consiglio', 'ORG'): 2,
+  ('Creatore', 'PER'): 2,
+  ('Vere', 'MISC'): 2,
+  ('Mat', 'PER'): 2,
+  ('Epoche', 'LOC'): 1,
+  ('Epoca Terza', 'PER'): 1,
+  ('Frattura del Mondo', 'LOC'): 1,
+  ('Bosco Occidentale', 'LOC'): 1,
+  ('Strada della Cava', 'LOC'): 1,
+  ('Grovigli di rovi dell’anno', 'MISC'): 1,
+  ('lappole', 'MISC'): 1,
+  ('Qua', 'PER'): 1,
+  ('Tam al’', 'PER'): 1,
+  ('Giorno del Sole', 'MISC'): 1,
+  ('Winespring', 'PER'): 1,
+  ('Irritato', 'LOC'): 1,
+  ('Sorpresa', 'MISC'): 1,
+  ('Un cavaliere» disse', 'MISC'): 1,
+  ('guardingo', 'LOC'): 1,
+  ('Là', 'PER'): 1,
+  ('Incredulo', 'LOC'): 1,
+  ('Bosco del Fiume', 'LOC'): 1,
+  ('Colline', 'LOC'): 1,
+  ('Sabbiose', 'LOC'): 1,
+  ('Perrin Aybara', 'PER'): 1,
+  ('Watch Hill', 'MISC'): 1,
+  ('No, padre', 'MISC'): 1,
+  ('Egwene', 'LOC'): 1,
+  ('Montagne di 
+Nebbia', 'LOC'): 1,
+  ('brontolavano', 'PER'): 1,
+  ('Congar', 'MISC'): 1,
+  ('Vere questa roba', 'MISC'): 1,
+  ('Buie', 'PER'): 1,
+  ('Congar', 'PER'): 1,
+  ('Consiglio del Villaggio', 'LOC'): 1,
+  ('Daise Congar', 'PER'): 1,
+  ('«Prova', 'PER'): 1,
+  ('Cerchia', 'LOC'): 1,
+  ('Daise', 'ORG'): 1,
+  ('Ciao', 'LOC'): 1,
+  ('Rand', 'LOC'): 1,
+  ('Thane', 'PER'): 1,
+  ('Waterwood', 'LOC'): 1,
+  ('Bosco d’Acqua', 'LOC'): 1,
+  ('Ponte Carraio', 'LOC'): 1,
+  ('Strada Settentrionale', 'LOC'): 1,
+  ('Strada Antica', 'LOC'): 1,
+  ('Emond’s Field', 'LOC'): 1,
+  ('Albero di 
+Primavera', 'MISC'): 1,
+  ('Ponte 
+Carraio', 'LOC'): 1,
+  ('Brandelwyn al’Vere, padrone della locanda', 'MISC'): 1,
+  ('Esmond’s Field', 'PER'): 1,
+  ('locanda', 'LOC'): 1,
+  ('Siamo', 'PER'): 1,
+  ('Bran al’', 'MISC'): 1,
+  ('Notte d’Inverno', 'MISC'): 1,
+  ('Rand “la Notte', 'MISC'): 1,
+  ('Luce m’illumini', 'MISC'): 1,
+  ('Bene', 'MISC'): 1,
+  ('Vere» rispose Rand', 'MISC'): 1,
+  ('Donel', 'PER'): 1,
+  ('Scosse', 'PER'): 1,
+  ('Brutto presagio', 'MISC'): 1,
+  ('Fiumi', 'LOC'): 1,
+  ('Gemelli', 'LOC'): 1,
+  ('Consiglio del Villaggio', 'ORG'): 1,
+  ('Ruota gira', 'LOC'): 1,
+  ('La Luce', 'MISC'): 1,
+  ('«Ho', 'PER'): 1,
+  ('Luce mi fulmini', 'MISC'): 1,
+  ('Credevo', 'MISC'): 1,
+  ('Rabbrividì', 'LOC'): 1,
+  ('Baruffe a suon di pugni', 'MISC'): 1,
+  ('Non so se mi odiava', 'MISC'): 1,
+  ('Sangue', 'MISC'): 1,
+  ('Tenebroso', 'PER'): 1,
+  ('Shayol Ghul', 'PER'): 1,
+  ('Grande Macchia', 'LOC'): 1,
+  ('Creazione', 'MISC'): 1,
+  ('Pastore della Notte', 'MISC'): 1,
+  ('Drago', 'LOC'): 1,
+  ('Mia', 'MISC'): 1,
+  ('Ishamael', 'PER'): 1,
+  ('Aginor', 'MISC'): 1,
+  ('Uomo Ombra', 'PER'): 1,
+  ('Mio', 'PER'): 1,
+  ('Elam Dowtry', 'LOC'): 1,
+  ('Elam', 'LOC'): 1,
+  ('Rand', 'PER'): 1,
+  ('Ciao', 'MISC'): 1,
+  ('Matrim»', 'MISC'): 1,
+  ('Sponda', 'LOC'): 1,
+  ('«Vedo', 'PER'): 1,
+  ('Bravo', 'MISC'): 1,
+  ('Buon giorno', 'MISC'): 1,
+  ('Mastro 
+al’Vere… mastro Buie', 'PER'): 1,
+  ('Menestrello', 'LOC'): 1,
+  ('Nero!', 'MISC'): 1,
+  ('Vedi', 'PER'): 1,
+  ('Pensala', 'LOC'): 1,
+  ('Vere mi prepara un po’ di vino caldo', 'MISC'): 1,
+  ('Perfino Bel Tine', 'PER'): 1,
+  ('«Voglio', 'PER'): 1,
+  ('Matrim', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Consiglio!', 'ORG'): 1,
+}"
+Potential Locations,"{
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.9851666666666666,
+    'early_appearance': True,
+    'positions': [1683, 3075, 3730, 4040, 4223, 5011, 5303, 5399, 5629, 5699, 6469, 7742, 7896, 8545, 9033, 9146, 10295, 10575, 11065, 11337, 11457, 11670, 11874, 14785, 15041, 15985, 16434, 17017, 17317, 18185, 18391, 18417, 18528, 18783, 18836, 19315, 20333, 22525, 25476, 25610, 26712, 26953, 27135, 27696, 27973, 28805, 29139, 29662, 34535, 34714, 35097, 35528, 35885, 37073, 37767, 39313, 39453, 39737]
+  },
+  'Thor': {
+    'category': 'paese',
+    'confidence': 0.2889701724052429,
+    'spacy_label': 'PER',
+    'count': 7,
+    'priority_score': 0.9802444444444445,
+    'early_appearance': True,
+    'positions': [1118, 4565, 16923, 28859, 34959, 37854, 38548]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9653777777777779,
+    'early_appearance': True,
+    'positions': [1110, 1230, 1657, 2148, 2949, 4645, 5047, 5635, 5850, 6218, 6779, 6962, 7765, 7817, 8195, 8918, 10321, 10658, 11519, 11734, 11951, 12299, 14859, 18423, 18739, 19837, 19911, 20194, 22633, 26827, 29448, 29494, 29554, 29943, 30427, 30706, 31075, 31686, 32342, 32605, 33386, 33994, 34410, 34828, 35367, 35415, 36428, 36598, 36893, 39119, 39643, 39777, 40165, 40580]
+  },
+  'Qua': {
+    'category': 'paese',
+    'confidence': 0.21664901077747345,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9653777777777779,
+    'early_appearance': True,
+    'positions': [2599]
+  },
+  'Parco': {
+    'category': 'paese',
+    'confidence': 0.32768484950065613,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.7704,
+    'early_appearance': False,
+    'positions': [20385, 20501, 20889, 21424, 22018, 22135, 24063, 24394, 29892]
+  },
+  'Bran': {
+    'category': 'paese',
+    'confidence': 0.27615973353385925,
+    'spacy_label': 'PER',
+    'count': 9,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [16397, 25266, 26290, 26920, 27121, 27193, 27704, 28429, 29144, 29667, 34540, 35827, 36737, 37084, 38121, 38656, 39248, 39743]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.7604888888888889,
+    'early_appearance': False,
+    'positions': [15609, 15669, 18205, 32004, 35004]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7505777777777778,
+    'early_appearance': False,
+    'positions': [4584, 9590, 9889, 11381, 12405, 13156, 16999, 18555, 21809, 35662]
+  },
+  'Drago': {
+    'category': 'paese',
+    'confidence': 0.34736984968185425,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7505777777777778,
+    'early_appearance': False,
+    'positions': [32283]
+  },
+  'Festa': {
+    'category': 'paese',
+    'confidence': 0.2824993133544922,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [5815, 36279]
+  },
+  'Odio': {
+    'category': 'paese',
+    'confidence': 0.38520514965057373,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [7377, 7401]
+  },
+  'Consiglio': {
+    'category': 'paese',
+    'confidence': 0.3156205713748932,
+    'spacy_label': 'ORG',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [29225, 39302]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [30028, 30217, 30563, 32710, 32949, 33739, 34042, 34311, 34891, 35328, 36717, 37492, 37903, 39892, 40471, 40618]
+  },
+  'Creatore': {
+    'category': 'paese',
+    'confidence': 0.3074972331523895,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [31895, 31971]
+  },
+  'Là': {
+    'category': 'paese',
+    'confidence': 0.22403356432914734,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [7966]
+  },
+  '«Prova': {
+    'category': 'paese',
+    'confidence': 0.18524236977100372,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [17903]
+  },
+  'Esmond’s Field': {
+    'category': 'strada',
+    'confidence': 0.1015448197722435,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [24704]
+  },
+  'Siamo': {
+    'category': 'paese',
+    'confidence': 0.230818971991539,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [25450]
+  },
+  'Credevo': {
+    'category': 'paese',
+    'confidence': 0.2117597460746765,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [30662]
+  },
+  'Sangue': {
+    'category': 'paese',
+    'confidence': 0.39529845118522644,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [31352]
+  },
+  'Mia': {
+    'category': 'paese',
+    'confidence': 0.20890355110168457,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [32376]
+  },
+  'Mio': {
+    'category': 'paese',
+    'confidence': 0.22315362095832825,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [32876]
+  },
+  'Vedi': {
+    'category': 'paese',
+    'confidence': 0.1956489384174347,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [37067]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [778, 3320, 13280, 15771, 19896, 20049, 23106, 30965, 32146]
+  },
+  'Westwood': {
+    'category': 'non_luogo',
+    'confidence': 0.16402994096279144,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.24694444444444444,
+    'early_appearance': True,
+    'positions': [818, 10097, 12463, 12936, 13493, 15031, 18727]
+  },
+  'Ruota del Tempo': {
+    'category': 'non_luogo',
+    'confidence': 0.11771215498447418,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23455555555555554,
+    'early_appearance': True,
+    'positions': [38, 461]
+  },
+  'Montagne di Nebbia': {
+    'category': 'non_luogo',
+    'confidence': 0.13110803067684174,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23455555555555554,
+    'early_appearance': True,
+    'positions': [373, 9783]
+  },
+  'Colline Sabbiose': {
+    'category': 'non_luogo',
+    'confidence': 0.1114325225353241,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23455555555555554,
+    'early_appearance': True,
+    'positions': [650, 13041]
+  },
+  'Epoche': {
+    'category': 'non_luogo',
+    'confidence': 0.30357566475868225,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [64]
+  },
+  'Frattura del Mondo': {
+    'category': 'non_luogo',
+    'confidence': 0.13700760900974274,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [693]
+  },
+  'Bosco Occidentale': {
+    'category': 'non_luogo',
+    'confidence': 0.14054374396800995,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [828]
+  },
+  'Strada della Cava': {
+    'category': 'non_luogo',
+    'confidence': 0.10820041596889496,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [936]
+  },
+  'Fonte di Vino': {
+    'category': 'non_luogo',
+    'confidence': 0.1638592928647995,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.01731111111111111,
+    'early_appearance': False,
+    'positions': [5455, 20942, 22157, 24341]
+  },
+  'Cenn': {
+    'category': 'non_luogo',
+    'confidence': 0.29010117053985596,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.01731111111111111,
+    'early_appearance': False,
+    'positions': [28132, 28437, 28785, 29236, 29674, 32366, 34547, 34652, 35793, 37331, 37502, 37753, 38343, 38650]
+  },
+  'Vere': {
+    'category': 'non_luogo',
+    'confidence': 0.30270180106163025,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [25274, 25689, 33804, 35266, 36028]
+  },
+  'Dav': {
+    'category': 'non_luogo',
+    'confidence': 0.34578371047973633,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [33045, 33189, 39832]
+  },
+  'Riverwood': {
+    'category': 'non_luogo',
+    'confidence': 0.163945734500885,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [9514, 12786]
+  },
+  'Cerchia delle Donne': {
+    'category': 'non_luogo',
+    'confidence': 0.1874423325061798,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [17513, 28573]
+  },
+  'Daise': {
+    'category': 'non_luogo',
+    'confidence': 0.3212362229824066,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [18122, 18172, 18291]
+  },
+  'Albero': {
+    'category': 'non_luogo',
+    'confidence': 0.16088363528251648,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [22764, 22839]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [26215, 37278]
+  },
+  'Cenn Buie': {
+    'category': 'non_luogo',
+    'confidence': 0.3392646014690399,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [14736, 27631, 36539, 38155]
+  },
+  'Irritato': {
+    'category': 'non_luogo',
+    'confidence': 0.2016257792711258,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [6320]
+  },
+  'guardingo': {
+    'category': 'non_luogo',
+    'confidence': 0.16572465002536774,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [7952]
+  },
+  'Incredulo': {
+    'category': 'non_luogo',
+    'confidence': 0.26786938309669495,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [8061]
+  },
+  'Bosco del Fiume': {
+    'category': 'non_luogo',
+    'confidence': 0.0881076455116272,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [9528]
+  },
+  'Colline': {
+    'category': 'non_luogo',
+    'confidence': 0.17593708634376526,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [9668]
+  },
+  'Sabbiose': {
+    'category': 'non_luogo',
+    'confidence': 0.23020730912685394,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [9677]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [10647, 10994, 40057, 40267, 40629]
+  },
+  'Montagne di 
+Nebbia': {
+    'category': 'non_luogo',
+    'confidence': 0.13110803067684174,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [13081]
+  },
+  'Consiglio del Villaggio': {
+    'category': 'non_luogo',
+    'confidence': 0.13690458238124847,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [17559, 28635]
+  },
+  'Cerchia': {
+    'category': 'non_luogo',
+    'confidence': 0.19060716032981873,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [17945]
+  },
+  'Ciao': {
+    'category': 'non_luogo',
+    'confidence': 0.24230064451694489,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [18191, 34694]
+  },
+  'Waterwood': {
+    'category': 'non_luogo',
+    'confidence': 0.21882008016109467,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [21328]
+  },
+  'Bosco d’Acqua': {
+    'category': 'non_luogo',
+    'confidence': 0.07944795489311218,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [21342]
+  },
+  'Ponte Carraio': {
+    'category': 'non_luogo',
+    'confidence': 0.09269462525844574,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [21527]
+  },
+  'Strada Settentrionale': {
+    'category': 'non_luogo',
+    'confidence': 0.11917391419410706,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [21568]
+  },
+  'Strada Antica': {
+    'category': 'non_luogo',
+    'confidence': 0.10824534296989441,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [21647]
+  },
+  'Ponte 
+Carraio': {
+    'category': 'non_luogo',
+    'confidence': 0.09269462525844574,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [24420]
+  },
+  'locanda': {
+    'category': 'non_luogo',
+    'confidence': 0.0748901292681694,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [24953]
+  },
+  'Fiumi': {
+    'category': 'non_luogo',
+    'confidence': 0.18283352255821228,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [28291]
+  },
+  'Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.1344870775938034,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [28298]
+  },
+  'Ruota gira': {
+    'category': 'non_luogo',
+    'confidence': 0.13644598424434662,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [29055]
+  },
+  'Rabbrividì': {
+    'category': 'non_luogo',
+    'confidence': 0.2566819190979004,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [30816]
+  },
+  'Grande Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.14952529966831207,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [31861]
+  },
+  'Elam Dowtry': {
+    'category': 'non_luogo',
+    'confidence': 0.13633596897125244,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [33054]
+  },
+  'Elam': {
+    'category': 'non_luogo',
+    'confidence': 0.3193819522857666,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [33146]
+  },
+  'Sponda': {
+    'category': 'non_luogo',
+    'confidence': 0.25016143918037415,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [34748]
+  },
+  'Menestrello': {
+    'category': 'non_luogo',
+    'confidence': 0.3037399649620056,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [35306]
+  },
+  'Pensala': {
+    'category': 'non_luogo',
+    'confidence': 0.13611777126789093,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [37291]
+  },
+}"
+Main Location,"{
+  'name': 'Tam',
+  'category': 'paese',
+  'spacy_label': 'LOC',
+  'confidence': 0.30670830607414246,
+  'count': 6,
+  'priority_score': 0.9851666666666666,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Tam',
+  'count': 52,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 54, 'joy': 30, 'fear': 4, 'anger': 7}, 'sentiment_counts': {'negative': 62, 'positive': 33}, 'emotion_percentages': {'sadness': 56.84210526315789, 'joy': 31.57894736842105, 'fear': 4.2105263157894735, 'anger': 7.368421052631578}, 'sentiment_percentages': {'negative': 65.26315789473685, 'positive': 34.73684210526316}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.002450942993164, 'Riconoscimento entità con spaCy': 0.0029993057250976562, 'Analisi emozioni': 31.935657501220703, 'Classificazione delle location': 41.90742039680481, 'Tempo totale': 75.86303663253784}"
+Original Text Extract,"1 
+ 
+Una strada deserta 
+ 
+ 
+ 
+ 
+ 
+La Ruota del Tempo gira e le Epoche si susseguono, lasciando ricordi che divengono leggenda; la 
+leggenda sbiadisce nel mito, ma anche il mito è ormai dimenticato, quando ritorna l’Epoca che lo vide 
+nascere In un’Epoca chiamata da alcuni Epoca Terza - un’Epoca ancora a venire, un’Epoca da gran 
+tempo trascorsa - il vento si alzò nelle Montagne di Nebbia. Il vento non era l’inizio. Non c’è inizio né 
+fine, al girare della Ruota del Tempo.  
+Ma fu comunque un  inizio.  
+Nato al di sotto delle vette sempre incappucciate di nuvole da cui quelle montagne presero il nome, 
+il vento soffiò verso levante, sopra le Colline Sabbiose che un tempo, prima della Frattura del Mondo, 
+erano la riva d’un grande oceano; scese a sferzare la terra dei Fiumi Gemelli e la fitta foresta detta 
+Westwood, Bosco Occidentale, e colpì i due uomini che procedevano con carretto e cavallo lungo una 
+pista sassosa, la Strada della Cava. L’arrivo della primavera tardava ormai da un mese buono e il vento 
+era gelido, come se portasse invece la neve.  
+Le raffiche incollarono alla schiena di Rand al’Thor il mantello e gli sbatterono contro le gambe la 
+lana color terra, poi la fecero svolazzare dietro di lui. Rand rimpianse di non avere una giubba più 
+pesante o una camicia in più. Quando cercava di stringersi addosso il mantello, finiva quasi sempre per 
+farlo impigliare nella faretra appesa al fianco; e non valeva la pena cercare di tenerlo fermo con una 
+mano sola, dal momento che nell’altra reggeva l’arco, con la freccia già incoccata, pronto all’uso.  
+Una raffica particolarmente violenta gli strappò di mano il mantello.  
+Rand lanciò un’occhiata a Tam, suo padre, che camminava dall’altro lato dell’irsuta giumenta saura, 
+quasi ad assicurarsi che fosse sempre lì. Si sentì un po’ sciocco, ma era una di quelle giornate in cui si 
+ha bisogno di conforto. Il vento ululava, quando aumentava d’intensità; ma, per il resto, il silenzio 
+opprimeva il territorio. Il lieve cigolio dell’assale sembrava rumoroso, al confronto. Nella foresta non 
+c’era cinguettio d’uccelli, né squittio di scoiattoli; ma a dire il vero Rand non se li aspettava, in una 
+primavera come quella.  
+Solo quegli alberi che mantenevano foglie e aghi per tutto l’inverno mostravano un po’ di verde. 
+Grovigli di rovi dell’anno prima stendevano ragnatele marrone sugli affioramenti rocciosi. Fra le 
+erbacce, le ortiche erano quelle più numerose; le altre erano del tipo munito di lappole o di spine, 
+oppure l’assafetida che lasciava un puzzo rancido sugli stivali dell’incauto che la pestava. Qua e là 
+ampie chiazze di neve punteggiavano ancora il terreno, dove fitti gruppi d’alberi creavano zone 
+d’ombra costante. La luce non aveva forza né calore. Il pallido sole si librava al di sopra degli alberi, a 
+oriente, ma gettava una luce smorta, come mista a ombra. Era un brutto mattino, fatto per pensieri 
+spiacevoli.  
+Senza accorgersene, Rand toccò la cocca della freccia: era pronto a tendere l’arco e portarsela alla 
+guancia, con un solo movimento fluido, come Tam gli aveva insegnato. L’inverno era stato già 
+abbastanza brutto nelle fattorie, peggiore di quanto ricordassero anche i più anziani, ma senza dubbio 
+era stato anche più duro fra le montagne, visto il numero di lupi spinti nella piana tra i Fiumi Gemelli. I 
+
+lupi facevano scorrerie negli ovili e si aprivano a morsi la strada nelle stalle per assalire mucche e 
+cavalli. Anche gli orsi avevano razziato le pecore, in luoghi dove da anni non se ne vedeva uno. Era 
+diventato pericoloso stare all’aperto dopo il crepuscolo. Le persone diventavano preda con la stessa 
+frequenza delle pecore e non sempre era necessario che il sole fosse già calato.  
+Tam camminava a passo deciso dall’altro lato di Bela, la giumenta, e adoperava come bastone la 
+lancia, senza badare al vento che faceva sbattere come una bandiera il suo mantello marrone. Di tanto 
+in tanto toccava il fianco della giumenta per spronarla. Con il petto ampio e il viso aperto, in quel 
+mattino Tam era un pilastro di realtà, come una pietra in mezzo a un sogno. Le sue guance abbronzate 
+erano piene di rughe e gli restava solo una spruzzata di nero nel grigio dei capelli, ma Tam dava 
+l’impressione di solidità, come se una piena potesse inondarlo senza fargli staccare i piedi da terra. Ora, 
+impassibile, percorreva la strada. La presenza di lupi e di orsi era normale, diceva il suo atteggiamento; 
+chiunque allevasse pecore doveva tenerne conto, ma era meglio che quelle belve non provassero a 
+impedire a Tam al’Thor di arrivare a Emond’s Field.  
+Con un sobbalzo e una punta di colpevolezza Rand riprese a tenere d’occhio il suo lato di strada, 
+richiamato al dovere dal realismo del padre. Lo superava in altezza di tutta la testa, ed era anche più 
+alto di chiunque, in quel distretto; ma nel fisico gli assomigliava ben poco, tranne forse nell’ampiezza 
+delle spalle. Gli occhi grigi e la sfumatura rossastra dei capelli gli venivano dalla mad"
+Token Count,8763

@@ -1,0 +1,696 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:10:06
+Entities,"{
+  ('Harry', 'PER'): 84,
+  ('Ron', 'PER'): 46,
+  ('Hagrid', 'PER'): 16,
+  ('Natale', 'MISC'): 12,
+  ('Piton', 'PER'): 11,
+  ('Malfoy', 'PER'): 10,
+  ('Hermione', 'PER'): 8,
+  ('Flamel', 'PER'): 7,
+  ('Fred', 'PER'): 5,
+  ('George', 'PER'): 5,
+  ('Silente', 'PER'): 5,
+  ('Reparto Proibito', 'MISC'): 4,
+  ('Hogwarts', 'MISC'): 3,
+  ('Sala Grande', 'LOC'): 3,
+  ('McGranitt', 'PER'): 3,
+  ('Ehi', 'PER'): 3,
+  ('Fanne', 'PER'): 3,
+  ('Percy', 'PER'): 3,
+  ('Mrs Purr', 'PER'): 3,
+  ('Gazza', 'PER'): 3,
+  ('Gazza', 'LOC'): 3,
+  ('Weasley', 'MISC'): 2,
+  ('Grifondoro', 'LOC'): 2,
+  ('Pozioni', 'MISC'): 2,
+  ('Tiger', 'PER'): 2,
+  ('Vitious', 'PER'): 2,
+  ('Ah', 'PER'): 2,
+  ('«', 'PER'): 2,
+  ('Nicolas Flamel', 'PER'): 2,
+  ('Madama Pince', 'LOC'): 2,
+  ('Buon Natale!', 'MISC'): 2,
+  ('Weasley!', 'MISC'): 2,
+  ('Quidditch!', 'MISC'): 2,
+  ('Harry?', 'MISC'): 2,
+  ('Brame', 'LOC'): 2,
+  ('Specchio delle Brame', 'LOC'): 2,
+  ('Raptor', 'PER'): 1,
+  ('sor Piton', 'PER'): 1,
+  ('Mi dispiace proprio tanto» disse un giorno', 'MISC'): 1,
+  ('Draco Malfoy', 'PER'): 1,
+  ('Ho-', 'LOC'): 1,
+  ('Parlando', 'PER'): 1,
+  ('Goyle ridacchiarono', 'PER'): 1,
+  ('pesce-leone', 'PER'): 1,
+  ('Quidditch', 'LOC'): 1,
+  ('Serpeverde', 'LOC'): 1,
+  ('cessiva Harry', 'PER'): 1,
+  ('Cercatore', 'LOC'): 1,
+  ('pagno', 'LOC'): 1,
+  ('Privet Drive per Natale', 'MISC'): 1,
+  ('giro delle Case', 'MISC'): 1,
+  ('Weasley an-', 'MISC'): 1,
+  ('Romania', 'LOC'): 1,
+  ('Charlie', 'PER'): 1,
+  ('Ti spiacerebbe tanto toglierti di mezzo?', 'MISC'): 1,
+  ('Weasley?', 'MISC'): 1,
+  ('Hogwarts... la capanna di Hagrid', 'MISC'): 1,
+  ('WEASLEY!» 
+Ron', 'MISC'): 1,
+  ('Ho-
+gwarts', 'MISC'): 1,
+  ('Grifondo-
+ro', 'PER'): 1,
+  ('Levatevi', 'LOC'): 1,
+  ('Goyle', 'PER'): 1,
+  ('Gliela', 'PER'): 1,
+  ('«Uno', 'PER'): 1,
+  ('Vi-
+tious', 'MISC'): 1,
+  ('Statemi', 'LOC'): 1,
+  ('Vogliamo', 'LOC'): 1,
+  ('Her-', 'PER'): 1,
+  ('Dacci', 'PER'): 1,
+  ('Ha-', 'LOC'): 1,
+  ('Grandi ma-
+ghi', 'MISC'): 1,
+  ('Esponenti', 'PER'): 1,
+  ('Scoperte', 'LOC'): 1,
+  ('Rassegna', 'LOC'): 1,
+  ('Magia Nera', 'PER'): 1,
+  ('Difesa', 'ORG'): 1,
+  ('Arti Oscure', 'MISC'): 1,
+  ('Niente» rispose Harry', 'MISC'): 1,
+  ('Fila... fuori!» 
+Rimpiangendo', 'MISC'): 1,
+  ('gno', 'LOC'): 1,
+  ('Madama Pince', 'PER'): 1,
+  ('Andarono', 'PER'): 1,
+  ('Continuerete', 'PER'): 1,
+  ('E tu potresti chiedere ai tuoi genitori', 'MISC'): 1,
+  ('Chiedendo', 'PER'): 1,
+  ('Babbani', 'ORG'): 1,
+  ('Seamus', 'MISC'): 1,
+  ('Manda', 'PER'): 1,
+  ('Anche a te» gli rispose', 'MISC'): 1,
+  ('Harry', 'MISC'): 1,
+  ('Hagrid'', 'PER'): 1,
+  ('Dentro', 'LOC'): 1,
+  ('Ha-', 'MISC'): 1,
+  ('Ab-', 'MISC'): 1,
+  ('accludiamo il regalo di', 'PER'): 1,
+  ('Zio Vernon', 'PER'): 1,
+  ('Credo di sapere da chi viene quello» disse', 'MISC'): 1,
+  ('Oh, no!', 'MISC'): 1,
+  ('Ma che gentile!»', 'MISC'): 1,
+  ('Cioc-
+corane', 'MISC'): 1,
+  ('Ne ho sentito parlare', 'MISC'): 1,
+  ('Tuttigusti+1', 'ORG'): 1,
+  ('Guarda giù!', 'MISC'): 1,
+  ('C'è un biglietto!»', 'MISC'): 1,
+  ('Buon Natale', 'MISC'): 1,
+  ('Darei qualsiasi cosa', 'MISC'): 1,
+  ('Niente» lo assicurò', 'MISC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('George Weasley', 'PER'): 1,
+  ('Harry na-
+scose velocemente il mantello', 'MISC'): 1,
+  ('Ehi, guarda...', 'MISC'): 1,
+  ('F', 'LOC'): 1,
+  ('G. 
+«Quello', 'PER'): 1,
+  ('E tu', 'MISC'): 1,
+  ('Io odio il color melanzana', 'MISC'): 1,
+  ('Gred', 'PER'): 1,
+  ('Forge', 'PER'): 1,
+  ('Percy Weasley', 'PER'): 1,
+  ('P', 'MISC'): 1,
+  ('Prefetto!', 'MISC'): 1,
+  ('Ma io... non... voglio..» bofonchiò', 'MISC'): 1,
+  ('Il Natale', 'MISC'): 1,
+  ('Babbani', 'PER'): 1,
+  ('Dursley', 'ORG'): 1,
+  ('Contrammiragli', 'PER'): 1,
+  ('Tavola', 'LOC'): 1,
+  ('Ai tacchini', 'MISC'): 1,
+  ('loncini', 'PER'): 1,
+  ('Harry e i fratelli Weasley', 'MISC'): 1,
+  ('Grifondoro', 'PER'): 1,
+  ('bal-', 'PER'): 1,
+  ('Guar-', 'MISC'): 1,
+  ('Tutto d'un tratto', 'MISC'): 1,
+  ('Scivolò fuori dal dormitorio', 'MISC'): 1,
+  ('Chi va là?» strillò la Signora Grassa', 'MISC'): 1,
+  ('Harry ac-
+cese una lampada', 'MISC'): 1,
+  ('nocchia', 'LOC'): 1,
+  ('Il silenzio', 'MISC'): 1,
+  ('Arretrando', 'MISC'): 1,
+  ('Terrorizzato', 'PER'): 1,
+  ('Incrociò Gazza', 'PER'): 1,
+  ('Mi ha chiesto di venire', 'MISC'): 1,
+  ('Il Reparto Proibito?', 'MISC'): 1,
+  ('Indietreggiò', 'LOC'): 1,
+  ('Erouc', 'LOC'): 1,
+  ('Al-
+lungò', 'PER'): 1,
+  ('Occhi verde chiaro...', 'MISC'): 1,
+  ('L'uomo alto', 'MISC'): 1,
+  ('Mamma» mormorò', 'MISC'): 1,
+  ('Papà', 'PER'): 1,
+  ('Potter', 'ORG'): 1,
+  ('Distolse', 'PER'): 1,
+  ('Tornerò', 'PER'): 1,
+  ('Avresti', 'PER'): 1,
+  ('Ron seccato', 'PER'): 1,
+  ('E io voglio conoscere tutta la tua famiglia Weasley', 'MISC'): 1,
+  ('Loro', 'PER'): 1,
+  ('tro-', 'PER'): 1,
+  ('Flamel... Dài', 'MISC'): 1,
+  ('Ti senti bene?', 'MISC'): 1,
+  ('Sto', 'PER'): 1,
+  ('No!» sibilò', 'MISC'): 1,
+  ('«So', 'PER'): 1,
+  ('Vedi?» sussurrò', 'MISC'): 1,
+  ('Non vedo un bel niente»', 'MISC'): 1,
+  ('Guarda!', 'MISC'): 1,
+  ('Ma io vedo solo te»', 'MISC'): 1,
+  ('Caposcuola!', 'ORG'): 1,
+  ('Porto', 'LOC'): 1,
+  ('Bill', 'PER'): 1,
+  ('Coppa delle Case', 'MISC'): 1,
+  ('Coppa del', 'MISC'): 1,
+  ('Quidditch', 'ORG'): 1,
+  ('Senti', 'PER'): 1,
+  ('Ma tu ti vedi', 'MISC'): 1,
+  ('Io voglio vedere i miei genitori', 'MISC'): 1,
+  ('Svelto!', 'MISC'): 1,
+  ('Harry fuori della stanza', 'MISC'): 1,
+  ('No»', 'MISC'): 1,
+  ('No... vacci tu...» 
+«Io lo so a che cosa stai pensando', 'MISC'): 1,
+  ('E perché no?» 
+«Boh', 'MISC'): 1,
+  ('Credi', 'LOC'): 1,
+  ('Hermione!', 'MISC'): 1,
+  ('Dico sul serio', 'MISC'): 1,
+  ('Camminava', 'LOC'): 1,
+  ('Tranne che... 
+«Allora... di nuovo qui', 'MISC'): 1,
+  ('Seduto', 'PER'): 1,
+  ('Albus 
+Silente', 'PER'): 1,
+  ('Io... io non l'ho veduta, signore', 'MISC'): 1,
+  ('Strano', 'MISC'): 1,
+  ('«Tu', 'PER'): 1,
+  ('Specchio', 'LOC'): 1,
+  ('Non sapevo che si chiamasse così, signore»', 'MISC'): 1,
+  ('Sì... be'... ci vedo la mia famiglia...» 
+«E il tuo amico', 'MISC'): 1,
+  ('Spec-', 'LOC'): 1,
+  ('Sì e no» disse Silente tranquillo', 'MISC'): 1,
+  ('Ronald Weasley', 'PER'): 1,
+  ('Domani', 'LOC'): 1,
+  ('Ricorda', 'LOC'): 1,
+  ('glioso mantello', 'PER'): 1,
+  ('Signore... professor Silente', 'MISC'): 1,
+  ('Certo!', 'MISC'): 1,
+  ('Io?', 'MISC'): 1,
+  ('Harry lo guardò incredulo', 'MISC'): 1,
+  ('Chissà', 'PER'): 1,
+  ('Silen-
+te', 'MISC'): 1,
+  ('topo Crosta', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Natale': {
+    'category': 'paese',
+    'confidence': 0.2243667095899582,
+    'spacy_label': 'MISC',
+    'count': 12,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [40, 1163, 2408, 4206, 4761, 10721, 11777, 16420, 17511, 18911, 19234, 36196]
+  },
+  'Sala Grande': {
+    'category': 'sala',
+    'confidence': 0.24915333092212677,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.9758749999999999,
+    'early_appearance': True,
+    'positions': [695, 4285, 4368]
+  },
+  'Romania': {
+    'category': 'paese',
+    'confidence': 0.45818066596984863,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9721583333333333,
+    'early_appearance': True,
+    'positions': [2518]
+  },
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.968475,
+    'early_appearance': True,
+    'positions': [111, 7571, 20221]
+  },
+  'Hogwarts... la capanna di Hagrid': {
+    'category': 'scuola di magia',
+    'confidence': 0.4019646644592285,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9647583333333334,
+    'early_appearance': True,
+    'positions': [3173]
+  },
+  'Rassegna': {
+    'category': 'paese',
+    'confidence': 0.2305947244167328,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [6756]
+  },
+  'Tavola': {
+    'category': 'paese',
+    'confidence': 0.24111860990524292,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [17277]
+  },
+  'Porto': {
+    'category': 'paese',
+    'confidence': 0.3007129728794098,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [30847]
+  },
+  'Ho-
+gwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.3937661051750183,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [3661]
+  },
+  'Difesa': {
+    'category': 'paese',
+    'confidence': 0.33656466007232666,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [7662]
+  },
+  'Manda': {
+    'category': 'paese',
+    'confidence': 0.24194754660129547,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [10654]
+  },
+  'Avresti': {
+    'category': 'paese',
+    'confidence': 0.22377803921699524,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [28403]
+  },
+  'Albus 
+Silente': {
+    'category': 'scuola di magia',
+    'confidence': 0.12121553719043732,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [33580]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23331666666666667,
+    'early_appearance': True,
+    'positions': [676, 18575, 19118]
+  },
+  'Ho-': {
+    'category': 'non_luogo',
+    'confidence': 0.3438929319381714,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23145833333333332,
+    'early_appearance': True,
+    'positions': [1189]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23145833333333332,
+    'early_appearance': True,
+    'positions': [1414, 30952]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23145833333333332,
+    'early_appearance': True,
+    'positions': [1514]
+  },
+  'Cercatore': {
+    'category': 'non_luogo',
+    'confidence': 0.3528731167316437,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23145833333333332,
+    'early_appearance': True,
+    'positions': [1659]
+  },
+  'pagno': {
+    'category': 'non_luogo',
+    'confidence': 0.18458226323127747,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23145833333333332,
+    'early_appearance': True,
+    'positions': [1993]
+  },
+  'Gazza': {
+    'category': 'non_luogo',
+    'confidence': 0.3090805113315582,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [20407, 23714, 23984, 25400, 32034, 32534]
+  },
+  'Madama Pince': {
+    'category': 'non_luogo',
+    'confidence': 0.3632318675518036,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [7754, 8056, 8710]
+  },
+  'Brame': {
+    'category': 'non_luogo',
+    'confidence': 0.3653154969215393,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [34079, 34467]
+  },
+  'Specchio delle Brame': {
+    'category': 'non_luogo',
+    'confidence': 0.16436322033405304,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [34577, 35475]
+  },
+  'Levatevi': {
+    'category': 'non_luogo',
+    'confidence': 0.3644135296344757,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [3800]
+  },
+  'Statemi': {
+    'category': 'non_luogo',
+    'confidence': 0.27305763959884644,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [5573]
+  },
+  'Vogliamo': {
+    'category': 'non_luogo',
+    'confidence': 0.22079800069332123,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [5696]
+  },
+  'Ha-': {
+    'category': 'non_luogo',
+    'confidence': 0.3228439688682556,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [6145, 11527]
+  },
+  'Scoperte': {
+    'category': 'non_luogo',
+    'confidence': 0.26650136709213257,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [6708]
+  },
+  'gno': {
+    'category': 'non_luogo',
+    'confidence': 0.19962631165981293,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [8625]
+  },
+  'Dentro': {
+    'category': 'non_luogo',
+    'confidence': 0.24918758869171143,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [11457]
+  },
+  'F': {
+    'category': 'non_luogo',
+    'confidence': 0.24945123493671417,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [15038]
+  },
+  'nocchia': {
+    'category': 'non_luogo',
+    'confidence': 0.18721315264701843,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [22429]
+  },
+  'Indietreggiò': {
+    'category': 'non_luogo',
+    'confidence': 0.16674582660198212,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [24219]
+  },
+  'Erouc': {
+    'category': 'non_luogo',
+    'confidence': 0.2866767346858978,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [25309]
+  },
+  'Credi': {
+    'category': 'non_luogo',
+    'confidence': 0.2682928442955017,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [32575]
+  },
+  'Camminava': {
+    'category': 'non_luogo',
+    'confidence': 0.2907291352748871,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [32962]
+  },
+  'Specchio': {
+    'category': 'non_luogo',
+    'confidence': 0.2524859607219696,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [34064]
+  },
+  'Spec-': {
+    'category': 'non_luogo',
+    'confidence': 0.3956441879272461,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [34450]
+  },
+  'Domani': {
+    'category': 'non_luogo',
+    'confidence': 0.22477471828460693,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [35464]
+  },
+  'Ricorda': {
+    'category': 'non_luogo',
+    'confidence': 0.26304104924201965,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [35631]
+  },
+}"
+Main Location,"{
+  'name': 'Natale',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.2243667095899582,
+  'count': 12,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 84,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 35, 'sadness': 48, 'anger': 11, 'fear': 3}, 'sentiment_counts': {'positive': 34, 'negative': 63}, 'emotion_percentages': {'joy': 36.08247422680412, 'sadness': 49.48453608247423, 'anger': 11.34020618556701, 'fear': 3.0927835051546393}, 'sentiment_percentages': {'positive': 35.051546391752574, 'negative': 64.94845360824742}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.276693105697632, 'Riconoscimento entità con spaCy': 0.00600743293762207, 'Analisi emozioni': 12.465156555175781, 'Classificazione delle location': 76.35107803344727, 'Tempo totale': 91.10098338127136}"
+Original Text Extract,"Capitolo 12 
+Lo specchio delle brame 
+ 
+Natale si stava avvicinando. Un mattino di metà dicembre, il castello 
+Hogwarts si svegliò sotto una coltre di neve alta più di un metro. Il lago 
+era diventato una spessa lastra di ghiaccio e i gemelli Weasley erano stati 
+puniti per aver fatto un incantesimo alle palle di neve, che si erano messe a 
+inseguire Raptor dovunque andasse rimbalzando sul dietro del suo turban-
+te. I pochi gufi che riuscivano a fendere il cielo temporalesco per conse-
+gnare la posta dovevano poi essere curati da Hagrid prima di poter ripren-
+dere il volo. 
+Tutti quanti non vedevano l'ora che cominciassero le vacanze. Mentre 
+nella sala di ritrovo di Grifondoro e nella Sala Grande ardevano fuochi 
+scoppiettanti, i corridoi pieni di spifferi erano gelidi, e un vento sferzante 
+faceva sbattere le imposte nelle aule. Il peggio erano le lezioni del profes-
+sor Piton, che si tenevano nei sotterranei, dove il respiro si condensava in 
+nuvolette e tutti cercavano di starsene il più vicino possibile ai calderoni 
+bollenti. 
+«Mi dispiace proprio tanto» disse un giorno Draco Malfoy, durante la 
+lezione di Pozioni, «per tutti quelli che a Natale dovranno restare a Ho-
+gwarts perché a casa nessuno li vuole». 
+Parlando guardava dalla parte di Harry. Tiger e Goyle ridacchiarono. 
+Harry, che stava dosando della polvere di spina dorsale di pesce-leone, li 
+ignorò. Dal tempo della partita a Quidditch, Malfoy era diventato, se pos-
+sibile, ancora più antipatico. Deluso per la sconfitta del Serpeverde, aveva 
+cercato di suscitare l'ilarità di tutti con una battuta, e cioè che la volta suc-
+cessiva Harry sarebbe stato sostituito come Cercatore da una rana dalla 
+bocca larga. Ma poi si era reso conto che non faceva ridere nessuno, per-
+
+ché tutti erano rimasti ammirati dal modo in cui Harry era riuscito a rima-
+nere in sella alla sua scopa nonostante quella cercasse di disarcionarlo. Per 
+cui, Malfoy, geloso e gonfio di rabbia, era tornato a punzecchiare il com-
+pagno con la scusa che non aveva una vera e propria famiglia. 
+Che Harry non sarebbe tornato a Privet Drive per Natale era vero. La 
+settimana prima, la professoressa McGranitt aveva fatto il giro delle Case 
+per preparare l'elenco degli studenti che sarebbero rimasti per le vacanze, e 
+Harry aveva dato subito il suo nome. La cosa non gli dispiaceva affatto; 
+molto probabilmente, quello sarebbe stato il più bel Natale della sua vita. 
+Anche Ron e i suoi fratelli sarebbero rimasti, perché i signori Weasley an-
+davano in Romania a trovare Charlie. 
+Quando lasciarono i sotterranei alla fine della lezione di Pozioni, i ra-
+gazzi trovarono un grosso abete che bloccava il corridoio. I due enormi 
+piedi che sbucavano da sotto l'albero e il rumore ansimante fecero capire 
+loro che dietro c'era Hagrid. 
+«Ehi, Hagrid, serve una mano?» chiese Ron ficcando la testa tra i rami. 
+«Nooo, ce la faccio da solo, Ron, grazie tante». 
+«Ti spiacerebbe tanto toglierti di mezzo?» fece dietro di loro la voce 
+strascicata e glaciale di Malfoy. «Che cosa c'è, stai cercando di guadagnare 
+qualche spicciolo, Weasley? Forse speri di diventare anche tu guardiacac-
+cia quando te ne andrai da Hogwarts... la capanna di Hagrid deve sembrarti 
+una reggia, in confronto a dove abita la tua famiglia». 
+Ron si buttò a testa bassa contro Malfoy proprio mentre Piton saliva le 
+scale. 
+«WEASLEY!» 
+Ron, che aveva afferrato Malfoy per il davanti della tunica, lasciò la pre-
+sa. 
+«Ci è stato tirato, professor Piton» disse Hagrid sporgendo il faccione ir-
+suto da dietro l'albero. «Malfoy insultava la sua famiglia». 
+«Quale che sia la ragione, Hagrid, fare a pugni è contro le regole di Ho-
+gwarts» disse Piton con voce flautata. «Cinque punti in meno a Grifondo-
+ro, Weasley, e ringrazia il cielo che non te ne tolga di più. Levatevi di tor-
+no, tutti quanti!» 
+Malfoy, Tiger e Goyle passarono di corsa accanto all'abete, spargendone 
+gli aghi dappertutto e sfoderando un sorriso compiaciuto. 
+«Gliela faccio vedere io» disse Ron digrignando i denti contro Malfoy 
+che ormai gli dava le spalle. «Uno di questi giorni, gliela faccio vedere 
+io...». 
+
+«Li odio tutti e due, Malfoy e Piton» disse Harry. 
+«Su, basta coi musi, è quasi Natale!» disse Hagrid. «Adesso sapete che 
+cosa facciamo? Vi porto a vedere la Sala Grande. È tutta una festa!» 
+Così, seguirono Hagrid e il suo albero fino alla Sala Grande, dove la 
+professoressa McGranitt e il professor Vitious erano tutti indaffarati a si-
+stemare le decorazioni natalizie. 
+«Ah, ecco Hagrid con l'ultimo albero... Mettilo in quell'angolo laggiù, ti 
+spiace?» 
+La sala era davvero uno spettacolo. Dalle pareti pendevano ghirlande 
+d'agrifoglio e di pungitopo, e tutto intorno erano disposti non meno di do-
+dici giganteschi alberi di Natale, alcuni decorati di ghiaccioli scintillanti, 
+altri illuminati da centinaia di candeline. 
+«Quanti giorni mancano alle vacanze?» chiese Hagrid. 
+«Soltanto uno» rispose Hermione. «E questo mi fa venire in mente... 
+Harry, Ron, manca "
+Token Count,7956

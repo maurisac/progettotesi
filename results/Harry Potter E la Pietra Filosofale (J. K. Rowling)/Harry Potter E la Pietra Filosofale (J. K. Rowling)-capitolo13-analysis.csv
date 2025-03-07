@@ -1,0 +1,562 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:09:58
+Entities,"{
+  ('Harry', 'PER'): 47,
+  ('Ron', 'PER'): 32,
+  ('Piton', 'PER'): 30,
+  ('Hermione', 'PER'): 27,
+  ('Malfoy', 'PER'): 16,
+  ('Neville', 'PER'): 14,
+  ('Raptor', 'PER'): 8,
+  ('Silente', 'PER'): 6,
+  ('Nicolas Flamel', 'PER'): 5,
+  ('Quidditch', 'ORG'): 5,
+  ('Grifondoro', 'PER'): 5,
+  ('Baston', 'PER'): 4,
+  ('Weasley', 'MISC'): 4,
+  ('Serpeverde', 'LOC'): 4,
+  ('Grifondoro', 'LOC'): 4,
+  ('Potter', 'MISC'): 4,
+  ('Tiger', 'PER'): 4,
+  ('Flamel', 'PER'): 3,
+  ('Tassorosso', 'ORG'): 3,
+  ('Natale', 'MISC'): 2,
+  ('Coppa del', 'MISC'): 2,
+  ('George Weasley', 'PER'): 2,
+  ('George', 'PER'): 2,
+  ('Quidditch', 'LOC'): 2,
+  ('Cioccorana', 'LOC'): 2,
+  ('Hogwarts', 'MISC'): 2,
+  ('Pietra Filosofale!', 'LOC'): 2,
+  ('Pietra Filosofale', 'LOC'): 2,
+  ('Pi-', 'LOC'): 2,
+  ('Nimbus Duemila', 'MISC'): 2,
+  ('Boccino', 'LOC'): 2,
+  ('Ehi', 'PER'): 2,
+  ('Fred', 'PER'): 2,
+  ('Boccino d'Oro', 'MISC'): 2,
+  ('Paciock', 'PER'): 2,
+  ('scopa', 'PER'): 2,
+  ('Camminava', 'LOC'): 2,
+  ('M', 'MISC'): 2,
+  ('Spec-', 'LOC'): 1,
+  ('Brame', 'LOC'): 1,
+  ('Visto?', 'MISC'): 1,
+  ('Gazza', 'PER'): 1,
+  ('Quidditch', 'PER'): 1,
+  ('Grifondoro!', 'MISC'): 1,
+  ('scopa', 'ORG'): 1,
+  ('Non è colpa mia» disse Baston', 'MISC'): 1,
+  ('Aspetta un attimo', 'MISC'): 1,
+  ('Parlando', 'PER'): 1,
+  ('Datti', 'PER'): 1,
+  ('Fa' finta', 'MISC'): 1,
+  ('Rompitela', 'PER'): 1,
+  ('Non posso» rispose', 'MISC'): 1,
+  ('Cercatore', 'LOC'): 1,
+  ('Incantesimo della Pastoia', 'LOC'): 1,
+  ('Harry', 'LOC'): 1,
+  ('McGranitt', 'PER'): 1,
+  ('Raccontale', 'MISC'): 1,
+  ('Non voglio altri guai» bofonchiò', 'MISC'): 1,
+  ('Non hai bisogno di dirmi', 'MISC'): 1,
+  ('Tu vali dodici', 'MISC'): 1,
+  ('Cappello Parlante', 'LOC'): 1,
+  ('Ser-', 'LOC'): 1,
+  ('Le labbra di Neville', 'MISC'): 1,
+  ('Harry... Credo che me ne andrò a letto', 'MISC'): 1,
+  ('Tu fai 
+collezione', 'MISC'): 1,
+  ('Famoso Mago', 'PER'): 1,
+  ('L'ho trovato!» bisbigliò', 'MISC'): 1,
+  ('«Ho', 'PER'): 1,
+  ('Flamel!', 'MISC'): 1,
+  ('State', 'LOC'): 1,
+  ('Il Professor Silente', 'MISC'): 1,
+  ('Grindelwald', 'PER'): 1,
+  ('Restate lì!» disse', 'MISC'): 1,
+  ('Non ho mai pensato di guardare qui dentro!» sussurrò tutta eccitata', 'MISC'): 1,
+  ('Leggero', 'PER'): 1,
+  ('Lo sapevo!', 'MISC'): 1,
+  ('Guardate:', 'MISC'): 1,
+  ('Pietra Filo-', 'LOC'): 1,
+  ('Elisir di Lunga Vita', 'MISC'): 1,
+  ('Devon', 'LOC'): 1,
+  ('Peronella', 'ORG'): 1,
+  ('Pietra Filosofale di Flamel', 'LOC'): 1,
+  ('Scommetto', 'PER'): 1,
+  ('Silente di custodirla', 'MISC'): 1,
+  ('Pietra', 'LOC'): 1,
+  ('Gringott!', 'ORG'): 1,
+  ('Una pietra che fabbrica l'oro', 'MISC'): 1,
+  ('Rassegna', 'LOC'): 1,
+  ('«', 'PER'): 1,
+  ('Difesa dalle Arti Oscure', 'MISC'): 1,
+  ('lupo mannaro', 'PER'): 1,
+  ('Pietra Filosofa-', 'ORG'): 1,
+  ('Scenderò', 'PER'): 1,
+  ('«Altrimenti', 'PER'): 1,
+  ('Pozioni', 'MISC'): 1,
+  ('Oliver Baston', 'PER'): 1,
+  ('Neville', 'LOC'): 1,
+  ('Incantesimo delle Pastoie', 'MISC'): 1,
+  ('Locomotor Mortis'» sof-
+fiò Hermione', 'MISC'): 1,
+  ('Lo so»', 'MISC'): 1,
+  ('Ron seccato', 'PER'): 1,
+  ('Tornati negli spogliatoi', 'MISC'): 1,
+  ('Harry', 'MISC'): 1,
+  ('Non per metterti sotto pressione', 'MISC'): 1,
+  ('Fred Weasley', 'PER'): 1,
+  ('Silen-
+te', 'MISC'): 1,
+  ('Il cuore', 'MISC'): 1,
+  ('Silente?» disse', 'MISC'): 1,
+  ('Ahi!» 
+Qualcuno gli aveva dato una botta alla nuca', 'MISC'): 1,
+  ('Uh, Weasley', 'MISC'): 1,
+  ('Goyle', 'MISC'): 1,
+  ('Weasley?', 'MISC'): 1,
+  ('Bolide', 'MISC'): 1,
+  ('Sai', 'PER'): 1,
+  ('Grifondo-
+ro?»', 'MISC'): 1,
+  ('Tassorosso', 'PER'): 1,
+  ('Io ne valgo dodici', 'MISC'): 1,
+  ('Goyle', 'PER'): 1,
+  ('Cantagliele', 'PER'): 1,
+  ('Weasley...', 'MISC'): 1,
+  ('Harry.....!', 'MISC'): 1,
+  ('Eh?', 'MISC'): 1,
+  ('Sei fortunato', 'MISC'): 1,
+  ('Forza', 'ORG'): 1,
+  ('Harry!» gridava', 'MISC'): 1,
+  ('guire', 'PER'): 1,
+  ('Goyle, tra-
+sformatisi', 'MISC'): 1,
+  ('Piton sterzò', 'PER'): 1,
+  ('Hermio-', 'PER'): 1,
+  ('Calì Patil', 'PER'): 1,
+  ('Ottima prova» gli disse', 'MISC'): 1,
+  ('Nimbus Duemila', 'PER'): 1,
+  ('Se-severus', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Pietra Filosofa-', 'LOC'): 1,
+  ('Hagrid', 'PER'): 1,
+  ('Severus', 'PER'): 1,
+  ('No-non ca-capisco ch-che cosa inte...» 
+«Lo sai benissimo', 'MISC'): 1,
+  ('Harry!', 'MISC'): 1,
+  ('Abbiamo vinto!', 'MISC'): 1,
+  ('Goyle!', 'MISC'): 1,
+  ('Chips', 'PER'): 1,
+  ('Serpeverde!', 'LOC'): 1,
+  ('Pix', 'MISC'): 1,
+  ('Pi-
+ton', 'MISC'): 1,
+  ('Fuffi', 'LOC'): 1,
+  ('Fuf-', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Natale': {
+    'category': 'paese',
+    'confidence': 0.2243667095899582,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.9740500000000001,
+    'early_appearance': True,
+    'positions': [154, 5651]
+  },
+  'Pietra Filosofale!': {
+    'category': 'scuola di magia',
+    'confidence': 0.16029244661331177,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.75925,
+    'early_appearance': False,
+    'positions': [7716, 21440]
+  },
+  'Pietra Filosofale': {
+    'category': 'scuola di magia',
+    'confidence': 0.14635777473449707,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.75925,
+    'early_appearance': False,
+    'positions': [8300, 10739]
+  },
+  'Pietra Filosofale di Flamel': {
+    'category': 'scuola di magia',
+    'confidence': 0.17743289470672607,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.753675,
+    'early_appearance': False,
+    'positions': [8718]
+  },
+  'Rassegna': {
+    'category': 'paese',
+    'confidence': 0.2305947244167328,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.753675,
+    'early_appearance': False,
+    'positions': [9112]
+  },
+  'Pietra Filosofa-': {
+    'category': 'casa',
+    'confidence': 0.1430584043264389,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.753675,
+    'early_appearance': False,
+    'positions': [9460, 19548]
+  },
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.23502212762832642,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.75185,
+    'early_appearance': False,
+    'positions': [2544, 15698, 18959]
+  },
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.75185,
+    'early_appearance': False,
+    'positions': [6482, 17773]
+  },
+  'Il Professor Silente': {
+    'category': 'scuola di magia',
+    'confidence': 0.10443061590194702,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [6510]
+  },
+  'Gringott!': {
+    'category': 'banca magica',
+    'confidence': 0.09144638478755951,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [8915]
+  },
+  'Una pietra che fabbrica l'oro': {
+    'category': 'casa',
+    'confidence': 0.11730658262968063,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [8928]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [1762, 2712, 9714, 10184]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.24075,
+    'early_appearance': True,
+    'positions': [1357, 1789, 2674, 3123, 3891, 9572, 10211, 11152]
+  },
+  'Spec-': {
+    'category': 'non_luogo',
+    'confidence': 0.3956441879272461,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [98]
+  },
+  'Brame': {
+    'category': 'non_luogo',
+    'confidence': 0.3653154969215393,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [115]
+  },
+  'Harry': {
+    'category': 'non_luogo',
+    'confidence': 0.20337551832199097,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [55, 234, 604, 786, 1093, 1250, 1604, 1841, 3024, 3253, 3472, 3569, 3684, 3797, 4083, 4830, 5507, 6099, 6963, 7811, 8986, 9387, 9585, 10010, 10339, 10758, 10978, 11198, 11533, 11843, 12125, 12533, 12687, 13616, 14651, 14781, 14968, 15829, 16157, 16355, 17029, 17691, 18232, 18399, 19124, 19571, 20027, 20477, 21131]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [3313, 4145, 4497, 5434, 5797, 16192, 16550, 17485, 17844]
+  },
+  'Cioccorana': {
+    'category': 'non_luogo',
+    'confidence': 0.33947816491127014,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01855,
+    'early_appearance': False,
+    'positions': [5576, 5962]
+  },
+  'Pi-': {
+    'category': 'non_luogo',
+    'confidence': 0.24941273033618927,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01855,
+    'early_appearance': False,
+    'positions': [10483, 19639]
+  },
+  'Boccino': {
+    'category': 'non_luogo',
+    'confidence': 0.32004860043525696,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01855,
+    'early_appearance': False,
+    'positions': [12239, 15942]
+  },
+  'Camminava': {
+    'category': 'non_luogo',
+    'confidence': 0.2907291352748871,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01855,
+    'early_appearance': False,
+    'positions': [17373, 18059]
+  },
+  'Cercatore': {
+    'category': 'non_luogo',
+    'confidence': 0.3528731167316437,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [4102]
+  },
+  'Incantesimo della Pastoia': {
+    'category': 'non_luogo',
+    'confidence': 0.25476279854774475,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [4408]
+  },
+  'Cappello Parlante': {
+    'category': 'non_luogo',
+    'confidence': 0.22190523147583008,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [5761]
+  },
+  'Ser-': {
+    'category': 'non_luogo',
+    'confidence': 0.3178163170814514,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [5864]
+  },
+  'State': {
+    'category': 'non_luogo',
+    'confidence': 0.23005816340446472,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [6492]
+  },
+  'Pietra Filo-': {
+    'category': 'non_luogo',
+    'confidence': 0.14006729423999786,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [8036]
+  },
+  'Devon': {
+    'category': 'non_luogo',
+    'confidence': 0.3089282512664795,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [8554]
+  },
+  'Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.1253218799829483,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [8902]
+  },
+  'Neville': {
+    'category': 'non_luogo',
+    'confidence': 0.37892094254493713,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [4208, 4657, 4863, 5085, 5151, 5477, 5670, 6075, 11381, 11724, 14172, 14445, 15233, 15575, 20745]
+  },
+  'Serpeverde!': {
+    'category': 'non_luogo',
+    'confidence': 0.18896718323230743,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [20920]
+  },
+  'Fuffi': {
+    'category': 'non_luogo',
+    'confidence': 0.41434338688850403,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [21594]
+  },
+  'Fuf-': {
+    'category': 'non_luogo',
+    'confidence': 0.3625190854072571,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [21693]
+  },
+}"
+Main Location,"{
+  'name': 'Natale',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.2243667095899582,
+  'count': 2,
+  'priority_score': 0.9740500000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 47,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 39, 'sadness': 42, 'fear': 5, 'anger': 12}, 'sentiment_counts': {'positive': 42, 'negative': 56}, 'emotion_percentages': {'joy': 39.795918367346935, 'sadness': 42.857142857142854, 'fear': 5.1020408163265305, 'anger': 12.244897959183673}, 'sentiment_percentages': {'positive': 42.857142857142854, 'negative': 57.14285714285714}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.2652826309204102, 'Riconoscimento entità con spaCy': 0.004000425338745117, 'Analisi emozioni': 15.321950912475586, 'Classificazione delle location': 47.48262166976929, 'Tempo totale': 64.0768563747406}"
+Original Text Extract,"Capitolo 13 
+Nicolas Flamel 
+ 
+
+Silente aveva convinto Harry a non andare di nuovo in cerca dello Spec-
+chio delle Brame, e per il resto delle vacanze di Natale il mantello che ren-
+de invisibili rimase piegato in fondo al suo baule. Harry sperava di poter 
+dimenticare facilmente quel che aveva visto nello specchio, ma non ci riu-
+scì. Cominciò ad avere incubi notturni. Non faceva che sognare i suoi ge-
+nitori che scomparivano in un lampo di luce verde, mentre una voce stridu-
+la rideva in modo sinistro. 
+«Visto? Silente aveva ragione: quello specchio può farti diventare paz-
+zo» disse Ron quando Harry gli raccontò i suoi sogni. 
+Hermione, che era tornata il giorno prima dell'inizio del nuovo trimestre, 
+vedeva le cose in un altro modo. Era divisa fra l'orrore al pensiero di Harry 
+che, invece di starsene a letto, andava in giro per la scuola per tre notti di 
+fila («Se Gazza ti avesse beccato!») e la delusione per il fatto che non ave-
+va neanche scoperto chi fosse Nicolas Flamel. 
+Avevano quasi abbandonato ogni speranza di trovare Flamel nei libri 
+della biblioteca, sebbene Harry fosse sempre sicuro di aver letto quel nome 
+chissà dove. All'inizio del trimestre, si rimisero a sfogliare libri ogni volta 
+che avevano ricreazione. Harry aveva ancor meno tempo a disposizione 
+degli altri due, perché erano ricominciati gli allenamenti di Quidditch. 
+Baston faceva lavorare la squadra sempre più duramente. Neanche la 
+pioggia incessante che aveva preso il posto della neve riusciva a smorzare 
+la sua foga. I gemelli Weasley si lamentavano che Baston stava diventando 
+un fanatico, ma Harry stava dalla sua parte. Se avessero vinto il prossimo 
+incontro, stavolta contro il Tassorosso, per la prima volta da sette anni a-
+vrebbero superato il Serpeverde nella Coppa del Quidditch. E poi, a parte 
+il desiderio di vincere, Harry aveva notato che, quando andava a letto e-
+sausto dopo l'allenamento, aveva meno incubi. 
+Poi, durante una sessione di allenamento particolarmente funestata dalla 
+pioggia e dal fango, Baston dette una cattiva notizia alla squadra: si era 
+appena arrabbiato moltissimo con i gemelli Weasley, che continuavano a 
+piombarsi addosso in picchiata a vicenda, facendo finta di cadere dalle 
+scope. 
+«Ma volete piantarla di fare confusione!» strillò. «Questo è precisamente 
+il genere di sciocchezza che ci farà perdere la partita! Stavolta, l'arbitro è 
+Piton, che certo non mancherà di trovare tutte le scuse per togliere punti al 
+Grifondoro!» 
+A quelle parole, George Weasley cadde per davvero dalla scopa. 
+«L'arbitro è Piton?» esclamò con la bocca ancora impastata di fango. «E 
+
+da quando in qua fa l'arbitro per le partite di Quidditch? Se per caso supe-
+riamo il Serpeverde, sarà tutt'altro che imparziale». 
+Anche il resto della squadra atterrò accanto a George per lamentarsi. 
+«Non è colpa mia» disse Baston, «dobbiamo semplicemente fare in mo-
+do di giocare senza scorrettezze, per non offrire a Piton nessun pretesto per 
+stuzzicarci». 
+Il che era un'ottima cosa, pensò Harry, ma lui aveva un motivo diverso 
+per desiderare di trovarsi accanto a Piton mentre giocava a Quidditch... 
+Il resto della squadra rimase indietro per chiacchierare come sempre ac-
+cadeva al termine dell'allenamento; invece Harry si diresse dritto filato 
+verso la sala di ritrovo di Grifondoro, dove trovò Ron e Hermione che gio-
+cavano a scacchi. Gli scacchi erano l'unico gioco in cui a Hermione capi-
+tasse mai di perdere, il che, secondo Harry e Ron, ogni tanto le faceva be-
+ne. 
+«Aspetta un attimo prima di parlare» disse Ron quando Harry si sedette 
+accanto a lui, «ho bisogno di concen...» Poi vide l'espressione che si era 
+dipinta sul volto di Harry. «Ma che ti prende? Hai una faccia spaventosa!» 
+Parlando a bassa voce, in modo che nessun altro sentisse, Harry rivelò ai 
+due amici dell'improvviso, infausto desiderio di Piton di fare l'arbitro di 
+Quidditch. 
+«Non giocare» disse subito Hermione. 
+«Datti malato» aggiunse Ron. 
+«Fa' finta che ti sei rotto una gamba» suggerì Hermione. 
+«Rompitela davvero» rincarò Ron. 
+«Non posso» rispose Harry. «Non c'è un Cercatore di riserva. Se io mi 
+ritiro, il Grifondoro non può proprio giocare». 
+In quel preciso istante, Neville piombò nella sala di ritrovo. Non si capi-
+va come avesse fatto a passare dal buco dietro il ritratto, perché aveva le 
+gambe bloccate insieme da quello che riconobbero immediatamente come 
+l'Incantesimo della Pastoia: probabilmente aveva fatto tutta la strada fino 
+alla torre di Grifondoro a balzelloni, come un coniglio. 
+Tutti si rotolarono dalle risate salvo Hermione, che saltò su e gli fece su-
+bito un controincantesimo. Le gambe di Neville si sciolsero dagli invisibili 
+laccioli e lui si mise in piedi tutto tremante. 
+«Che cosa ti è successo?» chiese Hermione mentre lo accompagnava a 
+sedersi vicino a Harry e a Ron. 
+«Malfoy» rispose Neville con voce tremula. «L'ho incontrato fuori della 
+biblioteca. Ha detto che stava cercando qualcuno su cui sperimentare il 
+
+trucco»"
+Token Count,4766

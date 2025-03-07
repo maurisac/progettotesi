@@ -1,0 +1,425 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:07:29
+Entities,"{
+  ('Dursley', 'PER'): 34,
+  ('Silente', 'PER'): 21,
+  ('McGranitt', 'PER'): 14,
+  ('Privet Drive', 'MISC'): 10,
+  ('Hagrid', 'PER'): 10,
+  ('Harry', 'PER'): 9,
+  ('Potter', 'MISC'): 8,
+  ('Babbani', 'ORG'): 6,
+  ('Harry Potter', 'MISC'): 6,
+  ('Dursley', 'LOC'): 5,
+  ('Dursley', 'ORG'): 4,
+  ('Potter', 'ORG'): 4,
+  ('Dudley', 'PER'): 4,
+  ('La professoressa McGranitt', 'MISC'): 4,
+  ('Voldemort', 'PER'): 4,
+  ('Lily', 'PER'): 3,
+  ('Grunnings', 'ORG'): 2,
+  ('Dudley', 'MISC'): 2,
+  ('trapani', 'LOC'): 2,
+  ('Babbano', 'PER'): 2,
+  ('Kent', 'LOC'): 2,
+  ('Notte dei Fuochi', 'MISC'): 2,
+  ('Stelle', 'MISC'): 2,
+  ('Albus Silente', 'PER'): 2,
+  ('Spegnino', 'PER'): 2,
+  ('Silente', 'LOC'): 2,
+  ('Silente e la McGranitt', 'MISC'): 2,
+  ('bionda', 'LOC'): 1,
+  ('Possedevano', 'LOC'): 1,
+  ('Potter', 'PER'): 1,
+  ('Sapevano', 'LOC'): 1,
+  ('giolone Dudley', 'PER'): 1,
+  ('Du-', 'MISC'): 1,
+  ('cio', 'ORG'): 1,
+  ('Fermo', 'LOC'): 1,
+  ('Immaginò', 'PER'): 1,
+  ('tavano', 'LOC'): 1,
+  ('urlaccio', 'PER'): 1,
+  ('I Potter', 'MISC'): 1,
+  ('Harry...» 
+', 'MISC'): 1,
+  ('Mise giù il ricevitore', 'MISC'): 1,
+  ('Harvey', 'PER'): 1,
+  ('O Harold', 'PER'): 1,
+  ('Scusi» bofonchiò', 'MISC'): 1,
+  ('Seduto', 'PER'): 1,
+  ('Sciò!', 'MISC'): 1,
+  ('Il gatto', 'MISC'): 1,
+  ('Del-', 'ORG'): 1,
+  ('Neanche per sogno!» Il signor', 'MISC'): 1,
+  ('Jim McGuffin', 'PER'): 1,
+  ('Jim', 'PER'): 1,
+  ('Francamente', 'PER'): 1,
+  ('Ted', 'PER'): 1,
+  ('Yorkshi-', 'MISC'): 1,
+  ('Dundee', 'PER'): 1,
+  ('Chissà', 'PER'): 1,
+  ('Gran Bretagna', 'LOC'): 1,
+  ('Potter... 
+', 'MISC'): 1,
+  ('Ehm', 'PER'): 1,
+  ('No» rispose seccamente', 'MISC'): 1,
+  ('Mah, non so... al telegiornale', 'MISC'): 1,
+  ('Gufi... stelle cadenti...', 'MISC'): 1,
+  ('Potter'', 'MISC'): 1,
+  ('Suppongo di sì» rispose la signora', 'MISC'): 1,
+  ('scopa', 'PER'): 1,
+  ('Howard', 'PER'): 1,
+  ('Harry!', 'MISC'): 1,
+  ('Eh già» disse il signor', 'MISC'): 1,
+  ('Petunia', 'PER'): 1,
+  ('sbadigliò', 'LOC'): 1,
+  ('Sembrò', 'PER'): 1,
+  ('Avrei', 'PER'): 1,
+  ('Sembrava', 'LOC'): 1,
+  ('L'uomo lo fece scattare di nuovo', 'MISC'): 1,
+  ('Dodici', 'PER'): 1,
+  ('Ma, mia cara professoressa', 'MISC'): 1,
+  ('Tutto il giorno?', 'MISC'): 1,
+  ('Stormi', 'PER'): 1,
+  ('Dedalus Lux', 'PER'): 1,
+  ('Silente con dolcezza', 'MISC'): 1,
+  ('Lo so', 'MISC'): 1,
+  ('Silente un'occhiata obliqua', 'MISC'): 1,
+  ('Silente?', 'MISC'): 1,
+  ('No grazie» rispose freddamente la professoressa McGranitt', 'MISC'): 1,
+  ('Mia cara professoressa', 'MISC'): 1,
+  ('Lei-Sa-', 'MISC'): 1,
+  ('Io lo so bene» disse la professoressa', 'MISC'): 1,
+  ('Lei-Sa... oh', 'MISC'): 1,
+  ('Voldemort...', 'MISC'): 1,
+  ('Lei mi lusinga» disse', 'MISC'): 1,
+  ('Meno male che è buio', 'MISC'): 1,
+  ('Mada-
+ma', 'MISC'): 1,
+  ('Chips', 'PER'): 1,
+  ('Sembrava', 'PER'): 1,
+  ('mormorassero', 'PER'): 1,
+  ('Goldrick's Hollow', 'MISC'): 1,
+  ('James Potter', 'PER'): 1,
+  ('Oh', 'PER'): 1,
+  ('La McGranitt', 'MISC'): 1,
+  ('Harry', 'ORG'): 1,
+  ('Silente', 'MISC'): 1,
+  ('Sì» rispose la McGranitt', 'MISC'): 1,
+  ('Non vorrà mica dire...', 'MISC'): 1,
+  ('«Ce', 'PER'): 1,
+  ('D'', 'PER'): 1,
+  ('Harry po-', 'MISC'): 1,
+  ('«Affiderei', 'PER'): 1,
+  ('Il silenzio', 'MISC'): 1,
+  ('«Del giovane', 'PER'): 1,
+  ('Sirius Black', 'PER'): 1,
+  ('No, signore', 'MISC'): 1,
+  ('Babbani', 'PER'): 1,
+  ('Bristol', 'LOC'): 1,
+  ('Sì» rispose Silente', 'MISC'): 1,
+  ('Londra', 'LOC'): 1,
+  ('Posso... posso fargli un salutino, signore?»', 'MISC'): 1,
+  ('Chinò', 'ORG'): 1,
+  ('Shhh!» sibilò la McGranitt', 'MISC'): 1,
+  ('S-s-s-scusatemi...» singhiozzò Hagrid', 'MISC'): 1,
+  ('James', 'PER'): 1,
+  ('McGranitt battendogli', 'PER'): 1,
+  ('Harry sul gradino', 'MISC'): 1,
+  ('McGra-', 'PER'): 1,
+  ('Be'» disse infine', 'MISC'): 1,
+  ('Si-
+rius', 'PER'): 1,
+  ('Notte', 'MISC'): 1,
+  ('Professor Silente', 'PER'): 1,
+  ('Asciugandosi', 'PER'): 1,
+  ('Penso', 'PER'): 1,
+  ('Spegnino' d'argento', 'MISC'): 1,
+  ('Buona fortuna', 'MISC'): 1,
+  ('Dur-', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Privet Drive': {
+    'category': 'strada',
+    'confidence': 0.15369181334972382,
+    'spacy_label': 'MISC',
+    'count': 10,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [76, 3073, 3492, 9015, 13110, 14263, 14782, 16626, 29328, 29706]
+  },
+  'bionda': {
+    'category': 'paese',
+    'confidence': 0.24690638482570648,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.97253,
+    'early_appearance': True,
+    'positions': [558]
+  },
+  'Harry Potter': {
+    'category': 'scuola di magia',
+    'confidence': 0.2024143636226654,
+    'spacy_label': 'MISC',
+    'count': 6,
+    'priority_score': 0.75408,
+    'early_appearance': False,
+    'positions': [21906, 23541, 23938, 24077, 29903, 30541]
+  },
+  'Fermo': {
+    'category': 'paese',
+    'confidence': 0.25571098923683167,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [3908]
+  },
+  'Gran Bretagna': {
+    'category': 'paese',
+    'confidence': 0.5589087009429932,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [11294]
+  },
+  'Bristol': {
+    'category': 'paese',
+    'confidence': 0.3561301827430725,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [26563]
+  },
+  'Londra': {
+    'category': 'paese',
+    'confidence': 0.27257636189460754,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [27184]
+  },
+  'Stelle': {
+    'category': 'paese',
+    'confidence': 0.28960368037223816,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [11265, 18141]
+  },
+  'Albus Silente': {
+    'category': 'scuola di magia',
+    'confidence': 0.12121553719043732,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [15292, 15308]
+  },
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.23502212762832642,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [12611]
+  },
+  'Goldrick's Hollow': {
+    'category': 'strada',
+    'confidence': 0.10792585462331772,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [21230]
+  },
+  'Notte': {
+    'category': 'paese',
+    'confidence': 0.19202232360839844,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [28715]
+  },
+  'Dursley': {
+    'category': 'non_luogo',
+    'confidence': 0.33253800868988037,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.24075,
+    'early_appearance': True,
+    'positions': [64, 363, 539, 757, 1144, 1199, 1372, 1750, 1990, 2087, 2347, 2662, 2904, 3351, 3608, 4085, 4460, 4931, 5068, 5539, 6503, 7348, 7940, 8524, 8585, 9329, 9414, 9579, 9838, 11212, 11459, 11717, 11957, 12077, 12214, 12266, 12576, 12755, 12971, 14043, 16392, 17989, 27311]
+  },
+  'Possedevano': {
+    'category': 'non_luogo',
+    'confidence': 0.253004252910614,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [864]
+  },
+  'Sapevano': {
+    'category': 'non_luogo',
+    'confidence': 0.28823933005332947,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [1501]
+  },
+  'trapani': {
+    'category': 'non_luogo',
+    'confidence': 0.23660874366760254,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [3752, 5016]
+  },
+  'Kent': {
+    'category': 'non_luogo',
+    'confidence': 0.22173649072647095,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [10861, 18160]
+  },
+  'Silente': {
+    'category': 'non_luogo',
+    'confidence': 0.23216769099235535,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [16511, 19648, 20137, 20436, 20896, 21357, 21518, 22006, 22379, 22549, 22781, 23619, 23850, 24201, 24797, 25011, 26130, 26232, 27247, 28002, 28470, 28516, 29045, 29127]
+  },
+  'tavano': {
+    'category': 'non_luogo',
+    'confidence': 0.16056635975837708,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [5331]
+  },
+  'sbadigliò': {
+    'category': 'non_luogo',
+    'confidence': 0.2068168669939041,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [13926]
+  },
+  'Sembrava': {
+    'category': 'non_luogo',
+    'confidence': 0.27996745705604553,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [15889, 20650]
+  },
+}"
+Main Location,"{
+  'name': 'Privet Drive',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.15369181334972382,
+  'count': 10,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Dursley',
+  'count': 34,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 52, 'joy': 30, 'anger': 12, 'fear': 6}, 'sentiment_counts': {'negative': 60, 'positive': 40}, 'emotion_percentages': {'sadness': 52.0, 'joy': 30.0, 'anger': 12.0, 'fear': 6.0}, 'sentiment_percentages': {'negative': 60.0, 'positive': 40.0}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.1532585620880127, 'Riconoscimento entità con spaCy': 0.003000974655151367, 'Analisi emozioni': 23.99820065498352, 'Classificazione delle location': 53.37649655342102, 'Tempo totale': 78.5339560508728}"
+Original Text Extract,"Capitolo 1 
+Il bambino sopravvissuto 
+ 
+Il signore e la signora Dursley, di Privet Drive numero 4, erano orgo-
+gliosi di poter affermare che erano perfettamente normali, e grazie tante. 
+Erano le ultime persone al mondo da cui aspettarsi che avessero a che fare 
+con cose strane o misteriose, perché sciocchezze del genere proprio non le 
+approvavano. 
+Il signor Dursley era direttore di una ditta di nome Grunnings, che fab-
+bricava trapani. Era un uomo corpulento, nerboruto, quasi senza collo e 
+con un grosso paio di baffi. La signora Dursley era magra, bionda e con un 
+collo quasi due volte più lungo del normale, il che le tornava assai utile, 
+dato che passava gran parte del tempo ad allungarlo oltre la siepe del giar-
+dino per spiare i vicini. I Dursley avevano un figlioletto di nome Dudley e 
+secondo loro non esisteva al mondo un bambino più bello. 
+Possedevano tutto quel che si poteva desiderare, ma avevano anche un 
+segreto, e il loro più grande timore era che qualcuno potesse scoprirlo. Non 
+credevano che avrebbero potuto sopportare che qualcuno venisse a sapere 
+dei Potter. La signora Potter era la sorella della signora Dursley, ma non si 
+vedevano da anni. Anzi, la signora Dursley faceva addirittura finta di non 
+avere sorelle, perché la signora Potter e quel buono a nulla del marito non 
+avrebbero potuto essere più diversi da loro di così. I Dursley rabbrividiva-
+no al solo pensiero di quel che avrebbero detto i vicini se i Potter si fossero 
+fatti vedere nei paraggi. Sapevano che i Potter avevano anche loro un figlio 
+piccolo, ma non lo avevano mai visto. E il ragazzino era un'altra buona ra-
+gione per tenere i Potter a distanza: non volevano che Dudley frequentasse 
+un bambino di quel genere. 
+Quando i coniugi Dursley si svegliarono, la mattina di quel martedì gri-
+gio e coperto in cui inizia la nostra storia, nel cielo nuvoloso nulla faceva 
+presagire le cose strane e misteriose che di lì a poco sarebbero accadute in 
+
+tutto il paese. Il signor Dursley scelse canticchiando la cravatta da giorno 
+più anonima del suo guardaroba, e la signora Dursley continuò a chiac-
+chierare ininterrottamente mentre con grande sforzo costringeva sul seg-
+giolone Dudley che urlava a squarciagola. 
+Nessuno notò il grosso gufo bruno che passò con un frullo d'ali davanti 
+alla finestra. 
+Alle otto e mezzo, il signor Dursley prese la sua valigetta ventiquattr'ore, 
+sfiorò con le labbra la guancia della moglie, e tentò di dare un bacio a Du-
+dley, ma lo mancò perché, in quel momento, in preda a un furioso capric-
+cio, il pupo stava scagliando i suoi fiocchi d'avena contro il muro. «Piccolo 
+monello!» commentò ridendo il signor Dursley mentre usciva di casa. Salì 
+in macchina e percorse a marcia indietro il vialetto del numero 4. 
+Fu all'angolo della strada che notò le prime avvisaglie di qualcosa di 
+strano: un gatto che leggeva una mappa. Per un attimo, il signor Dursley 
+non si rese conto di quel che aveva visto; poi girò di scatto la testa e guar-
+dò di nuovo. C'era un gatto soriano ritto sulle zampe posteriori, all'angolo 
+di Privet Drive, ma di mappe neanche l'ombra. Ma che diavolo aveva per 
+la testa? La luce doveva avergli giocato qualche brutto tiro. Si stropicciò 
+gli occhi e fissò il gatto, che gli ricambiò l'occhiata. Mentre l'auto girava 
+l'angolo e percorreva un tratto di strada, il signor Dursley tenne d'occhio il 
+gatto nello specchietto retrovisore. In quel momento il felino stava leggen-
+do il cartello stradale che indicava Privet Drive. No, lo stava guardando; i 
+gatti non sanno leggere le mappe e neanche i cartelli stradali. Il signor 
+Dursley si riscosse da quei pensieri e allontanò il gatto dalla mente. Mentre 
+si dirigeva in città, non pensò ad altro che al grosso ordine di trapani che 
+sperava di ricevere quel giorno. 
+Ma una volta giunto ai sobborghi della città, avvenne qualcos'altro che 
+gli fece uscire di mente i trapani. Fermo nel solito ingorgo del mattino, non 
+poté fare a meno di notare che in giro c'erano un sacco di persone vestite in 
+modo strano. Gente con indosso dei mantelli. Il signor Dursley non sop-
+portava le persone che si vestivano in modo stravagante: bisognava vedere 
+come si conciavano certi giovani! Immaginò che si trattasse di qualche 
+stupidissima nuova moda. Mentre tamburellava con le dita sul volante, lo 
+sguardo gli cadde su un capannello di quegli strampalati, vicinissimo a lui. 
+Si stavano bisbigliando qualcosa tutti eccitati. Il signor Dursley sentì mon-
+targli la rabbia nel constatare che ce n'erano un paio tutt'altro che giovani. 
+Ma che roba! Quello lì doveva essere più anziano di lui, e portava un man-
+tello verde smeraldo! Che faccia tosta! Poi però gli venne in mente che po-
+
+tesse trattarsi di qualche sciocca trovata. Ma certo! Era gente che faceva 
+una colletta per qualche motivo. Sì, doveva essere proprio così. In quella, 
+il traffico riprese a scorrere e alcuni minuti più tardi il signor Dursley 
+giunse al parcheggio della Grunnings con la mente di nuovo t"
+Token Count,6570

@@ -1,0 +1,513 @@
+{
+  "accuracy": 0.3055555555555556,
+  "correct": 11,
+  "total": 36,
+  "predictions": [
+    {
+      "location": "Hogwarts",
+      "true_category": "scuola di magia",
+      "predicted_category": "scuola di magia",
+      "confidence": 0.2818838059902191,
+      "correct": true
+    },
+    {
+      "location": "Foresta Proibita",
+      "true_category": "foresta magica",
+      "predicted_category": "non_luogo",
+      "confidence": 0.19074338674545288,
+      "correct": false
+    },
+    {
+      "location": "Londra",
+      "true_category": "città",
+      "predicted_category": "città",
+      "confidence": 0.13635678589344025,
+      "correct": true
+    },
+    {
+      "location": "La Tana",
+      "true_category": "casa",
+      "predicted_category": "non_luogo",
+      "confidence": 0.17428769171237946,
+      "correct": false
+    },
+    {
+      "location": "Serpeverde",
+      "true_category": "non_luogo",
+      "predicted_category": "non_luogo",
+      "confidence": 0.35711684823036194,
+      "correct": true
+    },
+    {
+      "location": "Tassorosso",
+      "true_category": "non_luogo",
+      "predicted_category": "non_luogo",
+      "confidence": 0.14841270446777344,
+      "correct": true
+    },
+    {
+      "location": "Grifondoro",
+      "true_category": "non_luogo",
+      "predicted_category": "non_luogo",
+      "confidence": 0.3773985505104065,
+      "correct": true
+    },
+    {
+      "location": "Corvonero",
+      "true_category": "non_luogo",
+      "predicted_category": "non_luogo",
+      "confidence": 0.3093457818031311,
+      "correct": true
+    },
+    {
+      "location": "Gringott",
+      "true_category": "banca magica",
+      "predicted_category": "non_luogo",
+      "confidence": 0.11359171569347382,
+      "correct": false
+    },
+    {
+      "location": "Privet Drive",
+      "true_category": "strada",
+      "predicted_category": "strada",
+      "confidence": 0.22658824920654297,
+      "correct": true
+    },
+    {
+      "location": "Diagon Alley",
+      "true_category": "strada",
+      "predicted_category": "strada",
+      "confidence": 0.24722516536712646,
+      "correct": true
+    },
+    {
+      "location": "Notturn Alley",
+      "true_category": "strada",
+      "predicted_category": "strada",
+      "confidence": 0.18431136012077332,
+      "correct": true
+    },
+    {
+      "location": "Hogsmeade",
+      "true_category": "villaggio magico",
+      "predicted_category": "villaggio magico",
+      "confidence": 0.23774923384189606,
+      "correct": true
+    },
+    {
+      "location": "Godric's Hollow",
+      "true_category": "villaggio magico",
+      "predicted_category": "villaggio",
+      "confidence": 0.16390079259872437,
+      "correct": false
+    },
+    {
+      "location": "King's Cross",
+      "true_category": "stazione",
+      "predicted_category": "strada",
+      "confidence": 0.11124744266271591,
+      "correct": false
+    },
+    {
+      "location": "Azkaban",
+      "true_category": "prigione",
+      "predicted_category": "non_luogo",
+      "confidence": 0.11043040454387665,
+      "correct": false
+    },
+    {
+      "location": "Privet Drive",
+      "true_category": "strada",
+      "predicted_category": "strada",
+      "confidence": 0.22658824920654297,
+      "correct": true
+    },
+    {
+      "location": "Cair Paravel",
+      "true_category": "castello",
+      "predicted_category": "strada",
+      "confidence": 0.09645811468362808,
+      "correct": false
+    },
+    {
+      "location": "Casa del Professor Kirke",
+      "true_category": "casa",
+      "predicted_category": "non_luogo",
+      "confidence": 0.08814787864685059,
+      "correct": false
+    },
+    {
+      "location": "Castello della Strega Bianca",
+      "true_category": "castello",
+      "predicted_category": "non_luogo",
+      "confidence": 0.08803132176399231,
+      "correct": false
+    },
+    {
+      "location": "Diga dei Castori",
+      "true_category": "casa",
+      "predicted_category": "non_luogo",
+      "confidence": 0.18216879665851593,
+      "correct": false
+    },
+    {
+      "location": "Fiume Congelato",
+      "true_category": "fiume",
+      "predicted_category": "non_luogo",
+      "confidence": 0.18343691527843475,
+      "correct": false
+    },
+    {
+      "location": "Grande Foresta",
+      "true_category": "foresta magica",
+      "predicted_category": "strada",
+      "confidence": 0.08321227878332138,
+      "correct": false
+    },
+    {
+      "location": "Stazione Ferroviaria",
+      "true_category": "stazione",
+      "predicted_category": "sala",
+      "confidence": 0.06673258543014526,
+      "correct": false
+    },
+    {
+      "location": "Tenda di Aslan",
+      "true_category": "casa",
+      "predicted_category": "non_luogo",
+      "confidence": 0.2283063381910324,
+      "correct": false
+    },
+    {
+      "location": "Villaggio di Beaversdam",
+      "true_category": "villaggio magico",
+      "predicted_category": "non_luogo",
+      "confidence": 0.06673360615968704,
+      "correct": false
+    },
+    {
+      "location": "Finchley",
+      "true_category": "città",
+      "predicted_category": "non_luogo",
+      "confidence": 0.2023848444223404,
+      "correct": false
+    },
+    {
+      "location": "Guado di Beruna",
+      "true_category": "fiume",
+      "predicted_category": "non_luogo",
+      "confidence": 0.17261424660682678,
+      "correct": false
+    },
+    {
+      "location": "Emond's Field",
+      "true_category": "villaggio magico",
+      "predicted_category": "villaggio",
+      "confidence": 0.11764276772737503,
+      "correct": false
+    },
+    {
+      "location": "Città di Baerlon",
+      "true_category": "città",
+      "predicted_category": "non_luogo",
+      "confidence": 0.12452489882707596,
+      "correct": false
+    },
+    {
+      "location": "Palazzo Reale di Caemlyn",
+      "true_category": "palazzo",
+      "predicted_category": "strada",
+      "confidence": 0.07685110718011856,
+      "correct": false
+    },
+    {
+      "location": "Grande Macchia",
+      "true_category": "foresta magica",
+      "predicted_category": "non_luogo",
+      "confidence": 0.13289539515972137,
+      "correct": false
+    },
+    {
+      "location": "Fiume Manetherendrelle",
+      "true_category": "fiume",
+      "predicted_category": "non_luogo",
+      "confidence": 0.13200323283672333,
+      "correct": false
+    },
+    {
+      "location": "Torre Bianca",
+      "true_category": "torre",
+      "predicted_category": "scuola di magia",
+      "confidence": 0.0668039545416832,
+      "correct": false
+    },
+    {
+      "location": "Boschi dell'Ovest",
+      "true_category": "foresta magica",
+      "predicted_category": "non_luogo",
+      "confidence": 0.21173502504825592,
+      "correct": false
+    },
+    {
+      "location": "Breen's Spring",
+      "true_category": "villaggio magico",
+      "predicted_category": "villaggio",
+      "confidence": 0.15937107801437378,
+      "correct": false
+    }
+  ],
+  "confusion_matrix": {
+    "scuola di magia": {
+      "scuola di magia": 1
+    },
+    "foresta magica": {
+      "non_luogo": 3,
+      "strada": 1
+    },
+    "città": {
+      "città": 1,
+      "non_luogo": 2
+    },
+    "casa": {
+      "non_luogo": 4
+    },
+    "non_luogo": {
+      "non_luogo": 4
+    },
+    "banca magica": {
+      "non_luogo": 1
+    },
+    "strada": {
+      "strada": 4
+    },
+    "villaggio magico": {
+      "villaggio magico": 1,
+      "villaggio": 3,
+      "non_luogo": 1
+    },
+    "stazione": {
+      "strada": 1,
+      "sala": 1
+    },
+    "prigione": {
+      "non_luogo": 1
+    },
+    "castello": {
+      "strada": 1,
+      "non_luogo": 1
+    },
+    "fiume": {
+      "non_luogo": 3
+    },
+    "palazzo": {
+      "strada": 1
+    },
+    "torre": {
+      "scuola di magia": 1
+    }
+  },
+  "precision": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.5,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "recall": [
+    0.0,
+    0.0,
+    0.0,
+    0.3333333333333333,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.2
+  ],
+  "f1": [
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.0,
+    0.0,
+    0.3333333333333333,
+    0.0,
+    0.0,
+    0.0,
+    0.6666666666666666,
+    0.0,
+    0.6666666666666666,
+    0.0,
+    0.0,
+    0.3333333333333333
+  ],
+  "support": [
+    1,
+    4,
+    2,
+    3,
+    3,
+    4,
+    4,
+    1,
+    1,
+    0,
+    1,
+    2,
+    4,
+    1,
+    0,
+    5
+  ],
+  "categories": [
+    "banca magica",
+    "casa",
+    "castello",
+    "città",
+    "fiume",
+    "foresta magica",
+    "non_luogo",
+    "palazzo",
+    "prigione",
+    "sala",
+    "scuola di magia",
+    "stazione",
+    "strada",
+    "torre",
+    "villaggio",
+    "villaggio magico"
+  ],
+  "weighted_precision": 0.3138888888888889,
+  "weighted_recall": 0.3055555555555556,
+  "weighted_f1": 0.21759259259259256,
+  "classification_report": {
+    "banca magica": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "casa": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "castello": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "città": {
+      "precision": 1.0,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.5,
+      "support": 3.0
+    },
+    "fiume": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "foresta magica": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "non_luogo": {
+      "precision": 0.2,
+      "recall": 1.0,
+      "f1-score": 0.3333333333333333,
+      "support": 4.0
+    },
+    "palazzo": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "prigione": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "sala": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "scuola di magia": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 1.0
+    },
+    "stazione": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "strada": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 4.0
+    },
+    "torre": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "villaggio": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "villaggio magico": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1-score": 0.3333333333333333,
+      "support": 5.0
+    },
+    "accuracy": 0.3055555555555556,
+    "macro avg": {
+      "precision": 0.2,
+      "recall": 0.22083333333333333,
+      "f1-score": 0.15625,
+      "support": 36.0
+    },
+    "weighted avg": {
+      "precision": 0.3138888888888889,
+      "recall": 0.3055555555555556,
+      "f1-score": 0.21759259259259256,
+      "support": 36.0
+    }
+  }
+}

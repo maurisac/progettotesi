@@ -1,0 +1,248 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:20
+Entities,"{
+  ('Castoro', 'PER'): 23,
+  ('Lucy', 'PER'): 11,
+  ('Susan', 'PER'): 10,
+  ('Edmund', 'PER'): 9,
+  ('Peter', 'PER'): 7,
+  ('Peter', 'LOC'): 5,
+  ('Adamo', 'PER'): 3,
+  ('Aslan', 'PER'): 3,
+  ('Ssst', 'LOC'): 2,
+  ('Ssst', 'PER'): 2,
+  ('Giusto', 'PER'): 2,
+  ('Oh', 'PER'): 2,
+  ('Tumnus', 'PER'): 2,
+  ('Qualcosa', 'LOC'): 1,
+  ('Stavolta l'ho', 'MISC'): 1,
+  ('Torniamo a casa', 'MISC'): 1,
+  ('Mah', 'LOC'): 1,
+  ('Guarda', 'LOC'): 1,
+  ('Stavolta', 'PER'): 1,
+  ('Dobbiamo fidarci oppure no?', 'MISC'): 1,
+  ('Andate', 'LOC'): 1,
+  ('Siete figlie di Eva', 'MISC'): 1,
+  ('Ssst!', 'MISC'): 1,
+  ('Giustissimo', 'PER'): 1,
+  ('Tumnus', 'MISC'): 1,
+  ('Peter', 'MISC'): 1,
+  ('Segui-', 'PER'): 1,
+  ('Ba-', 'MISC'): 1,
+  ('Il signor Castoro', 'PER'): 1,
+  ('Vedendole', 'LOC'): 1,
+  ('Strega Bian-', 'LOC'): 1,
+  ('Narnia', 'LOC'): 1,
+  ('Eccoci', 'PER'): 1,
+  ('Eva', 'PER'): 1,
+  ('Cara', 'LOC'): 1,
+  ('Eva', 'LOC'): 1,
+  ('Entrarono', 'PER'): 1,
+  ('Ah', 'PER'): 1,
+  ('fausto giorno', 'PER'): 1,
+  ('ave-', 'MISC'): 1,
+  ('Ca-', 'PER'): 1,
+  ('Susan pelò', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Strega Bian-': {
+    'category': 'casa',
+    'confidence': 0.1056298315525055,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [9124]
+  },
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [9245]
+  },
+  'Eva': {
+    'category': 'paese',
+    'confidence': 0.21247456967830658,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [9791, 10338]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [345, 476, 708, 1012, 1951, 2167, 2660, 3546, 3703, 4159, 6019, 9456, 11052]
+  },
+  'Ssst': {
+    'category': 'non_luogo',
+    'confidence': 0.33801597356796265,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23852,
+    'early_appearance': True,
+    'positions': [417, 1824, 6347, 6380]
+  },
+  'Qualcosa': {
+    'category': 'non_luogo',
+    'confidence': 0.27745321393013,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [485]
+  },
+  'Mah': {
+    'category': 'non_luogo',
+    'confidence': 0.2915724515914917,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1176]
+  },
+  'Guarda': {
+    'category': 'non_luogo',
+    'confidence': 0.2807583212852478,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1251]
+  },
+  'Andate': {
+    'category': 'non_luogo',
+    'confidence': 0.28270187973976135,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [3069]
+  },
+  'Vedendole': {
+    'category': 'non_luogo',
+    'confidence': 0.24309185147285461,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [9046]
+  },
+  'Cara': {
+    'category': 'non_luogo',
+    'confidence': 0.2750049829483032,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [10275]
+  },
+}"
+Main Location,None
+Main Character,"{
+  'name': 'Lucy',
+  'count': 11,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.8508391304347827,
+}"
+Emotions,"{'emotion_counts': {'anger': 6, 'joy': 44, 'sadness': 40, 'fear': 4}, 'sentiment_counts': {'negative': 39, 'positive': 55}, 'emotion_percentages': {'anger': 6.382978723404255, 'joy': 46.808510638297875, 'sadness': 42.5531914893617, 'fear': 4.25531914893617}, 'sentiment_percentages': {'negative': 41.48936170212766, 'positive': 58.51063829787234}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'positive'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.917203426361084, 'Riconoscimento entità con spaCy': 0.0009999275207519531, 'Analisi emozioni': 16.408544063568115, 'Classificazione delle location': 22.687613248825073, 'Tempo totale': 40.014360666275024}"
+Original Text Extract,"7
+Un giorno fra i castori
+Mentre i due ragazzi chiacchieravano sottovoce, Susan e Lucy erano an-
+date un po' avanti. Improvvisamente, si fermarono con un lungo oooh! di
+meraviglia e disappunto. Poi Lucy disse: — È volato via. Non c'è più.
+Ed era così, infatti: il pettirosso era scomparso.
+— E adesso? Cosa facciamo? — chiese Edmund, gettando a Peter un'oc-
+chiatina speciale come per dirgli: te l'avevo detto, io.
+— Ssst. Guardate là — bisbigliò Susan.
+— Cosa c'è? — domandò Peter.
+— Qualcosa si muove tra gli alberi, laggiù a sinistra.
+Tutti guardarono da quella parte, aguzzando gli occhi, ma non riuscirono
+a vedere nulla.
+— Eccolo di nuovo — disse infine Susan.
+— Stavolta l'ho visto anch'io — aggiunse Peter. — È ancora là, dietro
+quel grosso albero.
+— Ma che cos'è? — domandò Lucy, cercando di non sembrare nervosa.
+— Qualsiasi cosa o chiunque sia, si prende gioco di noi. Oppure non vuol
+farsi vedere...
+— Torniamo a casa — propose Susan.
+Allora si resero conto di quello che Edmund aveva fatto notare a Peter
+pochi momenti prima: avevano perso la strada per tornare al guardaroba.
+— Ma cos'era? A cosa somigliava? — chiese Lucy, tornando a guardare
+tra gli alberi.
+— Mah. Sembrava un animale, almeno così mi è parso — rispose Susan.
+E poi: — Guarda, presto. Eccolo di nuovo.
+Stavolta riuscirono a vedere un musetto peloso, con due ciuffi di setole
+per baffi, che spuntava dietro un grosso albero. E stavolta la bestiola non si
+ritirò subito, ma restò un po' a guardare i ragazzi, tenendo una zampa sulla
+bocca. Pareva uno che si metta il dito sulle labbra per raccomandare di sta-
+re zitti. I quattro ragazzi rimasero immobili, trattenendo il fiato, e la bestio-
+la sparì.
+Un attimo dopo, eccola di nuovo. Lo strano personaggio si guardò intor-
+no, come per assicurarsi che non ci fossero spie in giro, bisbigliò — Ssst —
+e fece un cenno con la zampa: che si avvicinassero, dunque, e lo seguis-
+
+sero nel folto del bosco.
+— Ho capito — disse Peter, mentre la creatura spariva nuovamente. — È
+un castoro. Ho visto la coda, l'ho riconosciuto.
+— Vuole che andiamo con lui — mormorò Susan. — E ci raccomanda di
+non far rumore.
+— Ho capito anche questo — ribatté Peter. — Ma il problema è un altro.
+Dobbiamo fidarci oppure no? Tu, Lucy, che ne dici?
+— A me è sembrato un castoro molto carino e gentile.
+— Già — commentò subito Edmund. — Ma come facciamo a esser si-
+curi che sia un castoro per bene?
+— Perché non rischiare? — chiese Susan. — Voglio dire, qualsiasi cosa
+sarà meglio di star qui senza far niente e con la fame in corpo.
+Proprio in quel momento il castoro mise fuori di nuovo il muso baffuto e
+ripeté i cenni di invito.
+— Su, andiamo — disse Peter. — Ma cerchiamo di restare uniti, a scan-
+so di brutte sorprese. Se viene fuori che il castoro è un nemico, sapremo
+difenderci. Caspita, siamo in quattro contro uno.
+Così, i ragazzi si avvicinarono al grosso albero dietro il quale era scom-
+parsa la loro guida e naturalmente la trovarono là che li aspettava. Tutta-via,
+quando li vide si tirò indietro, sussurrando con una strana vocetta gut-turale:
+— Andate più avanti. Più in là, a destra. Non è bene restare dove ci possono
+vedere, non siamo al sicuro qui.
+Solo quando li ebbe guidati in un posticino buio dove quattro grandi abeti
+crescevano così vicini l'uno all'altro che i rami formavano una cupo-la, e la
+terra bruna, coperta di aghi di pino, era ben visibile tra i piedi per-ché la
+neve non passava, il signor Castoro incominciò a parlare.
+— Siete figlie di Eva e figli di Adamo, voi?
+— Be', in un certo senso — esclamò Peter.
+— Ssst! — lo zittì immediatamente il signor Castoro. — Non a voce co-
+sì alta, prego. Non siamo al sicuro neanche qui.
+— Ma di chi ha paura? — chiese Peter. — Siamo soli.
+— Ci sono gli alberi — bisbigliò il signor Castoro. — Ascoltano tutto
+quello che diciamo. Per lo più gli alberi sono dalla nostra parte, ma ce ne
+sono di quelli che parteggiano per ""lei"" e potrebbero tradirci. Sapete a chi
+alludo, vero?
+— Già che parliamo di parteggiare per l'uno o per l'altro — intervenne
+brusco Edmund — chi ci assicura che tu sia nostro amico?
+
+— Non vogliamo essere sgarbati, signor Castoro — aggiunse in fretta
+
+Peter. — Ma insomma, noi siamo stranieri qui. Lei capisce...
+— Giusto, giusto — annuì il castoro facendo grandi cenni con la testa. —
+Giustissimo. Ecco il mio contrassegno. — E così dicendo levò in alto
+qualcosa di bianco che pareva, ed era, un pezzo di stoffa quadrata.
+— Oh, il mio fazzoletto! — esclamò Lucy. — È proprio quello che ho
+regalato al signor Tumnus per ricordo.
+— Giusto, giusto — fece di nuovo il signor Castoro. — Il mio povero e
+sfortunato amico, il fauno Tumnus, me lo ha consegnato poco prima che
+l'arrestassero. Perché, vedete, era venuto a saperlo in anticipo e mi ha detto
+che se gli fosse successo quello che temeva, avrei dovuto cercarvi qui e
+portarvi... — La voce del signor Castoro si spense in un bisbiglio quasi in-
+comprensibile.
+I quattro ragazzi si avvicinarono ancora di più, formando un cerchio così
+strett"
+Token Count,3259

@@ -1,0 +1,414 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:29:18
+Entities,"{
+  ('Nynaeve', 'PER'): 28,
+  ('Moiraine', 'PER'): 23,
+  ('Lan', 'MISC'): 19,
+  ('Aes Sedai', 'LOC'): 15,
+  ('Custode', 'LOC'): 6,
+  ('Sapiente', 'MISC'): 6,
+  ('Ponte Bianco', 'LOC'): 4,
+  ('Tar Valon', 'LOC'): 4,
+  ('Unico Potere', 'MISC'): 4,
+  ('Whitebridge', 'LOC'): 4,
+  ('Egwene', 'PER'): 3,
+  ('Tar Valon', 'MISC'): 3,
+  ('Nynaeve', 'MISC'): 3,
+  ('Aes Sedai', 'PER'): 2,
+  ('Disegno', 'MISC'): 2,
+  ('Tenebroso', 'PER'): 2,
+  ('Caemlyn', 'LOC'): 2,
+  ('Shadar Logoth', 'PER'): 1,
+  ('Arinelle', 'PER'): 1,
+  ('Potere', 'MISC'): 1,
+  ('Te l’ho', 'MISC'): 1,
+  ('Aes 
+Sedai', 'LOC'): 1,
+  ('Cerchia', 'LOC'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Qualcosa le stuzzicava gli angoli della mente', 'MISC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Strada per 
+Caemlyn', 'LOC'): 1,
+  ('Chissà', 'PER'): 1,
+  ('Dritto', 'LOC'): 1,
+  ('Arinelle', 'LOC'): 1,
+  ('La Ruota', 'LOC'): 1,
+  ('Ajah Rossa', 'ORG'): 1,
+  ('Amici delle 
+Tenebre', 'MISC'): 1,
+  ('«Quelli', 'PER'): 1,
+  ('Drago', 'PER'): 1,
+  ('Amici delle Tenebre', 'MISC'): 1,
+  ('Marche', 'LOC'): 1,
+  ('Confine', 'LOC'): 1,
+  ('Thom 
+Merrilin', 'PER'): 1,
+  ('Ripulivano', 'LOC'): 1,
+  ('Cenn Buie', 'PER'): 1,
+  ('Inutile', 'LOC'): 1,
+  ('Ce', 'PER'): 1,
+  ('La Luce', 'MISC'): 1,
+  ('Morgase', 'PER'): 1,
+  ('Nynaeve', 'LOC'): 1,
+  ('Custode', 'PER'): 1,
+  ('Cercate', 'LOC'): 1,
+  ('Dove andiamo?» domandò', 'MISC'): 1,
+  ('Nynaeve al Custode', 'PER'): 1,
+  ('Spaventati', 'PER'): 1,
+  ('spalliera', 'LOC'): 1,
+  ('Ma…»  
+«Sapiente', 'MISC'): 1,
+  ('«', 'PER'): 1,
+  ('Mezzo Uomo', 'MISC'): 1,
+  ('Egwene', 'LOC'): 1,
+  ('Irrigidì', 'MISC'): 1,
+  ('Ruota tesse', 'LOC'): 1,
+  ('“Staremo', 'MISC'): 1,
+  ('Luce', 'MISC'): 1,
+  ('Strada per Caemlyn', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 19,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [645, 2810, 3589, 5116, 5404, 6002, 6335, 6970, 7206, 7398, 7743, 8802, 9326, 12827, 13151, 13302, 13704, 14227, 15625]
+  },
+  'Ponte Bianco': {
+    'category': 'castello',
+    'confidence': 0.07633157074451447,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.9749947368421054,
+    'early_appearance': True,
+    'positions': [109, 556, 7522, 8374]
+  },
+  'Marche': {
+    'category': 'paese',
+    'confidence': 0.4536382555961609,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7492736842105263,
+    'early_appearance': False,
+    'positions': [11034]
+  },
+  'Cercate': {
+    'category': 'paese',
+    'confidence': 0.2777993977069855,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7492736842105263,
+    'early_appearance': False,
+    'positions': [13874]
+  },
+  'Drago': {
+    'category': 'paese',
+    'confidence': 0.34736984968185425,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7418736842105264,
+    'early_appearance': False,
+    'positions': [10734]
+  },
+  'Ce': {
+    'category': 'paese',
+    'confidence': 0.25639107823371887,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7418736842105264,
+    'early_appearance': False,
+    'positions': [13106]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7418736842105264,
+    'early_appearance': False,
+    'positions': [16920]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 15,
+    'priority_score': 0.24720526315789473,
+    'early_appearance': True,
+    'positions': [219, 723, 988, 1048, 1885, 2372, 2422, 3034, 4820, 6913, 9588, 10502, 11664, 14743, 16344, 16666, 16906]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.2366421052631579,
+    'early_appearance': True,
+    'positions': [205, 707, 3423, 4836, 7387, 8907, 13742]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23429473684210525,
+    'early_appearance': True,
+    'positions': [876, 1469, 2499, 2524, 2535, 2629, 16313]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23077368421052633,
+    'early_appearance': True,
+    'positions': [634, 839, 1025, 1664, 2045, 3310, 3626, 3826, 4111, 5102, 6352, 7097, 7313, 7749, 9079, 9417, 9563, 9787, 11591, 11837, 13366, 14238, 14929, 15852]
+  },
+  'Arinelle': {
+    'category': 'non_luogo',
+    'confidence': 0.34170958399772644,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23077368421052633,
+    'early_appearance': True,
+    'positions': [666, 7652]
+  },
+  'Nynaeve': {
+    'category': 'non_luogo',
+    'confidence': 0.15896956622600555,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23077368421052633,
+    'early_appearance': True,
+    'positions': [32, 815, 1126, 1830, 2749, 2879, 3247, 3992, 4180, 4353, 4845, 5160, 5567, 6435, 6790, 7281, 8012, 8968, 9283, 10189, 11428, 11575, 12298, 12494, 13379, 14701, 14771, 15602, 16130, 16409, 16428, 16769]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23077368421052633,
+    'early_appearance': True,
+    'positions': [1081, 11450, 16153, 16611]
+  },
+  'Whitebridge': {
+    'category': 'non_luogo',
+    'confidence': 0.16889919340610504,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.012094736842105262,
+    'early_appearance': False,
+    'positions': [6136, 13055, 13594, 17147]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009747368421052631,
+    'early_appearance': False,
+    'positions': [15118, 15518]
+  },
+  'Aes 
+Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [2780]
+  },
+  'Cerchia': {
+    'category': 'non_luogo',
+    'confidence': 0.19060716032981873,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [3215]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [6101]
+  },
+  'Strada per 
+Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.10135094076395035,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [6155]
+  },
+  'Dritto': {
+    'category': 'non_luogo',
+    'confidence': 0.29766321182250977,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [7426]
+  },
+  'La Ruota': {
+    'category': 'non_luogo',
+    'confidence': 0.1943739652633667,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [9034]
+  },
+  'Confine': {
+    'category': 'non_luogo',
+    'confidence': 0.2572762966156006,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [11044]
+  },
+  'Ripulivano': {
+    'category': 'non_luogo',
+    'confidence': 0.25036749243736267,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [12367]
+  },
+  'Inutile': {
+    'category': 'non_luogo',
+    'confidence': 0.27086877822875977,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [12882]
+  },
+  'spalliera': {
+    'category': 'non_luogo',
+    'confidence': 0.1146489754319191,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [14806]
+  },
+  'Ruota tesse': {
+    'category': 'non_luogo',
+    'confidence': 0.17530669271945953,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [16753]
+  },
+  'Strada per Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.10135094076395035,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008573684210526317,
+    'early_appearance': False,
+    'positions': [17057]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 19,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Nynaeve',
+  'count': 28,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 52, 'joy': 28, 'fear': 10, 'anger': 9}, 'sentiment_counts': {'negative': 68, 'positive': 31}, 'emotion_percentages': {'sadness': 52.52525252525253, 'joy': 28.28282828282828, 'fear': 10.1010101010101, 'anger': 9.090909090909092}, 'sentiment_percentages': {'negative': 68.68686868686868, 'positive': 31.313131313131315}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.0452322959899902, 'Riconoscimento entità con spaCy': 0.0009996891021728516, 'Analisi emozioni': 16.853229999542236, 'Classificazione delle location': 15.696038246154785, 'Tempo totale': 33.597498416900635}"
+Original Text Extract,"28 
+ 
+Orme nell’aria 
+ 
+ 
+ 
+ 
+ 
+Nynaeve fissò piena di meraviglia la scena lungo il fiume: sotto il sole, il Ponte Bianco risplendeva 
+di bagliore lattiginoso. Un’altra leggenda, pensò, con un’occhiata al Custode e all’Aes Sedai che 
+cavalcavano poco più avanti. Un’altra leggenda, e quei due non sembravano neppure accorgersene.  
+Decise di non sgranare gli occhi, quando i due potevano vederla. Avrebbero riso, se l’avessero vista 
+ammirare a bocca aperta lo spettacolo, come una zoticona di campagna. I tre cavalcarono in silenzio 
+verso il leggendario Ponte Bianco.  
+Dal mattino della fuga da Shadar Logoth, quando aveva trovato Moiraine e Lan sulla rive 
+dell’Arinelle, non aveva parlato molto con il Custode e con l’Aes Sedai. Qualche scambio di battute, 
+certo, ma niente d’importante, secondo i criteri di Nynaeve. I tentativi di Moiraine di convincerla ad 
+andare a Tar Valon, per esempio. Tar Valon. Ci sarebbe andata, se necessario, e avrebbe accettato 
+l’addestramento delle Aes Sedai, ma non per le ragioni che Moiraine credeva. Se l’Aes Sedai avesse 
+messo nei guai Egwene e i ragazzi…  
+A volte, controvoglia, Nynaeve si era trovata a riflettere sulle possibilità che avrebbe avuto una 
+Sapiente dotata dell’Unico Potere. Appena si rendeva conto del corso dei suoi pensieri, provava un 
+impeto di rabbia. Il Potere era una cosa sporca. Non voleva averci niente a che fare. A meno d’essere 
+costretta.  
+Quella maledetta donna parlava solo di portarla a Tar Valon per l’addestramento. Moiraine non le 
+rivelava niente! Non che lei volesse sapere, comunque.  
+«Come intendi trovarli?» ricordò d’averle domandato.  
+«Te l’ho già detto» aveva risposto Moiraine, senza neppure prendersi la briga di girarsi. «Quando 
+sarò nelle vicinanze dei due che hanno perso la moneta, me ne accorgerò.» Non era la prima volta che 
+Nynaeve aveva fatto la stessa domanda, ma la voce dell’Aes Sedai era come le superficie di un laghetto 
+che rifiutasse d’incresparsi per quante pietre lei gettasse in acqua: e questo le faceva ribollire il sangue. 
+Moiraine aveva continuato come se non sentisse nella nuca lo sguardo della Sapiente. «Più tempo 
+passa, più dovrò essere vicino a loro, ma lo saprò ugualmente. In quanto a quello che ha conservato la 
+moneta, se la tiene con sé, posso seguirlo anche attraverso mezzo mondo.»  
+«E poi? Cosa intendi fare, quando li hai trovati, Aes Sedai?» Neppure per un istante credeva che 
+l’Aes Sedai fosse così decisa a trovarli se non avesse avuto qualche piano.  
+«Tar Valon, Sapiente.»  
+«Tar Valon, Tar Valon. Sai dire solo questo! Comincio a…»  
+«Una parte dell’addestramento che riceverai a Tar Valon, Sapiente, t’insegnerà a dominare i nervi. 
+Non puoi usare l’Unico Potere, se l’emozione ti domina la mente.» Nynaeve voleva ribattere, ma l’Aes 
+Sedai aveva continuato. «Lan, devo parlarti un momento.»  
+I due avevano accostato la testa e Nynaeve era rimasta a covare la rabbia, odiandosi ogni volta che 
+capiva di mostrarla in viso. Le accadeva con troppa frequenza, quando faceva domande e l’Aes Sedai 
+cambiava abilmente discorso, evitava i trabocchetti o ignorava le sue proteste. Così arrabbiata, si 
+sentiva come una bambina sorpresa a fare la scema da una donna della Cerchia. Una sensazione a cui 
+
+Nynaeve non era abituata, e resa peggiore dal calmo sorriso di Moiraine.  
+Se solo ci fosse stato il modo di liberarsi di quella donna! Lan, da solo, sarebbe stato meglio… un 
+Custode in teoria era in grado di cavarsela in ogni circostanza, si disse in fretta, arrossendo. Non 
+c’erano altre ragioni…  
+ma l’uno significava l’altra.  
+Eppure Lan la faceva infuriare anche più di Moiraine. Non capiva come riuscisse a irritarla con tanta 
+facilità. Raramente parlava, a volte non diceva nemmeno dieci parole in tutta la giornata, e non 
+prendeva mai parte alle…  
+discussioni con Moiraine. Spesso era lontano da loro, in avanscoperta; ma anche quando cavalcava 
+con loro, si teneva un poco in disparte e le guardava come se osservasse un duello. Nynaeve avrebbe 
+voluto che la smettesse. Se era davvero un duello, finora lei non aveva ottenuto neanche un punto; e 
+Moiraine pareva non accorgersi nemmeno che era in atto un confronto. Nynaeve si sarebbe sentita 
+meglio, senza gli occhi azzurri e freddi di quello spettatore silenzioso.  
+Il viaggio era stato quasi sempre silenzioso, tranne quando l’ira di Nynaeve prendeva il sopravvento; 
+e a volte, quando la Sapiente alzava la voce, il silenzio pareva rompersi come se fosse fatto di vetro.  
+Il territorio stesso era silenzioso: il mondo pareva trattenere il fiato. Solo il vento gemeva tra gli 
+alberi, ma pareva remoto, anche quando penetrava fra i vestiti come un coltello tagliente.  
+All’inizio, dopo gli ultimi avvenimenti, il silenzio era riposante. Però, al termine della prima 
+giornata in compagnia solo dell’Aes Sedai e del Custode, Nynaeve si guardava alle spalle e tormentava 
+la sella come se le prudesse un irraggiungibile punto al centro della schiena. Il silenzio le pareva vetro 
+d"
+Token Count,3597

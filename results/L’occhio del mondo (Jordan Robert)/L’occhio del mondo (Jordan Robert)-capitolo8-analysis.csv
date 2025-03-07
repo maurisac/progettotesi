@@ -1,0 +1,772 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:25:31
+Entities,"{
+  ('Rand', 'MISC'): 70,
+  ('Moiraine', 'PER'): 38,
+  ('Lan', 'MISC'): 27,
+  ('Tam', 'PER'): 25,
+  ('Aes Sedai', 'LOC'): 18,
+  ('Trolloc', 'ORG'): 13,
+  ('Tenebroso', 'PER'): 10,
+  ('Custode', 'LOC'): 8,
+  ('Trolloc', 'LOC'): 8,
+  ('Myrddraal', 'LOC'): 8,
+  ('Fiumi Gemelli', 'LOC'): 7,
+  ('Tam', 'LOC'): 5,
+  ('Aes Sedai', 'PER'): 5,
+  ('Fade', 'ORG'): 5,
+  ('Caemlyn', 'LOC'): 5,
+  ('Bran', 'PER'): 4,
+  ('Myrddraal', 'MISC'): 4,
+  ('Marche', 'LOC'): 4,
+  ('Moiraine Sedai', 'PER'): 4,
+  ('Emond’s Field', 'MISC'): 4,
+  ('Vere', 'MISC'): 4,
+  ('Moiraine', 'LOC'): 3,
+  ('Custode', 'PER'): 3,
+  ('Mezzo Uomo', 'MISC'): 3,
+  ('Mezzi Uomini', 'MISC'): 3,
+  ('Epoca Leggendaria', 'MISC'): 3,
+  ('Confine', 'LOC'): 3,
+  ('Trolloc', 'MISC'): 3,
+  ('Perrin', 'PER'): 3,
+  ('Custodi', 'LOC'): 3,
+  ('Rand', 'PER'): 2,
+  ('Vere', 'LOC'): 2,
+  ('Field', 'LOC'): 2,
+  ('Guerre Trolloc', 'MISC'): 2,
+  ('Rabbrividì', 'LOC'): 2,
+  ('Grande Macchia', 'LOC'): 2,
+  ('«', 'PER'): 2,
+  ('piano Moiraine', 'MISC'): 2,
+  ('Tar Valon', 'LOC'): 2,
+  ('Tar Valon', 'MISC'): 2,
+  ('Thom', 'PER'): 1,
+  ('Vere» disse', 'MISC'): 1,
+  ('«Vieni', 'PER'): 1,
+  ('Lasciamo Moiraine Sedai', 'PER'): 1,
+  ('Posso', 'PER'): 1,
+  ('Bran', 'LOC'): 1,
+  ('Siediti', 'PER'): 1,
+  ('Esaminò', 'PER'): 1,
+  ('Mormorando', 'LOC'): 1,
+  ('Unico Potere', 'MISC'): 1,
+  ('Vera Fonte', 'ORG'): 1,
+  ('Ruota del Tempo', 'LOC'): 1,
+  ('Potere', 'MISC'): 1,
+  ('Potere', 'LOC'): 1,
+  ('Hai una bella spada', 'MISC'): 1,
+  ('«Cosa', 'PER'): 1,
+  ('lady Moiraine?', 'MISC'): 1,
+  ('Ah', 'PER'): 1,
+  ('Tar', 'PER'): 1,
+  ('Potere', 'ORG'): 1,
+  ('Dovevo', 'PER'): 1,
+  ('Divoratori di carogne', 'MISC'): 1,
+  ('Topi', 'MISC'): 1,
+  ('Luce', 'LOC'): 1,
+  ('Posò', 'PER'): 1,
+  ('Thakan’', 'LOC'): 1,
+  ('Shayol Ghul', 'PER'): 1,
+  ('Ma tu la eliminerai!» Le parole di Rand', 'MISC'): 1,
+  ('Sì» rispose con semplicità', 'MISC'): 1,
+  ('Notò', 'MISC'): 1,
+  ('Bene', 'LOC'): 1,
+  ('Epoca Legendaria', 'PER'): 1,
+  ('Amyrlin Seat', 'PER'): 1,
+  ('Emond', 'PER'): 1,
+  ('Tu puoi aiutarlo» disse', 'MISC'): 1,
+  ('Il cavaliere', 'MISC'): 1,
+  ('Un Myrddraal!', 'MISC'): 1,
+  ('Lurk', 'PER'): 1,
+  ('Uomo Ombra', 'PER'): 1,
+  ('Signori del Terrore', 'MISC'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Reietti', 'MISC'): 1,
+  ('Signori del 
+Terrore', 'MISC'): 1,
+  ('Mi ha spaventato» disse debolmente Rand', 'MISC'): 1,
+  ('Spaventano', 'PER'): 1,
+  ('Senza Occhi è paura', 'MISC'): 1,
+  ('Occhi', 'LOC'): 1,
+  ('pallido', 'PER'): 1,
+  ('Andarmene!» esclamò', 'MISC'): 1,
+  ('Gemelli', 'LOC'): 1,
+  ('Padan Fain', 'PER'): 1,
+  ('Fain', 'PER'): 1,
+  ('Thom Merrilin', 'PER'): 1,
+  ('Coplin', 'MISC'): 1,
+  ('Pastore', 'PER'): 1,
+  ('Capisco', 'LOC'): 1,
+  ('Io?', 'MISC'): 1,
+  ('Sapevi» domandò Lan', 'MISC'): 1,
+  ('Metà', 'LOC'): 1,
+  ('Darl Coplin', 'PER'): 1,
+  ('Immagino', 'PER'): 1,
+  ('Festa', 'MISC'): 1,
+  ('Notte d’Inverno', 'MISC'): 1,
+  ('spalliera', 'ORG'): 1,
+  ('Cauthon', 'PER'): 1,
+  ('Sapevano', 'LOC'): 1,
+  ('Emond', 'LOC'): 1,
+  ('Della mia età?» La voce tremò', 'MISC'): 1,
+  ('Luce santa!  
+Mat', 'MISC'): 1,
+  ('Ban Crawe', 'PER'): 1,
+  ('Lem Thane', 'PER'): 1,
+  ('Crawe', 'PER'): 1,
+  ('Ban', 'PER'): 1,
+  ('Lem otto', 'PER'): 1,
+  ('Sorrise', 'LOC'): 1,
+  ('Fiumi Gemelli', 'PER'): 1,
+  ('Scorrerie', 'LOC'): 1,
+  ('Shienar', 'LOC'): 1,
+  ('Parco', 'LOC'): 1,
+  ('Albero di Primavera', 'MISC'): 1,
+  ('Bel Tine', 'PER'): 1,
+  ('Ierinotte', 'MISC'): 1,
+  ('Tar Valon', 'PER'): 1,
+  ('Watch Hill', 'MISC'): 1,
+  ('Deven 
+Ride', 'MISC'): 1,
+  ('Taren Ferry', 'PER'): 1,
+  ('Ammesso', 'PER'): 1,
+  ('Mat', 'PER'): 1,
+  ('Casa', 'PER'): 1,
+  ('Almeno Tam', 'PER'): 1,
+  ('Strada 
+della Cava', 'LOC'): 1,
+  ('Baerlon', 'LOC'): 1,
+  ('Sorrise di storto', 'MISC'): 1,
+  ('Mura Lucenti', 'LOC'): 1,
+  ('Tempo della Follia', 'MISC'): 1,
+  ('Padre', 'PER'): 1,
+  ('Menzogne', 'ORG'): 1,
+  ('«Devo', 'PER'): 1,
+  ('Il Mezzo Uomo', 'MISC'): 1,
+  ('Mat', 'MISC'): 1,
+  ('Me', 'PER'): 1,
+  ('Zanna del Drago', 'LOC'): 1,
+  ('Dirò', 'PER'): 1,
+  ('Vere di portarti da mangiare» continuò', 'MISC'): 1,
+  ('Pastore della Notte', 'MISC'): 1,
+  ('Comare Moiraine', 'PER'): 1,
+  ('Smettila', 'MISC'): 1,
+  ('Comare', 'LOC'): 1,
+  ('Mastro al’Vere', 'PER'): 1,
+  ('Cerchia', 'LOC'): 1,
+  ('Prudenza', 'PER'): 1,
+  ('Mastro al’Vere', 'MISC'): 1,
+  ('Luhhan', 'PER'): 1,
+  ('Abell 
+Cauthon', 'PER'): 1,
+  ('Strofinò', 'PER'): 1,
+  ('Westwood', 'PER'): 1,
+  ('Hai bisogno di riposare', 'MISC'): 1,
+  ('Sorpreso', 'PER'): 1,
+  ('Prendi il letto della camera', 'MISC'): 1,
+  ('La donna esitò un istante', 'MISC'): 1,
+  ('Fra', 'MISC'): 1,
+  ('Soffocò', 'PER'): 1,
+  ('Appoggiò', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 27,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [767, 2464, 3758, 4191, 4254, 6725, 7216, 7955, 10335, 11925, 12326, 12881, 13208, 13607, 16076, 16725, 17489, 18010, 18767, 19769, 20578, 21744, 22405, 23875, 24231, 25470, 27447]
+  },
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.9744296296296296,
+    'early_appearance': True,
+    'positions': [94, 296, 415, 1675, 1867, 2434, 2523, 2614, 3094, 3449, 3625, 4021, 4440, 6159, 7806, 10122, 13273, 14871, 23443, 25252, 26272, 26433, 28530, 28633, 28953, 30105, 30160, 30498, 30728, 30782]
+  },
+  'Bran': {
+    'category': 'paese',
+    'confidence': 0.27615973353385925,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9711259259259258,
+    'early_appearance': True,
+    'positions': [950, 1195, 1319, 1872, 26091]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9645518518518519,
+    'early_appearance': True,
+    'positions': [58, 1118, 1501, 1769, 1900, 2105, 2553, 2923, 3396, 3696, 3871, 4216, 4566, 5167, 5296, 6056, 6257, 6748, 7145, 7397, 7617, 7921, 8899, 9175, 10000, 12223, 12445, 13201, 13236, 13464, 13846, 14836, 15357, 15542, 15673, 16123, 16326, 16573, 16761, 16967, 17400, 17786, 17979, 18119, 18242, 18600, 19341, 19678, 20108, 20837, 21383, 21852, 22671, 23513, 23775, 24212, 24350, 24607, 24938, 25220, 25905, 26476, 26779, 27173, 28003, 28151, 28310, 28917, 29126, 29470, 29800, 30010]
+  },
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9637259259259259,
+    'early_appearance': True,
+    'positions': [472]
+  },
+  'Siediti': {
+    'category': 'paese',
+    'confidence': 0.26280832290649414,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9637259259259259,
+    'early_appearance': True,
+    'positions': [2440]
+  },
+  'Marche': {
+    'category': 'paese',
+    'confidence': 0.4536382555961609,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.7514037037037037,
+    'early_appearance': False,
+    'positions': [11812, 13014, 19964, 20665]
+  },
+  'Field': {
+    'category': 'paese',
+    'confidence': 0.2527117431163788,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7497518518518519,
+    'early_appearance': False,
+    'positions': [9820, 18555]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7489259259259259,
+    'early_appearance': False,
+    'positions': [7670]
+  },
+  'Capisco': {
+    'category': 'paese',
+    'confidence': 0.29952776432037354,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7489259259259259,
+    'early_appearance': False,
+    'positions': [16303]
+  },
+  'Parco': {
+    'category': 'paese',
+    'confidence': 0.32768484950065613,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7489259259259259,
+    'early_appearance': False,
+    'positions': [20278]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 4,
+    'priority_score': 0.7440037037037037,
+    'early_appearance': False,
+    'positions': [18018, 18298, 21397, 25315]
+  },
+  'Tar': {
+    'category': 'paese',
+    'confidence': 0.23663370311260223,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [6296]
+  },
+  'Dovevo': {
+    'category': 'paese',
+    'confidence': 0.2509845197200775,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [6905]
+  },
+  'Senza Occhi è paura': {
+    'category': 'casa',
+    'confidence': 0.11806631833314896,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [11884]
+  },
+  'Pastore': {
+    'category': 'paese',
+    'confidence': 0.3190615475177765,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [16053]
+  },
+  'Immagino': {
+    'category': 'paese',
+    'confidence': 0.23326992988586426,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [17407]
+  },
+  'Festa': {
+    'category': 'paese',
+    'confidence': 0.2824993133544922,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [17688]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [21941, 24474]
+  },
+  'Casa': {
+    'category': 'paese',
+    'confidence': 0.20635977387428284,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [22003]
+  },
+  'Padre': {
+    'category': 'paese',
+    'confidence': 0.24555635452270508,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [23240]
+  },
+  'Me': {
+    'category': 'paese',
+    'confidence': 0.26424258947372437,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [24498]
+  },
+  'Smettila': {
+    'category': 'paese',
+    'confidence': 0.2629292905330658,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [26057]
+  },
+  'Fra': {
+    'category': 'paese',
+    'confidence': 0.23299364745616913,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [29611]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 18,
+    'priority_score': 0.24446666666666667,
+    'early_appearance': True,
+    'positions': [347, 1439, 1797, 2211, 3198, 3966, 5270, 5390, 8800, 9326, 9664, 11081, 14024, 21279, 22782, 23019, 23402, 23572, 25625, 26666, 27951, 28225, 28608]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [313, 973, 1160, 1215, 1776, 2241, 3010, 3576, 3669, 6046, 6834, 7572, 7762, 8042, 9412, 10030, 13159, 13505, 13694, 14007, 15126, 16284, 16709, 17798, 18204, 18689, 18943, 20072, 20825, 21017, 21716, 23420, 23620, 24041, 24516, 25060, 25578, 26535, 28031, 28393, 30463]
+  },
+  'Vere': {
+    'category': 'non_luogo',
+    'confidence': 0.30270180106163025,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23125185185185185,
+    'early_appearance': True,
+    'positions': [2727, 25671, 26177, 28247, 28868, 29308]
+  },
+  'Mormorando': {
+    'category': 'non_luogo',
+    'confidence': 0.29982849955558777,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23042592592592592,
+    'early_appearance': True,
+    'positions': [2991]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.014007407407407408,
+    'early_appearance': False,
+    'positions': [3885, 4404, 4688, 5675, 10511, 12466, 13644, 16733, 16979, 23930, 27966]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.014007407407407408,
+    'early_appearance': False,
+    'positions': [6336, 8145, 10788, 10881, 10999, 11365, 11459, 12410, 13068, 15663, 15758, 17088, 17284, 18272, 19570, 19661, 19757, 20621, 21241, 21330, 25447, 26604, 27664, 27870]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.014007407407407408,
+    'early_appearance': False,
+    'positions': [6346, 10390, 10752, 12047, 12265, 12578, 17636, 19303, 21121, 21223, 22463, 23207]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.013181481481481482,
+    'early_appearance': False,
+    'positions': [5149, 15834, 17670, 19477, 21834, 21988, 22259, 28658]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.01152962962962963,
+    'early_appearance': False,
+    'positions': [20674, 22189, 22222, 22349, 22427]
+  },
+  'Confine': {
+    'category': 'non_luogo',
+    'confidence': 0.2572762966156006,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [11822, 13024, 19975]
+  },
+  'Custodi': {
+    'category': 'non_luogo',
+    'confidence': 0.21045437455177307,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [19732, 21294, 22794]
+  },
+  'Rabbrividì': {
+    'category': 'non_luogo',
+    'confidence': 0.2566819190979004,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009051851851851853,
+    'early_appearance': False,
+    'positions': [11583, 20433]
+  },
+  'Grande Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.14952529966831207,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009051851851851853,
+    'early_appearance': False,
+    'positions': [11839, 19826]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009051851851851853,
+    'early_appearance': False,
+    'positions': [21049, 22965, 23131, 23333, 24402]
+  },
+  'Ruota del Tempo': {
+    'category': 'non_luogo',
+    'confidence': 0.11771215498447418,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [3376]
+  },
+  'Potere': {
+    'category': 'non_luogo',
+    'confidence': 0.15005744993686676,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [3432, 3510, 6572]
+  },
+  'Thakan’': {
+    'category': 'non_luogo',
+    'confidence': 0.1743534952402115,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [8200]
+  },
+  'Bene': {
+    'category': 'non_luogo',
+    'confidence': 0.21620887517929077,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [9142]
+  },
+  'Occhi': {
+    'category': 'non_luogo',
+    'confidence': 0.10184164345264435,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [11915]
+  },
+  'Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.1344870775938034,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [15489]
+  },
+  'Metà': {
+    'category': 'non_luogo',
+    'confidence': 0.17673005163669586,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [16930]
+  },
+  'Sapevano': {
+    'category': 'non_luogo',
+    'confidence': 0.21930326521396637,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [18398]
+  },
+  'Emond': {
+    'category': 'non_luogo',
+    'confidence': 0.32713156938552856,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [9811, 18545]
+  },
+  'Sorrise': {
+    'category': 'non_luogo',
+    'confidence': 0.3743515908718109,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [19114]
+  },
+  'Scorrerie': {
+    'category': 'non_luogo',
+    'confidence': 0.28512734174728394,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [19884]
+  },
+  'Shienar': {
+    'category': 'non_luogo',
+    'confidence': 0.2666455805301666,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [19935]
+  },
+  'Strada 
+della Cava': {
+    'category': 'non_luogo',
+    'confidence': 0.10820041596889496,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [22107]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [22168]
+  },
+  'Mura Lucenti': {
+    'category': 'non_luogo',
+    'confidence': 0.14885929226875305,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [22889]
+  },
+  'Zanna del Drago': {
+    'category': 'non_luogo',
+    'confidence': 0.16739250719547272,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [24865]
+  },
+  'Comare': {
+    'category': 'non_luogo',
+    'confidence': 0.2761378884315491,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [26167]
+  },
+  'Cerchia': {
+    'category': 'non_luogo',
+    'confidence': 0.19060716032981873,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [26564]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 27,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Moiraine',
+  'count': 38,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 57, 'joy': 29, 'anger': 5, 'fear': 6}, 'sentiment_counts': {'positive': 35, 'negative': 62}, 'emotion_percentages': {'sadness': 58.76288659793815, 'joy': 29.896907216494846, 'anger': 5.154639175257731, 'fear': 6.185567010309279}, 'sentiment_percentages': {'positive': 36.08247422680412, 'negative': 63.91752577319587}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.402552843093872, 'Riconoscimento entità con spaCy': 0.005002021789550781, 'Analisi emozioni': 15.959978818893433, 'Classificazione delle location': 69.25670599937439, 'Tempo totale': 87.62623739242554}"
+Original Text Extract,"8 
+ 
+Un luogo sicuro 
+ 
+ 
+ 
+ 
+ 
+Già nel varcare la soglia Rand cercò con gli occhi suo padre. Tam non si era mosso d’un dito: teneva 
+ancora gli occhi chiusi e respirava in ansiti faticosi, bassi e rauchi. Il menestrello interruppe la 
+conversazione con il sindaco, chino sul letto a sorvegliare Tam, e rivolse a Moiraine un’occhiata 
+inquieta. L’Aes Sedai non gli badò. A dire il vero, non badò a nessuno, escluso Tam: fissò il ferito, con 
+una ruga di concentrazione.  
+Thom si cacciò fra i denti la pipa spenta, la tolse di bocca, la guardò con rabbia.  
+«Non si può neppure fumare in pace» brontolò. «Farò meglio ad accertarmi che qualche contadino 
+non mi rubi il mantello per tenere al caldo la mucca. Almeno, fuori posso accendere la pipa.» Uscì in 
+fretta.  
+Lan, col viso squadrato e inespressivo come pietra, lo guardò uscire.  
+«Quell’uomo non mi piace» disse. «M’ispira diffidenza. Non l’ho visto per niente, ieri notte.»  
+«C’era» disse Bran, tenendo d’occhio Moiraine. «Non si è certo strinato il mantello al fuoco del 
+camino.»  
+Anche se il menestrello avesse passato la notte nascosto nella stalla, a Rand non importava. «Mio 
+padre?» disse a Moiraine, in tono supplichevole.  
+Bran aprì bocca, ma Moiraine lo precedette. «Lasciami con lui, mastro al’Vere» disse. «Qui mi 
+saresti solo d’intralcio.»  
+Bran esitò, combattuto fra l’avversione a ricevere ordini nella sua stessa locanda e la riluttanza a 
+disubbidire a una Aes Sedai. Alla fine si rialzò e posò la mano sulla spalla di Rand. «Vieni con me, 
+ragazzo» disse. «Lasciamo Moiraine Sedai al suo… ah… al suo… Di sotto c’è un mucchio di lavoro in 
+cui puoi darmi una mano. Prima che tu te ne accorga, Tam sarà lì a chiedere a gran voce la pipa e un 
+boccale di birra.»  
+«Posso restare?» chiese Rand a Moiraine, anche se l’Aes Sedai pareva non rendersi conto della 
+presenza di nessuno tranne Tam. Bran aumentò la stretta, ma Rand non gli badò. «Per favore. Starò 
+fuori dei piedi. Non ti accorgerai nemmeno di me. È mio padre» soggiunse, con una fierezza che lo 
+stupì e indusse il sindaco a spalancare gli occhi per la sorpresa. Rand si augurò che gli altri 
+l’attribuissero alla stanchezza o alla tensione di avere a che fare con una Aes Sedai.  
+«Sì, sì» rispose Moiraine, spazientita. Con gesto negligente aveva gettato bastone e mantello 
+sull’unica sedia e ora si arrotolava fino al gomito le maniche della veste, senza mai distogliere 
+l’attenzione da Tam. «Siediti lì.  
+Anche tu, Lan.» Indicò la panca contro la parete. Esaminò lentamente Tam dalla testa ai piedi, ma 
+Rand ebbe la bizzarra impressione che guardasse al di là  di Tam. «Parlate pure, se ne avete voglia» 
+continuò lei, con aria assente «ma sottovoce. Tu puoi andare, mastro al’Vere. Questa è una camera da 
+malato, non un salotto. Fai in modo che nessuno mi disturbi.»  
+Il sindaco brontolò sottovoce, ma non tanto forte da farsi sentire da lei; diede un’ultima stretta a 
+Rand e, seppur riluttante, uscì e si chiuse alle spalle la porta.  
+Mormorando tra sé, Moiraine si inginocchiò accanto al letto e posò leggermente le mani sul torace 
+
+di Tam. Chiuse gli occhi e per un bel pezzo non si mosse né disse parola.  
+Nelle storie, i miracoli delle Aes Sedai erano sempre accompagnati da lampi, tuoni, o altri segni che 
+indicavano l’opera di grandi poteri. Del  Potere. L’Unico Potere, tratto dalla Vera Fonte che muoveva 
+la Ruota del Tempo. Ma Rand non aveva voglia di pensare al Potere usato per Tam, né gli piaceva 
+trovarsi nella stanza in cui forse quel Potere operava. Però, a giudicare dalle apparenze, gli parve che 
+Moiraine si fosse addormentata. E, tuttavia, che Tam respirasse con minore difficoltà. Certo Moiraine 
+faceva qualcosa. Rand era così assorto in questi pensieri che sobbalzò, quando Lan gli si rivolse 
+sottovoce.  
+«Hai una bella spada. Per caso c’è un airone anche sulla lama?»  
+Per un attimo Rand fissò il Custode, senza afferrare il senso delle parole.  
+Nella foga di trattare con una Aes Sedai, aveva completamente dimenticato la spada di Tam. «Sì, c’è 
+un airone» rispose infine. «Cosa fa, lady Moiraine?»  
+«Non avrei mai pensato di trovare in un posto come questo una spada col marchio dell’airone» disse 
+Lan.  
+«È di mio padre.» Rand lanciò un’occhiata alla spada di Lan, la cui elsa era appena visibile sotto il 
+lembo del mantello; le due spade parevano assai simili, ma non c’era traccia di airone, in quella del 
+Custode. Tornò a guardare il letto: Tam respirava meglio, aveva smesso di rantolare. «L’ha comprata 
+molto tempo fa.»  
+«Un acquisto insolito, per un pastore.»  
+Rand lo guardò di sottecchi. Un forestiero che si mostrasse curioso a proposito della spada, era un 
+ficcanaso. Invece un Custode… Eppure si sentì obbligato a dire qualcosa. «Non gli è mai servita, per 
+quanto ne so.  
+Ha detto che non sapeva che farsene. Fino a ierinotte, comunque. Prima, non sapevo nemmeno che 
+l’avesse.»  
+«Ah, la considerava inutile, eh? Ma certo non è sempre stato di questa idea.» Col dito sfiorò il 
+fodero. "
+Token Count,6819

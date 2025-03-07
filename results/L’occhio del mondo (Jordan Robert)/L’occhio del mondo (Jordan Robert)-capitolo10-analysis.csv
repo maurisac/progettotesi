@@ -1,0 +1,446 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:25:21
+Entities,"{
+  ('Rand', 'MISC'): 46,
+  ('Lan', 'MISC'): 27,
+  ('Perrin', 'PER'): 18,
+  ('Egwene', 'PER'): 18,
+  ('Mat', 'MISC'): 14,
+  ('Moiraine', 'PER'): 13,
+  ('Trolloc', 'ORG'): 12,
+  ('Custode', 'PER'): 11,
+  ('Mat', 'PER'): 7,
+  ('Custode', 'LOC'): 7,
+  ('Disegno', 'MISC'): 5,
+  ('Aes Sedai', 'LOC'): 4,
+  ('Thom', 'PER'): 4,
+  ('Bela', 'PER'): 4,
+  ('Fiumi Gemelli', 'LOC'): 3,
+  ('Luhhan', 'PER'): 3,
+  ('Tar Valon', 'LOC'): 3,
+  ('Trolloc', 'LOC'): 3,
+  ('Cloud', 'MISC'): 3,
+  ('Mastro Luhhan', 'PER'): 2,
+  ('Moiraine Sedai', 'PER'): 2,
+  ('Tar Valon', 'MISC'): 2,
+  ('«Cosa', 'PER'): 2,
+  ('Rand', 'PER'): 2,
+  ('Myrddraal', 'LOC'): 2,
+  ('Thom Merrilin', 'PER'): 2,
+  ('Jon Thane', 'PER'): 2,
+  ('luna', 'LOC'): 2,
+  ('Strada Settentrionale', 'LOC'): 2,
+  ('Taren Ferry', 'PER'): 2,
+  ('Commiato', 'PER'): 1,
+  ('Prudenza e vita lunga', 'MISC'): 1,
+  ('ghirbe', 'LOC'): 1,
+  ('Cos’hai lì?» domandò', 'MISC'): 1,
+  ('Guardia di mercante', 'MISC'): 1,
+  ('Me', 'MISC'): 1,
+  ('Ti allenavi» lo beffeggiò', 'MISC'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Fiumi', 'LOC'): 1,
+  ('Gemelli', 'LOC'): 1,
+  ('Non so» disse Perrin', 'MISC'): 1,
+  ('«Trolloc', 'PER'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Tu le credi', 'MISC'): 1,
+  ('«Insomma', 'PER'): 1,
+  ('Shayol Ghul', 'PER'): 1,
+  ('Ridacchiò', 'PER'): 1,
+  ('La Luce mi bruci', 'MISC'): 1,
+  ('Rand!» disse', 'MISC'): 1,
+  ('Mio', 'PER'): 1,
+  ('Vestiva di grigio', 'MISC'): 1,
+  ('Baerlon', 'LOC'): 1,
+  ('Non senza di me', 'MISC'): 1,
+  ('«Ho', 'PER'): 1,
+  ('Waterwood', 'LOC'): 1,
+  ('Egwene', 'LOC'): 1,
+  ('Arretrò', 'PER'): 1,
+  ('tu eri', 'PER'): 1,
+  ('I Trolloc!', 'MISC'): 1,
+  ('Bene» disse Moiraine', 'MISC'): 1,
+  ('«', 'PER'): 1,
+  ('«No', 'PER'): 1,
+  ('Moiraine!', 'MISC'): 1,
+  ('Ridicolo!', 'MISC'): 1,
+  ('Parto anch’io', 'MISC'): 1,
+  ('«Gli', 'PER'): 1,
+  ('Impossibile', 'ORG'): 1,
+  ('piano Moiraine', 'MISC'): 1,
+  ('Mastro Merrilin', 'PER'): 1,
+  ('Tar Valon?', 'MISC'): 1,
+  ('Watch Hill', 'MISC'): 1,
+  ('Penso', 'PER'): 1,
+  ('Mastro Thane', 'PER'): 1,
+  ('Ridacchiarono', 'LOC'): 1,
+  ('Un lupo!» esclamò', 'MISC'): 1,
+  ('Ponte Carraio', 'LOC'): 1,
+  ('Due Trolloc Dha’', 'MISC'): 1,
+  ('Andiamo', 'PER'): 1,
+  ('Fonte di Vino', 'LOC'): 1,
+  ('Risalita', 'PER'): 1,
+  ('Oltrepassarono', 'PER'): 1,
+  ('«Draghkar', 'PER'): 1,
+  ('Sì» disse Moiraine', 'MISC'): 1,
+  ('Draghkar', 'PER'): 1,
+  ('Myrddraal', 'MISC'): 1,
+  ('Un Draghkar', 'MISC'): 1,
+  ('Epoca 
+Leggendaria', 'MISC'): 1,
+  ('Mezzi Uomini', 'MISC'): 1,
+  ('Prima', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 27,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [414, 1108, 1479, 1760, 3275, 4493, 7383, 8747, 10010, 10138, 10304, 11316, 11929, 13086, 13412, 13522, 13617, 13845, 15809, 16470, 17779, 18978, 19562, 21478, 21619, 21787, 22808]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 7,
+    'priority_score': 0.9686814814814815,
+    'early_appearance': True,
+    'positions': [226, 1376, 1566, 2252, 2949, 3103, 4019, 4210, 4325, 5062, 5390, 5946, 6841, 7513, 8074, 8143, 8595, 8907, 9142, 9489, 16965]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9645518518518519,
+    'early_appearance': True,
+    'positions': [187, 1274, 1397, 1681, 1823, 2059, 2563, 2904, 4384, 4694, 5173, 5423, 6146, 6580, 6994, 7354, 8354, 9061, 9250, 9363, 10432, 10564, 13110, 13595, 14029, 14120, 14250, 14305, 14442, 14871, 15107, 15379, 15480, 15702, 15897, 15998, 16917, 17357, 18097, 18449, 19821, 20229, 20590, 20683, 21215, 21454, 21739, 21991]
+  },
+  'luna': {
+    'category': 'paese',
+    'confidence': 0.2767038345336914,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7497518518518519,
+    'early_appearance': False,
+    'positions': [17072, 21164]
+  },
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 4,
+    'priority_score': 0.7440037037037037,
+    'early_appearance': False,
+    'positions': [11411, 12160, 12839, 13171]
+  },
+  'Cloud': {
+    'category': 'paese',
+    'confidence': 0.3443615734577179,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [15266, 15610, 15939]
+  },
+  'Me': {
+    'category': 'paese',
+    'confidence': 0.26424258947372437,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [2850]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [3743]
+  },
+  'Mio': {
+    'category': 'paese',
+    'confidence': 0.22315362095832825,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [6250]
+  },
+  'Impossibile': {
+    'category': 'paese',
+    'confidence': 0.18673671782016754,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [11243]
+  },
+  'Penso': {
+    'category': 'paese',
+    'confidence': 0.1903143972158432,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [14826]
+  },
+  'Andiamo': {
+    'category': 'paese',
+    'confidence': 0.2439856380224228,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [19082]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [22745]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.23538148148148147,
+    'early_appearance': True,
+    'positions': [237, 655, 1431, 1768, 4102, 4260, 4484, 7116, 10067, 10357, 11181, 11747, 12551, 16562, 17219, 19131, 19490, 21870]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [1093, 8001, 20284]
+  },
+  'ghirbe': {
+    'category': 'non_luogo',
+    'confidence': 0.23776929080486298,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23042592592592592,
+    'early_appearance': True,
+    'positions': [1225]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.010703703703703705,
+    'early_appearance': False,
+    'positions': [4273, 4306, 5974, 6058, 7642]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [3803, 5454, 10482, 11640, 14812]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [4447, 5853, 5990, 8435, 9301, 9497, 10791, 12508, 12741, 14910, 16630, 16651, 21730, 22360, 22602]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009051851851851853,
+    'early_appearance': False,
+    'positions': [11073, 22162, 22336]
+  },
+  'Strada Settentrionale': {
+    'category': 'non_luogo',
+    'confidence': 0.11917391419410706,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009051851851851853,
+    'early_appearance': False,
+    'positions': [20153, 22855]
+  },
+  'Fiumi': {
+    'category': 'non_luogo',
+    'confidence': 0.18283352255821228,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [3761]
+  },
+  'Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.1344870775938034,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [3768]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [7171]
+  },
+  'Waterwood': {
+    'category': 'non_luogo',
+    'confidence': 0.21882008016109467,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [8046]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [7277, 7617, 7792, 8057, 8464, 8568, 9236, 9343, 9642, 10418, 11120, 13464, 13695, 14467, 14655, 16433, 16890, 21967, 22440]
+  },
+  'Ridacchiarono': {
+    'category': 'non_luogo',
+    'confidence': 0.28450047969818115,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [16275]
+  },
+  'Ponte Carraio': {
+    'category': 'non_luogo',
+    'confidence': 0.09269462525844574,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [17843]
+  },
+  'Fonte di Vino': {
+    'category': 'non_luogo',
+    'confidence': 0.1638592928647995,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [19251]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 27,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 18,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 60, 'joy': 23, 'fear': 4, 'anger': 8}, 'sentiment_counts': {'negative': 64, 'positive': 31}, 'emotion_percentages': {'sadness': 63.1578947368421, 'joy': 24.210526315789473, 'fear': 4.2105263157894735, 'anger': 8.421052631578947}, 'sentiment_percentages': {'negative': 67.36842105263158, 'positive': 32.631578947368425}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.4047062397003174, 'Riconoscimento entità con spaCy': 0.003038167953491211, 'Analisi emozioni': 23.57498002052307, 'Classificazione delle location': 31.175469398498535, 'Tempo totale': 56.16019105911255}"
+Original Text Extract,"10 
+ 
+Commiato 
+ 
+ 
+ 
+ 
+ 
+L’unica luce era fornita dalla lanterna con gli scuri semichiusi, appesa al chiodo infisso nel montante 
+di uno stallo, ma non disperdeva le fitte ombre. Quando Rand varcò la soglia, alle calcagna di Mat e del 
+Custode, Perrin, che se ne stava seduto con la schiena contro il battente di uno stallo, balzò in piedi, 
+con un fruscio di paglia smossa. Era avvolto in un pesante mantello.  
+Lan si fermò quanto bastava a domandare: «Hai guardato come ti ho detto, fabbro?»  
+«Ho guardato» rispose Perrin. «Non c’è nessuno, a parte noi. Perché qualcuno dovrebbe 
+nascondersi…»  
+«Prudenza e vita lunga vanno a braccetto, fabbro.» Il Custode esaminò rapidamente la stalla in 
+penombra e le ombre più fitte del fienile sovrastante, poi scosse la testa. «Non c’è tempo» borbottò tra 
+sé. «Dobbiamo sbrigarci, dice lei.»  
+Subito si diresse verso i cinque cavalli già sellati, fermi ai margini della zona illuminata; due erano 
+lo stallone morello e la giumenta bianca; gli altri, meno alti di zampe e meno lucidi di pelo, 
+sembravano comunque fra i migliori disponibili nei Fiumi Gemelli. Lan cominciò a esaminare 
+attentamente gli straccali, i sottosella, le cinghie di cuoio che reggevano le bisacce, le ghirbe e i rotoli 
+di coperte dietro la sella.  
+Rand scambiò con gli amici un sorriso incerto, cercando di sembrare ansioso di partire.  
+Solo allora Mat notò la spada di Rand e la indicò. «Vuoi diventare Custode?» rise; poi deglutì, con 
+un’occhiata a Lan, che parve non accorgersi di niente. «O come minimo guardia di mercanti» continuò 
+Mat, con un sogghigno che parve solo un po’ sforzato. Mostrò l’arco. «Non ti bastava un’onesta arma 
+da uomini?»  
+Rand avrebbe voluto fare sfoggio della spada, ma fu dissuaso dalla presenza di Lan. Il Custode non 
+guardava neppure nella loro direzione, ma Rand era sicuro che niente gli sfuggiva. Con noncuranza 
+esagerata disse invece: «Può venire utile.» Come se portare una spada fosse la cosa più naturale del 
+mondo.  
+Perrin si mosse, cercando di nascondere qualcosa sotto il mantello. Rand scorse intorno ai fianchi 
+dell’apprendista fabbro un’ampia cintura di cuoio nella quale era infilato il manico di un’ascia.  
+«Cos’hai lì?» domandò.  
+«Guardia di mercante, proprio» rise Mat.  
+Perrin gli diede un’occhiata che rivelava chiaramente come anche lui avesse avuto la sua parte di 
+prese in giro; poi sospirò e scostò il mantello per mostrare l’ascia. Non era un utensile da boscaiolo. 
+L’ampia lama a mezzaluna da un lato e la punta dall’altro la rendevano insolita quanto la spada di 
+Rand. Però Perrin vi posava sopra la mano in un modo che denotava una certa familiarità.  
+«Mastro Luhhan l’ha fabbricata due anni fa, per la guardia di un mercante di lana» disse. «Finito il 
+lavoro, la guardia non voleva pagare il pattuito e mastro Luhhan non voleva cederla per meno. Me l’ha 
+data quando…» si schiarì la voce e rivolse a Rand lo stesso cipiglio ammonitore rivolto a Mat  
+«quando ha scoperto che mi allenavo a usarla. Ha detto che potevo tenermela, visto che lui non 
+sapeva cosa farsene.»  
+
+«Ti allenavi» lo beffeggiò Mat; ma alzò subito le mani per calmarlo, quando lui drizzò la testa. 
+«Certo, certo. Fa piacere che uno di noi sappia usare un’arma vera.»  
+«L’arco è un’arma vera» disse Lan all’improvviso. Appoggiò il braccio di traverso sulla sella del 
+morello e li guardò con espressione seria. «Lo stesso vale per le fionde che ho visto usare a voi ragazzi 
+del villaggio. Che vi servano solo per cacciare conigli selvatici o allontanare un lupo dal gregge non fa 
+differenza. Qualsiasi cosa può essere un’arma, se chi la impugna ha il coraggio e la volontà di renderla 
+tale. Trolloc a parte, è bene che l’abbiate chiaro in mente, prima di lasciare Emond’s Field e i Fiumi 
+Gemelli, se volete arrivare vivi a Tar Valon.»  
+Il suo viso e la voce, gelidi come la morte e duri come pietre tombali appena sbozzate, soffocarono 
+il sorriso e la lingua dei tre ragazzi. Perrin, con una smorfia, tirò il mantello a coprire l’ascia. Mat 
+abbassò gli occhi e col piede smosse la paglia che ricopriva il pavimento. Il Custode borbottò e riprese i 
+controlli; il silenzio si protrasse.  
+«Non è come nelle storie» disse infine Mat.  
+«Non so» disse Perrin, aspro. «Trolloc, un Custode, una Aes Sedai. Cosa vuoi di più?»  
+«Aes Sedai» mormorò Mat, come se all’improvviso avesse freddo.  
+«Tu le credi, Rand?» domandò Perrin. «Insomma, cosa possono volere da noi, i Trolloc?»  
+Tutt’e tre guardarono il Custode. Lan pareva concentrato sul sottopancia della giumenta bianca, ma i 
+tre ragazzi si spostarono verso la porta della stalla, lontano da lui. E si accostarono l’uno all’altro e 
+parlarono a bassa voce.  
+Rand scosse la testa. «Non so, ma aveva ragione sul fatto che hanno assalito solo le nostre fattorie. E 
+qui al villaggio, per prima cosa la fucina e la casa di mastro Luhhan. Il sindaco me l’ha confermato. 
+Che cercassero noi è una spiegazione buona quanto un’altra.» Si accorse a un tratto che gli altri "
+Token Count,4951

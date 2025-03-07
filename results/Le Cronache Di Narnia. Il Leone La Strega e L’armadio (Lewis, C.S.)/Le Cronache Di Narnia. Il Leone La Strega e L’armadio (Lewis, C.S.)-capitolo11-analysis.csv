@@ -1,0 +1,205 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:55
+Entities,"{
+  ('Edmund', 'PER'): 23,
+  ('Strega Bianca', 'PER'): 4,
+  ('Aslan', 'PER'): 2,
+  ('Strega
+Bianca', 'PER'): 2,
+  ('Maugrim', 'PER'): 2,
+  ('Maestà', 'MISC'): 1,
+  ('Zitto', 'PER'): 1,
+  ('La strega', 'MISC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Prendi con te', 'MISC'): 1,
+  ('tro-', 'PER'): 1,
+  ('Tavola di Pietra', 'LOC'): 1,
+  ('Maestà — ringhiò il lupo', 'MISC'): 1,
+  ('Mau-', 'PER'): 1,
+  ('Peter', 'LOC'): 1,
+  ('Ferma', 'PER'): 1,
+  ('Papà Scoiattolo', 'PER'): 1,
+  ('Rispondete, luridi parassiti', 'MISC'): 1,
+  ('Maestà — rispose la volpe', 'MISC'): 1,
+  ('Posso', 'LOC'): 1,
+  ('B-b-babbo N-n-natale', 'MISC'): 1,
+  ('Oh, no', 'MISC'): 1,
+  ('Ripresero il viaggio', 'MISC'): 1,
+  ('gazzo', 'PER'): 1,
+  ('Narnia', 'LOC'): 1,
+  ('Qua', 'PER'): 1,
+  ('Maestà', 'PER'): 1,
+  ('Sei il mio schiavo', 'MISC'): 1,
+  ('Fai', 'LOC'): 1,
+  ('Taglia', 'PER'): 1,
+  ('Il nano', 'MISC'): 1,
+  ('Bada', 'PER'): 1,
+  ('Un'ape attraversò il sentiero', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Strega
+Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9740500000000001,
+    'early_appearance': True,
+    'positions': [1258, 3166]
+  },
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 4,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [4018, 4245, 5612, 6013]
+  },
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.753675,
+    'early_appearance': False,
+    'positions': [8703]
+  },
+  'Tavola di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [1795]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [3427]
+  },
+  'Posso': {
+    'category': 'non_luogo',
+    'confidence': 0.34941643476486206,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [5441]
+  },
+  'Fai': {
+    'category': 'non_luogo',
+    'confidence': 0.25363773107528687,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [9739]
+  },
+}"
+Main Location,"{
+  'name': 'Strega
+Bianca',
+  'category': 'carcere magico',
+  'spacy_label': 'PER',
+  'confidence': 0.10352206230163574,
+  'count': 2,
+  'priority_score': 0.9740500000000001,
+  'early_appearance': True,
+  'sound_category': 'carcere magico',
+}"
+Main Character,"{
+  'name': 'Edmund',
+  'count': 23,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 36, 'sadness': 48, 'anger': 10, 'fear': 4}, 'sentiment_counts': {'positive': 32, 'negative': 66}, 'emotion_percentages': {'joy': 36.734693877551024, 'sadness': 48.97959183673469, 'anger': 10.204081632653061, 'fear': 4.081632653061225}, 'sentiment_percentages': {'positive': 32.6530612244898, 'negative': 67.3469387755102}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.7721786499023438, 'Riconoscimento entità con spaCy': 0.0, 'Analisi emozioni': 21.07184147834778, 'Classificazione delle location': 13.12623906135559, 'Tempo totale': 34.972259759902954}"
+Original Text Extract,"11
+Aslan si avvicina
+Edmund, nel frattempo, passava dei momenti poco allegri. Il nano era
+andato a preparare la slitta e il ragazzo sperava che la regina si sarebbe
+mostrata gentile come la prima volta. E invece no. Quando si azzardò a
+chiedere: — Maestà, potrei avere i dolci che mi ha promesso? — Ella ri-
+spose seccamente: — Zitto tu, imbecille. — Poi sembrò ripensarci e mor-
+morò tra sé: — Non vorrei che questo marmocchio mi svenisse dalla fame,
+strada facendo. — Quindi batté le mani col suo fare imperioso e subito
+
+comparve un altro nano. — Porta qualcosa da mangiare e da bere a que-
+st'essere umano — ordinò, e dopo un attimo il nano fu di ritorno. In una
+mano teneva un piatto di ferro con del pane secco, nell'altra una brocca
+d'acqua.
+— Ecco i dolci per il principino — disse con un sogghigno ripugnante, e
+depose il tutto sul pavimento ai piedi di Edmund.
+— Porta via subito questa roba — gridò Edmund, con stizza. — Non
+mangio pane secco, io.
+La strega si voltò verso di lui e lo guardò con un'espressione così terribi-
+le che il ragazzo si affrettò a scusarsi, prese il pane e cominciò a sboccon-
+cellarlo.
+Mentre Edmund masticava un boccone che sapeva vagamente di muffa,
+entrò il primo nano annunciando che la slitta era pronta. Allora la Strega
+Bianca si alzò e si avviò decisa verso l'uscita, ordinando al ragazzo di se-
+guirla.
+Prima di partire la strega chiamò Maugrim, il lupo, che arrivò a grandi
+balzi e si mise ai suoi ordini.
+— Prendi con te il più veloce dei lupi — disse la strega. — Andrai di
+corsa sulla diga, alla casa dei castori, e ucciderai tutti quelli che troverai al-
+l'interno. Io andrò a ovest e dovrò percorrere qualche miglio prima di tro-
+vare il punto adatto per attraversare il fiume con la slitta. Se non c'è nes-
+suno alla diga, va' di corsa alla Tavola di Pietra e nasconditi ad aspettarmi.
+Se incontrerai per strada qualche essere umano, sai cosa devi fare.
+— Tu hai parlato, Maestà — ringhiò il lupo. — Io obbedisco. — Mau-
+grim se ne andò veloce come un cavallo al galoppo, chiamò uno dei suoi
+peggiori lupacci e si diresse di corsa alla diga. Giunto sul posto in pochi
+minuti, puntò dritto sulla casetta dei castori. Buon per loro e per i tre ra-
+gazzi che dopo la partenza fosse caduta molta neve: altrimenti Maugrim e il
+suo compare avrebbero annusato la traccia dei fuggitivi e li avrebbero
+raggiunti ben presto, certo prima che si rifugiassero nella caverna a riposa-
+re. Così, invece, i due lupi trovarono la casa vuota e annusarono a lungo ma
+inutilmente tutt'intorno: ogni odore era scomparso, le orme giacevano sotto
+un morbido strato di neve.
+Nel frattempo il nano cocchiere guidava la slitta nel buio della notte
+fredda, frustando le renne che filavano come il vento. Fu un viaggio terri-
+bile per il povero Edmund, che batteva i denti. Dopo un quarto d'ora era
+
+tutto coperto di fiocchi di neve; dapprima aveva tentato di toglierseli conti-
+nuamente, ma poi aveva rinunciato: ne buttava via alcuni ma gliene cade-
+
+vano addosso altri e sempre più numerosi.
+Come si sentiva infelice, il povero Edmund (e stanco, impaurito, bagna-to
+fino all'osso). Capiva bene che non c'era la minima probabilità che la Strega
+Bianca lo facesse diventare re o principe. Le bugie che si era rac-contato
+per convincersi che fosse buona, gentile e avesse diritto al trono, gli
+sembravano enormi sciocchezze. Avrebbe dato qualunque cosa per tro-varsi
+ancora con gli altri, perfino con Peter. L'unica consolazione era spe-rare che
+si trattasse di un brutto sogno dal quale presto o tardi si sarebbe svegliato:
+perché a mano a mano che proseguivano nel viaggio, un'ora do-po l'altra,
+gli pareva davvero di sognare.
+Ma la faccenda durò più a lungo di quanto potrei raccontarvi, anche se
+riempissi pagine e pagine. È meglio perciò che vi dica quello che avvenne
+quando smise di nevicare e spuntò l'alba. La slitta filava veloce: la sua cor-
+sa silenziosa era accompagnata solo dal fruscio della neve, lo schiocco del-
+la frusta e il vibrare delle redini tese.
+A un certo punto la Strega Bianca gridò: — Cosa succede, qui? Ferma,
+ferma!
+La slitta si fermò subito. Per un attimo Edmund sperò che la strega aves-
+se deciso di far colazione, come la fortunata comitiva che si vedeva laggiù,
+sotto i pini. Ma la Strega Bianca aveva ben altre intenzioni: fissava acci-
+gliata il gruppetto composto da una coppia di scoiattoli con i loro piccoli,
+un nano, due satiri giovanissimi e una volpe molto vecchia seduti intorno a
+una tavola. Edmund non riusciva a vedere cosa stessero mangiando ma
+sentiva un buon odorino di crostata di prugne, e sulla tavola pareva che ci
+fossero decorazioni natalizie. La volpe, che era la più anziana di tutti, si era
+alzata in piedi proprio in quel momento e, sollevando il bicchiere, si
+preparava a fare un brindisi. Ma quando lei e gli altri commensali videro la
+slitta e chi la occupava, ogni allegria sparì dai loro volti. Papà Scoiattolo
+restò con la forchetta a mezz'aria, uno dei due satiri si immobilizzò con la
+forchetta in bocca"
+Token Count,2873

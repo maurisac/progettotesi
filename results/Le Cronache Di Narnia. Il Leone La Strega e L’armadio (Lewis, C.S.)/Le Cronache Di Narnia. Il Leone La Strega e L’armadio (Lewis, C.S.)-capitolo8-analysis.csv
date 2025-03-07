@@ -1,0 +1,276 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:19
+Entities,"{
+  ('Castoro', 'PER'): 32,
+  ('Aslan', 'PER'): 18,
+  ('Lucy', 'PER'): 14,
+  ('Edmund', 'PER'): 13,
+  ('Susan', 'PER'): 8,
+  ('Adamo', 'PER'): 7,
+  ('Peter', 'PER'): 5,
+  ('Peter', 'LOC'): 5,
+  ('Cair Paravel', 'LOC'): 4,
+  ('Narnia', 'LOC'): 4,
+  ('Strega Bianca', 'PER'): 4,
+  ('Tumnus', 'PER'): 3,
+  ('Strega Bianca', 'LOC'): 3,
+  ('Oh', 'PER'): 2,
+  ('Eva', 'PER'): 2,
+  ('Strega
+Bianca', 'PER'): 2,
+  ('Lilith', 'PER'): 2,
+  ('Temo', 'LOC'): 1,
+  ('Sta-', 'MISC'): 1,
+  ('Travestirci', 'LOC'): 1,
+  ('Una volta ancora Peter', 'MISC'): 1,
+  ('Il dolore', 'MISC'): 1,
+  ('Conoscerete il grande Aslan', 'MISC'): 1,
+  ('Oltremare', 'LOC'): 1,
+  ('gnora Castoro', 'PER'): 1,
+  ('Innocuo', 'PER'): 1,
+  ('Tavola di Pie-', 'MISC'): 1,
+  ('Verrete?
+', 'MISC'): 1,
+  ('C'è una cosa', 'MISC'): 1,
+  ('Le piacerebbe!', 'MISC'): 1,
+  ('gue umano', 'MISC'): 1,
+  ('Verissimo', 'PER'): 1,
+  ('Adamo ed Eva', 'PER'): 1,
+  ('Guai', 'ORG'): 1,
+  ('Eva', 'LOC'): 1,
+  ('Corsero', 'MISC'): 1,
+  ('Diamine', 'PER'): 1,
+  ('Dividerci', 'LOC'): 1,
+  ('Oh, no, no', 'MISC'): 1,
+  ('No', 'MISC'): 1,
+  ('Dobbiamo', 'PER'): 1,
+  ('Andiamo', 'PER'): 1,
+  ('La strega', 'MISC'): 1,
+  ('Dob-', 'MISC'): 1,
+  ('C'è un pericolo peggiore', 'MISC'): 1,
+  ('Ed-
+mund', 'LOC'): 1,
+  ('Tavola di Pietra', 'LOC'): 1,
+  ('Sbrighia-', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.76594,
+    'early_appearance': False,
+    'positions': [5663, 6961, 7407, 10752]
+  },
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.7614799999999999,
+    'early_appearance': False,
+    'positions': [5892, 6846, 10342, 10639, 11031, 12084, 12953]
+  },
+  'Eva': {
+    'category': 'paese',
+    'confidence': 0.21247456967830658,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [3161, 5614, 7355]
+  },
+  'Strega
+Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7496200000000001,
+    'early_appearance': False,
+    'positions': [5456, 7467]
+  },
+  'Temo': {
+    'category': 'non_luogo',
+    'confidence': 0.285136342048645,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [516]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [1419, 4186, 5393, 7090, 8823, 9064, 9982, 10862, 12212, 12417]
+  },
+  'Cair Paravel': {
+    'category': 'non_luogo',
+    'confidence': 0.28736650943756104,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.025240000000000002,
+    'early_appearance': False,
+    'positions': [5059, 7203, 7360, 11352]
+  },
+  'Travestirci': {
+    'category': 'non_luogo',
+    'confidence': 0.3769172132015228,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [1428]
+  },
+  'Oltremare': {
+    'category': 'non_luogo',
+    'confidence': 0.35897505283355713,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [3434]
+  },
+  'Dividerci': {
+    'category': 'non_luogo',
+    'confidence': 0.28634968400001526,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [9112]
+  },
+  'Ed-
+mund': {
+    'category': 'non_luogo',
+    'confidence': 0.3693607747554779,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [12532]
+  },
+  'Tavola di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [12621]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 4,
+  'priority_score': 0.76594,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Castoro',
+  'count': 32,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'fear': 4, 'sadness': 50, 'joy': 28, 'anger': 9}, 'sentiment_counts': {'negative': 62, 'positive': 29}, 'emotion_percentages': {'fear': 4.395604395604396, 'sadness': 54.94505494505495, 'joy': 30.76923076923077, 'anger': 9.89010989010989}, 'sentiment_percentages': {'negative': 68.13186813186813, 'positive': 31.868131868131865}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.008228063583374, 'Riconoscimento entità con spaCy': 0.0010004043579101562, 'Analisi emozioni': 14.157179832458496, 'Classificazione delle location': 19.51490020751953, 'Tempo totale': 34.68331027030945}"
+Original Text Extract,"8
+Cosa accadde dopo pranzo
+— E ora, per favore, ci dica che ne è del signor Tumnus — chiese subito
+Lucy.
+— Oh, un brutto affare — sospirò il signor Castoro, scuotendo la testa.
+— Un affare bruttissimo. Non c'è dubbio: lo ha portato via la polizia. A me
+l'ha detto un uccello che era presente al fatto.
+— Ma dove lo hanno portato? — chiese ancora Lucy.
+— Verso nord, e sappiamo bene cosa significhi.
+— Noi no che non lo sappiamo — obiettò Lucy.
+Il signor Castoro tornò a scuotere la testa con aria cupa. Poi disse: —
+Temo proprio che lo abbiano portato da quella là.
+— E cosa gli faranno?
+— Non si può dire con esattezza — rispose l'altro. — Non sono molti
+quelli che tornano indietro da laggiù. Pare che sia un posto pieno di statue:
+nel cortile d'ingresso, nella sala grande, su per le scale, nelle camere. Sta-
+tue dappertutto... — Il signor Castoro fece una piccola pausa, rabbrividì e
+infine aggiunse: — Lei trasforma tutti in statue. Di pietra.
+— Ma noi, signor Castoro, non possiamo... — balbettò Lucy. — Voglio
+dire che dobbiamo fare qualcosa, salvarlo. È terribile pensare che sia acca-
+duto per causa mia.
+— Non dubito della tua buona volontà, mia cara — intervenne la signora
+Castoro — ma non c'è modo di entrare in quella casa senza il permesso
+della strega. E capirai anche tu che, stando così le cose, non c'è nessuna
+probabilità di uscirne vivi.
+— Non si potrebbe escogitare qualche stratagemma? — chiese Peter. —
+Travestirci da venditori ambulanti, per esempio. Oppure aspettare che lei
+esca ed entrare di soppiatto. Oh, maledizione, dev'esserci un modo. Il fau-
+no ha salvato mia sorella mettendo a repentaglio la vita. Non possiamo
+permettere che gli facciano, sì, insomma, quello che sappiamo.
+— Non puoi far nulla, figlio di Adamo — replicò il signor Castoro. —
+Non ci provare neppure. Tu e i tuoi fratelli meno di qualsiasi altro. Ma ora
+che Aslan si è messo in moto...
+— Già, ci parli di lui — fece un coro di voci.
+Una volta ancora Peter, Susan e Lucy si erano sentiti invadere da uno
+
+strano sentimento, qualcosa di simile all'emozione che ci prende all'inizio
+della primavera o al sentire una buona notizia.
+— Chi è Aslan? — chiese Susan.
+— Come, non sai chi è Aslan? — ribatté il signor Castoro, stupito. — Ma
+è il re, il padrone di tutto. Non viene spesso qui, certo, ma è il signore del
+bosco. Io non l'ho mai visto e neppure mio padre, ma abbiamo saputo del
+suo arrivo. Ora è qui nel paese, metterà a posto la cosiddetta regina. Sa-rà
+lui che salverà Tumnus, non voi quattro.
+— Lei non tramuterà in pietra anche questo tale? — chiese Edmund.
+— Che Dio ti benedica, figlio di Adamo. Come ti vengono in mente cer-
+te cose? — esclamò il signor Castoro con una gran risata. — Di pietra lui?
+Come se fosse facile. Sarà molto se la regina riuscirà a resistere al suo
+sguardo. No, no. Aslan sistemerà tutto, anche lei. C'è un'antica profezia che
+dice esattamente così:
+Il dolore sparirà, quando Aslan comparirà;
+al digrignare dei suoi denti fuggon tutti i malviventi;
+quando romba il suo ruggito, gelo e inverno è ormai finito;
+se lui scuote la criniera, qui ritorna primavera.
+— Lo vedremo anche noi? — chiese Susan.
+— Ma certo, figlia di Eva. È per questo che siete qui. Io vi porterò da lui.
+Conoscerete il grande Aslan.
+— È un uomo? — chiese Lucy.
+— Aslan un uomo? — fece il signor Castoro, con un'espressione quasi
+costernata. — No di certo. Vi ho detto che è il re del bosco, figlio del
+grande imperatore d'Oltremare, no? Non sapete, dunque, chi è il re di tutti
+gli animali? Aslan è un leone, anzi, è il grande leone.
+— Oh, credevo fosse un uomo — esclamò Susan. — E non è pericolo-
+so? Io non mi sento molto tranquilla all'idea di incontrare un leone. Credo
+che avrò paura.
+— Ma certo che avrai paura, mia cara — intervenne dolcemente la si-
+gnora Castoro. — Se c'è qualcuno che può comparirgli davanti senza tre-
+mare o è il più coraggioso che ci sia al mondo, o è semplicemente uno
+sciocco.
+— Ma non è innocuo? — chiese Lucy.
+— Innocuo? — ripeté il signor Castoro, con fare sorpreso. — Non hai
+sentito cosa ha detto mia moglie? È grande e terribile, ma è buono. È terri-
+
+bile, ma giusto. È il re.
+— Be', non vedo l'ora di conoscerlo — disse da parte sua Peter. — Poi, al
+momento buono, avrò una gran paura anch'io, come tutti.
+— Ben detto, figlio di Adamo — tuonò il signor Castoro, battendo una
+zampa sulla tavola (tutte le tazze e i bicchieri che c'erano sopra tintinnaro-
+no per lo scossone). — L'appuntamento è per domani, alla Tavola di Pie-tra.
+Verrete?
+— Dov'è questo posto? — chiese Lucy.
+— Lungo il fiume — rispose lui. — Molto lontano, però. Molto lontano.
+Sarà una bella camminata, ma vi accompagnerò io.
+— E il povero signor Tumnus, intanto? — chiese ancora Lucy.
+— Il modo migliore e più rapido per aiutarlo è quello di incontrare A-
+slan. Dopo si comincerà a far qualcosa. Prima, non è possibile. Questo non
+vuol dire che voi quattro non possiate far nulla, intendiamoci. Anzi. C'è
+molto bisogno di voi perché la profezia dice:
+Il tempo del male sarà ter"
+Token Count,3135

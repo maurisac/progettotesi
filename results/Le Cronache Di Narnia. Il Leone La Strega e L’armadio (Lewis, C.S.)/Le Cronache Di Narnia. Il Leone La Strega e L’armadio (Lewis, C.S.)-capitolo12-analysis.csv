@@ -1,0 +1,286 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:56
+Entities,"{
+  ('Aslan', 'PER'): 22,
+  ('Peter', 'PER'): 16,
+  ('Susan', 'PER'): 7,
+  ('Lucy', 'PER'): 7,
+  ('Peter', 'LOC'): 7,
+  ('Adamo', 'PER'): 5,
+  ('Castoro', 'PER'): 4,
+  ('Edmund', 'PER'): 3,
+  ('Tavola di Pietra', 'LOC'): 2,
+  ('Eva', 'PER'): 2,
+  ('Narnia', 'LOC'): 2,
+  ('Su-', 'MISC'): 2,
+  ('battaglia di Peter', 'MISC'): 1,
+  ('Mentre il nano', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Cos'', 'LOC'): 1,
+  ('Passa-', 'MISC'): 1,
+  ('Direi', 'PER'): 1,
+  ('Mio Dio', 'PER'): 1,
+  ('Susan', 'LOC'): 1,
+  ('regno di Narnia', 'LOC'): 1,
+  ('Andiamo', 'PER'): 1,
+  ('Vada', 'LOC'): 1,
+  ('Oh, no', 'MISC'): 1,
+  ('Benvenuto', 'PER'): 1,
+  ('Benve-', 'MISC'): 1,
+  ('Strega Bianca', 'PER'): 1,
+  ('Vieni con me', 'MISC'): 1,
+  ('argenteo', 'LOC'): 1,
+  ('Grande Fiume', 'LOC'): 1,
+  ('glioso', 'PER'): 1,
+  ('Eccolo, uomo', 'MISC'): 1,
+  ('Cair Paravel', 'LOC'): 1,
+  ('minerai', 'LOC'): 1,
+  ('surro', 'PER'): 1,
+  ('ron-ron', 'LOC'): 1,
+  ('Finalmente Peter', 'PER'): 1,
+  ('Naiadi', 'MISC'): 1,
+  ('vibrò', 'MISC'): 1,
+  ('Tremava', 'LOC'): 1,
+  ('Presto', 'MISC'): 1,
+  ('Aquile', 'MISC'): 1,
+  ('Tornerà', 'PER'): 1,
+  ('Strega Bianca', 'LOC'): 1,
+  ('leone', 'PER'): 1,
+  ('Alzati', 'PER'): 1,
+  ('Peter
+Flagello dei Lupi', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7544714285714286,
+    'early_appearance': False,
+    'positions': [7876, 11604]
+  },
+  'regno di Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.14602334797382355,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [4634]
+  },
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [6007, 11850]
+  },
+  'Eva': {
+    'category': 'paese',
+    'confidence': 0.21247456967830658,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7470714285714286,
+    'early_appearance': False,
+    'positions': [5740, 7089]
+  },
+  'Cos'': {
+    'category': 'non_luogo',
+    'confidence': 0.288984477519989,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [429]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [2975, 5182, 5285, 5365, 5657, 6119, 6309, 7213, 7391, 8172, 8429, 8739, 9342, 9801, 10026, 10556, 10677, 10856, 11097, 11570, 12081, 12209, 12487]
+  },
+  'Tavola di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.013771428571428572,
+    'early_appearance': False,
+    'positions': [1812, 3046]
+  },
+  'Susan': {
+    'category': 'non_luogo',
+    'confidence': 0.2668699026107788,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [1660, 2983, 5306, 5380, 5716, 7142, 9239, 11388]
+  },
+  'Vada': {
+    'category': 'non_luogo',
+    'confidence': 0.26262128353118896,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [5142]
+  },
+  'argenteo': {
+    'category': 'non_luogo',
+    'confidence': 0.3005431890487671,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [7616]
+  },
+  'Grande Fiume': {
+    'category': 'non_luogo',
+    'confidence': 0.17730394005775452,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [7931]
+  },
+  'Cair Paravel': {
+    'category': 'non_luogo',
+    'confidence': 0.28736650943756104,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8307]
+  },
+  'minerai': {
+    'category': 'non_luogo',
+    'confidence': 0.31806719303131104,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8408]
+  },
+  'ron-ron': {
+    'category': 'non_luogo',
+    'confidence': 0.26701369881629944,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8710]
+  },
+  'Tremava': {
+    'category': 'non_luogo',
+    'confidence': 0.30609187483787537,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [11283]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 2,
+  'priority_score': 0.7544714285714286,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Aslan',
+  'count': 22,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 36, 'anger': 9, 'sadness': 45, 'fear': 6}, 'sentiment_counts': {'negative': 62, 'positive': 34}, 'emotion_percentages': {'joy': 37.5, 'anger': 9.375, 'sadness': 46.875, 'fear': 6.25}, 'sentiment_percentages': {'negative': 64.58333333333334, 'positive': 35.41666666666667}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.6901521682739258, 'Riconoscimento entità con spaCy': 0.0010001659393310547, 'Analisi emozioni': 19.629522800445557, 'Classificazione delle location': 15.74483036994934, 'Tempo totale': 36.06750559806824}"
+Original Text Extract,"12
+La proma battaglia di Peter
+Mentre il nano e la strega dicevano queste cose, i castori e i ragazzi con-
+tinuavano nella marcia, con l'impressione di avanzare in un sogno delizio-
+so. Di ora in ora l'aria si faceva più tiepida, finché i ragazzi rinunciarono
+alle pellicce. Ogni tanto si fermavano un attimo per dire: — Oh, guarda le
+campanule! — oppure: — Un martin pescatore, là sul fiume!
+— E senti questo tordo! — oppure: — Cos'è questo profumo?
+— Sono mughetti...
+A volte proseguivano per lunghi tratti in silenzio, come estasiati. Passa-
+vano dai prati assolati ai freschi, ombrosi boschetti; dalle radure in cui cre-
+scevano i grandi olmi che ostentavano le prime fronde, ai gentili pergolati
+di foglie tenerelle; dai cespugli di ribes ai sentieri fiancheggiati dal bianco-
+spino. Talvolta il profumo era persino eccessivo. Vedendo che l'inverno
+cedeva così rapidamente il passo alla primavera, e che il bosco passava dal
+gelo di gennaio ai fiori di maggio nel giro di poche ore, i tre ragazzi furono
+sorpresi quanto Edmund. Non sapevano che era l'effetto dell'avvicinarsi di
+Aslan (come invece sapeva molto bene la strega), ma intuivano che qual-
+cosa era andato storto nel tremendo incantesimo che aveva fatto durare
+l'inverno così a lungo. Inoltre, si resero conto che con il disgelo la loro
+nemica non avrebbe più potuto approfittare della slitta. Per questo rallenta-
+rono l'andatura e si concessero pause sempre più frequenti e più lunghe.
+Erano stanchi, naturalmente, ma non penosamente stanchi. Direi piuttosto
+che erano infiacchiti, come succede a volte dopo una giornata trascorsa al-
+l'aperto: provavano una sensazione di sognante languore. Susan, però, ave-
+va una vescichetta sul tallone.
+Già da tempo si erano allontanati dal fiume perché la strada li portava
+verso est (per raggiungere la Tavola di Pietra avevano dovuto piegare a de-
+stra); ma se anche non fosse stata la direzione giusta, sarebbero stati co-
+stretti ad abbandonare il fiume in ogni caso: con tutta la neve che si era
+sciolta in poco tempo, il letto era diventato gonfio e tumultuoso e aveva
+straripato per larghi tratti, cancellando i sentieri.
+Ora il sole cominciava a scendere, s'era fatto più rosso e sul terreno si
+disegnavano ombre più lunghe, mentre i fiori pensavano che fosse venuto
+
+il momento di chiudere le corolle e prepararsi a dormire.
+— Non manca molto — annunciò a un tratto il signor Castoro, guidando
+il gruppo su per un'altra collina e giù in una valle in cui crescevano solo
+alberi altissimi, ma il cui tappeto di soffice muschio era un riposo per i piedi
+stanchi; quindi affrontarono un'altra ripida salita. La piccola Lucy si
+domandò se ce l'avrebbe fatta ad arrivare in cima senza prima riposarsi un
+poco, quand'ecco che arrivarono alla meta.
+Si trovavano in un grande spazio aperto che dominava la foresta verde,
+estesa a perdita d'occhio in tutte le direzioni tranne a est. Laggiù, a oriente,
+qualcosa brillava e palpitava in lontananza.
+— Mio Dio — mormorò Peter a Susan. — Il mare!
+Proprio sulla vetta della collina sorgeva la Tavola di Pietra: una lastra
+grigia, dall'aspetto un po' rozzo, sostenuta da quattro macigni dello stesso
+colore. La tavola era molto vecchia e coperta di strani segni che avrebbero
+potuto essere lettere di un alfabeto sconosciuto. A guardarli si provava una
+sensazione del tutto particolare, inspiegabile.
+Poi videro una tenda eretta in lontananza: era meravigliosa, soprattutto
+ora che i raggi del tramonto ne illuminavano le bande di seta gialla, i cor-
+doni di velluto cremisi e i paletti d'avorio. Sulla tenda sventolava una ban-
+diera con un leone rampante in campo rosso. Mentre i ragazzi osservavano
+estasiati, la brezza del mare che agitava il vessillo si allungò a carezzare i
+loro visi; ed ecco che dal lato opposto sentirono arrivare una musica. Si
+voltarono in quella direzione e videro l'essere che erano venuti a in-
+contrare.
+Aslan stava al centro di una folla di creature che gli si erano raggruppate
+intorno, formando una mezzaluna. Le fanciulle degli alberi e le fanciulle
+delle sorgenti (quelle che noi chiamiamo driadi e naiadi) tenevano in mano
+strumenti a corda da cui traevano musica soave. C'erano quattro grandi
+centauri, per metà cavalli di proporzioni gigantesche e metà uomini altret-
+tanto imponenti, dall'espressione calma e grave. C'erano un toro con la te-
+sta d'uomo, un unicorno, un pellicano, un'aquila e un cane, gigantesco an-
+che quello. Accanto ad Aslan stavano due leopardi, uno dei quali gli porta-
+va la corona e l'altro lo stendardo.
+In quanto a lui, Aslan, i ragazzi rimasero a guardarlo senza sapere cosa
+dire o fare. Chi non è mai stato nel regno di Narnia non può rendersi conto
+di come una creatura possa essere buona e terribile allo stesso tempo. An-
+
+che se i tre.ragazzi non avevano mai pensato a cose del genere, ora se ne
+rendevano conto perfettamente. Quando tentarono di fissare Aslan, riusci-
+
+rono a cogliere per un attimo la visione di una gran criniera dorata e due
+grandi occhi splendenti dal"
+Token Count,2727

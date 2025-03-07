@@ -1,0 +1,389 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:31:28
+Entities,"{
+  ('Nynaeve', 'PER'): 39,
+  ('Lan', 'MISC'): 20,
+  ('Moiraine', 'PER'): 12,
+  ('Aes Sedai', 'LOC'): 9,
+  ('Custode', 'LOC'): 9,
+  ('Bela', 'PER'): 8,
+  ('Moiraine', 'LOC'): 4,
+  ('Manti Bianchi', 'PER'): 3,
+  ('Trolloc', 'LOC'): 2,
+  ('Caemlyn', 'LOC'): 2,
+  ('Nynaeve', 'MISC'): 2,
+  ('Sapiente', 'MISC'): 2,
+  ('Figli', 'MISC'): 2,
+  ('Custode', 'PER'): 2,
+  ('Luce', 'MISC'): 2,
+  ('Ombra', 'LOC'): 2,
+  ('Tieni tranquilli i cavalli', 'MISC'): 1,
+  ('Mandarb', 'LOC'): 1,
+  ('Sobbalzò', 'LOC'): 1,
+  ('Aldieb', 'PER'): 1,
+  ('Tu non hai colpa» mormorò «se la tua padrona', 'MISC'): 1,
+  ('Scrutò', 'MISC'): 1,
+  ('Lasciata Whitebridge', 'LOC'): 1,
+  ('Fade', 'LOC'): 1,
+  ('Strada 
+per Caemlyn', 'LOC'): 1,
+  ('Ruota gira', 'LOC'): 1,
+  ('Così vuole la Ruota', 'MISC'): 1,
+  ('Strada per Caemlyn', 'LOC'): 1,
+  ('Drago', 'PER'): 1,
+  ('Whitebridge', 'LOC'): 1,
+  ('Sparita', 'PER'): 1,
+  ('Luce santa”', 'MISC'): 1,
+  ('Domattina', 'PER'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Sapiente', 'PER'): 1,
+  ('Whitebridge', 'PER'): 1,
+  ('Soffocò', 'PER'): 1,
+  ('Immobile', 'LOC'): 1,
+  ('Duecento', 'MISC'): 1,
+  ('Prigioniero?', 'MISC'): 1,
+  ('Manto Bianco', 'PER'): 1,
+  ('Come farai a liberarlo?', 'MISC'): 1,
+  ('Posso', 'PER'): 1,
+  ('Farei qualsiasi cosa', 'MISC'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Stavolta Nynaeve', 'PER'): 1,
+  ('Manti Bianchi', 'ORG'): 1,
+  ('Esitò', 'PER'): 1,
+  ('M’', 'MISC'): 1,
+  ('Stai', 'LOC'): 1,
+  ('Disegno', 'MISC'): 1,
+  ('Luce fulmini quell’uomo!', 'MISC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Rischiò', 'LOC'): 1,
+  ('Tutto bene nella notte', 'MISC'): 1,
+  ('Tutto bene nella notte» rispose la seconda sentinella', 'MISC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Allungò la mano', 'MISC'): 1,
+  ('Sentì', 'PER'): 1,
+  ('Succhiandosi', 'PER'): 1,
+  ('Sopravvento', 'PER'): 1,
+  ('Egwene', 'LOC'): 1,
+  ('Moraine', 'PER'): 1,
+  ('Potere?', 'ORG'): 1,
+  ('Ricordando Mandarb', 'PER'): 1,
+  ('“Lupi!', 'MISC'): 1,
+  ('Luce ci salvi!', 'MISC'): 1,
+  ('Moiraine?', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 20,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [341, 456, 762, 1019, 2305, 2984, 3881, 4800, 5027, 5651, 5863, 6073, 6225, 6662, 7292, 7899, 8404, 8753, 13245, 14077]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [10872, 10979]
+  },
+  'Stai': {
+    'category': 'paese',
+    'confidence': 0.2312186062335968,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.749215,
+    'early_appearance': False,
+    'positions': [8761]
+  },
+  'Figli': {
+    'category': 'paese',
+    'confidence': 0.3927839696407318,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [6421, 13972]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [10835, 10942]
+  },
+  'Drago': {
+    'category': 'paese',
+    'confidence': 0.34736984968185425,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [2639]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [7274]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [11383]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.239635,
+    'early_appearance': True,
+    'positions': [153, 1662, 1899, 2325, 2891, 3539, 3987, 4222, 5815, 9050]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.239635,
+    'early_appearance': True,
+    'positions': [168, 2879, 4810, 5117, 6746, 6886, 7403, 8489, 9157, 9588, 13458]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [327, 1720, 2781, 3094, 3272, 3296, 3998, 4135, 4280, 4510, 5757, 7480, 8969, 9099, 14361, 15324]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [1652, 9891]
+  },
+  'Mandarb': {
+    'category': 'non_luogo',
+    'confidence': 0.2996649444103241,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.230715,
+    'early_appearance': True,
+    'positions': [587]
+  },
+  'Sobbalzò': {
+    'category': 'non_luogo',
+    'confidence': 0.29831114411354065,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.230715,
+    'early_appearance': True,
+    'positions': [1252]
+  },
+  'Lasciata Whitebridge': {
+    'category': 'non_luogo',
+    'confidence': 0.10784636437892914,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.230715,
+    'early_appearance': True,
+    'positions': [1502]
+  },
+  'Fade': {
+    'category': 'non_luogo',
+    'confidence': 0.31638485193252563,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.230715,
+    'early_appearance': True,
+    'positions': [1646]
+  },
+  'Strada 
+per Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.10135094076395035,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.230715,
+    'early_appearance': True,
+    'positions': [1692]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [1876, 2610]
+  },
+  'Ruota gira': {
+    'category': 'non_luogo',
+    'confidence': 0.13644598424434662,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [1966]
+  },
+  'Strada per Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.10135094076395035,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [2388]
+  },
+  'Whitebridge': {
+    'category': 'non_luogo',
+    'confidence': 0.16889919340610504,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [2720, 4571]
+  },
+  'Immobile': {
+    'category': 'non_luogo',
+    'confidence': 0.24849556386470795,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [5774]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [10002]
+  },
+  'Rischiò': {
+    'category': 'non_luogo',
+    'confidence': 0.2833564281463623,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [10227]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [13895]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 20,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Nynaeve',
+  'count': 39,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 29, 'sadness': 46, 'anger': 5, 'fear': 8}, 'sentiment_counts': {'positive': 31, 'negative': 57}, 'emotion_percentages': {'joy': 32.95454545454545, 'sadness': 52.27272727272727, 'anger': 5.681818181818182, 'fear': 9.090909090909092}, 'sentiment_percentages': {'positive': 35.22727272727273, 'negative': 64.77272727272727}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.1006112098693848, 'Riconoscimento entità con spaCy': 0.0010037422180175781, 'Analisi emozioni': 10.834136962890625, 'Classificazione delle location': 17.516159772872925, 'Tempo totale': 29.453913688659668}"
+Original Text Extract,"37 
+ 
+Il lungo inseguimento 
+ 
+ 
+ 
+ 
+ 
+Nynaeve strinse le redini dei tre cavalli e scrutò nel buio della notte, come se potesse penetrarlo e 
+scoprire l’Aes Sedai e il Custode. Era circondata da alberi scheletrici, spogli e scuri nel fioco chiaro di 
+luna. Gli alberi e la notte formavano uno schermo efficace per le azioni di Moiraine e di Lan; nessuno 
+dei due si era soffermato a spiegarle cosa succedeva. «Tieni tranquilli i cavalli» aveva bisbigliato Lan; 
+e tutt’e due erano scomparsi, lasciandola lì come un mozzo di stalla. Nynaeve guardò i tre cavalli e 
+sospirò, esasperata.  
+Mandarb si confondeva con la notte quasi altrettanto bene del mantello del suo padrone. Quel 
+destriero addestrato alla guerra le permetteva di stargli vicino soltanto perché Lan stesso le aveva 
+messo in mano le redini.  
+Ora il cavallo pareva abbastanza calmo, ma Nynaeve ricordava fin troppo bene come le aveva 
+mostrato i denti in silenzio, quando lei aveva provato a prenderlo per la briglia senza attendere 
+l’approvazione di Lan. Proprio il silenzio aveva reso più temibile la reazione del cavallo. Nynaeve gli 
+diede un’ultima occhiata sospettosa e si girò a scrutare dalla parte dove i due erano scomparsi, 
+accarezzando distrattamente il proprio cavallo. Sobbalzò, sorpresa, quando Aldieb spinse il muso sotto 
+la sua mano, ma dopo un attimo accarezzò anche la giumenta bianca.  
+«Tu non hai colpa» mormorò «se la tua padrona è un’insensibile…»  
+Scrutò di nuovo le tenebre. Cosa combinavano, quei due?  
+Lasciata Whitebridge, avevano attraversato villaggi quasi irreali nella loro normalità, privi di 
+qualsiasi legame con un mondo che comprendeva Fade, Trolloc e Aes Sedai. Avevano seguito la Strada 
+per Caemlyn, finché Moiraine si era drizzata sulla sella e aveva scrutato verso levante, come se potesse 
+vedere tutta la grande strada maestra e anche quel che li aspettava a Caemlyn.  
+Alla fine l’Aes Sedai, con un sospiro, aveva ripreso la posizione normale. «La Ruota gira e ordisce 
+come vuole» aveva mormorato. «Ma non posso credere che ponga fine alla speranza. Devo prendermi 
+cura innanzi tutto di ciò di cui sono sicura, Così vuole la Ruota.» Aveva spinto la giumenta a 
+settentrione, lasciando la strada per inoltrarsi nella foresta: laggiù c’era uno dei tre ragazzi e aveva con 
+sé la moneta. Lan aveva seguito l’Aes Sedai.  
+Nynaeve aveva dato un’ultima, lunga occhiata alla Strada per Caemlyn.  
+In quel tratto c’era poca gente: un paio di carretti dalle alte ruote, un carro vuoto più distante, un 
+gruppetto di viandanti con le loro cose in spalla o su carriole. Alcuni ammettevano di andare a Caemlyn 
+per vedere il falso Drago, ma altri lo negavano con veemenza, soprattutto coloro che provenivano da 
+Whitebridge. Proprio lì Nynaeve aveva cominciato a credere a Moiraine. Fino a un certo punto. Più di 
+prima, comunque. E non era un pensiero confortante.  
+Il Custode e l’Aes Sedai erano quasi fuori vista, fra gli alberi, quando lei si era decisa a raggiungerli. 
+Lan si era girato a guardarla di frequente e le aveva fatto segno di affrettarsi, ma era rimasto a fianco di 
+Moiraine, che proseguiva con lo sguardo fisso avanti.  
+Una sera, la pista invisibile si era interrotta. Accanto al piccolo fuoco dove scaldavano l’acqua per il 
+tè, a un tratto Moiraine, l’impassibile Moiraine, era scattata in piedi e aveva sgranato gli occhi. 
+
+«Sparita» aveva mormorato.  
+«È mo…» Nynaeve non era riuscita a terminare la domanda. “Luce santa” aveva pensato “non so 
+nemmeno chi era!”  
+«Non è morto» aveva detto lentamente l’Aes Sedai. «Ma non ha più con sé il pegno.» Si era seduta 
+di nuovo; aveva mostrato voce calma e mani ferme, mentre toglieva dal fuoco il bricco, vi gettava una 
+manciata di tè e diceva: «Domattina continueremo in questa direzione. Se gli arrivo abbastanza vicino, 
+posso trovarlo anche senza moneta».  
+Mentre il fuoco si riduceva in brace, Lan si era avvolto nel mantello e si era messo a dormire. 
+Nynaeve non ci era riuscita. Aveva osservato l’Aes Sedai: Moiraine aveva chiuso gli occhi, ma sedeva 
+eretta e Nynaeve sapeva che era sveglia.  
+Molto tempo dopo che le braci si erano consumate, Moiraine aveva aperto gli occhi. Anche nel buio 
+Nynaeve aveva intuito il sorriso dell’Aes Sedai. «Ha di nuovo la moneta, Sapiente» aveva detto 
+Moiraine. «Andrà tutto bene.» Con un sospiro si era distesa sotto le coperte e quasi subito si era 
+addormentata profondamente.  
+Per quanto fosse stanca, Nynaeve aveva trovato difficile imitarla. Continuava a pensare al peggio. 
+Moiraine aveva detto che sarebbe andato tutto bene. Ma, dopo Whitebridge, lei aveva difficoltà a 
+crederle.  
+A un tratto fu strappata ai ricordi: una mano le strinse il braccio. Soffocò un grido e cercò il coltello 
+che portava alla cintura; lo impugnò, prima di capire che si trattava di Lan.  
+Il Custode non aveva calzato il cappuccio, ma il mantello cangiante si fondeva alla perfezione con la 
+notte, tanto che la chiazza confusa del viso, come la mano, sembrava sospesa a mezz’aria. "
+Token Count,3645

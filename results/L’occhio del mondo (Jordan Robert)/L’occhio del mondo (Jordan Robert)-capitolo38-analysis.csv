@@ -1,0 +1,593 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:32:42
+Entities,"{
+  ('Perrin', 'PER'): 78,
+  ('Byar', 'PER'): 38,
+  ('Lan', 'MISC'): 27,
+  ('Nynaeve', 'PER'): 20,
+  ('Moiraine', 'PER'): 17,
+  ('Egwene', 'PER'): 15,
+  ('Custode', 'LOC'): 11,
+  ('Caemlyn', 'LOC'): 9,
+  ('Tenebroso', 'PER'): 9,
+  ('Amici delle Tenebre', 'MISC'): 7,
+  ('Custode', 'PER'): 7,
+  ('Aes Sedai', 'LOC'): 6,
+  ('Egwene', 'LOC'): 5,
+  ('Dapple', 'PER'): 5,
+  ('Elyas', 'PER'): 5,
+  ('Sapiente', 'MISC'): 5,
+  ('Manti Bianchi', 'PER'): 4,
+  ('Manti Bianchi', 'LOC'): 4,
+  ('Inquisitori', 'MISC'): 4,
+  ('Amador', 'PER'): 3,
+  ('Figli', 'MISC'): 3,
+  ('Fra', 'MISC'): 3,
+  ('Rand', 'MISC'): 3,
+  ('Disegno', 'MISC'): 3,
+  ('Capitano Bornhald', 'PER'): 2,
+  ('Manto Bianco', 'PER'): 2,
+  ('Alzò', 'LOC'): 2,
+  ('Il Lord Capitano', 'PER'): 2,
+  ('«', 'PER'): 2,
+  ('Consiglio', 'ORG'): 2,
+  ('Lord Capitano', 'PER'): 2,
+  ('Manto Bianco', 'MISC'): 2,
+  ('Dapple', 'ORG'): 2,
+  ('Mat', 'MISC'): 2,
+  ('Manti Bianchi', 'ORG'): 2,
+  ('Ruota gira', 'LOC'): 2,
+  ('Ajah Rossa', 'ORG'): 2,
+  ('Ombra', 'LOC'): 2,
+  ('Epoca', 'PER'): 2,
+  ('Salvataggio 
+ 
+ 
+ 
+ 
+ 
+Perrin', 'PER'): 1,
+  ('Bornhald', 'LOC'): 1,
+  ('Manto 
+Bianco', 'PER'): 1,
+  ('luna', 'LOC'): 1,
+  ('Sentì', 'PER'): 1,
+  ('Vide', 'PER'): 1,
+  ('Sveglia» disse', 'MISC'): 1,
+  ('Sveglia, ho detto', 'MISC'): 1,
+  ('Sveglia!', 'MISC'): 1,
+  ('lanterna', 'LOC'): 1,
+  ('Rallentate', 'PER'): 1,
+  ('Consiglio degli Illuminati', 'ORG'): 1,
+  ('Pensavo', 'PER'): 1,
+  ('“Rifletti bene!', 'PER'): 1,
+  ('Luce santa', 'MISC'): 1,
+  ('Possibile', 'PER'): 1,
+  ('Caemlyn dei Manti Bianchi', 'LOC'): 1,
+  ('Amici delle Tenebre più del Tenebroso', 'MISC'): 1,
+  ('Aspetta» disse', 'MISC'): 1,
+  ('Aspetta, voglio parlarti…»  
+Arriva aiuto!', 'MISC'): 1,
+  ('“Elyas', 'MISC'): 1,
+  ('Perrin dei Fiumi Gemelli', 'PER'): 1,
+  ('Meditava', 'LOC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('No» rispose piano Lan', 'MISC'): 1,
+  ('Smettetela', 'PER'): 1,
+  ('Byar', 'LOC'): 1,
+  ('Frugò', 'PER'): 1,
+  ('Indossate i mantelli» bisbigliò', 'MISC'): 1,
+  ('Piovevano', 'PER'): 1,
+  ('Cavalli', 'PER'): 1,
+  ('Uomini', 'MISC'): 1,
+  ('Grida', 'PER'): 1,
+  ('No!» Lan', 'MISC'): 1,
+  ('Lan Mandragoran', 'MISC'): 1,
+  ('Lord delle Sette Torri!', 'MISC'): 1,
+  ('Condottiero dei Malkieri', 'MISC'): 1,
+  ('Aes 
+Sedai', 'LOC'): 1,
+  ('Bela', 'PER'): 1,
+  ('Egwene!', 'MISC'): 1,
+  ('Luce', 'MISC'): 1,
+  ('Smontò', 'PER'): 1,
+  ('Dobbiamo', 'PER'): 1,
+  ('Mat?', 'MISC'): 1,
+  ('Staremo male noi» intervenne Lan', 'MISC'): 1,
+  ('Cambiatevi', 'MISC'): 1,
+  ('E ora» disse Egwene', 'MISC'): 1,
+  ('Consumarono', 'PER'): 1,
+  ('Perfino', 'LOC'): 1,
+  ('Medicò Egwene', 'LOC'): 1,
+  ('Luhhan', 'PER'): 1,
+  ('Edera', 'PER'): 1,
+  ('radice', 'LOC'): 1,
+  ('zinnia', 'LOC'): 1,
+  ('Sembri sorpreso» disse', 'MISC'): 1,
+  ('Sorpreso', 'PER'): 1,
+  ('Contento', 'PER'): 1,
+  ('Nynaeve', 'MISC'): 1,
+  ('Giallo?» disse', 'MISC'): 1,
+  ('Sai', 'PER'): 1,
+  ('Guaritrice', 'PER'): 1,
+  ('«Stavo', 'PER'): 1,
+  ('Almeno', 'PER'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('rimboccandola', 'LOC'): 1,
+  ('Simpatia', 'PER'): 1,
+  ('Lo sai?» domandò', 'MISC'): 1,
+  ('Pensò:', 'MISC'): 1,
+  ('Disse', 'PER'): 1,
+  ('Elyas Machera', 'PER'): 1,
+  ('Lo conosci?»  
+«L’ho conosciuto', 'MISC'): 1,
+  ('Macchia', 'LOC'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Shadar Logoth', 'PER'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Trolloc', 'ORG'): 1,
+  ('Tar Valon', 'LOC'): 1,
+  ('Credo di sì', 'MISC'): 1,
+  ('Amico delle 
+Tenebre', 'PER'): 1,
+  ('Grande Grinza', 'LOC'): 1,
+  ('Merletto delle Epoche', 'MISC'): 1,
+  ('Luce', 'LOC'): 1,
+  ('Il Tenebroso', 'MISC'): 1,
+  ('Bornhald', 'MISC'): 1,
+  ('Testardo', 'LOC'): 1,
+  ('Moiraine Sedai', 'PER'): 1,
+  ('Epoche', 'LOC'): 1,
+  ('Noi combatteremo l’Ombra', 'MISC'): 1,
+  ('Cosa vuoi dire?»  
+«', 'MISC'): 1,
+  ('Dobbiamo trovarli» disse', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'luna': {
+    'category': 'paese',
+    'confidence': 0.2767038345336914,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9711259259259258,
+    'early_appearance': True,
+    'positions': [2946]
+  },
+  'Bornhald': {
+    'category': 'strada',
+    'confidence': 0.13966602087020874,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9637259259259259,
+    'early_appearance': True,
+    'positions': [1207, 29388]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 27,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [11527, 11661, 12046, 12143, 12977, 13485, 13683, 13798, 14144, 14470, 14777, 15278, 16155, 16380, 16966, 17190, 17594, 17663, 19352, 20248, 20714, 26473, 26860, 27157, 27535, 28210, 28461]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7497518518518519,
+    'early_appearance': False,
+    'positions': [29270, 31087]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7489259259259259,
+    'early_appearance': False,
+    'positions': [17528, 29258]
+  },
+  'radice': {
+    'category': 'paese',
+    'confidence': 0.3241068422794342,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7489259259259259,
+    'early_appearance': False,
+    'positions': [22459]
+  },
+  'Figli': {
+    'category': 'paese',
+    'confidence': 0.3927839696407318,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [5313, 14378, 15920]
+  },
+  'Fra': {
+    'category': 'paese',
+    'confidence': 0.23299364745616913,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [14450, 17276, 31413]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [17949, 20800, 23300]
+  },
+  'Consiglio': {
+    'category': 'paese',
+    'confidence': 0.3156205713748932,
+    'spacy_label': 'ORG',
+    'count': 2,
+    'priority_score': 0.7423518518518519,
+    'early_appearance': False,
+    'positions': [6863, 7102]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7423518518518519,
+    'early_appearance': False,
+    'positions': [20807, 23309]
+  },
+  'Pensavo': {
+    'category': 'paese',
+    'confidence': 0.21132950484752655,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [6637]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [12004]
+  },
+  'Smettetela': {
+    'category': 'paese',
+    'confidence': 0.3913894593715668,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [12656]
+  },
+  'Uomini': {
+    'category': 'paese',
+    'confidence': 0.24350064992904663,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [15092]
+  },
+  'Dobbiamo': {
+    'category': 'paese',
+    'confidence': 0.29732412099838257,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [17643]
+  },
+  'Sai': {
+    'category': 'paese',
+    'confidence': 0.21611402928829193,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [24881]
+  },
+  'Almeno': {
+    'category': 'paese',
+    'confidence': 0.27617427706718445,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7415259259259259,
+    'early_appearance': False,
+    'positions': [25518]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.23703333333333335,
+    'early_appearance': True,
+    'positions': [1237, 6908, 7455, 20834, 20982, 23447, 25952, 31446, 31694]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.23372962962962962,
+    'early_appearance': True,
+    'positions': [488, 1801, 2275, 4765, 4847, 5535, 7116, 9121, 12191, 13688, 13905, 14217, 16199, 16867, 17396, 17790, 18069, 19750, 21117, 24298]
+  },
+  'Manti Bianchi': {
+    'category': 'non_luogo',
+    'confidence': 0.2819724678993225,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.2329037037037037,
+    'early_appearance': True,
+    'positions': [326, 942, 1961, 3241, 8833, 13236, 15335, 18308, 21570, 28094]
+  },
+  'Byar': {
+    'category': 'non_luogo',
+    'confidence': 0.3317693769931793,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23042592592592592,
+    'early_appearance': True,
+    'positions': [2224, 2472, 2838, 3786, 4141, 4254, 4318, 4728, 4964, 5235, 5439, 5840, 6083, 7140, 7298, 7905, 8317, 8521, 8624, 8689, 8758, 8857, 9296, 9330, 9959, 10045, 10322, 10356, 10770, 11079, 11360, 11610, 11738, 11939, 12528, 12760, 13303, 13537, 14089]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 11,
+    'priority_score': 0.016485185185185186,
+    'early_appearance': False,
+    'positions': [11817, 12307, 13733, 14266, 16667, 17703, 18611, 18724, 19595, 26612, 26720, 26909, 27337, 27509, 28180, 28616, 29514, 31197]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [18229, 20922, 23662, 24250, 25613, 26187, 30766]
+  },
+  'Alzò': {
+    'category': 'non_luogo',
+    'confidence': 0.34138602018356323,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009051851851851853,
+    'early_appearance': False,
+    'positions': [4170, 4902]
+  },
+  'Ruota gira': {
+    'category': 'non_luogo',
+    'confidence': 0.13644598424434662,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009051851851851853,
+    'early_appearance': False,
+    'positions': [24821, 30561]
+  },
+  'lanterna': {
+    'category': 'non_luogo',
+    'confidence': 0.13413596153259277,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [4952]
+  },
+  'Caemlyn dei Manti Bianchi': {
+    'category': 'non_luogo',
+    'confidence': 0.21557007730007172,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [8146]
+  },
+  'Meditava': {
+    'category': 'non_luogo',
+    'confidence': 0.18109063804149628,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [10493]
+  },
+  'Aes 
+Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [17064]
+  },
+  'Perfino': {
+    'category': 'non_luogo',
+    'confidence': 0.29217538237571716,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [21093]
+  },
+  'Medicò Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.22397597134113312,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [21270]
+  },
+  'zinnia': {
+    'category': 'non_luogo',
+    'confidence': 0.22071321308612823,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [22469]
+  },
+  'rimboccandola': {
+    'category': 'non_luogo',
+    'confidence': 0.18945354223251343,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [26323]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [27292]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [16274, 16458, 16700, 17206, 17674, 18001, 20209, 20851, 24207, 24430, 24686, 25257, 25763, 26166, 27414, 30648, 31121, 31490]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [27861]
+  },
+  'Grande Grinza': {
+    'category': 'non_luogo',
+    'confidence': 0.2389548122882843,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [29010]
+  },
+  'Testardo': {
+    'category': 'non_luogo',
+    'confidence': 0.2615317404270172,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [29479]
+  },
+  'Epoche': {
+    'category': 'non_luogo',
+    'confidence': 0.30357566475868225,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008225925925925926,
+    'early_appearance': False,
+    'positions': [30062]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 27,
+  'priority_score': 0.763,
+  'early_appearance': False,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 78,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 66, 'fear': 7, 'joy': 19, 'anger': 4}, 'sentiment_counts': {'negative': 75, 'positive': 21}, 'emotion_percentages': {'sadness': 68.75, 'fear': 7.291666666666667, 'joy': 19.791666666666664, 'anger': 4.166666666666666}, 'sentiment_percentages': {'negative': 78.125, 'positive': 21.875}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.7201807498931885, 'Riconoscimento entità con spaCy': 0.0039958953857421875, 'Analisi emozioni': 11.703590393066406, 'Classificazione delle location': 58.637094020843506, 'Tempo totale': 73.06785702705383}"
+Original Text Extract,"38 
+ 
+Salvataggio 
+ 
+ 
+ 
+ 
+ 
+Perrin, con i polsi legati dietro la schiena, continuò a cambiare posizione per evitare i sassi, ma alla 
+fine si rassegnò e cercò goffamente di coprirsi col mantello. La notte era fredda e il contatto col terreno 
+pareva prosciugarlo di tutto il calore, come era accaduto ogni notte, da quando i Manti Bianchi li 
+avevano catturati. Per loro, i prigionieri non avevano bisogno di coperte né di riparo, soprattutto se 
+erano pericolosi Amici delle Tenebre.  
+Egwene gli si era rannicchiata contro la schiena per cercare calore e dormiva il sonno profondo dello 
+sfinimento. Non borbottò nemmeno, quando Perrin cambiò posizione. Il sole era calato da un pezzo e 
+Perrin era dolorante dalla testa ai piedi, dopo una giornata a correre dietro a un cavallo, col guinzaglio 
+al collo; ma non riusciva a prendere sonno.  
+La colonna non procedeva con grande rapidità. A causa dell’assalto dei lupi nello stedding,   i 
+Manti Bianchi avevano perduto la maggior parte dei cavalli di ricambio e non potevano procedere in 
+fretta come avrebbero voluto. Il ritardo era un altro motivo di risentimento nei confronti dei due 
+prigionieri. Però la fila si muoveva ad andatura costante - Lord Bornhald intendeva arrivare a Caemlyn 
+in tempo per chissà cosa - e in fondo alla mente Perrin aveva il timore che, se fosse caduto, il Manto 
+Bianco che reggeva il guinzaglio non si sarebbe fermato, anche se il Lord Capitano Bornhald aveva 
+ordinato di tenerli in vita per farli interrogare dagli Inquisitori a Amador. Se fosse caduto, Perrin lo 
+sapeva, non si sarebbe salvato: gli liberavano le mani solo per i pasti e per andare alla latrina. Il 
+guinzaglio rendeva arduo ogni passo e potenzialmente fatale ogni pietra. Perrin procedeva con i 
+muscoli tesi, guardando dove metteva i piedi. Egwene lo imitava, tesa e spaventata. Ma nessuno dei 
+due osava staccare lo sguardo dal terreno, se non per un rapido scambio d’occhiate.  
+Di solito, appena i Manti Bianchi si fermavano, Perrin crollava come uno straccio strizzato; ma 
+quella notte i suoi pensieri correvano all’impazzata. La pelle gli formicolava per una paura cresciuta col 
+passare dei giorni. Se chiudeva gli occhi, vedeva solo le torture promesse da Byar, una volta giunti a 
+Amador.  
+Era sicuro che Egwene ancora non ci credeva; altrimenti, per quanto sfinita, non sarebbe riuscita a 
+chiudere occhio. All’inizio nemmeno lui ci aveva creduto: la gente non faceva agli altri certe cose, 
+ecco! Ma Byar non voleva spaventarli: parlava di ferri roventi e di pinze, di coltelli per scorticare e di 
+aghi, come se parlasse di un bicchiere d’acqua. Né c’era traccia di piacere maligno, nei suoi occhi. Non 
+gli interessava se loro due erano spaventati o no, se erano vivi o no. Proprio per questo, quando se ne 
+rese conto, Perrin sudò freddo e si convinse infine che Byar diceva semplicemente la verità.  
+Il mantello delle due sentinelle mandava riflessi grigi al chiaro di luna.  
+Perrin non distingueva il loro viso, ma era sicuro che i due li tenevano d’occhio. Come se potessero 
+scappare, legati mani e piedi. Ricordava il disgusto nei loro occhi e l’aspetto tirato del loro viso, come 
+se montassero la guardia a due mostri sudici, puzzolenti e schifosi. Tutti i Manti Bianchi li guardavano 
+a quel modo, sempre. Come poteva convincerli che non erano Amici delle Tenebre, dal momento che 
+ne erano già convinti? Sentì che lo stomaco gli si torceva in un conato di vomito. Alla fine, 
+probabilmente, avrebbe confessato tutto quel che volevano, solo per far smettere gli Inquisitori.  
+
+Vide arrivare un Manto Bianco che reggeva una lanterna. L’uomo si fermò a parlare alle guardie, 
+che risposero in tono di rispetto. Perrin non udì le parole, ma riconobbe la figura alta e magra.  
+Strinse gli occhi, quando Byar gli accostò al viso la lanterna. Nell’altra mano l’uomo reggeva l’ascia 
+di Perrin: ormai se n’era appropriato.  
+«Sveglia» disse, in tono inespressivo, quasi pensasse che Perrin dormiva con la testa sollevata. 
+Accompagnò l’ordine con un calcione nelle costole.  
+Perrin si lasciò sfuggire un gemito. Aveva i fianchi pieni di lividi, per i calci di Byar.  
+«Sveglia, ho detto.» Alzò il piede per vibrare un altro calcio.  
+«Sono sveglio» disse in fretta Perrin. Byar sapeva come richiamare l’attenzione degli interlocutori.  
+Byar posò a terra la lanterna e si chinò a controllare i legacci. Gli diede uno strattone al polso e gli 
+girò le braccia. Trovò che i nodi erano solidi come quando li aveva fatti; allora diede uno strattone alla 
+corda che legava le caviglie e trascinò Perrin sul terreno sassoso. Sembrava mingherlino, ma lo spostò 
+con facilità, come se Perrin fosse un bambino. Quel controllo avveniva ogni notte.  
+Mentre Byar si raddrizzava, Perrin vide che Egwene era ancora addormentata. «Egwene!» chiamò. 
+«Sveglia!»  
+«Cosa c’è?» disse Egwene, con voce spaventata e ancora piena di sonno.  
+Alzò la testa e batté le palpebre alla luce della lanterna.  
+Byar non si mostrò deluso di non ave"
+Token Count,6716

@@ -1,0 +1,544 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:08:57
+Entities,"{
+  ('Harry', 'PER'): 74,
+  ('Ron', 'PER'): 39,
+  ('Hermione', 'PER'): 18,
+  ('Baston', 'PER'): 16,
+  ('Pluffa', 'LOC'): 10,
+  ('Bolidi', 'MISC'): 10,
+  ('Malfoy', 'PER'): 9,
+  ('scopa', 'PER'): 7,
+  ('McGranitt', 'PER'): 7,
+  ('Piton', 'PER'): 6,
+  ('Halloween', 'MISC'): 5,
+  ('Quidditch', 'LOC'): 4,
+  ('Potter', 'MISC'): 4,
+  ('Nimbus Duemila', 'MISC'): 4,
+  ('Hermione Granger', 'PER'): 4,
+  ('Percy', 'PER'): 4,
+  ('Hogwarts', 'MISC'): 3,
+  ('Neville', 'LOC'): 3,
+  ('Sala Grande', 'LOC'): 3,
+  ('Vitious', 'PER'): 3,
+  ('Cacciatori', 'MISC'): 3,
+  ('Tre Cacciatori', 'MISC'): 3,
+  ('Grifondoro', 'PER'): 3,
+  ('Boccino', 'PER'): 3,
+  ('Raptor', 'PER'): 3,
+  ('Silente', 'PER'): 3,
+  ('Oliver Baston', 'PER'): 2,
+  ('Weasley', 'MISC'): 2,
+  ('Neville', 'PER'): 2,
+  ('Dài', 'PER'): 2,
+  ('Quidditch', 'ORG'): 2,
+  ('Portiere', 'PER'): 2,
+  ('Battitori', 'MISC'): 2,
+  ('Seamus', 'PER'): 2,
+  ('Granger', 'PER'): 2,
+  ('Case', 'LOC'): 2,
+  ('Hermione!', 'MISC'): 2,
+  ('Il mostro', 'MISC'): 2,
+  ('Signorina Granger', 'PER'): 2,
+  ('Grifondoro', 'LOC'): 2,
+  ('Halloween 
+ 
+Il giorno', 'MISC'): 1,
+  ('Gringott', 'ORG'): 1,
+  ('NON', 'MISC'): 1,
+  ('PACCO', 'LOC'): 1,
+  ('TAVOLA', 'LOC'): 1,
+  ('Nimbus Duemila', 'PER'): 1,
+  ('Una Nimbus Duemila!» sospirò invidioso', 'MISC'): 1,
+  ('Tiger', 'PER'): 1,
+  ('Goyle', 'MISC'): 1,
+  ('Non è una vecchia scopa', 'MISC'): 1,
+  ('Cosa dicevi tu', 'MISC'): 1,
+  ('Comet Duecentosessanta', 'MISC'): 1,
+  ('Comet', 'MISC'): 1,
+  ('Nimbus', 'MISC'): 1,
+  ('rimbeccò Malfoy', 'PER'): 1,
+  ('Immagino', 'PER'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Niente liti', 'MISC'): 1,
+  ('Professore', 'PER'): 1,
+  ('Vitious sorridendo', 'MISC'): 1,
+  ('Una Nimbus Duemila', 'MISC'): 1,
+  ('Ricordella', 'PER'): 1,
+  ('Mica starai dicendo a noi?', 'MISC'): 1,
+  ('Quel giorno', 'MISC'): 1,
+  ('Tran-', 'LOC'): 1,
+  ('Wow!» sospirò', 'MISC'): 1,
+  ('Sottile', 'MISC'): 1,
+  ('Mancava', 'LOC'): 1,
+  ('Babba-', 'MISC'): 1,
+  ('Troppo', 'LOC'): 1,
+  ('Ehi', 'PER'): 1,
+  ('Harry atterrò', 'MISC'): 1,
+  ('Molto bene!»', 'MISC'): 1,
+  ('O-', 'LOC'): 1,
+  ('Bene» disse', 'MISC'): 1,
+  ('I Cacciatori', 'MISC'): 1,
+  ('Lascia perdere»', 'MISC'): 1,
+  ('Portiere...', 'MISC'): 1,
+  ('Portie-', 'LOC'): 1,
+  ('Ora te lo faccio vedere» disse', 'MISC'): 1,
+  ('Prendi', 'PER'): 1,
+  ('Harry', 'LOC'): 1,
+  ('Ora ti faccio vedere a che cosa servono i', 'MISC'): 1,
+  ('Boli-', 'MISC'): 1,
+  ('Stai indietro»', 'MISC'): 1,
+  ('Vedi?» disse', 'MISC'): 1,
+  ('Bolide', 'LOC'): 1,
+  ('Battitori per squadra - i nostri', 'MISC'): 1,
+  ('Weasley -', 'MISC'): 1,
+  ('E... senti', 'MISC'): 1,
+  ('Cercatore', 'LOC'): 1,
+  ('Boccino d'Oro', 'MISC'): 1,
+  ('Compito del Cercatore', 'PER'): 1,
+  ('Cercatore dell'altra squadra', 'MISC'): 1,
+  ('Cercatori', 'MISC'): 1,
+  ('Mez-
+z'', 'PER'): 1,
+  ('La Coppa', 'MISC'): 1,
+  ('Ba-', 'ORG'): 1,
+  ('ston felice', 'PER'): 1,
+  ('Charlie Weasley', 'PER'): 1,
+  ('Quid-', 'MISC'): 1,
+  ('Ho-', 'LOC'): 1,
+  ('Privet Drive', 'MISC'): 1,
+  ('Seamus Finnigan', 'PER'): 1,
+  ('Vitious', 'MISC'): 1,
+  ('«Agitare', 'PER'): 1,
+  ('Mago Baruffio', 'PER'): 1,
+  ('Wingardium Le-', 'MISC'): 1,
+  ('Levi', 'LOC'): 1,
+  ('E fallo te', 'MISC'): 1,
+  ('rimbeccò Ron', 'PER'): 1,
+  ('Wingardium Leviosa', 'MISC'): 1,
+  ('Molto bene!» gridò il professor Vitious', 'MISC'): 1,
+  ('Her-', 'PER'): 1,
+  ('Credo che ti abbia sentito»', 'MISC'): 1,
+  ('Harry', 'MISC'): 1,
+  ('Calì Patil', 'PER'): 1,
+  ('Lavanda', 'LOC'): 1,
+  ('Prefetti', 'PER'): 1,
+  ('Seguitemi!', 'MISC'): 1,
+  ('Scusate', 'MISC'): 1,
+  ('Pix', 'MISC'): 1,
+  ('Tassorosso', 'LOC'): 1,
+  ('Harry afferrò il braccio', 'MISC'): 1,
+  ('M'', 'PER'): 1,
+  ('Non sa del mostro»', 'MISC'): 1,
+  ('E va bene!» esclamò', 'MISC'): 1,
+  ('Piegandosi', 'MISC'): 1,
+  ('Tassorosso', 'ORG'): 1,
+  ('Percorsero furtivi il corridoio', 'MISC'): 1,
+  ('Buona idea» disse', 'MISC'): 1,
+  ('Strisciando lungo il muro', 'MISC'): 1,
+  ('sprangò', 'LOC'): 1,
+  ('Ecco fatto!» 
+Tutti ringalluzziti dalla vittoria', 'MISC'): 1,
+  ('na chiuso', 'ORG'): 1,
+  ('Oh, no!', 'MISC'): 1,
+  ('Ron pallido', 'PER'): 1,
+  ('Barone Sanguina-
+rio', 'LOC'): 1,
+  ('Maledizione!', 'MISC'): 1,
+  ('Hermione', 'LOC'): 1,
+  ('Ehi, tu', 'MISC'): 1,
+  ('Le grida', 'MISC'): 1,
+  ('Ululando di dolore', 'MISC'): 1,
+  ('Leviosa', 'LOC'): 1,
+  ('Il mostro vacillò e poi', 'MISC'): 1,
+  ('K.O.', 'MISC'): 1,
+  ('Puah!', 'MISC'): 1,
+  ('Che cosa diavolo credevate di fare?» chiese la McGranitt', 'MISC'): 1,
+  ('La prego', 'MISC'): 1,
+  ('Finalmente', 'PER'): 1,
+  ('Ero', 'PER'): 1,
+  ('Be'...', 'MISC'): 1,
+  ('La professoressa McGranitt', 'MISC'): 1,
+  ('Bene', 'MISC'): 1,
+  ('Corsero', 'MISC'): 1,
+  ('Avremmo', 'PER'): 1,
+  ('bofonchiò Ron', 'PER'): 1,
+  ('Signora Grassa', 'PER'): 1,
+  ('Grugno di porco» dissero', 'MISC'): 1,
+  ('K.O. un mostro di montagna alto quattro', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.23502212762832642,
+    'spacy_label': 'PER',
+    'count': 7,
+    'priority_score': 0.97851,
+    'early_appearance': True,
+    'positions': [2286, 2934, 3790, 5074, 5425, 5516, 7799]
+  },
+  'Sala Grande': {
+    'category': 'sala',
+    'confidence': 0.24915333092212677,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.9769899999999999,
+    'early_appearance': True,
+    'positions': [1564, 15551, 15828]
+  },
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.96959,
+    'early_appearance': True,
+    'positions': [82, 480, 9915]
+  },
+  'Gringott': {
+    'category': 'banca magica',
+    'confidence': 0.10899363458156586,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.96513,
+    'early_appearance': True,
+    'positions': [469]
+  },
+  'NON': {
+    'category': 'paese',
+    'confidence': 0.25394707918167114,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.96513,
+    'early_appearance': True,
+    'positions': [2137]
+  },
+  'Case': {
+    'category': 'paese',
+    'confidence': 0.2541228234767914,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [16828, 26420]
+  },
+  'Levi': {
+    'category': 'paese',
+    'confidence': 0.20855262875556946,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [14485]
+  },
+  'Privet Drive': {
+    'category': 'strada',
+    'confidence': 0.15369181334972382,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [12579]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23852,
+    'early_appearance': True,
+    'positions': [2395, 5149, 5821, 7111, 11038, 11979]
+  },
+  'Neville': {
+    'category': 'non_luogo',
+    'confidence': 0.37892094254493713,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.23629,
+    'early_appearance': True,
+    'positions': [955, 1113, 4455, 13118, 13285]
+  },
+  'PACCO': {
+    'category': 'non_luogo',
+    'confidence': 0.27854034304618835,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [2151]
+  },
+  'TAVOLA': {
+    'category': 'non_luogo',
+    'confidence': 0.18625158071517944,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [2159]
+  },
+  'Harry': {
+    'category': 'non_luogo',
+    'confidence': 0.20337551832199097,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [61, 206, 384, 714, 1194, 1716, 2076, 2454, 2878, 2978, 3328, 3890, 4055, 4190, 4349, 4721, 4778, 4924, 5457, 5471, 5769, 6096, 6330, 7290, 7728, 7930, 8155, 8401, 8585, 8683, 8810, 8949, 9755, 9861, 11318, 11688, 11805, 11826, 12390, 13218, 13541, 14005, 14236, 14440, 15026, 15133, 15591, 16218, 17123, 18016, 18218, 18489, 18554, 19653, 19905, 20351, 20605, 20892, 21204, 21636, 21684, 22030, 22250, 22364, 22576, 23323, 23538, 24403, 24649, 24824, 24863, 25437, 25649, 25926, 26484, 27314]
+  },
+  'Hermione': {
+    'category': 'non_luogo',
+    'confidence': 0.24853438138961792,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [966, 1157, 4621, 4859, 14450, 14596, 15426, 15657, 15900, 21045, 21692, 22765, 23494, 25104, 25901, 25950, 26428, 27054, 27534]
+  },
+  'Pluffa': {
+    'category': 'non_luogo',
+    'confidence': 0.33252468705177307,
+    'spacy_label': 'LOC',
+    'count': 10,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [7441, 7477, 7579, 7655, 8211, 8669, 9642, 10099, 10381, 10767]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [8020, 24523, 26182, 26336, 26686]
+  },
+  'Tran-': {
+    'category': 'non_luogo',
+    'confidence': 0.3422839641571045,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [5204]
+  },
+  'Mancava': {
+    'category': 'non_luogo',
+    'confidence': 0.2846013605594635,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [5719]
+  },
+  'Troppo': {
+    'category': 'non_luogo',
+    'confidence': 0.2914188802242279,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [6260]
+  },
+  'O-': {
+    'category': 'non_luogo',
+    'confidence': 0.32082319259643555,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [6781]
+  },
+  'Portie-': {
+    'category': 'non_luogo',
+    'confidence': 0.3267972767353058,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [8005]
+  },
+  'Bolide': {
+    'category': 'non_luogo',
+    'confidence': 0.23784765601158142,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [9248]
+  },
+  'Cercatore': {
+    'category': 'non_luogo',
+    'confidence': 0.3528731167316437,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [10034]
+  },
+  'Ho-': {
+    'category': 'non_luogo',
+    'confidence': 0.3438929319381714,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [12476]
+  },
+  'Lavanda': {
+    'category': 'non_luogo',
+    'confidence': 0.20434702932834625,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [15645]
+  },
+  'Tassorosso': {
+    'category': 'non_luogo',
+    'confidence': 0.21051450073719025,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [17435, 17746]
+  },
+  'sprangò': {
+    'category': 'non_luogo',
+    'confidence': 0.23456919193267822,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [19964]
+  },
+  'Barone Sanguina-
+rio': {
+    'category': 'non_luogo',
+    'confidence': 0.25854140520095825,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [20293]
+  },
+  'Leviosa': {
+    'category': 'non_luogo',
+    'confidence': 0.22718052566051483,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [22992]
+  },
+}"
+Main Location,"{
+  'name': 'scopa',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.23502212762832642,
+  'count': 7,
+  'priority_score': 0.97851,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 74,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 40, 'sadness': 44, 'fear': 6, 'anger': 9}, 'sentiment_counts': {'positive': 47, 'negative': 52}, 'emotion_percentages': {'joy': 40.4040404040404, 'sadness': 44.44444444444444, 'fear': 6.0606060606060606, 'anger': 9.090909090909092}, 'sentiment_percentages': {'positive': 47.474747474747474, 'negative': 52.52525252525253}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.5156095027923584, 'Riconoscimento entità con spaCy': 0.0030012130737304688, 'Analisi emozioni': 12.39508605003357, 'Classificazione delle location': 42.487510204315186, 'Tempo totale': 56.40320563316345}"
+Original Text Extract,"Capitolo 10 
+Halloween 
+ 
+Il giorno dopo, quando Malfoy vide Harry e Ron ancora a Hogwarts, 
+stanchi, ma allegri come non mai, non riusciva a credere ai suoi occhi. A 
+dire il vero, dopo averci dormito su, Harry e Ron erano arrivati alla con-
+clusione che l'incontro con il cane a tre teste era stata una splendida avven-
+tura, e non vedevano l'ora di averne un'altra. Nel frattempo, Harry aveva 
+informato Ron sul pacchetto che sembrava essere stato trasferito dalla 
+Gringott a Hogwarts, e quindi i due ragazzi passarono un bel po' di tempo 
+a fare congetture su cosa poteva aver bisogno di una sorveglianza cosi 
+stretta. 
+«E una cosa o molto preziosa o molto pericolosa» commentò Ron. 
+«O tutt'e due» concluse Harry. 
+Ma dal momento che l'unica informazione certa che avevano sull'oggetto 
+misterioso erano le sue dimensioni, circa sei centimetri di lunghezza, senza 
+ulteriori indizi, non avevano molte possibilità di indovinare che cosa fosse. 
+
+Né Neville né Hermione mostravano il minimo interesse per l'oggetto 
+misterioso custodito dentro la botola, sotto le zampe del cane. Tutto quel 
+che importava a Neville era di non trovarglisi più a tiro. 
+Hermione si rifiutava di parlare con Harry e Ron, ma era talmente prepo-
+tente e saccente che i ragazzi consideravano il fatto un'insperata fortuna. 
+Il loro desiderio più grande era di trovare un modo per farla pagare a 
+Malfoy e, con loro grande soddisfazione, quell'occasione si presentò circa 
+una settimana più tardi, con la distribuzione della posta. 
+Quando, come di consueto, i volatili invasero la Sala Grande, l'attenzio-
+ne generale fu attratta immediatamente da un pacco lungo e sottile, tra-
+sportato da sei grossi barbagianni. Come tutti, anche Harry era curioso di 
+sapere che cosa contenesse, e si stupì quando gli uccelli scesero in picchia-
+ta e lo lasciarono cadere proprio davanti a lui, facendo cadere per terra la 
+sua pancetta affumicata. Quelli non avevano fatto in tempo ad allontanarsi, 
+che ecco arrivare un altro barbagianni con una lettera, che lasciò cadere 
+sopra il pacco. 
+Per fortuna, Harry aprì prima la lettera, perché dentro c'era scritto: 
+ 
+NON APRIRE IL PACCO A TAVOLA 
+Esso contiene la tua nuova Nimbus Duemila, ma non voglio che gli altri 
+sappiano che hai ricevuto in dono un manico di scopa, altrimenti ne vor-
+ranno uno anche loro. 
+Oliver Baston ti aspetta questa sera alle sette al campo di Quidditch, 
+per il tuo primo allenamento. 
+M. McGranitt 
+ 
+Harry ebbe difficoltà a nascondere la gioia mentre porgeva il biglietto a 
+Ron perché lo leggesse. 
+«Una Nimbus Duemila!» sospirò invidioso Ron. «Non ne ho mai nean-
+che toccata una!» 
+Lasciarono la sala velocemente, impazienti di scartare il pacco in separa-
+ta sede prima dell'inizio delle lezioni, ma nella sala d'ingresso trovarono 
+l'accesso alle scale sbarrato da Tiger e Goyle. Malfoy afferrò il pacco dalle 
+mani di Harry e cominciò a tastarlo. 
+«Ma questo è un manico di scopa» disse restituendolo sgarbatamente a 
+Harry, con un misto di gelosia e di dispetto dipinti sul volto. «Questa volta 
+sei rovinato, Potter, a quelli del primo anno non è permesso possederne di 
+personali». 
+
+Ron non riuscì a trattenersi. 
+«Non è una vecchia scopa qualunque» disse, «è una Nimbus Duemila. 
+Cosa dicevi tu, Malfoy, che a casa hai una Comet Duecentosessanta?» Ron 
+sorrise a Harry. «Le Comet fanno un sacco di scena, ma non sono certo al 
+livello delle Nimbus». 
+«Ma che cosa ne vuoi sapere tu, Weasley, che non ti puoi permettere ne-
+anche mezzo manico!» lo rimbeccò Malfoy. «Immagino che tu e i tuoi fra-
+telli dovete mettere da parte un rametto alla volta». 
+Prima che Ron potesse rispondere, il professor Vitious apparve accanto 
+a Malfoy. 
+«Niente liti, spero, vero ragazzi?» squittì. 
+«Professore, a Potter è arrivato un manico di scopa» disse Malfoy tutto 
+d'un fiato. 
+«Già, proprio così» disse il professor Vitious sorridendo a Harry soddi-
+sfatto. «La professoressa McGranitt mi ha raccontato tutto sulle circostan-
+ze speciali, Potter. E che modello è?» 
+«Una Nimbus Duemila, signore» disse Harry lottando per non ridere alla 
+faccia inorridita di Malfoy. «Ed è proprio a Malfoy che lo devo» soggiunse 
+indicando il ragazzo. 
+Harry e Ron corsero su per le scale soffocando le risate per la rabbia e la 
+confusione che Malfoy non era riuscito a dissimulare. 
+«Be' è proprio vero» disse Harry tutto gongolante quando furono in cima 
+alla scala di marmo, «se non avesse rubato la Ricordella di Neville, ora 
+non sarei nella squadra...» 
+«E magari pensi che questa sia la ricompensa per avere infranto le rego-
+le!» gli arrivò proprio da dietro una voce irata. Hermione stava risalendo 
+rumorosamente le scale lanciando sguardi di disapprovazione al pacco che 
+Harry teneva in mano. 
+«Mica starai dicendo a noi?» fece Harry. 
+«Dài, non smettere proprio adesso» disse Ron, «ci fa talmente piacere!» 
+Hermione si allontanò sdegnosa, col naso all'aria. 
+Quel giorno, Harry ebbe molte difficoltà a rimanere concentrato sulle le-
+zioni. Continua"
+Token Count,6010

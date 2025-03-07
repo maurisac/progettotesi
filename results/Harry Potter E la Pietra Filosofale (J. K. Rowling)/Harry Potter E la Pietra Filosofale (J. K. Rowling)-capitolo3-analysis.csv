@@ -1,0 +1,356 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:07:09
+Entities,"{
+  ('Harry', 'PER'): 58,
+  ('Vernon', 'PER'): 42,
+  ('Dudley', 'PER'): 35,
+  ('Petunia', 'PER'): 14,
+  ('Zio Vernon', 'PER'): 9,
+  ('Dudley', 'MISC'): 8,
+  ('Snobkin', 'PER'): 6,
+  ('Dursley', 'ORG'): 4,
+  ('Privet Drive', 'MISC'): 3,
+  ('Marge', 'PER'): 3,
+  ('Figg', 'PER'): 2,
+  ('zia Petunia', 'PER'): 2,
+  ('Vai', 'PER'): 2,
+  ('Zia Petunia', 'PER'): 2,
+  ('Lettere da nessuno 
+ 
+La fuga del boa constrictor', 'MISC'): 1,
+  ('Piers', 'PER'): 1,
+  ('Dennis', 'PER'): 1,
+  ('Malcolm', 'PER'): 1,
+  ('Gordon', 'PER'): 1,
+  ('cia', 'ORG'): 1,
+  ('Piers Polkiss', 'PER'): 1,
+  ('Stonewall 
+High', 'LOC'): 1,
+  ('Lo sai che a Stonewall', 'MISC'): 1,
+  ('«', 'PER'): 1,
+  ('Un giorno di luglio', 'MISC'): 1,
+  ('Londra', 'LOC'): 1,
+  ('Guardando Dudley', 'PER'): 1,
+  ('Zia 
+Petunia', 'PER'): 1,
+  ('La tua nuova uniforme', 'MISC'): 1,
+  ('Oh!» disse', 'MISC'): 1,
+  ('Ti sto tin-', 'MISC'): 1,
+  ('Stonewall High', 'LOC'): 1,
+  ('Mandaci Harry', 'MISC'): 1,
+  ('Mandaci Dudley', 'MISC'): 1,
+  ('Punzecchialo', 'PER'): 1,
+  ('isola di Wight', 'LOC'): 1,
+  ('Signor H. Potter 
+Ripostiglio', 'PER'): 1,
+  ('Privet Drive 
+Little Whinging 
+Surrey', 'MISC'): 1,
+  ('H', 'LOC'): 1,
+  ('Papà» disse Dudley', 'MISC'): 1,
+  ('È mia!', 'MISC'): 1,
+  ('P...P...Petunia!', 'MISC'): 1,
+  ('Dio', 'PER'): 1,
+  ('Vernon!...» 
+Si fissarono l'un l'altra', 'MISC'): 1,
+  ('Io voglio leggerla»', 'MISC'): 1,
+  ('Harry furioso', 'MISC'): 1,
+  ('VOGLIO LA', 'MISC'): 1,
+  ('MIA LETTERA!» gridò', 'MISC'): 1,
+  ('Falla', 'PER'): 1,
+  ('FUORI!» tuonò', 'MISC'): 1,
+  ('Sorvegliando... spiando... forse ci pedinano» borbottò', 'MISC'): 1,
+  ('Rispondergli', 'LOC'): 1,
+  ('No» disse infine', 'MISC'): 1,
+  ('«No', 'PER'): 1,
+  ('Petunia!', 'MISC'): 1,
+  ('SILENZIO!» urlò zio Vernon', 'MISC'): 1,
+  ('Ehm', 'MISC'): 1,
+  ('Harry...', 'MISC'): 1,
+  ('E perché?»', 'MISC'): 1,
+  ('rimbeccò', 'PER'): 1,
+  ('Harry', 'MISC'): 1,
+  ('Non ce lo voglio', 'MISC'): 1,
+  ('Signor H. Potter', 'PER'): 1,
+  ('Cameretta', 'MISC'): 1,
+  ('Privet Drive...» 
+Con un grido strozzato', 'MISC'): 1,
+  ('Harry 
+la bloccò', 'MISC'): 1,
+  ('Dur-', 'MISC'): 1,
+  ('Sgattaiolò', 'PER'): 1,
+  ('Sbraitò', 'PER'): 1,
+  ('Vide', 'PER'): 1,
+  ('Voglio...»', 'MISC'): 1,
+  ('Quel giorno', 'MISC'): 1,
+  ('Vedi» spiegò a zia Petunia', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Venerdì', 'MISC'): 1,
+  ('Sabato la cosa', 'MISC'): 1,
+  ('cuno', 'LOC'): 1,
+  ('Ma chi diavolo', 'MISC'): 1,
+  ('Domenica mattina', 'MISC'): 1,
+  ('Niente posta', 'MISC'): 1,
+  ('Fuori!', 'MISC'): 1,
+  ('Andarono', 'PER'): 1,
+  ('Me li levo di torno... vedrai', 'MISC'): 1,
+  ('Finalmente, zio Vernon', 'MISC'): 1,
+  ('bergo', 'PER'): 1,
+  ('H. Potter', 'PER'): 1,
+  ('Signor H. Potter 
+Stanza 117', 'PER'): 1,
+  ('Railview Hotel 
+', 'LOC'): 1,
+  ('Le prenderò io» disse zio Vernon', 'MISC'): 1,
+  ('Li', 'PER'): 1,
+  ('Papà', 'PER'): 1,
+  ('Grossi', 'PER'): 1,
+  ('Stasera', 'PER'): 1,
+  ('Lunedì', 'MISC'): 1,
+  ('zio Vernon', 'PER'): 1,
+  ('Venite!', 'MISC'): 1,
+  ('stasera', 'PER'): 1,
+  ('bal-', 'PER'): 1,
+  ('Spruzzi', 'LOC'): 1,
+  ('Era di ottimo umore', 'MISC'): 1,
+  ('Al calar della notte', 'MISC'): 1,
+  ('La notte avanzava', 'MISC'): 1,
+  ('For-', 'ORG'): 1,
+  ('BUM', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Privet Drive': {
+    'category': 'strada',
+    'confidence': 0.15369181334972382,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [456, 13231, 23750]
+  },
+  'Stonewall 
+High': {
+    'category': 'strada',
+    'confidence': 0.14624741673469543,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9777333333333332,
+    'early_appearance': True,
+    'positions': [1322]
+  },
+  'Londra': {
+    'category': 'paese',
+    'confidence': 0.27257636189460754,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9777333333333332,
+    'early_appearance': True,
+    'positions': [1863]
+  },
+  'cia': {
+    'category': 'paese',
+    'confidence': 0.25485920906066895,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.9703333333333333,
+    'early_appearance': True,
+    'positions': [875]
+  },
+  'Stonewall High': {
+    'category': 'strada',
+    'confidence': 0.14624741673469543,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7555333333333333,
+    'early_appearance': False,
+    'positions': [4025]
+  },
+  'Railview Hotel 
+': {
+    'category': 'strada',
+    'confidence': 0.07738204300403595,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7555333333333333,
+    'early_appearance': False,
+    'positions': [18803]
+  },
+  'Privet Drive 
+Little Whinging 
+Surrey': {
+    'category': 'strada',
+    'confidence': 0.1249031126499176,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [5441]
+  },
+  'Venerdì': {
+    'category': 'paese',
+    'confidence': 0.2088707983493805,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [14657]
+  },
+  'Lunedì': {
+    'category': 'paese',
+    'confidence': 0.1795118749141693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [19889]
+  },
+  'isola di Wight': {
+    'category': 'non_luogo',
+    'confidence': 0.0912424698472023,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [4866]
+  },
+  'H': {
+    'category': 'non_luogo',
+    'confidence': 0.21562327444553375,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [5798]
+  },
+  'Rispondergli': {
+    'category': 'non_luogo',
+    'confidence': 0.2581244707107544,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [8441]
+  },
+  'cuno': {
+    'category': 'non_luogo',
+    'confidence': 0.2010430246591568,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [15583]
+  },
+  'Spruzzi': {
+    'category': 'non_luogo',
+    'confidence': 0.2929123044013977,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [21358]
+  },
+}"
+Main Location,"{
+  'name': 'Privet Drive',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.15369181334972382,
+  'count': 3,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 58,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'anger': 10, 'sadness': 58, 'joy': 26, 'fear': 3}, 'sentiment_counts': {'negative': 62, 'positive': 35}, 'emotion_percentages': {'anger': 10.309278350515463, 'sadness': 59.79381443298969, 'joy': 26.804123711340207, 'fear': 3.0927835051546393}, 'sentiment_percentages': {'negative': 63.91752577319587, 'positive': 36.08247422680412}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.086244821548462, 'Riconoscimento entità con spaCy': 0.002003192901611328, 'Analisi emozioni': 23.4910831451416, 'Classificazione delle location': 33.647541522979736, 'Tempo totale': 58.22987198829651}"
+Original Text Extract,"Capitolo 3 
+Lettere da nessuno 
+ 
+La fuga del boa constrictor brasiliano costò a Harry il castigo più lungo 
+mai ricevuto fino a quel momento. Quando finalmente gli fu permesso di 
+uscire dal ripostiglio, erano ormai iniziate le vacanze estive e Dudley ave-
+va già rotto la nuova cinepresa, mandato a sbattere l'aeroplanino teleco-
+mandato, e la prima volta che aveva provato la bicicletta da corsa aveva 
+investito l'anziana signora Figg che attraversava Privet Drive con le stam-
+pelle. 
+Harry era molto contento che la scuola fosse finita, ma non c'era modo 
+di sfuggire alla ghenga di Dudley che veniva a casa ogni santo giorno. 
+Piers, Dennis, Malcolm e Gordon erano grandi, grossi e stupidi, ma poiché 
+Dudley era il più grande e il più stupido di tutti, il capo era lui. Tutti gli al-
+tri erano ben felici di unirsi a lui nel praticare il suo sport preferito: la cac-
+cia a Harry. 
+Ecco perché Harry passava più tempo possibile fuori di casa, gironzo-
+lando nei dintorni e sognando la fine delle vacanze come un pallido raggio 
+di speranza. A settembre, sarebbe andato alle superiori, e quindi per la 
+prima volta in vita sua non sarebbe stato con Dudley. Dudley aveva un po-
+sto riservato a Snobkin, la scuola dove aveva studiato zio Vernon. Anche 
+Piers Polkiss sarebbe andato lì. Harry, invece, sarebbe andato a Stonewall 
+High, la scuola pubblica del quartiere. Dudley trovava la cosa molto diver-
+tente. 
+«Lo sai che a Stonewall il primo giorno di scuola ti ficcano la testa nella 
+tazza del gabinetto?» disse a Harry. «Vuoi venire di sopra a fare eserci-
+zio?» 
+«Grazie, no» rispose Harry. «La povera tazza del gabinetto non si è mai 
+
+vista cacciare dentro niente di più orribile della tua testa; potrebbe sentirsi 
+male». Poi scappò via prima che Dudley potesse capire quello che aveva 
+detto. 
+Un giorno di luglio, zia Petunia accompagnò Dudley a Londra per com-
+perare l'uniforme di Snobkin, lasciando Harry dalla signora Figg. Quel 
+giorno, la vecchia signora era meno peggio del solito. Si era rotta la gamba 
+inciampando in uno dei suoi gatti e quindi non sembrava più entusiasta di 
+loro come prima. Permise a Harry di guardare la televisione e gli diede un 
+pezzo di torta al cioccolato, che sapeva di stantio come se stesse lì da qual-
+che anno. 
+Quella sera, Dudley fece passerella in salotto per la famiglia, nella sua 
+uniforme nuova di zecca. I ragazzi di Snobkin indossavano una giacchetta 
+color melanzana, pantaloni alla zuava arancione e un copricapo piatto detto 
+paglietta. Erano inoltre dotati di un bastone nodoso usato per picchiarsi a 
+vicenda quando gli insegnanti non guardavano. Si riteneva che questo fos-
+se un buon addestramento per la vita futura. 
+Guardando Dudley nei nuovi pantaloni alla zuava, zio Vernon disse con 
+tono burbero che non si era mai sentito tanto orgoglioso in vita sua. Zia 
+Petunia scoppiò in lacrime e disse che non le sembrava vero che quello 
+fosse il suo piccolino, da quanto era bello e cresciuto. Harry non si arri-
+schiò a parlare. Aveva l'impressione di essersi rotto un paio di costole nel 
+tentativo di non ridere. 
+La mattina dopo, quando Harry entrò in cucina, c'era un odore orribile 
+che sembrava provenire da una grossa bacinella di metallo che era dentro il 
+lavandino. Si avvicinò per dare un'occhiata. La bacinella era piena di quelli 
+che sembravano stracci sporchi a mollo in un'acqua grigia. 
+«E questo cos'è?» chiese a zia Petunia. Lei strinse le labbra come faceva 
+sempre quando Harry azzardava una domanda. 
+«La tua nuova uniforme scolastica» rispose. 
+Harry guardò di nuovo dentro la bacinella. 
+«Oh!» disse. «Non avevo capito che dovesse essere tanto bagnata». 
+«Non fare lo sciocco!» lo apostrofò aspramente zia Petunia. «Ti sto tin-
+gendo di grigio alcuni vestiti smessi di Dudley. Quando avrò finito sem-
+breranno uguali a quelli di tutti gli altri». 
+Di questo Harry dubitava seriamente, ma pensò fosse meglio non discu-
+tere. Si sedette a tavola e cercò di non immaginare che aspetto avrebbe a-
+vuto il primo giorno di scuola a Stonewall High. Probabilmente, come se 
+avesse addosso pezzi di pelle di un vecchio elefante. 
+
+Dudley e zio Vernon entrarono in cucina ed entrambi arricciarono il na-
+so per via dell'odore che emanava la nuova uniforme di Harry. Zio Vernon 
+apri come al solito il giornale e Dudley picchiò il tavolo con il bastone di 
+Snobkin, che ormai portava dappertutto. 
+In quel momento, udirono lo scatto della cassetta delle lettere e il lieve 
+tonfo della posta che cadeva sullo zerbino. 
+«Vai a prendere la posta, Dudley» disse zio Vernon da dietro il giornale. 
+«Mandaci Harry». 
+«Vai a prendere la posta, Harry». 
+«Mandaci Dudley». 
+«Punzecchialo con il bastone di Snobkin, Dudley». 
+Harry schivò il bastone e andò a prendere la posta. Sullo zerbino c'erano 
+tre cose: una cartolina della sorella di zio Vernon, Marge, che era in va-
+canza nell'isola di Wight, una busta marrone che sembrava una fattura e... 
+una lettera per Harry. 
+Harry la raccolse e la fissò con il cuore che"
+Token Count,5189

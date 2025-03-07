@@ -1,0 +1,327 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:13:03
+Entities,"{
+  ('Aslan', 'PER'): 25,
+  ('Edmund', 'PER'): 15,
+  ('Castoro', 'PER'): 7,
+  ('Strega Bianca', 'PER'): 5,
+  ('Tavola di Pietra', 'LOC'): 5,
+  ('Lucy', 'PER'): 4,
+  ('Ed-
+mund', 'LOC'): 3,
+  ('Peter', 'PER'): 3,
+  ('Susan', 'PER'): 3,
+  ('Narnia', 'LOC'): 3,
+  ('Maugrim', 'PER'): 2,
+  ('Cair Paravel', 'LOC'): 2,
+  ('Il nano', 'MISC'): 2,
+  ('Strega
+Bianca', 'PER'): 2,
+  ('Buono, buono', 'MISC'): 2,
+  ('Peter', 'LOC'): 2,
+  ('Devo', 'PER'): 2,
+  ('Oh', 'PER'): 2,
+  ('Una grande magia all'alba', 'MISC'): 1,
+  ('No, mia regina', 'MISC'): 1,
+  ('piomberemo', 'LOC'): 1,
+  ('Maestà', 'MISC'): 1,
+  ('Adamo', 'PER'): 1,
+  ('Vai', 'PER'): 1,
+  ('Daremo
+battaglia', 'MISC'): 1,
+  ('La bestiaccia chinò la testa in ossequio', 'MISC'): 1,
+  ('Obbligarono Edmund', 'PER'): 1,
+  ('Slacciò', 'PER'): 1,
+  ('Fategli', 'PER'): 1,
+  ('La strega dov'', 'MISC'): 1,
+  ('Io?', 'MISC'): 1,
+  ('Stavo', 'PER'): 1,
+  ('Oh!', 'MISC'): 1,
+  ('Bada', 'PER'): 1,
+  ('Centauri', 'LOC'): 1,
+  ('Tavola di
+Pietra', 'LOC'): 1,
+  ('Scusa-', 'MISC'): 1,
+  ('Sire', 'PER'): 1,
+  ('Il leopardo', 'MISC'): 1,
+  ('Isole Solitarie', 'LOC'): 1,
+  ('Regina di Narnia', 'PER'): 1,
+  ('Altrimenti Aslan', 'PER'): 1,
+  ('Inol-', 'PER'): 1,
+  ('leone', 'PER'): 1,
+  ('Fra', 'MISC'): 1,
+  ('Ebbene', 'PER'): 1,
+  ('Grande Magia?
+', 'MISC'): 1,
+  ('Diciamo', 'PER'): 1,
+  ('Collina Segreta', 'LOC'): 1,
+  ('Capisco', 'LOC'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Imbecille', 'PER'): 1,
+  ('Grande Magia', 'MISC'): 1,
+  ('Grande Magia', 'LOC'): 1,
+  ('Grande Magia?
+— Qualcosa contro', 'MISC'): 1,
+  ('Ritiratevi', 'MISC'): 1,
+  ('Tranquillizzatevi', 'PER'): 1,
+  ('Raaauug!', 'MISC'): 1,
+  ('La Strega Bianca', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 5,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [192, 2881, 8665, 12322, 13176]
+  },
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.7614799999999999,
+    'early_appearance': False,
+    'positions': [7476, 10273, 11177]
+  },
+  'Strega
+Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7496200000000001,
+    'early_appearance': False,
+    'positions': [5488, 9669]
+  },
+  'Regina di Narnia': {
+    'category': 'torre',
+    'confidence': 0.16386041045188904,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [7658]
+  },
+  'La Strega Bianca': {
+    'category': 'torre',
+    'confidence': 0.17886945605278015,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [13443]
+  },
+  'Tavola di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [717, 1628, 1763, 2038, 9968]
+  },
+  'Cair Paravel': {
+    'category': 'non_luogo',
+    'confidence': 0.28736650943756104,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23852,
+    'early_appearance': True,
+    'positions': [953, 1295]
+  },
+  'piomberemo': {
+    'category': 'non_luogo',
+    'confidence': 0.32237154245376587,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1252]
+  },
+  'Ed-
+mund': {
+    'category': 'non_luogo',
+    'confidence': 0.3693607747554779,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.02078,
+    'early_appearance': False,
+    'positions': [3281, 3914, 6183]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01632,
+    'early_appearance': False,
+    'positions': [5870, 6788, 8316, 8569, 12436]
+  },
+  'Centauri': {
+    'category': 'non_luogo',
+    'confidence': 0.43457895517349243,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [4697]
+  },
+  'Tavola di
+Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [4832]
+  },
+  'Isole Solitarie': {
+    'category': 'non_luogo',
+    'confidence': 0.24622856080532074,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [7503]
+  },
+  'Collina Segreta': {
+    'category': 'non_luogo',
+    'confidence': 0.17334087193012238,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [10110]
+  },
+  'Capisco': {
+    'category': 'non_luogo',
+    'confidence': 0.2735859155654907,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [10563]
+  },
+  'Grande Magia': {
+    'category': 'non_luogo',
+    'confidence': 0.18467357754707336,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [11122, 11240]
+  },
+}"
+Main Location,"{
+  'name': 'Strega Bianca',
+  'category': 'carcere magico',
+  'spacy_label': 'PER',
+  'confidence': 0.10352206230163574,
+  'count': 5,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'carcere magico',
+}"
+Main Character,"{
+  'name': 'Aslan',
+  'count': 25,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 29, 'sadness': 41, 'anger': 13, 'fear': 7}, 'sentiment_counts': {'positive': 28, 'negative': 62}, 'emotion_percentages': {'joy': 32.22222222222222, 'sadness': 45.55555555555556, 'anger': 14.444444444444443, 'fear': 7.777777777777778}, 'sentiment_percentages': {'positive': 31.11111111111111, 'negative': 68.88888888888889}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.9762134552001953, 'Riconoscimento entità con spaCy': 0.0020008087158203125, 'Analisi emozioni': 19.549505472183228, 'Classificazione delle location': 21.78809404373169, 'Tempo totale': 42.317700147628784}"
+Original Text Extract,"13
+Una grande magia all'alba dei tempi
+Ora dobbiamo tornare a Edmund. Lo avevano fatto camminare più di
+quanto avesse mai camminato, più di quanto potrebbe camminare chiun-
+que. Finalmente la Strega Bianca gli ordinò di fermarsi; erano arrivati in
+una piccola valle ombreggiata da abeti altissimi e folti cespugli di tasso.
+Edmund crollò semplicemente a terra, con la faccia in avanti, senza più la
+forza di chiedersi cosa sarebbe accaduto. Gli bastava che lo lasciassero co-
+sì: era talmente stanco che non si accorgeva nemmeno di aver sete e fame.
+Intanto la strega e il nano parlottavano tra loro, fitto fitto e a bassa voce.
+— No, mia regina — diceva il nano. — Ormai è inutile. Devono già es-
+sere arrivati alla Tavola di Pietra.
+— Forse il lupo Maugrim annuserà la nostra pista, ci troverà e porterà
+notizie fresche — ribatté la strega.
+— Se il lupo viene a cercare noi, vuol dire che le notizie sono cattive —
+osservò il nano.
+— Quattro troni in Cair Paravel — mormorò la strega. — Cosa importa
+se tre sono già occupati? Non basta questo a realizzare la profezia.
+— Tre o quattro che differenza fa, ora che lui è qui? — disse il nano, che
+non osava più nominare Aslan di fronte alla strega sua padrona.
+— Forse non resterà a lungo, e allora noi piomberemo sui tre che si sono
+insediati a Cair Paravel.
+— Forse sarebbe meglio approfittare di lui — fece il nano, allungando un
+calcio a Edmund. — Ci potrebbe servire per un affaruccio...
+— Già. E lasciare che lo salvino — esclamò la strega in tono di disprez-
+zo.
+— Allora è meglio fare subito quello che dobbiamo fare — concluse il
+nano.
+— Mi sarebbe piaciuto farlo sulla Tavola di Pietra — disse la strega. —
+Quello è il posto adatto. L'ho sempre fatto là, prima d'ora.
+
+— Ci vorrà un bel po' prima che la Tavola di Pietra sia restituita alla sua
+funzione — esclamò il nano.
+— È vero — annuì la strega. — Allora possiamo cominciare anche subi-
+to.
+In quel preciso momento un grosso lupo si precipitò verso di loro, la-
+trando affannosamente.
+— Li ho visti, Maestà. Sono tutti alla Tavola di Pietra. Hanno ucciso
+Maugrim, il mio capitano. Io ero nascosto tra i cespugli, ma ho visto tutto.
+È stato un figlio di Adamo a ucciderlo. Fuggite. Fuggite anche voi!
+— No — lo interruppe la strega. — Non c'è bisogno di fuggire. Vai a-
+vanti tu, alla svelta, raccogli il mio popolo. Porta qui i sudditi fedeli e av-
+verti gli spiriti degli alberi che parteggiano per me. Chiama i giganti e i lu-
+pi mannari, i demoni dell'aria e quelli del sottosuolo, gli orchi e i minotau-
+ri. Non dimenticare le megere, i rospi, gli spaventapasseri, tutti... Daremo
+battaglia. Non ho ancora la mia bacchetta magica? Non diventeranno di
+pietra tutti quelli che oseranno marciare contro di me? Va' e sbrigati. Io ho
+qualcosa da fare qui.
+La bestiaccia chinò la testa in ossequio, voltò le spalle e partì al galoppo.
+— All'opera, dunque! — esclamò la Strega Bianca. — Non abbiamo la
+tavola sacrificale, ma... vediamo... lo metteremo contro quell'albero.
+Obbligarono Edmund ad alzarsi in piedi, senza tante storie. Lo misero
+con le spalle contro un albero e il nano lo legò con molti giri di corda. La
+strega intanto si era tolta il mantello, rimanendo con un abito lungo senza
+maniche. Nell'oscurità della cupa valletta, all'ombra degli alberi folti, Ed-
+mund vedeva soltanto due braccia orribilmente bianche. — Prepara la vit-
+tima — ordinò lei.
+Il nano si affrettò a obbedire. Slacciò la camicia del ragazzo, rovesciò il
+colletto all'indietro, afferrò Edmund per i capelli e lo costrinse a sollevare il
+mento.
+Nel frattempo si sentiva un rumore strano, un vzzz-vzzz-vzzz, che dap-
+prima Edmund non riuscì a definire. Poi capì: la strega stava affilando un
+coltello.
+In quel momento altri rumori vennero da tutte le parti: grida confuse,
+rimbombare di zoccoli come cavalli al galoppo, un grande sbattere d'ali
+nell'aria buia. La strega gettò un urlo, ci fu un attimo di trambusto ed Ed-
+mund si trovò libero.
+
+Qualcuno lo sostenne; mentre cadeva in una specie di ovattato dormive-
+glia, voci gentili dissero a pochi passi dal suo orecchio: — Mettiamolo giù
+
+piano.
+— Fategli bere un po' di vino.
+— Su, da bravo, starai subito meglio. Bevi, caro, bevi.
+Poi le voci gentili cominciarono a parlare tra loro. Edmund sentiva le
+domande e le risposte, frasi come: — La strega dov'è?
+— Non so. Non l'ho più vista da quando le ho strappato il coltello.
+— Ma non l'hai catturata?
+— Io? No... non so. Stavo dietro al nano.
+— Vuoi dire che te la sei fatta scappare?
+— Be', non potevo occuparmi di tutto. Oh! Qui ci sono un tronco d'albe-
+ro e un grosso macigno. Bada a dove cammini e a non inciampare.
+A questo punto Edmund non sentì più nulla. Era definitivamente crolla-
+to.
+Centauri, cervi, aquile e unicorni (la pattuglia di salvataggio che Aslan
+aveva mandato in cerca di Edmund) tornarono velocemente alla Tavola di
+Pietra, portando il ragazzo con sé. Ma se avessero visto quel che si prepa-
+rava, non avrebbero abbandonato la cupa valletta.
+Quando sorse la luna tutto appar"
+Token Count,3003

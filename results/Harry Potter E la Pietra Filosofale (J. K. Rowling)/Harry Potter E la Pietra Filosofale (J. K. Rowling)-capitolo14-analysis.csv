@@ -1,0 +1,465 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:09:49
+Entities,"{
+  ('Hagrid', 'PER'): 43,
+  ('Harry', 'PER'): 40,
+  ('Ron', 'PER'): 30,
+  ('Hermione', 'PER'): 27,
+  ('Norberto', 'PER'): 16,
+  ('Malfoy', 'PER'): 12,
+  ('Charlie', 'PER'): 11,
+  ('Fuffi', 'LOC'): 6,
+  ('Piton', 'PER'): 6,
+  ('Pietra', 'LOC'): 5,
+  ('Raptor', 'PER'): 4,
+  ('Norvegia', 'LOC'): 3,
+  ('Her-', 'PER'): 3,
+  ('Pietra Filosofale', 'LOC'): 2,
+  ('Nicolas Flamel', 'PER'): 2,
+  ('Pasqua', 'MISC'): 2,
+  ('«Hagrid', 'PER'): 2,
+  ('Sto', 'LOC'): 2,
+  ('Silente', 'PER'): 2,
+  ('Silente', 'LOC'): 2,
+  ('Edvige', 'PER'): 2,
+  ('Senti', 'PER'): 2,
+  ('Dorsorugoso', 'PER'): 2,
+  ('Norberto', 'MISC'): 2,
+  ('Madama Chips', 'PER'): 2,
+  ('Dieci settimane', 'MISC'): 1,
+  ('Flamel', 'PER'): 1,
+  ('Natale', 'MISC'): 1,
+  ('Bofonchiando', 'PER'): 1,
+  ('Dittamo', 'PER'): 1,
+  ('Cento erbe', 'MISC'): 1,
+  ('Sembrava', 'PER'): 1,
+  ('«Voi', 'PER'): 1,
+  ('Oh', 'PER'): 1,
+  ('Pietra 
+Filos...» 
+«Shhhh» Hagrid', 'LOC'): 1,
+  ('Sentite ... venite', 'MISC'): 1,
+  ('Badate', 'PER'): 1,
+  ('Pensi', 'PER'): 1,
+  ('Io vado a vedere in che reparto', 'MISC'): 1,
+  ('Draghi!» sussurrò', 'MISC'): 1,
+  ('Guardate qui:', 'MISC'): 1,
+  ('Specie di draghi della Gran Bretagna', 'MISC'): 1,
+  ('Irlanda', 'LOC'): 1,
+  ('Convenzione degli Stregoni', 'MISC'): 1,
+  ('Babbani', 'ORG'): 1,
+  ('Ro-', 'LOC'): 1,
+  ('Gran Bretagna', 'LOC'): 1,
+  ('Galles', 'LOC'): 1,
+  ('Nero 
+delle Ebridi', 'LOC'): 1,
+  ('Ministero della Magia', 'MISC'): 1,
+  ('Babbani', 'LOC'): 1,
+  ('Dentro', 'PER'): 1,
+  ('Sì» disse Harry', 'MISC'): 1,
+  ('«Primo', 'PER'): 1,
+  ('Secondo', 'MISC'): 1,
+  ('Quella Pietra', 'LOC'): 1,
+  ('Gringott', 'ORG'): 1,
+  ('Dài', 'PER'): 1,
+  ('Il petto di Hagrid', 'MISC'): 1,
+  ('Be'... immagino', 'MISC'): 1,
+  ('Sprite', 'PER'): 1,
+  ('Vitious... la professoressa McGranitt...»', 'MISC'): 1,
+  ('Silen-
+te', 'MISC'): 1,
+  ('Sentite', 'LOC'): 1,
+  ('Guardate', 'PER'): 1,
+  ('Tu sei l'unico', 'MISC'): 1,
+  ('Non lo sa anima viva', 'MISC'): 1,
+  ('Impossibile', 'ORG'): 1,
+  ('Ehi', 'PER'): 1,
+  ('Quello... ehm...» 
+«Dove l'hai preso', 'MISC'): 1,
+  ('L'ho', 'MISC'): 1,
+  ('Anzi', 'ORG'): 1,
+  ('Allevare draghi', 'MISC'): 1,
+  ('Dorsorugoso', 'MISC'): 1,
+  ('Canticchiava', 'MISC'): 1,
+  ('Erbologia', 'PER'): 1,
+  ('cendo!', 'MISC'): 1,
+  ('Oh, piantala!» sussurrò', 'MISC'): 1,
+  ('Erbologia', 'LOC'): 1,
+  ('Il draghetto', 'MISC'): 1,
+  ('D'un colpo', 'MISC'): 1,
+  ('zioso', 'PER'): 1,
+  ('Harry', 'MISC'): 1,
+  ('nini', 'PER'): 1,
+  ('Non è adorabile?» mormorò', 'MISC'): 1,
+  ('C'era qualcuno che spiava attraverso le tendine... un ragazzino... è par-
+tito di corsa', 'MISC'): 1,
+  ('Liberalo', 'MISC'): 1,
+  ('Guardarono il drago', 'MISC'): 1,
+  ('Norberto!', 'MISC'): 1,
+  ('Lo so... lo so', 'MISC'): 1,
+  ('Stai', 'LOC'): 1,
+  ('Ma no!', 'MISC'): 1,
+  ('Romania', 'LOC'): 1,
+  ('Potremmo', 'PER'): 1,
+  ('Mi ha morso!» disse mostrando loro la mano fasciata', 'MISC'): 1,
+  ('Caro Ron', 'PER'): 1,
+  ('Sarei', 'PER'): 1,
+  ('Dorso-', 'MISC'): 1,
+  ('Loro', 'PER'): 1,
+  ('Tanti baci', 'MISC'): 1,
+  ('Abbiamo il mantello', 'MISC'): 1,
+  ('Norber-', 'LOC'): 1,
+  ('Chips', 'PER'): 1,
+  ('Quidditch', 'ORG'): 1,
+  ('Oh no... oh 
+no... mi', 'MISC'): 1,
+  ('Madama Chips', 'MISC'): 1,
+  ('Dobbia-', 'MISC'): 1,
+  ('Mal-
+foy', 'MISC'): 1,
+  ('Thor', 'PER'): 1,
+  ('Non vi faccio entrare» spiegò', 'MISC'): 1,
+  ('Ahi!', 'MISC'): 1,
+  ('Pix', 'MISC'): 1,
+  ('Gli ho messo un bel po' di topi', 'MISC'): 1,
+  ('Addio', 'PER'): 1,
+  ('Norberto!» singhiozzò', 'MISC'): 1,
+  ('Hangrid', 'PER'): 1,
+  ('McGranitt', 'PER'): 1,
+  ('In castigo!» gridò', 'MISC'): 1,
+  ('Serpeverde!', 'MISC'): 1,
+  ('Professoressa', 'PER'): 1,
+  ('Harry Potter...', 'MISC'): 1,
+  ('Evita', 'PER'): 1,
+  ('scopa', 'PER'): 1,
+  ('Gli amici', 'MISC'): 1,
+  ('Finalmente', 'PER'): 1,
+  ('Gazza', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Norvegia': {
+    'category': 'paese',
+    'confidence': 0.4490431845188141,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.98145,
+    'early_appearance': True,
+    'positions': [44, 9629, 12648]
+  },
+  'Pietra Filosofale': {
+    'category': 'scuola di magia',
+    'confidence': 0.14635777473449707,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.9777333333333332,
+    'early_appearance': True,
+    'positions': [760, 5802]
+  },
+  'Pasqua': {
+    'category': 'paese',
+    'confidence': 0.26462528109550476,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.9703333333333333,
+    'early_appearance': True,
+    'positions': [1706, 1755]
+  },
+  'Natale': {
+    'category': 'paese',
+    'confidence': 0.2243667095899582,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9666166666666667,
+    'early_appearance': True,
+    'positions': [1803]
+  },
+  'Irlanda': {
+    'category': 'paese',
+    'confidence': 0.5241168141365051,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [4211]
+  },
+  'Gran Bretagna': {
+    'category': 'paese',
+    'confidence': 0.5589087009429932,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [4814]
+  },
+  'Galles': {
+    'category': 'paese',
+    'confidence': 0.3102216124534607,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [4921]
+  },
+  'Romania': {
+    'category': 'paese',
+    'confidence': 0.45818066596984863,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [14424]
+  },
+  'Gringott': {
+    'category': 'banca magica',
+    'confidence': 0.10899363458156586,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [6107]
+  },
+  'Harry Potter...': {
+    'category': 'scuola di magia',
+    'confidence': 0.18125098943710327,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [21572]
+  },
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.23502212762832642,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [22380]
+  },
+  'Fuffi': {
+    'category': 'non_luogo',
+    'confidence': 0.41434338688850403,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [349, 3446, 5835, 6245, 6911, 7859]
+  },
+  'Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.1253218799829483,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.24818333333333334,
+    'early_appearance': True,
+    'positions': [473, 3430, 3894, 7447, 7610]
+  },
+  'Sto': {
+    'category': 'non_luogo',
+    'confidence': 0.28612276911735535,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [2788, 8237]
+  },
+  'Silente': {
+    'category': 'non_luogo',
+    'confidence': 0.23216769099235535,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [6646, 6894, 8066, 14128]
+  },
+  'Pietra 
+Filos...» 
+«Shhhh» Hagrid': {
+    'category': 'non_luogo',
+    'confidence': 0.1558404415845871,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [3158]
+  },
+  'Ro-': {
+    'category': 'non_luogo',
+    'confidence': 0.3457220494747162,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [4769]
+  },
+  'Nero 
+delle Ebridi': {
+    'category': 'non_luogo',
+    'confidence': 0.28895291686058044,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [4933]
+  },
+  'Babbani': {
+    'category': 'non_luogo',
+    'confidence': 0.4614622890949249,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [4606, 5082]
+  },
+  'Quella Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.15017281472682953,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [6035]
+  },
+  'Sentite': {
+    'category': 'non_luogo',
+    'confidence': 0.28149470686912537,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [7312]
+  },
+  'Erbologia': {
+    'category': 'non_luogo',
+    'confidence': 0.16295988857746124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [10516, 11146]
+  },
+  'Stai': {
+    'category': 'non_luogo',
+    'confidence': 0.2506572902202606,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [14316]
+  },
+  'Norber-': {
+    'category': 'non_luogo',
+    'confidence': 0.3841744363307953,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [16751]
+  },
+}"
+Main Location,"{
+  'name': 'Norvegia',
+  'category': 'paese',
+  'spacy_label': 'LOC',
+  'confidence': 0.4490431845188141,
+  'count': 3,
+  'priority_score': 0.98145,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 40,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9799674418604651,
+}"
+Emotions,"{'emotion_counts': {'joy': 35, 'sadness': 49, 'anger': 8, 'fear': 2}, 'sentiment_counts': {'positive': 39, 'negative': 55}, 'emotion_percentages': {'joy': 37.234042553191486, 'sadness': 52.12765957446809, 'anger': 8.51063829787234, 'fear': 2.127659574468085}, 'sentiment_percentages': {'positive': 41.48936170212766, 'negative': 58.51063829787234}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.4443237781524658, 'Riconoscimento entità con spaCy': 0.0030019283294677734, 'Analisi emozioni': 13.373124122619629, 'Classificazione delle location': 35.26894998550415, 'Tempo totale': 50.09040021896362}"
+Original Text Extract,"Capitolo 14 
+Norberto, drago Dorsorugoso di Norvegia 
+ 
+Ma Raptor doveva essere più coraggioso di quanto credevano. Nelle set-
+timane successive sembrava farsi sempre più pallido e smunto, ma resiste-
+va. 
+Ogni volta che passavano per il corridoio del terzo piano, Harry, Ron e 
+Hermione accostavano l'orecchio alla porta per controllare che dentro Fuffi 
+ringhiasse ancora. Piton si faceva vedere in giro di malumore come al soli-
+to, il che certamente significava che la Pietra era ancora in salvo. In quei 
+giorni ogni volta che Harry incrociava Raptor lo gratificava di una sorta di 
+sorriso di incoraggiamento e Ron aveva cominciato a redarguire quelli che 
+ridevano della balbuzie del professore. Hermione, invece, aveva altre cose 
+cui pensare oltre la Pietra Filosofale. Aveva cominciato a fare il program-
+ma dei ripassi e a dividere i suoi appunti per argomenti e attribuire un co-
+lore diverso a ciascuno. A Harry e a Ron non sarebbe mai passato per la 
+testa, ma lei continuava a pungolarli perché facessero lo stesso. «Ma, 
+Hermione, agli esami mancano secoli!» 
+«Dieci settimane» precisò impaziente Hermione, «dieci settimane non 
+sono secoli, e per Nicolas Flamel sono un attimo». 
+«Ma noi non abbiamo seicento anni come Flamel» le ricordò Ron. «E 
+comunque, si può sapere a che cosa ti serve fare il ripasso, visto che sai già 
+tutto?» 
+
+«A che cosa mi serve? Ma sei matto? Ti rendi conto che questi esami 
+dobbiamo passarli per andare al secondo anno? Sono molto importanti, a-
+vrei dovuto cominciare a studiare un mese fa, non so proprio che cosa mi 
+ha preso...» 
+Purtroppo pareva che gli insegnanti la pensassero come Hermione. Li 
+caricarono di tanti di quei compiti per le vacanze di Pasqua, che quanto a 
+divertimento le vacanze di Pasqua non assomigliarono di certo a quelle di 
+Natale. Era difficile rilassarsi con Hermione accanto che recitava i dodici 
+usi del sangue di drago e si esercitava nei movimenti della bacchetta magi-
+ca. Bofonchiando e sbadigliando, Harry e Ron trascorsero la maggior parte 
+del tempo libero con la ragazza in biblioteca cercando di portare a termine 
+i compiti delle vacanze. 
+«Questo non riuscirò mai a ricordarmelo» esplose Ron un pomeriggio, 
+poggiando la penna d'oca e guardando nostalgico fuori della finestra della 
+biblioteca. Era la prima vera, bella giornata di sole che avevano avuto da 
+mesi. Il cielo era di un tenue color non ti scordar di me e nell'aria c'era il 
+profumo dell'estate imminente. 
+Harry, che stava cercando la voce 'Dittamo' nel volume Cento erbe e 
+funghi magici, non alzò gli occhi dai libri se non quando udì Ron esclama-
+re: «Hagrid, che cosa ci fai tu in biblioteca?» 
+Hagrid era apparso, nascondendo qualcosa dietro la schiena. Sembrava 
+assolutamente fuori posto nel suo pastrano di fustagno. 
+«Sto solo a dare un'occhiata» disse con una voce ambigua che attrasse 
+subito la loro attenzione. «Voi, piuttosto, che cosa ci fate qui?» Di colpo, 
+parve farsi sospettoso. «Non starete mica ancora dietro a Nicolas Flamel 
+vero?» 
+«Oh, quello lo abbiamo scoperto secoli fa» disse Ron dandosi arie d'im-
+portanza, «e sappiamo anche a che cosa fa la guardia il cane, a una Pietra 
+Filos...» 
+«Shhhh» Hagrid si guardò intorno furtivo per vedere se qualcuno fosse 
+in ascolto. «Non dovete parlare ad alta voce di questa cosa, si può sapere 
+che cosa vi prende?» 
+«In realtà» disse Harry, «volevamo chiederti alcune cose su come è sor-
+vegliata la Pietra, a parte Fuffi...» 
+«SHHHHHH!» fece di nuovo Hagrid. «Sentite ... venite a trovarmi più 
+tardi. Badate bene, non vi prometto di dirvi niente, ma voi piantatela di 
+frugare qua dentro; gli studenti non devono sapere. Si penserà che sono 
+stato io a dirvelo...» 
+
+«A dopo, allora» disse Harry. 
+Hagrid se ne andò caracollando col suo passo goffo. 
+«Ma che cosa nascondeva dietro la schiena?» chiese Hermione pensiero-
+sa. 
+«Pensi che avesse a che fare con la Pietra?» 
+«Io vado a vedere in che reparto è stato» disse Ron che ne aveva abba-
+stanza di studiare. Un attimo dopo era di ritorno con una pila di libri che 
+lasciò cadere sul tavolo. 
+«Draghi!» sussurrò. «Hagrid stava consultando la letteratura sui draghi! 
+Guardate qui: Specie di draghi della Gran Bretagna e dell'Irlanda... Dal-
+l'uovo agli inferi: guida pratica per l'allevatore di draghi». 
+«Hagrid ha sempre desiderato un drago, me lo ha detto fin dalla prima 
+volta che ci siamo conosciuti» disse Harry. 
+«Ma è contro le nostre leggi» disse Ron. «L'allevamento dei draghi è 
+stato dichiarato fuori legge dalla Convenzione degli Stregoni del 1709, 
+questo lo sanno tutti. È difficile non farsi notare dai Babbani se alleviamo 
+un drago in giardino, e comunque non si possono addomesticare: troppo 
+pericoloso. Dovreste vedere le bruciature che si è beccato Charlie in Ro-
+mania coi draghi selvatici». 
+«E che, in Gran Bretagna esistono draghi selvatici?» chiese Harry. 
+«Ma naturalmente» disse Ron. «Il Verde Comune del Galles e il Nero 
+delle Ebridi. Il Ministero della Magia ha il suo bel da fare "
+Token Count,5071

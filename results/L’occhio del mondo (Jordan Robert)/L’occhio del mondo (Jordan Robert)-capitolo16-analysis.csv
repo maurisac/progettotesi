@@ -1,0 +1,559 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:27:04
+Entities,"{
+  ('Nynaeve', 'PER'): 39,
+  ('Rand', 'MISC'): 37,
+  ('Moiraine', 'PER'): 13,
+  ('Sapiente', 'MISC'): 12,
+  ('Lan', 'MISC'): 12,
+  ('Thom', 'PER'): 10,
+  ('Perrin', 'PER'): 9,
+  ('Egwene', 'PER'): 9,
+  ('Tam', 'PER'): 9,
+  ('Min', 'PER'): 8,
+  ('Mat', 'MISC'): 7,
+  ('Emond’s Field', 'MISC'): 6,
+  ('Aes Sedai', 'LOC'): 5,
+  ('Fiumi Gemelli', 'LOC'): 4,
+  ('«', 'PER'): 4,
+  ('Manti Bianchi', 'ORG'): 3,
+  ('lady Alys', 'MISC'): 3,
+  ('Thor', 'PER'): 3,
+  ('Vai', 'PER'): 2,
+  ('Rand', 'PER'): 2,
+  ('Mat', 'PER'): 2,
+  ('Baerlon', 'LOC'): 2,
+  ('spalliera', 'LOC'): 2,
+  ('Trolloc', 'ORG'): 2,
+  ('Consiglio', 'ORG'): 2,
+  ('Fiumi', 'LOC'): 2,
+  ('Gemelli', 'LOC'): 2,
+  ('Tenebroso', 'PER'): 2,
+  ('Davvero', 'PER'): 1,
+  ('Nemmeno io ho tempo da perdere con uno sciocco come te', 'MISC'): 1,
+  ('Impossibile', 'ORG'): 1,
+  ('La conosci?» mormorò', 'MISC'): 1,
+  ('lady Alys', 'PER'): 1,
+  ('Guardò', 'PER'): 1,
+  ('Stavolta', 'PER'): 1,
+  ('Cosa', 'PER'): 1,
+  ('Notte d’Inverno', 'MISC'): 1,
+  ('Sapiente per te', 'MISC'): 1,
+  ('Consiglio del Villaggio', 'ORG'): 1,
+  ('Sentì', 'PER'): 1,
+  ('Be’»', 'MISC'): 1,
+  ('Vorrei', 'PER'): 1,
+  ('Tu… hai', 'MISC'): 1,
+  ('Marche', 'LOC'): 1,
+  ('Confine', 'LOC'): 1,
+  ('piano Moiraine', 'MISC'): 1,
+  ('Emond’s Field 
+Egwene', 'MISC'): 1,
+  ('» Indicò Lan', 'MISC'): 1,
+  ('Nynaeve', 'MISC'): 1,
+  ('Sciamerebbero', 'PER'): 1,
+  ('Custodi', 'LOC'): 1,
+  ('Torre 
+Bianca', 'LOC'): 1,
+  ('Inquisitori', 'MISC'): 1,
+  ('Inquisitore', 'PER'): 1,
+  ('Luce', 'LOC'): 1,
+  ('Perfino Moiraine', 'PER'): 1,
+  ('Tar', 'LOC'): 1,
+  ('Luce', 'MISC'): 1,
+  ('Luhhan', 'PER'): 1,
+  ('Ma va?»', 'MISC'): 1,
+  ('Tu e io', 'MISC'): 1,
+  ('Aes 
+Sedai', 'LOC'): 1,
+  ('Cerchia', 'LOC'): 1,
+  ('Al sicuro!', 'MISC'): 1,
+  ('Manti Bianchi', 'LOC'): 1,
+  ('Vera Fonte', 'MISC'): 1,
+  ('Saidar', 'PER'): 1,
+  ('Potere', 'ORG'): 1,
+  ('Saidin', 'PER'): 1,
+  ('Trolloc', 'MISC'): 1,
+  ('Emond', 'PER'): 1,
+  ('Field?', 'MISC'): 1,
+  ('Tu tiri in ballo finti spauracchi» replicò', 'MISC'): 1,
+  ('Egwene', 'LOC'): 1,
+  ('Custode', 'LOC'): 1,
+  ('Ubbidendo', 'PER'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Custode 
+le mormorò qualcosa', 'MISC'): 1,
+  ('Raddrizzò', 'MISC'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Mavra Mallen', 'PER'): 1,
+  ('Deven Ride', 'MISC'): 1,
+  ('Spero', 'LOC'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Parli', 'LOC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Mandare 
+la Sapiente', 'MISC'): 1,
+  ('Sei cresciuto davvero» sorrise', 'MISC'): 1,
+  ('«Camminiamo', 'PER'): 1,
+  ('Bran', 'LOC'): 1,
+  ('Vere', 'LOC'): 1,
+  ('Haral Luhhan', 'PER'): 1,
+  ('Alsbet', 'LOC'): 1,
+  ('Cenn Buie', 'PER'): 1,
+  ('Luce mi salvi dagli uomini', 'MISC'): 1,
+  ('Sbuffò di cuore', 'MISC'): 1,
+  ('Cerchia delle 
+Donne', 'LOC'): 1,
+  ('Ti senti bene?» domandò', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Rand!»', 'MISC'): 1,
+  ('Tam al’', 'PER'): 1,
+  ('Ricordo', 'MISC'): 1,
+  ('Kari al’', 'PER'): 1,
+  ('Kari', 'PER'): 1,
+  ('«No', 'PER'): 1,
+  ('E ora cosa intendi fare?»  
+Nynaeve', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 10,
+    'priority_score': 0.9814833333333333,
+    'early_appearance': True,
+    'positions': [334, 1500, 2123, 2535, 3786, 4415, 6759, 7298, 8358, 14203]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9666166666666667,
+    'early_appearance': True,
+    'positions': [65, 437, 499, 896, 1100, 1474, 1615, 1939, 2165, 2451, 2620, 2892, 3830, 4283, 5423, 6026, 8737, 9083, 10927, 11398, 14218, 15286, 15821, 16193, 16294, 16358, 16952, 17338, 17765, 17887, 17962, 18375, 19540, 19642, 20059, 20279, 21350, 22059, 22287]
+  },
+  'Vai': {
+    'category': 'paese',
+    'confidence': 0.20735855400562286,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9666166666666667,
+    'early_appearance': True,
+    'positions': [383, 13440]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9666166666666667,
+    'early_appearance': True,
+    'positions': [1892, 2087, 2191, 3792, 4229, 10043, 10281, 14018, 15069]
+  },
+  'Impossibile': {
+    'category': 'paese',
+    'confidence': 0.18673671782016754,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.9647583333333334,
+    'early_appearance': True,
+    'positions': [963]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 12,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [3583, 4501, 4679, 4931, 5363, 5766, 6572, 8267, 13145, 14140, 14410, 15670]
+  },
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'PER',
+    'count': 9,
+    'priority_score': 0.757425,
+    'early_appearance': False,
+    'positions': [5582, 9406, 9656, 9889, 16099, 18462, 18635, 20628, 21479]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 6,
+    'priority_score': 0.75185,
+    'early_appearance': False,
+    'positions': [9156, 11144, 13511, 19314, 20198, 21107]
+  },
+  'Marche': {
+    'category': 'paese',
+    'confidence': 0.4536382555961609,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [5963]
+  },
+  'Torre 
+Bianca': {
+    'category': 'castello',
+    'confidence': 0.09299014508724213,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [7772]
+  },
+  'Tar': {
+    'category': 'paese',
+    'confidence': 0.23663370311260223,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [9268]
+  },
+  'Parli': {
+    'category': 'paese',
+    'confidence': 0.2916105389595032,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [16962]
+  },
+  'Bran': {
+    'category': 'paese',
+    'confidence': 0.27615973353385925,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [18642]
+  },
+  'Thor': {
+    'category': 'paese',
+    'confidence': 0.2889701724052429,
+    'spacy_label': 'PER',
+    'count': 3,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [5590, 20992, 21213]
+  },
+  'Consiglio': {
+    'category': 'paese',
+    'confidence': 0.3156205713748932,
+    'spacy_label': 'ORG',
+    'count': 2,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [9527, 9761]
+  },
+  'Emond’s Field 
+Egwene': {
+    'category': 'strada',
+    'confidence': 0.11429214477539062,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [6695]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [8545, 9541]
+  },
+  'Vieni': {
+    'category': 'paese',
+    'confidence': 0.2779832184314728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [16449]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [17060]
+  },
+  'Ricordo': {
+    'category': 'paese',
+    'confidence': 0.17895306646823883,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [21193]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.016691666666666667,
+    'early_appearance': False,
+    'positions': [6499, 7571, 12238, 12630, 12940, 16920]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [5553, 13321, 20041, 21447]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [5146, 6901]
+  },
+  'spalliera': {
+    'category': 'non_luogo',
+    'confidence': 0.1146489754319191,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [9019, 10694]
+  },
+  'Fiumi': {
+    'category': 'non_luogo',
+    'confidence': 0.18283352255821228,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [11991, 21674]
+  },
+  'Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.1344870775938034,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [11998, 21680]
+  },
+  'Confine': {
+    'category': 'non_luogo',
+    'confidence': 0.2572762966156006,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [5973]
+  },
+  'Custodi': {
+    'category': 'non_luogo',
+    'confidence': 0.21045437455177307,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [7586]
+  },
+  'Aes 
+Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [11676]
+  },
+  'Cerchia': {
+    'category': 'non_luogo',
+    'confidence': 0.19060716032981873,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [11820]
+  },
+  'Manti Bianchi': {
+    'category': 'non_luogo',
+    'confidence': 0.2819724678993225,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [2399, 7684, 12068, 12455]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [3682, 4203, 4289, 5057, 10548, 10670, 13530, 13775, 14791, 15240]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [14237]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [3141, 3242, 4073, 4982, 6960, 11314, 11922, 12317, 12684, 13544, 14159, 14853, 15532, 21797]
+  },
+  'Spero': {
+    'category': 'non_luogo',
+    'confidence': 0.21601034700870514,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [16635]
+  },
+  'Vere': {
+    'category': 'non_luogo',
+    'confidence': 0.30270180106163025,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [18650]
+  },
+  'Alsbet': {
+    'category': 'non_luogo',
+    'confidence': 0.25977739691734314,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [18727]
+  },
+  'Cerchia delle 
+Donne': {
+    'category': 'non_luogo',
+    'confidence': 0.1874423325061798,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [19137]
+  },
+}"
+Main Location,"{
+  'name': 'Thom',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.25840532779693604,
+  'count': 10,
+  'priority_score': 0.9814833333333333,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Nynaeve',
+  'count': 39,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 28, 'sadness': 47, 'fear': 6, 'anger': 13}, 'sentiment_counts': {'positive': 35, 'negative': 59}, 'emotion_percentages': {'joy': 29.78723404255319, 'sadness': 50.0, 'fear': 6.382978723404255, 'anger': 13.829787234042554}, 'sentiment_percentages': {'positive': 37.234042553191486, 'negative': 62.76595744680851}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.5213391780853271, 'Riconoscimento entità con spaCy': 0.00400090217590332, 'Analisi emozioni': 16.431262493133545, 'Classificazione delle location': 34.94539713859558, 'Tempo totale': 52.90498900413513}"
+Original Text Extract,"16 
+ 
+La Sapiente 
+ 
+ 
+ 
+ 
+ 
+Perrin li precedette nella locanda. Rand, preoccupato per l’incontro con Nynaeve, non si accorse di 
+Min finché lei non lo prese per il braccio e lo tirò da parte. Anche gli altri si fermarono, qualche passo 
+più avanti, impazienti e riluttanti insieme.  
+«Non abbiamo tempo da perdere, ragazzo» brontolò Thom.  
+Min gli rivolse un’occhiata penetrante. «Vai a fare giochi di prestigio» lo apostrofò, tirando Rand 
+ancora più in disparte.  
+«Davvero, non ho tempo» disse Rand. «E non voglio sentire altre sciocchezze.» Liberò il braccio, 
+ma lei tornò ad afferrarlo.  
+«Nemmeno io ho tempo da perdere con uno sciocco come te. Vuoi stare fermo o no?» Gli si accostò 
+e abbassò la voce. «Poco fa è giunta una donna… più bassa di me, giovane, con occhi scuri e la treccia 
+che le arriva alla cintola. Anche lei fa parte di questa storia, come tutti voi.»  
+Per un minuto Rand si limitò a fissarla. Nynaeve? Come poteva essere implicata? «Impossibile» 
+disse infine.  
+«La conosci?» mormorò Min.  
+«Sì. E non può essere immischiata in… in qualsiasi cosa tu…»  
+«Le scintille, Rand. Quella donna ha incontrato lady Alys che rientrava; e ho visto scintille, anche se 
+c’erano solo loro due. Ieri non ne ho viste, se non in presenza di tre o quattro di voi; ma oggi è tutto più 
+chiaro, più violento.» Guardò gli altri e rabbrividì. «C’è quasi da stupirsi che la locanda non prenda 
+fuoco. Oggi siete in pericolo più di ieri. Da quando è giunta lei.»  
+Rand guardò i suoi amici: Thom, con le sopracciglia aggrottate, si sporgeva come se volesse tirarlo 
+via. «Non ci farà niente di male» disse Rand a Min. «Adesso devo proprio andare.» Stavolta riuscì a 
+liberarsi il braccio.  
+Senza badare alle proteste della ragazza, si unì agli altri. Si guardò indietro una volta. Min agitò il 
+pugno nella sua direzione e batté per terra il piede.  
+«Cosa aveva da dirti?» domandò Mat.  
+«Nynaeve fa parte della storia» rispose Rand, senza pensare; gli lanciò un’occhiata penetrante e lo 
+sorprese a bocca aperta. A poco a poco una luce di comprensione si diffuse sul viso di Mat.  
+«Parte di che cosa?» domandò Thom. «Cosa sa, quella ragazza?»  
+Mentre Rand cercava la risposta, Mat intervenne: «Certo che ne fa parte» disse, scontroso. «Parte 
+della stessa sfortuna che abbiamo dalla Notte d’Inverno. Forse la comparsa della Sapiente per te non ha 
+importanza, ma io preferirei quasi i Manti Bianchi.»  
+«Ha visto arrivare Nynaeve» disse Rand. «L’ha vista parlare a lady Alys e ha pensato che avesse a 
+che fare con noi.» Thom lo guardò di storto e sbuffò; ma gli altri parvero accettare la spiegazione. A 
+Rand non piaceva avere segreti, con gli amici; ma divulgare quello di Min poteva essere pericoloso per 
+la ragazza.  
+Perrin si fermò davanti a una porta; dopo un attimo d’esitazione, inspirò a fondo, aprì il battente ed 
+entrò. Uno alla volta, gli altri lo seguirono.  
+
+Rand fu l’ultimo e si chiuse l’uscio alle spalle, ma con grande riluttanza.  
+Era la stanza in cui avevano cenato la sera precedente. Nel camino ardeva il fuoco, al centro del 
+tavolo c’era un lucido vassoio con una caraffa d’argento e delle coppe. Moiraine e Nynaeve sedevano 
+alle estremità del tavolo e non staccavano lo sguardo l’una dall’altra. Moiraine teneva sul tavolo le 
+mani, immobili come il viso. Nynaeve si era tirata sulla spalla la treccia e continuava a darle piccoli 
+strattoni, come soleva fare quando non era d’accordo col Consiglio del Villaggio. Perrin aveva ragione, 
+pensò.  
+Nonostante il fuoco, la stanza sembrava gelida; tutto il gelo proveniva dalle due donne.  
+Lan, appoggiato alla mensola del camino, fissava le fiamme e si strofinava le mani per scaldarle. 
+Egwene, avvolta nel mantello, con la schiena contro la parete, teneva il cappuccio calato sugli occhi. 
+Thom, Mat e Perrin si fermarono, incerti.  
+Rand si avvicinò al tavolo. A volte bisogna afferrare il lupo per le orecchie, pensò. Ma ricordò anche 
+un altro vecchio detto: Se afferri un lupo per le orecchie, lasciarlo andare è difficile quanto trattenerlo. 
+Sentì su di sé lo sguardo di Moiraine, e anche quello di Nynaeve, ma si sedette ugualmente, a metà fra 
+l’una e l’altra.  
+Per un minuto nessuno si mosse; poi Egwene e Perrin, e infine Mat, presero posto con riluttanza a 
+metà tavolo come Rand. Egwene si calò ancora il cappuccio, tanto da nascondere mezza faccia; 
+ciascuno evitava di guardare gli altri.  
+«Be’» sbuffò Thom, fermo accanto all’uscio. «Eccoci qui.»  
+«Visto che siamo tutti presenti» disse Lan, scostandosi dal camino per riempire di vino una coppa 
+«forse ti deciderai ad accettarla.» La offrì a Nynaeve, che la guardò con sospetto. «Non hai niente da 
+temere» disse Lan, paziente. «Hai visto il locandiere portare il vino e nessuno di noi ha avuto 
+l’occasione di metterci dentro qualcosa. Non corri alcun rischio.»  
+La Sapiente serrò le labbra, ma accettò la coppa e mormorò un: «Grazie.»  
+«Vorrei sapere» continuò Lan «come hai fatto a trovarci.»  
+«Anch’io» disse Moiraine, sporgend"
+Token Count,4938

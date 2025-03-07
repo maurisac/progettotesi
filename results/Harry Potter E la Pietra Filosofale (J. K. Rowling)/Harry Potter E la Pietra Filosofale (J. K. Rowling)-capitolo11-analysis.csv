@@ -1,0 +1,536 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:09:00
+Entities,"{
+  ('Harry', 'PER'): 52,
+  ('Piton', 'PER'): 27,
+  ('Ron', 'PER'): 19,
+  ('Hermione', 'PER'): 19,
+  ('Hagrid', 'PER'): 16,
+  ('Grifondoro', 'PER'): 12,
+  ('Baston', 'PER'): 9,
+  ('scopa', 'PER'): 7,
+  ('Serpeverde', 'LOC'): 6,
+  ('Pluffa', 'LOC'): 6,
+  ('Bolide', 'LOC'): 6,
+  ('Quidditch', 'ORG'): 5,
+  ('Flitt', 'PER'): 4,
+  ('Lee Jordan', 'PER'): 4,
+  ('Boccino', 'LOC'): 4,
+  ('Grifondoro', 'LOC'): 4,
+  ('Quidditch', 'LOC'): 3,
+  ('Silente', 'PER'): 3,
+  ('Neville', 'PER'): 3,
+  ('Seamus', 'PER'): 3,
+  ('Dean', 'PER'): 3,
+  ('Fred', 'PER'): 3,
+  ('Weasley', 'MISC'): 3,
+  ('Her-', 'PER'): 2,
+  ('Il Quidditch', 'MISC'): 2,
+  ('Chissà', 'PER'): 2,
+  ('Potter', 'MISC'): 2,
+  ('Fred Weasley', 'PER'): 2,
+  ('Madama Bumb', 'PER'): 2,
+  ('Marcus Flitt', 'PER'): 2,
+  ('Nimbus Duemila', 'MISC'): 2,
+  ('McGranitt', 'PER'): 2,
+  ('Bell', 'ORG'): 2,
+  ('Flitt', 'LOC'): 2,
+  ('Adrian Pucey', 'PER'): 2,
+  ('Boccino', 'PER'): 2,
+  ('Harry?', 'MISC'): 2,
+  ('Palla', 'PER'): 2,
+  ('Jordan', 'PER'): 2,
+  ('Harry', 'MISC'): 2,
+  ('Stupidate!', 'MISC'): 2,
+  ('Fuffi', 'LOC'): 2,
+  ('campionato delle', 'MISC'): 1,
+  ('Case', 'LOC'): 1,
+  ('Cercatori', 'MISC'): 1,
+  ('Sahara', 'LOC'): 1,
+  ('Purtrop-', 'PER'): 1,
+  ('Potter?', 'MISC'): 1,
+  ('Non lo so', 'MISC'): 1,
+  ('Incantesimi di Harry', 'MISC'): 1,
+  ('Altrimenti', 'PER'): 1,
+  ('dendole di correggerglieli', 'LOC'): 1,
+  ('Il Quidditch', 'PER'): 1,
+  ('Alzandosi', 'PER'): 1,
+  ('Meglio te che io» dissero a una voce', 'MISC'): 1,
+  ('Bussò', 'LOC'): 1,
+  ('Socchiuse', 'PER'): 1,
+  ('Gazza', 'LOC'): 1,
+  ('Gazza', 'PER'): 1,
+  ('Dannato coso» stava', 'MISC'): 1,
+  ('POTTER!', 'MISC'): 1,
+  ('FUORI!', 'MISC'): 1,
+  ('Bisbigliando', 'MISC'): 1,
+  ('Sapete che cosa', 'MISC'): 1,
+  ('Halloween', 'MISC'): 1,
+  ('No... non lo farebbe mai» disse', 'MISC'): 1,
+  ('glianza', 'LOC'): 1,
+  ('rimbeccò Ron', 'PER'): 1,
+  ('Sala Grande', 'LOC'): 1,
+  ('Devi mangiare qualcosa»', 'MISC'): 1,
+  ('Non voglio niente»', 'MISC'): 1,
+  ('Soltanto un pezzetto di toast', 'MISC'): 1,
+  ('Non ho fame»', 'MISC'): 1,
+  ('Seamus Finnigan', 'PER'): 1,
+  ('«I 
+Cercatori', 'PER'): 1,
+  ('Neville', 'LOC'): 1,
+  ('cio', 'ORG'): 1,
+  ('Crosta', 'LOC'): 1,
+  ('Cacciatrice Angelina Johnson', 'PER'): 1,
+  ('E ragazze» convenne', 'MISC'): 1,
+  ('Il gran giorno', 'MISC'): 1,
+  ('eco George', 'PER'): 1,
+  ('Chiudete il becco', 'MISC'): 1,
+  ('Vinceremo', 'LOC'): 1,
+  ('Bene', 'MISC'): 1,
+  ('George', 'PER'): 1,
+  ('Serpeverde', 'PER'): 1,
+  ('Madama Bumb', 'MISC'): 1,
+  ('Quindici', 'LOC'): 1,
+  ('Angelina Johnson', 'PER'): 1,
+  ('Cacciatrice', 'PER'): 1,
+  ('Wea-
+sley', 'MISC'): 1,
+  ('Alicia Spinnet', 'PER'): 1,
+  ('Oliver Baston', 'PER'): 1,
+  ('Johnson', 'ORG'): 1,
+  ('Serpeverde Marcus Flitt', 'PER'): 1,
+  ('Portiere', 'PER'): 1,
+  ('Grifondoro Baston', 'PER'): 1,
+  ('Cacciatrice del Grifondoro Ka-', 'MISC'): 1,
+  ('Pluffa', 'PER'): 1,
+  ('George Weasley', 'PER'): 1,
+  ('Angelina!', 'MISC'): 1,
+  ('Portiere Ble-
+tchley', 'MISC'): 1,
+  ('GRIFONDORO', 'ORG'): 1,
+  ('SEGNATO', 'ORG'): 1,
+  ('Spostatevi un po'', 'MISC'): 1,
+  ('Finora ho guardato dalla mia capanna', 'MISC'): 1,
+  ('No» disse Ron', 'MISC'): 1,
+  ('Finora Harry', 'PER'): 1,
+  ('Tieniti fuori tiro', 'MISC'): 1,
+  ('Angelina', 'LOC'): 1,
+  ('Tutto bene da quelle parti', 'MISC'): 1,
+  ('Bolide', 'ORG'): 1,
+  ('Cacciatore Pucey', 'PER'): 1,
+  ('Bolidi', 'MISC'): 1,
+  ('Cacciatore Bell', 'PER'): 1,
+  ('Cercatore del Serpeverde', 'LOC'): 1,
+  ('Terence Higgs', 'PER'): 1,
+  ('Boc-', 'ORG'): 1,
+  ('Cacciatori', 'MISC'): 1,
+  ('Higgs', 'PER'): 1,
+  ('WHAM!', 'ORG'): 1,
+  ('Marcus 
+Flitt', 'PER'): 1,
+  ('Fallo!', 'MISC'): 1,
+  ('Giù', 'PER'): 1,
+  ('Dean Thomas', 'PER'): 1,
+  ('Arbitro', 'PER'): 1,
+  ('Espulsione!', 'ORG'): 1,
+  ('E va bene', 'MISC'): 1,
+  ('Cercatore del Grifondoro', 'MISC'): 1,
+  ('Grifon-
+doro', 'MISC'): 1,
+  ('Spinnet', 'PER'): 1,
+  ('gue', 'MISC'): 1,
+  ('Nimbus Duemila', 'PER'): 1,
+  ('Zigzagava', 'PER'): 1,
+  ('Lee', 'PER'): 1,
+  ('Spinnet...', 'MISC'): 1,
+  ('I Serpeverde', 'MISC'): 1,
+  ('bofonchiò Hagrid', 'PER'): 1,
+  ('Direi', 'PER'): 1,
+  ('D'', 'PER'): 1,
+  ('Impossibile', 'ORG'): 1,
+  ('Hermionc', 'PER'): 1,
+  ('Harry', 'LOC'): 1,
+  ('Ma che diavolo stai facendo?', 'MISC'): 1,
+  ('Lo sapevo!» ansimò', 'MISC'): 1,
+  ('Teneva', 'PER'): 1,
+  ('Sta', 'PER'): 1,
+  ('E ora che facciamo?» 
+«Lascia fare a me»', 'MISC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Marcus Flirt', 'PER'): 1,
+  ('Dài', 'PER'): 1,
+  ('Raptor', 'PER'): 1,
+  ('Richiamò il fuoco', 'MISC'): 1,
+  ('Boccino!', 'MISC'): 1,
+  ('Hal-
+loween', 'MISC'): 1,
+  ('E voi che ne sapete di', 'MISC'): 1,
+  ('Sì... è mio... l'ho', 'MISC'): 1,
+  ('Sì?» disse', 'MISC'): 1,
+  ('Ho-', 'LOC'): 1,
+  ('Senti', 'PER'): 1,
+  ('E io vi dico che prendete un granchio» disse', 'MISC'): 1,
+  ('Non so perché la scopa', 'MISC'): 1,
+  ('Pi-', 'LOC'): 1,
+  ('Nicolas Flamel', 'PER'): 1,
+  ('Aha!»', 'MISC'): 1,
+  ('Nico-
+las Flamel!» 
+Sul volto di Hagrid', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.23502212762832642,
+    'spacy_label': 'PER',
+    'count': 7,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [348, 5721, 9224, 12218, 16973, 19807, 20829]
+  },
+  'Case': {
+    'category': 'paese',
+    'confidence': 0.2541228234767914,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9734857142857142,
+    'early_appearance': True,
+    'positions': [764]
+  },
+  'Sala Grande': {
+    'category': 'sala',
+    'confidence': 0.24915333092212677,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [6695]
+  },
+  'Palla': {
+    'category': 'paese',
+    'confidence': 0.19780805706977844,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7470714285714286,
+    'early_appearance': False,
+    'positions': [13098, 16271]
+  },
+  'Potter?': {
+    'category': 'scuola di magia',
+    'confidence': 0.12882943451404572,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [2966]
+  },
+  'Johnson': {
+    'category': 'paese',
+    'confidence': 0.22016634047031403,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [10511]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.24871428571428572,
+    'early_appearance': True,
+    'positions': [640, 8207, 9431, 10997, 11530, 13107, 16479]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.24234285714285714,
+    'early_appearance': True,
+    'positions': [621, 672, 3172, 3442, 5196, 7966, 8753, 10051, 10749, 11487, 14028, 14217, 14315, 15301, 15926, 20531]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.23915714285714285,
+    'early_appearance': True,
+    'positions': [16, 367, 508, 1610, 1920, 6515, 7412, 14598]
+  },
+  'Sahara': {
+    'category': 'non_luogo',
+    'confidence': 0.24699310958385468,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [2008]
+  },
+  'Harry': {
+    'category': 'non_luogo',
+    'confidence': 0.20337551832199097,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [545, 797, 1241, 1535, 2046, 2256, 2571, 3024, 3228, 3483, 3796, 4163, 4851, 5015, 5120, 5272, 5354, 6145, 6256, 6983, 7069, 7260, 7710, 8112, 8611, 8930, 9361, 9485, 9778, 12090, 12514, 13504, 13858, 14084, 14117, 14807, 15359, 15864, 16587, 16756, 16959, 17165, 17645, 17927, 18213, 18574, 19748, 19963, 20420, 20600, 21066, 21156, 21671, 22442, 22776]
+  },
+  'Pluffa': {
+    'category': 'non_luogo',
+    'confidence': 0.33252468705177307,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.026514285714285712,
+    'early_appearance': False,
+    'positions': [9983, 10532, 10790, 10978, 13375, 16306, 18776]
+  },
+  'Bolide': {
+    'category': 'non_luogo',
+    'confidence': 0.23784765601158142,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.026514285714285712,
+    'early_appearance': False,
+    'positions': [10951, 11106, 11308, 12805, 13053, 15380, 16384]
+  },
+  'Boccino': {
+    'category': 'non_luogo',
+    'confidence': 0.32004860043525696,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.020142857142857143,
+    'early_appearance': False,
+    'positions': [11838, 12263, 12394, 12640, 13291, 14387]
+  },
+  'Flitt': {
+    'category': 'non_luogo',
+    'confidence': 0.36752060055732727,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.013771428571428572,
+    'early_appearance': False,
+    'positions': [9501, 10878, 14255, 14768, 17306, 20356]
+  },
+  'Fuffi': {
+    'category': 'non_luogo',
+    'confidence': 0.41434338688850403,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.013771428571428572,
+    'early_appearance': False,
+    'positions': [21493, 21503]
+  },
+  'dendole di correggerglieli': {
+    'category': 'non_luogo',
+    'confidence': 0.2507292926311493,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [3700]
+  },
+  'Bussò': {
+    'category': 'non_luogo',
+    'confidence': 0.3453553318977356,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [4355]
+  },
+  'Gazza': {
+    'category': 'non_luogo',
+    'confidence': 0.3090805113315582,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [4551, 4701]
+  },
+  'glianza': {
+    'category': 'non_luogo',
+    'confidence': 0.1597592681646347,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [5990]
+  },
+  'Neville': {
+    'category': 'non_luogo',
+    'confidence': 0.37892094254493713,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [6327, 7602, 19816, 19893]
+  },
+  'Crosta': {
+    'category': 'non_luogo',
+    'confidence': 0.2758283019065857,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [7799]
+  },
+  'Vinceremo': {
+    'category': 'non_luogo',
+    'confidence': 0.2513441741466522,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8782]
+  },
+  'Quindici': {
+    'category': 'non_luogo',
+    'confidence': 0.34914249181747437,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [9882]
+  },
+  'Angelina': {
+    'category': 'non_luogo',
+    'confidence': 0.3349733054637909,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [12490]
+  },
+  'Cercatore del Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2773798406124115,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [13606]
+  },
+  'Ho-': {
+    'category': 'non_luogo',
+    'confidence': 0.3438929319381714,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [21897]
+  },
+  'Pi-': {
+    'category': 'non_luogo',
+    'confidence': 0.24941273033618927,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [22486]
+  },
+}"
+Main Location,"{
+  'name': 'scopa',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.23502212762832642,
+  'count': 7,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 52,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 44, 'fear': 6, 'sadness': 34, 'anger': 10}, 'sentiment_counts': {'positive': 47, 'negative': 47}, 'emotion_percentages': {'joy': 46.808510638297875, 'fear': 6.382978723404255, 'sadness': 36.17021276595745, 'anger': 10.638297872340425}, 'sentiment_percentages': {'positive': 50.0, 'negative': 50.0}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'positive'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.3592586517333984, 'Riconoscimento entità con spaCy': 0.0040013790130615234, 'Analisi emozioni': 11.102840662002563, 'Classificazione delle location': 46.03030586242676, 'Tempo totale': 58.498406648635864}"
+Original Text Extract,"Capitolo 11 
+Il Quidditch 
+ 
+All'inizio di novembre cominciò a fare molto freddo. Le montagne in-
+torno alla scuola si tinsero di un grigio glaciale e il lago divenne una lastra 
+di gelido metallo. Tutte le mattine il terreno era coperto di brina. Dalle fi-
+nestre delle scale dei piani superiori si vedeva Hagrid intento a scongelare 
+i manici di scopa nel campo da Quidditch, infagottato in un lungo pastrano 
+di fustagno, guanti di pelo di coniglio ed enormi stivali foderati di castoro. 
+La stagione del Quidditch era iniziata. Quel sabato, Harry avrebbe gio-
+cato la sua prima partita dopo settimane di allenamento: Grifondoro contro 
+Serpeverde. Se avesse vinto, il Grifondoro avrebbe rimontato la classifica, 
+passando al secondo posto nel campionato delle Case. 
+Quasi nessuno aveva visto Harry giocare, perché Baston aveva deciso 
+che, essendo l'arma segreta della squadra, non si doveva sapere della sua 
+presenza in campo. Ma non si sa come, la notizia che avrebbe giocato co-
+me Cercatore era trapelata, e lui non sapeva che cosa fosse peggio: sentirsi 
+dire che si sarebbe certamente comportato da campione o che qualcuno, a 
+terra, avrebbe dovuto correre su e giù tenendogli sotto un materasso. 
+Era veramente una fortuna, per Harry, essere diventato amico di Her-
+
+mione. Senza di lei, non avrebbe saputo come fare con i compiti, visto che 
+Baston imponeva alla squadra allenamenti frequenti con breve preavviso. 
+Lei gli aveva anche prestato il libro Il Quidditch attraverso i secoli, una 
+lettura molto interessante. 
+Harry imparò così che esistevano settecento modi di commettere un fallo 
+a Quidditch, e che durante una partita di campionato mondiale, nel 1473, si 
+erano verificati tutti quanti; che in genere i Cercatori erano i giocatori più 
+piccoli e più veloci e che gli incidenti più gravi sembravano capitare pro-
+prio a loro; che sebbene i giocatori morissero di rado durante una partita di 
+Quidditch, si aveva notizia di arbitri svaniti nel nulla e ricomparsi nel de-
+serto del Sahara a distanza di mesi. 
+Da quando Harry e Ron l'avevano salvata dal mostro, Hermione era di-
+ventata un po' meno rigida per quanto riguardava l'osservanza delle regole, 
+il che la rendeva molto più simpatica. La vigilia della prima partita di 
+Harry, si trovavano tutti e tre fuori nel cortile gelido, durante la ricreazio-
+ne, e lei aveva fatto apparire per incanto un fuoco di un azzurro splendente, 
+che si poteva trasportare tenendolo in un barattolo della marmellata. Ci si 
+stavano scaldando tutti e tre la schiena, quando Piton attraversò il cortile. 
+Harry notò immediatamente che zoppicava. I tre ragazzi si strinsero intor-
+no al fuoco per impedirne la vista; erano sicuri che fosse proibito. Purtrop-
+po, l'espressione colpevole che portavano dipinta in faccia attirò l'attenzio-
+ne di Piton. Il professore venne avanti. Non aveva notato il fuoco, ma 
+sembrava che stesse cercando un pretesto per rimproverarli. 
+«Che cosa nascondi là dietro, Potter?» 
+Era il volume Il Quidditch attraverso i secoli. Harry glielo mostrò. 
+«È proibito portare fuori dagli edifici scolastici i libri della biblioteca» 
+disse Piton. «Dammelo. Cinque punti in meno per Grifondoro». 
+«Questa regola se l'è inventata» borbottò Harry risentito mentre Piton si 
+allontanava zoppicando. «Mi chiedo che cosa si è fatto alla gamba». 
+«Non lo so, ma spero che gli faccia molto male» commentò Ron ama-
+reggiato. 
+Quella sera, la sala di ritrovo di Grifondoro era tutta un brusio di voci. 
+Harry, Ron e Hermione sedevano insieme vicino a una finestra. Hermione 
+stava correggendo i compiti di Incantesimi di Harry e Ron. Lei non avreb-
+be mai permesso che copiassero («Altrimenti, come imparate?») ma chie-
+dendole di correggerglieli, i due ragazzi riuscivano a ottenere comunque le 
+soluzioni esatte. 
+Harry si sentiva irrequieto. Avrebbe voluto riavere Il Quidditch attraver-
+
+so i secoli per distrarsi dal pensiero della partita dell'indomani, che lo ren-
+deva nervoso. Ma perché mai doveva aver paura di Piton? Alzandosi, co-
+municò a Ron e a Hermione che intendeva andargli a chiedere di restituir-
+glielo. 
+«Meglio te che io» dissero a una voce Ron e Hermione, ma Harry aveva 
+idea che Piton non glielo avrebbe rifiutato, se alla richiesta fossero stati 
+presenti altri insegnanti. 
+Si recò davanti alla sala dei professori e bussò. Non ottenne risposta. 
+Bussò ancora. Niente. 
+Chissà che Piton non avesse lasciato il libro là dentro? Valeva la pena 
+tentare. Socchiuse la porta e sbirciò. Una scena orribile gli si parò davanti 
+agli occhi. 
+Piton e Gazza erano nella stanza, soli. Piton si teneva il mantello solle-
+vato al disopra delle ginocchia. Aveva una gamba tutta maciullata e san-
+guinante. Gazza gli stava porgendo delle bende. 
+«Dannato coso» stava imprecando Piton. «Come si fa a tenere a bada 
+tutte e tre le teste contemporaneamente?» 
+Harry cercò di chiudere la porta senza far rumore, ma... 
+«POTTER!» 
+Con il volto contorto dall'ira, Piton si abbassò rapidamente l'abito per 
+nascon"
+Token Count,4919

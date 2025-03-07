@@ -1,0 +1,325 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:03
+Entities,"{
+  ('Lucy', 'PER'): 37,
+  ('Tumnus', 'PER'): 22,
+  ('Eva', 'PER'): 8,
+  ('Narnia', 'LOC'): 7,
+  ('Signor Tumnus', 'PER'): 3,
+  ('Adamo', 'PER'): 2,
+  ('Cair Paravel', 'LOC'): 2,
+  ('Il fauno', 'MISC'): 2,
+  ('Guarda Roba', 'LOC'): 2,
+  ('Sileno', 'MISC'): 2,
+  ('Direi', 'PER'): 2,
+  ('Strega Bianca', 'PER'): 2,
+  ('Il fauno là per là non rispose', 'MISC'): 1,
+  ('Scusa', 'PER'): 1,
+  ('Dovevo', 'PER'): 1,
+  ('Lietissimo', 'MISC'): 1,
+  ('Felice', 'PER'): 1,
+  ('Posso', 'PER'): 1,
+  ('Oceano', 'LOC'): 1,
+  ('Ah!', 'MISC'): 1,
+  ('saprei sen-
+za dubbio', 'PER'): 1,
+  ('Vengo', 'LOC'): 1,
+  ('Eva che vieni', 'MISC'): 1,
+  ('Mille', 'PER'): 1,
+  ('Sei davvero gentile', 'MISC'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Una per me', 'MISC'): 1,
+  ('Vita', 'MISC'): 1,
+  ('Le ninfe e loro abitudi-
+
+ni', 'MISC'): 1,
+  ('Gli uomini, eremiti e guardacaccia', 'MISC'): 1,
+  ('L'uomo è un mito?', 'MISC'): 1,
+  ('brustolito', 'LOC'): 1,
+  ('luna', 'LOC'): 1,
+  ('Nani Rossi', 'PER'): 1,
+  ('Bacco', 'PER'): 1,
+  ('Sembrava', 'LOC'): 1,
+  ('Inutile?', 'MISC'): 1,
+  ('Tumnus!', 'MISC'): 1,
+  ('Caro', 'PER'): 1,
+  ('Oh... oh... oh!', 'MISC'): 1,
+  ('Piango', 'PER'): 1,
+  ('Cattivo', 'PER'): 1,
+  ('Oh...', 'MISC'): 1,
+  ('Natale', 'MISC'): 1,
+  ('Terribile', 'PER'): 1,
+  ('Guardami', 'LOC'): 1,
+  ('Strega Bian-', 'MISC'): 1,
+  ('Be'...', 'MISC'): 1,
+  ('sem-bri', 'MISC'): 1,
+  ('Figlia di Eva', 'PER'): 1,
+  ('La bambina sei tu — rispose', 'MISC'): 1,
+  ('Strega', 'MISC'): 1,
+  ('rai', 'ORG'): 1,
+  ('Mi dispiace per te', 'MISC'): 1,
+  ('regno di Stanza Vuota', 'LOC'): 1,
+  ('Filiamo', 'LOC'): 1,
+  ('Nevicava', 'LOC'): 1,
+  ('Conosci', 'LOC'): 1,
+  ('Scappa via', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.9898125000000001,
+    'early_appearance': True,
+    'positions': [1075, 1085, 1126, 1157, 1323, 1854, 8154]
+  },
+  'Eva': {
+    'category': 'paese',
+    'confidence': 0.21247456967830658,
+    'spacy_label': 'PER',
+    'count': 8,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [267, 686, 1050, 1347, 2693, 8546, 9340, 11735]
+  },
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [8073, 9516]
+  },
+  'Strega Bian-': {
+    'category': 'casa',
+    'confidence': 0.1056298315525055,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [8729]
+  },
+  'Strega': {
+    'category': 'carcere magico',
+    'confidence': 0.10452456027269363,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [9582]
+  },
+  'Cair Paravel': {
+    'category': 'non_luogo',
+    'confidence': 0.28736650943756104,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [1249, 9992]
+  },
+  'Guarda Roba': {
+    'category': 'non_luogo',
+    'confidence': 0.3174915611743927,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [2103, 10584]
+  },
+  'Oceano': {
+    'category': 'non_luogo',
+    'confidence': 0.33313339948654175,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [1303]
+  },
+  'Vengo': {
+    'category': 'non_luogo',
+    'confidence': 0.2474217265844345,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [1778]
+  },
+  'brustolito': {
+    'category': 'non_luogo',
+    'confidence': 0.3158857524394989,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [4580]
+  },
+  'luna': {
+    'category': 'non_luogo',
+    'confidence': 0.26536130905151367,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [4986]
+  },
+  'Sembrava': {
+    'category': 'non_luogo',
+    'confidence': 0.3107883930206299,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [6148]
+  },
+  'Guardami': {
+    'category': 'non_luogo',
+    'confidence': 0.2926703989505768,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [8521]
+  },
+  'regno di Stanza Vuota': {
+    'category': 'non_luogo',
+    'confidence': 0.2967403531074524,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [10546]
+  },
+  'Filiamo': {
+    'category': 'non_luogo',
+    'confidence': 0.3828652799129486,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [10656]
+  },
+  'Nevicava': {
+    'category': 'non_luogo',
+    'confidence': 0.15222039818763733,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [10897]
+  },
+  'Conosci': {
+    'category': 'non_luogo',
+    'confidence': 0.32853949069976807,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [11179]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 7,
+  'priority_score': 0.9898125000000001,
+  'early_appearance': True,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Lucy',
+  'count': 37,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'anger': 11, 'sadness': 54, 'joy': 31, 'fear': 2}, 'sentiment_counts': {'negative': 66, 'positive': 32}, 'emotion_percentages': {'anger': 11.224489795918368, 'sadness': 55.10204081632652, 'joy': 31.63265306122449, 'fear': 2.0408163265306123}, 'sentiment_percentages': {'negative': 67.3469387755102, 'positive': 32.6530612244898}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.7135803699493408, 'Riconoscimento entità con spaCy': 0.0010001659393310547, 'Analisi emozioni': 27.610711336135864, 'Classificazione delle location': 35.31921648979187, 'Tempo totale': 63.64850950241089}"
+Original Text Extract,"2
+Lucy nella casa del fauno
+Il fauno là per là non rispose: era troppo occupato a raccogliere i pac-
+chetti. Quand'ebbe finito, fece un bell'inchino e rispose: — Buona sera.
+Scusa, non vorrei sembrarti curioso, ma credo di non sbagliare se dico che
+sei una figlia di Eva.
+— Mi chiamo Lucy — rispose la piccola, che non era troppo sicura di
+aver capito bene.
+— Però sei una... bambina, vero?
+— Sì, naturalmente — rispose Lucy.
+— Allora appartieni alla razza umana, vero?
+— Certo che sì — esclamò Lucy, molto perplessa.
+— Certo, certo — mormorò il fauno. — Stupido io a far tante domande.
+Dovevo capirlo subito. Ma, vedi, non avevo mai incontrato prima un figlio
+di Adamo o una figlia di Eva. Sono proprio contento... — Il fauno si inter-
+ruppe bruscamente, come uno che si sia lasciato scappare qualcosa che era
+meglio non dire. Però se n'era accorto in tempo. — Lietissimo di fare la tua
+conoscenza — disse. — Permetti che mi presenti? Mi chiamo Tumnus.
+— Felice di conoscerti, signor Tumnus — rispose educatamente Lucy.
+— Posso chiederti, figlia di Eva, come sei arrivata a Narnia?
+— Narnia? E cos'è? — chiese subito Lucy.
+— Narnia è un paese. Qui siamo a Narnia — rispose prontamente il fau-
+no. — Il territorio che si estende dal lampione fino a Cair Paravel, il castel-
+lo che sorge sulle rive dell'Oceano orientale, è Narnia. E tu, figlia di Eva, da
+dove vieni? Dai boschi selvaggi che si trovano a occidente?
+— Io... sono venuta dal guardaroba che sta nella stanza vuota — balbettò
+Lucy.
+— Ah! — esclamò il signor Tumnus in tono alquanto triste. — Se avessi
+studiato un po' meglio la geografia quand'ero un piccolo fauno, saprei sen-
+za dubbio molte cose su quegli strani paesi. Ma ora è troppo tardi.
+— Non sono paesi — replicò Lucy. E quasi quasi le veniva da ridere. —
+Vengo da laggiù, non è lontano, almeno credo. Però, laggiù è estate.
+
+— E a Narnia è inverno — disse il signor Tumnus. — È inverno da tanto
+tempo. Ma se restiamo a chiacchierare qui nella neve prenderemo il raf-
+freddore.
+Il fauno non aveva tutti i torti. In tono gentile aggiunse: — O figlia di
+Eva che vieni dalla città di Guarda Roba nel paese felice di Stanza Vuota,
+dove regna l'estate eterna, che ne diresti di venire a casa mia a prendere un
+tè?
+— Mille grazie, signor Tumnus — rispose educatamente Lucy. — Mi
+chiedevo se non farei meglio a tornare indietro...
+— Ma è vicinissimo, è qui voltato l'angolo — insistette il fauno. — Ho
+acceso un bel fuoco e ho pronta una bella focaccia.
+— Sei davvero gentile, signor Tumnus — disse Lucy, accettando l'invi-
+to. — Ma ti avverto, non potrò restare a lungo.
+— Prendimi sottobraccio, l'ombrello ci coprirà tutti e due — propose il
+signor Tumnus. — Vieni, figlia di Eva. Da questa parte.
+E così Lucy se ne andò per il bosco, sottobraccio a quella strana creatu-
+ra, come se fossero amici da sempre.
+Dopo poco arrivarono in un posto dove il terreno appariva più accidenta-
+to: c'erano grandi rocce tutt'intorno e un continuo su e giù di collinette.
+In fondo a una valletta il signor Tumnus piegò decisamente verso una
+grande roccia, come se volesse sbatterci contro. Ma all'ultimo momento
+Lucy si accorse che invece la guidava verso l'imboccatura di una caverna.
+Appena furono entrati, Lucy si trovò abbagliata da un bel fuoco scin-
+tillante. Il signor Tumnus si chinò a prendere un paio di molle che stavano
+vicino al caminetto, tirò un tizzone fiammeggiante dal fuoco e accese una
+piccola lampada.
+— Ci sbrigheremo alla svelta — disse, e mise sul fuoco il bricco dell'ac-
+qua per il tè.
+Lucy pensò di non aver mai visto un posto così carino. L'interno della
+caverna era di roccia rossa, sul pavimento si allargava un bel tappeto sul
+quale poggiavano due poltroncine («Una per me e una per l'ospite» aveva
+detto il fauno); c'era anche una tavola, naturalmente, e una credenza pog-
+giata alla parete di fondo. Il camino aveva la sua brava mensola e sopra si
+vedeva un quadro che rappresentava un vecchio fauno con la barba grigia.
+In un angolo si vedeva una porticina che, secondo Lucy, doveva portare
+nella camera da letto del signor Tumnus. Un'altra parete era coperta di
+
+scaffali pieni di libri, e mentre il fauno si dava da fare con il tè, Lucy diede
+un'occhiata ai titoli: Vita e lettere del fauno Sileno, Le ninfe e loro abitudi-
+
+ni, Gli uomini, eremiti e guardacaccia: uno studio sulle leggende
+popolari e ancora L'uomo è un mito? Roba così, insomma.
+— Il tè è pronto — disse infine il signor Tumnus.
+Il tè venne servito in modo davvero magnifico. C'erano due uova (uno
+per ciascuno) leggermente bollite nel loro guscio scuro; c'era il pane ab-
+brustolito con le sardine, il burro e il miele nonché la focaccia con la crosta
+di zucchero vanigliato. Quando Lucy fu stanca di mangiare, il fauno co-
+minciò a far conversazione. Aveva mille splendide cose da raccontare a
+proposito della vita nella foresta. Parlò delle danze di mezzanotte, quando le
+ninfe escono dalle fonti in cui vivono e le driadi escono dagli alberi per
+giocare con i fauni sotto la luna; parlò de"
+Token Count,2865

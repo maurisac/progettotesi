@@ -1,0 +1,773 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:29:06
+Entities,"{
+  ('Perrin', 'PER'): 62,
+  ('Elyas', 'PER'): 49,
+  ('Egwene', 'PER'): 33,
+  ('Ila', 'PER'): 18,
+  ('Raen', 'PER'): 13,
+  ('Calderai', 'PER'): 11,
+  ('Bela', 'PER'): 9,
+  ('Aram', 'LOC'): 8,
+  ('Aiel', 'PER'): 7,
+  ('Aram', 'PER'): 6,
+  ('Mahdi', 'PER'): 5,
+  ('Raen', 'LOC'): 5,
+  ('Via della Foglia', 'LOC'): 5,
+  ('Macchia', 'LOC'): 5,
+  ('Emond’s Field', 'MISC'): 4,
+  ('Elyas', 'MISC'): 4,
+  ('Calderai', 'MISC'): 4,
+  ('Raen', 'MISC'): 4,
+  ('Deserto', 'LOC'): 4,
+  ('Trolloc', 'ORG'): 4,
+  ('Rand', 'MISC'): 4,
+  ('Hopper', 'PER'): 3,
+  ('Wind', 'ORG'): 3,
+  ('Cercatore', 'LOC'): 3,
+  ('Egwene', 'LOC'): 3,
+  ('Wil', 'PER'): 3,
+  ('«', 'PER'): 3,
+  ('Tuatha’', 'ORG'): 3,
+  ('Dapple', 'PER'): 2,
+  ('Dapple', 'ORG'): 2,
+  ('Tuatha’', 'LOC'): 2,
+  ('Chissà', 'PER'): 2,
+  ('Girovaghi', 'PER'): 2,
+  ('Calderaio', 'LOC'): 2,
+  ('Calderaio', 'PER'): 2,
+  ('Sospirò', 'PER'): 2,
+  ('Girovaghi', 'LOC'): 2,
+  ('Deserto dell’Aiel', 'LOC'): 2,
+  ('Tenebroso', 'PER'): 2,
+  ('Trolloc', 'LOC'): 2,
+  ('Seccafoglie', 'LOC'): 2,
+  ('Gran Serpente', 'LOC'): 2,
+  ('Bruciaocchi', 'LOC'): 2,
+  ('I Girovaghi', 'MISC'): 1,
+  ('Abbastanza vicino da venirci', 'MISC'): 1,
+  ('Fai', 'PER'): 1,
+  ('Sciocchezze» replicò', 'MISC'): 1,
+  ('Ho detto no, ragazza', 'MISC'): 1,
+  ('Baerlon', 'LOC'): 1,
+  ('Notte 
+d’Inverno', 'MISC'): 1,
+  ('Sogni normali', 'MISC'): 1,
+  ('Luhhan', 'PER'): 1,
+  ('Parco', 'LOC'): 1,
+  ('Alsbet Luhhan', 'PER'): 1,
+  ('Mangiavano', 'LOC'): 1,
+  ('Fermo', 'LOC'): 1,
+  ('Perplesso', 'PER'): 1,
+  ('I Girovaghi', 'PER'): 1,
+  ('Taren', 'PER'): 1,
+  ('Ferry', 'PER'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Taren Ferry', 'PER'): 1,
+  ('Mastro Elyas', 'PER'): 1,
+  ('Compresi', 'LOC'): 1,
+  ('Sputò per terra', 'MISC'): 1,
+  ('Cenn Buie', 'PER'): 1,
+  ('Coplin', 'MISC'): 1,
+  ('Congar', 'PER'): 1,
+  ('Presto sarà buio', 'MISC'): 1,
+  ('Comare Luhhan', 'LOC'): 1,
+  ('Mastro Luhhan', 'PER'): 1,
+  ('Conoscete', 'PER'): 1,
+  ('Unitevi', 'PER'): 1,
+  ('Spaventano', 'PER'): 1,
+  ('«Voi due siete amici?» domandò', 'MISC'): 1,
+  ('Significa Cercatore', 'PER'): 1,
+  ('Cercano', 'LOC'): 1,
+  ('Dicono d’averlo perduto', 'MISC'): 1,
+  ('Frattura del Mondo', 'MISC'): 1,
+  ('Epoca 
+Leggendaria', 'MISC'): 1,
+  ('Dicono', 'ORG'): 1,
+  ('Frattura', 'LOC'): 1,
+  ('Ruota', 'LOC'): 1,
+  ('Vere', 'MISC'): 1,
+  ('Salutò Elyas', 'PER'): 1,
+  ('Sei bellissima', 'MISC'): 1,
+  ('Siedi', 'LOC'): 1,
+  ('Abbracciò Raen', 'LOC'): 1,
+  ('Bene', 'LOC'): 1,
+  ('«Mi', 'PER'): 1,
+  ('Aspettavo', 'PER'): 1,
+  ('Wil al’Seen', 'PER'): 1,
+  ('Deven Ride', 'MISC'): 1,
+  ('Non ti faranno niente', 'MISC'): 1,
+  ('Raen a 
+rispondere', 'MISC'): 1,
+  ('Significa che nessun uomo', 'MISC'): 1,
+  ('Preferirei', 'PER'): 1,
+  ('usa', 'LOC'): 1,
+  ('Ma…»  
+
+«Basta» brontolò Elyas', 'MISC'): 1,
+  ('Lasciali', 'PER'): 1,
+  ('Calma', 'PER'): 1,
+  ('Guardò Elyas', 'PER'): 1,
+  ('Vecchio', 'MISC'): 1,
+  ('Prova a dirlo a una contadina', 'MISC'): 1,
+  ('Non so cosa permettono le città» replicò', 'MISC'): 1,
+  ('Cercatore', 'PER'): 1,
+  ('incoraggerei', 'PER'): 1,
+  ('Guardò Raen', 'PER'): 1,
+  ('Scusatemi» disse', 'MISC'): 1,
+  ('Siediti', 'PER'): 1,
+  ('Prego', 'LOC'): 1,
+  ('«Cosa', 'PER'): 1,
+  ('Via?» domandò', 'LOC'): 1,
+  ('Perduto', 'MISC'): 1,
+  ('Perduti', 'MISC'): 1,
+  ('Fumarono', 'PER'): 1,
+  ('No» rispose Elyas', 'MISC'): 1,
+  ('Ti ascolto', 'MISC'): 1,
+  ('Deserto?', 'MISC'): 1,
+  ('Menestrelli', 'PER'): 1,
+  ('Cairhien', 'PER'): 1,
+  ('Albero', 'LOC'): 1,
+  ('Guerra Aiel', 'MISC'): 1,
+  ('Gli Aiel', 'PER'): 1,
+  ('No, vecchio amico mio', 'MISC'): 1,
+  ('Formato', 'LOC'): 1,
+  ('Le donne Aiel', 'MISC'): 1,
+  ('Far Dareis Mai', 'MISC'): 1,
+  ('Fanciulle della Lancia', 'LOC'): 1,
+  ('Strisciò', 'LOC'): 1,
+  ('Cento', 'LOC'): 1,
+  ('Deserto?', 'LOC'): 1,
+  ('Djevik K’Shar', 'MISC'): 1,
+  ('Terra Morente', 'LOC'): 1,
+  ('Myrddraal della Macchia', 'LOC'): 1,
+  ('Sai', 'PER'): 1,
+  ('Occhio del Mondo', 'LOC'): 1,
+  ('Popolo', 'LOC'): 1,
+  ('Popolo', 'ORG'): 1,
+  ('Colui', 'PER'): 1,
+  ('Alba', 'LOC'): 1,
+  ('Noi Girovaghi 
+siamo il Popolo', 'MISC'): 1,
+  ('Perduti!', 'MISC'): 1,
+  ('Uccidere', 'LOC'): 1,
+  ('Tempo stesso?  
+', 'MISC'): 1,
+  ('Occhio del Mondo', 'PER'): 1,
+  ('Disteso', 'PER'): 1,
+  ('Occhio del 
+Mondo', 'MISC'): 1,
+  ('Custodi', 'LOC'): 1,
+  ('Sei', 'PER'): 1,
+  ('Quello lì mi', 'MISC'): 1,
+  ('Scusa', 'PER'): 1,
+  ('Impacciato', 'PER'): 1,
+  ('Eh?»  
+Egwene', 'MISC'): 1,
+  ('Mat', 'MISC'): 1,
+  ('Bene', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 4,
+    'priority_score': 0.9740500000000001,
+    'early_appearance': True,
+    'positions': [1143, 10235, 15824, 16666]
+  },
+  'Fai': {
+    'category': 'paese',
+    'confidence': 0.2742007374763489,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9656875,
+    'early_appearance': True,
+    'positions': [1908]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 4,
+    'priority_score': 0.75185,
+    'early_appearance': False,
+    'positions': [31609, 31641, 31918, 32363]
+  },
+  'Parco': {
+    'category': 'paese',
+    'confidence': 0.32768484950065613,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [4545]
+  },
+  'Fermo': {
+    'category': 'paese',
+    'confidence': 0.3185427486896515,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [6770]
+  },
+  'usa': {
+    'category': 'paese',
+    'confidence': 0.31497320532798767,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [18527]
+  },
+  'Prego': {
+    'category': 'paese',
+    'confidence': 0.24383872747421265,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [22859]
+  },
+  'Formato': {
+    'category': 'paese',
+    'confidence': 0.2569338083267212,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [26405]
+  },
+  'Cento': {
+    'category': 'paese',
+    'confidence': 0.2666980028152466,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [27484]
+  },
+  'Alba': {
+    'category': 'paese',
+    'confidence': 0.28713634610176086,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [28410]
+  },
+  'Wil': {
+    'category': 'paese',
+    'confidence': 0.22950203716754913,
+    'spacy_label': 'PER',
+    'count': 3,
+    'priority_score': 0.7490625000000001,
+    'early_appearance': False,
+    'positions': [16780, 31219, 31303]
+  },
+  'Preferirei': {
+    'category': 'paese',
+    'confidence': 0.26566874980926514,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [18277]
+  },
+  'Calma': {
+    'category': 'paese',
+    'confidence': 0.3853134512901306,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [19609]
+  },
+  'Vecchio': {
+    'category': 'paese',
+    'confidence': 0.2768464982509613,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [20026]
+  },
+  'Siediti': {
+    'category': 'paese',
+    'confidence': 0.26280832290649414,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [22660]
+  },
+  'Sai': {
+    'category': 'paese',
+    'confidence': 0.21611402928829193,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [27704]
+  },
+  'Occhio del Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [28252, 29228]
+  },
+  'Popolo': {
+    'category': 'paese',
+    'confidence': 0.43861690163612366,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [28326, 28363]
+  },
+  'Colui': {
+    'category': 'paese',
+    'confidence': 0.2392241507768631,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [28388]
+  },
+  'Occhio del 
+Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [30248]
+  },
+  'Sei': {
+    'category': 'paese',
+    'confidence': 0.21856339275836945,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [31015]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [31925]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.2379625,
+    'early_appearance': True,
+    'positions': [241, 487, 1507, 1803, 1937, 2169, 2329, 2524, 5579, 6050, 6570, 6835, 7921, 8428, 13017, 13167, 13526, 14547, 15082, 15230, 16043, 16179, 16453, 16938, 17312, 17619, 21759, 22052, 22246, 22308, 22391, 30788, 31109, 31745, 32053, 32302]
+  },
+  'Aram': {
+    'category': 'non_luogo',
+    'confidence': 0.22863918542861938,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [15920, 16123, 16246, 16507, 16562, 17040, 17335, 17709, 21381, 21888, 22138, 22196, 22695, 31312]
+  },
+  'Raen': {
+    'category': 'non_luogo',
+    'confidence': 0.2761937379837036,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.021337500000000002,
+    'early_appearance': False,
+    'positions': [12821, 13336, 14073, 14285, 14616, 14699, 15016, 18043, 18638, 19627, 19998, 20774, 22744, 23015, 23494, 24009, 24288, 25116, 25870, 27798, 29322, 29763]
+  },
+  'Via della Foglia': {
+    'category': 'non_luogo',
+    'confidence': 0.10427471250295639,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.021337500000000002,
+    'early_appearance': False,
+    'positions': [17262, 17287, 21703, 22464, 22811]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.021337500000000002,
+    'early_appearance': False,
+    'positions': [26052, 26359, 27897, 29103, 30695]
+  },
+  'Deserto': {
+    'category': 'non_luogo',
+    'confidence': 0.20972591638565063,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.01855,
+    'early_appearance': False,
+    'positions': [24736, 26318, 27568, 27633]
+  },
+  'Cercatore': {
+    'category': 'non_luogo',
+    'confidence': 0.2828647196292877,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0157625,
+    'early_appearance': False,
+    'positions': [13426, 14127, 20949, 28155]
+  },
+  'Tuatha’': {
+    'category': 'non_luogo',
+    'confidence': 0.24997124075889587,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [8054, 24061, 24964, 27056, 29429]
+  },
+  'Calderaio': {
+    'category': 'non_luogo',
+    'confidence': 0.26554882526397705,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [13089, 16551, 21632, 22988]
+  },
+  'Girovaghi': {
+    'category': 'non_luogo',
+    'confidence': 0.3345736563205719,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [9573, 24624, 24710, 26292]
+  },
+  'Deserto dell’Aiel': {
+    'category': 'non_luogo',
+    'confidence': 0.1556292623281479,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [24829, 25744]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [26214, 27406, 27548, 27731, 27908, 30758]
+  },
+  'Seccafoglie': {
+    'category': 'non_luogo',
+    'confidence': 0.20039397478103638,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [28221, 28433]
+  },
+  'Gran Serpente': {
+    'category': 'non_luogo',
+    'confidence': 0.1417335718870163,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [28290, 29176]
+  },
+  'Bruciaocchi': {
+    'category': 'non_luogo',
+    'confidence': 0.25783348083496094,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [28341, 28448]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [4295]
+  },
+  'Mangiavano': {
+    'category': 'non_luogo',
+    'confidence': 0.1881883293390274,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [5404]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [8294]
+  },
+  'Compresi': {
+    'category': 'non_luogo',
+    'confidence': 0.246272474527359,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [8690]
+  },
+  'Comare Luhhan': {
+    'category': 'non_luogo',
+    'confidence': 0.23889636993408203,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [9089]
+  },
+  'Cercano': {
+    'category': 'non_luogo',
+    'confidence': 0.2445591241121292,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [13591]
+  },
+  'Frattura': {
+    'category': 'non_luogo',
+    'confidence': 0.22967548668384552,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [13977]
+  },
+  'Ruota': {
+    'category': 'non_luogo',
+    'confidence': 0.15005111694335938,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [14023]
+  },
+  'Siedi': {
+    'category': 'non_luogo',
+    'confidence': 0.2892224192619324,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [15328]
+  },
+  'Abbracciò Raen': {
+    'category': 'non_luogo',
+    'confidence': 0.33133235573768616,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [15755]
+  },
+  'Bene': {
+    'category': 'non_luogo',
+    'confidence': 0.21620887517929077,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [15914, 32034]
+  },
+  'Via?» domandò': {
+    'category': 'non_luogo',
+    'confidence': 0.1172359436750412,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [22963]
+  },
+  'Albero': {
+    'category': 'non_luogo',
+    'confidence': 0.16088363528251648,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [25057]
+  },
+  'Fanciulle della Lancia': {
+    'category': 'non_luogo',
+    'confidence': 0.1780836284160614,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [26732]
+  },
+  'Strisciò': {
+    'category': 'non_luogo',
+    'confidence': 0.3136487603187561,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [27005]
+  },
+  'Deserto?': {
+    'category': 'non_luogo',
+    'confidence': 0.12039991468191147,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [24817, 27501]
+  },
+  'Terra Morente': {
+    'category': 'non_luogo',
+    'confidence': 0.1779862642288208,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [27580]
+  },
+  'Myrddraal della Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.24888044595718384,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [27660]
+  },
+  'Uccidere': {
+    'category': 'non_luogo',
+    'confidence': 0.20955440402030945,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [29164]
+  },
+  'Custodi': {
+    'category': 'non_luogo',
+    'confidence': 0.21045437455177307,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [30733]
+  },
+}"
+Main Location,"{
+  'name': 'Emond’s Field',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.09198778867721558,
+  'count': 4,
+  'priority_score': 0.9740500000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 62,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 39, 'sadness': 45, 'fear': 5, 'anger': 9}, 'sentiment_counts': {'positive': 42, 'negative': 56}, 'emotion_percentages': {'joy': 39.795918367346935, 'sadness': 45.91836734693878, 'fear': 5.1020408163265305, 'anger': 9.183673469387756}, 'sentiment_percentages': {'positive': 42.857142857142854, 'negative': 57.14285714285714}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.8523988723754883, 'Riconoscimento entità con spaCy': 0.00509953498840332, 'Analisi emozioni': 21.661977767944336, 'Classificazione delle location': 29.839142084121704, 'Tempo totale': 53.36061406135559}"
+Original Text Extract,"25 
+ 
+I Girovaghi 
+ 
+ 
+ 
+ 
+ 
+Bela procedeva con calma sotto il sole smorto, come se i tre lupi che le camminavano a fianco 
+fossero cani di villaggio; ma ogni tanto roteava gli occhi nella loro direzione, mostrando di capire la 
+differenza. Egwene, in groppa alla giumenta, era altrettanto a disagio. Con la coda dell’occhio 
+continuava a tenere sotto controllo i lupi e a volte si girava a guardarsi intorno. Perrin era convinto che 
+cercasse il resto del branco, ma quando vi accennò, Egwene negò con rabbia d’avere paura dei tre lupi 
+che li accompagnavano e di preoccuparsi di quel che combinavano gli altri. Ma continuò a stare 
+all’erta.  
+Il resto del branco era assai distante: Perrin avrebbe potuto dirglielo, ma non avrebbe risolto niente, 
+anche se lei gli credeva; anzi, avrebbe peggiorato la situazione. Non intendeva scoperchiare il cesto di 
+serpenti, finché non vi era costretto. E non voleva pensare a come  lo sapeva. L’uomo vestito di pelli 
+procedeva davanti a loro e a volte sembrava un lupo anche lui: non si guardava intorno, quando 
+comparivano Dapple, Hopper o Wind, ma anche lui sapeva.  
+Quel primo mattino i due di Emond’s Field si erano svegliati all’alba e avevano trovato Elyas che li 
+guardava, impassibile, e arrostiva altri conigli. A parte Dapple, Hopper e Wind, non c’erano lupi in 
+vista. La scarsa luce mattutina non disperdeva le fitte ombre sotto la grande quercia e più in là gli alberi 
+spogli sembravano dita scarnificate.  
+«Sono qui intorno» disse Elyas, quando Egwene domandò che fine avesse fatto il branco. 
+«Abbastanza vicino da venirci in aiuto, in caso di bisogno, e abbastanza lontano da non lasciarsi 
+coinvolgere nelle beghe degli esseri umani. Prima o poi nasce sempre qualche guaio, se due persone 
+stanno insieme.»  
+Quando si misero in cammino, Egwene pretese che ciascuno facesse a turno a cavalcare e Perrin non 
+si prese la briga di discutere.  
+«Fai tu il primo» le disse.  
+Egwene annuì. «E poi tocca a Elyas.»  
+«Le gambe mi bastano» replicò l’uomo. Guardò Bela e la giumenta roteò gli occhi come se vedesse 
+in lui un lupo. «E poi non credo che le piacerebbe portarmi in groppa.»  
+«Sciocchezze» replicò Egwene, decisa. «Sei testardo e basta. Dobbiamo fare parecchia strada e mi 
+sembra sensato cavalcare a turno.»  
+«Ho detto no, ragazza.»  
+Perrin si domandò se Egwene sarebbe riuscita a imporsi anche a Elyas come faceva con lui, finché 
+non si accorse che era rimasta a bocca aperta, in silenzio. Elyas la guardava soltanto, con quei suoi 
+occhi da lupo. Egwene arretrò d’un passo, si umettò le labbra, arretrò ancora. Prima che Elyas 
+distogliesse lo sguardo da lei, era arrivata accanto a Bela ed era montata in sella. Mentre Elyas si girava 
+a fare strada, Perrin pensò che anche il suo sorriso sembrava il ghigno di un lupo.  
+Per tre giorni viaggiarono a quel modo, a piedi e a cavallo, sempre diretti fra levante e meridione, 
+fermandosi solo quando il crepuscolo s’infittiva.  
+Elyas pareva disprezzare la fretta della gente di città, ma non sprecava tempo, se doveva andare da 
+
+qualche parte.  
+I tre lupi si mostravano di rado. Ogni sera stavano per un po’ accanto al fuoco e a volte comparivano 
+per breve tempo anche di giorno, quando loro meno se l’aspettavano, per poi scomparire nella stessa 
+maniera. Ma Perrin sapeva quando erano nei pressi e quando esploravano il territorio più avanti o 
+controllavano le tracce appena lasciate. Seppe quando lasciarono il consueto terreno di caccia e Dapple 
+rimandò indietro il branco ad aspettarla. A volte i tre rimasti svanivano dalla sua mente, ma lui era 
+consapevole del loro ritorno molto prima che si mostrassero. Anche quando gli alberi si ridussero a 
+boschetti assai distanziati tra loro nella pianura coperta d’erba secca, i tre lupi si muovevano come 
+spettri, se non volevano farsi scorgere; ma in qualsiasi momento lui poteva indicare dove si trovavano. 
+Cercò di convincersi che si trattava solo di scherzi dell’immaginazione, ma non ci riuscì. Come Elyas, 
+anche lui sapeva e basta.  
+Cercò di non pensare ai lupi, ma loro s’insinuavano ugualmente nei suoi pensieri. Da quando aveva 
+incontrato Elyas, non aveva più sognato Ba’alzamon. I sogni, per quel che ricordava al risveglio, 
+riguardavano cose di tutti i giorni, come quelli fatti a casa… prima di Baerlon… prima della Notte 
+d’Inverno. Sogni normali… con un’aggiunta. In ogni sogno c’era un momento in cui si rialzava dal 
+lavoro alla fucina di mastro Luhhan per asciugarsi il viso sudato, o abbandonava il ballo con le ragazze 
+del villaggio nel Parco, o sollevava lo sguardo da un libro che leggeva davanti al camino e, fosse 
+all’aperto o sotto un tetto, aveva vicino un lupo. E sempre il lupo gli girava la schiena e lui sapeva… 
+nei sogni sembrava una cosa normalissima, anche al tavolo da cucina di Alsbet Luhhan… che gli occhi 
+gialli del lupo guardavano quel che poteva giungere, che il lupo lo proteggeva da quel che poteva 
+giungere. Solo da sveglio quei sogni gli parevano bizzarri.  
+Viaggi"
+Token Count,6990

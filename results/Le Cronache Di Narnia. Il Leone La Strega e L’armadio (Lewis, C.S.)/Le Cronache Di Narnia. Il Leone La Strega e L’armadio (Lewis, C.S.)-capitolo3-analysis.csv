@@ -1,0 +1,227 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:11:40
+Entities,"{
+  ('Lucy', 'PER'): 28,
+  ('Edmund', 'PER'): 18,
+  ('Susan', 'PER'): 9,
+  ('Peter', 'PER'): 6,
+  ('Narnia', 'LOC'): 4,
+  ('Peter', 'LOC'): 3,
+  ('Maestà', 'PER'): 2,
+  ('Edmund', 'MISC'): 1,
+  ('Ah, ti eri nascosta', 'MISC'): 1,
+  ('Povera piccola Lu', 'LOC'): 1,
+  ('Tu sei
+matta, cara mia', 'MISC'): 1,
+  ('Lu', 'PER'): 1,
+  ('Lu', 'LOC'): 1,
+  ('No', 'PER'): 1,
+  ('La strega', 'MISC'): 1,
+  ('Be'?', 'MISC'): 1,
+  ('Legno', 'PER'): 1,
+  ('Devo', 'PER'): 1,
+  ('Avanti', 'PER'): 1,
+  ('Lu', 'ORG'): 1,
+  ('Bastava', 'PER'): 1,
+  ('Peter', 'MISC'): 1,
+  ('Appena', 'LOC'): 1,
+  ('talina', 'LOC'): 1,
+  ('Lu?', 'MISC'): 1,
+  ('Dio', 'MISC'): 1,
+  ('Ehi', 'PER'): 1,
+  ('Ancora silenzio', 'MISC'): 1,
+  ('isole Shedand', 'LOC'): 1,
+  ('zosa', 'LOC'): 1,
+  ('fredda', 'LOC'): 1,
+  ('Ferma!', 'MISC'): 1,
+  ('Il nano', 'MISC'): 1,
+  ('Ah', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.7704,
+    'early_appearance': False,
+    'positions': [1300, 1331, 4297, 9147]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.246325,
+    'early_appearance': True,
+    'positions': [54, 373, 672, 1044, 1133, 1892, 2150, 2470, 3068, 3831]
+  },
+  'Povera piccola Lu': {
+    'category': 'non_luogo',
+    'confidence': 0.1976957768201828,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [382]
+  },
+  'Lu': {
+    'category': 'non_luogo',
+    'confidence': 0.3380639851093292,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [647, 1064, 2443]
+  },
+  'Appena': {
+    'category': 'non_luogo',
+    'confidence': 0.2929408848285675,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [4356]
+  },
+  'talina': {
+    'category': 'non_luogo',
+    'confidence': 0.32214006781578064,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [4925]
+  },
+  'isole Shedand': {
+    'category': 'non_luogo',
+    'confidence': 0.30968207120895386,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [7477]
+  },
+  'zosa': {
+    'category': 'non_luogo',
+    'confidence': 0.32801908254623413,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [8654]
+  },
+  'fredda': {
+    'category': 'non_luogo',
+    'confidence': 0.27475959062576294,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [8660]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 4,
+  'priority_score': 0.7704,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Lucy',
+  'count': 28,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 36, 'sadness': 49, 'anger': 12, 'fear': 2}, 'sentiment_counts': {'positive': 39, 'negative': 60}, 'emotion_percentages': {'joy': 36.36363636363637, 'sadness': 49.494949494949495, 'anger': 12.121212121212121, 'fear': 2.0202020202020203}, 'sentiment_percentages': {'positive': 39.39393939393939, 'negative': 60.60606060606061}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.5695488452911377, 'Riconoscimento entità con spaCy': 0.0010001659393310547, 'Analisi emozioni': 27.518688678741455, 'Classificazione delle location': 11.891100883483887, 'Tempo totale': 39.98533916473389}"
+Original Text Extract,"3
+Edmund e l'armadio
+Lucy corse nel corridoio e trovò Peter, Susan e anche Edmund. I tre ra-
+gazzi non sembrarono affatto sorpresi di vederla.
+— Va tutto bene — ripeté Lucy. — Sono tornata.
+— Cosa diavolo stai dicendo? — chiese Susan.
+— Perché? — fece Lucy, al colmo dello stupore. — Non mi cercavate?
+Non eravate in pensiero per me?
+— Ah, ti eri nascosta, vero? — esclamò Peter. — Povera piccola Lu. Si è
+nascosta e nessuno se n'è accorto.
+— Ma io sono stata via per ore e ore — protestò Lucy.
+Gli altri si guardarono in faccia, sbalorditi.
+— Matta — esclamò Edmund, picchiandosi un dito sulla fronte. — Tu sei
+matta, cara mia.
+— Cosa vuoi dire, Lu? — chiese gentilmente Peter.
+— Quello che ho detto — rispose Lucy. — Sono entrata nel guardaroba
+
+subito dopo colazione, sono stata via per ore e ore, ho bevuto il tè e man-
+giato tante cose buone... me ne sono capitate delle belle, ecco.
+— Non fare la stupida, Lucy — ammonì Susan. — Siamo usciti da quel-
+la stanza un momento fa e tu eri solo un po' indietro.
+— Non fa sul serio — intervenne Peter. — La piccola Lu sta inventando
+una bella storia, uno scherzo e nient'altro.
+— No, Peter, non è così — insistette Lucy. — Quello è un armadio ma-
+gico. Là dentro c'è un bosco e nevica sempre. Ci sono un fauno e una stre-
+ga. La strega è la regina di Narnia... è il nome del regno, Narnia.
+Gli altri tre ragazzi non sapevano cosa pensare, ma Lucy sembrava così
+convinta di quel che diceva e anche così eccitata, che decisero di tornare
+nella stanza vuota. La piccola Lucy correva svelta e arrivò prima degli al-
+tri, spalancò la porta del grande armadio e gridò: — E adesso andate den-tro
+e guardate.
+— Be'? Sei proprio un'oca, Lucy — ribatté Susan che aveva messo la te-
+sta nell'armadio e rovistava tra le pellicce.
+— Vedi bene che questo è un guardaroba come tutti gli altri. Guarda:
+ecco la parete di fondo. Legno.
+Uno dopo l'altro Susan, Peter e infine Edmund infilarono la testa nel-
+l'armadio, scostarono le belle pellicce e i cappotti e videro che sì, era un
+guardaroba come qualsiasi altro. Non c'era nessun bosco e tanto meno la
+neve: soltanto un fondo di legno con qualche gancio qua e là.
+Peter volle sincerarsi che il fondo fosse ben solido: entrò nell'armadio e
+batté le nocche in diversi punti. — Ci hai presi in giro, eh, Lucy? Un bello
+scherzo — disse quando fu di nuovo fuori. — Devo ammettere che stavo
+quasi per crederti.
+— Ma non era uno scherzo — protestò Lucy.
+— Avanti, Lu, adesso esageri — disse Peter. — Il trabocchetto è riuscito
+bene, ho detto che stavamo per crederti.
+Lucy arrossì violentemente, aprì la bocca per dire qualcosa, ma siccome
+non sapeva più cosa dire scoppiò a piangere. Per alcuni giorni fu molto in-
+felice, ma avrebbe potuto rappacificarsi con gli altri in qualsiasi momento.
+Bastava che confessasse di aver fatto uno scherzo.
+Lucy era una ragazzina abituata a dire la verità ed era sicura di aver ra-
+gione. Gli altri pensavano che stesse raccontando storie (alquanto assurde,
+per di più) e lei, nonostante ne soffrisse, non avrebbe potuto dire una bugia
+per rimediare.
+
+Peter e Susan non accennavano mai all'accaduto; Edmund, invece, sape-
+
+va essere molto dispettoso e stavolta lo era più del solito. Continuava a
+chiederle con aria di scherno se per caso non avesse trovato qualche nuovo
+paese magico dentro una credenza o un altro armadio. Ce n'erano tanti, in
+casa... Il peggio era che in quei giorni ci sarebbe stato da divertirsi davve-
+ro. Il tempo era splendido, i ragazzi stavano all'aria aperta dalla mattina al-
+la sera: sguazzavano nel ruscello, andavano a pescare e si arrampicavano
+sugli alberi o prendevano semplicemente il sole sdraiati sull'edera folta. Ma
+Lucy si divertiva meno degli altri.
+Poi tornò a piovere. Un pomeriggio in cui si capiva che il sole non si sa-
+rebbe fatto vedere per il resto della giornata, Peter, Susan, Edmund e Lucy
+decisero di giocare a nascondino. Fecero la conta e toccò a Susan andare a
+cercare quelli che si erano nascosti.
+Fu così che a Lucy capitò di tornare nella famosa stanza vuota, davanti al
+guardaroba. Neanche per un attimo pensò di nascondersi all'interno, per-ché
+gli altri avrebbero ricominciato a fare chiacchiere sull'avventura che aveva
+vissuto. Voleva dare solo un'occhiatina, perché lei stessa cominciava a
+dubitare che il paese di Narnia e l'incontro con il fauno non fossero che un
+sogno.
+Appena ebbe aperto la porta dell'armadio, Lucy sentì dei passi in corri-
+doio. Non voleva farsi trovare in quella stanza, perciò non le restò altro che
+saltare nell'armadio e socchiudere la porta.
+I passi erano quelli di Edmund, che entrò giusto in tempo per vedere
+Lucy infilarsi nell'armadione. Decise di andarle dietro non perché gli sem-
+brasse un buon nascondiglio, ma perché aveva voglia di tormentare Lucy
+sul paese immaginario. Aprì la porta del guardaroba: c'erano i soliti cap-
+potti e le solite pellicce appesi in bell'ordine, buio e silenzio e odor di naf-
+talina, ma di Lucy neanche l'ombra.
+""Forse crede che io sia Susan e se ne s"
+Token Count,2139

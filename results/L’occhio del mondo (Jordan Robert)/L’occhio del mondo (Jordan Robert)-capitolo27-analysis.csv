@@ -1,0 +1,483 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:29:34
+Entities,"{
+  ('Perrin', 'PER'): 58,
+  ('Elyas', 'PER'): 32,
+  ('Egwene', 'PER'): 17,
+  ('Ila', 'PER'): 14,
+  ('Tuatha’', 'ORG'): 11,
+  ('Girovaghi', 'PER'): 11,
+  ('Aram', 'LOC'): 8,
+  ('Raen', 'PER'): 7,
+  ('Hopper', 'PER'): 6,
+  ('Via della Foglia', 'LOC'): 5,
+  ('Raen', 'MISC'): 5,
+  ('Wind', 'ORG'): 4,
+  ('Aes Sedai', 'LOC'): 3,
+  ('Egwene', 'LOC'): 3,
+  ('Tenebroso', 'PER'): 3,
+  ('Dapple', 'PER'): 3,
+  ('Dapple', 'ORG'): 3,
+  ('Raen', 'LOC'): 3,
+  ('I Girovaghi', 'PER'): 2,
+  ('Emond’s Field', 'MISC'): 2,
+  ('Elyas', 'MISC'): 2,
+  ('Trolloc', 'LOC'): 2,
+  ('Fade', 'ORG'): 2,
+  ('Trolloc', 'ORG'): 2,
+  ('Calderai', 'PER'): 2,
+  ('Aram', 'PER'): 2,
+  ('Tar Valon', 'LOC'): 2,
+  ('Fade', 'MISC'): 2,
+  ('Comare Luhhan', 'PER'): 2,
+  ('Comare Luhhan', 'LOC'): 2,
+  ('Ogier', 'PER'): 2,
+  ('Bela', 'PER'): 2,
+  ('La pace', 'MISC'): 2,
+  ('Tuatha’', 'PER'): 2,
+  ('Cuore zannuto', 'MISC'): 2,
+  ('Rifugio', 'LOC'): 1,
+  ('Ah', 'MISC'): 1,
+  ('Tuatha’', 'LOC'): 1,
+  ('Girovago', 'MISC'): 1,
+  ('Giovani', 'PER'): 1,
+  ('Violini', 'PER'): 1,
+  ('Mezzi Uomini', 'MISC'): 1,
+  ('» Sogghignò', 'MISC'): 1,
+  ('E se i', 'MISC'): 1,
+  ('Qualcosa mi dice di aspettare', 'MISC'): 1,
+  ('Qualcosa!', 'MISC'): 1,
+  ('Tranquillo', 'LOC'): 1,
+  ('Mangia una fetta di torta', 'MISC'): 1,
+  ('«Qualcosa', 'PER'): 1,
+  ('Stavolta', 'LOC'): 1,
+  ('Prendi', 'LOC'): 1,
+  ('Stai tranquillo', 'MISC'): 1,
+  ('Guardandoli', 'LOC'): 1,
+  ('Aram', 'MISC'): 1,
+  ('Scuoti le piume', 'MISC'): 1,
+  ('Fissò Perrin', 'PER'): 1,
+  ('Parco', 'LOC'): 1,
+  ('Devo', 'PER'): 1,
+  ('Perché no?', 'MISC'): 1,
+  ('Giocherellò', 'LOC'): 1,
+  ('«Credevo', 'PER'): 1,
+  ('Sangue', 'MISC'): 1,
+  ('Ti va bene', 'MISC'): 1,
+  ('Burn', 'MISC'): 1,
+  ('Lupo', 'LOC'): 1,
+  ('Caemlyn', 'LOC'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Alsbet Luhhan', 'LOC'): 1,
+  ('Mastro Luhhan', 'PER'): 1,
+  ('Alsbet', 'PER'): 1,
+  ('Fiamme', 'PER'): 1,
+  ('Piegò', 'LOC'): 1,
+  ('Alsbet Luhhan', 'PER'): 1,
+  ('Luhhan', 'LOC'): 1,
+  ('Lasciami in pace!', 'MISC'): 1,
+  ('Occhio del Mondo', 'PER'): 1,
+  ('Odio', 'MISC'): 1,
+  ('Odio!', 'MISC'): 1,
+  ('Sì» disse piano Elyas', 'MISC'): 1,
+  ('Raen annuì', 'MISC'): 1,
+  ('Penso', 'PER'): 1,
+  ('Dorsale del Mondo', 'LOC'): 1,
+  ('Sorrise', 'LOC'): 1,
+  ('Ila', 'MISC'): 1,
+  ('Mangeremo', 'LOC'): 1,
+  ('Calderaio', 'PER'): 1,
+  ('abbracci', 'PER'): 1,
+  ('Strinse', 'PER'): 1,
+  ('Siete venuti in pace', 'MISC'): 1,
+  ('Davvero, amico mio', 'MISC'): 1,
+  ('E con voi» rispose', 'MISC'): 1,
+  ('piano Egwene', 'MISC'): 1,
+  ('Represse', 'PER'): 1,
+  ('regalo di Aram', 'MISC'): 1,
+  ('Consigli!', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.968475,
+    'early_appearance': True,
+    'positions': [2391, 8833]
+  },
+  'Giovani': {
+    'category': 'paese',
+    'confidence': 0.33580344915390015,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9656875,
+    'early_appearance': True,
+    'positions': [1282]
+  },
+  'Tranquillo': {
+    'category': 'paese',
+    'confidence': 0.2683004140853882,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [4421]
+  },
+  'Prendi': {
+    'category': 'paese',
+    'confidence': 0.2557238042354584,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [5569]
+  },
+  'Parco': {
+    'category': 'paese',
+    'confidence': 0.32768484950065613,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [8897]
+  },
+  'La pace': {
+    'category': 'paese',
+    'confidence': 0.17958591878414154,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [23965, 24870]
+  },
+  'Devo': {
+    'category': 'paese',
+    'confidence': 0.2090817242860794,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [9722]
+  },
+  'Sangue': {
+    'category': 'paese',
+    'confidence': 0.39529845118522644,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [11651]
+  },
+  'Occhio del Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [18995]
+  },
+  'Odio': {
+    'category': 'paese',
+    'confidence': 0.38520514965057373,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [19753]
+  },
+  'Penso': {
+    'category': 'paese',
+    'confidence': 0.1903143972158432,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [20777]
+  },
+  'Rifugio': {
+    'category': 'non_luogo',
+    'confidence': 0.11735262721776962,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2323875,
+    'early_appearance': True,
+    'positions': [6]
+  },
+  'Tuatha’': {
+    'category': 'non_luogo',
+    'confidence': 0.24997124075889587,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2323875,
+    'early_appearance': True,
+    'positions': [83, 773, 896, 1255, 1302, 2670, 2938, 5837, 6876, 14005, 14986, 21813, 24301, 26481]
+  },
+  'Aram': {
+    'category': 'non_luogo',
+    'confidence': 0.22863918542861938,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [6782, 10678, 10961, 11284, 12173, 12284, 23008, 23216, 23418, 23575, 26492]
+  },
+  'Via della Foglia': {
+    'category': 'non_luogo',
+    'confidence': 0.10427471250295639,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.021337500000000002,
+    'early_appearance': False,
+    'positions': [2909, 12511, 13382, 13565, 23936]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0157625,
+    'early_appearance': False,
+    'positions': [3554, 4008, 11536]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0157625,
+    'early_appearance': False,
+    'positions': [6638, 10202, 10530, 10615, 10777, 10909, 11017, 11343, 11550, 11824, 12196, 21409, 21624, 21873, 23019, 23263, 23601, 25770, 26320, 26917]
+  },
+  'Raen': {
+    'category': 'non_luogo',
+    'confidence': 0.2761937379837036,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0157625,
+    'early_appearance': False,
+    'positions': [3864, 5348, 9545, 19913, 21079, 21307, 21988, 22303, 22585, 23000, 23767, 23836, 24225, 24925, 24956]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [3508, 4233, 13458, 14149]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [11495, 16769]
+  },
+  'Comare Luhhan': {
+    'category': 'non_luogo',
+    'confidence': 0.23889636993408203,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [17048, 17616, 18584, 18927]
+  },
+  'Stavolta': {
+    'category': 'non_luogo',
+    'confidence': 0.2948499619960785,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [5148]
+  },
+  'Guardandoli': {
+    'category': 'non_luogo',
+    'confidence': 0.12586121261119843,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [6277]
+  },
+  'Giocherellò': {
+    'category': 'non_luogo',
+    'confidence': 0.27618348598480225,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [11123]
+  },
+  'Lupo': {
+    'category': 'non_luogo',
+    'confidence': 0.33740347623825073,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [16415]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [16749]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [16759]
+  },
+  'Alsbet Luhhan': {
+    'category': 'non_luogo',
+    'confidence': 0.14173181354999542,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [17001, 18053]
+  },
+  'Piegò': {
+    'category': 'non_luogo',
+    'confidence': 0.24264395236968994,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [17882]
+  },
+  'Luhhan': {
+    'category': 'non_luogo',
+    'confidence': 0.18656505644321442,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [18345]
+  },
+  'Dorsale del Mondo': {
+    'category': 'non_luogo',
+    'confidence': 0.11264966428279877,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [20837]
+  },
+  'Sorrise': {
+    'category': 'non_luogo',
+    'confidence': 0.3743515908718109,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [21085]
+  },
+  'Mangeremo': {
+    'category': 'non_luogo',
+    'confidence': 0.1870228499174118,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [22202]
+  },
+}"
+Main Location,"{
+  'name': 'Emond’s Field',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.09198778867721558,
+  'count': 2,
+  'priority_score': 0.968475,
+  'early_appearance': True,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 58,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 50, 'fear': 5, 'anger': 8, 'joy': 30}, 'sentiment_counts': {'negative': 60, 'positive': 33}, 'emotion_percentages': {'sadness': 53.76344086021505, 'fear': 5.376344086021505, 'anger': 8.60215053763441, 'joy': 32.25806451612903}, 'sentiment_percentages': {'negative': 64.51612903225806, 'positive': 35.483870967741936}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.5869946479797363, 'Riconoscimento entità con spaCy': 0.003003358840942383, 'Analisi emozioni': 15.4289231300354, 'Classificazione delle location': 35.56595230102539, 'Tempo totale': 52.58687400817871}"
+Original Text Extract,"27 
+ 
+Rifugio dalla bufera 
+ 
+ 
+ 
+ 
+ 
+Perrin s’irritò per i giorni trascorsi con i Tuatha’an a viaggiare ad andatura moderata tra meridione e 
+levante. I Girovaghi non vedevano necessità d’affrettarsi. I carrozzoni colorati non si mettevano in 
+movimento finché il sole non era alto e si fermavano anche a metà pomeriggio, se trovavano il posto 
+adatto. I cani correvano agevolmente accanto ai carrozzoni, imitati spesso dai bambini. Ogni 
+suggerimento a proseguire o ad andare più in fretta otteneva una risata o anche una frase del tipo: Ah, 
+ma vorresti sfiancare quei poveri cavalli?  
+Perrin era sorpreso che Elyas non la pensasse come lui. Elyas non viaggiava sui carrozzoni, 
+preferiva andare a piedi e a volte precedeva la colonna, ma non propose mai di lasciare i Tuatha’an, né 
+di fare tappe più lunghe.  
+Quel bizzarro individuo barbuto e vestito di pelli era così diverso dai placidi Tuatha’an che risaltava 
+dovunque andasse tra i carrozzoni. Anche dalla parte opposta dell’accampamento era impossibile 
+scambiare Elyas per un Girovago, e non solo per i vestiti. Elyas si muoveva con l’indolente agilità d’un 
+lupo, sottolineata dagli abiti e dal copricapo di pelliccia, e irradiava pericolo come il fuoco irradia 
+calore; il contrasto con i Tuatha’an era assai netto. Giovani e vecchi, i Tuatha’an erano gente allegra. 
+Non c’era senso di minaccia, nei loro movimenti, solo gioia. I bambini correvano da tutte le parti per il 
+puro piacere di muoversi, certo, ma gli anziani dalla barba bianca e le nonnette camminavano ancora 
+con agilità, in una sorta di danza maestosa ma non meno esuberante. Tutti i Girovaghi sembravano 
+sempre sul punto di ballare, anche quando stavano fermi, anche nelle rare volte in cui 
+nell’accampamento non c’era musica. Violini e flauti, dulcimeri e cetre e tamburelli tessevano intorno 
+ai carrozzoni armonie e contrappunti a qualsiasi ora, in viaggio e durante le soste. Canti allegri, canti 
+gioiosi, canti buffi, canti tristi: se qualcuno era sveglio, di solito nel campo c’era anche musica.  
+Elyas riceveva cenni di saluto e sorrisi da ogni carrozzone, parole allegre da ogni fuoco. Certo, 
+questo era l’aspetto che i Girovaghi mostravano sempre agli estranei. Facce aperte, sorridenti. Ma 
+Perrin aveva imparato che sotto quella patina c’era la diffidenza del cervo selvatico. C’era qualcosa di 
+profondo, sotto i sorrisi rivolti ai due di Emond’s Field, qualcosa che si domandava se erano sicuri, 
+qualcosa che si era affievolito solo un poco, col trascorrere dei giorni. Nei confronti di Elyas la cautela 
+era maggiore, come il forte calore estivo che tremolava nell’aria e non svaniva. Quando Elyas non 
+guardava, i Tuatha’an lo fissavano apertamente, come se fossero insicuri delle sue prossime azioni. 
+Quando attraversava l’accampamento, i piedi pronti a ballare parevano anche pronti a fuggire.  
+Né d’altra parte Elyas era più a suo agio con la loro Via della Foglia di quanto i Tuatha’an non 
+fossero col suo sistema di vita. Aveva sempre una smorfia sulle labbra, quando aveva intorno 
+Girovaghi. Una smorfia non proprio di condiscendenza e certo non di disprezzo; ma dava l’impressione 
+che Elyas avrebbe preferito essere altrove, da qualsiasi parte, anziché lì.  
+Eppure, ogni volta che Perrin parlava di andare via, Elyas lo consolava dicendo che bisognava 
+restare, solo qualche giorno ancora.  
+«Avete avuto giorni duri, prima d’incontrare me» disse Elyas, la terza o quarta volta che Perrin gli 
+domandò. «E altri più duri vi aspettano, con Trolloc e Mezzi Uomini a darvi la caccia e le Aes Sedai 
+
+per amiche.» Sogghignò, con la bocca piena di torta di mele preparata da Ila. Perrin trovava ancora 
+sconcertanti i suoi occhi gialli, anche quando Elyas sorrideva. Forse ancora di più, se sorrideva: il 
+sorriso non arrivava mai a quegli occhi da cacciatore. Elyas era sdraiato accanto al fuoco di Raen, 
+rifiutando come al solito di sedersi sui tronchi sistemati a questo scopo. «Non avere tanta fretta di 
+metterti da solo nelle mani delle Aes Sedai.»  
+«E se i Fade ci trovano? Cosa glielo impedisce, visto che ce ne stiamo seduti in attesa? Tre lupi non 
+possono tenerli a bada e i Girovaghi non ci saranno di nessun aiuto. Non difenderanno neppure se 
+stessi. I Trolloc li macelleranno e sarà colpa nostra. In ogni caso, prima o poi dovremo lasciarli. Tanto 
+vale farlo prima»  
+«Qualcosa mi dice di aspettare. Solo qualche giorno.»  
+«Qualcosa!»  
+«Tranquillo, ragazzo. Prendi la vita come viene. Scappa quando è ora, combatti all’occorrenza, 
+riposa quando puoi.»  
+«Cosa significa, qualcosa?»  
+«Mangia una fetta di torta. Ila non mi ha in simpatia, ma certo mi tratta bene, quando sono in visita. 
+C’è sempre del buon cibo negli accampamenti dei Girovaghi.»  
+«Quale “qualcosa”? Se sai cose che ci tieni nascoste…»  
+Elyas guardò, accigliato, la fetta di torta; la posò e si pulì le dita. «Qualcosa» dichiarò infine, con 
+una scrollata di spalle, come se neppure lui capisse bene. «Qualcosa mi dice che è importante aspettare"
+Token Count,5681

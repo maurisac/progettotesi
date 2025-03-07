@@ -1,0 +1,608 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:25:10
+Entities,"{
+  ('Rand', 'MISC'): 67,
+  ('Tam', 'PER'): 26,
+  ('Aes Sedai', 'LOC'): 15,
+  ('Sapiente', 'MISC'): 11,
+  ('Lan', 'MISC'): 11,
+  ('Trolloc', 'ORG'): 8,
+  ('Egwene', 'PER'): 8,
+  ('Moiraine', 'PER'): 7,
+  ('Aes Sedai', 'PER'): 6,
+  ('Emond’s Field', 'MISC'): 5,
+  ('Vere', 'LOC'): 5,
+  ('Thom', 'PER'): 5,
+  ('Trolloc', 'LOC'): 4,
+  ('Parco', 'LOC'): 4,
+  ('Nynaeve', 'PER'): 4,
+  ('Bran', 'LOC'): 4,
+  ('Coplin', 'MISC'): 3,
+  ('Bel Tine', 'PER'): 3,
+  ('Luhhan', 'PER'): 3,
+  ('Egwene!', 'MISC'): 3,
+  ('Calder', 'PER'): 3,
+  ('Luce', 'MISC'): 3,
+  ('Trolloc', 'MISC'): 3,
+  ('Thom Merrilin', 'PER'): 3,
+  ('Custode', 'LOC'): 3,
+  ('Cenn Buie', 'LOC'): 2,
+  ('Haral Luhhan', 'PER'): 2,
+  ('Mastro Luhhan', 'PER'): 2,
+  ('Egwene', 'LOC'): 2,
+  ('Festa', 'MISC'): 2,
+  ('Luce', 'LOC'): 2,
+  ('Fiumi Gemelli', 'LOC'): 2,
+  ('Zanna del Drago', 'LOC'): 2,
+  ('Merrilin', 'PER'): 2,
+  ('Vai', 'PER'): 2,
+  ('Mastro', 'PER'): 2,
+  ('Watch Hill', 'MISC'): 2,
+  ('Mastro al’Vere', 'LOC'): 2,
+  ('lady Moiraine', 'PER'): 2,
+  ('Luce mi fulmini', 'MISC'): 2,
+  ('Moiraine Sedai', 'PER'): 2,
+  ('Strada della Cava', 'LOC'): 1,
+  ('Sorrise', 'LOC'): 1,
+  ('Riccioli', 'PER'): 1,
+  ('Winespring', 'PER'): 1,
+  ('Dense', 'LOC'): 1,
+  ('Ponte Carraio', 'LOC'): 1,
+  ('Be’', 'MISC'): 1,
+  ('Luce 
+
+santa', 'LOC'): 1,
+  ('Vide Rand', 'LOC'): 1,
+  ('Oh, no', 'MISC'): 1,
+  ('Nynaeve', 'LOC'): 1,
+  ('Notò particolari bizzarri', 'MISC'): 1,
+  ('Berin Thane', 'PER'): 1,
+  ('Abell 
+Cauthon', 'PER'): 1,
+  ('Mat', 'PER'): 1,
+  ('Aspettate qui» disse', 'MISC'): 1,
+  ('Mat', 'MISC'): 1,
+  ('Posò', 'PER'): 1,
+  ('Alsbet', 'PER'): 1,
+  ('Comare Calder', 'PER'): 1,
+  ('Troveremo', 'MISC'): 1,
+  ('La Ruota', 'MISC'): 1,
+  ('Sospirò', 'PER'): 1,
+  ('Rand', 'PER'): 1,
+  ('«Mi', 'PER'): 1,
+  ('Lo so» rispose lei, semplicemente', 'MISC'): 1,
+  ('la Sapiente', 'MISC'): 1,
+  ('Lo so» disse lei, in tono gentile', 'MISC'): 1,
+  ('Mi dispiace davvero', 'MISC'): 1,
+  ('Guardò Tam', 'PER'): 1,
+  ('Incrociò', 'LOC'): 1,
+  ('Braccia', 'PER'): 1,
+  ('Draghi', 'PER'): 1,
+  ('Nynaeve', 'MISC'): 1,
+  ('Dentro?', 'MISC'): 1,
+  ('Fain', 'PER'): 1,
+  ('Bran 
+al’Vere', 'PER'): 1,
+  ('«Cosa', 'PER'): 1,
+  ('Parla in fretta', 'MISC'): 1,
+  ('Mastro al’Vere?» disse', 'MISC'): 1,
+  ('Bela', 'PER'): 1,
+  ('Lasciamo', 'LOC'): 1,
+  ('Afferrò', 'LOC'): 1,
+  ('Riposerà', 'MISC'): 1,
+  ('Deven 
+Ride', 'MISC'): 1,
+  ('Rand', 'LOC'): 1,
+  ('Tolsero', 'LOC'): 1,
+  ('Bran', 'PER'): 1,
+  ('Pensavo… non so… forse il sindaco', 'MISC'): 1,
+  ('Tam', 'LOC'): 1,
+  ('Congar', 'PER'): 1,
+  ('Vere annuì, torvo', 'MISC'): 1,
+  ('Quello stupido di Darl Coplin', 'MISC'): 1,
+  ('Vere «Li', 'PER'): 1,
+  ('Moiraine?» disse', 'MISC'): 1,
+  ('Lady Moiraine', 'PER'): 1,
+  ('Spada?', 'MISC'): 1,
+  ('Notte d’Inverno', 'MISC'): 1,
+  ('Uhm', 'MISC'): 1,
+  ('Non…»  
+«', 'MISC'): 1,
+  ('Credevi', 'PER'): 1,
+  ('Aes Sedai', 'MISC'): 1,
+  ('Pericolo', 'LOC'): 1,
+  ('Rischio?', 'MISC'): 1,
+  ('Menestrello', 'LOC'): 1,
+  ('No» sospirò Rand', 'MISC'): 1,
+  ('«', 'PER'): 1,
+  ('Westwood', 'LOC'): 1,
+  ('Rand boccheggiò', 'PER'): 1,
+  ('Guerre Trolloc', 'MISC'): 1,
+  ('Lady Moiraine', 'MISC'): 1,
+  ('Rand impietrì', 'PER'): 1,
+  ('Burattinaie', 'PER'): 1,
+  ('Tar Valon', 'PER'): 1,
+  ('Thor', 'PER'): 1,
+  ('Posso', 'PER'): 1,
+  ('Io sto benissimo…', 'MISC'): 1,
+  ('La Sapiente', 'MISC'): 1,
+  ('Luce santa”', 'MISC'): 1,
+  ('Guardò il Custode', 'MISC'): 1,
+  ('Trolloc morto', 'LOC'): 1,
+  ('Faticando', 'ORG'): 1,
+  ('Io… ah…', 'MISC'): 1,
+  ('Ruota', 'LOC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Custode', 'PER'): 1,
+  ('Tenebroso', 'PER'): 1,
+  ('Conducimi', 'PER'): 1,
+  ('Troppi', 'ORG'): 1,
+  ('Calma', 'PER'): 1,
+  ('passo di Moiraine', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9717866666666667,
+    'early_appearance': True,
+    'positions': [58, 838, 1461, 1868, 2908, 3783, 3839, 4307, 4435, 4849, 5650, 6625, 6810, 6887, 7222, 7775, 7968, 8167, 8691, 8916, 9159, 9561, 9695, 9901, 9980, 10354, 10459, 10777, 10800, 10873, 11657, 11868, 12631, 13164, 14777, 14851, 15504, 15825, 16203, 16461, 16864, 17055, 17300, 17353, 17768, 18194, 19149, 19461, 20705, 21070, 21190, 21270, 21781, 22156, 23175, 24468, 25227, 25801, 26384, 26401, 26495, 26764, 27286, 27780, 27950, 28018, 28513, 28938, 28962]
+  },
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9717866666666667,
+    'early_appearance': True,
+    'positions': [479, 818, 3268, 3468, 3953, 4659, 6409, 6718, 6742, 7573, 8552, 8803, 11955, 13403, 15401, 15678, 16292, 16373, 16723, 17176, 17595, 17982, 22537, 22793, 23399, 25729, 25772]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 5,
+    'priority_score': 0.9703333333333333,
+    'early_appearance': True,
+    'positions': [208, 1561, 2022, 3906, 20636]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 11,
+    'priority_score': 0.7570533333333334,
+    'early_appearance': False,
+    'positions': [19085, 19523, 20352, 20660, 24348, 25143, 25882, 27665, 28252, 28653, 28866]
+  },
+  'Parco': {
+    'category': 'paese',
+    'confidence': 0.32768484950065613,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.7540466666666666,
+    'early_appearance': False,
+    'positions': [5107, 11579, 16063, 26024]
+  },
+  'Lasciamo': {
+    'category': 'paese',
+    'confidence': 0.28821203112602234,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7495866666666666,
+    'early_appearance': False,
+    'positions': [15188]
+  },
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 5,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [17444, 18281, 20417, 21576, 22683]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [7582, 7633, 13100, 14937, 18431]
+  },
+  'Festa': {
+    'category': 'paese',
+    'confidence': 0.2824993133544922,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7436733333333334,
+    'early_appearance': False,
+    'positions': [7409, 18782]
+  },
+  'Vai': {
+    'category': 'paese',
+    'confidence': 0.20735855400562286,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7436733333333334,
+    'early_appearance': False,
+    'positions': [15315, 15447]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7421866666666667,
+    'early_appearance': False,
+    'positions': [5456, 5639]
+  },
+  'Braccia': {
+    'category': 'paese',
+    'confidence': 0.3298608064651489,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7421866666666667,
+    'early_appearance': False,
+    'positions': [11232]
+  },
+  'Draghi': {
+    'category': 'paese',
+    'confidence': 0.16757063567638397,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7421866666666667,
+    'early_appearance': False,
+    'positions': [11475]
+  },
+  'Bran': {
+    'category': 'paese',
+    'confidence': 0.27615973353385925,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7421866666666667,
+    'early_appearance': False,
+    'positions': [11926, 14012, 16604, 17074, 18140]
+  },
+  'Thor': {
+    'category': 'paese',
+    'confidence': 0.2889701724052429,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7421866666666667,
+    'early_appearance': False,
+    'positions': [26392]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7421866666666667,
+    'early_appearance': False,
+    'positions': [27453]
+  },
+  'Calma': {
+    'category': 'paese',
+    'confidence': 0.3853134512901306,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7421866666666667,
+    'early_appearance': False,
+    'positions': [28558]
+  },
+  'Vere': {
+    'category': 'non_luogo',
+    'confidence': 0.30270180106163025,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.23703333333333335,
+    'early_appearance': True,
+    'positions': [2844, 11934, 14020, 15649, 18148]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23554666666666665,
+    'early_appearance': True,
+    'positions': [1477, 4618, 8021, 11411, 13060, 15054, 18724, 19345, 19402, 20053, 20112, 23005, 24338, 24547, 25587]
+  },
+  'Cenn Buie': {
+    'category': 'non_luogo',
+    'confidence': 0.3392646014690399,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23257333333333333,
+    'early_appearance': True,
+    'positions': [1665, 18564]
+  },
+  'Strada della Cava': {
+    'category': 'non_luogo',
+    'confidence': 0.10820041596889496,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23108666666666666,
+    'early_appearance': True,
+    'positions': [244]
+  },
+  'Sorrise': {
+    'category': 'non_luogo',
+    'confidence': 0.3743515908718109,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23108666666666666,
+    'early_appearance': True,
+    'positions': [1292]
+  },
+  'Dense': {
+    'category': 'non_luogo',
+    'confidence': 0.25936686992645264,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23108666666666666,
+    'early_appearance': True,
+    'positions': [2699]
+  },
+  'Ponte Carraio': {
+    'category': 'non_luogo',
+    'confidence': 0.09269462525844574,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23108666666666666,
+    'early_appearance': True,
+    'positions': [2869]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 15,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [11457, 20623, 20685, 20840, 20966, 21243, 21468, 21706, 21761, 21881, 22287, 23046, 23515, 25267, 25453, 25948, 26116, 26332, 26837, 27014, 28216, 29114]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [20669, 24490, 27500, 28619]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010373333333333333,
+    'early_appearance': False,
+    'positions': [3544, 4036, 4450, 4911, 5518, 8118, 8455, 10138, 10366, 10521]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010373333333333333,
+    'early_appearance': False,
+    'positions': [7685, 11321]
+  },
+  'Zanna del Drago': {
+    'category': 'non_luogo',
+    'confidence': 0.16739250719547272,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010373333333333333,
+    'early_appearance': False,
+    'positions': [13672, 17547]
+  },
+  'Mastro al’Vere': {
+    'category': 'non_luogo',
+    'confidence': 0.23976655304431915,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010373333333333333,
+    'early_appearance': False,
+    'positions': [17081, 20564]
+  },
+  'Luce 
+
+santa': {
+    'category': 'non_luogo',
+    'confidence': 0.0827682837843895,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [3499]
+  },
+  'Vide Rand': {
+    'category': 'non_luogo',
+    'confidence': 0.21748168766498566,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [3727]
+  },
+  'Nynaeve': {
+    'category': 'non_luogo',
+    'confidence': 0.15896956622600555,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [3827, 6547, 8127, 10620, 11856, 15527]
+  },
+  'Incrociò': {
+    'category': 'non_luogo',
+    'confidence': 0.30475884675979614,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [11101]
+  },
+  'Afferrò': {
+    'category': 'non_luogo',
+    'confidence': 0.32473525404930115,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [15252]
+  },
+  'Tolsero': {
+    'category': 'non_luogo',
+    'confidence': 0.28514721989631653,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [16235]
+  },
+  'Pericolo': {
+    'category': 'non_luogo',
+    'confidence': 0.1502435952425003,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [20884]
+  },
+  'Menestrello': {
+    'category': 'non_luogo',
+    'confidence': 0.3037399649620056,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [21381]
+  },
+  'Westwood': {
+    'category': 'non_luogo',
+    'confidence': 0.16402994096279144,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [23659]
+  },
+  'Trolloc morto': {
+    'category': 'non_luogo',
+    'confidence': 0.2572517395019531,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [26930]
+  },
+  'Ruota': {
+    'category': 'non_luogo',
+    'confidence': 0.15005111694335938,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [27442]
+  },
+  'passo di Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.17395175993442535,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008886666666666668,
+    'early_appearance': False,
+    'positions': [29138]
+  },
+}"
+Main Location,"{
+  'name': 'Emond’s Field',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.09198778867721558,
+  'count': 5,
+  'priority_score': 0.9703333333333333,
+  'early_appearance': True,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Tam',
+  'count': 26,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 17, 'sadness': 73, 'anger': 6, 'fear': 2}, 'sentiment_counts': {'positive': 23, 'negative': 75}, 'emotion_percentages': {'joy': 17.346938775510203, 'sadness': 74.48979591836735, 'anger': 6.122448979591836, 'fear': 2.0408163265306123}, 'sentiment_percentages': {'positive': 23.46938775510204, 'negative': 76.53061224489795}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.3537323474884033, 'Riconoscimento entità con spaCy': 0.0025153160095214844, 'Analisi emozioni': 18.895483016967773, 'Classificazione delle location': 58.008851766586304, 'Tempo totale': 79.26258182525635}"
+Original Text Extract,"7 
+ 
+Al villaggio 
+ 
+ 
+ 
+ 
+ 
+Al primo chiarore dell’alba, Rand procedeva faticosamente nella foresta e ancora non riusciva a 
+convincersi d’avere impiegato quasi tutta la notte per il tratto dalla fattoria a Emond’s Field. Certo, di 
+giorno la Strada della Cava, per quanto piena di sassi, era ben diversa dalla foresta di notte. D’altro 
+canto, gli pareva che fossero passati giorni interi, da quando aveva visto il cavaliere dal mantello nero; 
+settimane intere, da quando con Tam era entrato in casa per la cena. Non sentiva più la bardatura 
+tagliargli la carne, ma d’altra parte aveva le spalle intorpidite, e anche i piedi, a dire il vero. Il respiro 
+gli usciva in ansiti faticosi che da un pezzo gli bruciavano gola e polmoni; la fame gli sconvolgeva lo 
+stomaco fino a dargli un senso di nausea.  
+Da un poco Tam era silenzioso. Rand non sapeva da quanto tempo suo padre aveva smesso di 
+vaneggiare, ma non osò fermarsi per vedere come stava. Se si fosse fermato, non si sarebbe più mosso. 
+E comunque non poteva aiutarlo. L’unica speranza era più avanti, nel villaggio. Provò ad allungare il 
+passo, ma le gambe parevano di legno. Non si accorgeva nemmeno del freddo né del vento.  
+Colse un vago odore di legna bruciata: se fiutava i camini, allora finalmente era quasi arrivato. 
+Sorrise stancamente, ma subito si accigliò. Il fumo riempiva l’aria… fin troppo. Certo, con quel freddo 
+ogni camino del villaggio era acceso, ma il fumo era eccessivo. Rand ripensò ai Trolloc visti sulla 
+strada. Trolloc che provenivano da levante, dalla direzione di Emond’s Field. Cercò di scorgere le 
+prime case, pronto a gridare aiuto se vedeva qualcuno, fosse anche Cenn Buie o un Coplin. Dentro di 
+lui, una vocina gli disse di augurarsi che ci fosse ancora qualcuno in grado di aiutare gli altri.  
+All’improvviso, fra gli ultimi alberi spogli comparve una casa: e a Rand non rimase altro che andare 
+avanti, mentre la speranza si mutava in disperazione. Entrò barcollando nel villaggio.  
+Al posto di metà delle case di Emond’s Field c’erano mucchi di macerie carbonizzate da cui 
+sporgevano, come dita sporche, camini di mattoni, neri di fuliggine. Riccioli di fumo salivano ancora 
+dalle macerie. Paesani dal viso sudicio, alcuni in camicia da notte, frugavano tra le ceneri. Il poco 
+salvato dalle fiamme punteggiava le vie: specchiere, credenze, cassettoni, sedie e tavoli con lenzuola e 
+coperte, utensili da cucina, mucchietti di abiti e di biancheria.  
+La distruzione pareva seminata a caso: qua cinque case di fila erano intatte, là solo una restava 
+isolata fra le rovine.  
+Sul lato più lontano del Winespring, i tre grossi falò di Bel Tine ruggivano, curati da un gruppetto 
+d’uomini. Dense colonne di fumo nero, punteggiate di faville, si piegavano verso settentrione, spinte 
+dal vento. Uno degli stalloni dhurrani di mastro al’Vere trascinava verso il Ponte Carraio e i falò un 
+oggetto che Rand non distinse bene.  
+Il ragazzo era appena uscito dai boschi, quando Haral Luhhan, armato di una scure da boscaiolo, col 
+viso nero di fuliggine, gli corse incontro. La camicia da notte sporca di cenere gli scendeva fino agli 
+stivali; uno strappo sul petto lasciava vedere una scottatura rosso vivo. Il tozzo fabbro si inginocchiò 
+accanto alla barella. Tam, a occhi chiusi, respirava a fatica.  
+«Trolloc, ragazzo?» domandò mastro Luhhan, con voce rauca per il fumo. «Anche qui, anche qui. 
+Be’, forse siamo stati più fortunati di quanto meritavamo. Ma Tam ha bisogno della Sapiente. Luce 
+
+santa, dove si è cacciata? Egwene!»  
+Egwene passava di corsa, con le braccia piene di fasce ricavate da lenzuola; aveva lo sguardo perso 
+nel vuoto e cerchi scuri intorno agli occhi, che li facevano sembrare più grandi. Vide Rand e si fermò, 
+con un ansito tremante. «Oh, no, Rand, non tuo padre! È…? Vieni, ti porto da Nynaeve.»  
+Rand era troppo stanco e intontito per parlare. Per tutta la notte Emond’s Field era stato un rifugio 
+dove lui e Tam sarebbero stati al sicuro. Ora riusciva solo a fissare, disperato, la veste di Egwene, 
+macchiata di fumo. Notò particolari bizzarri, come se fossero assai importanti. Gli ultimi bottoni della 
+veste erano abbottonati di storto. Le mani erano pulite, anche se macchie di fuliggine le imbrattavano le 
+guance.  
+Mastro Luhhan parve capire lo stato di Rand. Posò la scure di traverso sulle stanghe e sollevò la 
+parte posteriore della barella; diede una leggera spinta, incitando Rand a seguire Egwene. Il ragazzo le 
+andò dietro, a passo malfermo, come se camminasse nel sonno. Per un istante si domandò come mai 
+mastro Luhhan sapesse che quelle creature erano Trolloc, ma fu un pensiero fuggevole. Se Tam le 
+aveva riconosciute, non c’era motivo perché Haral Luhhan non potesse fare altrettanto.  
+«Tutte le storie sono vere» borbottò.  
+«Così pare, ragazzo» disse il fabbro. «Così pare.»  
+Rand lo udì appena. Era intento a seguire la snella sagoma di Egwene. Si era ripreso quanto bastava 
+a desiderare che lei si affrettasse, anche se a di"
+Token Count,6396

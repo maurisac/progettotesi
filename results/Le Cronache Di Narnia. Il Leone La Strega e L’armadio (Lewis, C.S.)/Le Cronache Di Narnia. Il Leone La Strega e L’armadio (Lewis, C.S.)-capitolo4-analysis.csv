@@ -1,0 +1,237 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:11:49
+Entities,"{
+  ('Edmund', 'PER'): 33,
+  ('Lucy', 'PER'): 8,
+  ('Narnia', 'LOC'): 5,
+  ('Adamo', 'PER'): 3,
+  ('Peter', 'PER'): 3,
+  ('Susan', 'PER'): 3,
+  ('Maestà — rispose', 'MISC'): 2,
+  ('Maestà', 'PER'): 2,
+  ('Oh', 'PER'): 2,
+  ('Tumnus', 'PER'): 2,
+  ('Le gelatine di frutta
+— Cosa sei?', 'MISC'): 1,
+  ('Guardaroba', 'MISC'): 1,
+  ('Io... io ho aperto una porta', 'MISC'): 1,
+  ('Ah', 'PER'): 1,
+  ('Mio', 'PER'): 1,
+  ('Salì', 'PER'): 1,
+  ('La regina tirò fuori una fiaschetta', 'MISC'): 1,
+  ('mund', 'LOC'): 1,
+  ('Mangerei volentieri delle gelatine di frutta', 'MISC'): 1,
+  ('La regina', 'MISC'): 1,
+  ('Turchia', 'LOC'): 1,
+  ('Maestà', 'MISC'): 1,
+  ('Eva', 'PER'): 1,
+  ('Gliel'', 'MISC'): 1,
+  ('Sua Maestà', 'MISC'): 1,
+  ('Vorrei', 'PER'): 1,
+  ('Tu sarai
+
+principe', 'MISC'): 1,
+  ('No, no', 'MISC'): 1,
+  ('Staresti', 'LOC'): 1,
+  ('Dritto', 'LOC'): 1,
+  ('Farò del mio meglio — mormorò', 'MISC'): 1,
+  ('No, no — esclamò la regina', 'MISC'): 1,
+  ('Teneva', 'LOC'): 1,
+  ('Strega Bianca', 'PER'): 1,
+  ('La Strega Bianca', 'PER'): 1,
+  ('Natale', 'MISC'): 1,
+  ('Ora muoviamoci di qui', 'MISC'): 1,
+  ('rebbero accorti', 'PER'): 1,
+  ('Ehi', 'PER'): 1,
+  ('Vieni', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.7704,
+    'early_appearance': False,
+    'positions': [3683, 8865, 9107, 9807, 10334]
+  },
+  'Turchia': {
+    'category': 'paese',
+    'confidence': 0.3538980782032013,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [3208]
+  },
+  'Eva': {
+    'category': 'paese',
+    'confidence': 0.21247456967830658,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [3927]
+  },
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [8639]
+  },
+  'La Strega Bianca': {
+    'category': 'torre',
+    'confidence': 0.17886945605278015,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [8756]
+  },
+  'mund': {
+    'category': 'non_luogo',
+    'confidence': 0.3786797523498535,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [1939]
+  },
+  'Staresti': {
+    'category': 'non_luogo',
+    'confidence': 0.31962472200393677,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [5830]
+  },
+  'Dritto': {
+    'category': 'non_luogo',
+    'confidence': 0.3991986811161041,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [6297]
+  },
+  'Teneva': {
+    'category': 'non_luogo',
+    'confidence': 0.2423463612794876,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [7857]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 5,
+  'priority_score': 0.7704,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Edmund',
+  'count': 33,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 42, 'anger': 9, 'sadness': 36, 'fear': 3}, 'sentiment_counts': {'positive': 41, 'negative': 49}, 'emotion_percentages': {'joy': 46.666666666666664, 'anger': 10.0, 'sadness': 40.0, 'fear': 3.3333333333333335}, 'sentiment_percentages': {'positive': 45.55555555555556, 'negative': 54.44444444444444}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.6405656337738037, 'Riconoscimento entità con spaCy': 0.0009989738464355469, 'Analisi emozioni': 25.570250749588013, 'Classificazione delle location': 22.680379629135132, 'Tempo totale': 48.896196126937866}"
+Original Text Extract,"4
+Le gelatine di frutta
+— Cosa sei? — ripeté la regina. — Un nano più alto degli altri a cui
+hanno tagliato la barba?
+— No, Maestà — rispose Edmund. — Non ho mai avuto la barba. Sono
+ancora un ragazzo.
+— Un ragazzo! — esclamò la signora. — Vuoi dire che sei un figlio di
+Adamo?
+Edmund rimase fermo e zitto. Era troppo confuso per capire il senso del-
+la domanda.
+— Chiunque tu sia, sei un idiota e lo vedo — scattò la regina. — Ri-
+spondimi, una volta per tutte, o perderò la pazienza. Sei un essere umano?
+— Sì, Maestà — rispose subito Edmund.
+— E come hai fatto a entrare nei miei dominii, se è lecito?
+— Maestà, sono entrato dal guardaroba.
+— Guardaroba? Che vuol dire?
+
+— Io... io ho aperto una porta e mi sono trovato qui.
+— Ah — esclamò la regina, come parlando a se stessa. — Una porta.
+Una porta sul mondo degli uomini. Ho già sentito parlare di queste cose,
+possono rovinare tutto. Ma è uno solo, facile da trattare.
+Così dicendo si era alzata in piedi, fissando bene in faccia Edmund. I suoi
+occhi fiammeggiavano. Alzò la bacchetta dorata che teneva sempre in mano
+ed Edmund fu certo che stesse per capitargli qualcosa di terribile, ma
+sembrava che non riuscisse più a muoversi. Si dava già per perso, quando la
+regina tutt'a un tratto cambiò idea.
+— Mio povero ragazzo — disse con voce completamente diversa. — Mi
+sembri impietrito dal freddo. Vieni a sederti vicino a me sulla slitta. Ti co-
+prirò con il mantello e faremo due chiacchiere.
+La proposta non gli piaceva affatto, ma Edmund non osò disobbedire.
+Salì sulla slitta e sedette ai piedi della regina, che gli buttò addosso un
+lembo del suo mantello di pelliccia e glielo rimboccò ben bene da tutte le
+parti.
+— Vuoi bere qualcosa di caldo? — chiese lei.
+— Grazie, Maestà — rispose Edmund che batteva i denti dal freddo.
+La regina tirò fuori una fiaschetta che pareva fatta di rame, allungò il
+braccio e lasciò cadere vicino alla slitta una goccia del suo contenuto. Ed-
+mund vide la goccia brillare a mezz'aria, fulgida come un diamante, ma
+quando toccò il suolo coperto di neve ci fu un sibilo e un attimo dopo, al
+suo posto, c'era una coppa tempestata di gemme preziose e piena di un li-
+quido fumante. Il nano la prese immediatamente e la porse al ragazzo fa-
+cendo un bell'inchino, ma con un sorriso tutt'altro che simpatico.
+Appena sorseggiata la bevanda calda, Edmund si sentì meglio: non ave-
+va mai assaggiato niente di simile. Era dolce, cremosa e con tanta schiuma
+in superficie. Ebbe l'effetto di riscaldarlo bene, dalla testa alla punta dei
+piedi.
+— Figlio di Adamo, non è bello bere senza mangiare nulla — disse allo-
+ra la regina. — Cosa ti piacerebbe?
+— Mangerei volentieri delle gelatine di frutta, maestà — rispose lui.
+La regina allungò di nuovo il braccio e lasciò cadere un'altra goccia di
+liquido. Subito, sulla neve apparve una grande scatola rotonda, legata con
+un nastro di seta verde. Era piena dei più bei dolci che Edmund avesse mai
+visto: saranno stati almeno due chili. Ognuno era semplicemente perfetto:
+
+chiaro e trasparente sotto il velo di zucchero, leggero, gommoso al punto
+giusto e squisito. Edmund non ne aveva mai mangiati di così buoni. Quel
+
+che si dice una delizia, come ne sanno preparare solo in Turchia.
+Mentre Edmund mangiava le gelatine di frutta una dopo l'altra, la regina
+cominciò a fargli domande una dopo l'altra. All'inizio Edmund cercò di non
+parlare con la bocca piena, ma presto dimenticò questa regola fonda-
+mentale della buona creanza e badò a ingozzarsi più che poteva. Intanto ri-
+spondeva alle domande, senza chiedersi perché la regina fosse tanto curio-
+sa. Raccontò di avere una sorella e un fratello maggiori e una sorellina mi-
+nore che era stata a Narnia per puro caso, incontrandovi un fauno gentile.
+La regina sembrò colpita soprattutto dal fatto che Edmund avesse tre fra-
+telli e chiese ancora: — Siete proprio in quattro? Ne sei certo?
+— Sì, Maestà.
+— Due figli di Adamo e due figlie di Eva? Non uno di più o uno di me-
+no?
+— Gliel'ho già detto — esclamò Edmund, dimenticando di parlare con il
+dovuto rispetto a ""Sua Maestà"".
+Quando le gelatine di frutta furono finite Edmund fissò la scatola vuota,
+sperando che lei chiedesse se ne voleva ancora. La regina conosceva be-
+nissimo il desiderio del ragazzo, perché i dolci erano stregati e chiunque ne
+mangiasse una volta continuava a volerne fino a scoppiare. Ma questa vol-
+ta era diverso: la regina voleva delle risposte.
+Quando ebbe finito di interrogarlo bene e fu sicura che solo Edmund e
+Lucy fossero entrati nel suo regno, mentre Peter e Susan ne conoscevano
+l'esistenza per sentito dire, cominciò a fargli certe proposte.
+— Mi piacerebbe conoscere tuo fratello e le tue sorelline. Perché non li
+porti da me?
+— Ci proverò — disse Edmund, sempre fissando la scatola vuota.
+— Se tornerai, con gli altri naturalmente, ti preparerò tante belle gelatine
+di frutta. Ora non mi è possibile, perché la magia funziona una volta sol-
+tanto. A casa mia, invece, è tutta un'altra cosa.
+— Perché non ci andiamo subito"
+Token Count,2462

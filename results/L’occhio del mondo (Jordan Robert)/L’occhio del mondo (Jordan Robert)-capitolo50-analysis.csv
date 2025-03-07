@@ -1,0 +1,505 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:35:21
+Entities,"{
+  ('Rand', 'MISC'): 33,
+  ('Uomo Verde', 'PER'): 26,
+  ('Nynaeve', 'PER'): 12,
+  ('Moiraine', 'PER'): 12,
+  ('Egwene', 'PER'): 11,
+  ('Aginor', 'MISC'): 11,
+  ('Balthamel', 'LOC'): 10,
+  ('Mat', 'MISC'): 9,
+  ('Perrin', 'PER'): 7,
+  ('Lan', 'MISC'): 7,
+  ('Aes Sedai', 'LOC'): 7,
+  ('Aginor', 'PER'): 6,
+  ('Nynaeve', 'MISC'): 5,
+  ('Reietto', 'MISC'): 5,
+  ('Tenebroso', 'PER'): 4,
+  ('Aes Sedai', 'PER'): 4,
+  ('Potere', 'LOC'): 4,
+  ('Egwene', 'LOC'): 4,
+  ('Ruota', 'LOC'): 3,
+  ('Saidin', 'PER'): 3,
+  ('Loial', 'LOC'): 3,
+  ('Reietto', 'PER'): 3,
+  ('Macchia', 'LOC'): 2,
+  ('Sapiente', 'MISC'): 2,
+  ('Ombra', 'LOC'): 2,
+  ('Saidar', 'PER'): 2,
+  ('Vera Fonte', 'ORG'): 2,
+  ('Occhio del Mondo', 'PER'): 2,
+  ('Custode', 'PER'): 2,
+  ('No!» gridò', 'MISC'): 2,
+  ('Uomo 
+Verde', 'PER'): 2,
+  ('Aginor', 'LOC'): 2,
+  ('Scappa!', 'MISC'): 2,
+  ('Incontri all’Occhio', 'MISC'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Albero della Vita', 'MISC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Figlio del', 'PER'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('“Cosa', 'ORG'): 1,
+  ('“No, non voglio saperlo', 'MISC'): 1,
+  ('Mostravano', 'LOC'): 1,
+  ('Disegno', 'MISC'): 1,
+  ('Creatore', 'PER'): 1,
+  ('Red', 'LOC'): 1,
+  ('Mi piacerebbe davvero vedere l’Albero della Vita» disse Mat', 'MISC'): 1,
+  ('Avendesora', 'LOC'): 1,
+  ('L’Albero della Vita', 'MISC'): 1,
+  ('Occhio', 'LOC'): 1,
+  ('Frattura del Mondo', 'MISC'): 1,
+  ('Cento', 'LOC'): 1,
+  ('Guardò 
+Moiraine', 'PER'): 1,
+  ('Aes 
+Sedai', 'PER'): 1,
+  ('Andiamo» disse Moiraine', 'MISC'): 1,
+  ('Varcò', 'LOC'): 1,
+  ('benigna', 'LOC'): 1,
+  ('Procedettero', 'LOC'): 1,
+  ('Là', 'PER'): 1,
+  ('Fonte di Vino', 'LOC'): 1,
+  ('piano Moiraine', 'MISC'): 1,
+  ('Lunghi', 'PER'): 1,
+  ('macinava', 'LOC'): 1,
+  ('Cos’è?» domandò', 'MISC'): 1,
+  ('Tempo di Follia', 'MISC'): 1,
+  ('Potere', 'MISC'): 1,
+  ('Leggendo dell’Occhio', 'MISC'): 1,
+  ('Loial', 'PER'): 1,
+  ('Tar Valon', 'LOC'): 1,
+  ('Occhio', 'MISC'): 1,
+  ('Epoca Leggendaria', 'MISC'): 1,
+  ('Tar Valon', 'PER'): 1,
+  ('Deserto', 'LOC'): 1,
+  ('oceano Aryth', 'LOC'): 1,
+  ('Finalmente vi ho trovati', 'MISC'): 1,
+  ('Fade:', 'MISC'): 1,
+  ('Cenn Buie', 'PER'): 1,
+  ('Ciuffi', 'PER'): 1,
+  ('Ruota macina polvere finissima', 'MISC'): 1,
+  ('La Luce', 'MISC'): 1,
+  ('I Reietti» disse Mat, rauco', 'MISC'): 1,
+  ('Shayol Ghul', 'PER'): 1,
+  ('Ishamael', 'PER'): 1,
+  ('Sommo Signore delle Tenebre', 'MISC'): 1,
+  ('Lews Therin Kinslayer', 'PER'): 1,
+  ('Signore del Mattino', 'MISC'): 1,
+  ('Custode', 'LOC'): 1,
+  ('Balthamel protese 
+fulmineamente la mano', 'MISC'): 1,
+  ('Balthamel', 'PER'): 1,
+  ('«No', 'PER'): 1,
+  ('Egwene!» gridò', 'MISC'): 1,
+  ('Nynaeve Rand', 'PER'): 1,
+  ('Sapiente!» ringhiò Mat', 'MISC'): 1,
+  ('Shadar Logoth', 'PER'): 1,
+  ('Reietti!', 'MISC'): 1,
+  ('Reietti', 'MISC'): 1,
+  ('Mai!', 'MISC'): 1,
+  ('Sparisci!', 'MISC'): 1,
+  ('fronzute', 'LOC'): 1,
+  ('Riccioli', 'PER'): 1,
+  ('Radici', 'MISC'): 1,
+  ('Rami', 'PER'): 1,
+  ('Perfino Aginor', 'PER'): 1,
+  ('Basta!', 'MISC'): 1,
+  ('Reietto» replicò', 'MISC'): 1,
+  ('Fiamme', 'ORG'): 1,
+  ('Scappate!', 'MISC'): 1,
+  ('Scappate tutti!', 'MISC'): 1,
+  ('Reietto il misero Potere', 'MISC'): 1,
+  ('Scappa!» Una volta in 
+movimento', 'MISC'): 1,
+  ('Lei no!» urlò Rand', 'MISC'): 1,
+  ('Luce ti fulmini', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 33,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [55, 627, 890, 2272, 2651, 3402, 3721, 4602, 6817, 7328, 8115, 8316, 9361, 9945, 10409, 11447, 12010, 12523, 14442, 15757, 17552, 17629, 18082, 18291, 18619, 19918, 24150, 24425, 24769, 24909, 24955, 25274, 25626]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 7,
+    'priority_score': 0.9676303030303031,
+    'early_appearance': True,
+    'positions': [754, 6672, 6791, 9874, 11903, 13022, 15696]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9635757575757575,
+    'early_appearance': True,
+    'positions': [106]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7494515151515151,
+    'early_appearance': False,
+    'positions': [5470, 11702]
+  },
+  'Red': {
+    'category': 'paese',
+    'confidence': 0.24299705028533936,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7487757575757575,
+    'early_appearance': False,
+    'positions': [3413]
+  },
+  'Cento': {
+    'category': 'paese',
+    'confidence': 0.2666980028152466,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7487757575757575,
+    'early_appearance': False,
+    'positions': [5477]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 9,
+    'priority_score': 0.7467818181818182,
+    'early_appearance': False,
+    'positions': [6742, 8915, 10092, 12155, 13152, 13294, 18377, 18880, 24190]
+  },
+  'Occhio del Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7420515151515151,
+    'early_appearance': False,
+    'positions': [8221, 10068]
+  },
+  'Creatore': {
+    'category': 'paese',
+    'confidence': 0.3074972331523895,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7413757575757576,
+    'early_appearance': False,
+    'positions': [3338]
+  },
+  'Là': {
+    'category': 'paese',
+    'confidence': 0.22403356432914734,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7413757575757576,
+    'early_appearance': False,
+    'positions': [7506]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.2323030303030303,
+    'early_appearance': True,
+    'positions': [1456, 1934, 3584, 9812, 11961, 17572, 17743, 17819, 18774, 24315, 24632, 24840, 24921, 24993, 25366]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23095151515151516,
+    'early_appearance': True,
+    'positions': [392, 1172]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23027575757575758,
+    'early_appearance': True,
+    'positions': [333]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23027575757575758,
+    'early_appearance': True,
+    'positions': [743, 2133, 2363, 4184, 4819, 7523, 12312, 13529, 15841, 16457, 23390, 24025, 25676]
+  },
+  'Mostravano': {
+    'category': 'non_luogo',
+    'confidence': 0.1912565529346466,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23027575757575758,
+    'early_appearance': True,
+    'positions': [1538]
+  },
+  'Balthamel': {
+    'category': 'non_luogo',
+    'confidence': 0.22259357571601868,
+    'spacy_label': 'LOC',
+    'count': 10,
+    'priority_score': 0.014157575757575758,
+    'early_appearance': False,
+    'positions': [14579, 14741, 15353, 17075, 17423, 19570, 20025, 20219, 20620, 21023, 21292]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.012130303030303031,
+    'early_appearance': False,
+    'positions': [4081, 5551, 6350, 9487, 10565, 10749, 11143, 11523, 15206, 23477, 25024]
+  },
+  'Potere': {
+    'category': 'non_luogo',
+    'confidence': 0.15005744993686676,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.010103030303030303,
+    'early_appearance': False,
+    'positions': [9597, 9659, 10627, 11350, 14869]
+  },
+  'Ruota': {
+    'category': 'non_luogo',
+    'confidence': 0.15005111694335938,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [3325, 8858, 15396]
+  },
+  'Loial': {
+    'category': 'non_luogo',
+    'confidence': 0.2856883406639099,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [7001, 10300, 14941, 24251]
+  },
+  'Aginor': {
+    'category': 'non_luogo',
+    'confidence': 0.30595675110816956,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.008751515151515152,
+    'early_appearance': False,
+    'positions': [14540, 14889, 15000, 15099, 16063, 16643, 17311, 18243, 18497, 18975, 19238, 19897, 23538, 23789, 24092, 24738, 24871, 25196, 25436]
+  },
+  'Avendesora': {
+    'category': 'non_luogo',
+    'confidence': 0.2346423864364624,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [4656]
+  },
+  'Occhio': {
+    'category': 'non_luogo',
+    'confidence': 0.12972672283649445,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [5046, 10855]
+  },
+  'Varcò': {
+    'category': 'non_luogo',
+    'confidence': 0.2720259428024292,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [6775]
+  },
+  'benigna': {
+    'category': 'non_luogo',
+    'confidence': 0.1295594722032547,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [7405]
+  },
+  'Procedettero': {
+    'category': 'non_luogo',
+    'confidence': 0.17491205036640167,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [7457]
+  },
+  'Fonte di Vino': {
+    'category': 'non_luogo',
+    'confidence': 0.1638592928647995,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [8100]
+  },
+  'macinava': {
+    'category': 'non_luogo',
+    'confidence': 0.14023037254810333,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [8873]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [10578, 11123]
+  },
+  'Deserto': {
+    'category': 'non_luogo',
+    'confidence': 0.20972591638565063,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [11216]
+  },
+  'oceano Aryth': {
+    'category': 'non_luogo',
+    'confidence': 0.3022865951061249,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [11288]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [15795, 16045, 16181]
+  },
+  'fronzute': {
+    'category': 'non_luogo',
+    'confidence': 0.21935594081878662,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008075757575757576,
+    'early_appearance': False,
+    'positions': [19993]
+  },
+}"
+Main Location,"{
+  'name': 'Rand',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.32787010073661804,
+  'count': 33,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Uomo Verde',
+  'count': 26,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 46, 'joy': 43, 'fear': 5, 'anger': 4}, 'sentiment_counts': {'positive': 46, 'negative': 52}, 'emotion_percentages': {'sadness': 46.93877551020408, 'joy': 43.87755102040816, 'fear': 5.1020408163265305, 'anger': 4.081632653061225}, 'sentiment_percentages': {'positive': 46.93877551020408, 'negative': 53.06122448979592}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.517033338546753, 'Riconoscimento entità con spaCy': 0.0030002593994140625, 'Analisi emozioni': 12.700376749038696, 'Classificazione delle location': 37.365341663360596, 'Tempo totale': 52.588751792907715}"
+Original Text Extract,"50 
+ 
+Incontri all’Occhio 
+ 
+ 
+ 
+ 
+ 
+Guidando il baio, Rand seguì l’Uomo Verde; come gli altri quattro di Emond’s Field, anche lui 
+sgranava gli occhi e non sapeva decidere se fissare la guida o la foresta. L’Uomo Verde era una 
+leggenda, certo; si narravano storie, su di lui e sull’Albero della Vita, davanti a ogni caminetto dei 
+Fiumi Gemelli, e non soltanto per i bambini. Però, dopo la Macchia, alberi e fiori sarebbero stati una 
+meraviglia anche se il resto del mondo non fosse stato ancora avvolto nell’inverno.  
+Perrin rimase in fondo al gruppetto, discosto: aveva l’aria di non voler udire altro, dall’Uomo Verde. 
+Rand capiva benissimo la reazione dell’amico. Figlio del Drago.  Con cautela osservò l’Uomo Verde 
+fare strada, con Moiraine e Lan, circondato da farfalle che formavano una nuvola di chiazze gialle e 
+rosse. “Cosa avrà voluto dire, con quelle parole?” si domandò Rand. “No, non voglio saperlo.”  
+Comunque, si sentiva il passo più leggero, le gambe più scattanti. Il disagio gli restava ancora nelle 
+viscere, gli rodeva lo stomaco; ma la paura si era rarefatta, pareva quasi svanita. Non poteva aspettarsi 
+di più, a meno di mezzo miglio dalla Macchia, anche se le sue creature non potevano entrare in quel 
+luogo. I mille puntini luminosi che gli avevano forato le ossa si erano spenti nel momento stesso in cui 
+era entrato nel dominio dell’Uomo Verde. Era stato lui a spegnerli, si disse; l’Uomo Verde e quel 
+luogo.  
+Anche Egwene e Nynaeve percepivano la pace e la consolazione, la calma della bellezza. 
+Mostravano un sorriso sereno e accarezzavano i fiori, si soffermavano ad annusarli, inspiravano a 
+fondo il profumo.  
+L’Uomo Verde se ne accorse. «I fiori sono fatti per servire da ornamento» disse. «Piante ed esseri 
+umani, è la stessa cosa. Nessuno ci fa caso, se non se ne colgono troppi.» E si mise a raccogliere un 
+fiore qui, uno là, mai più di due dalla stessa pianta. In breve Nynaeve e Egwene avevano sui capelli una 
+corona di rose selvatiche, campanule gialle, bianche stelle del mattino. La treccia della Sapiente 
+sembrava un giardino rosa e bianco, lungo fino alla cintola. Anche Moiraine ricevette una candida 
+ghirlanda di stelle del mattino, intrecciata con tanta abilità che i fiori sembravano crescere ancora.  
+E Rand non era sicuro che non crescessero davvero. Mentre camminava e parlava sottovoce con 
+Moiraine, l’Uomo Verde si prendeva cura della foresta giardino, quasi senza pensarci. Gli occhi di 
+nocciola notarono un rametto storto di una rosa rampicante, che il ramo fiorito d’un melo costringeva a 
+una goffa piegatura; e lui, sempre parlando, si soffermò a passarvi sopra la mano. Rand non fu sicuro se 
+gli occhi gli avessero giocato uno scherzo, oppure le spine si fossero davvero scostate per non pungere 
+quelle dita verdi. Quando la figura torreggiante dell’Uomo Verde riprese il cammino, il ramoscello era 
+dritto e schiudeva petali rossi tra i fiori bianchi del melo. L’Uomo Verde si chinò a mettere la mano a 
+coppa intorno a un minuscolo seme che giaceva su un letto di ciottoli; quando si raddrizzò, un piccolo 
+germoglio aveva messo radici tra le pietre, fino a raggiungere il buon terriccio.  
+«Ogni cosa deve crescere dove si trova, secondo il Disegno» spiegò l’Uomo Verde, senza girarsi, 
+quasi in tono di scusa. «E affrontare il giro della Ruota. Ma al Creatore non importerà, se intervengo 
+per un piccolo aiuto.»  
+Rand guidò Red attorno al germoglio, badando che gli zoccoli del baio non lo calpestassero: non gli 
+
+pareva giusto disfare l’opera dell’Uomo Verde solo per evitare un passo in più. Egwene gli sorrise, uno 
+dei suoi sorrisi segreti, e gli toccò il braccio. Era così graziosa, con i capelli sciolti pieni di fiori, che 
+Rand ricambiò il sorriso finché lei non arrossì e abbassò lo sguardo.  
+L’Uomo Verde li portò nel cuore della foresta primaverile, davanti a un’arcata che si apriva nelle 
+pendici d’una collina. Era un semplice e alto arco di pietra bianca; sulla chiave di volta aveva un 
+cerchio diviso in due da una linea sinuosa, metà scabro, metà liscio. L’antico simbolo Aes Sedai.  
+L’apertura era in ombra.  
+Per un momento tutti si limitarono a guardare in silenzio. Poi Moiraine si tolse dai capelli la 
+ghirlanda e l’appese ai rami d’un cespuglio di biancospino che cresceva accanto all’arcata. Fu come se 
+il suo gesto autorizzasse a parlare di nuovo.  
+«Non è qui?» domandò Nynaeve. «Quello per cui siamo venuti.»  
+«Mi piacerebbe davvero vedere l’Albero della Vita» disse Mat, senza staccare lo sguardo dal 
+simbolo in alto. «Possiamo aspettare un poco, vero?»  
+L’Uomo Verde diede a Rand un’occhiata bizzarra, poi scosse la testa.  
+«L’ Avendesora  non è qui. Da duemila anni non ho più riposato fra i suoi ruvidi rami.»  
+«L’Albero della Vita non è il motivo della nostra venuta» disse con fermezza Moiraine. Indicò 
+l’arco. «Il nostro motivo è lì.»  
+«Non entrerò con voi» disse l’Uomo Verde. Le farfalle svolazzarono come se condividessero una 
+certa agitazione. «Molto, moltiss"
+Token Count,5449
