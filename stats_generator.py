@@ -95,127 +95,117 @@ def generate_stats_file(book_name, output_dir):
         if file.startswith(f"{book_name}-capitolo") and file.endswith("-analysis.csv"):
             chapter_files.append(file)
     
+    if not chapter_files:
+        logging.error(f"Nessun file di analisi trovato per {book_name}")
+        return None
+        
     # Ordina i file per numero di capitolo
     chapter_files.sort(key=lambda x: int(x.split("capitolo")[1].split("-")[0]))
     
-    # Crea il file di statistiche
-    with open(stats_file, "w", newline='', encoding="utf-8") as f:
-        writer = csv.writer(f)
-        
-        for chapter_file in chapter_files:
-            chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
-            file_path = os.path.join(output_dir, chapter_file)
+    try:
+        # Crea il file di statistiche
+        with open(stats_file, "w", newline='', encoding="utf-8") as f:
+            writer = csv.writer(f)
             
-            try:
-                # Carica i dati del capitolo
-                with open(file_path, 'r', encoding='utf-8') as cf:
-                    reader = csv.reader(cf)
-                    chapter_data = list(reader)
-                
-                # Estrai i dati necessari
-                main_location = None
-                locations = {}
-                times = {}
-                
-                for row in chapter_data:
-                    if len(row) < 2:
-                        continue
-                        
-                    if row[0] == "Main Location":
-                        try:
-                            main_location = ast.literal_eval(row[1])
-                        except:
-                            main_location = {"name": "Sconosciuto", "priority_score": 0}
-                            
-                    elif row[0] == "Potential Locations":
-                        try:
-                            locations = ast.literal_eval(row[1])
-                        except:
-                            locations = {}
-                            
-                    elif row[0] == "Tempi di analisi":
-                        try:
-                            times = ast.literal_eval(row[1])
-                        except:
-                            times = {}
-                
-                # Calcola la dimensione del capitolo
-                chapter_path = os.path.join(output_dir, chapter_file)
-                file_size = os.path.getsize(chapter_path)
-                
-                # Stima del numero di pagine (usando la costante PAGE_SIZE)
-                num_pages = max(1, file_size // PAGE_SIZE)
-                
-                # Scrivi l'intestazione del capitolo
-                writer.writerow([f"Capitolo {chapter_num}:"])
-                writer.writerow([f"{file_size} byte - {num_pages} pagine"])
-                
-                # Scrivi i tempi di analisi
-                times_str = ", ".join([f"{k}: {v:.2f}s" for k, v in times.items()])
-                writer.writerow([f"Tempi di analisi: {times_str}"])
-                
-                # Scrivi il luogo principale
-                if main_location and "name" in main_location and "priority_score" in main_location:
-                    writer.writerow([f"{main_location['name']}: {main_location['priority_score']:.2f}"])
-                else:
-                    writer.writerow(["Luogo principale non identificato"])
-                
-                # Scrivi gli altri luoghi (fino a 10, ordinati per priority_score)
-                writer.writerow(["Altri luoghi:"])
-                
-                # MODIFICATO: Assegna priority_score a tutti i luoghi che non ce l'hanno
-                # Questo simula ciò che farebbe select_main_location ma solo per il calcolo dei punteggi
-                main_loc_name = main_location.get("name") if main_location else None
-                weights = LOCATION_WEIGHTS
-                max_count = max([d["count"] for d in locations.values()], default=1)
-                
-                # Lista per tenere traccia di tutti i luoghi con punteggio
-                scored_locations = []
-                
-                for loc_name, loc_data in locations.items():
-                    # Salta il luogo principale che è già stato mostrato
-                    if loc_name == main_loc_name:
-                        continue
-                        
-                    # Se il luogo non ha già un priority_score, calcolalo
-                    if "priority_score" not in loc_data:
-                        # Calcola il punteggio come in select_main_location
-                        occurrence_score = loc_data["count"] / max_count
-                        early_appearance_bonus = 1.0 if loc_data.get("early_appearance", False) else 0.0
-                        spacy_loc_bonus = 0.5 if loc_data.get("spacy_label", "") == "LOC" else 0.0
-                        
-                        # Usa valore binario per la confidenza
-                        is_location = loc_data["category"] != "non_luogo"
-                        location_confidence = 1.0 if is_location else 0.0
-                        
-                        priority_score = (
-                            weights["occurrence"] * occurrence_score + 
-                            weights["confidence"] * location_confidence +
-                            weights["early_appearance"] * early_appearance_bonus +
-                            weights["spacy_loc_bonus"] * spacy_loc_bonus
-                        )
-                    else:
-                        priority_score = loc_data["priority_score"]
+            for chapter_file in chapter_files:
+                try:
+                    chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
+                    file_path = os.path.join(output_dir, chapter_file)
                     
-                    # Aggiungi alla lista dei luoghi con punteggio
-                    scored_locations.append((loc_name, priority_score))
-                
-                # Ordina per punteggio e prendi i primi 10
-                scored_locations.sort(key=lambda x: x[1], reverse=True)
-                
-                for loc_name, score in scored_locations[:10]:
-                    writer.writerow([f"[{loc_name}, {score:.2f}]"])
-                
-                # Aggiungi una riga vuota tra i capitoli
-                writer.writerow([])
-                
-            except Exception as e:
-                writer.writerow([f"Errore nell'elaborazione del capitolo {chapter_num}: {str(e)}"])
-                writer.writerow([])
-                logging.error(f"Errore nell'elaborazione del file di statistiche per il capitolo {chapter_num}: {e}")
-    
-    print(f"File di statistiche generato: {stats_file}")
-
+                    # Carica i dati del capitolo
+                    with open(file_path, 'r', encoding='utf-8') as cf:
+                        reader = csv.reader(cf)
+                        chapter_data = list(reader)
+                    
+                    # Estrai i dati necessari
+                    main_location = None
+                    locations = {}
+                    times = {}
+                    token_count = None
+                    
+                    for row in chapter_data:
+                        if len(row) < 2:
+                            continue
+                            
+                        if row[0] == "Main Location":
+                            try:
+                                main_location = ast.literal_eval(row[1]) if row[1] != "None" else None
+                            except Exception as e:
+                                logging.warning(f"Errore nell'interpretazione della location principale: {e}")
+                                main_location = {"name": "Sconosciuto", "priority_score": 0}
+                                
+                        elif row[0] == "Potential Locations":
+                            try:
+                                locations = ast.literal_eval(row[1]) if row[1] != "None" else {}
+                            except Exception as e:
+                                logging.warning(f"Errore nell'interpretazione delle location potenziali: {e}")
+                                locations = {}
+                                
+                        elif row[0] == "Tempi di analisi":
+                            try:
+                                times = ast.literal_eval(row[1]) if row[1] != "None" else {}
+                            except Exception as e:
+                                logging.warning(f"Errore nell'interpretazione dei tempi: {e}")
+                                times = {}
+                                
+                        elif row[0] == "Token Count":
+                            try:
+                                token_count = int(row[1])
+                            except Exception as e:
+                                logging.warning(f"Errore nell'interpretazione del conteggio token: {e}")
+                                token_count = 0
+                    
+                    # Calcola la dimensione del capitolo
+                    num_pages = max(1, token_count // 500) if token_count else 1  # approssimazione: 500 token per pagina
+                    
+                    # Scrivi l'intestazione del capitolo
+                    writer.writerow([f"Capitolo {chapter_num}:"])
+                    writer.writerow([f"{token_count} token - {num_pages} pagine"])
+                    
+                    # Scrivi i tempi di analisi
+                    times_str = ", ".join([f"{k}: {v:.2f}s" for k, v in times.items()]) if times else "Dati non disponibili"
+                    writer.writerow([f"Tempi di analisi: {times_str}"])
+                    
+                    # Scrivi il luogo principale
+                    if main_location and "name" in main_location:
+                        writer.writerow([f"{main_location['name']}: {main_location.get('priority_score', 0):.2f}"])
+                    else:
+                        writer.writerow(["Luogo principale non identificato"])
+                    
+                    # Scrivi gli altri luoghi (fino a 10, ordinati per priority_score)
+                    writer.writerow(["Altri luoghi:"])
+                    
+                    # Filtra i luoghi che non sono il luogo principale
+                    other_locations = []
+                    if locations:
+                        main_loc_name = main_location.get("name") if main_location else None
+                        for loc_name, loc_data in locations.items():
+                            if loc_name != main_loc_name:
+                                priority_score = loc_data.get("priority_score", 0)
+                                other_locations.append((loc_name, priority_score))
+                    
+                        # Ordina per priority_score
+                        other_locations.sort(key=lambda x: x[1], reverse=True)
+                        
+                        # Scrivi i primi 10 luoghi
+                        for loc_name, priority_score in other_locations[:10]:
+                            writer.writerow([f"[{loc_name}, {priority_score:.2f}]"])
+                    else:
+                        writer.writerow(["Nessun luogo alternativo trovato"])
+                    
+                    # Aggiungi una riga vuota tra i capitoli
+                    writer.writerow([])
+                    
+                except Exception as e:
+                    writer.writerow([f"Errore nell'elaborazione del capitolo {chapter_num}: {str(e)}"])
+                    writer.writerow([])
+                    logging.error(f"Errore nell'elaborazione del file di statistiche per il capitolo {chapter_num}: {e}")
+        
+        print(f"File di statistiche generato: {stats_file}")
+        return stats_file
+    except Exception as e:
+        logging.error(f"Errore nella creazione del file di statistiche: {e}")
+        return None
 
 
 
@@ -230,10 +220,10 @@ def count_tokens(text):
 
 
 
+# In analyze_token_metrics()
 def analyze_token_metrics(book_name, output_dir):
     """
     Analizza la correlazione tra numero di token e qualità dell'analisi.
-    Genera un file CSV e dati per grafici, usando i dati già elaborati.
     """
     metrics_file = os.path.join(output_dir, f"token_metrics-{book_name}.csv")
     chapter_files = []
@@ -250,125 +240,140 @@ def analyze_token_metrics(book_name, output_dir):
     metrics_data = []
     
     for chapter_file in chapter_files:
-        chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
-        file_path = os.path.join(output_dir, chapter_file)
-        
-        # Carica le metriche di analisi
-        main_location = None
-        main_character = None
-        emotion_data = None
-        processing_times = None
-        token_count = None
-        
-        with open(file_path, 'r', encoding='utf-8') as cf:
-            reader = csv.reader(cf)
-            chapter_data = list(reader)
-        
-        for row in chapter_data:
-            if len(row) < 2:
-                continue
-                
-            if row[0] == "Token Count":
-                try:
-                    token_count = int(row[1])
-                except:
-                    token_count = None
-                    
-            elif row[0] == "Main Location":
-                try:
-                    main_location = ast.literal_eval(row[1])
-                except:
-                    main_location = None
-                    
-            elif row[0] == "Main Character":
-                try:
-                    main_character = ast.literal_eval(row[1])
-                except:
-                    main_character = None
-                    
-            elif row[0] == "Emotions":
-                try:
-                    emotion_data = ast.literal_eval(row[1])
-                except:
-                    emotion_data = None
-                    
-            elif row[0] == "Tempi di analisi":
-                try:
-                    processing_times = ast.literal_eval(row[1])
-                except:
-                    processing_times = None
-        
-        # Se non abbiamo trovato un conteggio token, passiamo al prossimo capitolo
-        if not token_count:
-            logging.warning(f"Conteggio token non trovato per il capitolo {chapter_num}")
-            continue
+        try:
+            chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
+            file_path = os.path.join(output_dir, chapter_file)
             
-        # Estrai metriche rilevanti
-        loc_confidence = main_location.get("confidence", 0) if main_location else 0
-        loc_score = main_location.get("priority_score", 0) if main_location else 0
-        char_score = main_character.get("priority_score", 0) if main_character else 0
-        
-        dominant_emotion = emotion_data.get("dominant_emotion", "unknown") if emotion_data else "unknown"
-        dominant_sentiment = emotion_data.get("dominant_sentiment", "unknown") if emotion_data else "unknown"
-        
-        spacy_time = processing_times.get("Analisi con spaCy", 0) if processing_times else 0
-        emotion_time = processing_times.get("Analisi emozioni", 0) if processing_times else 0
-        location_time = processing_times.get("Classificazione delle location", 0) if processing_times else 0
-        total_time = processing_times.get("Tempo totale", 0) if processing_times else 0
-        
-        # Calcola token per secondo
-        tokens_per_second = token_count / total_time if total_time > 0 else 0
-        
-        # Aggiungi dati alle metriche
-        metrics_data.append({
-            "chapter": chapter_num,
-            "token_count": token_count,
-            "tokens_per_second": tokens_per_second,
-            "total_time": total_time,
-            "spacy_time": spacy_time,
-            "emotion_time": emotion_time,
-            "location_time": location_time,
-            "loc_confidence": loc_confidence,
-            "loc_score": loc_score,
-            "char_score": char_score,
-            "dominant_emotion": dominant_emotion,
-            "dominant_sentiment": dominant_sentiment
-        })
+            # Carica le metriche di analisi
+            main_location = None
+            main_character = None
+            emotion_data = None
+            processing_times = None
+            token_count = None
+            
+            with open(file_path, 'r', encoding='utf-8') as cf:
+                reader = csv.reader(cf)
+                chapter_data = list(reader)
+            
+            for row in chapter_data:
+                if len(row) < 2:
+                    continue
+                    
+                if row[0] == "Token Count":
+                    try:
+                        token_count = int(row[1])
+                    except:
+                        token_count = 0
+                        
+                elif row[0] == "Main Location":
+                    try:
+                        main_location = ast.literal_eval(row[1])
+                    except:
+                        main_location = None
+                        
+                elif row[0] == "Main Character":
+                    try:
+                        main_character = ast.literal_eval(row[1])
+                    except:
+                        main_character = None
+                        
+                elif row[0] == "Emotions":
+                    try:
+                        emotion_data = ast.literal_eval(row[1])
+                    except:
+                        emotion_data = None
+                        
+                elif row[0] == "Tempi di analisi":
+                    try:
+                        processing_times = ast.literal_eval(row[1])
+                    except:
+                        processing_times = None
+            
+            # Se non abbiamo trovato un conteggio token, passiamo al prossimo capitolo
+            if not token_count:
+                logging.warning(f"Conteggio token non trovato per il capitolo {chapter_num}")
+                token_count = 0
+            
+            # Estrai metriche rilevanti con controlli di sicurezza
+            loc_confidence = main_location.get("confidence", 0) if main_location else 0
+            loc_score = main_location.get("priority_score", 0) if main_location else 0
+            char_score = main_character.get("priority_score", 0) if main_character else 0
+            
+            dominant_emotion = emotion_data.get("dominant_emotion", "unknown") if emotion_data else "unknown"
+            dominant_sentiment = emotion_data.get("dominant_sentiment", "unknown") if emotion_data else "unknown"
+            
+            spacy_time = processing_times.get("Analisi con spaCy", 0) if processing_times else 0
+            emotion_time = processing_times.get("Analisi emozioni", 0) if processing_times else 0
+            location_time = processing_times.get("Classificazione delle location", 0) if processing_times else 0
+            total_time = processing_times.get("Tempo totale", 0) if processing_times else 0
+            
+            # Calcola token per secondo
+            tokens_per_second = token_count / total_time if total_time > 0 else 0
+            
+            # Aggiungi dati alle metriche
+            metrics_data.append({
+                "chapter": chapter_num,
+                "token_count": token_count,
+                "tokens_per_second": tokens_per_second,
+                "total_time": total_time,
+                "spacy_time": spacy_time,
+                "emotion_time": emotion_time,
+                "location_time": location_time,
+                "loc_confidence": loc_confidence,
+                "loc_score": loc_score,
+                "char_score": char_score,
+                "dominant_emotion": dominant_emotion,
+                "dominant_sentiment": dominant_sentiment
+            })
+        except Exception as e:
+            logging.error(f"Errore nell'analisi del capitolo {chapter_file}: {e}")
     
     # Scrivi i dati nel file CSV
-    with open(metrics_file, 'w', newline='', encoding='utf-8') as f:
-        fieldnames = [
-            "chapter", "token_count", "tokens_per_second", "total_time", 
-            "spacy_time", "emotion_time", "location_time", 
-            "loc_confidence", "loc_score", "char_score",
-            "dominant_emotion", "dominant_sentiment"
-        ]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        
-        writer.writeheader()
-        for data in metrics_data:
-            writer.writerow(data)
-            
-    # Genera grafici (richiede matplotlib)
+    if not metrics_data:
+        logging.warning("Nessuna metrica trovata per generare il file token_metrics")
+        return None
+
     try:
-        generate_token_analysis_charts(metrics_data, book_name, output_dir)
+        with open(metrics_file, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ["chapter", "token_count", "tokens_per_second", "total_time", 
+                         "spacy_time", "emotion_time", "location_time", 
+                         "loc_confidence", "loc_score", "char_score", 
+                         "dominant_emotion", "dominant_sentiment"]
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            for data in metrics_data:
+                writer.writerow(data)
+        
+        print(f"File di metriche dei token generato: {metrics_file}")
+        
+        # Genera i grafici in modo indipendente
+        try:
+            generate_token_analysis_charts(metrics_data, output_dir, book_name)
+        except Exception as e:
+            logging.error(f"Errore nella generazione dei grafici: {e}")
+        
+        return metrics_file
     except Exception as e:
-        logging.error(f"Errore nella generazione dei grafici: {e}")
-        
-    return metrics_file
+        logging.error(f"Errore nella scrittura del file di metriche dei token: {e}")
+        return None
 
 
 
-
-def generate_token_analysis_charts(metrics_data, book_name, output_dir):
-    """
-    Genera grafici per l'analisi dei token.
-    Richiede matplotlib e pandas.
-    """
+def generate_token_analysis_charts(metrics_data, output_dir, book_name):
+    """Genera grafici per l'analisi dei token"""
+    if not metrics_data or len(metrics_data) == 0:
+        logging.warning("Nessun dato disponibile per generare grafici")
+        return
+    
     try:
-        import matplotlib.pyplot as plt
-        import pandas as pd
-        import numpy as np
+        # Estrai i dati dai dizionari per i grafici
+        chapters = [d.get("chapter", 0) for d in metrics_data]
+        token_counts = [d.get("token_count", 0) for d in metrics_data]
+        tokens_per_second = [d.get("tokens_per_second", 0) for d in metrics_data]
+        total_times = [d.get("total_time", 0) for d in metrics_data]
+        spacy_times = [d.get("spacy_time", 0) for d in metrics_data]
+        emotion_times = [d.get("emotion_time", 0) for d in metrics_data]
+        location_times = [d.get("location_time", 0) for d in metrics_data]
         
         # Converti i dati in DataFrame
         df = pd.DataFrame(metrics_data)
@@ -457,7 +462,7 @@ def generate_token_analysis_charts(metrics_data, book_name, output_dir):
 
 def evaluate_bert_location_classifier(test_data_file=None):
     """
-    Valuta l'accuratezza del modello BERT fine-tuned per le location.
+    Valuta l'accuratezza del modello BERT fine-tuned per le location con metriche ML standard.
     
     Args:
         test_data_file: Percorso al file di test. Se None, usa dati predefiniti.
@@ -563,13 +568,44 @@ def evaluate_bert_location_classifier(test_data_file=None):
     # Calcola l'accuratezza
     accuracy = correct / total if total > 0 else 0
     
+    # Prepara le liste per le metriche avanzate
+    y_true = [p["true_category"] for p in predictions]
+    y_pred = [p["predicted_category"] for p in predictions]
+    
+    # Import qui per evitare dipendenze non necessarie se la funzione non viene chiamata
+    from sklearn.metrics import precision_recall_fscore_support, classification_report
+    
+    # Calcola precision, recall, f1-score per ogni categoria
+    unique_categories = sorted(set(y_true + y_pred))
+    precision, recall, f1, support = precision_recall_fscore_support(
+        y_true, y_pred, average=None, 
+        labels=unique_categories
+    )
+    
+    # Calcola le metriche medie (weighted evita problemi con classi sbilanciate)
+    avg_precision, avg_recall, avg_f1, _ = precision_recall_fscore_support(
+        y_true, y_pred, average='weighted'
+    )
+    
+    # Genera un report dettagliato
+    report = classification_report(y_true, y_pred, output_dict=True)
+    
     # Organizza i risultati
     results = {
         "accuracy": accuracy,
         "correct": correct,
         "total": total,
         "predictions": predictions,
-        "confusion_matrix": confusion_matrix
+        "confusion_matrix": confusion_matrix,
+        "precision": precision.tolist(),
+        "recall": recall.tolist(),
+        "f1": f1.tolist(),
+        "support": support.tolist(),
+        "categories": unique_categories,
+        "weighted_precision": avg_precision,
+        "weighted_recall": avg_recall, 
+        "weighted_f1": avg_f1,
+        "classification_report": report
     }
     
     # Salva i risultati
@@ -581,7 +617,7 @@ def evaluate_bert_location_classifier(test_data_file=None):
     
     # Genera un grafico della matrice di confusione
     try:
-        generate_confusion_matrix_chart(confusion_matrix, f"bert_confusion_matrix_{timestamp}.png")
+        generate_confusion_matrix_chart(confusion_matrix, unique_categories, f"bert_confusion_matrix_{timestamp}.png")
     except Exception as e:
         logging.error(f"Errore nella generazione della matrice di confusione: {e}")
     
@@ -589,28 +625,18 @@ def evaluate_bert_location_classifier(test_data_file=None):
 
 
 
-
-def generate_confusion_matrix_chart(confusion_matrix, output_file):
+def generate_confusion_matrix_chart(confusion_matrix, categories, output_file):
     """
-    Genera un grafico della matrice di confusione.
+    Genera un grafico dettagliato della matrice di confusione.
+    
+    Args:
+        confusion_matrix: Dizionario a due livelli con conteggi
+        categories: Lista di tutte le categorie
+        output_file: Percorso dove salvare l'immagine
     """
     try:
-        import matplotlib.pyplot as plt
-        import numpy as np
-        import seaborn as sns
-        
-        # Estrai tutte le categorie
-        categories = set()
-        for true_cat in confusion_matrix:
-            categories.add(true_cat)
-            for pred_cat in confusion_matrix[true_cat]:
-                categories.add(pred_cat)
-        
-        categories = sorted(list(categories))
-        n_categories = len(categories)
-        
         # Crea la matrice
-        matrix = np.zeros((n_categories, n_categories))
+        matrix = np.zeros((len(categories), len(categories)))
         
         # Riempi la matrice
         for i, true_cat in enumerate(categories):
@@ -622,12 +648,29 @@ def generate_confusion_matrix_chart(confusion_matrix, output_file):
         # Normalizza per riga (true label)
         row_sums = matrix.sum(axis=1, keepdims=True)
         norm_matrix = np.zeros_like(matrix, dtype=float)
-        for i in range(n_categories):
+        for i in range(len(categories)):
             if row_sums[i] > 0:
                 norm_matrix[i] = matrix[i] / row_sums[i]
         
         # Crea il grafico
-        plt.figure(figsize=(12, 10))
+        plt.figure(figsize=(14, 12))
+        
+        # Heatmap con valori assoluti
+        plt.subplot(1, 2, 1)
+        sns.heatmap(
+            matrix, 
+            annot=True, 
+            fmt="d", 
+            xticklabels=categories, 
+            yticklabels=categories,
+            cmap="Blues"
+        )
+        plt.xlabel('Categoria predetta')
+        plt.ylabel('Categoria reale')
+        plt.title('Matrice di confusione (valori assoluti)')
+        
+        # Heatmap normalizzata
+        plt.subplot(1, 2, 2)
         sns.heatmap(
             norm_matrix, 
             annot=True, 
@@ -639,8 +682,9 @@ def generate_confusion_matrix_chart(confusion_matrix, output_file):
         plt.xlabel('Categoria predetta')
         plt.ylabel('Categoria reale')
         plt.title('Matrice di confusione normalizzata')
+        
         plt.tight_layout()
-        plt.savefig(output_file)
+        plt.savefig(output_file, dpi=300)
         plt.close()
         
         return True
@@ -650,12 +694,11 @@ def generate_confusion_matrix_chart(confusion_matrix, output_file):
 
 
 
-
 def analyze_context_consistency(book_name, output_dir):
     """
     Analizza la coerenza del contesto tra capitoli adiacenti.
     """
-    context_file = os.path.join(output_dir, f"context_metrics-{book_name}.csv")
+    metrics_file = os.path.join(output_dir, f"context_metrics-{book_name}.csv")
     chapter_files = []
     
     # Trova tutti i file di analisi dei capitoli
@@ -666,121 +709,143 @@ def analyze_context_consistency(book_name, output_dir):
     # Ordina i file per numero di capitolo
     chapter_files.sort(key=lambda x: int(x.split("capitolo")[1].split("-")[0]))
     
-    # Raccogliere dati per ogni capitolo
-    chapters_data = []
+    # Prepara i dati per il CSV
+    metrics_data = []
     
+    # Carica i dati di ogni capitolo
+    chapter_data_dict = {}
     for chapter_file in chapter_files:
-        chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
-        file_path = os.path.join(output_dir, chapter_file)
-        
-        main_location = None
-        main_character = None
-        dominant_emotion = None
-        
-        with open(file_path, 'r', encoding='utf-8') as cf:
-            reader = csv.reader(cf)
-            chapter_data = list(reader)
-        
-        for row in chapter_data:
-            if len(row) < 2:
-                continue
-                
-            if row[0] == "Main Location":
-                try:
-                    main_location = ast.literal_eval(row[1])
-                except:
-                    main_location = None
+        try:
+            chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
+            file_path = os.path.join(output_dir, chapter_file)
+            
+            # Carica le metriche di analisi
+            main_location = None
+            main_character = None
+            emotion_data = None
+            
+            with open(file_path, 'r', encoding='utf-8') as cf:
+                reader = csv.reader(cf)
+                content = list(reader)
+            
+            for row in content:
+                if len(row) < 2:
+                    continue
                     
-            elif row[0] == "Main Character":
-                try:
-                    main_character = ast.literal_eval(row[1])
-                except:
-                    main_character = None
-                    
-            elif row[0] == "Emotions":
-                try:
-                    emotions = ast.literal_eval(row[1])
-                    dominant_emotion = emotions.get("dominant_emotion", None)
-                except:
-                    dominant_emotion = None
-        
-        chapters_data.append({
-            "chapter": chapter_num,
-            "location": main_location.get("name") if main_location else None,
-            "location_category": main_location.get("category") if main_location else None,
-            "character": main_character.get("name") if main_character else None,
-            "emotion": dominant_emotion
-        })
+                if row[0] == "Main Location":
+                    try:
+                        main_location = ast.literal_eval(row[1])
+                    except:
+                        main_location = {"name": "unknown", "category": "unknown"}
+                        
+                elif row[0] == "Main Character":
+                    try:
+                        main_character = ast.literal_eval(row[1])
+                    except:
+                        main_character = {"name": "unknown"}
+                        
+                elif row[0] == "Emotions":
+                    try:
+                        emotion_data = ast.literal_eval(row[1])
+                    except:
+                        emotion_data = {"dominant_emotion": "unknown"}
+            
+            # Salva i dati del capitolo
+            chapter_data_dict[chapter_num] = {
+                "location": main_location.get("name") if main_location else "unknown",
+                "location_category": main_location.get("category") if main_location else "unknown",
+                "character": main_character.get("name") if main_character else "unknown",
+                "emotion": emotion_data.get("dominant_emotion") if emotion_data else "unknown"
+            }
+        except Exception as e:
+            logging.error(f"Errore nell'analisi del capitolo {chapter_file}: {e}")
     
-    # Analizza la coerenza tra capitoli adiacenti
-    context_metrics = []
+    # Calcola le metriche di coerenza tra capitoli adiacenti
+    chapter_nums = sorted(chapter_data_dict.keys())
     
-    for i in range(1, len(chapters_data)):
-        prev_chapter = chapters_data[i-1]
-        curr_chapter = chapters_data[i]
+    for i in range(len(chapter_nums) - 1):
+        prev_chapter = chapter_nums[i]
+        curr_chapter = chapter_nums[i + 1]
         
-        # Calcola metriche di coerenza
-        location_continuity = prev_chapter["location"] == curr_chapter["location"]
-        location_category_continuity = prev_chapter["location_category"] == curr_chapter["location_category"]
-        character_continuity = prev_chapter["character"] == curr_chapter["character"]
-        emotion_continuity = prev_chapter["emotion"] == curr_chapter["emotion"]
-        
-        # Calcola un punteggio complessivo di coerenza
-        coherence_score = (
-            (1 if location_continuity else 0) + 
-            (0.5 if location_category_continuity and not location_continuity else 0) +
-            (1 if character_continuity else 0) + 
-            (0.5 if emotion_continuity else 0)
-        ) / 3.0  # Normalizza a 0-1
-        
-        context_metrics.append({
-            "prev_chapter": prev_chapter["chapter"],
-            "curr_chapter": curr_chapter["chapter"],
-            "location_continuity": location_continuity,
-            "location_category_continuity": location_category_continuity,
-            "character_continuity": character_continuity,
-            "emotion_continuity": emotion_continuity,
-            "coherence_score": coherence_score
-        })
+        try:
+            prev_data = chapter_data_dict[prev_chapter]
+            curr_data = chapter_data_dict[curr_chapter]
+            
+            # Calcola la continuità
+            location_continuity = 1.0 if prev_data["location"] == curr_data["location"] else 0.0
+            location_category_continuity = 1.0 if prev_data["location_category"] == curr_data["location_category"] else 0.0
+            character_continuity = 1.0 if prev_data["character"] == curr_data["character"] else 0.0
+            emotion_continuity = 1.0 if prev_data["emotion"] == curr_data["emotion"] else 0.0
+            
+            # Calcola un punteggio di coerenza complessivo
+            coherence_score = (location_continuity * 0.4 + 
+                              location_category_continuity * 0.2 + 
+                              character_continuity * 0.3 + 
+                              emotion_continuity * 0.1)
+            
+            # Aggiungi i dati alle metriche
+            metrics_data.append({
+                "prev_chapter": prev_chapter,
+                "curr_chapter": curr_chapter,
+                "location_continuity": location_continuity,
+                "location_category_continuity": location_category_continuity,
+                "character_continuity": character_continuity,
+                "emotion_continuity": emotion_continuity,
+                "coherence_score": coherence_score
+            })
+        except KeyError:
+            logging.error(f"Dati mancanti per i capitoli {prev_chapter} o {curr_chapter}")
     
-    # Salva le metriche di contesto
-    with open(context_file, 'w', newline='', encoding='utf-8') as f:
-        fieldnames = [
-            "prev_chapter", "curr_chapter", 
-            "location_continuity", "location_category_continuity", 
-            "character_continuity", "emotion_continuity",
-            "coherence_score"
-        ]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        
-        writer.writeheader()
-        for data in context_metrics:
-            writer.writerow(data)
-    
-    # Genera grafici di coerenza del contesto
+    # Scrivi i dati nel file CSV
+    if not metrics_data:
+        logging.warning("Nessuna metrica di contesto trovata da generare")
+        return None
+
     try:
-        generate_context_charts(context_metrics, chapters_data, book_name, output_dir)
+        with open(metrics_file, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ["prev_chapter", "curr_chapter", "location_continuity", 
+                        "location_category_continuity", "character_continuity", 
+                        "emotion_continuity", "coherence_score"]
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            for data in metrics_data:
+                writer.writerow(data)
+        
+        print(f"File di metriche di contesto generato: {metrics_file}")
+        
+        # Genera i grafici in modo indipendente
+        try:
+            generate_context_charts(metrics_data, chapter_data_dict, output_dir, book_name)
+        except Exception as e:
+            logging.error(f"Errore nella generazione dei grafici di contesto: {e}")
+        
+        return metrics_file
     except Exception as e:
-        logging.error(f"Errore nella generazione dei grafici di contesto: {e}")
-    
-    return context_file
+        logging.error(f"Errore nella scrittura del file di metriche di contesto: {e}")
+        return None
 
 
 
-
-def generate_context_charts(context_metrics, chapters_data, book_name, output_dir):
-    """
-    Genera grafici per visualizzare la coerenza del contesto.
-    """
+def generate_context_charts(metrics_data, chapter_data_dict, output_dir, book_name):
+    """Genera grafici per l'analisi della coerenza del contesto"""
+    if not metrics_data or len(metrics_data) == 0:
+        logging.warning("Nessun dato disponibile per generare grafici di contesto")
+        return
+        
     try:
-        import matplotlib.pyplot as plt
-        import pandas as pd
-        import networkx as nx
+        # Estrai i dati dai dizionari per i grafici
+        prev_chapters = [d.get("prev_chapter", 0) for d in metrics_data]
+        curr_chapters = [d.get("curr_chapter", 0) for d in metrics_data]
+        coherence_scores = [d.get("coherence_score", 0) for d in metrics_data]
         
         # Converti i dati in DataFrame
-        df_metrics = pd.DataFrame(context_metrics)
-        df_chapters = pd.DataFrame(chapters_data)
+        df_metrics = pd.DataFrame(metrics_data)
         
+        # Verifica che chapter_data_dict sia un dizionario e non una lista di dizionari
+        if not isinstance(chapter_data_dict, dict):
+            logging.error("chapter_data_dict non è un dizionario")
+            return False
+            
         # 1. Grafico: Punteggi di coerenza tra capitoli
         plt.figure(figsize=(14, 6))
         plt.plot(df_metrics['curr_chapter'], df_metrics['coherence_score'], marker='o', linestyle='-')
@@ -799,29 +864,33 @@ def generate_context_charts(context_metrics, chapters_data, book_name, output_di
         
         # Aggiungi i nodi per ogni luogo
         locations = {}
-        for chapter in chapters_data:
-            loc = chapter.get("location")
-            if loc:
-                if loc not in locations:
-                    locations[loc] = 0
-                locations[loc] += 1
-                G.add_node(loc)
+        for chapter_num, chapter_data in chapter_data_dict.items():
+            loc = chapter_data.get("location", "unknown")
+            if loc not in locations:
+                locations[loc] = 0
+            locations[loc] += 1
+            G.add_node(loc)
         
         # Aggiungi gli archi per le transizioni
-        for i in range(1, len(chapters_data)):
-            prev_loc = chapters_data[i-1].get("location")
-            curr_loc = chapters_data[i].get("location")
-            if prev_loc and curr_loc and prev_loc != curr_loc:
+        chapters = sorted(chapter_data_dict.keys())
+        for i in range(1, len(chapters)):
+            prev_chapter = chapters[i-1]
+            curr_chapter = chapters[i]
+            
+            prev_loc = chapter_data_dict[prev_chapter].get("location", "unknown")
+            curr_loc = chapter_data_dict[curr_chapter].get("location", "unknown")
+            
+            if prev_loc != curr_loc:
                 if G.has_edge(prev_loc, curr_loc):
                     G[prev_loc][curr_loc]["weight"] += 1
                 else:
                     G.add_edge(prev_loc, curr_loc, weight=1)
         
         # Determina le dimensioni dei nodi in base alla frequenza
-        node_sizes = [locations[loc]*100 for loc in G.nodes()]
+        node_sizes = [locations.get(loc, 1)*100 for loc in G.nodes()]
         
         # Determina le larghezze degli archi in base al peso
-        edge_weights = [G[u][v]["weight"] for u, v in G.edges()]
+        edge_weights = [G[u][v].get("weight", 1) for u, v in G.edges()]
         
         # Layout della rete
         pos = nx.spring_layout(G, seed=42)
@@ -862,7 +931,6 @@ def generate_context_charts(context_metrics, chapters_data, book_name, output_di
     except Exception as e:
         logging.error(f"Errore nella generazione dei grafici di contesto: {e}")
         return False
-
 
 
 
