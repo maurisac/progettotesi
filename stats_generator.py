@@ -14,6 +14,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import random
 try:
     import networkx as nx
 except ImportError:
@@ -35,20 +36,60 @@ logging.basicConfig(
 # Costanti
 PAGE_SIZE = 3300  # Deve essere lo stesso della GUI e di analysis.py
 
-# Configurazione dei pesi per la scelta del luogo principale (copiata da analysis.py)
+## Configurazione dei pesi per la scelta del luogo principale
 LOCATION_WEIGHTS = {
-    "occurrence": 0.3,    # Peso per il numero di occorrenze
-    "confidence": 10,     # Peso per la confidenza di BERT
-    "early_appearance": 3,  # Peso per l'apparizione all'inizio
-    "spacy_loc_bonus": 0.2   # Bonus se riconosciuto come LOC da spaCy
+    "occurrence": 0.0223,    # Peso per il numero di occorrenze
+    "confidence": 0.7407,    # Peso per la confidenza di BERT
+    "early_appearance": 0.2222,  # Peso per l'apparizione all'inizio
+    "spacy_loc_bonus": 0.0148   # Bonus se riconosciuto come LOC da spaCy
 }
 
 # Configurazione dei pesi per la scelta del personaggio principale
 CHARACTER_WEIGHTS = {
-    "occurrence": 1,       # Peso per il numero di occorrenze
-    "early_appearance": 2, # Peso per l'apparizione all'inizio
-    "spacy_per_bonus": 0.5 # Bonus se riconosciuto come PER da spaCy
+    "occurrence": 0.2857,    # Peso per il numero di occorrenze
+    "early_appearance": 0.5714,  # Peso per l'apparizione all'inizio
+    "spacy_per_bonus": 0.1428 # Bonus se riconosciuto come PER da spaCy
 }
+
+
+
+
+
+
+
+
+
+
+
+
+def select_random_chapters(chapter_files, book_name, num_chapters=3, seed=None):
+    """
+    Seleziona un numero specificato di capitoli in modo casuale ma consistente.
+    
+    Args:
+        chapter_files: Lista di tutti i file dei capitoli
+        book_name: Nome del libro (usato per generare un seed consistente)
+        num_chapters: Numero di capitoli da selezionare (default: 3)
+        seed: Seed opzionale per il generatore casuale
+        
+    Returns:
+        Lista dei file di capitoli selezionati casualmente
+    """
+    if len(chapter_files) <= num_chapters:
+        return chapter_files  # Se ci sono meno capitoli del richiesto, restituisci tutti
+    
+    # Crea un seed consistente basato sul nome del libro
+    if seed is None:
+        # Usa una funzione hash semplice sul nome del libro come seed
+        seed = sum(ord(c) for c in book_name)
+    
+    # Imposta il seed per la riproducibilità
+    random_state = random.Random(seed)
+    
+    # Selezione casuale senza ripetizione
+    return random_state.sample(chapter_files, num_chapters)
+
+
 
 
 
@@ -83,9 +124,15 @@ def count_tokens_from_csv(file_path):
 
 
 
-def generate_stats_file(book_name, output_dir):
+def generate_stats_file(book_name, output_dir, random_selection=True, num_chapters=3, seed=None):
     """
     Genera un file CSV di statistiche aggregando i dati dei capitoli analizzati.
+    
+    Args:
+        book_name: Nome del libro
+        output_dir: Directory con i file di analisi
+        random_selection: Se True, seleziona capitoli random
+        num_chapters: Numero di capitoli da selezionare casualmente
     """
     stats_file = os.path.join(output_dir, f"stats-{book_name}.csv")
     chapter_files = []
@@ -102,6 +149,18 @@ def generate_stats_file(book_name, output_dir):
     # Ordina i file per numero di capitolo
     chapter_files.sort(key=lambda x: int(x.split("capitolo")[1].split("-")[0]))
     
+    # Selezione casuale se richiesto
+    if random_selection and len(chapter_files) > num_chapters:
+        selected_chapters = select_random_chapters(chapter_files, book_name, num_chapters, seed)
+        print(f"Selezionati {len(selected_chapters)} capitoli casuali su {len(chapter_files)} disponibili:")
+        for file in selected_chapters:
+            chapter_num = int(file.split("capitolo")[1].split("-")[0])
+            print(f"  - Capitolo {chapter_num}")
+    else:
+        selected_chapters = chapter_files
+        if random_selection:
+            print(f"Utilizzati tutti i {len(selected_chapters)} capitoli disponibili (meno di {num_chapters} richiesti)")
+
     try:
         # Crea il file di statistiche
         with open(stats_file, "w", newline='', encoding="utf-8") as f:
@@ -221,7 +280,7 @@ def count_tokens(text):
 
 
 # In analyze_token_metrics()
-def analyze_token_metrics(book_name, output_dir):
+def analyze_token_metrics(book_name, output_dir, random_selection=True, num_chapters=3, seed=None):
     """
     Analizza la correlazione tra numero di token e qualità dell'analisi.
     """
@@ -236,10 +295,22 @@ def analyze_token_metrics(book_name, output_dir):
     # Ordina i file per numero di capitolo
     chapter_files.sort(key=lambda x: int(x.split("capitolo")[1].split("-")[0]))
     
+    # Selezione casuale se richiesto
+    if random_selection and len(chapter_files) > num_chapters:
+        selected_chapters = select_random_chapters(chapter_files, book_name, num_chapters, seed)
+        print(f"Selezionati {len(selected_chapters)} capitoli casuali su {len(chapter_files)} disponibili:")
+        for file in selected_chapters:
+            chapter_num = int(file.split("capitolo")[1].split("-")[0])
+            print(f"  - Capitolo {chapter_num}")
+    else:
+        selected_chapters = chapter_files
+        if random_selection:
+            print(f"Utilizzati tutti i {len(selected_chapters)} capitoli disponibili (meno di {num_chapters} richiesti)")
+
     # Prepara i dati per il CSV
     metrics_data = []
     
-    for chapter_file in chapter_files:
+    for chapter_file in selected_chapters:
         try:
             chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
             file_path = os.path.join(output_dir, chapter_file)
@@ -694,7 +765,8 @@ def generate_confusion_matrix_chart(confusion_matrix, categories, output_file):
 
 
 
-def analyze_context_consistency(book_name, output_dir):
+# In analyze_context_consistency()
+def analyze_context_consistency(book_name, output_dir, random_selection=True, num_chapters=3, seed=None):
     """
     Analizza la coerenza del contesto tra capitoli adiacenti.
     """
@@ -709,12 +781,24 @@ def analyze_context_consistency(book_name, output_dir):
     # Ordina i file per numero di capitolo
     chapter_files.sort(key=lambda x: int(x.split("capitolo")[1].split("-")[0]))
     
+    # Selezione casuale se richiesto
+    if random_selection and len(chapter_files) > num_chapters:
+        selected_chapters = select_random_chapters(chapter_files, book_name, num_chapters, seed)
+        print(f"Selezionati {len(selected_chapters)} capitoli casuali su {len(chapter_files)} disponibili:")
+        for file in selected_chapters:
+            chapter_num = int(file.split("capitolo")[1].split("-")[0])
+            print(f"  - Capitolo {chapter_num}")
+    else:
+        selected_chapters = chapter_files
+        if random_selection:
+            print(f"Utilizzati tutti i {len(selected_chapters)} capitoli disponibili (meno di {num_chapters} richiesti)")
+    
     # Prepara i dati per il CSV
     metrics_data = []
     
     # Carica i dati di ogni capitolo
     chapter_data_dict = {}
-    for chapter_file in chapter_files:
+    for chapter_file in selected_chapters:
         try:
             chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
             file_path = os.path.join(output_dir, chapter_file)
@@ -948,23 +1032,33 @@ def main():
                         help="Valuta l'accuratezza del modello BERT per luoghi")
     parser.add_argument("--test-data", type=str,
                         help="File JSON con dati di test per BERT")
+    parser.add_argument("--random-chapters", type=int, default=3,
+                        help="Numero di capitoli da selezionare casualmente (0 = tutti)")
     
     args = parser.parse_args()
     
-    print(f"Generazione statistiche per '{args.book}' in {args.dir}")
+    random_selection = args.random_chapters > 0
+    num_chapters = args.random_chapters if random_selection else len(os.listdir(args.dir))
+    
+    # Genera un seed consistente basato sul nome del libro
+    if random_selection:
+        seed = sum(ord(c) for c in args.book)
+        print(f"Modalità selezione casuale: {num_chapters} capitoli (seed: {seed})")
+    else:
+        seed = None
     
     try:
         # Genera il file di statistiche
         print("\n1. Generazione file di statistiche...")
-        stats_file = generate_stats_file(args.book, args.dir)
+        stats_file = generate_stats_file(args.book, args.dir, random_selection, num_chapters, seed)
         
         # Analizza le metriche dei token
         print("\n2. Analisi delle metriche dei token...")
-        token_metrics_file = analyze_token_metrics(args.book, args.dir)
+        token_metrics_file = analyze_token_metrics(args.book, args.dir, random_selection, num_chapters, seed)
         
         # Analizza la coerenza del contesto
         print("\n3. Analisi della coerenza del contesto tra capitoli...")
-        context_metrics_file = analyze_context_consistency(args.book, args.dir)
+        context_metrics_file = analyze_context_consistency(args.book, args.dir, random_selection, num_chapters, seed)
         
         # Valuta il modello BERT se richiesto
         if args.evaluate_bert:
