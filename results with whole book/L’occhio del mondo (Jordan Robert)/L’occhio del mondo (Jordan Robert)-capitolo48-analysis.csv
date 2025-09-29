@@ -1,0 +1,658 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:34:36
+Entities,"{
+  ('Rand', 'MISC'): 40,
+  ('Custode', 'LOC'): 18,
+  ('Nynaeve', 'PER'): 16,
+  ('Egwene', 'PER'): 16,
+  ('Perrin', 'PER'): 16,
+  ('Lan', 'MISC'): 14,
+  ('Macchia', 'LOC'): 14,
+  ('Mat', 'MISC'): 14,
+  ('Moiraine', 'PER'): 10,
+  ('Loial', 'LOC'): 7,
+  ('Ingtar', 'PER'): 6,
+  ('Aes Sedai', 'LOC'): 6,
+  ('passo di Tarwin', 'LOC'): 4,
+  ('Shienar', 'LOC'): 4,
+  ('Confine', 'LOC'): 3,
+  ('Aes Sedai', 'PER'): 3,
+  ('Fal Dara', 'LOC'): 3,
+  ('Tenebroso', 'PER'): 3,
+  ('Sapiente', 'MISC'): 3,
+  ('Moiraine Sedai', 'PER'): 2,
+  ('Dai Shan', 'LOC'): 2,
+  ('Trolloc', 'ORG'): 2,
+  ('Ogier', 'PER'): 2,
+  ('Palude', 'LOC'): 2,
+  ('Custode', 'PER'): 2,
+  ('Macchia', 'PER'): 2,
+  ('Oh', 'PER'): 2,
+  ('Mat', 'PER'): 2,
+  ('La Macchia', 'LOC'): 1,
+  ('lord Agelmar', 'PER'): 1,
+  ('Trolloc', 'LOC'): 1,
+  ('Gufo 
+Grigio', 'LOC'): 1,
+  ('Guardie della Regina', 'PER'): 1,
+  ('Shienar', 'PER'): 1,
+  ('Malkier', 'MISC'): 1,
+  ('Costruttore', 'LOC'): 1,
+  ('Agelmar e io» rispose Moiraine', 'MISC'): 1,
+  ('Scortarvi', 'PER'): 1,
+  ('Agelmar', 'PER'): 1,
+  ('Disegno» disse Moiraine', 'MISC'): 1,
+  ('Sei davvero tanto ansioso?» domandò', 'MISC'): 1,
+  ('La ragione della mia esistenza', 'MISC'): 1,
+  ('Suravye', 'PER'): 1,
+  ('Pace', 'MISC'): 1,
+  ('Procedettero', 'LOC'): 1,
+  ('Pace?', 'MISC'): 1,
+  ('Lord Agelmar', 'PER'): 1,
+  ('Tre Volpi', 'PER'): 1,
+  ('Falco Nero', 'ORG'): 1,
+  ('Agelmar in testa', 'MISC'): 1,
+  ('Fal 
+Moran', 'LOC'): 1,
+  ('re Easar', 'PER'): 1,
+  ('Ankor Dail', 'PER'): 1,
+  ('Marche', 'LOC'): 1,
+  ('Orientali', 'LOC'): 1,
+  ('Dorsale del Mondo', 'MISC'): 1,
+  ('Mos Shirare', 'PER'): 1,
+  ('Fal Sion', 'LOC'): 1,
+  ('Camron Caan', 'PER'): 1,
+  ('Porta Reale', 'LOC'): 1,
+  ('Fal Moran', 'LOC'): 1,
+  ('Porta Malkier', 'LOC'): 1,
+  ('Gufo Grigio di Ingtar', 'LOC'): 1,
+  ('Dovete perdonarmi» disse', 'MISC'): 1,
+  ('Stedding Shangtai', 'MISC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Waterwood', 'LOC'): 1,
+  ('Stecco', 'LOC'): 1,
+  ('Stecco', 'PER'): 1,
+  ('Dhoom', 'LOC'): 1,
+  ('Stecchi', 'ORG'): 1,
+  ('Miglio', 'LOC'): 1,
+  ('Mat vomitò', 'MISC'): 1,
+  ('Che schifo!', 'MISC'): 1,
+  ('Nemmeno il Tenebroso', 'PER'): 1,
+  ('Accarezzava', 'LOC'): 1,
+  ('Lontano', 'LOC'): 1,
+  ('Montagne di Nebbia', 'LOC'): 1,
+  ('Occhio del Mondo', 'PER'): 1,
+  ('Montagne di Dhoom', 'LOC'): 1,
+  ('Parli', 'LOC'): 1,
+  ('Occhio', 'LOC'): 1,
+  ('Aes 
+Sedai', 'LOC'): 1,
+  ('Mai due Ogier', 'PER'): 1,
+  ('Uomo Verde', 'PER'): 1,
+  ('vespa', 'PER'): 1,
+  ('Pensandoci meglio» disse debolmente', 'MISC'): 1,
+  ('Disporrò', 'LOC'): 1,
+  ('Ombra', 'LOC'): 1,
+  ('Sei davvero sciocco', 'MISC'): 1,
+  ('Matrim Cauthon', 'MISC'): 1,
+  ('Bela', 'PER'): 1,
+  ('Mise', 'PER'): 1,
+  ('Pastori!» borbottò Lan', 'MISC'): 1,
+  ('Unico Potere', 'MISC'): 1,
+  ('Potere', 'LOC'): 1,
+  ('Tar Valon', 'PER'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Sapiente', 'PER'): 1,
+  ('Sulle guance', 'MISC'): 1,
+  ('Staremo', 'LOC'): 1,
+  ('«Vedi', 'PER'): 1,
+  ('Imbarazzato', 'LOC'): 1,
+  ('«', 'PER'): 1,
+  ('Tar Valon?', 'MISC'): 1,
+  ('Tar Valon» disse Moiraine', 'MISC'): 1,
+  ('Mi piacerebbe» dichiarò', 'MISC'): 1,
+  ('Min', 'PER'): 1,
+  ('«Avrei', 'PER'): 1,
+  ('Le Sapienti', 'MISC'): 1,
+  ('Tar Valon', 'LOC'): 1,
+  ('Sapienti', 'LOC'): 1,
+  ('Ti ho detto', 'MISC'): 1,
+  ('Luce santa', 'MISC'): 1,
+  ('Odierò', 'MISC'): 1,
+  ('Posò a terra', 'MISC'): 1,
+  ('Sonno', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 40,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [469, 2114, 3365, 3500, 4878, 5124, 8025, 8258, 8555, 8886, 9674, 10209, 10964, 12106, 12474, 12989, 13211, 13685, 14036, 14574, 14819, 16029, 16951, 18034, 19130, 19473, 19772, 20427, 20555, 20899, 21984, 22589, 22620, 23144, 23267, 23709, 24310, 24727, 25092, 26772]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 14,
+    'priority_score': 0.9707049999999999,
+    'early_appearance': True,
+    'positions': [60, 3425, 3506, 4114, 4260, 4744, 11168, 15042, 15967, 16265, 19527, 20828, 24779, 25054]
+  },
+  'Marche': {
+    'category': 'paese',
+    'confidence': 0.4536382555961609,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7486575,
+    'early_appearance': False,
+    'positions': [6150]
+  },
+  'Porta Reale': {
+    'category': 'castello',
+    'confidence': 0.10136224329471588,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7486575,
+    'early_appearance': False,
+    'positions': [6470]
+  },
+  'Miglio': {
+    'category': 'paese',
+    'confidence': 0.28135573863983154,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7486575,
+    'early_appearance': False,
+    'positions': [11627]
+  },
+  'Parli': {
+    'category': 'paese',
+    'confidence': 0.2916105389595032,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7486575,
+    'early_appearance': False,
+    'positions': [15577]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7486575,
+    'early_appearance': False,
+    'positions': [18635]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.741815,
+    'early_appearance': False,
+    'positions': [3494, 3554, 5189, 8964, 12396, 17385, 18327, 18727, 18810, 18987, 19224, 20234, 20444, 20611, 22931, 22986]
+  },
+  'Pace': {
+    'category': 'paese',
+    'confidence': 0.3845178782939911,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7412575,
+    'early_appearance': False,
+    'positions': [4332]
+  },
+  'Occhio del Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7412575,
+    'early_appearance': False,
+    'positions': [15353]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 18,
+    'priority_score': 0.239635,
+    'early_appearance': True,
+    'positions': [104, 4130, 4869, 7939, 10123, 10415, 13625, 15096, 15213, 16532, 17155, 19667, 19806, 20532, 23617, 23682, 24595, 25017, 25119, 26391]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 14,
+    'priority_score': 0.237405,
+    'early_appearance': True,
+    'positions': [2391, 3195, 3435, 8083, 8724, 10552, 10944, 11080, 11258, 11311, 11673, 13450, 16017, 16223, 21557, 24141]
+  },
+  'passo di Tarwin': {
+    'category': 'non_luogo',
+    'confidence': 0.17858418822288513,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [1995, 3022, 6387, 7599]
+  },
+  'Shienar': {
+    'category': 'non_luogo',
+    'confidence': 0.2666455805301666,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [532, 2314, 2552, 6281, 8217]
+  },
+  'Confine': {
+    'category': 'non_luogo',
+    'confidence': 0.2572762966156006,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.2312725,
+    'early_appearance': True,
+    'positions': [201, 1409, 2249]
+  },
+  'Dai Shan': {
+    'category': 'non_luogo',
+    'confidence': 0.2767140865325928,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.230715,
+    'early_appearance': True,
+    'positions': [2663, 4318]
+  },
+  'La Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.16217203438282013,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2301575,
+    'early_appearance': True,
+    'positions': [6]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2301575,
+    'early_appearance': True,
+    'positions': [261, 3970, 4045]
+  },
+  'Gufo 
+Grigio': {
+    'category': 'non_luogo',
+    'confidence': 0.21223165094852448,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2301575,
+    'early_appearance': True,
+    'positions': [337]
+  },
+  'Costruttore': {
+    'category': 'non_luogo',
+    'confidence': 0.1937243640422821,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2301575,
+    'early_appearance': True,
+    'positions': [2673]
+  },
+  'Loial': {
+    'category': 'non_luogo',
+    'confidence': 0.2856883406639099,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.0113025,
+    'early_appearance': False,
+    'positions': [9288, 13127, 15687, 19618, 20865, 23915, 24476]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.010745000000000001,
+    'early_appearance': False,
+    'positions': [2883, 3324, 3825, 12958, 21361, 22430, 23639, 24354, 25721]
+  },
+  'Fal Dara': {
+    'category': 'non_luogo',
+    'confidence': 0.2897796332836151,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0090725,
+    'early_appearance': False,
+    'positions': [5247, 5796, 7617]
+  },
+  'Palude': {
+    'category': 'non_luogo',
+    'confidence': 0.2013498991727829,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.008515,
+    'early_appearance': False,
+    'positions': [9704, 10039]
+  },
+  'Procedettero': {
+    'category': 'non_luogo',
+    'confidence': 0.17491205036640167,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [4452]
+  },
+  'Fal 
+Moran': {
+    'category': 'non_luogo',
+    'confidence': 0.3576582968235016,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [6054]
+  },
+  'Orientali': {
+    'category': 'non_luogo',
+    'confidence': 0.2219441682100296,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [6158]
+  },
+  'Fal Sion': {
+    'category': 'non_luogo',
+    'confidence': 0.23883752524852753,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [6224]
+  },
+  'Fal Moran': {
+    'category': 'non_luogo',
+    'confidence': 0.3576582968235016,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [6510]
+  },
+  'Porta Malkier': {
+    'category': 'non_luogo',
+    'confidence': 0.1730434149503708,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [7340]
+  },
+  'Gufo Grigio di Ingtar': {
+    'category': 'non_luogo',
+    'confidence': 0.21445243060588837,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [7678]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [9735]
+  },
+  'Waterwood': {
+    'category': 'non_luogo',
+    'confidence': 0.21882008016109467,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [9985]
+  },
+  'Stecco': {
+    'category': 'non_luogo',
+    'confidence': 0.2637770473957062,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [10651, 10884]
+  },
+  'Dhoom': {
+    'category': 'non_luogo',
+    'confidence': 0.2886677384376526,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [11478]
+  },
+  'Accarezzava': {
+    'category': 'non_luogo',
+    'confidence': 0.27087241411209106,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [13910]
+  },
+  'Lontano': {
+    'category': 'non_luogo',
+    'confidence': 0.2591595947742462,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [14191]
+  },
+  'Montagne di Nebbia': {
+    'category': 'non_luogo',
+    'confidence': 0.13110803067684174,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [14256]
+  },
+  'Montagne di Dhoom': {
+    'category': 'non_luogo',
+    'confidence': 0.16567382216453552,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [15461]
+  },
+  'Occhio': {
+    'category': 'non_luogo',
+    'confidence': 0.12972672283649445,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [15593]
+  },
+  'Aes 
+Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [15669]
+  },
+  'Disporrò': {
+    'category': 'non_luogo',
+    'confidence': 0.2982959747314453,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [18373]
+  },
+  'Potere': {
+    'category': 'non_luogo',
+    'confidence': 0.15005744993686676,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [21816]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [7727, 12899, 13032, 15198, 15426, 18417, 20792, 21788, 22277, 22510, 24057]
+  },
+  'Staremo': {
+    'category': 'non_luogo',
+    'confidence': 0.2711558938026428,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [22962]
+  },
+  'Imbarazzato': {
+    'category': 'non_luogo',
+    'confidence': 0.31024911999702454,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [23274]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [22195, 25668]
+  },
+  'Sapienti': {
+    'category': 'non_luogo',
+    'confidence': 0.2820952534675598,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [25704]
+  },
+  'Sonno': {
+    'category': 'non_luogo',
+    'confidence': 0.1663087010383606,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.007957500000000001,
+    'early_appearance': False,
+    'positions': [26760]
+  },
+}"
+Main Location,"{
+  'name': 'Rand',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.32787010073661804,
+  'count': 40,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Ingtar',
+  'count': 6,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.8213375,
+}"
+Emotions,"{'emotion_counts': {'sadness': 41, 'joy': 35, 'fear': 11, 'anger': 5}, 'sentiment_counts': {'negative': 58, 'positive': 34}, 'emotion_percentages': {'sadness': 44.565217391304344, 'joy': 38.04347826086957, 'fear': 11.956521739130435, 'anger': 5.434782608695652}, 'sentiment_percentages': {'negative': 63.04347826086957, 'positive': 36.95652173913043}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 3.4978036880493164, 'Riconoscimento entità con spaCy': 0.0029997825622558594, 'Analisi emozioni': 21.328524827957153, 'Classificazione delle location': 33.643213748931885, 'Tempo totale': 58.47454214096069}"
+Original Text Extract,"48 
+ 
+La Macchia 
+ 
+ 
+ 
+ 
+ 
+Il vento agitava il mantello di Lan, rendendo a volte difficile scorgere il Custode anche in pieno sole, 
+ma Ingtar e i cento soldati, mandati da lord Agelmar a scortare al Confine lui e i suoi compagni, nel 
+caso s’imbattessero nei Trolloc, erano un vero spettacolo, in doppia fila dietro il vessillo con il Gufo 
+Grigio, con armature e bandiere rosse e cavalli con protezioni d’acciaio. Erano sfarzosi come cento 
+Guardie della Regina, ma Rand aveva avuto tutta la mattina per ammirare i soldati dello Shienar e in 
+quel momento osservava le torri appena visibili più avanti.  
+Ogni torre sorgeva in cima a un colle, a mezzo miglio dalla più vicina. A ponente e a levante ne 
+sorgevano altre, e altre ancora più lontano. Intorno a ogni torre correva a spirale una larga rampa 
+munita di muretto di protezione, che dopo un giro completo arrivava alla massiccia porta a metà altezza 
+dalla cima merlata. Il muretto proteggeva un’eventuale sortita della guarnigione; ma i nemici, per 
+raggiungere la porta, dovevano salire sotto una grandinata di frecce e di pietre e d’olio bollente 
+contenuto in calderoni disposti lungo i bastioni sporgenti. Un grande specchio metallico, ora abbassato, 
+scintillava in cima a ogni torre, sotto la grande coppa di ferro dove, in mancanza del sole, si 
+accendevano fuochi di segnalazione. I segnali erano trasmessi ad altre torri più distanti dal Confine, e 
+poi ad altre, fino alle fortezze dell’interno, che avrebbero mandato soldati a respingere l’incursione.  
+Questo, in tempi normali.  
+Dalla sommità delle due torri più vicine alcuni uomini osservavano l’arrivo del gruppo. Erano pochi 
+uomini per torre e scrutavano, incuriositi, dalle saettiere. In tempi migliori degli attuali, le torri avevano 
+solo il personale necessario alla propria difesa e per sopravvivere contavano più sulla solidità delle 
+mura che sulla robustezza delle braccia; ma ora ogni uomo non indispensabile, e anche qualcuno di più, 
+cavalcava verso il passo di Tarwin. Se i soldati non fossero riusciti a bloccarlo, la caduta delle torri non 
+avrebbe avuto importanza.  
+Rand provò un brivido, mentre passavano fra le due torri. Gli parve quasi di attraversare una parete 
+d’aria più fredda. Questo era il Confine. Al di là, il terreno non pareva diverso da quello dello Shienar; 
+ma laggiù, da qualche parte al di là degli alberi spogli, c’era la Macchia.  
+Ingtar alzò il pugno per fermare i soldati a breve distanza da una semplice colonnina in vista delle 
+torri, una pietra che segnava il confine tra lo Shienar e quello che un tempo era stato il Malkier, e disse 
+a malincuore:  
+«Vi chiedo scusa, Moiraine Sedai, Dai Shan, Costruttore. Lord Agelmar mi ha ordinato di non 
+procedere oltre.» Pareva irritato col mondo intero.  
+«Abbiamo convenuto così, lord Agelmar e io» rispose Moiraine.  
+Ingtar brontolò acidamente. «Chiedo scusa, Aes Sedai» disse, in tono che non pareva affatto di 
+scusa. «Scortarvi qui significa che forse non giungeremo in tempo per la battaglia al passo di Tarwin. 
+Mi si toglie l’occasione di stare con gli altri, però mi si ordina di non superare d’una spanna il paletto 
+del confine, come se non fossi mai stato nella Macchia. E  
+milord Agelmar non ha voluto spiegarmi il motivo.» Con lo sguardo mutò le ultime parole in una 
+domanda rivolta all’Aes Sedai. Non se la sentiva di guardare Rand e gli altri: aveva saputo che 
+
+avrebbero accompagnato Lan nella Macchia.  
+«Se vuole, si prenda pure il mio posto» mormorò Mat a Rand. Lan rivolse a entrambi un’occhiata 
+penetrante. Mat abbassò lo sguardo e arrossì.  
+«Ciascuno di noi, Ingtar, ha il suo posto nel Disegno» disse Moiraine, decisa. «Da qui in poi 
+dobbiamo percorrere da soli la nostra strada.»  
+Ingtar le rivolse un inchino, più rigido di quanto l’armatura giustificasse.  
+«Come vuoi, Aes Sedai» disse. «Ora vi lascio. Devo cavalcare a spron battuto per arrivare al passo 
+di Tarwin. Almeno, lì mi sarà… permesso… di affrontare i Trolloc.»  
+«Sei davvero tanto ansioso?» domandò Nynaeve. «Di combattere i Trolloc?»  
+Ingtar le rivolse un’occhiata di perplessità, poi guardò Lan, come se il Custode potesse spiegare 
+tutto. «È il mio dovere, lady» disse lentamente.  
+«La ragione della mia esistenza.» Alzò la mano verso Lan, palmo in fuori.  
+« Suravye ninto manshima taishite, Dai Shan.  La Pace favorisca la tua spada.» Girò il cavallo e si 
+diresse a levante, con il suo portabandiera e i suoi cento soldati. Procedettero al passo, ma ad andatura 
+costante, la massima che i cavalli in armatura potessero mantenere per coprire una distanza ancora 
+grande.  
+«Che frase insolita» disse Egwene. «Perché si appellano sempre alla Pace?»  
+«Quando non hai mai conosciuto una cosa, se non in sogno» rispose Lan, spingendo avanti il 
+morello «essa diviene più d’un talismano.»  
+Mentre oltrepassava la pietra confinaria, seguendo il Custode, Rand si girò a guardare Ingtar e i suoi 
+soldati scomparire dietro un folto d’alberi spogli; poi sparì la colonnina e, per"
+Token Count,5644

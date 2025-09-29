@@ -1,0 +1,366 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:07:06
+Entities,"{
+  ('Harry', 'PER'): 67,
+  ('Dudley', 'PER'): 27,
+  ('Vernon', 'PER'): 14,
+  ('Petunia', 'PER'): 14,
+  ('Dudley', 'MISC'): 9,
+  ('Piers', 'PER'): 9,
+  ('Dursley', 'LOC'): 7,
+  ('Dursley', 'ORG'): 5,
+  ('Zio Vernon', 'PER'): 5,
+  ('Figg', 'PER'): 5,
+  ('Brasile', 'LOC'): 3,
+  ('Harry Potter', 'MISC'): 2,
+  ('zia Petunia', 'PER'): 2,
+  ('Marge', 'PER'): 2,
+  ('Piers e Dudley', 'PER'): 2,
+  ('Vetri', 'LOC'): 1,
+  ('Privet Drive', 'MISC'): 1,
+  ('Dursley', 'PER'): 1,
+  ('Dudley Dursley', 'PER'): 1,
+  ('Zia Petu-
+nia', 'PER'): 1,
+  ('Su, alzati!', 'MISC'): 1,
+  ('Sveglia!» urlò', 'MISC'): 1,
+  ('Non ti sei ancora alzato?', 'MISC'): 1,
+  ('Be'', 'MISC'): 1,
+  ('spicciarti', 'LOC'): 1,
+  ('Duddy', 'PER'): 1,
+  ('Cosa hai detto?', 'MISC'): 1,
+  ('Niente, niente...» 
+Il compleanno di Dudley', 'MISC'): 1,
+  ('Fila a pettinarti!', 'MISC'): 1,
+  ('buongiorno', 'LOC'): 1,
+  ('Petunia di-
+ceva', 'PER'): 1,
+  ('Caro', 'PER'): 1,
+  ('Trentanove', 'PER'): 1,
+  ('Ah!» Dudley', 'MISC'): 1,
+  ('Bravo', 'PER'): 1,
+  ('Dudley!» E gli scompigliò i capelli', 'MISC'): 1,
+  ('Puzzava di cavolo', 'MISC'): 1,
+  ('Fuffi', 'LOC'): 1,
+  ('Baffi', 'LOC'): 1,
+  ('Mascherini', 'PER'): 1,
+  ('Palline', 'LOC'): 1,
+  ('Cosa ne dici di...', 'MISC'): 1,
+  ('Yvonne', 'PER'): 1,
+  ('Maiorca', 'LOC'): 1,
+  ('Potreste', 'PER'): 1,
+  ('Zia Petunia', 'PER'): 1,
+  ('Mica la faccio', 'MISC'): 1,
+  ('Duddy tesorino caro', 'MISC'): 1,
+  ('N-n-non...', 'MISC'): 1,
+  ('Santo', 'PER'): 1,
+  ('Piers Polkiss', 'PER'): 1,
+  ('Mezz'', 'PER'): 1,
+  ('Ti avverto» gli aveva detto piazzandoglisi davanti col suo faccione pa-', 'MISC'): 1,
+  ('zino', 'PER'): 1,
+  ('Natale', 'MISC'): 1,
+  ('Non farò proprio niente» disse', 'MISC'): 1,
+  ('Zia Pe-
+tunia', 'PER'): 1,
+  ('Strada', 'LOC'): 1,
+  ('MOTOCICLETTE NON VOLANO!» 
+Dudley', 'MISC'): 1,
+  ('Piers repressero una risata', 'MISC'): 1,
+  ('tavano', 'LOC'): 1,
+  ('Dudley', 'LOC'): 1,
+  ('Harry co-', 'PER'): 1,
+  ('Pranzarono al ristorante dello zoo', 'MISC'): 1,
+  ('Fallo', 'PER'): 1,
+  ('Ancora!» ordinò Dudley', 'MISC'): 1,
+  ('Che noia!» disse Dudley', 'MISC'): 1,
+  ('D'', 'PER'): 1,
+  ('Lo so» mormorò', 'MISC'): 1,
+  ('Ma tu da dove vieni?» gli chiese', 'MISC'): 1,
+  ('Boa constrictor', 'MISC'): 1,
+  ('Era un bel posto?', 'MISC'): 1,
+  ('DUDLEY', 'MISC'): 1,
+  ('DURSLEY!', 'MISC'): 1,
+  ('VEDERE QUESTO SERPENTE!', 'MISC'): 1,
+  ('INCREDI-', 'ORG'): 1,
+  ('BILE', 'ORG'): 1,
+  ('STA FACENDO!» 
+Dudley', 'MISC'): 1,
+  ('Grrrrazie', 'LOC'): 1,
+  ('Il custode del serpentario', 'MISC'): 1,
+  ('Ma il vetro', 'MISC'): 1,
+  ('Harry?', 'MISC'): 1,
+  ('Vattene... ripostiglio... rimani lì... senza mangiare', 'MISC'): 1,
+  ('Dur-', 'MISC'): 1,
+  ('Viveva', 'LOC'): 1,
+  ('Furiosa', 'LOC'): 1,
+  ('Petu-
+nia', 'PER'): 1,
+  ('Du-', 'MISC'): 1,
+  ('Du-
+dley', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Harry Potter': {
+    'category': 'scuola di magia',
+    'confidence': 0.2024143636226654,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.9692714285714286,
+    'early_appearance': True,
+    'positions': [1080, 21939]
+  },
+  'Privet Drive': {
+    'category': 'strada',
+    'confidence': 0.15369181334972382,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9660857142857142,
+    'early_appearance': True,
+    'positions': [171]
+  },
+  'Brasile': {
+    'category': 'paese',
+    'confidence': 0.47521427273750305,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.7576571428571428,
+    'early_appearance': False,
+    'positions': [17340, 17530, 18586]
+  },
+  'Strada': {
+    'category': 'paese',
+    'confidence': 0.19118008017539978,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7512857142857142,
+    'early_appearance': False,
+    'positions': [12821]
+  },
+  'Natale': {
+    'category': 'paese',
+    'confidence': 0.2243667095899582,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7438857142857143,
+    'early_appearance': False,
+    'positions': [10284]
+  },
+  'Dursley': {
+    'category': 'non_luogo',
+    'confidence': 0.33253800868988037,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [79, 325, 428, 4087, 7850, 9816, 10506, 12147, 13647, 13975, 14521, 20078, 20975]
+  },
+  'Vetri': {
+    'category': 'non_luogo',
+    'confidence': 0.22769568860530853,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [12]
+  },
+  'spicciarti': {
+    'category': 'non_luogo',
+    'confidence': 0.2836010456085205,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2327857142857143,
+    'early_appearance': True,
+    'positions': [1825]
+  },
+  'buongiorno': {
+    'category': 'non_luogo',
+    'confidence': 0.22444632649421692,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [4200]
+  },
+  'Fuffi': {
+    'category': 'non_luogo',
+    'confidence': 0.41434338688850403,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [7658]
+  },
+  'Baffi': {
+    'category': 'non_luogo',
+    'confidence': 0.37019237875938416,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [7667]
+  },
+  'Palline': {
+    'category': 'non_luogo',
+    'confidence': 0.259605348110199,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [7692]
+  },
+  'Maiorca': {
+    'category': 'non_luogo',
+    'confidence': 0.1526271551847458,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [8111]
+  },
+  'tavano': {
+    'category': 'non_luogo',
+    'confidence': 0.16056635975837708,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [13745]
+  },
+  'Dudley': {
+    'category': 'non_luogo',
+    'confidence': 0.38889560103416443,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [2600, 2763, 2832, 2988, 3338, 3348, 3589, 4515, 4587, 4817, 5052, 5355, 5454, 5793, 6373, 6818, 6925, 8318, 8684, 9090, 9406, 9609, 9845, 10862, 11546, 12004, 12673, 13997, 14370, 14541, 14746, 15229, 15340, 15635, 16893, 19148, 21253]
+  },
+  'Grrrrazie': {
+    'category': 'non_luogo',
+    'confidence': 0.3658951222896576,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [18620]
+  },
+  'Viveva': {
+    'category': 'non_luogo',
+    'confidence': 0.2671826481819153,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [20065]
+  },
+  'Furiosa': {
+    'category': 'non_luogo',
+    'confidence': 0.34154385328292847,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.010585714285714285,
+    'early_appearance': False,
+    'positions': [21261]
+  },
+}"
+Main Location,"{
+  'name': 'Harry Potter',
+  'category': 'scuola di magia',
+  'spacy_label': 'MISC',
+  'confidence': 0.2024143636226654,
+  'count': 2,
+  'priority_score': 0.9692714285714286,
+  'early_appearance': True,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 67,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 49, 'joy': 33, 'anger': 12, 'fear': 3}, 'sentiment_counts': {'negative': 61, 'positive': 36}, 'emotion_percentages': {'sadness': 50.51546391752577, 'joy': 34.02061855670103, 'anger': 12.371134020618557, 'fear': 3.0927835051546393}, 'sentiment_percentages': {'negative': 62.88659793814433, 'positive': 37.11340206185567}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.8301851749420166, 'Riconoscimento entità con spaCy': 0.0010001659393310547, 'Analisi emozioni': 24.06621789932251, 'Classificazione delle location': 30.60229468345642, 'Tempo totale': 55.50569939613342}"
+Original Text Extract,"Capitolo 2 
+Vetri che scompaiono 
+ 
+Erano passati quasi dieci anni da quando i Dursley si erano svegliati una 
+mattina e avevano trovato il nipote sul gradino di casa, ma Privet Drive 
+non era cambiata affatto. Il sole sorgeva sugli stessi giardinetti ben tenuti e 
+illuminava il numero 4 d'ottone sulla porta d'ingresso dei Dursley; si insi-
+nuava nel loro soggiorno, che era pressoché identico a quella sera in cui il 
+signor Dursley aveva visto il fatidico telegiornale che parlava di gufi. Sol-
+tanto le fotografie sulla mensola del caminetto denotavano quanto tempo 
+fosse passato in realtà. Dieci anni prima c'era un'infinità di fotografie di 
+quello che sembrava un grosso pallone da spiaggia rosa, con indosso cap-
+pellini di vari colori. Ma Dudley Dursley non era più un lattante, e ora le 
+fotografie ritraevano un bambinone biondo in sella alla sua prima biciclet-
+ta, sulle giostre alla fiera, che giocava al computer col padre, o che si face-
+va abbracciare e baciare dalla madre. Nulla, in quella stanza, denotava che 
+in casa viveva anche un altro bambino. Eppure, Harry Potter abitava anco-
+ra lì; in quel momento dormiva, ma non sarebbe stato per molto. Zia Petu-
+nia era sveglia e la sua voce stridula fu il primo rumore della giornata che 
+iniziava. 
+«Su, alzati! Immediatamente!» 
+Harry si svegliò di soprassalto. La zia tamburellò di nuovo sulla porta. 
+
+«Sveglia!» urlò. Harry sentì i suoi passi avviarsi verso la cucina e poi il 
+rumore della padella che veniva messa sul fornello. Si girò sulla schiena e 
+cercò di ricordare il sogno che stava facendo. Era un bel sogno. C'era una 
+motocicletta volante. Ebbe la strana sensazione di averlo già fatto qualche 
+altra volta. 
+Ecco di nuovo la zia dietro alla porta. 
+«Non ti sei ancora alzato?» chiese. 
+«Sono quasi pronto» rispose Harry. 
+«Be', vedi di spicciarti, voglio che sorvegli il bacon che ho messo sul 
+fuoco. E non ti azzardare a farlo bruciare. Voglio che tutto sia perfetto, il 
+giorno del compleanno di Duddy». 
+Harry si lasciò sfuggire un gemito. 
+«Cosa hai detto?» chiese aspra la zia da dietro la porta. 
+«Niente, niente...» 
+Il compleanno di Dudley... come aveva potuto dimenticarlo? Si alzò len-
+tamente e cominciò a cercare i calzini. Ne trovò un paio sotto al letto e, 
+dopo aver tolto un ragno da uno dei due, se li infilò. Harry c'era abituato 
+perché il ripostiglio sotto la scala pullulava di ragni, e lui dormiva lì. 
+Una volta che si fu vestito, attraversò l'ingresso diretto in cucina. Il tavo-
+lo scompariva quasi completamente sotto la pila dei regali di compleanno 
+di Dudley. Sembrava proprio che Dudley fosse riuscito a ottenere il nuovo 
+computer che desiderava tanto, per non parlare del secondo televisore e 
+della bici da corsa. Il motivo preciso per cui Dudley voleva una bici da 
+corsa era un mistero per Harry, visto che Dudley era molto grasso e dete-
+stava fare moto, a meno che - inutile dirlo - non si trattasse di prendere a 
+pugni qualcuno. Il punching-ball preferito di Dudley era Harry, quando 
+riusciva ad acchiapparlo, il che non era facile. Non sembrava, ma Harry 
+era molto veloce. 
+Forse per il fatto che viveva in un ripostiglio buio Harry era sempre stato 
+piccolo e mingherlino per la sua età. E lo sembrava ancor più di quanto in 
+realtà non fosse, perché non aveva altro da indossare che i vestiti smessi di 
+Dudley, e Dudley era circa quattro volte più grosso di lui. Harry aveva un 
+viso sottile, ginocchia nodose, capelli neri e occhi verde chiaro. Portava un 
+paio di occhiali rotondi, tenuti insieme con un sacco di nastro adesivo per 
+tutte le volte che Dudley lo aveva preso a pugni sul naso. L'unica cosa che 
+a Harry piaceva del proprio aspetto era una cicatrice molto sottile sulla 
+fronte, che aveva la forma di una saetta. Per quanto ne sapeva, l'aveva da 
+sempre, e la prima domanda che ricordava di aver mai rivolto a zia Petunia 
+
+era stata come se la fosse fatta. 
+«Nell'incidente d'auto in cui sono morti i tuoi genitori» le aveva risposto 
+lei, «e non fare domande». 
+Non fare domande: questa era la prima regola per vivere in pace, con i 
+Dursley. 
+Zio Vernon entrò in cucina mentre Harry stava girando il bacon. 
+«Fila a pettinarti!» sbraitò a mo' di buongiorno. 
+Circa una volta alla settimana, zio Vernon alzava gli occhi dal suo gior-
+nale e urlava che Harry doveva tagliarsi i capelli. Di tagliarsi i capelli 
+Harry aveva bisogno più di tutti i suoi compagni di classe messi insieme; 
+ma non c'era niente da fare: crescevano in quel modo... dappertutto. 
+Quando Dudley e sua madre entrarono in cucina, Harry stava friggendo 
+le uova. Dudley assomigliava molto a zio Vernon. Aveva un gran faccione 
+roseo, quasi niente collo, occhi piccoli di un celeste acquoso, e folti capelli 
+biondi e lisci che gli pendevano su un gran testone. Spesso zia Petunia di-
+ceva che Dudley sembrava un angioletto; Harry invece, diceva che sem-
+brava un maiale con la parrucca. 
+Harry mise in tavola i piatti con le uova al bacon, un'operazione non par-
+ticolarmente "
+Token Count,4720

@@ -1,0 +1,535 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:30:22
+Entities,"{
+  ('Perrin', 'PER'): 82,
+  ('Egwene', 'PER'): 35,
+  ('Byar', 'PER'): 26,
+  ('Elyas', 'PER'): 19,
+  ('Lord Capitano', 'PER'): 13,
+  ('Figlio Byar', 'PER'): 10,
+  ('Hopper', 'PER'): 9,
+  ('Bornhald', 'LOC'): 8,
+  ('Amici delle Tenebre', 'MISC'): 7,
+  ('Caemlyn', 'LOC'): 6,
+  ('Egwene', 'LOC'): 5,
+  ('Figli della Luce', 'MISC'): 5,
+  ('Luce', 'LOC'): 5,
+  ('Bornhald', 'PER'): 5,
+  ('Bela', 'PER'): 4,
+  ('Dapple', 'ORG'): 4,
+  ('Luce', 'MISC'): 4,
+  ('Tenebroso', 'PER'): 4,
+  ('Custode', 'PER'): 3,
+  ('Trolloc', 'ORG'): 3,
+  ('Tar Valon', 'PER'): 3,
+  ('Amador', 'PER'): 3,
+  ('Sangue', 'MISC'): 2,
+  ('La userai', 'MISC'): 2,
+  ('Fade', 'ORG'): 2,
+  ('Artur Hawkwing', 'PER'): 2,
+  ('«Ho', 'PER'): 2,
+  ('Wind', 'ORG'): 2,
+  ('Manto Bianco', 'PER'): 2,
+  ('Manti Bianchi', 'ORG'): 2,
+  ('Trolloc', 'LOC'): 2,
+  ('Marche', 'LOC'): 2,
+  ('Fiumi Gemelli', 'LOC'): 2,
+  ('Shadar Logoth', 'PER'): 2,
+  ('Baerlon', 'LOC'): 2,
+  ('Ombra', 'LOC'): 2,
+  ('Figli dell’Ombra', 'MISC'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Sorpreso', 'PER'): 1,
+  ('Un cieco ti leggerebbe in viso', 'MISC'): 1,
+  ('Eri', 'PER'): 1,
+  ('Rand', 'MISC'): 1,
+  ('mastro Luhhan', 'PER'): 1,
+  ('Odio questa maledetta cosa» brontolò', 'MISC'): 1,
+  ('Sospirò', 'PER'): 1,
+  ('Aspetta', 'LOC'): 1,
+  ('Spegni il fuoco!» gridò', 'MISC'): 1,
+  ('Spegnilo!»  
+Egwene', 'MISC'): 1,
+  ('Impossibile', 'PER'): 1,
+  ('«Dovremo', 'PER'): 1,
+  ('Andate', 'LOC'): 1,
+  ('Arrivano', 'LOC'): 1,
+  ('Dapple', 'PER'): 1,
+  ('Luce santa', 'MISC'): 1,
+  ('Dita', 'PER'): 1,
+  ('Segnalò', 'LOC'): 1,
+  ('Luce santa”', 'MISC'): 1,
+  ('“Cerca di confortare me!', 'MISC'): 1,
+  ('Giorno del Sole', 'MISC'): 1,
+  ('Continuavano', 'LOC'): 1,
+  ('Arthur Hawkwing', 'PER'): 1,
+  ('Lontano', 'LOC'): 1,
+  ('Scosse', 'PER'): 1,
+  ('Butta via', 'MISC'): 1,
+  ('Buttala', 'LOC'): 1,
+  ('Dal buio sbucò', 'MISC'): 1,
+  ('Sbucò', 'PER'): 1,
+  ('Scappa, fratello!  ', 'MISC'): 1,
+  ('Borbottando', 'PER'): 1,
+  ('Lampade', 'PER'): 1,
+  ('La Luce', 'MISC'): 1,
+  ('Luhhan', 'PER'): 1,
+  ('Aydaer', 'PER'): 1,
+  ('Moiraine', 'PER'): 1,
+  ('Fitte', 'LOC'): 1,
+  ('Vere', 'LOC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('«Comodo', 'PER'): 1,
+  ('Domattina', 'PER'): 1,
+  ('Amici 
+delle Tenebre', 'MISC'): 1,
+  ('Lord Capitano Bornhald', 'PER'): 1,
+  ('Figli', 'ORG'): 1,
+  ('«Mi chiamo Geofram 
+Bornhald', 'PER'): 1,
+  ('Bada', 'PER'): 1,
+  ('Illuminato', 'LOC'): 1,
+  ('Calma', 'PER'): 1,
+  ('Illuminati', 'MISC'): 1,
+  ('Lord Capitani', 'PER'): 1,
+  ('Notò che il Lord Capitano', 'MISC'): 1,
+  ('Battaglia Finale', 'MISC'): 1,
+  ('Odiano il Tenebroso', 'PER'): 1,
+  ('Notò', 'MISC'): 1,
+  ('«Chi te l’', 'PER'): 1,
+  ('Disse', 'PER'): 1,
+  ('Elyas', 'MISC'): 1,
+  ('Tar Valon', 'MISC'): 1,
+  ('Amico delle Tenebre', 'PER'): 1,
+  ('Amici delle Tenebre', 'PER'): 1,
+  ('Andate', 'PER'): 1,
+  ('Ammettete d’essere amici di un', 'MISC'): 1,
+  ('«Tu', 'PER'): 1,
+  ('Quinto', 'PER'): 1,
+  ('Conoscete Trolloc', 'PER'): 1,
+  ('Myrddraal', 'LOC'): 1,
+  ('Confine', 'LOC'): 1,
+  ('No?', 'MISC'): 1,
+  ('Gemelli', 'LOC'): 1,
+  ('Arinelle', 'LOC'): 1,
+  ('Custode', 'LOC'): 1,
+  ('Rendigli', 'MISC'): 1,
+  ('No, certo» disse', 'MISC'): 1,
+  ('Scusa', 'PER'): 1,
+  ('Accetterò', 'MISC'): 1,
+  ('Dain', 'PER'): 1,
+  ('Dogmi', 'MISC'): 1,
+  ('Inquisitori', 'MISC'): 1,
+  ('Sembrava', 'PER'): 1,
+  ('Rinuncia al Tenebroso', 'PER'): 1,
+  ('Inquisizione', 'MISC'): 1,
+  ('Fissò Perrin', 'PER'): 1,
+  ('Fiumi', 'LOC'): 1,
+  ('Figli', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Aspetta': {
+    'category': 'paese',
+    'confidence': 0.2581813335418701,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9730875,
+    'early_appearance': True,
+    'positions': [2247]
+  },
+  'Sangue': {
+    'category': 'paese',
+    'confidence': 0.39529845118522644,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.968475,
+    'early_appearance': True,
+    'positions': [1216, 3892]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9656875,
+    'early_appearance': True,
+    'positions': [450]
+  },
+  'Eri': {
+    'category': 'paese',
+    'confidence': 0.30287569761276245,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.9656875,
+    'early_appearance': True,
+    'positions': [841]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9656875,
+    'early_appearance': True,
+    'positions': [1210]
+  },
+  'Bornhald': {
+    'category': 'strada',
+    'confidence': 0.13966602087020874,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.7704,
+    'early_appearance': False,
+    'positions': [24508, 25651, 26425, 26955, 27240, 27951, 29333, 30613, 30920, 31280, 31928, 32262, 33031]
+  },
+  'Marche': {
+    'category': 'paese',
+    'confidence': 0.4536382555961609,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.753675,
+    'early_appearance': False,
+    'positions': [28750, 28841]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.753675,
+    'early_appearance': False,
+    'positions': [32459, 32833]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 4,
+    'priority_score': 0.75185,
+    'early_appearance': False,
+    'positions': [12822, 22548, 25938, 31105, 31761, 32734, 32801, 33110, 33348]
+  },
+  'Impossibile': {
+    'category': 'paese',
+    'confidence': 0.18673671782016754,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [3776]
+  },
+  'Andate': {
+    'category': 'paese',
+    'confidence': 0.30005910992622375,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [4107, 28091]
+  },
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [18410]
+  },
+  'Figli': {
+    'category': 'paese',
+    'confidence': 0.3927839696407318,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [22965, 33621]
+  },
+  'Calma': {
+    'category': 'paese',
+    'confidence': 0.3853134512901306,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [25630]
+  },
+  'Quinto': {
+    'category': 'paese',
+    'confidence': 0.3471345603466034,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [28631]
+  },
+  'Sembrava': {
+    'category': 'paese',
+    'confidence': 0.20687146484851837,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [33247]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.2435375,
+    'early_appearance': True,
+    'positions': [34, 966, 3114, 4076, 4356, 4711, 5146, 5614, 6356, 6409, 7288, 7408, 7925, 8049, 8296, 8852, 9893, 11153, 12433, 12999, 13253, 13446, 15933, 16202, 17607, 19856, 20333, 24137, 24395, 24460, 24492, 25212, 27035, 27753, 27835, 29190, 29524, 30677, 31187, 33050]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.024125,
+    'early_appearance': False,
+    'positions': [19564, 19742, 29681, 29982, 31685, 32105]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [26883, 27114, 27130, 27434, 29824]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [29656, 31341]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [30720, 31377]
+  },
+  'Arrivano': {
+    'category': 'non_luogo',
+    'confidence': 0.31850987672805786,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [4832]
+  },
+  'Segnalò': {
+    'category': 'non_luogo',
+    'confidence': 0.25322917103767395,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [7278]
+  },
+  'Continuavano': {
+    'category': 'non_luogo',
+    'confidence': 0.24301037192344666,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [9716]
+  },
+  'Lontano': {
+    'category': 'non_luogo',
+    'confidence': 0.2591595947742462,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [13127]
+  },
+  'Buttala': {
+    'category': 'non_luogo',
+    'confidence': 0.21135041117668152,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [13881]
+  },
+  'Fitte': {
+    'category': 'non_luogo',
+    'confidence': 0.28961557149887085,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [17466]
+  },
+  'Vere': {
+    'category': 'non_luogo',
+    'confidence': 0.30270180106163025,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [18108]
+  },
+  'Illuminato': {
+    'category': 'non_luogo',
+    'confidence': 0.25807449221611023,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [25404]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [28666]
+  },
+  'Confine': {
+    'category': 'non_luogo',
+    'confidence': 0.2572762966156006,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [28760]
+  },
+  'Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.1344870775938034,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [29496]
+  },
+  'Arinelle': {
+    'category': 'non_luogo',
+    'confidence': 0.34170958399772644,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [29874]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [27015, 27223, 28196, 30598]
+  },
+  'Fiumi': {
+    'category': 'non_luogo',
+    'confidence': 0.18283352255821228,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [33588]
+  },
+}"
+Main Location,"{
+  'name': 'Sangue',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.39529845118522644,
+  'count': 2,
+  'priority_score': 0.968475,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 82,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 53, 'joy': 26, 'anger': 17, 'fear': 3}, 'sentiment_counts': {'negative': 71, 'positive': 28}, 'emotion_percentages': {'sadness': 53.535353535353536, 'joy': 26.262626262626267, 'anger': 17.17171717171717, 'fear': 3.0303030303030303}, 'sentiment_percentages': {'negative': 71.71717171717171, 'positive': 28.28282828282828}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.4729905128479004, 'Riconoscimento entità con spaCy': 0.003998756408691406, 'Analisi emozioni': 12.641867399215698, 'Classificazione delle location': 47.87443733215332, 'Tempo totale': 62.995293855667114}"
+Original Text Extract,"30 
+ 
+Figli dell’Ombra 
+ 
+ 
+ 
+ 
+ 
+Egwene restò seduta accanto al fuoco, a fissare il frammento della statua, ma Perrin andò alla pozza 
+per stare da solo. Il giorno svaniva e da levante il vento notturno già increspava la superficie 
+dell’acqua. Perrin staccò dalla cintura l’ascia e la rigirò fra le mani: il manico di frassino era lungo 
+quanto il suo braccio, liscio e freddo al tocco. Sentì di odiarla. Si vergognò d’esserne stato orgoglioso, 
+a Emond’s Field. Prima di sapere che cosa sarebbe stato disposto a fare, con essa.  
+«La odii fino a questo punto?» disse Elyas, dietro di lui.  
+Sorpreso, Perrin trasalì e quasi alzò l’ascia. «Sai… sai anche leggere la mente? Come i lupi?»  
+Elyas piegò la testa e lo guardò con aria perplessa. «Un cieco ti leggerebbe in viso, ragazzo. Su, 
+parla. Odii la ragazza? La disprezzi? Ecco cos’è. Eri pronto a ucciderla perché la disprezzi, perché è 
+sempre riluttante e ti tiene a freno con le sue maniere femminili.»  
+«Egwene non si è mai mostrata riluttante» protestò Perrin. «Fa sempre la sua parte. Non la 
+disprezzo. Le voglio bene.» Lanciò a Elyas un’occhiata di fuoco, sfidandolo a ridere. «Non in quel 
+senso. Voglio dire, non è come una sorella, ma lei e Rand… Sangue e ceneri! Se i corvi ci avessero 
+assalito… Se… Non so.»  
+«Sì, invece. Se lei avesse potuto scegliere il tipo di morte, quale credi che avrebbe scelto? Un colpo 
+della tua ascia o il modo in cui sono morti gli animali visti oggi? Io so quale sceglierei.»  
+«Non ho il diritto di scegliere per lei. Non le dirai niente, vero?» Strinse la presa sul manico 
+dell’ascia; i muscoli delle braccia si gonfiarono, assai sviluppati per la sua età, frutto di lunghe ore di 
+lavoro nella fucina di mastro Luhhan. Per un attimo pensò che la massiccia asta di legno si sarebbe 
+spezzata. «Odio questa maledetta cosa» brontolò. «Non so cosa ci faccio, a portarla in giro impettito 
+come uno sciocco. Non sarei riuscito a farlo, sai?  
+Se è per finta, faccio lo spaccone e gioco come se fossi…» Sospirò. «È diverso, ora. Non voglio più 
+usarla.»  
+«La userai.»  
+Perrin alzò l’ascia per gettarla nell’acqua, ma Elyas gli afferrò il polso.  
+«La userai, ragazzo; e finché odierai usarla, la userai più saggiamente di molti uomini adulti. 
+Aspetta. Quando non la odierai più, allora sarà il momento di gettarla il più lontano possibile e di 
+correre via dalla parte opposta.»  
+Perrin soppesò l’ascia, ancora tentato di gettarla in acqua. “Per lui è facile dire di aspettare” pensò. 
+“E se aspetto e poi non posso più buttarla via?”  
+Aprì la bocca per girare a Elyas la domanda, ma si bloccò. Un messaggio dei lupi, così pressante che 
+gli occhi gli si velarono. Per un attimo dimenticò che cosa stava per dire, dimenticò come si faceva a 
+parlare, a respirare. Anche il viso di Elyas si afflosciò e i suoi occhi parvero scrutare dentro di sé e in 
+lontananza. Poi il messaggio svanì, rapido com’era giunto.  
+Era durato un istante, ma bastava.  
+Perrin si scosse e si riempì i polmoni. Elyas non esitò: appena si riprese, scattò verso il fuoco. Perrin 
+lo seguì, muto.  
+
+«Spegni il fuoco!» gridò Elyas a Egwene. Gesticolò e parve voler gridare sottovoce. «Spegnilo!»  
+Egwene si alzò, lo fissò, incerta, poi si accostò al fuoco, ma lentamente; era chiaro che non capiva.  
+Elyas la scostò con rudezza, afferrò il bricco del tè e imprecò perché scottava. Lo passò da una mano 
+all’altra e infine lo capovolse sul fuoco.  
+Perrin arrivò in tempo per gettare a calci terriccio sulle braci sibilanti. Si fermò solo quand’ebbe 
+cancellato le ultime tracce del fuoco.  
+Elyas gli lanciò il bricco e Perrin lo lasciò subito cadere, con un grido soffocato. Si soffiò sulle dita e 
+guardò di storto Elyas, ma l’altro era troppo impegnato a controllare in fretta il campo.  
+«Impossibile nascondere che qui c’è stato qualcuno» disse. «Dovremo solo correre e sperare. Forse 
+non ci baderanno. Sangue e ceneri, ero sicuro che fossero i corvi.»  
+Perrin sellò in fretta Bela e tenne l’ascia contro la coscia, quando si chinò a stringere il sottopancia.  
+«Cosa succede?» domandò Egwene. «Trolloc? Un Fade?»  
+«Andate a levante o a ponente» disse Elyas a Perrin. «Trovate un nascondiglio. Vi raggiungo appena 
+possibile. Se vedono un lupo…» Si allontanò di corsa, tenendosi piegato come se volesse procedere a 
+quattro zampe, e svanì nelle ombre della sera.  
+Egwene raccolse in fretta le sue cose, ma continuò a chiedere spiegazioni a Perrin, con voce 
+insistente che divenne più spaventata perché lui restava zitto. Anche Perrin era spaventato, ma la paura 
+li faceva muovere più in fretta. Attese finché non si mossero verso il sole calante. Camminando davanti 
+a Bela e tenendo l’ascia contro il petto, disse a Egwene quel che sapeva, a spizzichi, senza girarsi e 
+senza smettere di cercare un nascondiglio dove aspettare Elyas.  
+«Arrivano molte persone a cavallo. Erano dietro i lupi, ma non li hanno visti. Si dirigono alla pozza. 
+Probabilmente non hanno niente a che fare con noi, qui c’è l’unic"
+Token Count,7274

@@ -1,0 +1,675 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:10:21
+Entities,"{
+  ('Harry', 'PER'): 77,
+  ('Raptor', 'PER'): 56,
+  ('Ron', 'PER'): 19,
+  ('Pietra', 'LOC'): 18,
+  ('Piton', 'PER'): 16,
+  ('Silente', 'PER'): 16,
+  ('Hermione', 'PER'): 12,
+  ('Grifondoro', 'PER'): 9,
+  ('Voldemort', 'PER'): 9,
+  ('Hagrid', 'PER'): 9,
+  ('Serpeverde', 'LOC'): 7,
+  ('Madama Chips', 'PER'): 5,
+  ('Potter', 'MISC'): 3,
+  ('Hogwarts', 'MISC'): 3,
+  ('Devo', 'ORG'): 3,
+  ('Harry', 'MISC'): 3,
+  ('Signore', 'PER'): 3,
+  ('Serpeverde', 'PER'): 3,
+  ('Neville', 'PER'): 3,
+  ('Granger', 'PER'): 2,
+  ('Quidditch', 'ORG'): 2,
+  ('Londra', 'LOC'): 2,
+  ('Signore Voldemort', 'PER'): 2,
+  ('Oh', 'PER'): 2,
+  ('Usa', 'LOC'): 2,
+  ('Batté le mani', 'MISC'): 2,
+  ('Padrone', 'PER'): 2,
+  ('Elisir di Lunga Vita', 'MISC'): 2,
+  ('Sbatté', 'PER'): 2,
+  ('Ronald Weasley', 'PER'): 2,
+  ('Ah', 'PER'): 2,
+  ('Nicolas', 'PER'): 2,
+  ('Ehm', 'MISC'): 2,
+  ('Malfoy', 'PER'): 2,
+  ('Madama Chips', 'MISC'): 2,
+  ('«', 'PER'): 2,
+  ('Silente', 'MISC'): 2,
+  ('Corvonero', 'LOC'): 2,
+  ('McGranitt', 'PER'): 2,
+  ('Silente', 'LOC'): 2,
+  ('Babbani', 'ORG'): 2,
+  ('Vernon', 'PER'): 2,
+  ('L'uomo dai due volti 
+ 
+Era Raptor', 'MISC'): 1,
+  ('Lei!»', 'MISC'): 1,
+  ('Io» disse calmo', 'MISC'): 1,
+  ('Potter»', 'MISC'): 1,
+  ('Ma io pensavo... Piton...» 
+«Chi, Severus?»', 'MISC'): 1,
+  ('Severus', 'PER'): 1,
+  ('Ra-Raptor', 'PER'): 1,
+  ('No, no, no!', 'MISC'): 1,
+  ('Tu sei troppo ficcanaso', 'MISC'): 1,
+  ('Andartene', 'PER'): 1,
+  ('Halloween!', 'MISC'): 1,
+  ('Allora il mostro', 'MISC'): 1,
+  ('Specchio delle Brame', 'LOC'): 1,
+  ('Figu-', 'PER'): 1,
+  ('Vedo la Pietra... La', 'LOC'): 1,
+  ('Gringott', 'ORG'): 1,
+  ('Mi ha punito...', 'MISC'): 1,
+  ('Diagon Al-', 'PER'): 1,
+  ('Paio-
+lo magico', 'MISC'): 1,
+  ('Io non capisco... la Pietra', 'MISC'): 1,
+  ('Quel che voglio più di qualsiasi altra cosa al mondo', 'MISC'): 1,
+  ('incespicò', 'LOC'): 1,
+  ('Padro-', 'ORG'): 1,
+  ('Harry senti', 'MISC'): 1,
+  ('Sì... Potter... vieni qui»', 'MISC'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Ammiccò', 'PER'): 1,
+  ('Harry sen-
+tì', 'MISC'): 1,
+  ('Ebbene?» disse Raptor', 'MISC'): 1,
+  ('Vedo Silente', 'PER'): 1,
+  ('Io... ho appena fatto vincere a', 'MISC'): 1,
+  ('Togliti di mezzo!', 'MISC'): 1,
+  ('Pietra Filosofale', 'LOC'): 1,
+  ('Sta mentendo... sta mentendo...» 
+«', 'MISC'): 1,
+  ('Tranello del Diavolo', 'LOC'): 1,
+  ('Pietrificato', 'PER'): 1,
+  ('pricapo', 'ORG'): 1,
+  ('Harry Potter...» sibilò', 'MISC'): 1,
+  ('Il sangue di unicorno', 'MISC'): 1,
+  ('Barcollò', 'PER'): 1,
+  ('Loro', 'PER'): 1,
+  ('PRENDILO', 'MISC'): 1,
+  ('Gridò', 'PER'): 1,
+  ('Prendilo! PRENDILO!» gridò di nuovo', 'MISC'): 1,
+  ('E Raptor', 'PER'): 1,
+  ('Aaaaaaahhhhhh!', 'MISC'): 1,
+  ('Sentì il braccio', 'MISC'): 1,
+  ('Boccino!', 'MISC'): 1,
+  ('Boccino', 'LOC'): 1,
+  ('Albus Silente', 'PER'): 1,
+  ('Buon pomeriggio', 'MISC'): 1,
+  ('Pietra!', 'ORG'): 1,
+  ('Raptor!', 'MISC'): 1,
+  ('Calmati', 'PER'): 1,
+  ('Harry ti prego di calmarti', 'MISC'): 1,
+  ('«Quelli', 'PER'): 1,
+  ('Fred', 'PER'): 1,
+  ('George Weasley', 'PER'): 1,
+  ('C'è mancato poco', 'MISC'): 1,
+  ('Distrutta?', 'MISC'): 1,
+  ('Nicolas 
+Flamel', 'PER'): 1,
+  ('Ah, sai di Nicolas', 'MISC'): 1,
+  ('Dispongono', 'MISC'): 1,
+  ('Elisir', 'MISC'): 1,
+  ('Peronella', 'LOC'): 1,
+  ('Vol... voglio dire', 'MISC'): 1,
+  ('Chiamalo', 'PER'): 1,
+  ('No', 'PER'): 1,
+  ('La verità...» sospirò Silente', 'MISC'): 1,
+  ('Bene... Voldemort', 'MISC'): 1,
+  ('Vedi, tua madre', 'MISC'): 1,
+  ('Volde-', 'PER'): 1,
+  ('Ah...', 'MISC'): 1,
+  ('Avanti, spara!', 'ORG'): 1,
+  ('Sì, lui... Raptor', 'MISC'): 1,
+  ('Strano', 'MISC'): 1,
+  ('Dopodiché', 'MISC'): 1,
+  ('odiarne', 'LOC'): 1,
+  ('Ah! 
+', 'MISC'): 1,
+  ('Sorrise', 'PER'): 1,
+  ('Nemmeno per sogno!', 'MISC'): 1,
+  ('Silente...» 
+«Be'', 'MISC'): 1,
+  ('Ma mi sto riposando', 'MISC'): 1,
+  ('Guardi', 'MISC'): 1,
+  ('Oh, la prego', 'MISC'): 1,
+  ('E va bene» acconsentì lei', 'MISC'): 1,
+  ('Harry!» 
+', 'MISC'): 1,
+  ('Rap-', 'ORG'): 1,
+  ('Flamel', 'PER'): 1,
+  ('E di voi due', 'MISC'): 1,
+  ('Be'» esplose', 'MISC'): 1,
+  ('Silente lo va strombazzando ai quattro venti»', 'MISC'): 1,
+  ('glioso', 'PER'): 1,
+  ('Senti', 'PER'): 1,
+  ('Posso', 'PER'): 1,
+  ('Il professor Silente', 'MISC'): 1,
+  ('Fuffi!', 'LOC'): 1,
+  ('Tu potevi morire!', 'MISC'): 1,
+  ('Babbani!', 'ORG'): 1,
+  ('Dài', 'PER'): 1,
+  ('Parliamo di Voldemort', 'PER'): 1,
+  ('Voldemort!» Hagrid', 'MISC'): 1,
+  ('Cioccorana', 'LOC'): 1,
+  ('Non sarà mica un panino alla donnola', 'MISC'): 1,
+  ('No.', 'MISC'): 1,
+  ('Ieri Silente', 'MISC'): 1,
+  ('Sembrava', 'PER'): 1,
+  ('Ho mandato gufi', 'MISC'): 1,
+  ('Ti piace?', 'MISC'): 1,
+  ('Sala Grande', 'LOC'): 1,
+  ('Tavola delle Autori-', 'LOC'): 1,
+  ('E io devo 
+tediarvi con una chiacchierata da vecchio bacucco', 'MISC'): 1,
+  ('vuotarvela', 'LOC'): 1,
+  ('Coppa delle 
+Case', 'MISC'): 1,
+  ('Tassorosso', 'PER'): 1,
+  ('Cor-', 'MISC'): 1,
+  ('Una boato di ovazioni', 'MISC'): 1,
+  ('Draco Malfoy', 'PER'): 1,
+  ('Ehm...» disse Silente', 'MISC'): 1,
+  ('Percy', 'PER'): 1,
+  ('Secondo', 'MISC'): 1,
+  ('Hermione Granger', 'PER'): 1,
+  ('Grifon-
+doro cinquanta punti»', 'MISC'): 1,
+  ('Terzo', 'PER'): 1,
+  ('Harry Potter...»', 'MISC'): 1,
+  ('Grifondoro', 'LOC'): 1,
+  ('Pian', 'LOC'): 1,
+  ('Silente sorridendo', 'MISC'): 1,
+  ('Neville Paciock', 'PER'): 1,
+  ('Grifon-
+doro', 'MISC'): 1,
+  ('Grifondoro!', 'MISC'): 1,
+  ('Incantesimo della Pastoia', 'MISC'): 1,
+  ('Body', 'MISC'): 1,
+  ('Tassorosso', 'LOC'): 1,
+  ('Quidditch', 'LOC'): 1,
+  ('Natale', 'MISC'): 1,
+  ('Erbo-', 'MISC'): 1,
+  ('Pozioni', 'MISC'): 1,
+  ('Goyle, stupido quasi quanto cattivo', 'MISC'): 1,
+  ('Spero', 'LOC'): 1,
+  ('Fred Weasley', 'PER'): 1,
+  ('Hogwarts Express', 'MISC'): 1,
+  ('Tuttigusti+1', 'ORG'): 1,
+  ('Babbani', 'LOC'): 1,
+  ('Ciao', 'MISC'): 1,
+  ('Harry!» 
+«Ci vediamo', 'MISC'): 1,
+  ('Potter!', 'MISC'): 1,
+  ('Lui', 'PER'): 1,
+  ('«Eccolo', 'PER'): 1,
+  ('Ginny Weasley', 'PER'): 1,
+  ('Harry Potter!» strillò', 'MISC'): 1,
+  ('Ginny', 'LOC'): 1,
+  ('La signora Weasley', 'MISC'): 1,
+  ('«Signora', 'PER'): 1,
+  ('Siete pronti?', 'MISC'): 1,
+  ('Petunia', 'PER'): 1,
+  ('Dudley', 'PER'): 1,
+  ('Harry!', 'MISC'): 1,
+  ('Weasley', 'MISC'): 1,
+  ('Spicciati', 'PER'): 1,
+  ('Her-
+mione', 'PER'): 1,
+  ('Spero che tu... ehm... faccia buone vacanze»', 'MISC'): 1,
+  ('zio Vernon', 'PER'): 1,
+  ('Dudley', 'MISC'): 1,
+  ('FINE', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Londra': {
+    'category': 'paese',
+    'confidence': 0.27257636189460754,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.9727777777777779,
+    'early_appearance': True,
+    'positions': [2944, 14824]
+  },
+  'Vedo la Pietra... La': {
+    'category': 'casa',
+    'confidence': 0.14995476603507996,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9715388888888888,
+    'early_appearance': True,
+    'positions': [3600]
+  },
+  'Usa': {
+    'category': 'paese',
+    'confidence': 0.37329569458961487,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7505777777777778,
+    'early_appearance': False,
+    'positions': [6345, 6363]
+  },
+  'Pietra Filosofale': {
+    'category': 'scuola di magia',
+    'confidence': 0.14635777473449707,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7493388888888889,
+    'early_appearance': False,
+    'positions': [7784]
+  },
+  'Sala Grande': {
+    'category': 'sala',
+    'confidence': 0.24915333092212677,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7493388888888889,
+    'early_appearance': False,
+    'positions': [27811]
+  },
+  'Pian': {
+    'category': 'paese',
+    'confidence': 0.23593764007091522,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7493388888888889,
+    'early_appearance': False,
+    'positions': [31192]
+  },
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [4007, 29881, 32959]
+  },
+  'Gringott': {
+    'category': 'banca magica',
+    'confidence': 0.10899363458156586,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [5094]
+  },
+  'Harry Potter...» sibilò': {
+    'category': 'scuola di magia',
+    'confidence': 0.13367509841918945,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [8964]
+  },
+  'Albus Silente': {
+    'category': 'scuola di magia',
+    'confidence': 0.12121553719043732,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [13028]
+  },
+  'Pietra!': {
+    'category': 'casa',
+    'confidence': 0.12412409484386444,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [13168]
+  },
+  'Calmati': {
+    'category': 'paese',
+    'confidence': 0.24916689097881317,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [13247]
+  },
+  'Terzo': {
+    'category': 'paese',
+    'confidence': 0.2145567089319229,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [30658]
+  },
+  'Harry Potter...»': {
+    'category': 'scuola di magia',
+    'confidence': 0.17765802145004272,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [30675]
+  },
+  'Natale': {
+    'category': 'paese',
+    'confidence': 0.2243667095899582,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [33071]
+  },
+  'Hogwarts Express': {
+    'category': 'scuola di magia',
+    'confidence': 0.4545726776123047,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [34303]
+  },
+  'Potter!': {
+    'category': 'casa',
+    'confidence': 0.11471685022115707,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [35270]
+  },
+  'Harry Potter!» strillò': {
+    'category': 'scuola di magia',
+    'confidence': 0.12773121893405914,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7419388888888889,
+    'early_appearance': False,
+    'positions': [35577]
+  },
+  'Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.1253218799829483,
+    'spacy_label': 'LOC',
+    'count': 18,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [2042, 2810, 3655, 5694, 7366, 13340, 14409, 14482, 15132, 15155, 15304, 16188, 16681, 20861, 21056, 22770, 22982, 26734]
+  },
+  'Silente': {
+    'category': 'non_luogo',
+    'confidence': 0.23216769099235535,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [1428, 2880, 13327, 13790, 15443, 15819, 18273, 19327, 20309, 23094, 23579, 24074, 25390, 28397, 28470, 29376, 30701, 31123, 31170, 32171]
+  },
+  'Specchio delle Brame': {
+    'category': 'non_luogo',
+    'confidence': 0.16436322033405304,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2308388888888889,
+    'early_appearance': True,
+    'positions': [2747]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2308388888888889,
+    'early_appearance': True,
+    'positions': [1559, 7616, 28264, 28970, 29936, 29983, 30570, 30826, 30986, 32565]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2308388888888889,
+    'early_appearance': True,
+    'positions': [859, 24781, 33049]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.016072222222222224,
+    'early_appearance': False,
+    'positions': [24723, 27875, 28025, 29119, 29220, 29355, 29518, 31067, 32295, 32501]
+  },
+  'Corvonero': {
+    'category': 'non_luogo',
+    'confidence': 0.37149009108543396,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [24810, 32218]
+  },
+  'incespicò': {
+    'category': 'non_luogo',
+    'confidence': 0.29308944940567017,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [6081]
+  },
+  'Tranello del Diavolo': {
+    'category': 'non_luogo',
+    'confidence': 0.21311137080192566,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [8290]
+  },
+  'Boccino': {
+    'category': 'non_luogo',
+    'confidence': 0.32004860043525696,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [12871]
+  },
+  'Peronella': {
+    'category': 'non_luogo',
+    'confidence': 0.3584955632686615,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [16000]
+  },
+  'odiarne': {
+    'category': 'non_luogo',
+    'confidence': 0.23281428217887878,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [20647]
+  },
+  'Fuffi!': {
+    'category': 'non_luogo',
+    'confidence': 0.3098508417606354,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [25938]
+  },
+  'Cioccorana': {
+    'category': 'non_luogo',
+    'confidence': 0.33947816491127014,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [26796]
+  },
+  'Tavola delle Autori-': {
+    'category': 'non_luogo',
+    'confidence': 0.1648479700088501,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [28066]
+  },
+  'vuotarvela': {
+    'category': 'non_luogo',
+    'confidence': 0.26732954382896423,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [28800]
+  },
+  'Tassorosso': {
+    'category': 'non_luogo',
+    'confidence': 0.21051450073719025,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [29016, 32234]
+  },
+  'Spero': {
+    'category': 'non_luogo',
+    'confidence': 0.280316025018692,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [34060]
+  },
+  'Babbani': {
+    'category': 'non_luogo',
+    'confidence': 0.4614622890949249,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [34515, 34957, 35215]
+  },
+  'Ginny': {
+    'category': 'non_luogo',
+    'confidence': 0.36094459891319275,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008638888888888889,
+    'early_appearance': False,
+    'positions': [35640]
+  },
+}"
+Main Location,"{
+  'name': 'Londra',
+  'category': 'paese',
+  'spacy_label': 'LOC',
+  'confidence': 0.27257636189460754,
+  'count': 2,
+  'priority_score': 0.9727777777777779,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 77,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 45, 'sadness': 43, 'fear': 3, 'anger': 7}, 'sentiment_counts': {'positive': 44, 'negative': 54}, 'emotion_percentages': {'joy': 45.91836734693878, 'sadness': 43.87755102040816, 'fear': 3.061224489795918, 'anger': 7.142857142857142}, 'sentiment_percentages': {'positive': 44.89795918367347, 'negative': 55.10204081632652}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.314596176147461, 'Riconoscimento entità con spaCy': 0.005000114440917969, 'Analisi emozioni': 9.058524370193481, 'Classificazione delle location': 19.25622820854187, 'Tempo totale': 30.63634943962097}"
+Original Text Extract,"Capitolo 17 
+L'uomo dai due volti 
+ 
+Era Raptor. 
+«Lei!» esclamò Harry col fiato mozzo. 
+Raptor sorrise. Non un solo muscolo gli si mosse sul volto. 
+«Io» disse calmo. «Mi stavo proprio chiedendo se ti avrei incontrato qui, 
+Potter». 
+«Ma io pensavo... Piton...» 
+«Chi, Severus?» Raptor rise, e non fu la sua solita risatina tremula, bensì 
+una risata fredda e tagliente. «Sì, Severus sembra proprio il tipo giusto, 
+non è vero? È talmente utile averlo qui a svolazzare dappertutto, come un 
+pipistrello gigante! Con lui in giro, chi sospetterebbe mai del po-povero, 
+ba-balbuziente p-professor Ra-Raptor?» Harry non credeva alle proprie o-
+recchie. Non poteva essere vero! 
+«Ma Piton ha tentato di uccidermi!» 
+«No, no, no! Sono stato io. La tua amica Granger mi ha urtato involonta-
+riamente quando è corsa ad appiccare fuoco a Piton, durante la partita a 
+Quidditch. Con quello spintone ha interrotto il mio contatto visivo con te: 
+ancora pochi secondi, e sarei riuscito a disarcionarti dalla scopa. Anzi, ci 
+sarei riuscito anche prima, se Piton non avesse continuato a borbottare 
+controincantesimi nel tentativo di salvarti». 
+«Piton cercava di salvarmi?» 
+«Ma certo» disse Raptor, sempre in tono gelido. «Perché credi che vo-
+lesse arbitrare lui la tua seconda partita? Cercava di evitare che io ci ripro-
+
+vassi. Veramente buffo... Non c'era bisogno che si desse tanta pena. Non 
+avrei potuto fare niente comunque, con Silente che assisteva alla partita. 
+Tutti gli altri insegnanti pensavano che Piton stesse cercando di ostacolare 
+la vittoria del Grifondoro, lui si è reso veramente impopolare... e che gran 
+perdita di tempo, visto che nonostante tutto, stanotte ti ammazzo». 
+Raptor schioccò le dita. Dal nulla apparvero delle funi che si avvolsero 
+strette intorno a Harry. 
+«Tu sei troppo ficcanaso per continuare a vivere, Potter. Andartene in gi-
+ro a quel modo per tutta la scuola, il giorno di Halloween! Per quanto ne 
+sapevo io, mi avevi visto benissimo mentre venivo a sincerarmi di che co-
+sa ci fosse a guardia della Pietra». 
+«Allora il mostro l'ha fatto entrare lei?» 
+«Ma certamente. Ho un talento speciale con i mostri, io... Avrai visto 
+senz'altro che cosa ho fatto a quello della stanza qua accanto. Ma purtrop-
+po, mentre tutti correvano dappertutto cercando di stanarlo, Piton, che già 
+sospettava di me, è venuto dritto filato al terzo piano per intercettarmi, e 
+non solo il mio mostro non ti ha fatto a pezzi, ma neanche il cane a tre te-
+ste è riuscito a staccare la gamba a morsi a Piton come si deve. 
+«E ora, Potter, aspetta un attimo e fa' silenzio. Devo esaminare questo 
+specchio molto interessante». 
+Solo in quell'istante Harry si rese conto dell'oggetto che si trovava alle 
+spalle di Raptor. Era lo Specchio delle Brame. «Lo specchio è la chiave 
+per trovare la Pietra» mormorava Raptor mentre tastava la cornice. «Figu-
+riamoci se Silente non escogitava una cosa del genere... ma tanto lui è a 
+Londra... e per quando sarà tornato, io sarò già molto lontano». 
+Tutto quello cui Harry riusciva a pensare era di continuare a impegnare 
+Raptor nella conversazione, impedendogli di concentrarsi sullo specchio. 
+«Ho visto lei e Piton nella foresta...» gli uscì detto. 
+«Già» rispose Raptor indolente, girando attorno allo specchio per osser-
+varlo da dietro. «All'epoca, mi stava addosso, cercando di scoprire fino a 
+che punto fossi arrivato. Ha sempre sospettato di me. E ha cercato di spa-
+ventarmi... come se fosse stato possibile, con il Signore Voldemort dalla 
+mia parte!» 
+Raptor venne fuori da dietro lo specchio e ci guardò dentro avidamente. 
+«Vedo la Pietra... La offro al mio padrone, ma dov'è la Pietra?» 
+Harry cercò di divincolarsi dalle funi che lo tenevano legato, ma quelle 
+non cedettero. Doveva impedire a tutti i costi che Raptor dedicasse tutta 
+l'attenzione allo specchio. 
+
+«Eppure, mi è sempre sembrato che Piton mi odiasse tanto...» 
+«Oh, per odiarti, ti odia» disse Raptor con tono di noncuranza, «ci puoi 
+giurare che ti odia. Era a Hogwarts con tuo padre, lo sapevi? Si detestava-
+no cordialmente. Però non ti ha mai voluto morto». 
+«Eppure professore, qualche giorno fa io l'ho sentita singhiozzare... Pen-
+savo che Piton la stesse minacciando...» 
+Per la prima volta un fremito di paura attraversò il volto di Raptor. 
+«A volte» disse, «trovo difficile seguire le istruzioni del mio padrone... 
+lui è un mago grande e potente, mentre io sono debole...». 
+«Intende dire che era insieme a lei in quell'aula?» disse Harry col fiato 
+mozzo. 
+«Lui è con me ovunque io vada» disse Raptor in tono pacato. «Lo incon-
+trai all'epoca in cui giravo il mondo. Allora ero un giovanotto scervellato, 
+pieno di idee ridicole sul bene e sul male. Il Signore Voldemort mi ha di-
+mostrato quanto avessi torto. Bene e male non esistono. Esistono soltanto 
+il potere e coloro che sono troppo deboli per ricercarlo... Da allora l'ho 
+sempre servito fedelmente, benché lo abbia deluso molte volte. Ha dovuto 
+essere molto duro con me». Raptor d'"
+Token Count,8269

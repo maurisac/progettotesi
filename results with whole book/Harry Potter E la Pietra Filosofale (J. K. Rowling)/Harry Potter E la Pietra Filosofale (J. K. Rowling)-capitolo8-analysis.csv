@@ -1,0 +1,483 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:07:59
+Entities,"{
+  ('Harry', 'PER'): 40,
+  ('Hagrid', 'PER'): 24,
+  ('Ron', 'PER'): 21,
+  ('Piton', 'PER'): 20,
+  ('Hermione', 'PER'): 8,
+  ('Gringott', 'ORG'): 5,
+  ('Raptor', 'PER'): 4,
+  ('McGranitt', 'PER'): 4,
+  ('Pozioni', 'LOC'): 4,
+  ('Neville', 'PER'): 4,
+  ('Thor', 'PER'): 4,
+  ('Gazza', 'PER'): 3,
+  ('Gazza', 'LOC'): 3,
+  ('Mrs Purr', 'PER'): 3,
+  ('Malfoy', 'PER'): 3,
+  ('Aconitum', 'LOC'): 3,
+  ('Seamus', 'PER'): 3,
+  ('Hogwarts', 'MISC'): 2,
+  ('Grifondoro', 'LOC'): 2,
+  ('Pix', 'MISC'): 2,
+  ('Weasley', 'MISC'): 2,
+  ('Rüf', 'PER'): 2,
+  ('Arti Oscure', 'LOC'): 2,
+  ('Sala Grande', 'LOC'): 2,
+  ('Serpeverde', 'LOC'): 2,
+  ('Casa di Grifondoro', 'LOC'): 2,
+  ('Edvige', 'PER'): 2,
+  ('Vitious', 'MISC'): 2,
+  ('Tiger', 'PER'): 2,
+  ('Potter»', 'MISC'): 2,
+  ('Potter', 'MISC'): 2,
+  ('Grifondoro', 'PER'): 2,
+  ('Il maestro delle Pozioni 
+ 
+«Guarda lì!» 
+«Dove?» 
+«Vicino', 'MISC'): 1,
+  ('Quello con gli occhiali?» 
+«Ma hai visto che faccia?', 'MISC'): 1,
+  ('Neanche i fantasmi', 'MISC'): 1,
+  ('Nick-Quasi-
+Senza-Testa', 'LOC'): 1,
+  ('Poltergeist', 'MISC'): 1,
+  ('Ti tirava in testa il cestino', 'MISC'): 1,
+  ('Lanciava', 'LOC'): 1,
+  ('Argus Gazza', 'PER'): 1,
+  ('Erbologia', 'LOC'): 1,
+  ('Sprite', 'PER'): 1,
+  ('Storia della Magia', 'MISC'): 1,
+  ('Eme-', 'MISC'): 1,
+  ('Maligno', 'LOC'): 1,
+  ('Uric Testamatta', 'PER'): 1,
+  ('Vitious', 'PER'): 1,
+  ('Incantesimi', 'LOC'): 1,
+  ('La professoressa McGranitt', 'MISC'): 1,
+  ('Severa', 'PER'): 1,
+  ('La Trasfigurazione', 'MISC'): 1,
+  ('Hermio-', 'PER'): 1,
+  ('Granger', 'PER'): 1,
+  ('Difesa', 'ORG'): 1,
+  ('Romania', 'LOC'): 1,
+  ('Seamus Finnigan', 'PER'): 1,
+  ('Babbani', 'PER'): 1,
+  ('Final-', 'MISC'): 1,
+  ('Pozioni doppie', 'MISC'): 1,
+  ('Casa 
+dei Serpeverde', 'LOC'): 1,
+  ('rancia', 'LOC'): 1,
+  ('Caro Harry', 'PER'): 1,
+  ('Mandami la risposta', 'MISC'): 1,
+  ('E-', 'LOC'): 1,
+  ('recapitasse', 'LOC'): 1,
+  ('Meno male che Harry', 'MISC'): 1,
+  ('Pozioni', 'MISC'): 1,
+  ('Ah, vedo» disse con voce melliflua', 'MISC'): 1,
+  ('Harry Potter', 'MISC'): 1,
+  ('Draco Malfoy', 'PER'): 1,
+  ('Goyle nascosero un ghigno', 'MISC'): 1,
+  ('Hermione Granger', 'PER'): 1,
+  ('Radice in polvere di che cosa', 'MISC'): 1,
+  ('Non lo so, signore» disse', 'MISC'): 1,
+  ('Le labbra', 'MISC'): 1,
+  ('Bene, bene...', 'MISC'): 1,
+  ('Ignorò', 'PER'): 1,
+  ('Goyle', 'PER'): 1,
+  ('Non lo so, signore', 'MISC'): 1,
+  ('Immagino', 'PER'): 1,
+  ('Potter?', 'MISC'): 1,
+  ('Dursley', 'LOC'): 1,
+  ('Mille 
+erbe', 'MISC'): 1,
+  ('E... Potter', 'MISC'): 1,
+  ('Non lo so» disse', 'MISC'): 1,
+  ('Distillato della Morte Vivente', 'MISC'): 1,
+  ('Aconitum lycoctomim', 'MISC'): 1,
+  ('aconito', 'PER'): 1,
+  ('Seamus', 'LOC'): 1,
+  ('porcospino', 'PER'): 1,
+  ('Portalo in infermeria!', 'MISC'): 1,
+  ('E tu', 'MISC'): 1,
+  ('Potter...', 'MISC'): 1,
+  ('Pensavi', 'PER'): 1,
+  ('Harry apri bocca', 'MISC'): 1,
+  ('«Ho', 'PER'): 1,
+  ('Fred', 'PER'): 1,
+  ('George', 'PER'): 1,
+  ('Posso', 'PER'): 1,
+  ('Qua', 'PER'): 1,
+  ('Thor... qua!', 'MISC'): 1,
+  ('Aspettate un attimo!» disse', 'MISC'): 1,
+  ('«Sta' giù', 'PER'): 1,
+  ('Thor!» 
+Li', 'MISC'): 1,
+  ('Fate', 'PER'): 1,
+  ('Un altro Weasley', 'MISC'): 1,
+  ('Ma a me', 'MISC'): 1,
+  ('Sciocchezze!»', 'MISC'): 1,
+  ('E tuo fratello Charlie', 'MISC'): 1,
+  ('Charlie', 'PER'): 1,
+  ('Gazzetta del Profeta', 'MISC'): 1,
+  ('ALLA', 'MISC'): 1,
+  ('GRINGOTT', 'ORG'): 1,
+  ('Bo-', 'MISC'): 1,
+  ('Anzi, la camera di sicurezza', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.9718200000000001,
+    'early_appearance': True,
+    'positions': [639, 5063]
+  },
+  'Gringott': {
+    'category': 'banca magica',
+    'confidence': 0.10899363458156586,
+    'spacy_label': 'ORG',
+    'count': 5,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [18731, 18837, 19193, 19299, 19372]
+  },
+  'Sala Grande': {
+    'category': 'sala',
+    'confidence': 0.24915333092212677,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.75702,
+    'early_appearance': False,
+    'positions': [7201, 7937]
+  },
+  'Casa di Grifondoro': {
+    'category': 'casa',
+    'confidence': 0.10294932872056961,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.75702,
+    'early_appearance': False,
+    'positions': [7626, 13419]
+  },
+  'Romania': {
+    'category': 'paese',
+    'confidence': 0.45818066596984863,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [6107]
+  },
+  'Storia della Magia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11449354887008667,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [3949]
+  },
+  'Difesa': {
+    'category': 'paese',
+    'confidence': 0.33656466007232666,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [5893]
+  },
+  'Harry Potter': {
+    'category': 'scuola di magia',
+    'confidence': 0.2024143636226654,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [9811]
+  },
+  'Potter?': {
+    'category': 'scuola di magia',
+    'confidence': 0.12882943451404572,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [12106]
+  },
+  'Fate': {
+    'category': 'paese',
+    'confidence': 0.23077310621738434,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [16785]
+  },
+  'ALLA': {
+    'category': 'paese',
+    'confidence': 0.21125054359436035,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [18664]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23852,
+    'early_appearance': True,
+    'positions': [1604, 13554, 15281, 15699]
+  },
+  'Nick-Quasi-
+Senza-Testa': {
+    'category': 'non_luogo',
+    'confidence': 0.38345032930374146,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1547]
+  },
+  'Lanciava': {
+    'category': 'non_luogo',
+    'confidence': 0.3242269456386566,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1890]
+  },
+  'Pozioni': {
+    'category': 'non_luogo',
+    'confidence': 0.33101049065589905,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.025240000000000002,
+    'early_appearance': False,
+    'positions': [9066, 9300, 9400, 10218, 13527]
+  },
+  'Gazza': {
+    'category': 'non_luogo',
+    'confidence': 0.3090805113315582,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.02078,
+    'early_appearance': False,
+    'positions': [2150, 2577, 2891, 2966, 17608, 17819]
+  },
+  'Aconitum': {
+    'category': 'non_luogo',
+    'confidence': 0.31613972783088684,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.02078,
+    'early_appearance': False,
+    'positions': [12469, 12491, 13164]
+  },
+  'Arti Oscure': {
+    'category': 'non_luogo',
+    'confidence': 0.14207136631011963,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01632,
+    'early_appearance': False,
+    'positions': [5911, 18801]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01632,
+    'early_appearance': False,
+    'positions': [7357, 7442]
+  },
+  'Erbologia': {
+    'category': 'non_luogo',
+    'confidence': 0.16295988857746124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [3717]
+  },
+  'Maligno': {
+    'category': 'non_luogo',
+    'confidence': 0.2989206612110138,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [4367]
+  },
+  'Incantesimi': {
+    'category': 'non_luogo',
+    'confidence': 0.3259027302265167,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [4440]
+  },
+  'Casa 
+dei Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.14010576903820038,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [7400]
+  },
+  'rancia': {
+    'category': 'non_luogo',
+    'confidence': 0.2306338995695114,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [8420]
+  },
+  'E-': {
+    'category': 'non_luogo',
+    'confidence': 0.3081992566585541,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [8940]
+  },
+  'recapitasse': {
+    'category': 'non_luogo',
+    'confidence': 0.2485220730304718,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [8960]
+  },
+  'Dursley': {
+    'category': 'non_luogo',
+    'confidence': 0.33253800868988037,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [12253]
+  },
+  'Seamus': {
+    'category': 'non_luogo',
+    'confidence': 0.3797699213027954,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [12771, 12780, 14212, 15000]
+  },
+}"
+Main Location,"{
+  'name': 'Hogwarts',
+  'category': 'scuola di magia',
+  'spacy_label': 'MISC',
+  'confidence': 0.4973960816860199,
+  'count': 2,
+  'priority_score': 0.9718200000000001,
+  'early_appearance': True,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 40,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 29, 'sadness': 37, 'fear': 7, 'anger': 20}, 'sentiment_counts': {'positive': 32, 'negative': 61}, 'emotion_percentages': {'joy': 31.182795698924732, 'sadness': 39.784946236559136, 'fear': 7.526881720430108, 'anger': 21.50537634408602}, 'sentiment_percentages': {'positive': 34.40860215053764, 'negative': 65.59139784946237}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.4643285274505615, 'Riconoscimento entità con spaCy': 0.0020036697387695312, 'Analisi emozioni': 14.246501684188843, 'Classificazione delle location': 32.19342112541199, 'Tempo totale': 47.90925455093384}"
+Original Text Extract,"Capitolo 8 
+Il maestro delle Pozioni 
+ 
+«Guarda lì!» 
+«Dove?» 
+«Vicino a quello alto coi capelli rossi». 
+«Quello con gli occhiali?» 
+«Ma hai visto che faccia?» 
+«E la cicatrice, l'hai vista?» 
+Il giorno dopo, da quando Harry ebbe lasciato il dormitorio, fu inseguito 
+da una miriade di bisbigli. I ragazzi, in fila fuori delle classi, si alzavano in 
+punta dei piedi per dargli un'occhiata anche solo per un attimo, oppure lo 
+superavano lungo i corridoi per poi tornare indietro a osservarlo meglio. 
+Harry avrebbe preferito che non lo facessero, perché stava cercando di 
+concentrarsi sul percorso da seguire per arrivare in classe. 
+A Hogwarts c'erano centoquarantadue scalinate: alcune ampie e spazio-
+se; altre strette e pericolanti; alcune che il venerdì portavano in luoghi di-
+versi; altre con a metà un gradino che scompariva e che bisognava ricor-
+darsi di saltare. Poi c'erano porte che non si aprivano, a meno di non chie-
+derglielo cortesemente o di non far loro il solletico nel punto giusto, e por-
+te che non erano affatto porte ma facevano finta di esserlo. Molto difficile 
+era anche ricordare dove fossero le cose, perché tutto sembrava soggetto a 
+
+continui spostamenti: i personaggi dei ritratti si allontanavano continua-
+mente per farsi visita l'uno con l'altro, e Harry avrebbe giurato che le arma-
+ture camminassero. 
+Neanche i fantasmi contribuivano a rendere più semplice la situazione. 
+Era assai sgradevole quando uno di loro, all'improvviso, scivolava attra-
+verso una porta che un ragazzo stava cercando di aprire. Nick-Quasi-
+Senza-Testa era sempre felice di indicare ai Grifondoro la giusta direzione, 
+ma Pix il Poltergeist, se lo incontravi quando eri in ritardo per una lezione, 
+era capace di farti trovare due porte sprangate e una scala a trabocchetto. 
+Ti tirava in testa il cestino della carta straccia, ti sfilava il tappeto da sotto i 
+piedi, ti Lanciava addosso pezzi di gesso oppure, avvicinatosi di soppiatto, 
+ti afferrava il naso e strillava: «PRESO!» 
+Ancor peggio di Pix, se possibile, era il custode Argus Gazza. Harry e 
+Ron riuscirono a prenderlo per il verso sbagliato fin dalla prima mattina. 
+Gazza lì sorprese mentre cercavano di passare per una porta, che sfortuna-
+tamente risultò essere l'entrata al corridoio del terzo piano di cui era vietato 
+l'accesso agli studenti. Non volle credere che si fossero smarriti, convinto 
+com'era che stessero cercando di forzarne l'entrata di proposito, e minacciò 
+di rinchiuderli in prigione, se non fosse stato per il professor Raptor che 
+passava in quel momento e li salvò. 
+Gazza possedeva una gatta di nome Mrs Purr, una creatura color polve-
+re, tutta pelle e ossa, con due occhi sporgenti come fari, spiccicata al suo 
+padrone. La gatta pattugliava i corridoi da sola. Bastava infrangere una re-
+gola di fronte a lei, mettere appena un piede fuori riga, ed eccola correre in 
+cerca di Gazza, il quale puntualmente appariva due secondi dopo, tutto an-
+simante. Gazza conosceva i passaggi segreti della scuola meglio di chiun-
+que altro (tranne forse i gemelli Weasley) ed era capace di sbucare fuori al-
+l'improvviso al pari dei fantasmi. Gli studenti lo detestavano, e desiderava-
+no con tutto il cuore di riuscire ad assestare un bel calcio a Mrs Purr. 
+E poi, una volta che uno riusciva a trovare la classe, c'erano le lezioni. 
+Come Harry scoprì ben presto, la magia era tutt'altra cosa dall'agitare sem-
+plicemente la bacchetta magica pronunciando parole incomprensibili. 
+Ogni mercoledì a mezzanotte bisognava studiare il cielo stellato con i te-
+lescopi e imparare il nome delle stelle e i movimenti dei pianeti. Tre volte 
+alla settimana, ci si doveva recare nella serra dietro al castello per studiare 
+Erbologia con una strega piccola e tarchiata, la professoressa Sprite, con la 
+quale i ragazzi imparavano a coltivare tutte le piante e i funghi più strani, e 
+a scoprire a cosa servivano. 
+
+Indubbiamente, la lezione più noiosa era Storia della Magia, l'unico cor-
+so tenuto da un fantasma. Il professor Rüf era già molto, molto vecchio 
+quando si era addormentato davanti al camino della sala dei professori e, la 
+mattina dopo, alzatosi per andare a fare lezione, si era lasciato dietro il cor-
+po. Rüf non la finiva più di parlare con voce monotona, mentre i ragazzi 
+prendevano nota di nomi e date, facendo una solenne confusione tra Eme-
+ric il Maligno e Uric Testamatta. 
+Invece il professor Vitious, l'insegnante di Incantesimi, era un mago bas-
+so e mingherlino che doveva salire sopra una pila di libri per vedere al di 
+là della cattedra. All'inizio della prima lezione prese il registro e, quando 
+arrivò al nome di Harry diede un gridolino eccitato e ruzzolò giù, scompa-
+rendo alla vista. 
+La professoressa McGranitt era ancora diversa. Harry aveva avuto ra-
+gione di pensare che era meglio non contrariarla. Severa e intelligente, fece 
+un bel discorsetto ai ragazzi nel momento stesso in cui si sedettero per a-
+scoltare la sua prima lezione. 
+«La Trasfigurazione è un"
+Token Count,4287

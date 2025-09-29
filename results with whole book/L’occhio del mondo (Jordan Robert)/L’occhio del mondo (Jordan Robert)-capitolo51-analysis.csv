@@ -1,0 +1,465 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:35:24
+Entities,"{
+  ('Rand', 'MISC'): 53,
+  ('Luce', 'LOC'): 11,
+  ('Trolloc', 'LOC'): 8,
+  ('Aginor', 'MISC'): 5,
+  ('Luce', 'MISC'): 5,
+  ('Aginor', 'PER'): 3,
+  ('Tenebroso', 'PER'): 3,
+  ('Ombra', 'LOC'): 2,
+  ('Reietto', 'PER'): 2,
+  ('Reietto', 'MISC'): 2,
+  ('Aginor', 'ORG'): 2,
+  ('Fade', 'ORG'): 2,
+  ('Trolloc', 'ORG'): 2,
+  ('Draghkar', 'MISC'): 2,
+  ('Mezzi Uomini', 'MISC'): 2,
+  ('Fade', 'MISC'): 2,
+  ('NON', 'MISC'): 2,
+  ('QUI', 'MISC'): 2,
+  ('Ba’alzamon', 'MISC'): 2,
+  ('Disegno', 'MISC'): 2,
+  ('Ti nego', 'MISC'): 2,
+  ('Nynaeve', 'PER'): 2,
+  ('Moiraine', 'PER'): 1,
+  ('Ansimando', 'LOC'): 1,
+  ('Torno indietro e faccio il giro', 'MISC'): 1,
+  ('Shayol 
+Ghul', 'PER'): 1,
+  ('Signore delle Tenebre', 'MISC'): 1,
+  ('Lews Therin Telamon', 'PER'): 1,
+  ('Sala dei Servitori', 'LOC'): 1,
+  ('Signore del Mattino', 'MISC'): 1,
+  ('Custode', 'LOC'): 1,
+  ('Macchia', 'LOC'): 1,
+  ('Ronzava', 'PER'): 1,
+  ('Cantava', 'LOC'): 1,
+  ('Chiamava l’anima di Rand', 'MISC'): 1,
+  ('No!» gridò', 'MISC'): 1,
+  ('Mio!»', 'MISC'): 1,
+  ('Mio!» Una fiammata', 'MISC'): 1,
+  ('Reietto urlò', 'MISC'): 1,
+  ('vibrassero', 'LOC'): 1,
+  ('Trolloc in lotta', 'MISC'): 1,
+  ('Trolloc moribondi', 'MISC'): 1,
+  ('Falco Nero', 'MISC'): 1,
+  ('Fal Dara', 'LOC'): 1,
+  ('Cervo Bianco dello Shienar', 'LOC'): 1,
+  ('Dha’vol', 'ORG'): 1,
+  ('Ko’bal', 'MISC'): 1,
+  ('Dhai’mon', 'MISC'): 1,
+  ('Cavalli', 'PER'): 1,
+  ('galoppavano', 'LOC'): 1,
+  ('zufolio', 'PER'): 1,
+  ('Shienar', 'LOC'): 1,
+  ('Trolloc', 'MISC'): 1,
+  ('Draghkar', 'PER'): 1,
+  ('Calore terribile', 'MISC'): 1,
+  ('Calore', 'LOC'): 1,
+  ('Strida', 'LOC'): 1,
+  ('No!» 
+Afferrò ciuffi d’ispida erba', 'MISC'): 1,
+  ('ululò', 'PER'): 1,
+  ('Graffiò', 'PER'): 1,
+  ('Increspature', 'PER'): 1,
+  ('La Luce ti fulmini', 'MISC'): 1,
+  ('NON VI PRENDERÒ PARTE', 'MISC'): 1,
+  ('PRESCELTO', 'ORG'): 1,
+  ('FARE', 'MISC'): 1,
+  ('VA', 'LOC'): 1,
+  ('SE VORRÀ', 'LOC'): 1,
+  ('Dove?» Rand', 'MISC'): 1,
+  ('Bisognava', 'MISC'): 1,
+  ('Rand', 'LOC'): 1,
+  ('chiara', 'PER'): 1,
+  ('Sì» disse Ba’alzamon', 'MISC'): 1,
+  ('Ero', 'PER'): 1,
+  ('Credi che faccia differenza', 'MISC'): 1,
+  ('«Sei', 'PER'): 1,
+  ('Tar Valon', 'PER'): 1,
+  ('Amici delle Tenebre', 'MISC'): 1,
+  ('Posso', 'PER'): 1,
+  ('rintracciarmi', 'LOC'): 1,
+  ('Aiel', 'PER'): 1,
+  ('Jain Farstrider', 'PER'): 1,
+  ('Ogier', 'PER'): 1,
+  ('Ajah Nera', 'MISC'): 1,
+  ('Amyrlin Seat', 'PER'): 1,
+  ('galleggiò', 'LOC'): 1,
+  ('Sarai', 'PER'): 1,
+  ('Amico delle Tenebre', 'PER'): 1,
+  ('Guarda» disse Ba’alzamon', 'MISC'): 1,
+  ('«Guarda', 'PER'): 1,
+  ('Egwene', 'PER'): 1,
+  ('Sapiente', 'MISC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Madre', 'PER'): 1,
+  ('No!', 'MISC'): 1,
+  ('Ti nego!» Egwene', 'MISC'): 1,
+  ('Kari al’', 'PER'): 1,
+  ('Thor', 'PER'): 1,
+  ('Lacrime', 'LOC'): 1,
+  ('Il Signore dei Morti', 'MISC'): 1,
+  ('Il Padre delle Menzogne', 'MISC'): 1,
+  ('Aiutami!', 'MISC'): 1,
+  ('Fade dal viso scoperto', 'MISC'): 1,
+  ('Le grida di Rand', 'MISC'): 1,
+  ('Abisso del Destino', 'MISC'): 1,
+  ('Sciocco! 
+Distruggerai', 'MISC'): 1,
+  ('Potere', 'ORG'): 1,
+  ('alzamon urlò e urlò', 'MISC'): 1,
+  ('Fuoco', 'MISC'): 1,
+  ('Ba’', 'MISC'): 1,
+  ('affievolivano', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.9758749999999999,
+    'early_appearance': True,
+    'positions': [15, 2020]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9730875,
+    'early_appearance': True,
+    'positions': [85, 277, 470, 599, 866, 1048, 1539, 2300, 3039, 3151, 3439, 3447, 3696, 3918, 4099, 4227, 4446, 4811, 5446, 5793, 6043, 6183, 6531, 6628, 7197, 7343, 7816, 8081, 8373, 8398, 9064, 9152, 9518, 9861, 10034, 10260, 10534, 10658, 11625, 12807, 13305, 13665, 14656, 14868, 15898, 16171, 16517, 16708, 17924, 18048, 18338, 18993, 19468, 19876]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 5,
+    'priority_score': 0.7546375000000001,
+    'early_appearance': False,
+    'positions': [4321, 4502, 4595, 4615, 7808, 9743, 10528, 11591, 13830, 14774, 16613, 17662, 18003, 18012, 18203, 18526]
+  },
+  'Sala dei Servitori': {
+    'category': 'castello',
+    'confidence': 0.10794863104820251,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [2162]
+  },
+  'VA': {
+    'category': 'paese',
+    'confidence': 0.17562514543533325,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7508875,
+    'early_appearance': False,
+    'positions': [9262]
+  },
+  'NON': {
+    'category': 'paese',
+    'confidence': 0.3210059702396393,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [9121, 9651]
+  },
+  'chiara': {
+    'category': 'paese',
+    'confidence': 0.2122705727815628,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [11315]
+  },
+  'Ero': {
+    'category': 'paese',
+    'confidence': 0.23139603435993195,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [11398]
+  },
+  'Sarai': {
+    'category': 'paese',
+    'confidence': 0.30807170271873474,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [15167]
+  },
+  'Madre': {
+    'category': 'paese',
+    'confidence': 0.2779667377471924,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [16155]
+  },
+  'Thor': {
+    'category': 'paese',
+    'confidence': 0.2889701724052429,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [16393]
+  },
+  'Fuoco': {
+    'category': 'paese',
+    'confidence': 0.3249157667160034,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7434875000000001,
+    'early_appearance': False,
+    'positions': [19670]
+  },
+  'Ansimando': {
+    'category': 'non_luogo',
+    'confidence': 0.29766878485679626,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.2323875,
+    'early_appearance': True,
+    'positions': [855]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [5057, 5754, 5976, 6845, 6979, 8179, 8252, 8621, 8786, 13439, 15319]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [3185]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [3214]
+  },
+  'Cantava': {
+    'category': 'non_luogo',
+    'confidence': 0.2829228937625885,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [3342]
+  },
+  'vibrassero': {
+    'category': 'non_luogo',
+    'confidence': 0.22506876289844513,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [5363]
+  },
+  'Fal Dara': {
+    'category': 'non_luogo',
+    'confidence': 0.2897796332836151,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [5680]
+  },
+  'Cervo Bianco dello Shienar': {
+    'category': 'non_luogo',
+    'confidence': 0.13972586393356323,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [5693]
+  },
+  'galoppavano': {
+    'category': 'non_luogo',
+    'confidence': 0.1689288467168808,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [6399]
+  },
+  'Shienar': {
+    'category': 'non_luogo',
+    'confidence': 0.2666455805301666,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [6900]
+  },
+  'Calore': {
+    'category': 'non_luogo',
+    'confidence': 0.14108897745609283,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [7548]
+  },
+  'Strida': {
+    'category': 'non_luogo',
+    'confidence': 0.27532055974006653,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [7663]
+  },
+  'SE VORRÀ': {
+    'category': 'non_luogo',
+    'confidence': 0.19163741171360016,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [9272]
+  },
+  'rintracciarmi': {
+    'category': 'non_luogo',
+    'confidence': 0.2013125866651535,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [13955]
+  },
+  'galleggiò': {
+    'category': 'non_luogo',
+    'confidence': 0.19876158237457275,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [14998]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [16097]
+  },
+  'Lacrime': {
+    'category': 'non_luogo',
+    'confidence': 0.26343801617622375,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.0101875,
+    'early_appearance': False,
+    'positions': [16655]
+  },
+}"
+Main Location,"{
+  'name': 'Ombra',
+  'category': 'casa',
+  'spacy_label': 'LOC',
+  'confidence': 0.10745591670274734,
+  'count': 2,
+  'priority_score': 0.9758749999999999,
+  'early_appearance': True,
+  'sound_category': 'casa',
+}"
+Main Character,"{
+  'name': 'Aginor',
+  'count': 3,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 61, 'fear': 3, 'joy': 24, 'anger': 6}, 'sentiment_counts': {'negative': 71, 'positive': 23}, 'emotion_percentages': {'sadness': 64.8936170212766, 'fear': 3.1914893617021276, 'joy': 25.53191489361702, 'anger': 6.382978723404255}, 'sentiment_percentages': {'negative': 75.53191489361703, 'positive': 24.46808510638298}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.022974729537964, 'Riconoscimento entità con spaCy': 0.0019958019256591797, 'Analisi emozioni': 17.170362949371338, 'Classificazione delle location': 27.197728157043457, 'Tempo totale': 46.395063161849976}"
+Original Text Extract,"51 
+ 
+Contro l’Ombra 
+ 
+ 
+ 
+ 
+Da quella parte il terreno saliva. Spinto dalla paura, Rand si aprì la strada cespugli fioriti e roseti 
+selvatici, sparpagliando petali, senza badare se le spine gli laceravano anche la pelle, oltre ai vestiti. 
+Moiraine aveva smesso di gridare. Rand aveva creduto che quelle urla strazianti dovessero continuare 
+per sempre, ma erano durate solo alcuni attimi. E ora Aginor si sarebbe messo sulle sue tracce, avrebbe 
+inseguito solo lui: Rand gliel’aveva letto negli occhi, in quell’ultimo secondo, prima di fuggire 
+terrorizzato.  
+Il terreno divenne più ripido, ma Rand continuò a correre, ad afferrarsi agli arbusti se provocava 
+piccole frane di sassi e di terriccio lungo il pendio, e infine a strisciare a quattro zampe, quando la 
+pendenza divenne troppo forte. In alto, più avanti, il terreno si livellava un poco. Ansimando, Rand si 
+arrampicò per l’ultimo tratto, si tirò in piedi e si bloccò: all’improvviso aveva voglia di ululare di 
+rabbia,  
+Dieci passi più avanti, la collina formava uno strapiombo. Rand sapeva già che cosa avrebbe visto, 
+ma avanzò ugualmente, a passi pesanti, con la speranza che ci fosse un sentiero, una pista di capre, 
+qualsiasi cosa. Giunto sull’orlo, vide un precipizio di quattrocento piedi, una parete di roccia liscia 
+come tavolame piallato.  
+“Dev’esserci una via!” si disse. “Torno indietro e faccio il giro. Torno indietro e…”  
+Quando si girò, Aginor era già arrivato alla cresta. Il Reietto salì senza difficoltà sul tratto piano. 
+Con occhi ardenti fissò Rand. Aveva un aspetto meno avvizzito, più in carne, come se si fosse 
+rimpinzato di cibo. Quando parlò, parve quasi rivolgersi a se stesso.  
+«Ba’alzamon darà ricompense superiori a qualsiasi sogno di mortali, a colui che ti porterà a Shayol 
+Ghul. I miei sogni sono sempre stati più grandiosi di quelli degli altri uomini e da millenni mi sono 
+lasciato alle spalle la mortalità. Cosa cambia, se servi il Signore delle Tenebre da morto o da vivo? 
+Niente, per la diffusione dell’Ombra. Perché dovrei dividere con te il potere? Perché dovrei piegare il 
+ginocchio davanti a te? Io, che affrontai Lews Therin Telamon nella Sala dei Servitori. Io, che lottai 
+con tutta la mia potenza contro il Signore del Mattino e ribattei colpo su colpo. Non vedo motivo.»  
+Rand si sentì seccare la bocca e raggrinzire la lingua. Con i talloni sfiorò il bordo del precipizio e 
+scalzò qualche pietra. Non osò guardare, ma udì i sassi rimbalzare contro la parete a picco, come anche 
+lui avrebbe fatto se si fosse mosso ancora di un dito. Per la prima volta capì da che cosa fuggiva, oltre 
+al Reietto. Si sentì accapponare la pelle. Doveva esserci un modo per allontanarsi da lui, doveva esserci 
+una via di fuga!  
+A un tratto intuì e con la mente vide un lucido cordone, bianco come sole scorto attraverso la più 
+candida delle nubi, più grosso del braccio d’un fabbro, più leggero dell’aria, che si allungava dietro 
+Aginor e lo collegava a qualcosa al di là della conoscenza, qualcosa a portata della mano di Rand. Il 
+cordone pulsò e a ogni pulsazione Aginor divenne più forte, più muscoloso, un uomo alto e forte come 
+Rand stesso, un uomo più duro del Custode, più micidiale della Macchia. Eppure, a parte quel lucente 
+cordone ombelicale, il Reietto pareva quasi non esistere. Il cordone era tutto. Ronzava. Cantava. 
+Chiamava l’anima di Rand. Un filamento luminoso spesso un dito si sollevò, vagò, toccò Rand. E Rand 
+ansimò, si sentì riempire di luce e di calore che avrebbe dovuto bruciarlo e invece lo riscaldava 
+
+soltanto, come se gli togliesse dalle ossa il gelo della tomba. Il filamento divenne più grosso.  
+«No!» gridò Aginor. «Non l’avrai! È mio!»  
+Rand non si mosse, e neppure il Reietto si mosse, tuttavia entrambi lottarono come se fossero 
+avvinghiati nella polvere. Il sudore imperlò il viso di Aginor, non più rinsecchito di quello d’un uomo 
+nel fiore degli anni. Rand pulsò all’unisono con il cordone ombelicale, come se quello fosse il battito 
+del cuore del mondo. La luce gli riempì la mente fino a lasciare solo un angolino per lui stesso. Rand 
+avvolse il vuoto attorno a quell’angolino, lo riparò nel nulla.  
+«Mio!» gridò Aginor. «Mio!»  
+Il calore aumentò, dentro Rand: il calore del sole, la radiosità del sole, la terrificante radiosità della 
+luce, della Luce.  
+«Mio!» Una fiammata scaturì dalla bocca di Aginor, schizzò dagli occhi come lancia di fuoco, e il 
+Reietto urlò.  
+E Rand non fu più in cima alla collina. Rabbrividì per la Luce che lo inondava. Non riusciva a 
+pensare: luce e calore gli annebbiavano la mente.  
+La Luce. Nel vuoto, la Luce lo accecò, lo intontì, lo riempì di timore reverenziale.  
+Si trovava in un ampio passo montano, circondato da picchi neri e frastagliati, simili ai denti del 
+Tenebroso. Il passo era reale, Rand sentiva le pietre sotto la suola degli stivali e il vento gelido contro 
+le guance.  
+Era in mezzo a una battaglia, o alla coda di una battaglia. Cavalieri in armatura, acciaio lucente"
+Token Count,4295

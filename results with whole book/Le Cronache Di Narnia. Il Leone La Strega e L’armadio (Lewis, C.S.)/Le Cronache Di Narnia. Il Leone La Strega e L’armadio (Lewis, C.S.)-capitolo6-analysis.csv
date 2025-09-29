@@ -1,0 +1,255 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:12:20
+Entities,"{
+  ('Lucy', 'PER'): 18,
+  ('Susan', 'PER'): 16,
+  ('Edmund', 'PER'): 13,
+  ('Peter', 'PER'): 13,
+  ('Peter', 'LOC'): 11,
+  ('Ah', 'PER'): 3,
+  ('Tumnus', 'PER'): 3,
+  ('Impossibile', 'ORG'): 2,
+  ('MAESTÀ', 'MISC'): 2,
+  ('Strega Bianca', 'PER'): 2,
+  ('Nella foresta
+—', 'MISC'): 1,
+  ('Macready', 'ORG'): 1,
+  ('Naftalina', 'PER'): 1,
+  ('Freddo', 'MISC'): 1,
+  ('Usciamo', 'PER'): 1,
+  ('Ooooooh', 'PER'): 1,
+  ('Perbacco', 'PER'): 1,
+  ('Oh', 'PER'): 1,
+  ('Diamine', 'PER'): 1,
+  ('esplo-', 'LOC'): 1,
+  ('Prendiamo qualche pelliccia', 'MISC'): 1,
+  ('Brava', 'PER'): 1,
+  ('Possiamo far finta', 'MISC'): 1,
+  ('Polo Nord', 'LOC'): 1,
+  ('Lu', 'PER'): 1,
+  ('Dentro la caverna', 'MISC'): 1,
+  ('lun-go', 'MISC'): 1,
+  ('Credo di sì — rispose', 'MISC'): 1,
+  ('INQUILINO', 'MISC'): 1,
+  ('ABITAVA', 'MISC'): 1,
+  ('IL FAUNO', 'MISC'): 1,
+  ('TUMNUS', 'MISC'): 1,
+  ('IN CARCERE', 'MISC'): 1,
+  ('ATTESA', 'ORG'): 1,
+  ('PROCESSO', 'MISC'): 1,
+  ('RISPONDERE', 'ORG'): 1,
+  ('ACCUSA DI ALTO', 'MISC'): 1,
+  ('TRADIMENTO CONTRO', 'MISC'): 1,
+  ('JADIS', 'MISC'): 1,
+  ('REGINA', 'ORG'): 1,
+  ('NARNIA', 'MISC'): 1,
+  ('CAIR PARAVEL', 'MISC'): 1,
+  ('DELLE ISOLE
+SOLITARIE', 'MISC'): 1,
+  ('DATO ASILO', 'MISC'): 1,
+  ('NEMICI', 'ORG'): 1,
+  ('SPIE', 'ORG'): 1,
+  ('NELLA', 'MISC'): 1,
+  ('FRATERNIZZATO', 'ORG'): 1,
+  ('ESSERI UMANI', 'MISC'): 1,
+  ('MAUGRIM', 'MISC'): 1,
+  ('SE-GRETA', 'PER'): 1,
+  ('REGINA!', 'MISC'): 1,
+  ('Narnia', 'LOC'): 1,
+  ('Natale', 'MISC'): 1,
+  ('Oh, no!', 'MISC'): 1,
+  ('Dico', 'PER'): 1,
+  ('Come-diavolo-
+si-chiama', 'MISC'): 1,
+  ('Guardate', 'LOC'): 1,
+  ('Tumnus?', 'MISC'): 1,
+  ('Vedete', 'PER'): 1,
+  ('Peter?
+— Sembrerebbe di sì — rispose', 'MISC'): 1,
+  ('Proviamo', 'LOC'): 1,
+  ('Camminavano', 'LOC'): 1,
+  ('Ssst', 'PER'): 1,
+  ('Santo', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7501272727272728,
+    'early_appearance': False,
+    'positions': [5787]
+  },
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7447545454545454,
+    'early_appearance': False,
+    'positions': [5857, 6440]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 11,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [405, 839, 1170, 1414, 1618, 1753, 2422, 2516, 2985, 3136, 3677, 4852, 5021, 5109, 5701, 6691, 7030, 7414, 8502, 9003, 9175, 9308, 9564, 10156]
+  },
+  'esplo-': {
+    'category': 'non_luogo',
+    'confidence': 0.3160156011581421,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [1440]
+  },
+  'Polo Nord': {
+    'category': 'non_luogo',
+    'confidence': 0.14393822848796844,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [2325]
+  },
+  'Guardate': {
+    'category': 'non_luogo',
+    'confidence': 0.3019152283668518,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [7579]
+  },
+  'Proviamo': {
+    'category': 'non_luogo',
+    'confidence': 0.30710139870643616,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [8511]
+  },
+  'Camminavano': {
+    'category': 'non_luogo',
+    'confidence': 0.29923704266548157,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009427272727272729,
+    'early_appearance': False,
+    'positions': [8941]
+  },
+}"
+Main Location,"{
+  'name': 'Strega Bianca',
+  'category': 'carcere magico',
+  'spacy_label': 'PER',
+  'confidence': 0.10352206230163574,
+  'count': 2,
+  'priority_score': 0.7447545454545454,
+  'early_appearance': False,
+  'sound_category': 'carcere magico',
+}"
+Main Character,"{
+  'name': 'Lucy',
+  'count': 18,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 36, 'sadness': 35, 'anger': 12, 'fear': 7}, 'sentiment_counts': {'positive': 34, 'negative': 56}, 'emotion_percentages': {'joy': 40.0, 'sadness': 38.88888888888889, 'anger': 13.333333333333334, 'fear': 7.777777777777778}, 'sentiment_percentages': {'positive': 37.77777777777778, 'negative': 62.22222222222222}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.6281435489654541, 'Riconoscimento entità con spaCy': 0.0009987354278564453, 'Analisi emozioni': 10.975716590881348, 'Classificazione delle location': 33.8991334438324, 'Tempo totale': 45.50699162483215}"
+Original Text Extract,"6
+Nella foresta
+— Mi auguro che la Macready finisca presto il suo giro — disse Susan.
+— Mi vengono i crampi a star così rannicchiata.
+— Ma che cattivo odore — esclamò Edmund. — Naftalina, canfora...
+— Eh, sì — rispose Susan. — È per tenere lontane le tarme. Si mettono
+palline di naftalina nelle tasche dei vestiti e canfora sul fondo degli armadi.
+— Ma c'è anche qualcosa che punge la schiena — brontolò Peter.
+— E non senti freddo, tu? — chiese Susan.
+— Già, adesso che mi ci fai pensare ho freddo anch'io. Freddo e umido,
+anzi bagnato, come se fossi seduto sul bagnato. Cosa diavolo può esserci,
+qui dentro?
+— Usciamo — propose Edmund. — Devono essere andati via.
+— Ooooooh... — esclamò Susan proprio in quel momento.
+— Cosa c'è?
+— Io... sono seduta contro un albero. E guardate laggiù, quel chiarore.
+— Perbacco, hai ragione — esclamò Peter. — Si va facendo chiaro,
+sempre più chiaro, e ci sono alberi dappertutto. Be', sembra di essere nel
+bosco di Lucy.
+Impossibile sbagliarsi, ormai. Alle loro spalle, cappotti e pellicce pende-
+vano in bell'ordine; davanti a loro, invece, si stendeva un bosco di grandi
+alberi coperti di neve. Era un chiaro mattino d'inverno.
+
+Peter si volse dalla parte di Lucy e disse: — Scusami se non ti ho credu-
+to. Facciamo la pace, vuoi?
+— Oh, certo — rispose Lucy, e i due ragazzi si strinsero la mano.
+— E ora cosa facciamo? — chiese Susan.
+— Cosa facciamo? — ripeté sbalordito Peter. — Diamine, si va a esplo-
+rare il bosco, naturalmente.
+— Brrr, che freddo — esclamò Susan, battendo i piedi per riscaldarsi. —
+Prendiamo qualche pelliccia, che ne dite?
+— Non sono nostre — obiettò Peter.
+— Non ha importanza — replicò Susan. — Non le portiamo mica via.
+Non le facciamo neanche uscire dall'armadio.
+— Brava — esclamò Peter. — Non ci avrei mai pensato, ma hai ragione.
+Ognuno può prendere la pelliccia che vuole, in realtà non le faremo uscire
+dall'armadio. Questo bosco è tutto dentro l'armadio.
+I ragazzi fecero come aveva consigliato Susan. Indossarono ognuno una
+pelliccia e, benché cercassero le misure più piccole, alla fine sembrarono
+avvolti in mantelli regali che scendevano fino ai piedi, con l'aggiunta di un
+piccolo strascico. Ma così stavano caldi e in un certo senso si intonavano di
+più al paesaggio che li circondava.
+— Possiamo far finta di essere esploratori che vanno al Polo Nord —
+disse Lucy.
+— La nostra avventura mi sembra già abbastanza straordinaria — osser-
+vò Peter. — Non c'è proprio bisogno che ci inventiamo dell'altro.
+Si addentrarono nella foresta, Peter davanti a tutti. Sopra di loro il cielo
+prometteva altra neve.
+A un certo punto Edmund disse: — Secondo me sarebbe meglio piegare
+un po' a sinistra, se vogliamo arrivare al lampione.
+Per un attimo Edmund dimenticò di aver sempre sostenuto che lui, nel
+bosco, non c'era mai stato, anzi che erano tutte fantasie di Lucy. Ma non
+appena ebbe aperto bocca si accorse che gli era scappata la verità. I fratelli
+si fermarono a guardarlo, stupiti.
+— Ah, è così — esclamò Peter. — Sei già stato qui, allora. Eppure,
+quando Lu diceva di averti incontrato, tu l'hai fatta passare per bugiarda. —
+Ci fu un lungo silenzio, poi Peter riprese: — Di tutti i serpentelli vele-nosi,
+tu... — Qui si interruppe, alzò le spalle e non aggiunse altro. In effet-ti,
+sembrava proprio che non ci fossero parole adatte a commentare il com-
+
+portamento di Edmund. La piccola comitiva si rimise in marcia, come se
+niente fosse. Ma Edmund si sentiva scornato e mugugnava tra sé: — Ve la
+
+farò pagare a tutti. Siete un branco di stupidi, arroganti, presuntuosi.
+— In ogni modo dove andiamo? Da che parte? — chiese Susan, tanto per
+riprendere la conversazione.
+— Deciderà Lucy — rispose Peter. — Credo che meriti l'onore di farci da
+guida. Allora, Lucy, dove ci porti?
+— Perché non andiamo a casa del signor Tumnus? — propose Lucy. — È
+il simpatico fauno di cui vi ho già parlato.
+Furono tutti d'accordo e Lucy si mise alla testa del drappello. Dapprima
+sembrò preoccupata, poi cominciò a riconoscere i luoghi da certi piccoli
+particolari, un vecchio ceppo isolato laggiù o un albero dalla forma strana
+poco più avanti. Camminavano di buon passo, battendo i piedi sulla neve, e
+presto arrivarono al luogo dove le grosse rocce spuntavano dal terreno,
+intorno alla valle su cui si affacciava la caverna del signor Tumnus. Qui, li
+attendeva una brutta sorpresa: la porta era stata letteralmente strappata dai
+cardini ed era a terra, in pezzi.
+Dentro la caverna era buio e freddo, con il caratteristico odore dei posti
+non più abitati. Sul pavimento si ammucchiava la neve spinta dal vento e
+mischiata con la cenere del focolare: qua e là si vedevano tizzoni spenti e
+rametti bruciacchiati; c'era una gran quantità di cocci, tavolo e sedie erano a
+gambe all'aria e il ritratto del padre del fauno era stato tagliuzzato in lun-go
+e in largo.
+— Questo cos'è? — chiese Peter, avanzando di qualche passo.
+Aveva notato un pezzo di carta appuntato sul tappeto con uno spillo.
+— C'è scritto qualcosa? — domandò Susan.
+— C"
+Token Count,2331

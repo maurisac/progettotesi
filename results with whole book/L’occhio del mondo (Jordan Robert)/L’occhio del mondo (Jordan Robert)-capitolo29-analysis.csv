@@ -1,0 +1,703 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:30:12
+Entities,"{
+  ('Perrin', 'PER'): 67,
+  ('Elyas', 'PER'): 53,
+  ('Egwene', 'PER'): 33,
+  ('Bela', 'PER'): 8,
+  ('Artur Hawkwing', 'PER'): 8,
+  ('Tenebroso', 'PER'): 6,
+  ('Aes Sedai', 'LOC'): 6,
+  ('Egwene', 'LOC'): 4,
+  ('Trolloc', 'ORG'): 3,
+  ('Trolloc', 'LOC'): 3,
+  ('Gran Monarca', 'LOC'): 3,
+  ('Prima', 'MISC'): 2,
+  ('Myrddraal', 'LOC'): 2,
+  ('Lontano', 'LOC'): 2,
+  ('Dapple', 'PER'): 2,
+  ('Arriviamo', 'LOC'): 2,
+  ('Credi', 'PER'): 2,
+  ('«Cosa', 'PER'): 2,
+  ('Elyas', 'MISC'): 2,
+  ('Cento', 'LOC'): 2,
+  ('Ogier', 'PER'): 2,
+  ('Aryth', 'MISC'): 2,
+  ('Artur', 'PER'): 2,
+  ('Potere', 'ORG'): 2,
+  ('Hawkwing', 'PER'): 2,
+  ('Occhi spietati 
+ 
+ 
+ 
+ 
+ 
+Elyas', 'MISC'): 1,
+  ('Girovaghi', 'PER'): 1,
+  ('Di notte accendeva il fuoco', 'MISC'): 1,
+  ('Parlava', 'LOC'): 1,
+  ('Sapete', 'PER'): 1,
+  ('Sangue', 'MISC'): 1,
+  ('Maledizione', 'PER'): 1,
+  ('Andrei', 'PER'): 1,
+  ('Aram', 'PER'): 1,
+  ('Ve… vengo anch’io» dichiarò', 'MISC'): 1,
+  ('Tienti', 'PER'): 1,
+  ('Elyas', 'LOC'): 1,
+  ('Perdiamo solo tempo» disse', 'MISC'): 1,
+  ('Perrin impietrì', 'PER'): 1,
+  ('Gli occhi del Tenebroso', 'MISC'): 1,
+  ('Gocce di sudore freddo', 'MISC'): 1,
+  ('Meridione', 'LOC'): 1,
+  ('Luce', 'LOC'): 1,
+  ('Loro', 'LOC'): 1,
+  ('Marche', 'LOC'): 1,
+  ('Confine', 'LOC'): 1,
+  ('Stai', 'LOC'): 1,
+  ('Conosco', 'LOC'): 1,
+  ('Muovetevi, maledizione!', 'MISC'): 1,
+  ('Corvi!', 'MISC'): 1,
+  ('La volpe', 'MISC'): 1,
+  ('Potrebbero', 'LOC'): 1,
+  ('Muovetevi» brontolò Elyas', 'MISC'): 1,
+  ('Segnalò', 'LOC'): 1,
+  ('Muovetevi, maledizione!» gridò', 'MISC'): 1,
+  ('Muovetevi!', 'MISC'): 1,
+  ('Piegò', 'LOC'): 1,
+  ('gracchiò', 'LOC'): 1,
+  ('Vide', 'PER'): 1,
+  ('Vero', 'PER'): 1,
+  ('Noi', 'MISC'): 1,
+  ('Corsero', 'LOC'): 1,
+  ('Ricordò le parole di Lan', 'MISC'): 1,
+  ('Occhi', 'PER'): 1,
+  ('Becchi', 'PER'): 1,
+  ('Uccelli gracchiami', 'MISC'): 1,
+  ('Lupi', 'LOC'): 1,
+  ('Wind', 'PER'): 1,
+  ('Hopper', 'PER'): 1,
+  ('Dapple', 'ORG'): 1,
+  ('Correndo a passi malfermi', 'MISC'): 1,
+  ('Aspetta la mia reazione', 'MISC'): 1,
+  ('“', 'PER'): 1,
+  ('Corvi', 'PER'): 1,
+  ('“Contaminato', 'MISC'): 1,
+  ('Luce mi accechi!', 'MISC'): 1,
+  ('mastro Luhhan', 'PER'): 1,
+  ('Barcollò', 'PER'): 1,
+  ('Muovetevi, maledizione!» imprecò Elyas', 'MISC'): 1,
+  ('«Sapevo', 'PER'): 1,
+  ('Maledizione', 'MISC'): 1,
+  ('Moriremo', 'LOC'): 1,
+  ('Massacrati', 'PER'): 1,
+  ('Tastò', 'PER'): 1,
+  ('Tocca a te cavalcare', 'MISC'): 1,
+  ('Fra', 'MISC'): 1,
+  ('«Ce', 'PER'): 1,
+  ('«', 'PER'): 1,
+  ('Perfino', 'LOC'): 1,
+  ('varcarla', 'LOC'): 1,
+  ('Unico Potere', 'MISC'): 1,
+  ('Vera Fonte', 'MISC'): 1,
+  ('Tremiti', 'LOC'): 1,
+  ('Cos’è?» domandò', 'MISC'): 1,
+  ('Uno stedding» rise', 'MISC'): 1,
+  ('Frattura del Mondo', 'LOC'): 1,
+  ('Padre', 'PER'): 1,
+  ('Andiamo', 'PER'): 1,
+  ('Erba', 'LOC'): 1,
+  ('Corrugò', 'LOC'): 1,
+  ('Massi', 'LOC'): 1,
+  ('Rovi', 'LOC'): 1,
+  ('Qua', 'PER'): 1,
+  ('Meno di un’ora al tramonto', 'MISC'): 1,
+  ('mangiava', 'LOC'): 1,
+  ('Lo è» disse', 'MISC'): 1,
+  ('Seduto', 'PER'): 1,
+  ('Brontolò', 'PER'): 1,
+  ('Artur Paendrag Tanreall', 'PER'): 1,
+  ('Grande 
+Macchia', 'LOC'): 1,
+  ('oceano Aryth', 'LOC'): 1,
+  ('deserto dell’Aiel', 'LOC'): 1,
+  ('Ah', 'PER'): 1,
+  ('Dorsale del Mondo', 'MISC'): 1,
+  ('Tar Valon', 'MISC'): 1,
+  ('Credevo che le Aes Sedai', 'MISC'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Muraglia Lucente', 'LOC'): 1,
+  ('Aes', 'LOC'): 1,
+  ('Sedai', 'LOC'): 1,
+  ('Macchia', 'LOC'): 1,
+  ('Creatore', 'PER'): 1,
+  ('Aryth', 'LOC'): 1,
+  ('Hawkwing', 'MISC'): 1,
+  ('Guerra dei Cento Anni', 'MISC'): 1,
+  ('Prendi', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Prima': {
+    'category': 'paese',
+    'confidence': 0.18831251561641693,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.9703333333333333,
+    'early_appearance': True,
+    'positions': [648, 33946]
+  },
+  'Sangue': {
+    'category': 'paese',
+    'confidence': 0.39529845118522644,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9666166666666667,
+    'early_appearance': True,
+    'positions': [2370]
+  },
+  'Maledizione': {
+    'category': 'paese',
+    'confidence': 0.31901511549949646,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.9666166666666667,
+    'early_appearance': True,
+    'positions': [2602, 19293]
+  },
+  'Cento': {
+    'category': 'paese',
+    'confidence': 0.2666980028152466,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7555333333333333,
+    'early_appearance': False,
+    'positions': [11523, 15984]
+  },
+  'Meridione': {
+    'category': 'paese',
+    'confidence': 0.1803567260503769,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [6647]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [7377]
+  },
+  'Loro': {
+    'category': 'paese',
+    'confidence': 0.29715314507484436,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [7384]
+  },
+  'Marche': {
+    'category': 'paese',
+    'confidence': 0.4536382555961609,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [7634]
+  },
+  'Stai': {
+    'category': 'paese',
+    'confidence': 0.2312186062335968,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [7811]
+  },
+  'Conosco': {
+    'category': 'paese',
+    'confidence': 0.2844502329826355,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [8706]
+  },
+  'Rovi': {
+    'category': 'paese',
+    'confidence': 0.2713158428668976,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [26100]
+  },
+  'Credi': {
+    'category': 'paese',
+    'confidence': 0.2752929925918579,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [8575, 13006]
+  },
+  'Gli occhi del Tenebroso': {
+    'category': 'casa',
+    'confidence': 0.09674006700515747,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [6418]
+  },
+  'Noi': {
+    'category': 'paese',
+    'confidence': 0.19976727664470673,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [13162]
+  },
+  'Fra': {
+    'category': 'paese',
+    'confidence': 0.23299364745616913,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [20891]
+  },
+  'Padre': {
+    'category': 'paese',
+    'confidence': 0.24555635452270508,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [24133]
+  },
+  'Andiamo': {
+    'category': 'paese',
+    'confidence': 0.2439856380224228,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [24284]
+  },
+  'Qua': {
+    'category': 'paese',
+    'confidence': 0.21664901077747345,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [26150]
+  },
+  'Creatore': {
+    'category': 'paese',
+    'confidence': 0.3074972331523895,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [32407]
+  },
+  'Prendi': {
+    'category': 'paese',
+    'confidence': 0.2557238042354584,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [34066]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.24446666666666667,
+    'early_appearance': True,
+    'positions': [1197, 2772, 2807, 2904, 3965, 4804, 4993, 9300, 9525, 9934, 11611, 11764, 12459, 13044, 13242, 17867, 18126, 18400, 18739, 19155, 20863, 21250, 22282, 23737, 24793, 26880, 26943, 27262, 27554, 27622, 28883, 29450, 30224, 30872, 31404, 32664, 33983]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.24075,
+    'early_appearance': True,
+    'positions': [1231, 1369, 1473, 5739, 22842, 22981]
+  },
+  'Parlava': {
+    'category': 'non_luogo',
+    'confidence': 0.22427617013454437,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23331666666666667,
+    'early_appearance': True,
+    'positions': [2253]
+  },
+  'Elyas': {
+    'category': 'non_luogo',
+    'confidence': 0.2382344901561737,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23331666666666667,
+    'early_appearance': True,
+    'positions': [591, 1257, 1434, 1604, 2151, 2847, 3157, 3361, 3612, 4358, 4416, 4776, 4832, 5082, 5200, 5342, 6070, 6999, 7118, 7505, 7604, 7909, 8403, 8661, 9082, 9877, 10211, 11965, 12562, 13192, 13309, 13680, 13854, 14373, 17526, 17610, 18783, 21162, 22137, 22616, 23685, 23806, 24157, 24846, 25293, 25776, 26602, 27185, 27716, 28295, 29051, 29582, 30285, 30880, 32713, 34039]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [23002, 24100, 25149, 30807, 31006, 31101, 32064]
+  },
+  'Gran Monarca': {
+    'category': 'non_luogo',
+    'confidence': 0.19313032925128937,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.01855,
+    'early_appearance': False,
+    'positions': [29217, 29735, 30486]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [5723, 22894]
+  },
+  'Lontano': {
+    'category': 'non_luogo',
+    'confidence': 0.2591595947742462,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [7181, 12693]
+  },
+  'Arriviamo': {
+    'category': 'non_luogo',
+    'confidence': 0.2787732481956482,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [8259, 17433]
+  },
+  'Confine': {
+    'category': 'non_luogo',
+    'confidence': 0.2572762966156006,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [7644]
+  },
+  'Potrebbero': {
+    'category': 'non_luogo',
+    'confidence': 0.2125747799873352,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [11537]
+  },
+  'Segnalò': {
+    'category': 'non_luogo',
+    'confidence': 0.25322917103767395,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [11601]
+  },
+  'Piegò': {
+    'category': 'non_luogo',
+    'confidence': 0.24264395236968994,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [12178]
+  },
+  'gracchiò': {
+    'category': 'non_luogo',
+    'confidence': 0.18451321125030518,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [12199]
+  },
+  'Corsero': {
+    'category': 'non_luogo',
+    'confidence': 0.2559850215911865,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [13997]
+  },
+  'Lupi': {
+    'category': 'non_luogo',
+    'confidence': 0.31907230615615845,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [16581]
+  },
+  'Moriremo': {
+    'category': 'non_luogo',
+    'confidence': 0.21679095923900604,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [20587]
+  },
+  'Perfino': {
+    'category': 'non_luogo',
+    'confidence': 0.29217538237571716,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [22421]
+  },
+  'varcarla': {
+    'category': 'non_luogo',
+    'confidence': 0.21079504489898682,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [22878]
+  },
+  'Tremiti': {
+    'category': 'non_luogo',
+    'confidence': 0.25362303853034973,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [23208]
+  },
+  'Frattura del Mondo': {
+    'category': 'non_luogo',
+    'confidence': 0.13700760900974274,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [23904]
+  },
+  'Erba': {
+    'category': 'non_luogo',
+    'confidence': 0.19662083685398102,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [25371]
+  },
+  'Corrugò': {
+    'category': 'non_luogo',
+    'confidence': 0.3201996982097626,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [25543]
+  },
+  'Massi': {
+    'category': 'non_luogo',
+    'confidence': 0.29959043860435486,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [25932]
+  },
+  'mangiava': {
+    'category': 'non_luogo',
+    'confidence': 0.16550612449645996,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [28916]
+  },
+  'Grande 
+Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.14952529966831207,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [29775]
+  },
+  'oceano Aryth': {
+    'category': 'non_luogo',
+    'confidence': 0.3022865951061249,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [29820]
+  },
+  'deserto dell’Aiel': {
+    'category': 'non_luogo',
+    'confidence': 0.15836171805858612,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [29836]
+  },
+  'Muraglia Lucente': {
+    'category': 'non_luogo',
+    'confidence': 0.08502105623483658,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [31149]
+  },
+  'Aes': {
+    'category': 'non_luogo',
+    'confidence': 0.2601335942745209,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [31362]
+  },
+  'Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.35417553782463074,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [31367]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [32036]
+  },
+  'Aryth': {
+    'category': 'non_luogo',
+    'confidence': 0.2756701111793518,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [29944, 30422, 33135]
+  },
+}"
+Main Location,"{
+  'name': 'Prima',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.18831251561641693,
+  'count': 2,
+  'priority_score': 0.9703333333333333,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Perrin',
+  'count': 67,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'anger': 7, 'sadness': 67, 'fear': 6, 'joy': 19}, 'sentiment_counts': {'negative': 78, 'positive': 21}, 'emotion_percentages': {'anger': 7.07070707070707, 'sadness': 67.67676767676768, 'fear': 6.0606060606060606, 'joy': 19.19191919191919}, 'sentiment_percentages': {'negative': 78.78787878787878, 'positive': 21.21212121212121}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.202496290206909, 'Riconoscimento entità con spaCy': 0.002999544143676758, 'Analisi emozioni': 17.170822381973267, 'Classificazione delle location': 44.11397457122803, 'Tempo totale': 63.49229097366333}"
+Original Text Extract,"29 
+ 
+Occhi spietati 
+ 
+ 
+ 
+ 
+ 
+Elyas pretese velocità, nella pianura d’erba secca, quasi a compensare il tempo perduto con i 
+Girovaghi, e si diresse tra levante e meridione a tale andatura che perfino Bela era contenta di fermarsi, 
+quando il crepuscolo s’infittiva. Però, nonostante la fretta, prese precauzioni trascurate in precedenza. 
+Di notte accendeva il fuoco solo se per terra c’era già legna secca e non voleva che staccassero dagli 
+alberi nemmeno un ramoscello. Il fuoco era sempre piccolo e schermato in un pozzetto ottenuto 
+sollevando con cura una zolla. Preparata la cena, Elyas sotterrava le braci e rimetteva a posto la zolla. 
+Prima di riprendere il cammino nel grigiore della falsa alba, esaminava palmo a palmo il luogo dove si 
+erano accampati e si accertava che non fosse rimasta la minima traccia della loro presenza. Arrivava 
+perfino a rimettere a posto qualche pietra e a raddrizzare steli d’erba. Non impiegava molto, mai più di 
+qualche minuto, ma non partivano se non era soddisfatto.  
+Perrin non credeva che quelle precauzioni risultassero utili contro dei sogni; ma poi pensò a che 
+cosa servivano e rimpianse che non si trattasse solo dei sogni. La prima volta Egwene domandò 
+ansiosamente se i Trolloc erano tornati, ma Elyas scosse la testa e li incitò a procedere. Perrin non disse 
+niente. Sapeva che nelle vicinanze non c’erano Trolloc: i lupi fiutavano solo erba e alberi e piccoli 
+animali. Elyas non era spinto dalla paura per i Trolloc, ma da qualcosa di cui nemmeno lui era sicuro. I 
+lupi non sapevano che cosa fosse, ma percepirono l’insistente cautela di Elyas e cominciarono a 
+esplorare il terreno come se il pericolo li seguisse da vicino o li aspettasse in un’imboscata al di là della 
+prossima altura.  
+Il territorio si mutò in lunghe ondulazioni troppo basse per meritare il nome di colline. Un tappeto di 
+erba resistente, ancora secca per l’inverno e punteggiata d’erbacce rigogliose, si estendeva davanti a 
+loro, increspato dal vento di levante che non trovava ostacoli nel raggio di cento miglia. I boschetti 
+divennero più distanziati. Il sole si alzava con riluttanza, privo di calore.  
+Elyas seguiva il più possibile il contorno del terreno ed evitava di salire sulla cima delle alture. 
+Parlava di rado, ma quando apriva bocca…  
+«Sapete quanto tempo sprechiamo a girare intorno a ogni maledetta altura? Sangue e ceneri! 
+Arriverà l’estate, prima che mi sia liberato di voi. No, non possiamo andare dritti! Quante volte devo 
+dirvelo? Avete idea di come risalta una persona in piedi su una cresta, in un territorio piatto come 
+questo? Maledizione, facciamo due passi avanti e uno indietro. Sembriamo serpenti. Andrei più veloce 
+con i piedi legati! Allora, ve ne state a fissarmi o camminate?»  
+Perrin e Egwene si scambiarono un’occhiata. Egwene mostrò la lingua alla schiena di Elyas. 
+Nessuno dei due fece commenti. L’unica volta che Egwene protestò che non doveva prendersela con 
+loro, visto che era lui a voler girare intorno alle alture, si beccò una lezione sul modo in cui il suono si 
+propaga, in un ringhio che certo si era udito a un miglio di distanza.  
+Anche quando parlava, Elyas scrutava in continuazione tutt’intorno, a volte con lo sguardo fisso 
+come se ci fosse qualcosa da vedere, oltre all’erba secca. Perrin invece non vedeva niente; e i lupi, 
+neppure. Sulla fronte di Elyas comparvero altre rughe, ma lui non spiegò perché dovevano affrettarsi né 
+da che cosa temeva che fossero inseguiti.  
+
+A volte sulla loro strada c’era una cresta più lunga delle altre, che si estendeva per miglia a levante e 
+a ponente. Perfino Elyas ammetteva che farne il giro li avrebbe portati troppo fuori strada. Allora li 
+lasciava alla base del pendio, strisciava carponi sulla cresta e scrutava con cautela dall’altra parte, come 
+se solo dieci minuti prima i lupi non avessero controllato la presenza di pericoli. L’attesa alla base del 
+pendio pareva durare delle ore e rendeva nervosi. Egwene si mordicchiava il labbro e senza 
+accorgersene faceva scorrere tra le dita le perline della collana avuta da Aram. Perrin aspettava con 
+tenacia. Si sentiva un peso sullo stomaco, ma riusciva a mostrarsi calmo e a nascondere il turbamento 
+interiore.  
+“I lupi ci avvertiranno, se c’è pericolo” pensava. “Sarebbe bello, se sparissero, ma in questo 
+momento ci aiutano. Che cosa cerca, Elyas?”  
+Dopo un lungo esame, sporgendo appena la testa, Elyas faceva sempre segno di farsi avanti. Ogni 
+volta la strada era libera… finché non trovavano di nuovo un’altura impossibile da aggirare. La terza 
+volta, Perrin si sentì in bocca il sapore di bile: era sicuro che avrebbe vomitato, se avesse dovuto 
+aspettare anche solo cinque minuti. «Ve… vengo anch’io» dichiarò.  
+«Tienti basso» si limitò a rispondere Elyas.  
+A quel punto anche Egwene smontò da cavallo.  
+Elyas si tirò sugli occhi il berretto di pelliccia e da sotto il bordo fissò la ragazza. «Ti aspetti di far 
+procedere carponi la giumenta?» disse seccamente.  
+Egwene "
+Token Count,7286

@@ -1,0 +1,615 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:35:30
+Entities,"{
+  ('Rand', 'MISC'): 36,
+  ('Moiraine', 'PER'): 23,
+  ('Egwene', 'PER'): 16,
+  ('Aes Sedai', 'LOC'): 12,
+  ('Lan', 'MISC'): 10,
+  ('Nynaeve', 'PER'): 9,
+  ('Mat', 'MISC'): 9,
+  ('Loial', 'LOC'): 8,
+  ('Aes Sedai', 'PER'): 6,
+  ('Tenebroso', 'PER'): 6,
+  ('Perrin', 'PER'): 6,
+  ('Thor', 'PER'): 5,
+  ('Aginor', 'MISC'): 5,
+  ('Egwene', 'LOC'): 4,
+  ('Aginor', 'LOC'): 3,
+  ('Uomo Verde', 'PER'): 3,
+  ('Luce', 'MISC'): 3,
+  ('Bela', 'PER'): 3,
+  ('Occhio', 'LOC'): 3,
+  ('Disegno', 'MISC'): 3,
+  ('Ogier', 'PER'): 3,
+  ('Rand', 'PER'): 2,
+  ('Nynaeve', 'MISC'): 2,
+  ('Moiraine Sedai', 'PER'): 2,
+  ('Gli occhi della Sapiente', 'MISC'): 2,
+  ('Balthamel', 'LOC'): 2,
+  ('Saidin', 'PER'): 2,
+  ('Potere', 'LOC'): 2,
+  ('Epoca Leggendaria', 'MISC'): 2,
+  ('Nynaeve', 'LOC'): 2,
+  ('Tar Valon', 'PER'): 2,
+  ('Drago', 'LOC'): 2,
+  ('Aiutatemi', 'PER'): 2,
+  ('Custode', 'PER'): 2,
+  ('Illian', 'PER'): 2,
+  ('Occhio del Mondo', 'PER'): 2,
+  ('Macchia', 'LOC'): 2,
+  ('Luce', 'LOC'): 1,
+  ('Pezzetti', 'PER'): 1,
+  ('Reietto', 'PER'): 1,
+  ('Tremante', 'LOC'): 1,
+  ('Dell’', 'PER'): 1,
+  ('Il Tenebroso» mormorò a se stesso', 'MISC'): 1,
+  ('«Il Tenebroso', 'PER'): 1,
+  ('Egwene!', 'MISC'): 1,
+  ('Muoveva', 'MISC'): 1,
+  ('Barcollò', 'PER'): 1,
+  ('Sbucò', 'LOC'): 1,
+  ('Vide', 'PER'): 1,
+  ('Egwene! Egwene', 'MISC'): 1,
+  ('“Sì” 
+pensò Rand', 'MISC'): 1,
+  ('Luce!', 'ORG'): 1,
+  ('“Moiraine', 'MISC'): 1,
+  ('Sapiente', 'MISC'): 1,
+  ('Stai', 'LOC'): 1,
+  ('Epoca 
+Leggendaria', 'MISC'): 1,
+  ('Lews Therin', 'PER'): 1,
+  ('Ishamael', 'PER'): 1,
+  ('Il Tenebroso', 'MISC'): 1,
+  ('Reietti', 'MISC'): 1,
+  ('Shayol Ghul', 'PER'): 1,
+  ('Creatore', 'PER'): 1,
+  ('Shai’t…»  
+«Il Tenebroso', 'MISC'): 1,
+  ('Unico 
+Potere', 'MISC'): 1,
+  ('Unico Potere', 'MISC'): 1,
+  ('«Mi', 'PER'): 1,
+  ('Davvero', 'MISC'): 1,
+  ('La Ruota', 'MISC'): 1,
+  ('Emond’s Field', 'MISC'): 1,
+  ('Kari al’', 'PER'): 1,
+  ('Manetheren', 'PER'): 1,
+  ('Aemon', 'PER'): 1,
+  ('Eldrene', 'PER'): 1,
+  ('Watch Hill', 'MISC'): 1,
+  ('Mandarb', 'PER'): 1,
+  ('Trolloc', 'ORG'): 1,
+  ('Draghkar', 'MISC'): 1,
+  ('Mezzo Uomo', 'MISC'): 1,
+  ('Impazzire', 'MISC'): 1,
+  ('Conosco Saidar', 'PER'): 1,
+  ('Occhio', 'PER'): 1,
+  ('Gireranno il viso', 'MISC'): 1,
+  ('Fade?”', 'MISC'): 1,
+  ('Perché no?', 'MISC'): 1,
+  ('«Vuoi domarmi', 'PER'): 1,
+  ('Potere?', 'MISC'): 1,
+  ('Thom', 'PER'): 1,
+  ('Tu sei ta’veren» replicò', 'MISC'): 1,
+  ('Amyrlin Seat', 'PER'): 1,
+  ('Raolin Darksbane', 'PER'): 1,
+  ('Guaire Amalasan', 'PER'): 1,
+  ('Yurian 
+Stonebow', 'PER'): 1,
+  ('Davian', 'LOC'): 1,
+  ('Logain', 'PER'): 1,
+  ('Be’', 'MISC'): 1,
+  ('Padre', 'PER'): 1,
+  ('Menzogne', 'ORG'): 1,
+  ('Dici', 'LOC'): 1,
+  ('Ba’alzamon', 'MISC'): 1,
+  ('Moiraine', 'LOC'): 1,
+  ('Sarei', 'PER'): 1,
+  ('Sei vivo', 'MISC'): 1,
+  ('Luce mi fulmini', 'MISC'): 1,
+  ('Custode:', 'MISC'): 1,
+  ('Devo', 'PER'): 1,
+  ('Agitò', 'PER'): 1,
+  ('Stedding Shangtai', 'MISC'): 1,
+  ('Anziano Haman', 'PER'): 1,
+  ('Custode', 'LOC'): 1,
+  ('Fiamma di Tar Valon', 'LOC'): 1,
+  ('Zanna 
+del Drago', 'LOC'): 1,
+  ('Scaturì', 'LOC'): 1,
+  ('Tear» disse 
+seccamente', 'MISC'): 1,
+  ('Cuendillar', 'LOC'): 1,
+  ('Pietra dell’Anima', 'LOC'): 1,
+  ('Mat', 'PER'): 1,
+  ('Portatemi lo scrigno', 'MISC'): 1,
+  ('Dentro', 'PER'): 1,
+  ('Mare delle Tempeste', 'LOC'): 1,
+  ('casa nostra', 'ORG'): 1,
+  ('Non sarà…» Loial', 'MISC'): 1,
+  ('Sai', 'PER'): 1,
+  ('Lingua Antica?', 'MISC'): 1,
+  ('Mondin', 'PER'): 1,
+  ('Corno di Valere', 'LOC'): 1,
+  ('Epoche', 'PER'): 1,
+  ('La Luce mi fulmini!» esclamò', 'MISC'): 1,
+  ('Comincio', 'PER'): 1,
+  ('Lo stendardo del Signore del Mattino', 'MISC'): 1,
+  ('Ombra', 'ORG'): 1,
+  ('Lews Therin Telamon', 'PER'): 1,
+  ('Santa Luce!', 'LOC'): 1,
+  ('Porteremo', 'MISC'): 1,
+  ('Riposeremo', 'PER'): 1,
+  ('Frontiera', 'LOC'): 1,
+  ('Mangia e poi dormi', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Thor': {
+    'category': 'paese',
+    'confidence': 0.2889701724052429,
+    'spacy_label': 'PER',
+    'count': 5,
+    'priority_score': 0.9721916666666668,
+    'early_appearance': True,
+    'positions': [1747, 7312, 7769, 14664, 21841]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 3,
+    'priority_score': 0.968475,
+    'early_appearance': True,
+    'positions': [334, 7345, 7844, 20432]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.9666166666666667,
+    'early_appearance': True,
+    'positions': [53, 1739, 1998, 4153, 4543, 6001, 6227, 6649, 6736, 6881, 7016, 7098, 7304, 7468, 7580, 7731, 7940, 8024, 8564, 9065, 10042, 10515, 10821, 11648, 11951, 12516, 12724, 13886, 14073, 14656, 14968, 16056, 17594, 19601, 20273, 21173, 21561, 21833]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 10,
+    'priority_score': 0.7592833333333333,
+    'early_appearance': False,
+    'positions': [10131, 11029, 12868, 13991, 14132, 14211, 14846, 16427, 16673, 19667]
+  },
+  'Drago': {
+    'category': 'paese',
+    'confidence': 0.34736984968185425,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [12008, 20523]
+  },
+  'Stai': {
+    'category': 'paese',
+    'confidence': 0.2312186062335968,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [4271]
+  },
+  'Dici': {
+    'category': 'paese',
+    'confidence': 0.3160914480686188,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [12351]
+  },
+  'Pietra dell’Anima': {
+    'category': 'casa',
+    'confidence': 0.09603654593229294,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7499583333333333,
+    'early_appearance': False,
+    'positions': [16915]
+  },
+  'Aiutatemi': {
+    'category': 'paese',
+    'confidence': 0.2762133777141571,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [15723, 21117]
+  },
+  'Occhio del Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [19355, 21655]
+  },
+  'Creatore': {
+    'category': 'paese',
+    'confidence': 0.3074972331523895,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [5620]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [7321]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [10311, 13251, 13347, 15911, 16002, 16792, 17270, 17393, 19227, 20615]
+  },
+  'Thom': {
+    'category': 'paese',
+    'confidence': 0.25840532779693604,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [11403]
+  },
+  'Padre': {
+    'category': 'paese',
+    'confidence': 0.24555635452270508,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [12308]
+  },
+  'Sarei': {
+    'category': 'paese',
+    'confidence': 0.25221583247184753,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [13494]
+  },
+  'Devo': {
+    'category': 'paese',
+    'confidence': 0.2090817242860794,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [14262]
+  },
+  'casa nostra': {
+    'category': 'paese',
+    'confidence': 0.1043030321598053,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [18507]
+  },
+  'Sai': {
+    'category': 'paese',
+    'confidence': 0.21611402928829193,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [18600]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7425583333333333,
+    'early_appearance': False,
+    'positions': [20411]
+  },
+  'Aginor': {
+    'category': 'non_luogo',
+    'confidence': 0.30595675110816956,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [862, 2285, 3467, 5261, 5428, 5666, 6008, 15345]
+  },
+  'Tremante': {
+    'category': 'non_luogo',
+    'confidence': 0.2608194351196289,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23145833333333332,
+    'early_appearance': True,
+    'positions': [1269]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 12,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [3392, 4166, 5040, 7694, 7791, 8574, 9561, 10413, 11271, 12784, 15177, 15675, 15971, 16202, 17107, 17518, 17888, 21593]
+  },
+  'Loial': {
+    'category': 'non_luogo',
+    'confidence': 0.2856883406639099,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.022266666666666667,
+    'early_appearance': False,
+    'positions': [10360, 12705, 13039, 14284, 17786, 18697, 19259, 20531]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [2552, 3021, 3701, 3727, 4288, 5532, 6763, 6836, 6928, 7194, 7925, 8899, 9882, 10633, 11067, 11932, 13544, 15206, 15771, 21108]
+  },
+  'Occhio': {
+    'category': 'non_luogo',
+    'confidence': 0.12972672283649445,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [10185, 10758, 13475, 15854]
+  },
+  'Balthamel': {
+    'category': 'non_luogo',
+    'confidence': 0.22259357571601868,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [5675, 6017]
+  },
+  'Potere': {
+    'category': 'non_luogo',
+    'confidence': 0.15005744993686676,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [10745, 17072]
+  },
+  'Nynaeve': {
+    'category': 'non_luogo',
+    'confidence': 0.15896956622600555,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [4193, 4698, 4846, 7277, 10173, 11055, 11912, 12982, 13534, 15196, 15761, 19094, 21096]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [20945, 21481]
+  },
+  'Sbucò': {
+    'category': 'non_luogo',
+    'confidence': 0.31473174691200256,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [3231]
+  },
+  'Davian': {
+    'category': 'non_luogo',
+    'confidence': 0.33259475231170654,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [11853]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [3429, 6096, 7508, 8133, 9359, 10370, 10777, 11583, 12245, 12746, 13402, 14822, 15751, 16088, 16307, 16904, 17383, 17698, 18643, 18747, 19342, 20458, 20685, 21568]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [14673, 16470, 18988]
+  },
+  'Fiamma di Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.20376430451869965,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [16216]
+  },
+  'Zanna 
+del Drago': {
+    'category': 'non_luogo',
+    'confidence': 0.16739250719547272,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [16251]
+  },
+  'Scaturì': {
+    'category': 'non_luogo',
+    'confidence': 0.301401823759079,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [16560]
+  },
+  'Cuendillar': {
+    'category': 'non_luogo',
+    'confidence': 0.21991895139217377,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [16886]
+  },
+  'Mare delle Tempeste': {
+    'category': 'non_luogo',
+    'confidence': 0.16437280178070068,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [18421]
+  },
+  'Corno di Valere': {
+    'category': 'non_luogo',
+    'confidence': 0.09514860063791275,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [18950]
+  },
+  'Santa Luce!': {
+    'category': 'non_luogo',
+    'confidence': 0.1364075392484665,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [20583]
+  },
+  'Frontiera': {
+    'category': 'non_luogo',
+    'confidence': 0.2245924025774002,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009258333333333334,
+    'early_appearance': False,
+    'positions': [21002]
+  },
+}"
+Main Location,"{
+  'name': 'Thor',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.2889701724052429,
+  'count': 5,
+  'priority_score': 0.9721916666666668,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Thor',
+  'count': 5,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.776308695652174,
+}"
+Emotions,"{'emotion_counts': {'sadness': 59, 'joy': 31, 'fear': 1}, 'sentiment_counts': {'positive': 34, 'negative': 57}, 'emotion_percentages': {'sadness': 64.83516483516483, 'joy': 34.065934065934066, 'fear': 1.098901098901099}, 'sentiment_percentages': {'positive': 37.362637362637365, 'negative': 62.637362637362635}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.6108694076538086, 'Riconoscimento entità con spaCy': 0.003000020980834961, 'Analisi emozioni': 10.862897634506226, 'Classificazione delle location': 25.34792995452881, 'Tempo totale': 37.826698303222656}"
+Original Text Extract,"52 
+ 
+Né principio né fine 
+ 
+ 
+ 
+ 
+ 
+Per prima cosa Rand fu consapevole del sole, che si muoveva in un cielo sereno e gli riempiva gli 
+occhi spalancati e fissi. Gli parve di procedere a sbalzi, di restare immobile per giorni, poi di saettare in 
+una striscia di luce, puntando all’orizzonte lontano, col giorno che cadeva con esso. Luce. Significava 
+certo qualcosa. Dopo venne il dolore, il ricordo della febbre violenta che l’aveva sbattuto qua e là come 
+pupazzo di stracci, i lividi. E un lezzo Un lezzo untuoso di bruciato, che gli riempiva le narici e la testa.  
+Con i muscoli doloranti si sollevò, si tirò carponi. Senza capire, fissò le ceneri untuose su cui 
+giaceva, ceneri sparpagliate e spalmate sulla pietra della collina. Pezzetti di stoffa verde erano 
+mescolati ai frammenti carbonizzati, brandelli dai bordi anneriti, sfuggiti alle fiamme.  
+Aginor.   
+Lo stomaco gli si rivoltò. Cercando di togliersi dai vestiti le striature di cenere, si allontanò di scatto 
+dai resti del Reietto. Mosse le mani debolmente, senza grandi risultati. Cercò di usarle tutt’e due e 
+crollò in avanti.  
+Una parete a picco si spalancò sotto i suoi occhi, una parete di roccia liscia che roteava, che lo 
+attirava. Si sentì girare la testa e vomitò nello strapiombo.  
+Tremante, strisciò indietro fino ad avere sotto gli occhi solida pietra, poi si girò supino, ansimando 
+per prendere fiato. Con uno sforzo sguainò la spada. Dell’involucro di panno rosso restavano solo 
+poche ceneri. Le mani gli tremarono, quando sollevò la spada davanti a sé: era quella col marchio 
+dell’airone, fatta di semplice acciaio. Dopo tre tentativi riuscì a rimetterla nel fodero. Si era trattato 
+davvero di un’altra cosa. O di un’altra spada.  
+«Mi chiamo Rand al’Thor» disse ad alta voce, dopo un poco. Altri ricordi tornarono; la testa gli 
+parve una palla di piombo. Mandò un gemito. «Il Tenebroso» mormorò a se stesso. «Il Tenebroso è 
+morto.» Poteva dirlo forte. «Shai’tan è morto.» Il mondo parve sussultare. Rand fu scosso da una risata 
+silenziosa, fino ad avere le lacrime agli occhi. «Shai’tan è morto!» rise al cielo. Altri ricordi. 
+«Egwene!» Il nome aveva un significato importante.  
+Si alzò faticosamente, ondeggiando come un salice sotto un forte vento, e passò davanti alle ceneri 
+di Aginor, senza degnarle di uno sguardo. Scese quasi ruzzoloni la prima parte del pendio, la più ripida, 
+scivolando da un cespuglio all’altro. Quando raggiunse il terreno piano, le contusioni gli dolevano il 
+doppio, ma trovò ugualmente la forza di reggersi in piedi. Egwene. Si mise a correre, malfermo sulle 
+gambe. Foglie e petali lo inondarono, mentre vagava nel sottobosco. “Devo trovarla” pensò. “Ma chi 
+è?”  
+Muoveva braccia e gambe come se fossero lunghi steli d’erba che non ubbidivano ai suoi comandi. 
+Barcollò, cadde contro un albero, urtò il tronco con tanta forza da emettere un gemito soffocato. Una 
+pioggia di foglie gli cadde in testa, mentre premeva il viso contro la ruvida corteccia, artigliandola per 
+non cadere. Egwene. Si strappò dall’albero e continuò la corsa. Quasi subito ondeggiò di nuovo e quasi 
+cadde, ma costrinse le gambe a lavorare più in fretta, in modo da approfittare della caduta per correre 
+barcollando. Sbucò nella radura, ora quasi interamente occupata dalla grande quercia che segnava la 
+tomba dell’Uomo Verde. Vide l’arco di pietra bianca con l’antico simbolo Aes Sedai e l’abisso annerito 
+
+dove Moiraine aveva tentato d’intrappolare Aginor.  
+«Egwene! Egwene, dove sei?» Una bella ragazza, con fiori e scure foglie di quercia nei capelli, 
+rannicchiata dietro i rami, alzò lo sguardo, a occhi sgranati. Era snella e giovane e spaventata. “Sì” 
+pensò Rand “ecco chi è Egwene. Certo.” E disse: «Egwene, sia ringraziata la Luce! Stai bene!»  
+Con lei c’erano altre due donne: una aveva occhi tormentati e la lunga treccia ancora adorna di 
+qualche stella del mattino; l’altra giaceva distesa, con la testa sopra un mantello ripiegato. Un secondo 
+mantello, blu cielo, non nascondeva del tutto le vesti a brandelli. La stoffa presentava bruciature e 
+strappi; il viso era cereo, ma gli occhi erano aperti. “Moiraine” pensò Rand. “Sì, l’Aes Sedai. E la 
+Sapiente, Nynaeve.” Le tre donne lo guardarono, senza battere ciglio, con intensità.  
+«Stai bene, vero? Egwene? Non ti ha fatto male.» Ora riusciva a camminare senza barcollare, ma 
+accolse con piacere la possibilità di sedersi a gambe incrociate accanto a loro.  
+«Non l’ho più visto, da quando mi hai dato la spinta…» Lo guardò, incerta. «Ma tu come stai, 
+Rand?»  
+«Benissimo» rise lui. Le sfiorò la guancia e si domandò se avesse immaginato un breve accenno a 
+ritrarsi. «Un po’ di riposo e sarò come nuovo.  
+Nynaeve? Moiraine Sedai?» Quei nomi gli parvero nuovi, mentre li pronunciava.  
+Gli occhi della Sapiente erano vecchi, antichi, nel viso giovanile. Nynaeve scosse la testa. «Qualche 
+ammaccatura» disse, continuando a fissarlo.  
+«Moiraine è l’unica… l’unica di noi, che è stata realmente ferita.»  
+«Ne"
+Token Count,4778

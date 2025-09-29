@@ -101,6 +101,8 @@ def select_random_chapters(chapter_files, book_name, num_chapters=3, seed=None):
 
 
 # -------------------------------------------- FUNZIONI DI RISULTATI E STATISTICHE --------------------------------------------
+
+
 def count_tokens_from_csv(file_path):
     """
     Legge il conteggio dei token da un file CSV di analisi.
@@ -124,15 +126,14 @@ def count_tokens_from_csv(file_path):
 
 
 
-def generate_stats_file(book_name, output_dir, random_selection=True, num_chapters=3, seed=None):
+def generate_stats_file(book_name, output_dir, random_selection=False, num_chapters=None, seed=None):
     """
-    Genera un file CSV di statistiche aggregando i dati dei capitoli analizzati.
+    Genera un file CSV di statistiche aggregando i dati di tutti i capitoli analizzati.
     
     Args:
         book_name: Nome del libro
         output_dir: Directory con i file di analisi
-        random_selection: Se True, seleziona capitoli random
-        num_chapters: Numero di capitoli da selezionare casualmente
+        random_selection: Se True, seleziona capitoli random (ora impostato su False di default)
     """
     stats_file = os.path.join(output_dir, f"stats-{book_name}.csv")
     chapter_files = []
@@ -149,116 +150,172 @@ def generate_stats_file(book_name, output_dir, random_selection=True, num_chapte
     # Ordina i file per numero di capitolo
     chapter_files.sort(key=lambda x: int(x.split("capitolo")[1].split("-")[0]))
     
-    # Selezione casuale se richiesto
-    if random_selection and len(chapter_files) > num_chapters:
+    # Usa tutti i capitoli per default
+    selected_chapters = chapter_files
+    
+    # Applica selezione casuale solo se esplicitamente richiesto
+    if random_selection and num_chapters and len(chapter_files) > num_chapters:
         selected_chapters = select_random_chapters(chapter_files, book_name, num_chapters, seed)
-        print(f"Selezionati {len(selected_chapters)} capitoli casuali su {len(chapter_files)} disponibili:")
-        for file in selected_chapters:
-            chapter_num = int(file.split("capitolo")[1].split("-")[0])
-            print(f"  - Capitolo {chapter_num}")
+        print(f"Selezionati {len(selected_chapters)} capitoli casuali su {len(chapter_files)} disponibili.")
     else:
-        selected_chapters = chapter_files
-        if random_selection:
-            print(f"Utilizzati tutti i {len(selected_chapters)} capitoli disponibili (meno di {num_chapters} richiesti)")
+        print(f"Analisi di tutti i {len(selected_chapters)} capitoli disponibili.")
+
+    # Strutture dati per le statistiche aggregate
+    all_chapters_data = []
+    total_tokens = 0
+    total_pages = 0
+    location_counts = {}
+    character_counts = {}
+    emotion_counts = {}
+    sentiment_counts = {}
 
     try:
-        # Crea il file di statistiche
+        # Prima passiamo su tutti i capitoli per raccogliere i dati
+        for chapter_file in selected_chapters:
+            try:
+                chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
+                file_path = os.path.join(output_dir, chapter_file)
+                
+                # Carica i dati del capitolo
+                with open(file_path, 'r', encoding='utf-8') as cf:
+                    reader = csv.reader(cf)
+                    chapter_data = list(reader)
+                
+                # Estrai i dati necessari
+                main_location = None
+                locations = {}
+                times = {}
+                token_count = None
+                main_character = None
+                emotions_data = None
+                
+                for row in chapter_data:
+                    if len(row) < 2:
+                        continue
+                    
+                    if row[0] == "Token Count":
+                        token_count = int(row[1])
+                    elif row[0] == "Main Location":
+                        try:
+                            main_location = ast.literal_eval(row[1])
+                        except:
+                            main_location = None
+                    elif row[0] == "Main Character":
+                        try:
+                            main_character = ast.literal_eval(row[1])
+                        except:
+                            main_character = None
+                    elif row[0] == "Emotions":
+                        try:
+                            emotions_data = ast.literal_eval(row[1])
+                        except:
+                            emotions_data = None
+                    elif row[0] == "Tempi di analisi":
+                        try:
+                            times = ast.literal_eval(row[1])
+                        except:
+                            times = {}
+                    elif row[0] == "Potential Locations":
+                        try:
+                            locations = ast.literal_eval(row[1])
+                        except:
+                            locations = {}
+                
+                # Calcola pagine e aggrega dati
+                num_pages = max(1, token_count // PAGE_SIZE) if token_count else 1
+                total_tokens += token_count
+                total_pages += num_pages
+                
+                # Aggiungi alla struttura dati dei capitoli
+                chapter_info = {
+                    "chapter_num": chapter_num,
+                    "token_count": token_count,
+                    "num_pages": num_pages,
+                    "main_location": main_location["name"] if main_location else "Sconosciuto",
+                    "main_location_category": main_location["category"] if main_location else "Sconosciuto",
+                    "main_location_score": main_location["priority_score"] if main_location else 0,
+                    "main_character": main_character["name"] if main_character else "Sconosciuto",
+                    "main_character_score": main_character["priority_score"] if main_character else 0,
+                    "dominant_emotion": emotions_data["dominant_emotion"] if emotions_data else "Sconosciuto",
+                    "dominant_sentiment": emotions_data["dominant_sentiment"] if emotions_data else "Sconosciuto",
+                    "total_time": times.get("Tempo totale", 0),
+                    "locations_count": len(locations),
+                    "locations": list(locations.keys())[:10]  # Primi 10 luoghi
+                }
+                all_chapters_data.append(chapter_info)
+                
+                # Aggiorna conteggi globali
+                if main_location and "name" in main_location:
+                    loc_name = main_location["name"]
+                    location_counts[loc_name] = location_counts.get(loc_name, 0) + 1
+                    
+                if main_character and "name" in main_character:
+                    char_name = main_character["name"]
+                    character_counts[char_name] = character_counts.get(char_name, 0) + 1
+                    
+                if emotions_data:
+                    if "dominant_emotion" in emotions_data:
+                        emotion = emotions_data["dominant_emotion"]
+                        emotion_counts[emotion] = emotion_counts.get(emotion, 0) + 1
+                    if "dominant_sentiment" in emotions_data:
+                        sentiment = emotions_data["dominant_sentiment"]
+                        sentiment_counts[sentiment] = sentiment_counts.get(sentiment, 0) + 1
+                
+            except Exception as e:
+                logging.error(f"Errore nell'elaborazione del capitolo {chapter_file}: {e}")
+        
+        # Ora genera la tabella completa
         with open(stats_file, "w", newline='', encoding="utf-8") as f:
             writer = csv.writer(f)
             
-            for chapter_file in chapter_files:
-                try:
-                    chapter_num = int(chapter_file.split("capitolo")[1].split("-")[0])
-                    file_path = os.path.join(output_dir, chapter_file)
-                    
-                    # Carica i dati del capitolo
-                    with open(file_path, 'r', encoding='utf-8') as cf:
-                        reader = csv.reader(cf)
-                        chapter_data = list(reader)
-                    
-                    # Estrai i dati necessari
-                    main_location = None
-                    locations = {}
-                    times = {}
-                    token_count = None
-                    
-                    for row in chapter_data:
-                        if len(row) < 2:
-                            continue
-                            
-                        if row[0] == "Main Location":
-                            try:
-                                main_location = ast.literal_eval(row[1]) if row[1] != "None" else None
-                            except Exception as e:
-                                logging.warning(f"Errore nell'interpretazione della location principale: {e}")
-                                main_location = {"name": "Sconosciuto", "priority_score": 0}
-                                
-                        elif row[0] == "Potential Locations":
-                            try:
-                                locations = ast.literal_eval(row[1]) if row[1] != "None" else {}
-                            except Exception as e:
-                                logging.warning(f"Errore nell'interpretazione delle location potenziali: {e}")
-                                locations = {}
-                                
-                        elif row[0] == "Tempi di analisi":
-                            try:
-                                times = ast.literal_eval(row[1]) if row[1] != "None" else {}
-                            except Exception as e:
-                                logging.warning(f"Errore nell'interpretazione dei tempi: {e}")
-                                times = {}
-                                
-                        elif row[0] == "Token Count":
-                            try:
-                                token_count = int(row[1])
-                            except Exception as e:
-                                logging.warning(f"Errore nell'interpretazione del conteggio token: {e}")
-                                token_count = 0
-                    
-                    # Calcola la dimensione del capitolo
-                    num_pages = max(1, token_count // 500) if token_count else 1  # approssimazione: 500 token per pagina
-                    
-                    # Scrivi l'intestazione del capitolo
-                    writer.writerow([f"Capitolo {chapter_num}:"])
-                    writer.writerow([f"{token_count} token - {num_pages} pagine"])
-                    
-                    # Scrivi i tempi di analisi
-                    times_str = ", ".join([f"{k}: {v:.2f}s" for k, v in times.items()]) if times else "Dati non disponibili"
-                    writer.writerow([f"Tempi di analisi: {times_str}"])
-                    
-                    # Scrivi il luogo principale
-                    if main_location and "name" in main_location:
-                        writer.writerow([f"{main_location['name']}: {main_location.get('priority_score', 0):.2f}"])
-                    else:
-                        writer.writerow(["Luogo principale non identificato"])
-                    
-                    # Scrivi gli altri luoghi (fino a 10, ordinati per priority_score)
-                    writer.writerow(["Altri luoghi:"])
-                    
-                    # Filtra i luoghi che non sono il luogo principale
-                    other_locations = []
-                    if locations:
-                        main_loc_name = main_location.get("name") if main_location else None
-                        for loc_name, loc_data in locations.items():
-                            if loc_name != main_loc_name:
-                                priority_score = loc_data.get("priority_score", 0)
-                                other_locations.append((loc_name, priority_score))
-                    
-                        # Ordina per priority_score
-                        other_locations.sort(key=lambda x: x[1], reverse=True)
-                        
-                        # Scrivi i primi 10 luoghi
-                        for loc_name, priority_score in other_locations[:10]:
-                            writer.writerow([f"[{loc_name}, {priority_score:.2f}]"])
-                    else:
-                        writer.writerow(["Nessun luogo alternativo trovato"])
-                    
-                    # Aggiungi una riga vuota tra i capitoli
-                    writer.writerow([])
-                    
-                except Exception as e:
-                    writer.writerow([f"Errore nell'elaborazione del capitolo {chapter_num}: {str(e)}"])
-                    writer.writerow([])
-                    logging.error(f"Errore nell'elaborazione del file di statistiche per il capitolo {chapter_num}: {e}")
+            # Intestazione tabella principale
+            writer.writerow(["RIEPILOGO STATISTICHE:", book_name])
+            writer.writerow(["Totale capitoli analizzati:", len(all_chapters_data)])
+            writer.writerow(["Totale token:", total_tokens])
+            writer.writerow(["Totale pagine stimate:", total_pages])
+            writer.writerow([])
+            
+            # Luoghi più frequenti
+            writer.writerow(["LUOGHI PIÙ FREQUENTI:"])
+            for loc, count in sorted(location_counts.items(), key=lambda x: x[1], reverse=True)[:10]:
+                writer.writerow([loc, count])
+            writer.writerow([])
+            
+            # Personaggi più frequenti
+            writer.writerow(["PERSONAGGI PRINCIPALI:"])
+            for char, count in sorted(character_counts.items(), key=lambda x: x[1], reverse=True)[:10]:
+                writer.writerow([char, count])
+            writer.writerow([])
+            
+            # Emozioni e sentimenti
+            writer.writerow(["DISTRIBUZIONE EMOZIONI:"])
+            for emotion, count in sorted(emotion_counts.items(), key=lambda x: x[1], reverse=True):
+                percentage = (count / len(all_chapters_data)) * 100
+                writer.writerow([emotion, f"{count} ({percentage:.1f}%)"])
+            writer.writerow([])
+            
+            writer.writerow(["DISTRIBUZIONE SENTIMENTI:"])
+            for sentiment, count in sorted(sentiment_counts.items(), key=lambda x: x[1], reverse=True):
+                percentage = (count / len(all_chapters_data)) * 100
+                writer.writerow([sentiment, f"{count} ({percentage:.1f}%)"])
+            writer.writerow([])
+            
+            # Tabella dettagliata dei capitoli
+            writer.writerow(["DETTAGLIO CAPITOLI:"])
+            writer.writerow(["Capitolo", "Token", "Pagine", "Luogo", "Categoria", "Personaggio", "Emozione", "Sentimento", "Tempo (s)"])
+            
+            for chapter in sorted(all_chapters_data, key=lambda x: x["chapter_num"]):
+                writer.writerow([
+                    chapter["chapter_num"],
+                    chapter["token_count"],
+                    chapter["num_pages"],
+                    chapter["main_location"],
+                    chapter["main_location_category"],
+                    chapter["main_character"],
+                    chapter["dominant_emotion"],
+                    chapter["dominant_sentiment"],
+                    f"{chapter['total_time']:.2f}"
+                ])
         
         print(f"File di statistiche generato: {stats_file}")
         return stats_file
@@ -277,6 +334,155 @@ def count_tokens(text):
     return len(text.split())
 
 
+
+def generate_book_summary_charts(book_name, output_dir):
+    """
+    Genera grafici riassuntivi per l'intero libro utilizzando i dati aggregati.
+    
+    Args:
+        book_name: Nome del libro
+        output_dir: Directory contenente i file di analisi
+    """
+    stats_file = os.path.join(output_dir, f"stats-{book_name}.csv")
+    
+    if not os.path.exists(stats_file):
+        logging.error(f"File statistiche non trovato: {stats_file}")
+        return False
+        
+    try:
+        # Leggi il file CSV
+        chapter_data = []
+        location_counts = {}
+        character_counts = {}
+        emotion_counts = {}
+        sentiment_counts = {}
+        
+        parsing_chapters = False
+        
+        with open(stats_file, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                if not row:
+                    continue
+                    
+                if row[0] == "DETTAGLIO CAPITOLI:":
+                    parsing_chapters = True
+                    continue
+                    
+                if parsing_chapters and row[0] != "Capitolo":
+                    try:
+                        chapter_num = int(row[0])
+                        chapter_data.append({
+                            "chapter": chapter_num,
+                            "tokens": int(row[1]),
+                            "pages": int(row[2]),
+                            "location": row[3],
+                            "category": row[4],
+                            "character": row[5],
+                            "emotion": row[6],
+                            "sentiment": row[7],
+                            "time": float(row[8])
+                        })
+                    except:
+                        pass
+                
+                # Raccogli statistiche sui luoghi
+                if len(row) >= 2 and row[0] in location_counts:
+                    try:
+                        count = int(row[1].split(" ")[0])
+                        location_counts[row[0]] = count
+                    except:
+                        pass
+        
+        # Crea un DataFrame dai dati
+        df = pd.DataFrame(chapter_data)
+        
+        if len(df) == 0:
+            logging.error("Nessun dato di capitolo trovato nel file statistiche")
+            return False
+        
+        # 1. Grafico distribuzione token per capitolo
+        plt.figure(figsize=(12, 6))
+        plt.bar(df['chapter'], df['tokens'])
+        plt.title(f'Distribuzione token per capitolo - {book_name}')
+        plt.xlabel('Numero capitolo')
+        plt.ylabel('Numero di token')
+        plt.grid(axis='y', linestyle='--', alpha=0.7)
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, f'{book_name}-distribuzione_token.png'))
+        plt.close()
+        
+        # 2. Grafico luoghi più frequenti
+        location_counts = df['location'].value_counts()
+        if len(location_counts) > 0:
+            plt.figure(figsize=(10, 6))
+            location_counts.head(10).plot(kind='bar')
+            plt.title(f'Luoghi più frequenti - {book_name}')
+            plt.xlabel('Luogo')
+            plt.ylabel('Numero di capitoli')
+            plt.grid(axis='y', linestyle='--', alpha=0.7)
+            plt.tight_layout()
+            plt.savefig(os.path.join(output_dir, f'{book_name}-luoghi_frequenti.png'))
+            plt.close()
+        
+        # 3. Grafico personaggi principali
+        character_counts = df['character'].value_counts()
+        if len(character_counts) > 0:
+            plt.figure(figsize=(10, 6))
+            character_counts.head(10).plot(kind='bar')
+            plt.title(f'Personaggi principali - {book_name}')
+            plt.xlabel('Personaggio')
+            plt.ylabel('Numero di capitoli')
+            plt.grid(axis='y', linestyle='--', alpha=0.7)
+            plt.tight_layout()
+            plt.savefig(os.path.join(output_dir, f'{book_name}-personaggi_principali.png'))
+            plt.close()
+        
+        # 4. Grafico emozioni dominanti
+        emotion_counts = df['emotion'].value_counts()
+        if len(emotion_counts) > 0:
+            plt.figure(figsize=(9, 6))
+            emotion_counts.plot(kind='pie', autopct='%1.1f%%')
+            plt.title(f'Emozioni dominanti - {book_name}')
+            plt.ylabel('')
+            plt.tight_layout()
+            plt.savefig(os.path.join(output_dir, f'{book_name}-emozioni_dominanti.png'))
+            plt.close()
+        
+        # 5. Grafico tempo di elaborazione vs token
+        plt.figure(figsize=(10, 6))
+        plt.scatter(df['tokens'], df['time'])
+        
+        # Linea di tendenza
+        z = np.polyfit(df['tokens'], df['time'], 1)
+        p = np.poly1d(z)
+        plt.plot(df['tokens'], p(df['tokens']), "r--")
+        
+        plt.title(f'Tempo di elaborazione vs Token - {book_name}')
+        plt.xlabel('Numero di token')
+        plt.ylabel('Tempo (secondi)')
+        plt.grid(True, alpha=0.3)
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, f'{book_name}-tempo_vs_token.png'))
+        plt.close()
+        
+        # 6. Mappa di calore delle categorie di luoghi
+        category_counts = df['category'].value_counts()
+        if len(category_counts) > 0:
+            plt.figure(figsize=(10, 6))
+            category_counts.plot(kind='bar')
+            plt.title(f'Categorie di luoghi - {book_name}')
+            plt.xlabel('Categoria')
+            plt.ylabel('Numero di capitoli')
+            plt.grid(axis='y', linestyle='--', alpha=0.7)
+            plt.tight_layout()
+            plt.savefig(os.path.join(output_dir, f'{book_name}-categorie_luoghi.png'))
+            plt.close()
+            
+        return True
+    except Exception as e:
+        logging.error(f"Errore nella generazione dei grafici riassuntivi: {e}")
+        return False
 
 
 # In analyze_token_metrics()
@@ -1099,33 +1305,34 @@ def main():
                         help="Valuta l'accuratezza del modello BERT per luoghi")
     parser.add_argument("--test-data", type=str,
                         help="File JSON con dati di test per BERT")
-    parser.add_argument("--random-chapters", type=int, default=3,
+    parser.add_argument("--random-chapters", type=int, default=0,
                         help="Numero di capitoli da selezionare casualmente (0 = tutti)")
+    parser.add_argument("--full-stats", action="store_true",
+                        help="Genera statistiche complete su tutti i capitoli")
     
     args = parser.parse_args()
     
-    random_selection = args.random_chapters > 0
-    num_chapters = args.random_chapters if random_selection else len(os.listdir(args.dir))
+    random_selection = args.random_chapters > 0 and not args.full_stats
+    num_chapters = args.random_chapters if random_selection else None
     
-    # Genera un seed consistente basato sul nome del libro
+    print(f"Generazione statistiche per '{args.book}' in {args.dir}")
     if random_selection:
-        seed = sum(ord(c) for c in args.book)
-        print(f"Modalità selezione casuale: {num_chapters} capitoli (seed: {seed})")
-    else:
-        seed = None
+        print(f"Modalità selezione casuale: {num_chapters} capitoli")
+    elif args.full_stats:
+        print("Modalità statistiche complete: tutti i capitoli")
     
     try:
         # Genera il file di statistiche
         print("\n1. Generazione file di statistiche...")
-        stats_file = generate_stats_file(args.book, args.dir, random_selection, num_chapters, seed)
+        stats_file = generate_stats_file(args.book, args.dir, random_selection, num_chapters)
         
-        # # Analizza le metriche dei token
+        # Analizza le metriche dei token
         print("\n2. Analisi delle metriche dei token...")
-        token_metrics_file = analyze_token_metrics(args.book, args.dir, random_selection, num_chapters, seed)
+        token_metrics_file = analyze_token_metrics(args.book, args.dir, random_selection, num_chapters)
         
         # Analizza la coerenza del contesto
         print("\n3. Analisi della coerenza del contesto tra capitoli...")
-        context_metrics_file = analyze_context_consistency(args.book, args.dir, random_selection, num_chapters, seed)
+        context_metrics_file = analyze_context_consistency(args.book, args.dir, random_selection, num_chapters)
         
         # Valuta il modello BERT se richiesto
         if args.evaluate_bert:

@@ -1,0 +1,581 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:09:56
+Entities,"{
+  ('Harry', 'PER'): 70,
+  ('Hagrid', 'PER'): 41,
+  ('Hermione', 'PER'): 23,
+  ('Neville', 'PER'): 18,
+  ('Malfoy', 'PER'): 17,
+  ('Conan', 'PER'): 17,
+  ('Fiorenzo', 'PER'): 15,
+  ('Ron', 'PER'): 12,
+  ('Cassandro', 'PER'): 11,
+  ('Piton', 'PER'): 10,
+  ('Gazza', 'PER'): 9,
+  ('Thor', 'PER'): 9,
+  ('McGranitt', 'PER'): 7,
+  ('Grifondoro', 'PER'): 7,
+  ('Voldemort', 'PER'): 6,
+  ('Harry Potter', 'MISC'): 5,
+  ('Raptor', 'PER'): 5,
+  ('Gazza', 'LOC'): 4,
+  ('Quidditch', 'ORG'): 3,
+  ('Quidditch', 'LOC'): 3,
+  ('«', 'PER'): 3,
+  ('Marte', 'LOC'): 3,
+  ('Her-', 'PER'): 2,
+  ('Norberto', 'PER'): 2,
+  ('Paciock', 'PER'): 2,
+  ('Serpeverde', 'LOC'): 2,
+  ('Potter', 'MISC'): 2,
+  ('Baston', 'PER'): 2,
+  ('Fuffi', 'LOC'): 2,
+  ('Silente', 'PER'): 2,
+  ('Oh', 'PER'): 2,
+  ('Tu-Sai-Chi', 'LOC'): 2,
+  ('Harry!', 'MISC'): 1,
+  ('Credo di sapere che cosa', 'MISC'): 1,
+  ('McGra-', 'LOC'): 1,
+  ('Harry incrociò lo sguardo', 'MISC'): 1,
+  ('Povero Neville', 'PER'): 1,
+  ('Granger', 'PER'): 1,
+  ('Potter: 
+credevo che', 'MISC'): 1,
+  ('Ma professoressa... la prego...» 
+
+«Non può...» 
+«Non sarai tu a dirmi quello che posso', 'MISC'): 1,
+  ('Potter!', 'MISC'): 1,
+  ('Casa', 'PER'): 1,
+  ('Neville', 'LOC'): 1,
+  ('Casa', 'ORG'): 1,
+  ('Corvonero', 'LOC'): 1,
+  ('Tassorosso', 'LOC'): 1,
+  ('Coppa delle Case', 'MISC'): 1,
+  ('Fred', 'PER'): 1,
+  ('George', 'PER'): 1,
+  ('Be'... effettivamente no', 'MISC'): 1,
+  ('Cercatore'', 'MISC'): 1,
+  ('Lui', 'PER'): 1,
+  ('No, no', 'MISC'): 1,
+  ('E va bene... va bene» sentì Raptor singhiozzare', 'MISC'): 1,
+  ('Pietre Filosofali', 'MISC'): 1,
+  ('Scommetto', 'PER'): 1,
+  ('Harry?', 'MISC'): 1,
+  ('te-
+nerci bordone', 'PER'): 1,
+  ('Halloween', 'MISC'): 1,
+  ('Giove', 'LOC'): 1,
+  ('Prof.ssa McGranitt', 'PER'): 1,
+  ('Seguitemi» disse', 'MISC'): 1,
+  ('La luna', 'MISC'): 1,
+  ('capanna di Hagrid', 'LOC'): 1,
+  ('tananza', 'LOC'): 1,
+  ('Sei tu', 'MISC'): 1,
+  ('Sbrigati', 'PER'): 1,
+  ('Nella foresta?', 'MISC'): 1,
+  ('gioia maligna', 'PER'): 1,
+  ('Ai lupi mannari dovevi pensarci prima', 'MISC'): 1,
+  ('Era ora» disse', 'MISC'): 1,
+  ('Hermione?', 'MISC'): 1,
+  ('Io in quella foresta', 'MISC'): 1,
+  ('Hogwarts!', 'MISC'): 1,
+  ('Hogwarts', 'MISC'): 1,
+  ('rimbeccò Hagrid', 'PER'): 1,
+  ('Figuriamoci:', 'MISC'): 1,
+  ('Guardò Hagrid', 'PER'): 1,
+  ('Li', 'LOC'): 1,
+  ('Guardate', 'PER'): 1,
+  ('Io voglio Thor', 'MISC'): 1,
+  ('Draco', 'PER'): 1,
+  ('Andiamo', 'PER'): 1,
+  ('Avanzavano', 'LOC'): 1,
+  ('Tutto bene', 'MISC'): 1,
+  ('Hermione?» sussurrò', 'MISC'): 1,
+  ('DIETRO', 'MISC'): 1,
+  ('ALBERO!» 
+', 'MISC'): 1,
+  ('Lo sapevo» mormorò', 'MISC'): 1,
+  ('Qua', 'PER'): 1,
+  ('Un lupo mannaro?»', 'MISC'): 1,
+  ('Ripresero', 'LOC'): 1,
+  ('Ah, sei tu', 'MISC'): 1,
+  ('centauro', 'LOC'): 1,
+  ('Buona sera a te', 'MISC'): 1,
+  ('Hermione Granger', 'PER'): 1,
+  ('Buona sera»', 'MISC'): 1,
+  ('Ehm...» 
+«Un po'» disse', 'MISC'): 1,
+  ('Senti', 'PER'): 1,
+  ('Conan?', 'MISC'): 1,
+  ('«Insomma', 'PER'): 1,
+  ('Ehilà', 'PER'): 1,
+  ('Senti', 'LOC'): 1,
+  ('Conan', 'MISC'): 1,
+  ('Pa-', 'PER'): 1,
+  ('Badate', 'LOC'): 1,
+  ('Avanzarono', 'LOC'): 1,
+  ('ro', 'LOC'): 1,
+  ('Sembrava', 'PER'): 1,
+  ('tu Harry', 'PER'): 1,
+  ('Guarda...» mormorò', 'MISC'): 1,
+  ('AAAAAARGH!', 'MISC'): 1,
+  ('Il dolore alla testa', 'MISC'): 1,
+  ('Tutto bene?» disse il centauro', 'MISC'): 1,
+  ('S', 'LOC'): 1,
+  ('Guardò Harry', 'PER'): 1,
+  ('Ma tu sei il giovane', 'MISC'): 1,
+  ('Potter!» esclamò', 'MISC'): 1,
+  ('«Faresti', 'PER'): 1,
+  ('Ha-', 'LOC'): 1,
+  ('Conan e Cassandro', 'PER'): 1,
+  ('Ma tu lo sai chi è questo?» disse', 'MISC'): 1,
+  ('Cas-', 'MISC'): 1,
+  ('sandro', 'PER'): 1,
+  ('No» rispose Harry', 'MISC'): 1,
+  ('Pozioni', 'LOC'): 1,
+  ('Fio-
+renzo', 'PER'): 1,
+  ('Signor Potter', 'MISC'): 1,
+  ('La Pietra Filosofale!', 'MISC'): 1,
+  ('Elisir di Lunga Vita!', 'MISC'): 1,
+  ('Al-', 'PER'): 1,
+  ('Balle', 'LOC'): 1,
+  ('Vol...» 
+«Harry! Harry', 'MISC'): 1,
+  ('Ma io sto benissimo» rispose', 'MISC'): 1,
+  ('L'unicorno è morto', 'MISC'): 1,
+  ('Buona fortuna', 'MISC'): 1,
+  ('Spero', 'LOC'): 1,
+  ('Pietra', 'LOC'): 1,
+  ('Piantala', 'LOC'): 1,
+  ('Pietra» pro-', 'ORG'): 1,
+  ('Silente', 'MISC'): 1,
+  ('Prima', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Harry Potter': {
+    'category': 'scuola di magia',
+    'confidence': 0.2024143636226654,
+    'spacy_label': 'MISC',
+    'count': 5,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [4608, 4632, 19626, 29729, 32023]
+  },
+  'Marte': {
+    'category': 'paese',
+    'confidence': 0.258737713098526,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.7614799999999999,
+    'early_appearance': False,
+    'positions': [20045, 20518, 21456]
+  },
+  'Giove': {
+    'category': 'paese',
+    'confidence': 0.23946379125118256,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [10235]
+  },
+  'Balle': {
+    'category': 'paese',
+    'confidence': 0.2705165147781372,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [31408]
+  },
+  'Potter!': {
+    'category': 'casa',
+    'confidence': 0.11471685022115707,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [3497]
+  },
+  'Casa': {
+    'category': 'paese',
+    'confidence': 0.1523546725511551,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [3802, 4498]
+  },
+  'Pietre Filosofali': {
+    'category': 'casa',
+    'confidence': 0.13150833547115326,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [8237]
+  },
+  'Sbrigati': {
+    'category': 'paese',
+    'confidence': 0.2616465091705322,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [12350]
+  },
+  'Hogwarts!': {
+    'category': 'scuola di magia',
+    'confidence': 0.48463883996009827,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [14319]
+  },
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [14615]
+  },
+  'La Pietra Filosofale!': {
+    'category': 'torre',
+    'confidence': 0.20335358381271362,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [30920]
+  },
+  'Gazza': {
+    'category': 'non_luogo',
+    'confidence': 0.3090805113315582,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.24744,
+    'early_appearance': True,
+    'positions': [89, 1660, 9745, 10574, 11051, 11205, 12053, 12343, 12559, 13157, 13596, 13733, 13941]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.24298,
+    'early_appearance': True,
+    'positions': [3276, 4675, 6044, 6168, 6193, 32523]
+  },
+  'McGra-': {
+    'category': 'non_luogo',
+    'confidence': 0.40011507272720337,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1977]
+  },
+  'Neville': {
+    'category': 'non_luogo',
+    'confidence': 0.37892094254493713,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [1151, 1403, 2347, 2423, 3999, 4142, 6382, 10341, 11042, 11880, 12789, 13040, 16426, 16951, 23507, 23927, 24031, 24084, 24306]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01632,
+    'early_appearance': False,
+    'positions': [5012, 5201]
+  },
+  'Fuffi': {
+    'category': 'non_luogo',
+    'confidence': 0.41434338688850403,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01632,
+    'early_appearance': False,
+    'positions': [8685, 9990]
+  },
+  'Tu-Sai-Chi': {
+    'category': 'non_luogo',
+    'confidence': 0.2518521249294281,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01632,
+    'early_appearance': False,
+    'positions': [33864, 33923]
+  },
+  'Corvonero': {
+    'category': 'non_luogo',
+    'confidence': 0.37149009108543396,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [4914]
+  },
+  'Tassorosso': {
+    'category': 'non_luogo',
+    'confidence': 0.21051450073719025,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [4930]
+  },
+  'capanna di Hagrid': {
+    'category': 'non_luogo',
+    'confidence': 0.13050906360149384,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [12276]
+  },
+  'tananza': {
+    'category': 'non_luogo',
+    'confidence': 0.246713787317276,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [12324]
+  },
+  'Li': {
+    'category': 'non_luogo',
+    'confidence': 0.2650868892669678,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [15147]
+  },
+  'Avanzavano': {
+    'category': 'non_luogo',
+    'confidence': 0.28941309452056885,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [16986]
+  },
+  'Ripresero': {
+    'category': 'non_luogo',
+    'confidence': 0.3583032488822937,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [18728]
+  },
+  'centauro': {
+    'category': 'non_luogo',
+    'confidence': 0.3519004285335541,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [19327]
+  },
+  'Senti': {
+    'category': 'non_luogo',
+    'confidence': 0.2881149649620056,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [20128, 21201]
+  },
+  'Badate': {
+    'category': 'non_luogo',
+    'confidence': 0.28213974833488464,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [22264]
+  },
+  'Avanzarono': {
+    'category': 'non_luogo',
+    'confidence': 0.3163457214832306,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [22626]
+  },
+  'ro': {
+    'category': 'non_luogo',
+    'confidence': 0.24328410625457764,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [23092]
+  },
+  'S': {
+    'category': 'non_luogo',
+    'confidence': 0.2536100745201111,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [26905]
+  },
+  'Ha-': {
+    'category': 'non_luogo',
+    'confidence': 0.3228439688682556,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [27205]
+  },
+  'Pozioni': {
+    'category': 'non_luogo',
+    'confidence': 0.33101049065589905,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [29929]
+  },
+  'Spero': {
+    'category': 'non_luogo',
+    'confidence': 0.280316025018692,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [32136]
+  },
+  'Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.1253218799829483,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [32793]
+  },
+  'Piantala': {
+    'category': 'non_luogo',
+    'confidence': 0.15259914100170135,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [32964]
+  },
+}"
+Main Location,"{
+  'name': 'Harry Potter',
+  'category': 'scuola di magia',
+  'spacy_label': 'MISC',
+  'confidence': 0.2024143636226654,
+  'count': 5,
+  'priority_score': 0.763,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 70,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 30, 'anger': 13, 'sadness': 50, 'fear': 5}, 'sentiment_counts': {'positive': 33, 'negative': 65}, 'emotion_percentages': {'joy': 30.612244897959183, 'anger': 13.26530612244898, 'sadness': 51.02040816326531, 'fear': 5.1020408163265305}, 'sentiment_percentages': {'positive': 33.6734693877551, 'negative': 66.3265306122449}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.1964921951293945, 'Riconoscimento entità con spaCy': 0.00400090217590332, 'Analisi emozioni': 13.963258028030396, 'Classificazione delle location': 38.64703392982483, 'Tempo totale': 54.81277561187744}"
+Original Text Extract,"Capitolo 15 
+La foresta proibita 
+ 
+Le cose non avrebbero potuto andare peggio di così. 
+Gazza li portò giù al primo piano, nello studio della professoressa 
+McGranitt, dove si sedettero in attesa senza scambiarsi una parola. Her-
+mione tremava. Nel cervello di Harry si accavallavano scuse, alibi e rac-
+conti di una fantasia sfrenata, ma uno più debole dell'altro. Stavolta, non 
+vedeva proprio come avrebbero potuto fare per tirarsi fuori dei pasticci. 
+Erano in trappola. Come avevano potuto essere così stupidi da dimenticar-
+si il mantello? La professoressa McGranitt non avrebbe mai accettato nes-
+suna delle scuse che potevano addurre per essere scesi dal letto ed essersi 
+messi a girare per la scuola a notte fonda, per non parlare poi di quando e-
+rano saliti sulla torretta più alta, che serviva da osservatorio astronomico, 
+l'accesso alla quale era proibito salvo che in orario di lezione. Se a ciò si 
+aggiungeva Norberto e il mantello che rende invisibili, si capiva che pote-
+
+vano anche cominciare a fare i bagagli. 
+Harry aveva creduto che le cose non potessero andar peggio? Ebbene, si 
+era sbagliato. Quando la McGranitt apparve, Neville era con lei. 
+«Harry!» esclamò questi nell'istante in cui vide gli altri due, «ti stavo 
+cercando per avvertirti! Ho sentito Malfoy dire che ti avrebbe beccato, e ha 
+detto che hai un dra...» 
+Harry scosse violentemente il capo per far segno a Neville di tacere, ma 
+la professoressa McGranitt l'aveva visto. A vederla lì, torreggiante sopra le 
+teste di tutti e tre, non ci si sarebbe stupiti se le fossero uscite fiamme dal 
+naso, come a Norberto. 
+«Non me lo sarei mai aspettato da nessuno di voi. Gazza dice che erava-
+te su all'osservatorio. È l'una del mattino! Esigo una spiegazione». 
+Era la prima volta che Hermione non riusciva a rispondere alla domanda 
+di un insegnante. Stava lì in piedi a fissarsi le pantofole, immobile come 
+una statua. 
+«Credo di sapere che cosa è successo» disse a un certo punto la McGra-
+nitt. «Non ci vuole certo un genio per capirlo. Avete raccontato a Malfoy 
+chissà quali balle a proposito di un drago, nel tentativo di attirarlo fuori del 
+letto e di combinare qualche pasticcio. Comunque, l'ho già pescato. Pre-
+sumo vi sembri divertente che Paciock, qui, abbia sentito le vostre storie e 
+ci abbia anche creduto!» 
+Harry incrociò lo sguardo di Neville e tentò di dirgli, sempre senza par-
+lare, che non era vero, perché Neville aveva un'espressione attonita e feri-
+ta. Povero Neville, sempre così maldestro! Harry sapeva bene quanto do-
+veva essergli costato cercare di raggiungerli al buio per avvertirli. 
+«Sono indignata» disse la McGranitt. «Quattro studenti che si alzano e 
+vanno in giro nella stessa nottata! Non si è mai sentito niente del genere! 
+Quanto a te, signorina Granger, credevo che avessi più senno. E tu, Potter: 
+credevo che Grifondoro significasse qualcosa di più per te. Adesso, andre-
+te in castigo tutti e tre... sì, anche tu, Paciock, perché nulla ti autorizza ad 
+andartene a zonzo per la scuola di notte, specie di questi tempi! È troppo 
+pericoloso! E in più, toglierò cinquanta punti a Grifondoro». 
+«Cinquanta?» esclamò Harry con voce strozzata: avrebbero perso il van-
+taggio, quel vantaggio che avevano conquistato con l'ultima partita a 
+Quidditch. 
+«Cinquanta punti a testa» precisò la McGranitt, respirando pesantemen-
+te con quel suo naso a punta. 
+«Ma professoressa... la prego...» 
+
+«Non può...» 
+«Non sarai tu a dirmi quello che posso e non posso fare, Potter! E ades-
+so, tornatevene a letto tutti quanti. Mai e poi mai ho provato tanta vergo-
+gna per degli studenti di Grifondoro». 
+Centocinquanta punti in meno! Grifondoro sarebbe finito all'ultimo po-
+sto della classifica. Nel giro di una sola notte, avevano mandato a monte la 
+possibilità che la loro Casa vincesse la coppa. Harry aveva l'impressione 
+che il mondo gli fosse crollato addosso. Come avrebbe potuto rimediare a 
+una cosa del genere? 
+Non riuscì a chiudere occhio. Stette ad ascoltare Neville che singhiozza-
+va nel suo cuscino per ore e ore, gli parve. Non gli veniva in mente niente 
+da dirgli per consolarlo. Sapeva bene che Neville, come lui, attendeva l'al-
+ba con terrore. Che cosa sarebbe successo quando i loro compagni avesse-
+ro saputo quel che avevano combinato? 
+Il mattino seguente, passando accanto alle gigantesche clessidre che se-
+gnavano il punteggio di Grifondoro, gli studenti in un primo momento 
+pensarono che si trattasse di un errore. Com'era possibile che la Casa aves-
+se improvvisamente centocinquanta punti meno del giorno prima? Poi co-
+minciò a spargersi la voce: Harry Potter, il famoso Harry Potter, l'eroe di 
+ben due partite a Quidditch, aveva fatto perdere loro tutti quei punti. Lui e 
+un altro paio di imbecilli del primo anno. 
+Di colpo, dopo essere stato uno dei ragazzi più amati e ammirati dell'in-
+tera scuola, Harry divenne il più odiato. Persino quelli di Corvonero e di 
+Tassorosso gli si rivoltarono contro, perché tutti quanti avevano sper"
+Token Count,7618

@@ -1,0 +1,225 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:11:34
+Entities,"{
+  ('Lucy', 'PER'): 17,
+  ('Edmund', 'PER'): 7,
+  ('Susan', 'PER'): 4,
+  ('Peter', 'LOC'): 4,
+  ('Peter', 'PER'): 2,
+  ('Scommetto', 'PER'): 2,
+  ('C'erano una volta quattro bambini', 'MISC'): 1,
+  ('Susan', 'LOC'): 1,
+  ('Ed-
+mund', 'LOC'): 1,
+  ('Lucy', 'LOC'): 1,
+  ('Londra', 'LOC'): 1,
+  ('Macready', 'PER'): 1,
+  ('Ivy', 'PER'): 1,
+  ('Margaret', 'PER'): 1,
+  ('Betty', 'PER'): 1,
+  ('Siamo proprio fortunati', 'MISC'): 1,
+  ('Vacci', 'PER'): 1,
+  ('Cos'', 'LOC'): 1,
+  ('Smettila', 'LOC'): 1,
+  ('Peter', 'MISC'): 1,
+  ('Esplorazione!', 'MISC'): 1,
+  ('Scesero', 'LOC'): 1,
+  ('Bibbia', 'MISC'): 1,
+  ('Dietro la prima fila di pellicce', 'MISC'): 1,
+  ('Sembrerebbero rami d'albero', 'MISC'): 1,
+  ('Nevicava', 'LOC'): 1,
+  ('Voltò', 'PER'): 1,
+  ('Vide', 'PER'): 1,
+  ('cric croc', 'PER'): 1,
+  ('Dalla cintola', 'MISC'): 1,
+  ('Natale', 'MISC'): 1,
+  ('Santo', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Londra': {
+    'category': 'paese',
+    'confidence': 0.23626258969306946,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9758749999999999,
+    'early_appearance': True,
+    'positions': [120]
+  },
+  'Bibbia': {
+    'category': 'paese',
+    'confidence': 0.2563455402851105,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.746275,
+    'early_appearance': False,
+    'positions': [4494]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [78, 1377, 2045, 2529, 2855, 3572, 4779]
+  },
+  'Susan': {
+    'category': 'non_luogo',
+    'confidence': 0.2668699026107788,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [85, 1508, 1730, 2799, 3407]
+  },
+  'Ed-
+mund': {
+    'category': 'non_luogo',
+    'confidence': 0.3693607747554779,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [92]
+  },
+  'Lucy': {
+    'category': 'non_luogo',
+    'confidence': 0.2795442044734955,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.235175,
+    'early_appearance': True,
+    'positions': [2, 103, 932, 1900, 2260, 2728, 4861, 5004, 5144, 5205, 5582, 5756, 6231, 6470, 7127, 7484, 7932, 8626]
+  },
+  'Cos'': {
+    'category': 'non_luogo',
+    'confidence': 0.288984477519989,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [2230]
+  },
+  'Smettila': {
+    'category': 'non_luogo',
+    'confidence': 0.2947496175765991,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [3368]
+  },
+  'Scesero': {
+    'category': 'non_luogo',
+    'confidence': 0.31662628054618835,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [4090]
+  },
+  'Nevicava': {
+    'category': 'non_luogo',
+    'confidence': 0.15222039818763733,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.012975,
+    'early_appearance': False,
+    'positions': [6630]
+  },
+}"
+Main Location,None
+Main Character,"{
+  'name': 'Lucy',
+  'count': 17,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 38, 'sadness': 44, 'anger': 8, 'fear': 2}, 'sentiment_counts': {'positive': 39, 'negative': 53}, 'emotion_percentages': {'joy': 41.30434782608695, 'sadness': 47.82608695652174, 'anger': 8.695652173913043, 'fear': 2.1739130434782608}, 'sentiment_percentages': {'positive': 42.391304347826086, 'negative': 57.608695652173914}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.3487067222595215, 'Riconoscimento entità con spaCy': 0.0, 'Analisi emozioni': 20.441848278045654, 'Classificazione delle location': 13.791524887084961, 'Tempo totale': 34.58207988739014}"
+Original Text Extract,"1
+Lucy entra nell'armadio
+C'erano una volta quattro bambini che si chiamavano Peter, Susan, Ed-
+mund e Lucy. Vivevano a Londra ma, durante la seconda guerra mondiale,
+furono costretti ad abbandonare la città per via dei bombardamenti aerei.
+Furono mandati in casa di un vecchio professore che abitava nel cuore del-
+la campagna, a poco meno di venti chilometri dalla più vicina stazione fer-
+roviaria e a tre chilometri e mezzo dall'ufficio postale. Il professore non
+aveva moglie: alla casa badava la signora Macready, la governante, aiutata
+da tre cameriere che si chiamavano Ivy, Margaret e Betty (ma nella nostra
+storia c'entrano poco).
+Il professore era molto vecchio, con i capelli bianchi e ispidi e un'ab-
+bondante peluria che gli cresceva sulla faccia oltre che in testa, formando
+una gran barba bianca. I ragazzi provarono molta simpatia per lui, anche se
+la prima sera, quando apparve ad accoglierli sulla porta di casa, Lucy, che
+era la più piccola, ne ebbe paura. Edmund, che era di poco più grande, tro-
+vò che fosse un uomo molto buffo e per non ridere si nascose il viso con il
+fazzoletto, fingendo di soffiarsi il naso.
+
+La sera del loro arrivo, dopo aver dato la buona notte al professore, i
+quattro ragazzi salirono al piano di sopra e i maschi entrarono nella stanza
+delle sorelle per chiacchierare in libertà.
+— Siamo proprio fortunati, lo sento — esclamò Peter. — Andrà tutto a
+meraviglia e il vecchietto ci lascerà fare quello che vogliamo.
+— Mi è sembrato una cara persona — cominciò Susan.
+— E piantala di parlare in quel modo — disse Edmund, interrompendola
+in tono sgarbato. Per la verità era molto stanco, ma non voleva farlo capi-re:
+perciò era di malumore.
+— Parlare... in che modo, scusa? — ribatté Susan. — Comunque, è me-
+glio che tu vada a letto.
+— Ecco che ti metti a fare la mamma — sbottò Edmund. — Vacci tu a
+letto, se vuoi.
+— E se ci andassimo tutti? — propose Lucy. — Forse sarebbe meglio. Se
+sentono che stiamo qui a discutere invece di dormire ci sgrideranno.
+— Non ci sentono, non aver paura — affermò Peter. — Da qui alla stan-
+za da pranzo ci sono tanti di quei corridoi, tante di quelle scale e scalette,
+che ci vogliono almeno dieci minuti per farle tutte. Figurati se ci sentono.
+— Cos'è questo rumore? — chiese Lucy all'improvviso. La vecchia ma-
+gione era davvero immensa: non avrebbe mai immaginato che una casa po-
+tesse essere tanto grande. Il pensiero di tutti quei corridoi bui le metteva i
+brividi.
+— È il verso di un uccello, sciocca — fece Edmund.
+— Di un gufo — precisò Peter. — Dev'essere pieno di uccelli, da queste
+parti. Non avete visto che montagne, arrivando qui? Scommetto che ci so-
+no le aquile, lassù. E i boschi? Ci saranno gufi e cervi.
+— E tassi — esclamò Lucy.
+— E volpi — le fece eco Edmund.
+— E conigli selvatici — aggiunse Susan.
+— Bene, domani esploreremo i dintorni — concluse Peter. — Ora, però,
+andiamo a dormire.
+La mattina dopo pioveva. La pioggia cadeva così fitta che guardando
+dalla finestra non si vedevano né montagne né boschi, e neppure il ruscello
+che attraversava il giardino.
+— Naturalmente, doveva piovere — borbottò Edmund.
+I ragazzi avevano fatto colazione insieme al professore e ora si trovava-
+no nella grande stanza che lui aveva riservato per il giorno: un camerone
+
+lungo e stretto con quattro finestre che guardavano da una parte del giardi-
+
+no e due dall'altra.
+— Smettila di brontolare, Edmund — disse Susan. — Scommetto quello
+che vuoi che tra un'ora finirà di piovere. Intanto qui non si sta male: c'è la
+radio e ci sono dei libri.
+— Macché, macché — la interruppe Peter. — Io me ne vado a fare un
+giretto per la casa. Esplorazione!
+Trovarono che fosse una bellissima idea e fu così che cominciò la loro
+strana avventura. Era il tipo di casa di cui non si arriva mai alla fine, piena
+di imprevisti. Aprirono qualche porta a caso: le prime erano le stanze degli
+ospiti, come c'era da immaginarsi. Arrivarono a una lunga sala, stretta e
+piena di quadri; c'era anche un'armatura completa, tutta di ferro. La sala
+successiva, tappezzata di verde, conteneva una grande arpa in un angolo.
+Scesero quattro gradini, ne salirono altri cinque, aprirono una porticina e si
+trovarono in una specie di corridoio sopraelevato. In fondo c'era un'altra
+porticina che dava su una balconata interna, dopo di che attraversarono una
+lunga serie di stanze tutte uguali e in fila: erano piene di scaffali e gli scaf-
+fali erano pieni di libri. Ce n'erano di vecchissimi e grandissimi, alcuni più
+grandi della Bibbia che sta in chiesa. Poco dopo arrivarono in una stanza
+quasi vuota: c'era solo un grande armadio appoggiato al muro, del tipo che
+ha uno specchio nell'anta; a parte il mobile, sul davanzale della finestra si
+vedeva una piantina di fiordalisi secca.
+— Qui non c'è niente — decise Peter, proseguendo nella marcia. Gli altri
+lo seguirono a eccezione della piccola Lucy, che si era fermata davanti al-
+l'armadione chiedendosi cosa contenesse. Certo era chiuso a chiave, ma un
+tentativo si poteva anche fa"
+Token Count,1925

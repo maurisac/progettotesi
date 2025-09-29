@@ -1,0 +1,282 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:11:43
+Entities,"{
+  ('Lucy', 'PER'): 21,
+  ('Susan', 'PER'): 16,
+  ('Peter', 'PER'): 14,
+  ('Edmund', 'PER'): 8,
+  ('Peter', 'LOC'): 5,
+  ('Macready', 'ORG'): 4,
+  ('Narnia', 'LOC'): 3,
+  ('Ed-
+mund', 'LOC'): 2,
+  ('Macready', 'PER'): 2,
+  ('Susan', 'LOC'): 1,
+  ('Ed, diglielo', 'MISC'): 1,
+  ('Cos'', 'LOC'): 1,
+  ('Ed, cos'hai da
+dirci?', 'MISC'): 1,
+  ('Cos'', 'PER'): 1,
+  ('Senti', 'LOC'): 1,
+  ('Lu', 'LOC'): 1,
+  ('Ed.
+—', 'MISC'): 1,
+  ('Io credevo... credevo... — balbettò', 'MISC'): 1,
+  ('Lho', 'LOC'): 1,
+  ('Basta', 'LOC'): 1,
+  ('Smettetela', 'PER'): 1,
+  ('Cerchiamo Lucy', 'PER'): 1,
+  ('Cer-', 'MISC'): 1,
+  ('Dite', 'MISC'): 1,
+  ('Restarono', 'PER'): 1,
+  ('Chiese', 'LOC'): 1,
+  ('Su-', 'MISC'): 1,
+  ('E tu cosa ne pensi, cara?', 'MISC'): 1,
+  ('Capisco', 'LOC'): 1,
+  ('Parlava', 'PER'): 1,
+  ('Davvero?', 'MISC'): 1,
+  ('Staccato', 'PER'): 1,
+  ('Niente di più probabile', 'MISC'): 1,
+  ('Giusto', 'LOC'): 1,
+  ('La casa del professore', 'MISC'): 1,
+  ('Inghilterra', 'LOC'): 1,
+  ('Tanto per intenderci', 'MISC'): 1,
+  ('Statemi', 'LOC'): 1,
+  ('Figurarsi', 'PER'): 1,
+  ('Una bella mattina Edmund', 'MISC'): 1,
+  ('Filiamo', 'PER'): 1,
+  ('Veloce come il lampo', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Presto', 'MISC'): 1,
+  ('Spalancò', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.98368,
+    'early_appearance': True,
+    'positions': [685, 7226, 11491]
+  },
+  'Chiese': {
+    'category': 'paese',
+    'confidence': 0.22728274762630463,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [4442]
+  },
+  'Inghilterra': {
+    'category': 'paese',
+    'confidence': 0.3866882026195526,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [9422]
+  },
+  'Peter': {
+    'category': 'non_luogo',
+    'confidence': 0.2799575924873352,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [233, 482, 823, 1622, 3814, 4388, 5188, 5405, 6720, 6803, 7081, 8213, 8838, 9025, 10174, 10526, 10858, 11967, 12125]
+  },
+  'Ed-
+mund': {
+    'category': 'non_luogo',
+    'confidence': 0.3693607747554779,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23852,
+    'early_appearance': True,
+    'positions': [601, 9046]
+  },
+  'Susan': {
+    'category': 'non_luogo',
+    'confidence': 0.2668699026107788,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [240, 940, 2652, 3472, 4396, 4548, 5321, 5364, 5709, 6008, 6531, 7143, 8518, 8846, 10166, 10704, 11625]
+  },
+  'Cos'': {
+    'category': 'non_luogo',
+    'confidence': 0.288984477519989,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [452, 1538]
+  },
+  'Senti': {
+    'category': 'non_luogo',
+    'confidence': 0.3254034221172333,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [1593]
+  },
+  'Lu': {
+    'category': 'non_luogo',
+    'confidence': 0.3380639851093292,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [1716]
+  },
+  'Lho': {
+    'category': 'non_luogo',
+    'confidence': 0.3770832121372223,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [2604]
+  },
+  'Basta': {
+    'category': 'non_luogo',
+    'confidence': 0.2983839213848114,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [2637]
+  },
+  'Capisco': {
+    'category': 'non_luogo',
+    'confidence': 0.2735859155654907,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [5462]
+  },
+  'Giusto': {
+    'category': 'non_luogo',
+    'confidence': 0.32584914565086365,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [8604]
+  },
+  'Statemi': {
+    'category': 'non_luogo',
+    'confidence': 0.30697759985923767,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [10337]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 3,
+  'priority_score': 0.98368,
+  'early_appearance': True,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Lucy',
+  'count': 21,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 28, 'sadness': 41, 'fear': 7, 'anger': 20}, 'sentiment_counts': {'positive': 28, 'negative': 68}, 'emotion_percentages': {'joy': 29.166666666666668, 'sadness': 42.70833333333333, 'fear': 7.291666666666667, 'anger': 20.833333333333336}, 'sentiment_percentages': {'positive': 29.166666666666668, 'negative': 70.83333333333334}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.7444853782653809, 'Riconoscimento entità con spaCy': 0.0029997825622558594, 'Analisi emozioni': 23.192681074142456, 'Classificazione delle location': 19.668298482894897, 'Tempo totale': 43.6114661693573}"
+Original Text Extract,"5
+Da questa parte dell'armadio
+Il gioco a nascondino continuava, quindi ci volle un bel po' prima che i
+ragazzi si trovassero tutti insieme. Quando questo avvenne (nella lunga
+stanza con l'armatura di ferro), Lucy cominciò subito: — Peter, Susan, è
+come dicevo io. C'è veramente un altro paese dall'altra parte dell'armadio...
+C'è venuto anche Edmund, poi ci siamo ritrovati nel bosco e abbiamo fatto
+insieme la strada del ritorno. Su, Ed, diglielo.
+— Cos'è questa storia? — chiese Peter. — Di che si tratta, Ed, cos'hai da
+dirci?
+Fu allora che si verificò la cosa più spiacevole della nostra storia. Ed-
+mund non aveva ancora deciso cosa dire e non dire dell'avventura nel re-
+gno di Narnia. Si sentiva male e aveva la nausea; inoltre, era seccato con
+Lucy perché non gli andava di doverle dar ragione in pubblico. Quando
+Peter gli rivolse una domanda ben precisa, fece la peggior cosa che si pos-
+sa immaginare: restò muto come un pesce. Susan lo incoraggiò, dicendo: —
+Dai, parla — ma lui gettò un'occhiata di superiorità alla povera Lucy, come
+se fosse molto più grande (invece aveva solo un anno di più) e disse,
+sogghignando: — Lucy e io abbiamo fatto un gioco, fingendo che la storia
+del paese immaginario fosse vera. Uno scherzo tra noi, naturalmente. Non
+c'è proprio nulla dietro l'armadio, l'abbiamo visto benissimo.
+Lucy lo guardò un attimo sbigottita, poi fuggì dalla stanza. Edmund, che
+diventava più cattivo ogni minuto, fu certo di aver ottenuto un gran suc-
+cesso e continuò nel tono di prima: — Ecco che scappa di nuovo. Cos'ha,
+adesso? Il guaio con questi bambini è che...
+— Senti un po' — lo interruppe Peter, voltandosi verso Edmund con
+grande durezza. — Innanzi tutto chiudi il becco. Da quando Lu ha comin-
+
+ciato con la storia dell'armadio, ti sei comportato come un mostro verso
+di lei, l'hai presa in giro senza pietà. E ora ti metti a fare giochetti, prima
+fingi che sia vero e poi...? Vuoi farla diventar matta? Credo che tu sia un
+gran dispettoso, Ed.
+— Ma è tutta una faccenda senza senso — replicò Edmund.
+— Certo che non ha alcun senso. È proprio questo il punto. Da quando
+siamo arrivati qui, Lucy è cambiata: a casa stava benissimo, era calma,
+simpatica e sincera. Ora è diventata una gran bugiarda oppure ha perso una
+rotella. Ma che sia questo o che sia quello, cosa credi di ottenere sbeffeg-
+giandola prima e incoraggiandola dopo? Eh, sì, ieri la maltrattavi e oggi
+inventi questo gioco sul paese oltre l'armadio.
+— Io credevo... credevo... — balbettò Edmund.
+— Tu non credevi proprio niente. L'hai fatto per dispetto, ti è sempre
+piaciuto maltrattare i più piccoli. Lho visto anche a scuola, sai.
+— Basta — ordinò Susan a questo punto. — Smettetela, tutti e due. Se
+stiamo qui a litigare le cose non andranno meglio. Cerchiamo Lucy, inve-
+ce.
+Quando la trovarono, parecchio più tardi, nessuno si meravigliò nel ve-
+dere che aveva gli occhi rossi e gonfi come di chi abbia pianto molto. Cer-
+carono inutilmente di farla ragionare. Lucy ripeteva sempre la stessa storia:
+per lei era la verità.
+— Dite quel che volete, pensate quel che volete, non me ne importa nul-
+la. Potete dirlo al professore o scrivere alla mamma, insomma, fate come vi
+pare. Io so di essere stata in quel bosco e ho davvero incontrato il fauno.
+Vorrei essere rimasta là, perché voi siete... stupidi, stupidi, stupidi.
+Fu una serata spiacevole. Lucy si sentiva tanto infelice e anche Edmund
+cominciava a capire che forse il suo piano non aveva funzionato. Peter e
+Susan si erano quasi convinti che a Lucy avesse dato di volta il cervello.
+Restarono un bel po' in corridoio a confabulare tra loro, mentre la più pic-
+cola era già addormentata nel suo letto. Alla fine decisero che il mattino
+seguente avrebbero raccontato tutto al professore.
+— Ci penserà lui a scrivere a papà — aveva concluso saggiamente Peter.
+— Dirà se le condizioni di Lucy sono davvero preoccupanti. Noi non pos-
+siamo capire.
+Così andarono tutti e due nello studio del professore, bussarono alla por-
+ta e, quando lui fece avanti!, entrarono. Il professore li fece accomodare su
+
+due poltroncine e si dichiarò a loro disposizione per tutto quello di cui a-
+vessero bisogno, poi sedette e ascoltò la storia senza interromperli, le pun-
+
+te delle dita di una mano premute contro quelle dell'altra. Quando i
+ragazzi ebbero finito, il professore restò in silenzio, si schiarì la gola e disse
+l'ulti-ma cosa che Peter e Susan avrebbero immaginato di sentirgli dire.
+Chiese semplicemente: — Come fate a sapere che la storia di vostra sorella
+non è vera?
+— Ma... — cominciò Susan e poi si fermò, guardando bene in faccia il
+professore. Chiunque avrebbe capito che non scherzava affatto. Allora Su-
+san si fece coraggio e proseguì: — Edmund ha detto di non essere mai sta-
+to dall'altra parte dell'armadio, che era tutto uno scherzo combinato con
+Lucy.
+— Questo è un punto che merita di essere approfondito — precisò il
+professore. — Seriamente approfondito. Per esempio, e scusatemi se vi
+faccio la domanda, dalla vostra passa"
+Token Count,2722

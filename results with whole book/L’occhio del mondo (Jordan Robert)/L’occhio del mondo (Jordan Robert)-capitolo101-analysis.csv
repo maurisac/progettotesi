@@ -1,0 +1,510 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:23:34
+Entities,"{
+  ('Lews Therin', 'PER'): 13,
+  ('Lews', 'PER'): 8,
+  ('Lews', 'MISC'): 5,
+  ('Ilyena', 'LOC'): 5,
+  ('Drago', 'LOC'): 4,
+  ('Lews Therin Telamon', 'PER'): 3,
+  ('Kinslayer', 'LOC'): 3,
+  ('Ilyena', 'PER'): 2,
+  ('Elan Morin', 'PER'): 2,
+  ('Ilyena!', 'MISC'): 2,
+  ('Traditore', 'PER'): 2,
+  ('Luce', 'MISC'): 2,
+  ('Ombra', 'LOC'): 2,
+  ('Frattura del Mondo', 'LOC'): 2,
+  ('Epoca Quarta', 'PER'): 2,
+  ('Tenebre', 'MISC'): 2,
+  ('FANUCCI', 'MISC'): 1,
+  ('Robert Jordan', 'PER'): 1,
+  ('The Eye Of The World', 'MISC'): 1,
+  ('Arnoldo Mondadori Editore', 'ORG'): 1,
+  ('Fanucci Editore', 'PER'): 1,
+  ('Collana', 'LOC'): 1,
+  ('TIF EXTRA', 'MISC'): 1,
+  ('PROLOGO', 'MISC'): 1,
+  ('Montedrago', 'LOC'): 1,
+  ('Mare del Mondo', 'LOC'): 1,
+  ('Guardò', 'PER'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Avanzò', 'PER'): 1,
+  ('Signore del Mattino', 'MISC'): 1,
+  ('Ah', 'PER'): 1,
+  ('Voce', 'ORG'): 1,
+  ('Canto', 'MISC'): 1,
+  ('Spremi', 'PER'): 1,
+  ('Luce!', 'ORG'): 1,
+  ('Elan Morin Tedronai', 'PER'): 1,
+  ('Traditore della Speranza» mormorò', 'MISC'): 1,
+  ('Traditore della Speranza', 'MISC'): 1,
+  ('Assassino', 'PER'): 1,
+  ('Servi', 'PER'): 1,
+  ('Anello di Tamyrlin', 'MISC'): 1,
+  ('Trono Massimo', 'PER'): 1,
+  ('Nove Verghe del Dominio', 'LOC'): 1,
+  ('Sala dei Servi', 'LOC'): 1,
+  ('Porte', 'LOC'): 1,
+  ('Paaran Disen', 'LOC'): 1,
+  ('Non so proprio cosa', 'MISC'): 1,
+  ('tue Sorelle', 'LOC'): 1,
+  ('Guarigione', 'PER'): 1,
+  ('Shai’tan', 'PER'): 1,
+  ('Protese', 'PER'): 1,
+  ('Piano piano', 'MISC'): 1,
+  ('gelatina', 'LOC'): 1,
+  ('Barcollando', 'PER'): 1,
+  ('Luce m’', 'MISC'): 1,
+  ('Ilyena, no!', 'MISC'): 1,
+  ('Sommo Signore delle Tenebre', 'MISC'): 1,
+  ('Traditore» disse Lews Therin', 'MISC'): 1,
+  ('Dieci anni!', 'MISC'): 1,
+  ('Ruota', 'LOC'): 1,
+  ('Depose gentilmente a terra Ilyena', 'MISC'): 1,
+  ('Ricorda, sciocco!', 'MISC'): 1,
+  ('Sommo Signore delle Tenebre!', 'MISC'): 1,
+  ('Ricorda!', 'MISC'): 1,
+  ('Cento Compagni', 'ORG'): 1,
+  ('Kinslayer', 'PER'): 1,
+  ('Shai’tan!', 'MISC'): 1,
+  ('Goccioline', 'LOC'): 1,
+  ('Dovunque', 'PER'): 1,
+  ('Anziani', 'PER'): 1,
+  ('Traditore lo frustò', 'MISC'): 1,
+  ('Vera Fonte', 'LOC'): 1,
+  ('Saidin', 'PER'): 1,
+  ('Viaggiò', 'LOC'): 1,
+  ('Saidin', 'ORG'): 1,
+  ('Ruota del Tempo', 'LOC'): 1,
+  ('Ombra', 'MISC'): 1,
+  ('Creatore', 'PER'): 1,
+  ('Attinse', 'PER'): 1,
+  ('Vera Fonte', 'ORG'): 1,
+  ('Unico Potere', 'MISC'): 1,
+  ('Fonte', 'LOC'): 1,
+  ('Roccia', 'LOC'): 1,
+  ('Terra', 'LOC'): 1,
+  ('Mondo lacerato', 'MISC'): 1,
+  ('Mondo', 'LOC'): 1,
+  ('Aleth nin Taerin alta Camora', 'PER'): 1,
+  ('Creatore:', 'MISC'): 1,
+  ('O Luce dei Cieli', 'MISC'): 1,
+  ('Luce del Mondo', 'LOC'): 1,
+  ('Promesso', 'LOC'): 1,
+  ('Principe del 
+Mattino canti alla terra', 'MISC'): 1,
+  ('Signore dell’Alba', 'PER'): 1,
+  ('Charal Drianaan te Calamon', 'PER'): 1,
+  ('Ciclo del Drago', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Robert Jordan': {
+    'category': 'scuola di magia',
+    'confidence': 0.08138400316238403,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.96736,
+    'early_appearance': True,
+    'positions': [64]
+  },
+  'The Eye Of The World': {
+    'category': 'strada',
+    'confidence': 0.11846177279949188,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.96736,
+    'early_appearance': True,
+    'positions': [79]
+  },
+  'Drago': {
+    'category': 'paese',
+    'confidence': 0.34736984968185425,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.76594,
+    'early_appearance': False,
+    'positions': [4991, 14161, 14790, 15515]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.75702,
+    'early_appearance': False,
+    'positions': [12027, 14314, 14738]
+  },
+  'Sala dei Servi': {
+    'category': 'castello',
+    'confidence': 0.10701091587543488,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [5875]
+  },
+  'gelatina': {
+    'category': 'paese',
+    'confidence': 0.09620101004838943,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [7821]
+  },
+  'Fonte': {
+    'category': 'paese',
+    'confidence': 0.2778446078300476,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [12543]
+  },
+  'Terra': {
+    'category': 'paese',
+    'confidence': 0.32014426589012146,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [14332]
+  },
+  'Mondo': {
+    'category': 'paese',
+    'confidence': 0.26341044902801514,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.75256,
+    'early_appearance': False,
+    'positions': [14488]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7496200000000001,
+    'early_appearance': False,
+    'positions': [11645, 12553]
+  },
+  'Vieni': {
+    'category': 'paese',
+    'confidence': 0.2779832184314728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [2864]
+  },
+  'Voce': {
+    'category': 'paese',
+    'confidence': 0.24723157286643982,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [3685]
+  },
+  'Servi': {
+    'category': 'paese',
+    'confidence': 0.30695784091949463,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [5678]
+  },
+  'Creatore': {
+    'category': 'paese',
+    'confidence': 0.3074972331523895,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [12172]
+  },
+  'Collana': {
+    'category': 'non_luogo',
+    'confidence': 0.23233550786972046,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [176]
+  },
+  'Montedrago': {
+    'category': 'non_luogo',
+    'confidence': 0.15643981099128723,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [219]
+  },
+  'Ilyena': {
+    'category': 'non_luogo',
+    'confidence': 0.2268882840871811,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [2845, 5309, 5408, 6162, 9422, 9774, 11561]
+  },
+  'Kinslayer': {
+    'category': 'non_luogo',
+    'confidence': 0.23022782802581787,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.02078,
+    'early_appearance': False,
+    'positions': [5198, 8425, 9800, 9961]
+  },
+  'Frattura del Mondo': {
+    'category': 'non_luogo',
+    'confidence': 0.13700760900974274,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01632,
+    'early_appearance': False,
+    'positions': [14749, 14840]
+  },
+  'Mare del Mondo': {
+    'category': 'non_luogo',
+    'confidence': 0.18309330940246582,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [2163]
+  },
+  'Nove Verghe del Dominio': {
+    'category': 'non_luogo',
+    'confidence': 0.19283078610897064,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [5772]
+  },
+  'Porte': {
+    'category': 'non_luogo',
+    'confidence': 0.1345156729221344,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [5913]
+  },
+  'Paaran Disen': {
+    'category': 'non_luogo',
+    'confidence': 0.28061676025390625,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [5922]
+  },
+  'tue Sorelle': {
+    'category': 'non_luogo',
+    'confidence': 0.19855618476867676,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [6536]
+  },
+  'Ruota': {
+    'category': 'non_luogo',
+    'confidence': 0.15005111694335938,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [8960]
+  },
+  'Goccioline': {
+    'category': 'non_luogo',
+    'confidence': 0.20513035356998444,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [10048]
+  },
+  'Vera Fonte': {
+    'category': 'non_luogo',
+    'confidence': 0.17710167169570923,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [11143, 12273]
+  },
+  'Viaggiò': {
+    'category': 'non_luogo',
+    'confidence': 0.2250170260667801,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [11188]
+  },
+  'Ruota del Tempo': {
+    'category': 'non_luogo',
+    'confidence': 0.11771215498447418,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [11905]
+  },
+  'Roccia': {
+    'category': 'non_luogo',
+    'confidence': 0.20196568965911865,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [13079]
+  },
+  'Luce del Mondo': {
+    'category': 'non_luogo',
+    'confidence': 0.09351203590631485,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [15137]
+  },
+  'Promesso': {
+    'category': 'non_luogo',
+    'confidence': 0.20615044236183167,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [15167]
+  },
+}"
+Main Location,"{
+  'name': 'Drago',
+  'category': 'paese',
+  'spacy_label': 'LOC',
+  'confidence': 0.34736984968185425,
+  'count': 4,
+  'priority_score': 0.76594,
+  'early_appearance': False,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Lews Therin Telamon',
+  'count': 3,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.7801307692307693,
+}"
+Emotions,"{'emotion_counts': {'joy': 29, 'sadness': 55, 'fear': 2, 'anger': 6}, 'sentiment_counts': {'positive': 30, 'negative': 62}, 'emotion_percentages': {'joy': 31.521739130434785, 'sadness': 59.78260869565217, 'fear': 2.1739130434782608, 'anger': 6.521739130434782}, 'sentiment_percentages': {'positive': 32.608695652173914, 'negative': 67.3913043478261}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.5831313133239746, 'Riconoscimento entità con spaCy': 0.0009999275207519531, 'Analisi emozioni': 32.44698166847229, 'Classificazione delle location': 29.361622095108032, 'Tempo totale': 62.40773606300354}"
+Original Text Extract,"0101 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+FANUCCI 
+
+ 
+ 
+ 
+ 
+ 
+© Robert Jordan, The Eye Of The World, 1990 
+© Arnoldo Mondadori Editore, novembre 1992 
+© Fanucci Editore, 2006 
+Collana: TIF EXTRA 
+ 
+  
+
+ 
+ 
+ 
+PROLOGO 
+ 
+Montedrago 
+ 
+ 
+ 
+ 
+ 
+Di tanto in tanto il palazzo tremava ancora e la terra brontolava nel ricordo e gemeva come se 
+volesse negare l’accaduto. Dagli squarci nelle pareti entravano raggi di sole che facevano scintillare il 
+pulviscolo sospeso nell’aria. Segni d’incendio sfiguravano pareti, pavimenti, soffitti. Larghe macchie 
+nere chiazzavano le vernici e le dorature screpolate di affreschi un tempo vividamente colorati; un velo 
+di fuliggine copriva fregi raffiguranti uomini e animali che parevano quasi vivi, prima che la furia si 
+calmasse.  
+C’erano cadaveri dappertutto: uomini, donne, bambini, abbattuti, mentre tentavano la fuga, dai 
+fulmini che avevano colpito ogni corridoio, oppure raggiunti dall’incendio o travolti dalle pietre del 
+palazzo, volate in cerca di bersaglio, quasi vive, prima che la quiete tornasse. Come bizzarro 
+contrappunto, arazzi e quadri pittoreschi, veri capolavori, erano rimasti alle pareti, intatti, tranne in 
+qualche punto dove l’intonaco, gonfiandosi, li faceva pendere di traverso. I mobili finemente lavorati 
+con intarsi d’avorio e d’oro erano intatti, tranne dove il pavimento, sollevandosi, li aveva ribaltati. Lo 
+sconvolgimento della mente aveva colpito al cuore, senza toccare le cose marginali.  
+Lews Therin Telamon vagò nel palazzo, tenendosi in equilibrio quando la terra sussultava. «Ilyena!» 
+gridò. «Amore mio, dove sei?» L’orlo del mantello grigio chiaro strisciò nel sangue, quando Lews 
+scavalcò il corpo d’una donna dai capelli biondi, la cui bellezza era segnata dall’orrore degli ultimi 
+istanti di vita e i cui occhi erano ancora sbarrati nell’incredulità.  
+«Dove sei, moglie mia? Dove vi siete nascosti tutti quanti?»  
+Lews vide la propria immagine in uno specchio che pendeva di sghembo dalla parete di marmo 
+sconnesso. Indossava vesti un tempo regali, grigio, scarlatto e oro; adesso la stoffa finemente intessuta, 
+comprata da mercanti giunti dalle terre al di là del Mare del Mondo, era lacera e sporca, impregnata 
+della stessa polvere che gli copriva pelle e capelli. Per un attimo Lews tastò il simbolo ricamato sul 
+mantello, un cerchio metà bianco e metà nero, con una linea sinuosa che separava i due colori. Aveva 
+un significato, quel simbolo, ma lui non vi badò molto. Guardò invece la propria immagine, con un 
+senso di grande meraviglia: un uomo alto, appena entrato nella mezza età, bello un tempo, ma ora con 
+capelli più grigi che castani e viso segnato dalle preoccupazioni, occhi scuri che avevano visto troppo.  
+Lews Therin cominciò a ridacchiare, poi gettò indietro la testa e la sua risata echeggiò nelle sale 
+prive di vita.  
+«Ilyena, amore mio! Vieni qui, moglie mia. Guarda che spettacolo.»  
+Alle sue spalle l’aria s’increspò, scintillò, si solidificò in un uomo che si guardò intorno con una 
+breve smorfia di disgusto. Meno alto di Lews Therin, vestiva tutto di nero, a parte il candido colletto di 
+trina e il ricamo d’argento sul risvolto degli stivali a mezza coscia. Avanzò badando a dove metteva i 
+piedi e tenendo sollevato il mantello, con fare schizzinoso, perché non strisciasse sui cadaveri. Il 
+pavimento tremò per scosse d’assestamento, ma l’attenzione dell’uomo era rivolta a Lews che fissava 
+la propria immagine allo specchio e rideva.  
+«Signore del Mattino» disse l’intruso «sono venuto per te.»  
+La risata s’interruppe di colpo, come se non fosse mai esistita. Lews Therin si girò, ma non parve 
+
+sorpreso. «Ah, un ospite» disse. «Possiedi la Voce, forestiero? Presto sarà ora del Canto e qui tutti sono 
+benvenuti a prendervi parte. Ilyena, amore mio, abbiamo un ospite. Ilyena, dove sei?»  
+L’uomo vestito di nero spalancò gli occhi, rivolse rapidamente lo sguardo al cadavere della donna 
+dai capelli d’oro, poi tornò a fissare Lews Therin. «Shai’tan ti porti! La contaminazione si è già 
+impadronita di te fino a questo punto?»  
+«Quel nome. Shai…» Lews Therin rabbrividì e alzò la mano come per tenere a bada qualcosa. «Non 
+pronunciare quel nome. È pericoloso.»  
+«Allora almeno questo lo ricordi. È pericoloso per te, sciocco, non per me. Cos’altro ricordi? Spremi 
+la memoria, idiota accecato dalla Luce! Voglio che alla fine tu sia consapevole! Ricorda!»  
+Per un momento Lews Therin fissò la propria mano, affascinato dalle macchie di sporco. Poi si 
+ripulì sulla giubba, perfino più sporca, e tornò a rivolgere l’attenzione all’altro. «Chi sei? Cosa vuoi?»  
+L’uomo vestito di nero si drizzò con arroganza. «Un tempo mi chiamavano Elan Morin Tedronai, 
+ma ora…»  
+«Traditore della Speranza» mormorò Lews Therin. Nella sua mente i ricordi si agitarono, ma lui girò 
+la testa, ritraendosi da essi.  
+«Allora qualcosa ricordi. Sì, Traditore della Speranza. Questo è il nome che gli uomini mi hanno 
+dato, proprio come a te diedero quello di Drago; ma"
+Token Count,3296

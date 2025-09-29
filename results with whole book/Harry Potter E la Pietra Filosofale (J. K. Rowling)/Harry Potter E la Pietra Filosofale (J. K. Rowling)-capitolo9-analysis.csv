@@ -1,0 +1,590 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:08:52
+Entities,"{
+  ('Harry', 'PER'): 63,
+  ('Malfoy', 'PER'): 33,
+  ('Ron', 'PER'): 33,
+  ('Neville', 'PER'): 17,
+  ('Hermione', 'PER'): 14,
+  ('Baston', 'PER'): 13,
+  ('McGranitt', 'PER'): 11,
+  ('Gazza', 'LOC'): 9,
+  ('Madama Bumb', 'PER'): 8,
+  ('Serpeverde', 'LOC'): 7,
+  ('Grifondoro', 'LOC'): 7,
+  ('scopa', 'PER'): 7,
+  ('Gazza', 'PER'): 6,
+  ('Grifondoro', 'PER'): 5,
+  ('Hermione Granger', 'PER'): 5,
+  ('Ricordella', 'PER'): 5,
+  ('Tiger', 'PER'): 5,
+  ('Pix', 'MISC'): 5,
+  ('Neville', 'LOC'): 4,
+  ('Hagrid', 'PER'): 4,
+  ('Mrs Purr', 'PER'): 4,
+  ('Paciock', 'PER'): 3,
+  ('Potter', 'MISC'): 3,
+  ('La professoressa McGranitt', 'MISC'): 3,
+  ('Pix', 'LOC'): 3,
+  ('Signora Grassa', 'PER'): 3,
+  ('Draco Malfoy', 'PER'): 2,
+  ('Charlie', 'PER'): 2,
+  ('Quidditch', 'ORG'): 2,
+  ('Dean', 'PER'): 2,
+  ('Hogwarts', 'MISC'): 2,
+  ('Penso', 'PER'): 2,
+  ('Goyle', 'MISC'): 2,
+  ('Cercatore', 'LOC'): 2,
+  ('Potter?', 'MISC'): 2,
+  ('Stai', 'LOC'): 2,
+  ('Fred', 'PER'): 2,
+  ('Bene', 'MISC'): 2,
+  ('Andiamo', 'PER'): 2,
+  ('Maledizione dei Fantasmi', 'MISC'): 2,
+  ('Il duello di mezzanotte', 'MISC'): 1,
+  ('Grifon-
+doro del primo anno', 'MISC'): 1,
+  ('Pozioni', 'LOC'): 1,
+  ('Ti pareva!» commentò cupo', 'MISC'): 1,
+  ('Non sai ancora se ti renderai veramente ridicolo» disse Ron', 'MISC'): 1,
+  ('Quidditch', 'LOC'): 1,
+  ('Strepitava', 'PER'): 1,
+  ('Babbani', 'ORG'): 1,
+  ('Seamus 
+Finnigan', 'PER'): 1,
+  ('Dean Thomas', 'PER'): 1,
+  ('Ne-', 'MISC'): 1,
+  ('Il Quidditch', 'MISC'): 1,
+  ('Quel giorno, il barbagianni', 'MISC'): 1,
+  ('Nonna', 'PER'): 1,
+  ('Professoressa', 'PER'): 1,
+  ('Stavo', 'PER'): 1,
+  ('Goyle al segui-
+to', 'MISC'): 1,
+  ('Fred e Ge-
+', 'PER'): 1,
+  ('«', 'PER'): 1,
+  ('Stendete la mano destra sopra la vostra', 'MISC'): 1,
+  ('Su!'» 
+«SU!', 'MISC'): 1,
+  ('tevi', 'LOC'): 1,
+  ('Al mio fischio... tre... due...» 
+Ma Neville', 'MISC'): 1,
+  ('Torna indietro, ragazzo!» gridò lei, ma', 'MISC'): 1,
+  ('WHAM!', 'ORG'): 1,
+  ('Polso', 'PER'): 1,
+  ('Coraggio', 'PER'): 1,
+  ('Chiudi il becco', 'MISC'): 1,
+  ('Calì Patil', 'PER'): 1,
+  ('Oh', 'PER'): 1,
+  ('Pansy Parkinson', 'PER'): 1,
+  ('Serpeverde', 'PER'): 1,
+  ('Calì', 'PER'): 1,
+  ('Guardate!»', 'MISC'): 1,
+  ('Dammela!', 'MISC'): 1,
+  ('Potter!» 
+', 'MISC'): 1,
+  ('No!» gridò', 'MISC'): 1,
+  ('Virò', 'MISC'): 1,
+  ('Dammela', 'PER'): 1,
+  ('Ah', 'PER'): 1,
+  ('Goyle a salvarti l'osso del collo quassù', 'MISC'): 1,
+  ('Sembrò', 'PER'): 1,
+  ('HARRY POTTER!', 'MISC'): 1,
+  ('Mai... da quando', 'MISC'): 1,
+  ('Hogwarts...» 
+', 'MISC'): 1,
+  ('La McGranitt', 'MISC'): 1,
+  ('Taci, signorina', 'MISC'): 1,
+  ('Patil', 'PER'): 1,
+  ('Weasley', 'MISC'): 1,
+  ('Dursley', 'ORG'): 1,
+  ('Su per le scale esterne', 'MISC'): 1,
+  ('Spalancava', 'LOC'): 1,
+  ('Silente', 'PER'): 1,
+  ('cia', 'ORG'): 1,
+  ('Sentì', 'PER'): 1,
+  ('Vitious', 'PER'): 1,
+  ('Bastone', 'PER'): 1,
+  ('Harry allibito', 'MISC'): 1,
+  ('Harry incuriosito', 'MISC'): 1,
+  ('La professoressa', 'MISC'): 1,
+  ('Pix!» gli gridò', 'MISC'): 1,
+  ('Oliver Baston', 'PER'): 1,
+  ('Dice sul serio', 'MISC'): 1,
+  ('Charlie Weasley', 'PER'): 1,
+  ('Potter?» gli chiese tutto eu-
+forico', 'MISC'): 1,
+  ('Leggero', 'PER'): 1,
+  ('Nimbus Duemila', 'MISC'): 1,
+  ('Tornado Sette', 'MISC'): 1,
+  ('Parlerò con il professor Silente', 'MISC'): 1,
+  ('Severus Piton', 'PER'): 1,
+  ('Voglio vedertici sudare', 'MISC'): 1,
+  ('Quidditch', 'PER'): 1,
+  ('Cercatore?» disse', 'MISC'): 1,
+  ('George Weasley', 'PER'): 1,
+  ('Complimenti', 'PER'): 1,
+  ('George', 'PER'): 1,
+  ('«Ce', 'PER'): 1,
+  ('Battitori', 'PER'): 1,
+  ('Ve lo dico io', 'MISC'): 1,
+  ('Lee Jordan', 'PER'): 1,
+  ('Scommetto', 'PER'): 1,
+  ('Gregory il Viscido', 'PER'): 1,
+  ('Ciao!» 
+Fred e George', 'MISC'): 1,
+  ('L'ultimo pasto', 'MISC'): 1,
+  ('Babba-', 'MISC'): 1,
+  ('Malfoy squadrò Tiger', 'PER'): 1,
+  ('Goyle valutandone la stazza', 'MISC'): 1,
+  ('Ron di-
+sinvolto', 'PER'): 1,
+  ('Butta via la bacchetta', 'MISC'): 1,
+  ('Chiedo scusa»', 'MISC'): 1,
+  ('E ti pareva?»', 'MISC'): 1,
+  ('rimbeccò Harry', 'PER'): 1,
+  ('Ciao, eh!» la salutò', 'MISC'): 1,
+  ('Seamus', 'PER'): 1,
+  ('Harry!', 'MISC'): 1,
+  ('Tu!»', 'MISC'): 1,
+  ('Tornatene a letto!» 
+«Stavo', 'MISC'): 1,
+  ('Incantesimi di Trasfigurazione', 'MISC'): 1,
+  ('Vattene', 'ORG'): 1,
+  ('E va bene', 'MISC'): 1,
+  ('E ora che cosa faccio?» strillò', 'MISC'): 1,
+  ('Vengo con voi» disse', 'MISC'): 1,
+  ('Neanche a parlarne!» 
+«Pensate che io me ne resti lì fuori ad aspettare', 'MISC'): 1,
+  ('Bella faccia tosta', 'MISC'): 1,
+  ('Harry aspro', 'MISC'): 1,
+  ('«Ho', 'PER'): 1,
+  ('ronfo', 'LOC'): 1,
+  ('Meno male!', 'MISC'): 1,
+  ('Signora Grassa', 'LOC'): 1,
+  ('Come va il braccio?»', 'MISC'): 1,
+  ('Bene» rispose', 'MISC'): 1,
+  ('Neville mostrandoglielo', 'PER'): 1,
+  ('Madama Chips', 'MISC'): 1,
+  ('Non mi lasciate!', 'MISC'): 1,
+  ('Barone Sanguinario', 'PER'): 1,
+  ('Raptor', 'PER'): 1,
+  ('Harry le sibilò di tacere', 'MISC'): 1,
+  ('Scivolarono', 'LOC'): 1,
+  ('Mrs Purr', 'MISC'): 1,
+  ('Strisciavano', 'LOC'): 1,
+  ('Annusa qua dentro', 'MISC'): 1,
+  ('ciccina', 'LOC'): 1,
+  ('Era Gazza', 'PER'): 1,
+  ('Svelti', 'LOC'): 1,
+  ('CORRETE', 'MISC'): 1,
+  ('lerìa', 'PER'): 1,
+  ('lacerandolo', 'PER'): 1,
+  ('Incantesimi', 'LOC'): 1,
+  ('Ve l'avevo detto, io» mormorò', 'MISC'): 1,
+  ('Dobbiamo', 'PER'): 1,
+  ('Zitto', 'PER'): 1,
+  ('Pix... per piacere...', 'MISC'): 1,
+  ('In giro per il castello a mezzanotte', 'MISC'): 1,
+  ('Ah, ah, ah! Sciocchi', 'MISC'): 1,
+  ('Ti prego!» 
+«', 'MISC'): 1,
+  ('FUORI DALLE CAMERATE!', 'MISC'): 1,
+  ('FUORI DALLE CAMERATE', 'MISC'): 1,
+  ('NEL CORRIDOIO', 'MISC'): 1,
+  ('DEGLI', 'MISC'): 1,
+  ('INCANTESIMI!» 
+Si tuffarono sotto di lui', 'MISC'): 1,
+  ('Siamo perduti!', 'MISC'): 1,
+  ('Udirono', 'PER'): 1,
+  ('Pix?', 'MISC'): 1,
+  ('Non farmi perdere tempo', 'MISC'): 1,
+  ('Non ti dirò un bel niente se non me lo chiedi per favore» disse Pix', 'MISC'): 1,
+  ('E va bene... per favore!', 'MISC'): 1,
+  ('Crede', 'PER'): 1,
+  ('Stavano', 'LOC'): 1,
+  ('Caddero', 'LOC'): 1,
+  ('Signora 
+Grassa', 'PER'): 1,
+  ('Ma dove diavolo eravate', 'MISC'): 1,
+  ('Non fa niente... grugno di porco', 'MISC'): 1,
+  ('«No', 'PER'): 1,
+  ('Ero', 'PER'): 1,
+  ('Spero', 'PER'): 1,
+  ('Gringott', 'ORG'): 1,
+}"
+Potential Locations,"{
+  'scopa': {
+    'category': 'paese',
+    'confidence': 0.23502212762832642,
+    'spacy_label': 'PER',
+    'count': 7,
+    'priority_score': 0.9802444444444445,
+    'early_appearance': True,
+    'positions': [698, 2230, 5059, 5970, 6236, 7317, 9021]
+  },
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [7769, 33103]
+  },
+  'Potter?': {
+    'category': 'scuola di magia',
+    'confidence': 0.12882943451404572,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [14248, 17546]
+  },
+  'Nonna': {
+    'category': 'paese',
+    'confidence': 0.25574201345443726,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [3628]
+  },
+  'Coraggio': {
+    'category': 'paese',
+    'confidence': 0.24026452004909515,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [7569]
+  },
+  'Hogwarts...» 
+': {
+    'category': 'scuola di magia',
+    'confidence': 0.4036044180393219,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [11508]
+  },
+  'cia': {
+    'category': 'paese',
+    'confidence': 0.25485920906066895,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [12815]
+  },
+  'Dobbiamo': {
+    'category': 'paese',
+    'confidence': 0.21077314019203186,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [27135]
+  },
+  'DEGLI': {
+    'category': 'paese',
+    'confidence': 0.23047776520252228,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [28359]
+  },
+  'Gringott': {
+    'category': 'banca magica',
+    'confidence': 0.10899363458156586,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [33008]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.24694444444444444,
+    'early_appearance': True,
+    'positions': [225, 550, 3402, 4984, 8132, 8314, 15350, 21780]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.24694444444444444,
+    'early_appearance': True,
+    'positions': [398, 537, 1853, 4090, 4629, 14875, 16202, 19480, 20694, 21711, 22408, 27166]
+  },
+  'Neville': {
+    'category': 'non_luogo',
+    'confidence': 0.37892094254493713,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23951111111111112,
+    'early_appearance': True,
+    'positions': [2175, 2552, 2900, 3451, 3936, 5918, 6079, 6915, 7231, 7833, 19849, 23122, 23414, 23685, 23978, 25729, 26098, 26965, 29725, 29768, 31848]
+  },
+  'Pozioni': {
+    'category': 'non_luogo',
+    'confidence': 0.33101049065589905,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [258]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [967, 1762, 14785, 15799]
+  },
+  'Gazza': {
+    'category': 'non_luogo',
+    'confidence': 0.3090805113315582,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [20096, 22748, 24505, 25691, 25788, 26078, 26427, 27361, 28061, 28736, 29184, 29584, 30901, 30937, 31070]
+  },
+  'Pix': {
+    'category': 'non_luogo',
+    'confidence': 0.36878547072410583,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [13641, 27768, 27874, 28020, 28308, 28827, 29258, 29545]
+  },
+  'Cercatore': {
+    'category': 'non_luogo',
+    'confidence': 0.3528731167316437,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [13963, 14942]
+  },
+  'Stai': {
+    'category': 'non_luogo',
+    'confidence': 0.2506572902202606,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.012355555555555555,
+    'early_appearance': False,
+    'positions': [15815, 17554]
+  },
+  'tevi': {
+    'category': 'non_luogo',
+    'confidence': 0.18890544772148132,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [6591]
+  },
+  'Spalancava': {
+    'category': 'non_luogo',
+    'confidence': 0.3757985830307007,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [12561]
+  },
+  'ronfo': {
+    'category': 'non_luogo',
+    'confidence': 0.29687851667404175,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [23031]
+  },
+  'Signora Grassa': {
+    'category': 'non_luogo',
+    'confidence': 0.20176738500595093,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [21423, 22216, 22300, 23499]
+  },
+  'Scivolarono': {
+    'category': 'non_luogo',
+    'confidence': 0.3279532790184021,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [24329]
+  },
+  'Strisciavano': {
+    'category': 'non_luogo',
+    'confidence': 0.3569132089614868,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [24878]
+  },
+  'ciccina': {
+    'category': 'non_luogo',
+    'confidence': 0.19866712391376495,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [25366]
+  },
+  'Svelti': {
+    'category': 'non_luogo',
+    'confidence': 0.35007041692733765,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [25585]
+  },
+  'Incantesimi': {
+    'category': 'non_luogo',
+    'confidence': 0.3259027302265167,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [26776]
+  },
+  'Stavano': {
+    'category': 'non_luogo',
+    'confidence': 0.2793978750705719,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [30188]
+  },
+  'Caddero': {
+    'category': 'non_luogo',
+    'confidence': 0.38578060269355774,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [30945]
+  },
+}"
+Main Location,"{
+  'name': 'scopa',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.23502212762832642,
+  'count': 7,
+  'priority_score': 0.9802444444444445,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 63,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 33, 'sadness': 51, 'anger': 14}, 'sentiment_counts': {'positive': 38, 'negative': 60}, 'emotion_percentages': {'joy': 33.6734693877551, 'sadness': 52.04081632653062, 'anger': 14.285714285714285}, 'sentiment_percentages': {'positive': 38.775510204081634, 'negative': 61.224489795918366}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.960012674331665, 'Riconoscimento entità con spaCy': 0.00500178337097168, 'Analisi emozioni': 14.592259645462036, 'Classificazione delle location': 64.26429772377014, 'Tempo totale': 80.82456421852112}"
+Original Text Extract,"Capitolo 9 
+Il duello di mezzanotte 
+
+ 
+Harry non avrebbe mai creduto possibile incontrare un ragazzo più odio-
+so di Dudley; questo, prima di conoscere Draco Malfoy. Eppure, i Grifon-
+doro del primo anno frequentavano con i Serpeverde soltanto il corso di 
+Pozioni e quindi non gli toccava sopportarlo troppo a lungo. O per lo me-
+no, fu così fino a quando, nella bacheca della sala di ritrovo di Grifondoro, 
+non comparve un avviso che li fece gemere di disperazione. Il giovedì suc-
+cessivo sarebbero iniziate le lezioni di volo, cui Grifondoro e Serpeverde 
+avrebbero partecipato insieme. 
+«Ti pareva!» commentò cupo Harry. «Mi mancava solo questa: rendermi 
+ridicolo a cavallo di un manico di scopa sotto gli occhi di Malfoy». 
+Aveva desiderato imparare a volare più di qualsiasi altra cosa al mondo. 
+«Non sai ancora se ti renderai veramente ridicolo» disse Ron con grande 
+buonsenso. «Comunque, ho sempre sentito Malfoy vantarsi di quanto è 
+bravo a giocare a Quidditch, ma scommetto che sono tutte balle». 
+Certamente Malfoy parlava molto del volo. Strepitava lamentandosi del 
+fatto che agli allievi del primo anno non fosse consentito di entrare a far 
+parte della squadra del proprio dormitorio, e millantava avventure mirabo-
+lanti che finivano sempre con lui che sfuggiva per un pelo ai Babbani, vo-
+lando via a bordo di un elicottero. Ma non era il solo: a sentire Seamus 
+Finnigan, pareva che da bambino non avesse fatto altro che scorrazzare per 
+la campagna a cavallo del suo manico di scopa. E anche Ron raccontava a 
+chiunque fosse disposto ad ascoltarlo di quella volta che, a cavallo della 
+vecchia scopa di Charlie, era quasi andato a sbattere contro un deltaplano. 
+Chiunque provenisse da una famiglia di maghi non faceva che parlare del 
+Quidditch. Ron aveva già avuto una grossa discussione con Dean Thomas, 
+che apparteneva al Grifondoro, a proposito delle partite di calcio. Non riu-
+sciva a capire che cosa ci fosse di tanto eccitante in un gioco che prevede-
+va una sola palla e dove non era permesso volare. Harry lo aveva sorpreso 
+a stuzzicare il poster della squadra di calcio del cuore di Dean, nella spe-
+ranza di far muovere i giocatori. 
+Neville non era mai salito in vita sua su un manico di scopa, perché sua 
+nonna non gli aveva mai neanche permesso di toccarne uno. Personalmen-
+te, Harry pensava che la signora avesse le sue buone ragioni, visto che Ne-
+ville riusciva a procurarsi una quantità incredibile di incidenti anche quan-
+do stava con entrambi i piedi per terra. 
+Hermione Granger era nervosa quanto Neville al pensiero di volare. Il 
+volo non era certo una cosa che si potesse imparare a memoria sui libri. In-
+
+tendiamoci bene, non che lei non ci avesse mai provato. Giovedì, durante 
+la colazione, li aveva rintontiti a forza di leggere notizie e informazioni sul 
+volo in un libro della biblioteca intitolato Il Quidditch attraverso i secoli. 
+Neville pendeva letteralmente dalle sue labbra, nel disperato tentativo di 
+carpire qualcosa che potesse aiutarlo a reggersi in sella alla scopa, ma gli 
+altri furono più che contenti quando l'arrivo della posta interruppe la con-
+ferenza di Hermione. 
+Dopo il biglietto di Hagrid, Harry non aveva ricevuto più missive, cosa 
+che naturalmente Malfoy non aveva mancato di notare. A lui, il suo gufo 
+reale portava sempre pacchi di dolci da casa, che il ragazzo apriva con 
+gioia maligna alla tavola dei Serpeverde. 
+Quel giorno, il barbagianni portò a Neville un pacchetto da parte della 
+nonna. Lui lo aprì tutto eccitato e mostrò una palla di vetro, che sembrava 
+piena di fumo bianco. 
+«È una Ricordella!» spiegò il ragazzo. «Nonna sa che dimentico sempre 
+le cose... Questa ti dice se c'è qualcosa che hai dimenticato di fare. Guarda-
+te: uno la tiene stretta così, e se diventa rossa... Oh!» E tutta la sua eccita-
+zione svanì perché Ricordella era diventata d'un tratto scarlatta: «...vuoi di-
+re che hai dimenticato qualcosa...» 
+Neville stava sforzandosi di ricordare che cosa mai avesse dimenticato, 
+quando Draco Malfoy, che proprio in quel momento passava accanto al ta-
+volo dei Grifondoro, gli strappò di mano la palla. 
+Harry e Ron balzarono in piedi. Entrambi speravano in una buona occa-
+sione per fare a pugni con Malfoy, ma la professoressa McGranitt, che fiu-
+tava i guai prima di ogni altro insegnante, piombò come un fulmine. 
+«Che cosa succede qui?» 
+«Professoressa, Malfoy mi ha preso la Ricordella». 
+Tutto corrucciato, Malfoy rimise prontamente la palla sul tavolo. 
+«Stavo solo guardando» disse, e se la svignò con Tiger e Goyle al segui-
+to. 
+ 
+Quel pomeriggio, alle tre e mezzo, Harry, Ron e gli altri Grifondoro cor-
+revano giù per le scale alla volta del campo, per la prima lezione di volo. 
+Era una giornata chiara e ventosa, e l'erba si piegava sotto i loro passi, 
+mentre scendevano di corsa giù per la collina verso un pianoro dalla parte 
+opposta del parco, in direzione della foresta proibita, le cui chiome ondeg-
+giavano, nere, in lontananza. 
+I Serpeverde erano"
+Token Count,7328

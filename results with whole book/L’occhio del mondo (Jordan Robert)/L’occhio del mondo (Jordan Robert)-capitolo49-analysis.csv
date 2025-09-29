@@ -1,0 +1,582 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:34:50
+Entities,"{
+  ('Rand', 'MISC'): 24,
+  ('Lan', 'MISC'): 17,
+  ('Egwene', 'PER'): 14,
+  ('Macchia', 'LOC'): 12,
+  ('Nynaeve', 'PER'): 11,
+  ('Moiraine', 'PER'): 11,
+  ('Mat', 'MISC'): 8,
+  ('Loial', 'LOC'): 8,
+  ('Uomo Verde', 'PER'): 7,
+  ('Custode', 'LOC'): 6,
+  ('Mandarb', 'LOC'): 4,
+  ('Perrin', 'PER'): 4,
+  ('Sapiente', 'MISC'): 3,
+  ('Manetheren', 'PER'): 3,
+  ('Ogier', 'PER'): 3,
+  ('Nynaeve', 'MISC'): 2,
+  ('Moiraine', 'LOC'): 2,
+  ('Moiraine Sedai', 'PER'): 2,
+  ('Aes Sedai', 'LOC'): 2,
+  ('Ellisande', 'ORG'): 2,
+  ('Alberi', 'PER'): 2,
+  ('Macchia', 'PER'): 2,
+  ('zufolio', 'PER'): 2,
+  ('Custode', 'PER'): 2,
+  ('Tenebroso', 'PER'): 2,
+  ('Occhio', 'LOC'): 2,
+  ('Vermi', 'ORG'): 2,
+  ('Farfalle', 'LOC'): 2,
+  ('Il Tenebroso', 'MISC'): 1,
+  ('Nynaeve', 'LOC'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Caricati', 'LOC'): 1,
+  ('Cosa aspettiamo?', 'MISC'): 1,
+  ('Ombra', 'LOC'): 1,
+  ('Montagne di 
+Dhoom', 'LOC'): 1,
+  ('Formavano', 'LOC'): 1,
+  ('Arriveremo all’Occhio', 'LOC'): 1,
+  ('«Me', 'PER'): 1,
+  ('Avvicinarsi', 'MISC'): 1,
+  ('Mat', 'PER'): 1,
+  ('State', 'LOC'): 1,
+  ('Moiraine Sedai', 'LOC'): 1,
+  ('Girò Mandarb', 'LOC'): 1,
+  ('Statemi', 'LOC'): 1,
+  ('Vera 
+Fonte', 'LOC'): 1,
+  ('Agelmar', 'PER'): 1,
+  ('Disegno', 'MISC'): 1,
+  ('Grinza', 'PER'): 1,
+  ('Presto» disse Moiraine', 'MISC'): 1,
+  ('Aldieb', 'PER'): 1,
+  ('Vera Fonte', 'LOC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('azzannavano', 'LOC'): 1,
+  ('Carai 
+an Caldazar!', 'MISC'): 1,
+  ('Ellisande!', 'MISC'): 1,
+  ('Mordero', 'PER'): 1,
+  ('Accendo falò di segnalazione', 'MISC'): 1,
+  ('Mezzi Uomini', 'MISC'): 1,
+  ('Forza', 'ORG'): 1,
+  ('Lontano', 'LOC'): 1,
+  ('Vermi» disse Lan', 'MISC'): 1,
+  ('Verme', 'LOC'): 1,
+  ('Conficcò', 'PER'): 1,
+  ('Un Verme…»', 'MISC'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Avanti! Avanti!', 'ORG'): 1,
+  ('«No', 'PER'): 1,
+  ('Macchia Loial', 'LOC'): 1,
+  ('La Macchia', 'LOC'): 1,
+  ('Montagne di Dhoom', 'LOC'): 1,
+  ('sciaguattii', 'MISC'): 1,
+  ('Troppo', 'LOC'): 1,
+  ('Non ce la faremo', 'MISC'): 1,
+  ('No, Lan!» gridò', 'MISC'): 1,
+  ('Silenzio, ragazza!', 'MISC'): 1,
+  ('Vermi', 'LOC'): 1,
+  ('Frecce» disse Mat', 'MISC'): 1,
+  ('Aggrappato', 'LOC'): 1,
+  ('“Vigliacco', 'PER'): 1,
+  ('Luce', 'MISC'): 1,
+  ('Siamo al sicuro» disse', 'MISC'): 1,
+  ('Occhio del 
+Mondo', 'LOC'): 1,
+  ('Credevo', 'MISC'): 1,
+  ('Certo', 'PER'): 1,
+  ('Fratello Albero', 'PER'): 1,
+  ('choshih', 'LOC'): 1,
+  ('T’ingshen', 'LOC'): 1,
+  ('Sorridendo', 'LOC'): 1,
+  ('Canteremo', 'PER'): 1,
+  ('Canzoni', 'MISC'): 1,
+  ('Nostalgia', 'ORG'): 1,
+  ('Esaminò', 'PER'): 1,
+  ('Un Fratello dei Lupi', 'MISC'): 1,
+  ('Uomo 
+Verde', 'PER'): 1,
+  ('Rand', 'LOC'): 1,
+  ('Vesti bizzarre indossi', 'MISC'): 1,
+  ('Figlio del Drago', 'PER'): 1,
+  ('Ruota', 'LOC'): 1,
+  ('Popolo del 
+Drago', 'LOC'): 1,
+  ('Primo Patto?', 'MISC'): 1,
+  ('Non… non so', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 17,
+    'priority_score': 0.9852000000000001,
+    'early_appearance': True,
+    'positions': [731, 1405, 1592, 2567, 4081, 5709, 6651, 7007, 7183, 7309, 7529, 8472, 8739, 13112, 13348, 14303, 16321]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9716117647058823,
+    'early_appearance': True,
+    'positions': [39, 289, 916, 1497, 2457, 3364, 5846, 6483, 9087, 9260, 9455, 11463, 13003, 13210, 14076, 14212, 14784, 15303, 16247, 16390, 16686, 18385, 18531, 18647, 18825]
+  },
+  'Ombra': {
+    'category': 'casa',
+    'confidence': 0.10745591670274734,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [4057]
+  },
+  'State': {
+    'category': 'paese',
+    'confidence': 0.2961997389793396,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [6758]
+  },
+  'Troppo': {
+    'category': 'paese',
+    'confidence': 0.22677846252918243,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [13935]
+  },
+  'Occhio del 
+Mondo': {
+    'category': 'casa',
+    'confidence': 0.11654169857501984,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [16567]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [3673, 4673, 5503, 5565, 5789, 7931, 9712, 12624, 12803]
+  },
+  'Forza': {
+    'category': 'paese',
+    'confidence': 0.24668188393115997,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [11206]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [15709]
+  },
+  'Credevo': {
+    'category': 'paese',
+    'confidence': 0.2117597460746765,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [16634]
+  },
+  'Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.1752917319536209,
+    'spacy_label': 'LOC',
+    'count': 12,
+    'priority_score': 0.24534117647058823,
+    'early_appearance': True,
+    'positions': [181, 1848, 4983, 5907, 6894, 8706, 8916, 11682, 12343, 12504, 14974, 15954, 16609, 19643]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.23747058823529413,
+    'early_appearance': True,
+    'positions': [769, 1376, 4092, 7400, 7821, 12779, 13035, 14679]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23222352941176472,
+    'early_appearance': True,
+    'positions': [1787, 4479, 11016]
+  },
+  'Nynaeve': {
+    'category': 'non_luogo',
+    'confidence': 0.15896956622600555,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23091176470588234,
+    'early_appearance': True,
+    'positions': [648, 907, 987, 1034, 1191, 1466, 2605, 3012, 3168, 3315, 5517, 7194, 14470, 16448]
+  },
+  'Loial': {
+    'category': 'non_luogo',
+    'confidence': 0.2856883406639099,
+    'spacy_label': 'LOC',
+    'count': 8,
+    'priority_score': 0.017894117647058824,
+    'early_appearance': False,
+    'positions': [4498, 4707, 12179, 13184, 16328, 17724, 17857, 18052]
+  },
+  'Mandarb': {
+    'category': 'non_luogo',
+    'confidence': 0.2996649444103241,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.012647058823529412,
+    'early_appearance': False,
+    'positions': [7841, 10757, 12430, 14321]
+  },
+  'Moiraine': {
+    'category': 'non_luogo',
+    'confidence': 0.33453455567359924,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010023529411764705,
+    'early_appearance': False,
+    'positions': [2869, 3847, 4116, 5658, 6057, 6946, 7342, 9044, 10569, 14408, 16311, 16511, 19370]
+  },
+  'Occhio': {
+    'category': 'non_luogo',
+    'confidence': 0.12972672283649445,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010023529411764705,
+    'early_appearance': False,
+    'positions': [14586, 19447]
+  },
+  'Farfalle': {
+    'category': 'non_luogo',
+    'confidence': 0.24962159991264343,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010023529411764705,
+    'early_appearance': False,
+    'positions': [16151, 17262]
+  },
+  'Caricati': {
+    'category': 'non_luogo',
+    'confidence': 0.2530823349952698,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [2747]
+  },
+  'Montagne di 
+Dhoom': {
+    'category': 'non_luogo',
+    'confidence': 0.16567382216453552,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [4173]
+  },
+  'Formavano': {
+    'category': 'non_luogo',
+    'confidence': 0.2001315802335739,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [4321]
+  },
+  'Arriveremo all’Occhio': {
+    'category': 'non_luogo',
+    'confidence': 0.1080918163061142,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [4407]
+  },
+  'Moiraine Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.29445886611938477,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [4442, 6773, 19209]
+  },
+  'Girò Mandarb': {
+    'category': 'non_luogo',
+    'confidence': 0.22701412439346313,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [6790]
+  },
+  'Statemi': {
+    'category': 'non_luogo',
+    'confidence': 0.20737062394618988,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [6906]
+  },
+  'Vera 
+Fonte': {
+    'category': 'non_luogo',
+    'confidence': 0.17710167169570923,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [8665]
+  },
+  'Vera Fonte': {
+    'category': 'non_luogo',
+    'confidence': 0.17710167169570923,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [9073]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [9518]
+  },
+  'azzannavano': {
+    'category': 'non_luogo',
+    'confidence': 0.2479386031627655,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [9810]
+  },
+  'Lontano': {
+    'category': 'non_luogo',
+    'confidence': 0.2591595947742462,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [11611]
+  },
+  'Verme': {
+    'category': 'non_luogo',
+    'confidence': 0.32619428634643555,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [12366]
+  },
+  'Macchia Loial': {
+    'category': 'non_luogo',
+    'confidence': 0.185836061835289,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [13289]
+  },
+  'La Macchia': {
+    'category': 'non_luogo',
+    'confidence': 0.16217203438282013,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [13485]
+  },
+  'Montagne di Dhoom': {
+    'category': 'non_luogo',
+    'confidence': 0.16567382216453552,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [13742]
+  },
+  'Vermi': {
+    'category': 'non_luogo',
+    'confidence': 0.3307259976863861,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [14542, 14635, 15824]
+  },
+  'Aggrappato': {
+    'category': 'non_luogo',
+    'confidence': 0.31030574440956116,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [14761]
+  },
+  'choshih': {
+    'category': 'non_luogo',
+    'confidence': 0.2598575949668884,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [17947]
+  },
+  'T’ingshen': {
+    'category': 'non_luogo',
+    'confidence': 0.18701910972595215,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [17957]
+  },
+  'Sorridendo': {
+    'category': 'non_luogo',
+    'confidence': 0.19920603930950165,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [17972]
+  },
+  'Ruota': {
+    'category': 'non_luogo',
+    'confidence': 0.15005111694335938,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [18701]
+  },
+  'Popolo del 
+Drago': {
+    'category': 'non_luogo',
+    'confidence': 0.1447545737028122,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [18740]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 17,
+  'priority_score': 0.9852000000000001,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Egwene',
+  'count': 14,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 35, 'sadness': 48, 'anger': 6, 'fear': 7}, 'sentiment_counts': {'negative': 63, 'positive': 33}, 'emotion_percentages': {'joy': 36.45833333333333, 'sadness': 50.0, 'anger': 6.25, 'fear': 7.291666666666667}, 'sentiment_percentages': {'negative': 65.625, 'positive': 34.375}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.3913097381591797, 'Riconoscimento entità con spaCy': 0.0029997825622558594, 'Analisi emozioni': 10.225298881530762, 'Classificazione delle location': 30.56235909461975, 'Tempo totale': 42.18396854400635}"
+Original Text Extract,"49 
+ 
+Il Tenebroso si muove 
+ 
+ 
+ 
+ 
+ 
+Rand si destò di colpo all’alba: un sole imbronciato gli pizzicava le palpebre sbirciando con 
+riluttanza da sopra le cime degli alberi della Macchia.  
+Anche a quell’ora mattutina, una coltre di caldo soffocante ammantava quelle terre marcescenti. 
+Rand rimase disteso sulla schiena, la testa sul rotolo di coperte usato come guanciale, e fissò il cielo. 
+Era sempre azzurro: questo, almeno, non era cambiato.  
+Si rese conto con sorpresa d’avere dormito. Per un istante credette che il ricordo confuso della 
+conversazione ascoltata senza volere la sera prima fosse parte d’un sogno; poi vide gli occhi di 
+Nynaeve, cerchiati di rosso: la Sapiente non aveva dormito, era chiaro. Il viso di Lan era più duro che 
+mai, come se il Custode si fosse rimesso la maschera e non intendesse lasciarla scivolare via di nuovo.  
+Egwene, preoccupata, si andò a sedere accanto a Nynaeve. Rand non riuscì a udire che cosa si 
+dicevano. Egwene disse qualcosa e Nynaeve scosse la testa. Egwene parlò ancora e Nynaeve 
+l’allontanò con un gesto.  
+Invece di lasciarla, Egwene si chinò verso di lei e per qualche minuto le due donne parlarono a voce 
+ancora più bassa; Nynaeve continuò a scuotere la testa. Poi con una risata e un abbraccio a Egwene, 
+mise fine alla conversazione e parve mormorare parole di conforto. Ma Egwene, rialzandosi, scoccò al 
+Custode un’occhiata astiosa. Lan parve non notarlo: non guardò affatto nella direzione di Nynaeve.  
+Scuotendo la testa, Rand raccolse le sue cose e si lavò frettolosamente mani, viso e denti, con la 
+poca acqua che Lan permetteva di usare per le pulizie personali. Si domandò se le donne non avessero 
+un sistema per leggere la mente degli uomini. Era un pensiero che metteva a disagio.  
+“Tutte le donne sono Aes Sedai” si disse. Ma forse si lasciava ossessionare dalla Macchia. Si pulì la 
+bocca e andò a sellare il baio.  
+Rimase di nuovo sconcertato nel veder scomparire l’accampamento prima d’arrivare ai cavalli, ma 
+quando terminò di stringere il sottopancia, ogni cosa sulla sommità della collina tornò visibile. E tutti si 
+muovevano in fretta.  
+Le sette torri erano chiaramente visibili nella luce del mattino: mozziconi lontani, simili a enormi 
+colline scabre, che davano solo un’idea della grandiosità ormai scomparsa. I numerosi laghi erano d’un 
+azzurro privo d’increspature. Quella mattina niente turbava la superficie. Se guardava i laghi e le torri 
+in rovina, Rand riusciva quasi a non badare alle cose nauseanti che crescevano tutt’intorno. Nei 
+confronti delle torri, Lan si comportò come nei confronti di Nynaeve: non guardò mai dalla loro parte, 
+anche se non pareva che lo facesse di proposito, e si concentrò sui preparativi per la partenza.  
+Caricati sul cavallo da soma i cesti con le provviste, eliminata ogni traccia dell’accampamento, 
+montati tutti in sella, Moiraine si fermò al centro della spianata, chiuse gli occhi e parve non respirare 
+nemmeno. Non accadde niente, a parte il fatto che Egwene e Nynaeve rabbrividirono nonostante il 
+caldo e si strofinarono le braccia come se avessero freddo. All’improvviso Egwene si bloccò, a bocca 
+aperta, e fissò Nynaeve. Anche la Sapiente si bloccò e le rivolse un’occhiata penetrante. Le due donne 
+si guardarono, poi Egwene annuì e sorrise; dopo un attimo, Nynaeve la imitò, ma con un sorriso 
+incerto.  
+
+Rand si passò le dita fra i capelli già più umidi per il sudore che per l’acqua con cui si era lavato il 
+viso. In quel silenzioso scambio d’occhiate c’era di sicuro qualcosa che avrebbe dovuto capire, ma quel 
+pensiero gli sfiorò la mente e svanì prima che lui potesse afferrarlo.  
+«Cosa aspettiamo?» disse Mat, con la fascia calata sugli occhi. Teneva di traverso sulla sella l’arco 
+con una freccia già incoccata e aveva spostato la faretra in modo d’averla a portata di mano.  
+Moiraine riaprì gli occhi e si avviò giù dalla collina. «Dovevo cancellare le ultime tracce di quel che 
+ho fatto ieri sera; sarebbero svanite da sole nel giro d’un giorno, ma non voglio correre rischi. Qui 
+l’Ombra è troppo potente. Lan?»  
+Il Custode attese solo che Moiraine montasse in sella e guidò il gruppetto verso le Montagne di 
+Dhoom che incombevano a poca distanza. Anche alla luce dell’aurora i picchi erano scuri e privi di 
+vita, simili a denti frastagliati. Formavano una muraglia che si estendeva a perdita d’occhio a levante e 
+a ponente.  
+«Arriveremo all’Occhio oggi stesso, Moiraine Sedai?» domandò Egwene.  
+L’Aes Sedai lanciò a Loial un’occhiata di traverso. «Me lo auguro» rispose. «La volta scorsa, lo 
+trovai appena al di là delle montagne, ai piedi dei passi alti.»  
+«Lui dice che si sposta» disse Mat, con un cenno in direzione di Loial.  
+«E se non è dove t’aspetti di trovarlo?»  
+«Allora continueremo a cercare finché non lo troveremo. L’Uomo Verde intuisce il bisogno e non 
+c’è bisogno più grande del nostro. Il nostro è la speranza del mondo.»  
+Avvicinarsi alle montagna significava avvicinarsi alla Macchia. Se prima"
+Token Count,4168

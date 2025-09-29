@@ -1,0 +1,797 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:28:11
+Entities,"{
+  ('Nynaeve', 'PER'): 45,
+  ('Moiraine', 'PER'): 30,
+  ('Egwene', 'PER'): 17,
+  ('Lan', 'MISC'): 17,
+  ('Aes Sedai', 'LOC'): 15,
+  ('Sapiente', 'MISC'): 11,
+  ('Trolloc', 'ORG'): 9,
+  ('Trolloc', 'LOC'): 9,
+  ('Custode', 'LOC'): 7,
+  ('Tenebroso', 'PER'): 6,
+  ('Whitebridge', 'LOC'): 5,
+  ('Emond’s Field', 'MISC'): 5,
+  ('Aes Sedai', 'PER'): 4,
+  ('Myrddraal', 'LOC'): 4,
+  ('Perrin', 'PER'): 4,
+  ('Tar Valon', 'LOC'): 3,
+  ('Vera Fonte', 'ORG'): 3,
+  ('Comare Barran', 'MISC'): 3,
+  ('Egwene', 'LOC'): 3,
+  ('Barran', 'MISC'): 3,
+  ('Vuota', 'LOC'): 2,
+  ('Emond', 'PER'): 2,
+  ('Baerlon', 'LOC'): 2,
+  ('Mezzi Uomini', 'MISC'): 2,
+  ('Shadar Logoth', 'PER'): 2,
+  ('Shayol Ghul', 'PER'): 2,
+  ('Potere', 'ORG'): 2,
+  ('Unico Potere', 'MISC'): 2,
+  ('Nynaeve', 'MISC'): 2,
+  ('Ricordi', 'ORG'): 2,
+  ('Sapiente?', 'MISC'): 2,
+  ('sella di Mandarb', 'LOC'): 2,
+  ('Potere', 'LOC'): 2,
+  ('Tar Valon', 'PER'): 2,
+  ('Arinelle', 'LOC'): 1,
+  ('La Luce ti salvi', 'MISC'): 1,
+  ('Sciolse', 'LOC'): 1,
+  ('Furiosa', 'LOC'): 1,
+  ('Shagar Logoth', 'LOC'): 1,
+  ('Mashadar', 'MISC'): 1,
+  ('Fade', 'MISC'): 1,
+  ('Conoscono l’odore', 'MISC'): 1,
+  ('Pastore della Notte', 'MISC'): 1,
+  ('Caemlyn', 'LOC'): 1,
+  ('Taren Ferry', 'PER'): 1,
+  ('Trolloc', 'MISC'): 1,
+  ('Loro', 'PER'): 1,
+  ('Perfino', 'LOC'): 1,
+  ('Mashadar', 'LOC'): 1,
+  ('Custode', 'PER'): 1,
+  ('Aes 
+Sedai', 'LOC'): 1,
+  ('Potrei', 'LOC'): 1,
+  ('Fiumi Gemelli', 'LOC'): 1,
+  ('Taren', 'LOC'): 1,
+  ('Myrddraal', 'MISC'): 1,
+  ('cento Trolloc', 'LOC'): 1,
+  ('Macchia mille Trolloc', 'LOC'): 1,
+  ('Saldaea', 'LOC'): 1,
+  ('Arafel', 'LOC'): 1,
+  ('Shienar', 'LOC'): 1,
+  ('Marche', 'LOC'): 1,
+  ('Confine', 'LOC'): 1,
+  ('Tutto il mondo', 'MISC'): 1,
+  ('Vie', 'LOC'): 1,
+  ('Tempo 
+della Follia', 'MISC'): 1,
+  ('Viaggio', 'MISC'): 1,
+  ('Luce', 'MISC'): 1,
+  ('Reietto in libertà', 'MISC'): 1,
+  ('Reietti', 'MISC'): 1,
+  ('Rannicchiata dietro l’albero', 'MISC'): 1,
+  ('Nynaeve corrugò', 'PER'): 1,
+  ('Torre Bianca', 'LOC'): 1,
+  ('Amyrlin Seat', 'PER'): 1,
+  ('Comare', 'LOC'): 1,
+  ('Meara', 'PER'): 1,
+  ('«Credi', 'PER'): 1,
+  ('Unico 
+Potere', 'MISC'): 1,
+  ('Nynaeve al’Maera', 'PER'): 1,
+  ('Tu…»  
+«Devi ascoltare» la interruppe', 'MISC'): 1,
+  ('Aes 
+Sedai', 'PER'): 1,
+  ('Aria', 'LOC'): 1,
+  ('Acqua', 'LOC'): 1,
+  ('Sapiente era giovane', 'MISC'): 1,
+  ('Cerchia 
+delle Donne', 'LOC'): 1,
+  ('«No', 'PER'): 1,
+  ('Cerchi', 'MISC'): 1,
+  ('Field d’', 'MISC'): 1,
+  ('Amica delle Tenebre', 'MISC'): 1,
+  ('Vera Fonte', 'LOC'): 1,
+  ('barcolli', 'PER'): 1,
+  ('Ricordava', 'LOC'): 1,
+  ('Dirò di più» riprese', 'MISC'): 1,
+  ('Potere di Guarire', 'MISC'): 1,
+  ('Cervo', 'LOC'): 1,
+  ('Leone', 'LOC'): 1,
+  ('Egwene?', 'MISC'): 1,
+  ('Sapienti', 'LOC'): 1,
+  ('Ero', 'PER'): 1,
+  ('Nascose', 'PER'): 1,
+  ('Fortuna!» esclamò', 'MISC'): 1,
+  ('Vera 
+Fonte', 'LOC'): 1,
+  ('E le donne', 'MISC'): 1,
+  ('Soprattutto in tre o quattro ore', 'MISC'): 1,
+  ('Fonte', 'LOC'): 1,
+  ('Conosco', 'LOC'): 1,
+  ('Menti', 'LOC'): 1,
+  ('Sai', 'PER'): 1,
+  ('Deven Ride', 'MISC'): 1,
+  ('Tu hai un grande potenziale', 'MISC'): 1,
+  ('No!', 'MISC'): 1,
+  ('Rand', 'MISC'): 1,
+  ('Mat', 'MISC'): 1,
+  ('Li', 'PER'): 1,
+  ('“Cerca di farmi arrabbiare', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Svuotò', 'PER'): 1,
+  ('Disegno?» domandò a Moiraine', 'MISC'): 1,
+  ('«Avrei', 'PER'): 1,
+  ('Min', 'PER'): 1,
+  ('Sedai', 'LOC'): 1,
+  ('Nynaeve arruffò', 'PER'): 1,
+  ('Aldieb', 'LOC'): 1,
+  ('Vado', 'ORG'): 1,
+  ('Dicevi', 'MISC'): 1,
+  ('Saggio', 'PER'): 1,
+  ('Non mi piace che tu', 'MISC'): 1,
+  ('Sospirò', 'PER'): 1,
+  ('I Myrddraal', 'MISC'): 1,
+  ('Dov’', 'MISC'): 1,
+  ('Non lo so»', 'MISC'): 1,
+  ('Non lo sai?', 'MISC'): 1,
+  ('Myrddraal trascureranno Egwene', 'LOC'): 1,
+  ('Viva', 'PER'): 1,
+  ('La Sapiente', 'MISC'): 1,
+  ('Ecco Lan» disse Moiraine', 'MISC'): 1,
+  ('Vieni', 'PER'): 1,
+  ('Potere', 'MISC'): 1,
+  ('“Posso', 'PER'): 1,
+  ('“Me l’hai detto tu', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 17,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [5611, 6491, 8542, 9428, 10173, 10386, 10746, 11429, 12542, 15856, 18366, 22220, 22670, 22915, 27081, 27183, 27482]
+  },
+  'Potrei': {
+    'category': 'paese',
+    'confidence': 0.21713104844093323,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [6681]
+  },
+  'Marche': {
+    'category': 'paese',
+    'confidence': 0.4536382555961609,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [7592]
+  },
+  'Vie': {
+    'category': 'paese',
+    'confidence': 0.3054937422275543,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [7814]
+  },
+  'Torre Bianca': {
+    'category': 'castello',
+    'confidence': 0.09299014508724213,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [8903]
+  },
+  'Aria': {
+    'category': 'paese',
+    'confidence': 0.3416885435581207,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [12974]
+  },
+  'Acqua': {
+    'category': 'paese',
+    'confidence': 0.2810727059841156,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [12981]
+  },
+  'Leone': {
+    'category': 'paese',
+    'confidence': 0.2876996099948883,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [16205]
+  },
+  'Fonte': {
+    'category': 'paese',
+    'confidence': 0.2778446078300476,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [20094]
+  },
+  'Conosco': {
+    'category': 'paese',
+    'confidence': 0.2844502329826355,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7494117647058823,
+    'early_appearance': False,
+    'positions': [20284]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 5,
+    'priority_score': 0.7472588235294118,
+    'early_appearance': False,
+    'positions': [10552, 11373, 11870, 20741, 24354]
+  },
+  'Ricordi': {
+    'category': 'paese',
+    'confidence': 0.20017093420028687,
+    'spacy_label': 'ORG',
+    'count': 2,
+    'priority_score': 0.7433235294117647,
+    'early_appearance': False,
+    'positions': [13154, 15542]
+  },
+  'Loro': {
+    'category': 'paese',
+    'confidence': 0.29715314507484436,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [5706]
+  },
+  'Viaggio': {
+    'category': 'paese',
+    'confidence': 0.2939343750476837,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [7918]
+  },
+  'Luce': {
+    'category': 'paese',
+    'confidence': 0.16719061136245728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [7942]
+  },
+  'Cerchi': {
+    'category': 'paese',
+    'confidence': 0.24651819467544556,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [13952]
+  },
+  'Ero': {
+    'category': 'paese',
+    'confidence': 0.23139603435993195,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [17113]
+  },
+  'Sai': {
+    'category': 'paese',
+    'confidence': 0.21611402928829193,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [20842]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [21985]
+  },
+  'Mat': {
+    'category': 'paese',
+    'confidence': 0.21781297028064728,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [21992]
+  },
+  'Li': {
+    'category': 'paese',
+    'confidence': 0.23555557429790497,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [22010]
+  },
+  'Vado': {
+    'category': 'paese',
+    'confidence': 0.29312464594841003,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [23420]
+  },
+  'Viva': {
+    'category': 'paese',
+    'confidence': 0.2659658193588257,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [25848]
+  },
+  'Vieni': {
+    'category': 'paese',
+    'confidence': 0.2779832184314728,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7420117647058824,
+    'early_appearance': False,
+    'positions': [27296]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.24140588235294116,
+    'early_appearance': True,
+    'positions': [1098, 2194, 2449, 3136, 4349, 4443, 4853, 4958, 5743, 5792, 6450, 6735, 8102, 10804, 11269, 21813, 24696, 25703, 26165]
+  },
+  'Vuota': {
+    'category': 'non_luogo',
+    'confidence': 0.22783270478248596,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23222352941176472,
+    'early_appearance': True,
+    'positions': [1397, 1406]
+  },
+  'Arinelle': {
+    'category': 'non_luogo',
+    'confidence': 0.34170958399772644,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23091176470588234,
+    'early_appearance': True,
+    'positions': [69]
+  },
+  'Sciolse': {
+    'category': 'non_luogo',
+    'confidence': 0.27970296144485474,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23091176470588234,
+    'early_appearance': True,
+    'positions': [1000]
+  },
+  'Furiosa': {
+    'category': 'non_luogo',
+    'confidence': 0.2815462052822113,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23091176470588234,
+    'early_appearance': True,
+    'positions': [1805]
+  },
+  'Shagar Logoth': {
+    'category': 'non_luogo',
+    'confidence': 0.1675967425107956,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23091176470588234,
+    'early_appearance': True,
+    'positions': [1942]
+  },
+  'Mashadar': {
+    'category': 'non_luogo',
+    'confidence': 0.21442706882953644,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23091176470588234,
+    'early_appearance': True,
+    'positions': [2039, 6035]
+  },
+  'Aes Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 15,
+    'priority_score': 0.027076470588235296,
+    'early_appearance': False,
+    'positions': [2928, 4083, 5386, 7883, 8982, 10033, 10078, 13834, 14352, 14522, 15785, 18904, 19100, 20668, 21066, 21433, 22348, 26737, 27626]
+  },
+  'Custode': {
+    'category': 'non_luogo',
+    'confidence': 0.2215208262205124,
+    'spacy_label': 'LOC',
+    'count': 7,
+    'priority_score': 0.01658235294117647,
+    'early_appearance': False,
+    'positions': [5321, 6376, 9718, 10303, 13788, 23262, 24100, 26945]
+  },
+  'Whitebridge': {
+    'category': 'non_luogo',
+    'confidence': 0.16889919340610504,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.013958823529411767,
+    'early_appearance': False,
+    'positions': [3611, 24673, 24874, 26107, 26268]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.012647058823529412,
+    'early_appearance': False,
+    'positions': [6890, 7313, 24810, 25442, 26422]
+  },
+  'Tar Valon': {
+    'category': 'non_luogo',
+    'confidence': 0.17638728022575378,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.01133529411764706,
+    'early_appearance': False,
+    'positions': [3669, 18795, 19015, 20682, 25320]
+  },
+  'Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.17917577922344208,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.01133529411764706,
+    'early_appearance': False,
+    'positions': [3969, 9966, 11117, 11579, 13056, 16049, 16268, 16379, 17194, 17638, 17894, 18100, 18758, 20372, 20794, 21379, 25158, 26462, 27419, 27701]
+  },
+  'Baerlon': {
+    'category': 'non_luogo',
+    'confidence': 0.31446006894111633,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010023529411764705,
+    'early_appearance': False,
+    'positions': [3876, 16161]
+  },
+  'sella di Mandarb': {
+    'category': 'non_luogo',
+    'confidence': 0.24397709965705872,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010023529411764705,
+    'early_appearance': False,
+    'positions': [18473, 23387]
+  },
+  'Potere': {
+    'category': 'non_luogo',
+    'confidence': 0.15005744993686676,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.010023529411764705,
+    'early_appearance': False,
+    'positions': [10665, 18611, 18697, 19352, 27763]
+  },
+  'Caemlyn': {
+    'category': 'non_luogo',
+    'confidence': 0.2733607888221741,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [3650]
+  },
+  'Perfino': {
+    'category': 'non_luogo',
+    'confidence': 0.29217538237571716,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [5768]
+  },
+  'Aes 
+Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.2692728042602539,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [6528, 12665]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [6747]
+  },
+  'Taren': {
+    'category': 'non_luogo',
+    'confidence': 0.3135354816913605,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [7279]
+  },
+  'cento Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3277600109577179,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [7325]
+  },
+  'Macchia mille Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.23746046423912048,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [7433]
+  },
+  'Saldaea': {
+    'category': 'non_luogo',
+    'confidence': 0.314861536026001,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [7547]
+  },
+  'Arafel': {
+    'category': 'non_luogo',
+    'confidence': 0.2512619197368622,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [7563]
+  },
+  'Shienar': {
+    'category': 'non_luogo',
+    'confidence': 0.2666455805301666,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [7579]
+  },
+  'Confine': {
+    'category': 'non_luogo',
+    'confidence': 0.2572762966156006,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [7602]
+  },
+  'Comare': {
+    'category': 'non_luogo',
+    'confidence': 0.2761378884315491,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [9249]
+  },
+  'Cerchia 
+delle Donne': {
+    'category': 'non_luogo',
+    'confidence': 0.1874423325061798,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [13516]
+  },
+  'Vera Fonte': {
+    'category': 'non_luogo',
+    'confidence': 0.17710167169570923,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [10985, 15059, 18647, 19491]
+  },
+  'Ricordava': {
+    'category': 'non_luogo',
+    'confidence': 0.24076096713542938,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [15640]
+  },
+  'Cervo': {
+    'category': 'non_luogo',
+    'confidence': 0.25933074951171875,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [16197]
+  },
+  'Sapienti': {
+    'category': 'non_luogo',
+    'confidence': 0.2820952534675598,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [16903]
+  },
+  'Vera 
+Fonte': {
+    'category': 'non_luogo',
+    'confidence': 0.17710167169570923,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [19161]
+  },
+  'Menti': {
+    'category': 'non_luogo',
+    'confidence': 0.11899270862340927,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [20697]
+  },
+  'Sedai': {
+    'category': 'non_luogo',
+    'confidence': 0.35417553782463074,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [23010]
+  },
+  'Aldieb': {
+    'category': 'non_luogo',
+    'confidence': 0.28294822573661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [23409]
+  },
+  'Myrddraal trascureranno Egwene': {
+    'category': 'non_luogo',
+    'confidence': 0.2745135724544525,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.008711764705882353,
+    'early_appearance': False,
+    'positions': [25573]
+  },
+}"
+Main Location,"{
+  'name': 'Lan',
+  'category': 'paese',
+  'spacy_label': 'MISC',
+  'confidence': 0.23351359367370605,
+  'count': 17,
+  'priority_score': 0.763,
+  'early_appearance': False,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Nynaeve',
+  'count': 45,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'sadness': 54, 'joy': 26, 'fear': 6, 'anger': 8}, 'sentiment_counts': {'positive': 36, 'negative': 58}, 'emotion_percentages': {'sadness': 57.446808510638306, 'joy': 27.659574468085108, 'fear': 6.382978723404255, 'anger': 8.51063829787234}, 'sentiment_percentages': {'positive': 38.297872340425535, 'negative': 61.702127659574465}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.9204318523406982, 'Riconoscimento entità con spaCy': 0.003000020980834961, 'Analisi emozioni': 26.66396951675415, 'Classificazione delle location': 36.82232666015625, 'Tempo totale': 65.41172695159912}"
+Original Text Extract,"21 
+ 
+Ascoltare il vento 
+ 
+ 
+ 
+ 
+ 
+L’ alba che strisciava sul fiume Arinelle si aprì la strada nella conca del terreno, non lontano dalla 
+riva, dove Nynaeve sedeva con la schiena contro il tronco di una giovane quercia e il respiro profondo 
+di chi è addormentato. Anche il suo cavallo dormiva, con la testa ciondoloni e la zampe allargate, 
+trattenuto dalle redini avvolte al polso della donna. Quando la luce del sole gli colpì le palpebre, il 
+cavallo aprì gli occhi e sollevò la testa. Allo strattone delle redini, Nynaeve si svegliò di soprassalto.  
+Per un istante si domandò dove si trovasse, poi si guardò intorno, preoccupata, ricordando gli eventi. 
+Ma vide solo alberi, e il cavallo, e un tappeto di foglie secche sul fondo della conca. Nell’ombra più 
+fitta, alcuni funghi dell’anno precedente formavano un cerchio sopra un tronco caduto.  
+«La Luce ti salvi, donna, se non riesci a stare sveglia nemmeno per una notte» mormorò Nynaeve, 
+lasciandosi cadere contro la giovane quercia.  
+Sciolse le redini e si alzò, massaggiandosi il polso. «Potevi svegliarti dentro il pentolone dei 
+Trolloc.»  
+Le foglie morte frusciarono, mentre lei si arrampicava sul bordo della conca e scrutava fuori. Fra la 
+conca e il fiume c’era solo una manciata di frassini. La corteccia piena di crepe e i rami spogli li 
+facevano sembrare morti. Più avanti scorreva l’ampia distesa d’acqua verdazzurra. Vuota.  
+Vuota di tutto. Gruppi sparsi di sempreverdi, salici e abeti, punteggiavano la riva opposta che pareva 
+meno alberata. Se laggiù c’erano Moiraine o qualcuno dei ragazzi, si tenevano ben nascosti. 
+Naturalmente non c’era ragione di pensare che avessero compiuto la traversata proprio in quel punto.  
+Potevano essere dieci miglia più a monte o più a valle. Se erano ancora vivi, dopo quella notte.  
+Furiosa con se stessa per quel pensiero, scese di nuovo nella conca.  
+Neppure l’assalto al villaggio, né lo scontro prima di giungere a Shagar Logoth, l’avevano preparata 
+alla notte appena trascorsa e alla comparsa di quell’orrore, Mashadar. Né alla folle galoppata senza 
+sapere se gli altri erano ancora vivi, chiedendosi quando si sarebbe trovata faccia a faccia con un Fade 
+o con i Trolloc. Li aveva uditi gridare e ringhiare in lontananza, e il lamento tremulo dei corni l’aveva 
+gelata più del vento, ma a parte il primo incontro nella città in rovina, li aveva scorti solo una volta, 
+quando ormai era fuori delle mura. Una decina di Trolloc le era comparsa davanti, come sbucata dal 
+terreno, a meno di trenta passi, brandendo bastoni muniti d’uncino. Eppure, mentre lei girava il cavallo, 
+si erano zittiti e avevano alzato il muso a fiutare l’aria. Troppo stupita per darsi alla fuga, li aveva 
+guardati girare la schiena e scomparire nella notte. E questa era stata la cosa più spaventosa.  
+«Conoscono l’odore di quelli che vogliono catturare» disse al cavallo. «E  
+non sono io. A quanto pare, ha ragione l’Aes Sedai… che il Pastore della Notte se la porti!»  
+Presa una decisione, si diresse a valle, conducendo per la briglia il cavallo. Procedette lentamente, 
+tenendo d’occhio la foresta: la notte precedente i Trolloc non avevano voluto catturarla, ma non era 
+detto che l’avrebbero lasciata andare, se li avesse incontrati di nuovo. E badò maggiormente al terreno 
+che aveva davanti. Se gli altri avevano attraversato il fiume durante la notte, avevano lasciato di sicuro 
+qualche traccia che le sarebbe sfuggita, procedendo a cavallo. Se invece erano ancora da questa parte 
+del fiume, poteva anche imbattersi in loro. In ogni caso, seguendo il fiume, prima o poi sarebbe giunta 
+
+a Whitebridge; c’era una strada, da lì a Caemlyn, e anche a Tar Valon, se necessario.  
+La prospettiva era tale da intimidirla. Non si era mai allontanata da Emond’s Field più di quanto non 
+avessero fatto i tre ragazzi. Taren Ferry le era parso un luogo estraneo; a Baerlon si sarebbe fermata a 
+guardare con meraviglia la città, se non avesse dovuto cercare Egwene e i ragazzi. Era decisa: prima o 
+poi li avrebbe trovati. Oppure avrebbe trovato il modo per costringere l’Aes Sedai a rispondere della 
+loro sorte.  
+Ogni tanto trovava tracce in quantità, ma non poteva dire se chi le aveva lasciate era impegnato in 
+una ricerca, in una caccia o in una fuga. Alcune erano impronte di stivali e potevano essere tanto di 
+persone quanto di Trolloc. Altre erano di zoccoli, come quelle delle capre o dei buoi, ed erano 
+sicuramente di Trolloc. Ma non vide alcun segno per identificarle con certezza.  
+Aveva percorso circa quattro miglia, quando il vento le portò l’odore di fumo di legna. Proveniva da 
+poco lontano, sempre a valle del fiume.  
+Nynaeve esitò solo un istante, prima di legare il cavallo a un abete, a buona distanza dalla riva, in un 
+folto boschetto di sempreverdi che l’avrebbe nascosto. Forse il fumo indicava la presenza di Trolloc, 
+ma l’unico modo per scoprirlo era dare un’occhiata. Nynaeve cercò di non pensare all’uso che i Trolloc 
+forse facevano del fuoco.  
+Tenen"
+Token Count,5941

@@ -1,0 +1,268 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:13:15
+Entities,"{
+  ('Lucy', 'PER'): 27,
+  ('Aslan', 'PER'): 27,
+  ('Susan', 'PER'): 24,
+  ('Tavola di Pietra', 'LOC'): 3,
+  ('Narnia', 'LOC'): 3,
+  ('Oh', 'PER'): 2,
+  ('Strega Bianca', 'PER'): 1,
+  ('Forza', 'ORG'): 1,
+  ('La vile marmaglia', 'MISC'): 1,
+  ('Provarono', 'LOC'): 1,
+  ('E se provassimo', 'MISC'): 1,
+  ('Spero', 'LOC'): 1,
+  ('Aspetta — gridò', 'MISC'): 1,
+  ('Adesso il cielo', 'MISC'): 1,
+  ('Cair Paravel', 'LOC'): 1,
+  ('Cos'', 'LOC'): 1,
+  ('Su-san', 'PER'): 1,
+  ('Ho... ho... paura a voltarmi', 'MISC'): 1,
+  ('Andiamo', 'PER'): 1,
+  ('Oh, no!', 'MISC'): 1,
+  ('Scuoteva', 'LOC'): 1,
+  ('Ti sembro un fantasma?', 'MISC'): 1,
+  ('Oh, no', 'MISC'): 1,
+  ('Strega Bianca', 'LOC'): 1,
+  ('Grande Ma-', 'MISC'): 1,
+  ('Tavola
+di Pietra', 'LOC'): 1,
+  ('Sento', 'LOC'): 1,
+  ('Tappatevi', 'MISC'): 1,
+  ('Videro', 'LOC'): 1,
+  ('Andava', 'LOC'): 1,
+  ('colline incappucciate d'erica', 'LOC'): 1,
+  ('monti altissimi', 'LOC'): 1,
+}"
+Potential Locations,"{
+  'Strega Bianca': {
+    'category': 'carcere magico',
+    'confidence': 0.10352206230163574,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.9777333333333332,
+    'early_appearance': True,
+    'positions': [148, 7788]
+  },
+  'Narnia': {
+    'category': 'scuola di magia',
+    'confidence': 0.11604081094264984,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.7704,
+    'early_appearance': False,
+    'positions': [9414, 10567, 11580]
+  },
+  'Tavola di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [3068, 6340, 8686]
+  },
+  'Provarono': {
+    'category': 'non_luogo',
+    'confidence': 0.2822478115558624,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [1791]
+  },
+  'Spero': {
+    'category': 'non_luogo',
+    'confidence': 0.329816073179245,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [2282]
+  },
+  'Cair Paravel': {
+    'category': 'non_luogo',
+    'confidence': 0.28736650943756104,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [5539]
+  },
+  'Cos'': {
+    'category': 'non_luogo',
+    'confidence': 0.288984477519989,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [5847]
+  },
+  'Scuoteva': {
+    'category': 'non_luogo',
+    'confidence': 0.34741929173469543,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [7010]
+  },
+  'Tavola
+di Pietra': {
+    'category': 'non_luogo',
+    'confidence': 0.09832557290792465,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [8194]
+  },
+  'Sento': {
+    'category': 'non_luogo',
+    'confidence': 0.3318948447704315,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [8386]
+  },
+  'Videro': {
+    'category': 'non_luogo',
+    'confidence': 0.3845498859882355,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [9976]
+  },
+  'Andava': {
+    'category': 'non_luogo',
+    'confidence': 0.33119696378707886,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [11216]
+  },
+  'colline incappucciate d'erica': {
+    'category': 'non_luogo',
+    'confidence': 0.1486627459526062,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [11946]
+  },
+  'monti altissimi': {
+    'category': 'non_luogo',
+    'confidence': 0.17045632004737854,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [11992]
+  },
+}"
+Main Location,"{
+  'name': 'Narnia',
+  'category': 'scuola di magia',
+  'spacy_label': 'LOC',
+  'confidence': 0.11604081094264984,
+  'count': 3,
+  'priority_score': 0.7704,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Lucy',
+  'count': 27,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 33, 'sadness': 54, 'anger': 5, 'fear': 6}, 'sentiment_counts': {'positive': 43, 'negative': 55}, 'emotion_percentages': {'joy': 33.6734693877551, 'sadness': 55.10204081632652, 'anger': 5.1020408163265305, 'fear': 6.122448979591836}, 'sentiment_percentages': {'positive': 43.87755102040816, 'negative': 56.12244897959183}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 0.8221850395202637, 'Riconoscimento entità con spaCy': 0.0010008811950683594, 'Analisi emozioni': 16.222913026809692, 'Classificazione delle location': 9.633631467819214, 'Tempo totale': 26.681589603424072}"
+Original Text Extract,"15
+Una magia più grande, prima dell'alba dei tempi
+Susan e Lucy stavano ancora accucciate tra i cespugli, con le mani sul
+viso, quando sentirono la Strega Bianca gridare: — Forza, seguitemi! Si-
+stemeremo una volta per tutte gli strascichi di questa guerra. Non ci vorrà
+molto a schiacciare quei traditori e i luridi esseri umani. Ormai il gattone è
+morto.
+Fu allora che, per qualche istante, le due bambine corsero un serio peri-
+colo.
+La vile marmaglia si lanciò giù per la collina, passando proprio davanti al
+nascondiglio di Susan e Lucy, e riempì l'aria di grida selvagge, del suo-no
+stridulo delle trombe e di quello più cupo dei corni. Susan e Lucy senti-
+vano il terreno rimbombare sotto il galoppo furioso dei minotauri. Sen-
+tirono il soffio gelido degli spettri e, sopra le teste, il turbinio delle orribili
+ali nere degli avvoltoi e dei pipistrelli giganti. In un'altra occasione avreb-
+
+bero tremato d'orrore e di paura, ma in quel momento il loro cuore era
+così pieno di angoscia per l'infame assassinio di Aslan che non ci pensarono
+af-fatto.
+Appena il bosco fu tornato silenzioso, le due sorelle uscirono dai cespu-
+gli e si inoltrarono nel grande prato in cima alla collina. La luna ormai
+tramontava ed era velata da nuvole leggere, ma Susan e Lucy riuscivano
+ancora a vedere la forma del leone che giaceva morto, strettamente avvinto
+nei legami. Si inginocchiarono vicino a lui, sull'erba umida, baciarono e ri-
+baciarono la testa fredda, accarezzarono quel poco che rimaneva della bel-la
+criniera e piansero finché ebbero lacrime. Poi si guardarono in faccia e
+stringendosi le mani, al colmo della malinconia, piansero ancora. Alla fine,
+quando si calmarono un poco, Lucy disse: — Non posso sopportare la vi-sta
+di quella specie di museruola. E se provassimo a toglierla?
+Provarono. Pur con gran fatica perché avevano le dita gelate, essendo
+quella l'ora più fredda della notte, ci riuscirono. Quando videro il muso di
+Aslan libero dai lacci scoppiarono di nuovo a piangere e ripresero a baciar-
+lo e accarezzarlo, ed erano più disperate di quanto potrei dire.
+— E se provassimo a slegarlo completamente? — propose nuovamente
+Susan.
+Ma i nemici di Aslan, per pura cattiveria, avevano stretto i nodi in modo
+tale che le due ragazzine non riuscirono a fare niente.
+Spero che nessuno di quelli che leggeranno il libro sia mai stato infelice
+come Susan e Lucy quella notte. Ma chiunque abbia avuto un dolore così
+grande da piangerci fino a non avere più lacrime, sa bene che a un certo
+momento si arriva a una specie di tranquilla malinconia, una sorta di cal-
+ma, quasi la certezza che non succederà più nulla. In ogni modo fu questo
+che capitò alle due bambine! Stavano tranquille, senza neppure accorgersi
+che l'aria andava facendosi sempre più fresca, e alla fine Lucy notò due co-
+se: che a est della collina il cielo era un po' meno buio e che qualcosa si
+muoveva sull'erba ai loro piedi. In un primo momento non se ne curò più di
+tanto (non le importava più niente, ormai), poi si rese conto che il qual-cosa
+in movimento si era trasferito sulla Tavola di Pietra e, qualsiasi cosa fosse,
+si muoveva lungo il corpo di Aslan. Si avvicinò per vedere meglio e scorse
+tante piccole forme grigie.
+— Oh, che orrore! — gridò Susan dall'altra parte della tavola.
+— Questi brutti topolini gli camminano addosso. Via, via, bestiacce — e
+alzò una mano per farli scappare.
+
+— Aspetta — gridò Lucy, che aveva guardato più attentamente. — Non
+
+vedi cosa fanno?
+Susan si chinò a osservare meglio.
+— Che strano — mormorò. — Sembra che stiano rosicchiando le corde.
+— Sembra anche a me — confermò Lucy. — Sono animaletti gentili.
+Forse non hanno capito che Aslan è morto e credono di far bene. Questi
+topolini vogliono liberarlo.
+Adesso il cielo era veramente più chiaro. Le due sorelle si guardarono in
+faccia e si accorsero di essere molto pallide. Poi tornarono a guardare i to-
+polini: dozzine e dozzine, forse un centinaio, che si davano un gran daffare
+con i denti. Alla fine ebbero partita vinta.
+A oriente il cielo sbiancava. Le stelle erano scomparse tutte, tranne una,
+grandissima, che brillava fulgida all'orizzonte. Susan e Lucy rabbrividiro-no
+all'aria fresca del mattino. I topolini se ne andarono via. Susan e Lucy
+tolsero i resti delle corde rosicchiate dal corpo di Aslan e rimasero a con-
+templare il leone: ora somigliava molto di più a quello che era stato, e via
+via che la luce si faceva più forte Aslan sembrava riprendere la sua antica
+espressione di calma e maestosità. Nel bosco alle loro spalle un uccellino
+fece sentire il suo cinguettio soffocato. Fino a quel momento il silenzio era
+stato così completo che Susan e Lucy quasi sobbalzarono di spavento, sen-
+tendo quel dolce suono. Poi un altro uccello rispose al primo, da più lonta-
+no, e un altro ancora. Dopo pochi istanti l'aria echeggiava di mille voci ca-
+nore.
+Ormai l'alba aveva preso il posto della notte.
+— Ho un gran freddo — disse Lucy.
+— Anch'io — concordò Susan. — Camminiamo un poco.
+Si mossero lentam"
+Token Count,2896

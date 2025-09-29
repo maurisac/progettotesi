@@ -1,0 +1,497 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:07:10
+Entities,"{
+  ('Harry', 'PER'): 39,
+  ('Hagrid', 'PER'): 31,
+  ('Vernon', 'PER'): 11,
+  ('Dudley', 'PER'): 10,
+  ('Zio Vernon', 'PER'): 6,
+  ('Dursley', 'LOC'): 6,
+  ('Hogwarts', 'MISC'): 6,
+  ('Silente', 'PER'): 5,
+  ('Oh', 'PER'): 4,
+  ('Dursley', 'ORG'): 3,
+  ('Dudley', 'MISC'): 2,
+  ('D'', 'PER'): 2,
+  ('Babbano', 'PER'): 2,
+  ('Lily', 'PER'): 2,
+  ('James Potter', 'PER'): 2,
+  ('Harry Potter', 'MISC'): 2,
+  ('Silente', 'LOC'): 2,
+  ('Tu-Sai-Chi', 'ORG'): 2,
+  ('Tu-Sai-Chi', 'LOC'): 2,
+  ('Petunia', 'PER'): 2,
+  ('Hogwarts!', 'MISC'): 2,
+  ('Il custode delle chiavi 
+ 
+BUM!', 'MISC'): 1,
+  ('Chi va là?» gridò', 'MISC'): 1,
+  ('SMASH', 'MISC'): 1,
+  ('Muoviti, ciccione!', 'MISC'): 1,
+  ('Harry!', 'MISC'): 1,
+  ('«Hai', 'PER'): 1,
+  ('«', 'PER'): 1,
+  ('Ma chiudi il becco', 'MISC'): 1,
+  ('Harry l'apri con dita tremanti', 'MISC'): 1,
+  ('Buon Compleanno Harry'', 'MISC'): 1,
+  ('Giusto', 'PER'): 1,
+  ('Rubeus Hagrid', 'PER'): 1,
+  ('Custode delle 
+Chiavi e dei Luoghi a Hogwarts', 'MISC'): 1,
+  ('Tese', 'MISC'): 1,
+  ('Badate', 'PER'): 1,
+  ('Lo sguardo gli cadde sul focolare vuoto', 'MISC'): 1,
+  ('Quel ciccione di tuo figlio', 'MISC'): 1,
+  ('Dur-', 'MISC'): 1,
+  ('Scusa', 'PER'): 1,
+  ('Chiamami Hagrid', 'PER'): 1,
+  ('Custode delle Chiavi', 'MISC'): 1,
+  ('Ehm... no» disse', 'MISC'): 1,
+  ('Mi spiace»', 'MISC'): 1,
+  ('Mi spiace?» abbaiò', 'MISC'): 1,
+  ('Hogwarts! 
+', 'MISC'): 1,
+  ('Tutto cosa?»', 'MISC'): 1,
+  ('TUTTO COSA?!»', 'MISC'): 1,
+  ('Balzò', 'PER'): 1,
+  ('Volete', 'PER'): 1,
+  ('NIENTE', 'LOC'): 1,
+  ('Alcune cose le so» disse', 'MISC'): 1,
+  ('Pareva', 'PER'): 1,
+  ('DURSLEY!» sbottò', 'MISC'): 1,
+  ('Harry furibondo', 'MISC'): 1,
+  ('Ma di tua madre', 'MISC'): 1,
+  ('«Insomma', 'PER'): 1,
+  ('Come?', 'MISC'): 1,
+  ('Papà', 'PER'): 1,
+  ('Tu non sai... non sai...» Hagrid', 'MISC'): 1,
+  ('Tu non sai chi sei?» disse infine', 'MISC'): 1,
+  ('Vernon Dursley', 'PER'): 1,
+  ('Non glielo hai mai detto?', 'MISC'): 1,
+  ('BASTA', 'MISC'): 1,
+  ('Zia Petunia', 'PER'): 1,
+  ('Harry... tu sei', 'MISC'): 1,
+  ('Penso', 'PER'): 1,
+  ('Signor H. Potter', 'PER'): 1,
+  ('Piano ter-
+ra', 'MISC'): 1,
+  ('Catapecchia', 'PER'): 1,
+  ('Mare', 'LOC'): 1,
+  ('SCUOLA', 'MISC'): 1,
+  ('MAGIA', 'MISC'): 1,
+  ('STREGONERIA', 'MISC'): 1,
+  ('HOGWARTS', 'MISC'): 1,
+  ('Direttore', 'LOC'): 1,
+  ('Albus Silente', 'PER'): 1,
+  ('Ordine di Merlino', 'ORG'): 1,
+  ('Prima Classe', 'MISC'): 1,
+  ('Grande Esorcista', 'ORG'): 1,
+  ('Stregone Capo', 'PER'): 1,
+  ('Supremo Pezzo Grosso', 'LOC'): 1,
+  ('Confed', 'LOC'): 1,
+  ('Internaz', 'LOC'): 1,
+  ('Maghi', 'MISC'): 1,
+  ('Caro', 'PER'): 1,
+  ('Potter', 'PER'): 1,
+  ('informarLa', 'PER'): 1,
+  ('Lei ha diritto a frequentare la Scuola di 
+Magia e Stregoneria di Hogwarts', 'MISC'): 1,
+  ('Sua ri-', 'MISC'): 1,
+  ('p.v', 'ORG'): 1,
+  ('Minerva McGranitt 
+Vicedirettrice', 'MISC'): 1,
+  ('Per mille fulmini!', 'MISC'): 1,
+  ('Caro Professor Silente', 'PER'): 1,
+  ('Lei stia bene', 'MISC'): 1,
+  ('Harry', 'ORG'): 1,
+  ('Hagrid grugnì', 'MISC'): 1,
+  ('Un Babbano', 'MISC'): 1,
+  ('Babbani', 'ORG'): 1,
+  ('Magia!', 'MISC'): 1,
+  ('Lo sapevate?»', 'MISC'): 1,
+  ('Sapevamo!» strillò zia Petunia', 'MISC'): 1,
+  ('Rice-', 'PER'): 1,
+  ('Lily di là!', 'MISC'): 1,
+  ('Potter', 'MISC'): 1,
+  ('INCIDENTE D'AUTO?» tuonò', 'MISC'): 1,
+  ('Bada', 'PER'): 1,
+  ('E perché?» 
+«Per tutti i gargoyle', 'MISC'): 1,
+  ('Puoi scriverlo?» 
+«No, non so scriverlo', 'MISC'): 1,
+  ('Voldemort» - Hagrid', 'MISC'): 1,
+  ('Harry', 'MISC'): 1,
+  ('Natural-', 'MISC'): 1,
+  ('Ho-', 'LOC'): 1,
+  ('Lato Oscuro', 'LOC'): 1,
+  ('Halloween', 'MISC'): 1,
+  ('Chiedo scusa» disse', 'MISC'): 1,
+  ('Chissà', 'PER'): 1,
+  ('McKinnon', 'PER'): 1,
+  ('Bone', 'ORG'): 1,
+  ('Prewett', 'ORG'): 1,
+  ('Ti ho raccolto', 'MISC'): 1,
+  ('Fissava Hagrid', 'PER'): 1,
+  ('Puntandolo', 'PER'): 1,
+  ('Così va meglio»', 'MISC'): 1,
+  ('Vol... ehm', 'MISC'): 1,
+  ('Scomparso', 'PER'): 1,
+  ('Svanito', 'PER'): 1,
+  ('Per-', 'MISC'): 1,
+  ('Balle', 'LOC'): 1,
+  ('zio Vernon', 'PER'): 1,
+  ('Senti', 'PER'): 1,
+  ('Visto?» disse', 'MISC'): 1,
+  ('Aspetta e vedrai', 'MISC'): 1,
+  ('Mi pareva di averle detto che il ragazzo non ci va', 'MISC'): 1,
+  ('Andrà a Stonewall', 'MISC'): 1,
+  ('Frequenterà', 'MISC'): 1,
+  ('Ho-
+gwarts', 'MISC'): 1,
+  ('Albus Silen', 'PER'): 1,
+  ('PAGARE PERCHÉ UN VECCHIO PAZZO', 'MISC'): 1,
+  ('STRAVAGANTE', 'ORG'): 1,
+  ('INSEGNI QUALCHE MAGIA!» urlò zio Vernon', 'MISC'): 1,
+  ('SILENTE - DAVANTI - A - ME!» 
+Sferzando l'aria', 'LOC'): 1,
+  ('violetta', 'MISC'): 1,
+  ('Ehm... vedi', 'MISC'): 1,
+  ('Silente!» 
+«E perché sei stato espulso?» 
+«Mi sa che si fa tardi', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 6,
+    'priority_score': 0.763,
+    'early_appearance': False,
+    'positions': [4968, 5010, 12585, 14058, 22339, 22731]
+  },
+  'Mare': {
+    'category': 'paese',
+    'confidence': 0.30785277485847473,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [8071]
+  },
+  'Direttore': {
+    'category': 'paese',
+    'confidence': 0.20857678353786469,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [8154]
+  },
+  'Balle': {
+    'category': 'paese',
+    'confidence': 0.2705165147781372,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7518166666666667,
+    'early_appearance': False,
+    'positions': [18085]
+  },
+  'Harry Potter': {
+    'category': 'scuola di magia',
+    'confidence': 0.2024143636226654,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [12053, 20311]
+  },
+  'Hogwarts!': {
+    'category': 'scuola di magia',
+    'confidence': 0.48463883996009827,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.7481333333333333,
+    'early_appearance': False,
+    'positions': [20382, 20862]
+  },
+  'Custode delle 
+Chiavi e dei Luoghi a Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.32040438055992126,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [2967]
+  },
+  'Hogwarts! 
+': {
+    'category': 'scuola di magia',
+    'confidence': 0.48463883996009827,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [5335]
+  },
+  'Piano ter-
+ra': {
+    'category': 'paese',
+    'confidence': 0.14140260219573975,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [8029]
+  },
+  'SCUOLA': {
+    'category': 'scuola',
+    'confidence': 0.12098583579063416,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [8111]
+  },
+  'Albus Silente': {
+    'category': 'scuola di magia',
+    'confidence': 0.12121553719043732,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [8165]
+  },
+  'Prima Classe': {
+    'category': 'paese',
+    'confidence': 0.07829723507165909,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [8202]
+  },
+  'Lei ha diritto a frequentare la Scuola di 
+Magia e Stregoneria di Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.13937130570411682,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [8355]
+  },
+  'Ho-
+gwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.3937661051750183,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7444166666666667,
+    'early_appearance': False,
+    'positions': [21152]
+  },
+  'Dursley': {
+    'category': 'non_luogo',
+    'confidence': 0.33253800868988037,
+    'spacy_label': 'LOC',
+    'count': 6,
+    'priority_score': 0.2519,
+    'early_appearance': True,
+    'positions': [1988, 2346, 5174, 5605, 7101, 11886, 12636, 16475, 17309]
+  },
+  'Silente': {
+    'category': 'non_luogo',
+    'confidence': 0.23216769099235535,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [7011, 7078, 12368, 14078, 14468, 16330, 22877]
+  },
+  'Tu-Sai-Chi': {
+    'category': 'non_luogo',
+    'confidence': 0.2518521249294281,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.014833333333333334,
+    'early_appearance': False,
+    'positions': [14104, 14368, 15096, 17808]
+  },
+  'NIENTE': {
+    'category': 'non_luogo',
+    'confidence': 0.2679002583026886,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [5754]
+  },
+  'Supremo Pezzo Grosso': {
+    'category': 'non_luogo',
+    'confidence': 0.3145255744457245,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [8250]
+  },
+  'Confed': {
+    'category': 'non_luogo',
+    'confidence': 0.24720753729343414,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [8272]
+  },
+  'Internaz': {
+    'category': 'non_luogo',
+    'confidence': 0.19988445937633514,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [8280]
+  },
+  'Ho-': {
+    'category': 'non_luogo',
+    'confidence': 0.3438929319381714,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [14336]
+  },
+  'Lato Oscuro': {
+    'category': 'non_luogo',
+    'confidence': 0.19848975539207458,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [14523]
+  },
+  'SILENTE - DAVANTI - A - ME!» 
+Sferzando l'aria': {
+    'category': 'non_luogo',
+    'confidence': 0.113304004073143,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.011116666666666667,
+    'early_appearance': False,
+    'positions': [21448]
+  },
+}"
+Main Location,"{
+  'name': 'Hogwarts',
+  'category': 'scuola di magia',
+  'spacy_label': 'MISC',
+  'confidence': 0.4973960816860199,
+  'count': 6,
+  'priority_score': 0.763,
+  'early_appearance': False,
+  'sound_category': 'scuola di magia',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 39,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 30, 'sadness': 47, 'fear': 6, 'anger': 13}, 'sentiment_counts': {'positive': 34, 'negative': 62}, 'emotion_percentages': {'joy': 31.25, 'sadness': 48.95833333333333, 'fear': 6.25, 'anger': 13.541666666666666}, 'sentiment_percentages': {'positive': 35.41666666666667, 'negative': 64.58333333333334}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.1822657585144043, 'Riconoscimento entità con spaCy': 0.004000425338745117, 'Analisi emozioni': 22.120779752731323, 'Classificazione delle location': 35.37814283370972, 'Tempo totale': 58.69018530845642}"
+Original Text Extract,"Capitolo 4 
+Il custode delle chiavi 
+ 
+BUM! Bussarono di nuovo. Dudley si svegliò di soprassalto. 
+«Dov'è il cannone?» chiese stupidamente. 
+Alle loro spalle si udì uno schianto e zio Vernon piombò slittando nella 
+stanza. In mano brandiva un fucile... ora sapevano che cosa conteneva l'in-
+
+volto lungo e sottile che si erano portati dietro. 
+«Chi va là?» gridò. «Vi avverto... sono armato!» 
+Ci fu una pausa. Poi... 
+SMASH! 
+La porta venne colpita con una tale forza che uscì di netto dai cardini e 
+atterrò con uno schianto assordante sul pavimento. 
+Sulla soglia si stagliò un uomo gigantesco. Aveva il volto quasi nascosto 
+da una criniera lunga e scomposta e da una barba incolta e aggrovigliata, 
+ma si distinguevano gli occhi che scintillavano come neri scarafaggi sotto 
+tutto quel pelame. 
+Il gigante sembrò farsi piccolo piccolo per entrare nella catapecchia, 
+piegandosi in modo da sfiorare appena il soffitto con la testa. Poi si chinò a 
+terra, raccolse la porta e la rinfilò nei cardini con la massima disinvoltura. 
+Di fuori, il fragore della tempesta si attuti un poco. Il gigante si voltò per 
+guardarli a uno a uno. 
+«Che, si potrebbe avere una tazza di tè? Non è stato un viaggio per nien-
+te facile...» 
+A gran passi, si avvicinò al divano dove Dudley giaceva pietrificato dal 
+terrore. 
+«Muoviti, ciccione!» gli intimò lo straniero. 
+Con uno squittio, Dudley corse a nascondersi dietro la madre, che per il 
+terrore si era accucciata dietro zio Vernon. 
+«Oh, ecco Harry!» disse il gigante. 
+Harry alzò lo sguardo su quella faccia feroce, tutta coperta di pelo incol-
+to e vide gli occhi lucidi come neri scarafaggi socchiudersi in un sorriso. 
+«L'ultima volta che ti ho visto, eri ancora un soldo di cacio» disse il gi-
+gante. «Hai preso dal tuo papà, ma gli occhi sono della mamma». 
+Zio Vernon emise uno strano rumore stridulo. 
+«Le ingiungo di uscire immediatamente, signore!» disse. «Questa è u-
+n'effrazione bella e buona!» 
+«Ma chiudi il becco, scimunito d'un Dursley!» esclamò il gigante; allun-
+gò la mano oltre lo schienale del divano, strappò il fucile dalle mani di zio 
+Vernon, ci fece un nodo con la massima facilità come fosse stato di gom-
+ma, e lo scaraventò in un angolo. 
+Zio Vernon emise un altro rumore strano, come un topo che viene calpe-
+stato. 
+«Allora, Harry» disse il gigante voltando le spalle ai Dursley, «buon 
+compleanno! Ho una cosetta per te... mi sa che mi ci sono seduto sopra, ma 
+
+il sapore dovrebbe essere ancora buono». 
+Da una tasca interna del suo pastrano nero estrasse una scatoletta leg-
+germente schiacciata. Harry l'apri con dita tremanti. Dentro c'era una torta 
+al cioccolato grossa e appiccicosa con su scritto, a lettere verdi di glassa: 
+'Buon Compleanno Harry'. 
+Harry guardò il gigante. Voleva dirgli grazie, ma le parole si persero 
+prima di arrivargli alle labbra, e quel che invece gli uscì detto fu: «Chi 
+sei?» 
+Il gigante ridacchiò. 
+«Giusto, va', non mi sono presentato. Rubeus Hagrid, Custode delle 
+Chiavi e dei Luoghi a Hogwarts». 
+Tese una mano enorme e strinse tutto il braccio di Harry. 
+«Allora, questo tè?» disse poi stropicciandosi le mani. «Badate bene, 
+non direi di no a qualcosa di più forte, se c'è». 
+Lo sguardo gli cadde sul focolare vuoto, a eccezione dei pacchetti di pa-
+tatine accartocciati, e sbuffò. Si chinò sul caminetto; gli altri non potevano 
+vedere quel che faceva, ma quando si ritrasse un attimo dopo, il fuoco 
+scoppiettava, illuminando l'umida catapecchia di un tremulo bagliore. 
+Harry sentì il calore inondarlo come se si fosse immerso in un bagno cal-
+do. 
+Il gigante tornò a sedersi sul divano che cedette sotto il suo peso, e co-
+minciò a tirare fuori dalle tasche del pastrano ogni sorta di oggetti: un bol-
+litore di rame, un pacchetto di salsicce tutto molle, un attizzatoio, una teie-
+ra, alcune tazze sbeccate e un flacone contenente un liquido color ambra di 
+cui bevve una sorsata prima di cominciare a fare il tè. Ben presto la cata-
+pecchia fu piena dello sfrigolio e dell'odore di salsiccia. Nessuno disse una 
+parola mentre il gigante si dava da fare, ma non appena ebbe fatto scivola-
+re dall'attizzatoio le prime sei salsicce, grasse, succulente e leggermente 
+abbrustolite, Dudley diede segni di irrequietezza. Zio Vernon gli disse in 
+tono aspro: «Non toccare niente di quel che ti dà, Dudley!» 
+Il gigante ridacchiò beffardo. 
+«Quel ciccione di tuo figlio non ha bisogno di ingrassare ancora, Dur-
+sley, non ti preoccupare». 
+E passò le salsicce a Harry: il ragazzo era talmente affamato che gli par-
+ve di non aver mai assaggiato niente di così squisito; intanto, non riusciva 
+a togliere gli occhi di dosso al gigante. Infine, visto che nessuno si decide-
+va a dare spiegazioni, disse: «Scusa, ma ancora non ho capito bene chi 
+sei». 
+
+Il gigante bevve un sorso di tè e si asciugò la bocca col dorso della ma-
+no. 
+«Chiamami Hagrid» disse, «tutti mi chiamano così. E ho il piacere di in-
+formarti che sono il Custode delle Chiavi a Hogwarts. Naturalmente, sa-
+prai"
+Token Count,5308

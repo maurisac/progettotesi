@@ -1,0 +1,488 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:24:46
+Entities,"{
+  ('Rand', 'MISC'): 74,
+  ('Tam', 'PER'): 50,
+  ('Trolloc', 'ORG'): 13,
+  ('Trolloc', 'LOC'): 10,
+  ('Bela', 'PER'): 6,
+  ('Fiumi Gemelli', 'LOC'): 5,
+  ('Rand', 'PER'): 3,
+  ('Nynaeve', 'PER'): 3,
+  ('Narg', 'PER'): 3,
+  ('Metti giù spada', 'MISC'): 3,
+  ('Fade', 'ORG'): 3,
+  ('Notte d’Inverno', 'MISC'): 2,
+  ('Riempì', 'LOC'): 2,
+  ('Emond’s Field', 'MISC'): 2,
+  ('Lan', 'MISC'): 2,
+  ('Tua', 'PER'): 2,
+  ('Ombre', 'LOC'): 2,
+  ('Trolloc', 'MISC'): 2,
+  ('Tenebroso', 'PER'): 2,
+  ('«Sei', 'PER'): 2,
+  ('«', 'PER'): 2,
+  ('Narg', 'LOC'): 2,
+  ('Myrddraal', 'LOC'): 2,
+  ('Fade', 'MISC'): 2,
+  ('Westwood', 'LOC'): 1,
+  ('Metto sul fuoco la minestra', 'MISC'): 1,
+  ('Salì', 'PER'): 1,
+  ('Pino', 'PER'): 1,
+  ('Andiamo a lavarci', 'MISC'): 1,
+  ('Festa', 'MISC'): 1,
+  ('Bel 
+Tine', 'PER'): 1,
+  ('portapipe di 
+Tam', 'LOC'): 1,
+  ('I viaggi di Jain Farstrider', 'MISC'): 1,
+  ('Drago', 'PER'): 1,
+  ('Aes Sedai', 'PER'): 1,
+  ('Meglio stare al sicuro', 'MISC'): 1,
+  ('Darla via?', 'MISC'): 1,
+  ('Rand', 'LOC'): 1,
+  ('Mastro Dautry', 'PER'): 1,
+  ('Dautry', 'LOC'): 1,
+  ('Oren Dautry', 'PER'): 1,
+  ('Tom guizzò', 'PER'): 1,
+  ('Scappa, figliolo!', 'MISC'): 1,
+  ('«Nasconditi', 'PER'): 1,
+  ('Esci dal retro!', 'MISC'): 1,
+  ('Vai!', 'MISC'): 1,
+  ('Sganciò', 'PER'): 1,
+  ('Asce e lance', 'MISC'): 1,
+  ('luna', 'LOC'): 1,
+  ('Stivali', 'LOC'): 1,
+  ('Scappa, padre!» E si allontanò come una saetta', 'MISC'): 1,
+  ('Grida', 'PER'): 1,
+  ('varcarla', 'LOC'): 1,
+  ('Coplin!”', 'MISC'): 1,
+  ('Atterrò', 'LOC'): 1,
+  ('Padre!» gridò', 'MISC'): 1,
+  ('Scappa, figliolo!» gridò', 'MISC'): 1,
+  ('Nasconditi!» Una 
+decina di sagome enormi', 'MISC'): 1,
+  ('Perrin', 'PER'): 1,
+  ('Le grida spettrali', 'MISC'): 1,
+  ('Sembrano un branco di lupi affamati', 'MISC'): 1,
+  ('piano Tam', 'MISC'): 1,
+  ('Muoveva', 'LOC'): 1,
+  ('Pastore della Notte', 'MISC'): 1,
+  ('Sei ferito!', 'MISC'): 1,
+  ('Esitando', 'PER'): 1,
+  ('Devo', 'ORG'): 1,
+  ('Fra', 'MISC'): 1,
+  ('Sguainò', 'MISC'): 1,
+  ('«Dove', 'PER'): 1,
+  ('«Tu riposa', 'PER'): 1,
+  ('Tornerò', 'LOC'): 1,
+  ('Sii prudente» mormorò', 'MISC'): 1,
+  ('Silenzioso', 'PER'): 1,
+  ('Strisciando d’albero in albero', 'MISC'): 1,
+  ('Scrutò', 'MISC'): 1,
+  ('Trolloc in agguato?', 'MISC'): 1,
+  ('Sobbalzò', 'LOC'): 1,
+  ('Acquattato', 'LOC'): 1,
+  ('Distingueva', 'PER'): 1,
+  ('Sfregò', 'PER'): 1,
+  ('Raggiunta', 'MISC'): 1,
+  ('Pezzi di legno', 'MISC'): 1,
+  ('Farina', 'PER'): 1,
+  ('Varcò', 'MISC'): 1,
+  ('Macchie', 'LOC'): 1,
+  ('Narg furbo', 'PER'): 1,
+  ('balenavano', 'LOC'): 1,
+  ('Luhhan', 'PER'): 1,
+  ('Tu metti giù spada', 'MISC'): 1,
+  ('Indietro» disse', 'MISC'): 1,
+  ('Vlja', 'PER'): 1,
+  ('Myrddraal!', 'MISC'): 1,
+  ('Colui', 'MISC'): 1,
+  ('Serrò il pugno sull’elsa', 'MISC'): 1,
+  ('Disperato', 'PER'): 1,
+  ('Myrddraal', 'MISC'): 1,
+  ('Vicino', 'LOC'): 1,
+  ('Tam', 'LOC'): 1,
+  ('Posò', 'PER'): 1,
+  ('Mozzata la stanga', 'MISC'): 1,
+  ('Ero', 'PER'): 1,
+  ('Sognavo giorni', 'MISC'): 1,
+  ('Incubi.', 'MISC'): 1,
+  ('Sapiente', 'MISC'): 1,
+  ('Vedrai', 'PER'): 1,
+  ('Sarebbero', 'PER'): 1,
+}"
+Potential Locations,"{
+  'Tam': {
+    'category': 'paese',
+    'confidence': 0.30670830607414246,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.97253,
+    'early_appearance': True,
+    'positions': [392, 1911, 2691, 3877, 5155, 5934, 6051, 6467, 6557, 7561, 7968, 8499, 8625, 9214, 9250, 9704, 10272, 10781, 11384, 12268, 13505, 13731, 14360, 16476, 17363, 17780, 18194, 18202, 18515, 19372, 19856, 20016, 21819, 22886, 23160, 23641, 23880, 24676, 28042, 29514, 32362, 32803, 32944, 32985, 34153, 34764, 36300, 36451, 36519, 36915, 37426]
+  },
+  'Rand': {
+    'category': 'paese',
+    'confidence': 0.32787010073661804,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.97253,
+    'early_appearance': True,
+    'positions': [398, 1378, 1758, 2322, 2616, 2809, 3671, 3990, 4454, 5620, 5786, 5941, 6389, 7645, 8100, 8337, 8590, 8780, 9022, 9173, 9225, 9400, 9800, 10655, 11315, 11535, 11733, 12524, 12777, 13430, 13900, 14381, 14650, 14750, 14839, 15040, 15300, 15553, 15700, 15973, 16348, 17614, 17819, 18045, 18273, 18718, 19264, 19427, 19863, 20369, 21144, 21531, 22189, 22356, 22707, 23082, 23719, 23887, 26369, 27646, 27907, 28224, 29211, 29438, 29853, 30246, 30466, 30765, 30910, 30946, 31273, 31489, 32034, 34389, 35410, 35984, 36343, 36727]
+  },
+  'Emond’s Field': {
+    'category': 'strada',
+    'confidence': 0.09198778867721558,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.96736,
+    'early_appearance': True,
+    'positions': [2673, 34159]
+  },
+  'luna': {
+    'category': 'paese',
+    'confidence': 0.2767038345336914,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [15453]
+  },
+  'Vicino': {
+    'category': 'paese',
+    'confidence': 0.26969122886657715,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7503299999999999,
+    'early_appearance': False,
+    'positions': [33307]
+  },
+  'Lan': {
+    'category': 'paese',
+    'confidence': 0.23351359367370605,
+    'spacy_label': 'MISC',
+    'count': 2,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [9469, 9605]
+  },
+  'Tua': {
+    'category': 'paese',
+    'confidence': 0.2660193145275116,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.74516,
+    'early_appearance': False,
+    'positions': [10361, 10487]
+  },
+  'Festa': {
+    'category': 'paese',
+    'confidence': 0.2824993133544922,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [5889]
+  },
+  'Drago': {
+    'category': 'paese',
+    'confidence': 0.34736984968185425,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [7348]
+  },
+  'Devo': {
+    'category': 'paese',
+    'confidence': 0.2090817242860794,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [22414]
+  },
+  'Fra': {
+    'category': 'paese',
+    'confidence': 0.23299364745616913,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [22444]
+  },
+  'Colui': {
+    'category': 'paese',
+    'confidence': 0.2392241507768631,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [30292]
+  },
+  'Ero': {
+    'category': 'paese',
+    'confidence': 0.23139603435993195,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [36594]
+  },
+  'Vedrai': {
+    'category': 'paese',
+    'confidence': 0.2619611322879791,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.74293,
+    'early_appearance': False,
+    'positions': [37205]
+  },
+  'Fiumi Gemelli': {
+    'category': 'non_luogo',
+    'confidence': 0.17639824748039246,
+    'spacy_label': 'LOC',
+    'count': 5,
+    'priority_score': 0.24075,
+    'early_appearance': True,
+    'positions': [273, 1284, 8405, 11520, 20635]
+  },
+  'Riempì': {
+    'category': 'non_luogo',
+    'confidence': 0.30560556054115295,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.23406,
+    'early_appearance': True,
+    'positions': [2474, 33360]
+  },
+  'Westwood': {
+    'category': 'non_luogo',
+    'confidence': 0.16402994096279144,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23183,
+    'early_appearance': True,
+    'positions': [502]
+  },
+  'Trolloc': {
+    'category': 'non_luogo',
+    'confidence': 0.3640967607498169,
+    'spacy_label': 'LOC',
+    'count': 10,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [20290, 20349, 20473, 20586, 20819, 21332, 21597, 23020, 23402, 24538, 26608, 27635, 28564, 28755, 28943, 29542, 30426, 30517, 30745, 31009, 31141, 31386, 31739, 32114, 32824]
+  },
+  'Ombre': {
+    'category': 'non_luogo',
+    'confidence': 0.12164019048213959,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [14634, 17132]
+  },
+  'Narg': {
+    'category': 'non_luogo',
+    'confidence': 0.2587589621543884,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [29036, 29327, 29363, 29700, 30029]
+  },
+  'Myrddraal': {
+    'category': 'non_luogo',
+    'confidence': 0.2499903440475464,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.01186,
+    'early_appearance': False,
+    'positions': [30047, 30165, 31807]
+  },
+  'portapipe di 
+Tam': {
+    'category': 'non_luogo',
+    'confidence': 0.21288365125656128,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [6948]
+  },
+  'Dautry': {
+    'category': 'non_luogo',
+    'confidence': 0.2963819205760956,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [12068]
+  },
+  'Stivali': {
+    'category': 'non_luogo',
+    'confidence': 0.19706815481185913,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [15461]
+  },
+  'varcarla': {
+    'category': 'non_luogo',
+    'confidence': 0.21079504489898682,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [16066]
+  },
+  'Atterrò': {
+    'category': 'non_luogo',
+    'confidence': 0.222221240401268,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [17408]
+  },
+  'Muoveva': {
+    'category': 'non_luogo',
+    'confidence': 0.287757933139801,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [20179]
+  },
+  'Tornerò': {
+    'category': 'non_luogo',
+    'confidence': 0.2625114321708679,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [23838]
+  },
+  'Sobbalzò': {
+    'category': 'non_luogo',
+    'confidence': 0.29831114411354065,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [25004]
+  },
+  'Acquattato': {
+    'category': 'non_luogo',
+    'confidence': 0.21300190687179565,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [25314]
+  },
+  'Macchie': {
+    'category': 'non_luogo',
+    'confidence': 0.14212825894355774,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [28184]
+  },
+  'balenavano': {
+    'category': 'non_luogo',
+    'confidence': 0.21900510787963867,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.00963,
+    'early_appearance': False,
+    'positions': [29300]
+  },
+}"
+Main Location,"{
+  'name': 'Emond’s Field',
+  'category': 'strada',
+  'spacy_label': 'MISC',
+  'confidence': 0.09198778867721558,
+  'count': 2,
+  'priority_score': 0.96736,
+  'early_appearance': True,
+  'sound_category': 'strada',
+}"
+Main Character,"{
+  'name': 'Tam',
+  'count': 50,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 19, 'sadness': 65, 'anger': 7, 'fear': 6}, 'sentiment_counts': {'positive': 25, 'negative': 72}, 'emotion_percentages': {'joy': 19.587628865979383, 'sadness': 67.0103092783505, 'anger': 7.216494845360824, 'fear': 6.185567010309279}, 'sentiment_percentages': {'positive': 25.773195876288657, 'negative': 74.22680412371135}, 'dominant_emotion': 'sadness', 'dominant_sentiment': 'negative'}"
+Tempi di analisi,"{'Analisi con spaCy': 2.4715583324432373, 'Riconoscimento entità con spaCy': 0.0029997825622558594, 'Analisi emozioni': 19.022854566574097, 'Classificazione delle location': 49.73487734794617, 'Tempo totale': 71.23429203033447}"
+Original Text Extract,"5 
+ 
+La Notte d’Inverno 
+ 
+ 
+ 
+ 
+ 
+Il sole era a metà strada dal tramonto, quando il carretto arrivò alla fattoria. L’edificio non era 
+grande, meno di altre fattorie disseminate verso levante, che nel corso degli anni erano cresciute fino a 
+ospitare intere famiglie. Nei Fiumi Gemelli, sotto lo stesso tetto vivevano a volte tre o quattro 
+generazioni, compresi zie e zii, cugini e nipoti. Tam e Rand erano considerati due eccentrici, sia perché 
+vivevano da soli, sia perché coltivavano terreni nel Westwood.  
+La fattoria consisteva quasi tutta in un solo piano, un semplice rettangolo senza aggiunte, ma 
+c’erano due stanze da letto e la dispensa nella soffitta sotto il tetto di stoppie assai inclinato. Anche se, 
+dopo le bufere dell’inverno, l’intonaco era quasi sparito dalle robuste pareti di legno, la casa era in 
+buone condizioni: il tetto di stoppie teneva bene e porte e finestre chiudevano alla perfezione.  
+La casa, la stalla e il recinto di pietra per le pecore formavano le punte di un triangolo intorno al 
+cortile, dove alcune galline raspavano il terreno gelato. La tettoia per la tosatura e il trogolo di pietra 
+erano posti vicino al recinto. Al limitare dei campi tra il cortile e gli alberi si alzava il cono del capanno 
+per la concia. Pochi contadini dei Fiumi Gemelli riuscivano a tirare avanti, se non avevano da vendere 
+lana e tabacco.  
+Quando Rand diede un’occhiata al recinto di pietra, il capo del gregge, un ariete dalle grosse corna, 
+gli restituì lo sguardo, ma gran parte delle pecore dal muso nero rimase placidamente distesa o in piedi 
+con la testa nella greppia. Le pecore avevano il pelo folto e riccio, ma faceva ancora troppo freddo per 
+iniziare la tosatura.  
+«Non credo che quell’uomo sia venuto qui» gridò Rand a suo padre, che lancia in pugno, faceva il 
+giro della fattoria ed esaminava attentamente il terreno. «Le pecore non sarebbero così tranquille.»  
+Tam annuì, ma continuò l’ispezione. Completò il giro della casa e passò alla stalla e al recinto delle 
+pecore, esaminando sempre il terreno. Controllò perfino la camera di fumigazione e la tettoia della 
+conceria. Tirò su dal pozzo un secchio pieno, prese nel cavo della mano un poco d’acqua, l’annusò e 
+l’assaggiò con la punta della lingua. Si mise a ridere e bevve rapidamente.  
+«No, non è venuto» disse a Rand, asciugandosi la mano sulla giubba.  
+«Tutte queste storie di uomini e di cavalli che non posso vedere mi fanno guardare con sospetto ogni 
+cosa.» Riempì d’acqua un altro secchio e si diresse alla casa. «Metto sul fuoco la minestra per la cena. 
+Abbiamo il tempo per qualche lavoretto.»  
+Rand fece una smorfia, rimpiangendo la Notte d’Inverno a Emond’s Field. Ma Tam aveva ragione. 
+In una fattoria, non si finisce mai di lavorare: terminata una cosa, ce ne sono subito altre due. Rand 
+esitò, poi decise di tenere a portata di mano arco e frecce. Se il cavaliere nero fosse comparso, non 
+voleva affrontarlo con solo una zappa.  
+Come prima cosa mise Bela nella stalla. Le tolse i finimenti e la sistemò accanto alla mucca; poi, 
+messo da parte il mantello, la strofinò con manciate di paglia secca e la strigliò con un paio di brusche. 
+Salì nel fienile e col forcone tirò giù il fieno da darle da mangiare. Le portò pure una misura d’avena, 
+anche se ne rimaneva poca e forse non ce ne sarebbe stata per un pezzo, a meno che il tempo non 
+migliorasse. La mucca, munta quella mattina alle prime luci, aveva dato solo un quarto del latte che 
+
+produceva di solito: pareva prosciugarsi, col perdurare dell’inverno.  
+Per le pecore era rimasto foraggio per due giorni: ormai avrebbero dovuto essere nei pascoli, ma 
+l’erba non spuntava ancora. Rand rinnovò la provvista d’acqua e passò a raccogliere le uova. Ne trovò 
+solo tre. Sembrava che le galline diventassero più furbe, nel nasconderle.  
+Si apprestava a zappare l’orto dietro la casa, quando Tam uscì e si sedette sulla panca di fronte alla 
+stalla a riparare dei finimenti; tenne accanto a sé la lancia. Rand si tranquillizzò, perché aveva lasciato 
+l’arco sopra il mantello, a qualche passo di distanza.  
+Nell’orto c’erano poche erbacce, ma i cavoli erano rachitici e si vedeva solo qualche germoglio di 
+fagioli e piselli e nessun segno delle bietole.  
+Non avevano piantato tutto, certo, nella speranza che il freddo finisse e permettesse di fare un po’ di 
+raccolto, prima che non ci fosse più niente in cantina. Sarchiato l’orto, c’era la legna da spaccare.  
+A Rand pareva che fossero passati anni, da quando non  c’era legna da spaccare. Ma lamentarsi non 
+avrebbe riscaldato la casa; perciò prese la scure, appoggiò al ceppo arco e faretra e si mise al lavoro. 
+Pino, per fiamme rapide e calde; quercia, per fuoco più lento. Ben presto era tanto accaldato da togliersi 
+la giubba. Quando il mucchio di legna fu abbastanza grosso, formò una catasta contro la parete della 
+casa, accanto alle altre; alcune erano alte fino alla gronda, mentre di solito, in quel periodo dell’anno, 
+erano quasi consumate. A "
+Token Count,7935

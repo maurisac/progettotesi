@@ -1,0 +1,641 @@
+Stato,Analisi in corso
+Stato,Analisi completata il 07/03/2025 alle 03:08:33
+Entities,"{
+  ('Harry', 'PER'): 53,
+  ('Percy', 'PER'): 13,
+  ('McGranitt', 'PER'): 12,
+  ('Ron', 'PER'): 12,
+  ('Serpeverde', 'LOC'): 9,
+  ('Casa', 'ORG'): 7,
+  ('Casa', 'PER'): 7,
+  ('Grifondoro', 'PER'): 6,
+  ('Hogwarts', 'MISC'): 5,
+  ('Neville', 'PER'): 5,
+  ('Raptor', 'PER'): 5,
+  ('Silente', 'PER'): 5,
+  ('Piton', 'PER'): 5,
+  ('Hagrid', 'PER'): 4,
+  ('Tassorosso', 'LOC'): 4,
+  ('Corvonero', 'LOC'): 4,
+  ('GRIFONDORO', 'MISC'): 4,
+  ('Malfoy', 'PER'): 4,
+  ('Pix', 'MISC'): 4,
+  ('Grifondoro', 'LOC'): 3,
+  ('Hermione', 'PER'): 3,
+  ('Potter', 'MISC'): 3,
+  ('Weasley', 'MISC'): 3,
+  ('Barone Sanguinario', 'PER'): 3,
+  ('Dursley', 'ORG'): 2,
+  ('Sala Grande', 'LOC'): 2,
+  ('Case', 'LOC'): 2,
+  ('Fred', 'PER'): 2,
+  ('Frate Grasso', 'PER'): 2,
+  ('La professoressa McGranitt', 'MISC'): 2,
+  ('Sala 
+Grande', 'LOC'): 2,
+  ('Dudley', 'PER'): 2,
+  ('Patil', 'PER'): 2,
+  ('Albus Silente', 'PER'): 2,
+  ('Percy Weasley', 'PER'): 2,
+  ('Seamus', 'PER'): 2,
+  ('Zio Algie', 'PER'): 2,
+  ('Vattene', 'ORG'): 2,
+  ('Il Cappello Parlante', 'MISC'): 1,
+  ('Spalancò', 'PER'): 1,
+  ('Gringott', 'ORG'): 1,
+  ('Smistamen-
+to', 'LOC'): 1,
+  ('Ser-', 'LOC'): 1,
+  ('Spero', 'PER'): 1,
+  ('La Cerimonia dello Smistamento', 'MISC'): 1,
+  ('Tornerò', 'LOC'): 1,
+  ('Hermione Granger', 'PER'): 1,
+  ('Mio caro Frate', 'PER'): 1,
+  ('Pix', 'LOC'): 1,
+  ('Un fantasma in calzamaglia e gorgiera', 'MISC'): 1,
+  ('Nuovi studenti!', 'MISC'): 1,
+  ('Spero di vedervi tutti', 'MISC'): 1,
+  ('Frate', 'ORG'): 1,
+  ('Ce-', 'ORG'): 1,
+  ('Smistamento', 'LOC'): 1,
+  ('Mettetevi in fila', 'MISC'): 1,
+  ('Harry', 'MISC'): 1,
+  ('Qua', 'PER'): 1,
+  ('Storia di Hogwarts', 'MISC'): 1,
+  ('Zia Petunia', 'PER'): 1,
+  ('Harry tut-
+to emozionato', 'MISC'): 1,
+  ('Venite', 'PER'): 1,
+  ('Cappello Parlante!', 'MISC'): 1,
+  ('Sembrava', 'PER'): 1,
+  ('Abbott Hannah', 'PER'): 1,
+  ('TASSOROSSO!» gridò il cappello', 'MISC'): 1,
+  ('Hannah', 'ORG'): 1,
+  ('Hossas Susan!', 'MISC'): 1,
+  ('TASSOROSSO!» gridò ancora il cappello', 'MISC'): 1,
+  ('Susan', 'PER'): 1,
+  ('Hannah', 'LOC'): 1,
+  ('Boot Terry!', 'MISC'): 1,
+  ('CORVONERO', 'LOC'): 1,
+  ('Casa di Corvonero', 'LOC'): 1,
+  ('Terry', 'PER'): 1,
+  ('Brocklehurst Mandy', 'PER'): 1,
+  ('Brown', 'PER'): 1,
+  ('Lavanda', 'LOC'): 1,
+  ('Bulstrode Millicent', 'PER'): 1,
+  ('TASSOROSSO', 'MISC'): 1,
+  ('«Finnigan', 'PER'): 1,
+  ('mase', 'PER'): 1,
+  ('Granger', 'PER'): 1,
+  ('Ne-', 'MISC'): 1,
+  ('MacDougal', 'MISC'): 1,
+  ('SERPEVERDE!» 
+', 'MISC'): 1,
+  ('Tiger', 'PER'): 1,
+  ('Goyle', 'MISC'): 1,
+  ('Moon', 'PER'): 1,
+  ('Perks', 'PER'): 1,
+  ('Sally Anne', 'PER'): 1,
+  ('Potter Harry!', 'MISC'): 1,
+  ('Harry Potter...?', 'MISC'): 1,
+  ('Ehm...» gli sussurrò', 'MISC'): 1,
+  ('Vedo', 'ORG'): 1,
+  ('Serpe-
+verde', 'LOC'): 1,
+  ('Serpeverde!', 'MISC'): 1,
+  ('Cioccorana', 'LOC'): 1,
+  ('Paiolo magico', 'LOC'): 1,
+  ('Turpin Lisa', 'MISC'): 1,
+  ('«Zabini Blaise', 'PER'): 1,
+  ('Ser-
+peverde', 'PER'): 1,
+  ('Cappello Parlante', 'LOC'): 1,
+  ('Benvenuti!', 'MISC'): 1,
+  ('«Benvenuti', 'PER'): 1,
+  ('Hogwarts!', 'MISC'): 1,
+  ('Prima', 'MISC'): 1,
+  ('Pigna', 'LOC'): 1,
+  ('Matto', 'PER'): 1,
+  ('Patate', 'PER'): 1,
+  ('Harry?', 'MISC'): 1,
+  ('Yor-', 'ORG'): 1,
+  ('Harry', 'LOC'): 1,
+  ('Nicholas de Mimsy-Porpington', 'PER'): 1,
+  ('Io lo so chi sei!» disse d'un tratto', 'MISC'): 1,
+  ('Preferirei', 'PER'): 1,
+  ('Sir Nicholas de Mimsy', 'PER'): 1,
+  ('Seamus Finnigan', 'PER'): 1,
+  ('Quasi senza testa?', 'MISC'): 1,
+  ('Sir Nicholas', 'PER'): 1,
+  ('Nick-Quasi-Senza-Testa', 'MISC'): 1,
+  ('Grifondoro!', 'MISC'): 1,
+  ('Malfoy', 'LOC'): 1,
+  ('Non gliel'ho mai chiesto» disse con delicatezza', 'MISC'): 1,
+  ('Nick-Quasi-Senza-
+Testa', 'PER'): 1,
+  ('Io sono un... mezzo sangue', 'MISC'): 1,
+  ('Babbano', 'LOC'): 1,
+  ('Mamma', 'PER'): 1,
+  ('E tu', 'MISC'): 1,
+  ('Babbano', 'PER'): 1,
+  ('Algie', 'PER'): 1,
+  ('Blackpool', 'LOC'): 1,
+  ('Enid', 'PER'): 1,
+  ('Spero', 'LOC'): 1,
+  ('Trasfigurazione', 'MISC'): 1,
+  ('sor Raptor', 'PER'): 1,
+  ('Accadde all'improvviso', 'MISC'): 1,
+  ('Ah!»', 'MISC'): 1,
+  ('N-niente', 'MISC'): 1,
+  ('Il dolore', 'MISC'): 1,
+  ('Oh', 'PER'): 1,
+  ('Raptor!', 'MISC'): 1,
+  ('Arti Oscure', 'MISC'): 1,
+  ('Ehm', 'MISC'): 1,
+  ('Gazza', 'PER'): 1,
+  ('Quidditch', 'LOC'): 1,
+  ('Madama Bumb', 'PER'): 1,
+  ('Non dirà mica sul serio?» chiese piano', 'MISC'): 1,
+  ('Silente', 'LOC'): 1,
+  ('Pleistocene', 'PER'): 1,
+  ('Ah', 'PER'): 1,
+  ('po', 'LOC'): 1,
+  ('Pix» sussurrò Percy', 'MISC'): 1,
+  ('Poltergeist', 'MISC'): 1,
+  ('Rispose', 'PER'): 1,
+  ('Vuoi', 'PER'): 1,
+  ('Oooooooh!', 'MISC'): 1,
+  ('Pivellini', 'PER'): 1,
+  ('Barone', 'PER'): 1,
+  ('Caput', 'LOC'): 1,
+  ('Neville', 'LOC'): 1,
+  ('Che bella mangiata', 'MISC'): 1,
+  ('Crosta!', 'MISC'): 1,
+}"
+Potential Locations,"{
+  'Casa': {
+    'category': 'paese',
+    'confidence': 0.1523546725511551,
+    'spacy_label': 'PER',
+    'count': 7,
+    'priority_score': 0.9802444444444445,
+    'early_appearance': True,
+    'positions': [1534, 1628, 1673, 1742, 2016, 2104, 2250, 2842, 5090, 9494, 10948, 11416, 14268, 23819]
+  },
+  'Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.4973960816860199,
+    'spacy_label': 'MISC',
+    'count': 5,
+    'priority_score': 0.9752888888888889,
+    'early_appearance': True,
+    'positions': [1217, 1514, 1947, 24957, 24967]
+  },
+  'Sala Grande': {
+    'category': 'sala',
+    'confidence': 0.24915333092212677,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.9752555555555557,
+    'early_appearance': True,
+    'positions': [1366, 25911]
+  },
+  'Case': {
+    'category': 'paese',
+    'confidence': 0.2541228234767914,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.9752555555555557,
+    'early_appearance': True,
+    'positions': [1409, 1762]
+  },
+  'Gringott': {
+    'category': 'banca magica',
+    'confidence': 0.10899363458156586,
+    'spacy_label': 'ORG',
+    'count': 1,
+    'priority_score': 0.9653777777777779,
+    'early_appearance': True,
+    'positions': [598]
+  },
+  'Sala 
+Grande': {
+    'category': 'sala',
+    'confidence': 0.24915333092212677,
+    'spacy_label': 'LOC',
+    'count': 2,
+    'priority_score': 0.7530555555555556,
+    'early_appearance': False,
+    'positions': [5701, 6851]
+  },
+  'po': {
+    'category': 'paese',
+    'confidence': 0.20462949573993683,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.7505777777777778,
+    'early_appearance': False,
+    'positions': [26521]
+  },
+  'Albus Silente': {
+    'category': 'scuola di magia',
+    'confidence': 0.12121553719043732,
+    'spacy_label': 'PER',
+    'count': 2,
+    'priority_score': 0.7456555555555556,
+    'early_appearance': False,
+    'positions': [15018, 16197]
+  },
+  'Storia di Hogwarts': {
+    'category': 'scuola di magia',
+    'confidence': 0.46224281191825867,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [6760]
+  },
+  'Potter Harry!': {
+    'category': 'scuola di magia',
+    'confidence': 0.16850045323371887,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [13005]
+  },
+  'Harry Potter...?': {
+    'category': 'scuola di magia',
+    'confidence': 0.18608766794204712,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [13197]
+  },
+  'Hogwarts!': {
+    'category': 'scuola di magia',
+    'confidence': 0.48463883996009827,
+    'spacy_label': 'MISC',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [16437]
+  },
+  'Barone': {
+    'category': 'paese',
+    'confidence': 0.2987896203994751,
+    'spacy_label': 'PER',
+    'count': 1,
+    'priority_score': 0.7431777777777778,
+    'early_appearance': False,
+    'positions': [27270]
+  },
+  'Tassorosso': {
+    'category': 'non_luogo',
+    'confidence': 0.21051450073719025,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23951111111111112,
+    'early_appearance': True,
+    'positions': [1791, 5036, 8243, 10072]
+  },
+  'Corvonero': {
+    'category': 'non_luogo',
+    'confidence': 0.37149009108543396,
+    'spacy_label': 'LOC',
+    'count': 4,
+    'priority_score': 0.23951111111111112,
+    'early_appearance': True,
+    'positions': [1803, 8382, 10619, 15490]
+  },
+  'Grifondoro': {
+    'category': 'non_luogo',
+    'confidence': 0.3197166323661804,
+    'spacy_label': 'LOC',
+    'count': 3,
+    'priority_score': 0.23703333333333335,
+    'early_appearance': True,
+    'positions': [1779, 8109, 10668, 11629, 14208, 18010, 19015, 25853, 28042]
+  },
+  'Smistamen-
+to': {
+    'category': 'non_luogo',
+    'confidence': 0.3381979167461395,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [1418]
+  },
+  'Ser-': {
+    'category': 'non_luogo',
+    'confidence': 0.3178163170814514,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [1815]
+  },
+  'Tornerò': {
+    'category': 'non_luogo',
+    'confidence': 0.3184969425201416,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [2641]
+  },
+  'Harry': {
+    'category': 'non_luogo',
+    'confidence': 0.20337551832199097,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [199, 837, 2590, 2785, 2966, 3489, 5410, 5716, 6587, 6928, 9046, 9138, 9390, 10161, 10754, 10892, 11340, 11546, 11819, 13028, 13234, 13690, 14071, 14543, 14932, 15033, 15235, 15578, 15670, 15863, 16028, 16641, 16849, 17443, 17483, 17698, 19220, 19452, 20074, 21311, 21709, 22163, 22284, 22471, 22906, 24029, 24518, 25986, 26422, 28583, 28666, 28783, 29034, 29134, 29466]
+  },
+  'Spero': {
+    'category': 'non_luogo',
+    'confidence': 0.280316025018692,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [2209, 21377]
+  },
+  'Neville': {
+    'category': 'non_luogo',
+    'confidence': 0.37892094254493713,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.23207777777777777,
+    'early_appearance': True,
+    'positions': [2507, 12453, 20340, 20433, 27385, 27967]
+  },
+  'Serpeverde': {
+    'category': 'non_luogo',
+    'confidence': 0.2567703127861023,
+    'spacy_label': 'LOC',
+    'count': 9,
+    'priority_score': 0.0297,
+    'early_appearance': False,
+    'positions': [8537, 10848, 13795, 13929, 14283, 19057, 19206, 19258, 28974]
+  },
+  'Pix': {
+    'category': 'non_luogo',
+    'confidence': 0.36878547072410583,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [4565, 27249, 27312, 27495, 27607]
+  },
+  'Smistamento': {
+    'category': 'non_luogo',
+    'confidence': 0.24250276386737823,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [5182]
+  },
+  'Hannah': {
+    'category': 'non_luogo',
+    'confidence': 0.2193284034729004,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [10130, 10348]
+  },
+  'CORVONERO': {
+    'category': 'non_luogo',
+    'confidence': 0.2553713619709015,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [10374]
+  },
+  'Casa di Corvonero': {
+    'category': 'non_luogo',
+    'confidence': 0.12446756660938263,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [10475]
+  },
+  'Lavanda': {
+    'category': 'non_luogo',
+    'confidence': 0.20434702932834625,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [10641]
+  },
+  'Serpe-
+verde': {
+    'category': 'non_luogo',
+    'confidence': 0.3032558858394623,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [13754]
+  },
+  'Cioccorana': {
+    'category': 'non_luogo',
+    'confidence': 0.33947816491127014,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [15108]
+  },
+  'Paiolo magico': {
+    'category': 'non_luogo',
+    'confidence': 0.21391108632087708,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [15325]
+  },
+  'Cappello Parlante': {
+    'category': 'non_luogo',
+    'confidence': 0.22190523147583008,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [16008]
+  },
+  'Pigna': {
+    'category': 'non_luogo',
+    'confidence': 0.29205191135406494,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [16527]
+  },
+  'Malfoy': {
+    'category': 'non_luogo',
+    'confidence': 0.1804528534412384,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [12589, 12772, 19438, 29248, 29326]
+  },
+  'Babbano': {
+    'category': 'non_luogo',
+    'confidence': 0.4556851089000702,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [20210, 20514]
+  },
+  'Blackpool': {
+    'category': 'non_luogo',
+    'confidence': 0.22425594925880432,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [20672]
+  },
+  'Quidditch': {
+    'category': 'non_luogo',
+    'confidence': 0.33949458599090576,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [23683]
+  },
+  'Silente': {
+    'category': 'non_luogo',
+    'confidence': 0.23216769099235535,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [21918, 23043, 23463, 24179, 24600, 24913]
+  },
+  'Caput': {
+    'category': 'non_luogo',
+    'confidence': 0.30751439929008484,
+    'spacy_label': 'LOC',
+    'count': 1,
+    'priority_score': 0.009877777777777777,
+    'early_appearance': False,
+    'positions': [27816]
+  },
+}"
+Main Location,"{
+  'name': 'Casa',
+  'category': 'paese',
+  'spacy_label': 'PER',
+  'confidence': 0.1523546725511551,
+  'count': 7,
+  'priority_score': 0.9802444444444445,
+  'early_appearance': True,
+  'sound_category': 'strada',
+  'sound_category_original': 'paese',
+}"
+Main Character,"{
+  'name': 'Harry',
+  'count': 53,
+  'early_appearance': True,
+  'spacy_label': 'PER',
+  'priority_score': 0.9999,
+}"
+Emotions,"{'emotion_counts': {'joy': 45, 'sadness': 43, 'anger': 8, 'fear': 2}, 'sentiment_counts': {'positive': 56, 'negative': 42}, 'emotion_percentages': {'joy': 45.91836734693878, 'sadness': 43.87755102040816, 'anger': 8.16326530612245, 'fear': 2.0408163265306123}, 'sentiment_percentages': {'positive': 57.14285714285714, 'negative': 42.857142857142854}, 'dominant_emotion': 'joy', 'dominant_sentiment': 'positive'}"
+Tempi di analisi,"{'Analisi con spaCy': 1.8404135704040527, 'Riconoscimento entità con spaCy': 0.002999544143676758, 'Analisi emozioni': 18.722066640853882, 'Classificazione delle location': 62.3607451915741, 'Tempo totale': 82.92976093292236}"
+Original Text Extract,"Capitolo 7 
+Il Cappello Parlante 
+ 
+La porta si spalancò all'istante. Si vide una strega alta, dai capelli corvi-
+ni, vestita di verde smeraldo. Aveva un volto molto severo, e il primo pen-
+siero di Harry fu questo: è una persona che bisogna evitare di contrariare. 
+«Ecco qua gli allievi del primo anno, professoressa McGranitt» disse 
+Hagrid. 
+«Grazie, Hagrid. Da qui in avanti li accompagno io». 
+Spalancò la porta. La sala d'ingresso era così grande che ci sarebbe en-
+trata comodamente tutta la casa dei Dursley. Le pareti di pietra erano illu-
+minate da torce fiammeggianti come quelle della Gringott, il soffitto era 
+talmente alto che si scorgeva a malapena, e di fronte a loro una sontuosa 
+scalinata in marmo conduceva ai piani superiori. 
+I ragazzi seguirono la professoressa McGranitt calpestando il pavimento 
+tutto lastre. Harry udiva il brusio di centinaia di voci provenire da una por-
+ta a destra - il resto della scolaresca doveva essere già arrivato - ma la pro-
+fessoressa McGranitt condusse quelli del primo anno in una saletta vuota, 
+oltre la sala d'ingresso. Ci si assieparono dentro, molto più pigiati di quan-
+to normalmente avrebbero fatto, guardandosi intorno tutti nervosi. 
+«Benvenuti a Hogwarts» disse la professoressa McGranitt. «Il banchetto 
+per l'inizio dell'anno scolastico avrà luogo tra breve, ma prima di prendere 
+posto nella Sala Grande, verrete smistati nelle vostre Case. Lo Smistamen-
+to è una cerimonia molto importante, perché per tutto il tempo che passere-
+te qui a Hogwarts, la vostra Casa sarà un po' come la vostra famiglia. Fre-
+quenterete le lezioni con i vostri compagni di Casa, dormirete nei dormito-
+ri della vostra Casa e passerete il tempo libero nella sala di ritrovo della 
+vostra Casa. 
+
+«Le quattro Case si chiamano Grifondoro, Tassorosso, Corvonero e Ser-
+peverde. Ciascuna ha la sua nobile storia e ciascuna ha sfornato maghi e 
+streghe di prim'ordine. Per il tempo che resterete a Hogwarts, i trionfi che 
+otterrete faranno vincere punti alla vostra Casa, mentre ogni violazione 
+delle regole gliene farà perdere. Alla fine dell'anno, la Casa che avrà tota-
+lizzato più punti verrà premiata con una coppa, il che costituisce un grande 
+onore. Spero che ognuno di voi darà lustro alla Casa cui verrà destinato. 
+«La Cerimonia dello Smistamento inizierà tra pochi minuti, davanti a 
+tutti gli altri studenti. Nell'attesa, vi suggerisco di farvi belli più che pote-
+te». 
+E cosi dicendo, i suoi occhi indugiarono per un attimo sul mantello di 
+Neville, che era abbottonato sotto l'orecchio sinistro, e sul naso sporco di 
+Ron. Harry cercò di lisciarsi i capelli nervosamente. 
+«Tornerò non appena saremo pronti per la cerimonia» disse la professo-
+ressa McGranitt. «Vi prego di attendere in silenzio». 
+Uscì dalla stanza. Harry deglutì. 
+«Di preciso, in che modo ci smistano per Casa?» chiese a Ron. 
+«Una specie di prova, credo. Fred ha detto che fa un sacco male, ma 
+penso che stesse scherzando». 
+A Harry, il cuore sobbalzò nel petto. Una prova? Di fronte a tutta la 
+scuola? Ma lui, di magia, non sapeva niente... cosa avrebbe dovuto fare? 
+Non si era aspettato niente di simile, quando era arrivato. Si guardò intorno 
+ansioso e vide che tutti gli altri erano terrorizzati quanto lui. Nessuno ave-
+va molta voglia di parlare, tranne Hermione Granger che stava spiat-
+tellando a bassa voce, con parlantina inarrestabile, tutti gli incantesimi che 
+aveva imparato, chiedendosi di quale dei tanti avrebbe dovuto servirsi. 
+Harry cercava disperatamente di non ascoltarla. Non era mai stato tanto 
+nervoso in vita sua, mai, neanche quando era tornato a casa con una nota 
+della scuola in cui si diceva che, non si sa come, lui aveva fatto diventare 
+blu la parrucca dell'insegnante. Teneva gli occhi fissi sulla porta. Ormai 
+ogni momento era buono perché la professoressa McGranitt tornasse per 
+condurlo verso il suo destino. 
+Poi accadde una cosa che gli fece fare un salto alto un palmo da terra... 
+Dietro di lui, molti ragazzi gridarono. 
+«Ma che cosa...?» 
+Si sentì mancare il fiato, e come lui tutti gli altri. Una ventina di fanta-
+smi erano appena entrati nella stanza, attraversando la parete in fondo. Di 
+color bianco perlaceo e leggermente trasparenti, scivolavano per la stanza 
+
+parlando tra loro e quasi senza guardare gli allievi del primo anno. Sem-
+brava che stessero discutendo. Quello che assomigliava a un monaco pic-
+colo e grasso stava dicendo: «Io dico che bisogna perdonare e dimenticare; 
+dobbiamo dargli un'altra possibilità...» 
+«Mio caro Frate, non abbiamo forse dato a Pix tutte le possibilità che 
+meritava? Non fa che gettare discredito sul nostro nome, e poi lo sai, non è 
+neanche un vero e proprio fantasma... Ehi, dico, che cosa ci fate qui?» 
+Un fantasma in calzamaglia e gorgiera aveva d'un tratto notato gli stu-
+denti del primo anno. 
+Nessuno rispose. 
+«Nuovi studenti!» disse il Frate Grasso abbracciando tutti con un sorri-
+so. «In attesa di essere smistati, suppongo». 
+Alcuni annuirono in s"
+Token Count,6389
