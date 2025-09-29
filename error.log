@@ -1,0 +1,562 @@
+2025-01-29 18:08:32,264 - ERROR - name 'page_label' is not defined
+2025-01-29 19:17:33,855 - ERROR - name 'page_label' is not defined
+2025-02-01 17:11:07,261 - ERROR - 'NoneType' object has no attribute 'keys'
+2025-02-02 17:32:52,513 - ERROR - The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-02-02 17:37:17,114 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 17:57:16,345 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 18:11:27,344 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 18:26:43,636 - ERROR - local variable 'start_page' referenced before assignment
+2025-02-02 18:28:05,729 - ERROR - 'numpy.ndarray' object is not callable
+2025-02-02 18:28:30,418 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 18:29:24,580 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 18:56:58,596 - ERROR - local variable 'start_page' referenced before assignment
+2025-02-02 19:00:31,626 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:08:51,343 - ERROR - The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-02-02 19:10:28,955 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:12:28,022 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:14:36,836 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:15:21,832 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:16:34,038 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:22:03,570 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:24:40,071 - ERROR - '>=' not supported between instances of 'int' and 'str'
+2025-02-02 19:28:07,668 - ERROR - 'dict' object has no attribute 'empty'
+2025-02-24 13:20:19,134 - ERROR - name 'Counter' is not defined
+2025-02-24 13:20:25,985 - ERROR - name 'Counter' is not defined
+2025-02-24 13:20:37,023 - ERROR - name 'Counter' is not defined
+2025-02-24 13:21:06,325 - ERROR - name 'Counter' is not defined
+2025-02-28 17:33:25,213 - ERROR - 'list' object has no attribute 'items'
+2025-02-28 17:38:59,790 - ERROR - local variable 'chapter' referenced before assignment
+2025-03-01 01:54:42,538 - ERROR - 'list' object has no attribute 'items'
+2025-03-04 11:11:53,242 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DFFA0>
+2025-03-04 11:11:53,246 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9D8070>
+2025-03-04 11:12:06,987 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:12:07,427 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EBFA0>
+2025-03-04 11:12:07,876 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9E7FA0>
+2025-03-04 11:12:08,251 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FFA0>
+2025-03-04 11:12:09,795 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9E3FA0>
+2025-03-04 11:12:19,368 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9E7FA0>
+2025-03-04 11:12:25,428 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA13340>
+2025-03-04 11:12:27,580 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DB4F0>
+2025-03-04 11:12:27,772 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F76A0>
+2025-03-04 11:12:54,739 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9E3880>
+2025-03-04 11:14:34,208 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFA30>
+2025-03-04 11:16:23,884 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9E2E90>
+2025-03-04 11:24:57,883 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 11:34:57,163 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EF820>
+2025-03-04 11:34:57,555 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA178B0>
+2025-03-04 11:34:57,923 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EC070>
+2025-03-04 11:34:58,379 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BC10>
+2025-03-04 11:34:58,724 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7EE0>
+2025-03-04 11:34:59,275 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFF70>
+2025-03-04 11:34:59,580 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 11:35:00,115 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:03,995 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:04,499 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:05,147 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:05,483 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:12,181 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:13,571 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:13,731 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:14,179 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:14,547 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:14,691 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:15,003 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:15,147 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:35:15,308 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:09,611 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:10,309 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:10,779 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:11,283 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:11,883 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:12,164 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 11:39:12,659 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 11:39:13,083 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FFA0>
+2025-03-04 11:39:14,108 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FB070>
+2025-03-04 11:39:16,939 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F41C0>
+2025-03-04 11:39:17,916 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:18,779 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:19,499 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:20,763 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 11:39:21,051 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:17:31,844 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:17:32,243 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA03FA0>
+2025-03-04 12:17:32,371 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 12:18:15,875 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA13FA0>
+2025-03-04 12:18:17,219 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA18070>
+2025-03-04 12:18:17,716 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:18:18,060 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FC2E0>
+2025-03-04 12:18:18,932 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBEE0>
+2025-03-04 12:18:19,315 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:18:19,651 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FFA0>
+2025-03-04 12:18:20,059 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:18:20,347 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17FA0>
+2025-03-04 12:18:20,644 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA13FA0>
+2025-03-04 12:18:21,187 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA23FA0>
+2025-03-04 12:18:21,523 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA03FA0>
+2025-03-04 12:18:21,827 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 12:18:22,508 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:18:22,828 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9ED180>
+2025-03-04 12:18:23,149 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 12:18:24,251 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FC760>
+2025-03-04 12:18:24,539 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA14490>
+2025-03-04 12:18:38,691 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1C2E0>
+2025-03-04 12:19:58,411 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9D81C0>
+2025-03-04 12:20:06,758 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FC130>
+2025-03-04 12:20:07,682 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17FA0>
+2025-03-04 12:20:08,003 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:20:08,316 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA23FA0>
+2025-03-04 12:20:09,332 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:20:12,484 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 12:21:19,468 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA03FA0>
+2025-03-04 12:21:20,732 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:21:21,339 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1FFA0>
+2025-03-04 12:21:21,859 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA13FA0>
+2025-03-04 12:21:22,227 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:21:22,803 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA03FA0>
+2025-03-04 12:21:23,236 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:21:23,684 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17FA0>
+2025-03-04 12:21:33,067 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:26:17,555 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA14070>
+2025-03-04 12:26:18,115 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EC160>
+2025-03-04 12:26:18,491 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA00070>
+2025-03-04 12:26:18,908 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:26:20,460 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 12:26:21,203 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:26:21,603 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA23FA0>
+2025-03-04 12:26:22,036 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 12:26:22,707 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA03FA0>
+2025-03-04 12:26:23,699 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17FA0>
+2025-03-04 12:26:24,411 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:26:24,851 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:26:25,195 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:26:25,628 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:26:26,219 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:26:26,668 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:26:28,019 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:26:29,924 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1FFA0>
+2025-03-04 12:26:33,139 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 12:26:36,971 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:32:40,987 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:32:45,827 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1FFA0>
+2025-03-04 12:32:46,292 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBF40>
+2025-03-04 12:32:46,843 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA27FA0>
+2025-03-04 12:32:47,187 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FFA0>
+2025-03-04 12:32:47,987 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA07FA0>
+2025-03-04 12:34:53,531 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA24070>
+2025-03-04 12:34:53,819 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA18070>
+2025-03-04 12:35:06,779 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F8070>
+2025-03-04 12:42:42,092 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA04070>
+2025-03-04 12:42:42,515 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:42:42,917 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:42:43,385 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 12:42:44,235 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA27FA0>
+2025-03-04 12:42:44,516 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:42:44,787 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA27F40>
+2025-03-04 12:42:45,035 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1F520>
+2025-03-04 12:42:45,313 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:42:45,595 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DB880>
+2025-03-04 12:42:45,859 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FC220>
+2025-03-04 12:42:46,138 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1FBE0>
+2025-03-04 12:42:46,708 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA18070>
+2025-03-04 12:42:46,987 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA04D30>
+2025-03-04 12:42:47,547 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EC520>
+2025-03-04 12:42:47,819 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA20250>
+2025-03-04 12:42:48,059 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA181C0>
+2025-03-04 12:42:48,468 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17FA0>
+2025-03-04 12:42:48,979 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FFA0>
+2025-03-04 12:42:49,339 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 12:42:49,619 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:42:49,877 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17FA0>
+2025-03-04 12:42:50,131 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:42:50,386 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FCC70>
+2025-03-04 12:42:50,699 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA20070>
+2025-03-04 12:42:51,301 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1FFA0>
+2025-03-04 12:42:51,579 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA14220>
+2025-03-04 12:42:51,820 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 12:42:52,123 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:42:52,660 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA07FA0>
+2025-03-04 12:42:52,923 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA27FA0>
+2025-03-04 12:42:53,235 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9DBFA0>
+2025-03-04 12:42:53,563 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FFA0>
+2025-03-04 12:42:53,803 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBFA0>
+2025-03-04 12:42:54,163 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA14100>
+2025-03-04 12:42:54,491 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0D2D0>
+2025-03-04 12:42:54,994 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FFFA0>
+2025-03-04 12:42:55,571 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9EFFA0>
+2025-03-04 12:42:56,061 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1FFA0>
+2025-03-04 12:42:56,804 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1EBC0>
+2025-03-04 12:42:57,435 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1E380>
+2025-03-04 12:42:57,755 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1DE10>
+2025-03-04 12:42:57,931 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1FFA0>
+2025-03-04 12:42:58,099 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA23FA0>
+2025-03-04 12:42:58,251 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17FA0>
+2025-03-04 12:42:58,483 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17A30>
+2025-03-04 12:42:58,666 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17550>
+2025-03-04 12:42:59,435 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FB4F0>
+2025-03-04 12:42:59,628 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F76A0>
+2025-03-04 12:42:59,828 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA17850>
+2025-03-04 12:42:59,997 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9FBA00>
+2025-03-04 12:43:05,115 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9D8A90>
+2025-03-04 12:43:37,219 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA27FA0>
+2025-03-04 12:43:37,563 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597A9F7FA0>
+2025-03-04 12:43:37,987 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FB80>
+2025-03-04 12:43:38,537 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA1BFA0>
+2025-03-04 12:43:38,939 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA27FA0>
+2025-03-04 12:43:40,574 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA2BFA0>
+2025-03-04 12:43:41,284 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA07FA0>
+2025-03-04 12:43:41,920 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA23FA0>
+2025-03-04 12:43:42,224 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000001597AA0FFA0>
+2025-03-04 12:48:28,612 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F69FFA0>
+2025-03-04 12:48:28,617 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F698070>
+2025-03-04 12:50:26,491 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6AC070>
+2025-03-04 12:54:11,596 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6B8790>
+2025-03-04 12:56:59,340 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6A3AF0>
+2025-03-04 12:59:37,107 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6AFD60>
+2025-03-04 13:02:09,876 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6AFFA0>
+2025-03-04 13:02:10,388 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6AE1D0>
+2025-03-04 13:02:20,507 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6AF070>
+2025-03-04 13:02:21,083 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6AD330>
+2025-03-04 13:02:21,520 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6AC5B0>
+2025-03-04 13:02:26,611 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6BFFA0>
+2025-03-04 13:25:11,139 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6BC3A0>
+2025-03-04 13:27:24,947 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002672F6BC400>
+2025-03-04 13:36:41,475 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x000002880617FFA0>
+2025-03-04 13:36:41,479 - ERROR - Errore nell'interpretazione delle entità: malformed node or string on line 1: <ast.Call object at 0x0000028806178070>
+2025-03-04 14:29:29,252 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 14:37:36,715 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:42:56,583 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:43:11,814 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:43:15,476 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 16:43:17,338 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:43:17,690 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:43:18,329 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:46:43,488 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:46:43,492 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 16:54:09,066 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:00:00,425 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:00:00,745 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:00:01,226 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:00:01,538 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:00:01,978 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:03:46,129 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:03:52,602 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:03:54,585 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 17:03:55,777 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:03:56,410 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 17:05:53,889 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:54,377 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:55,089 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:55,353 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 17:05:55,586 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 17:05:56,074 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:56,434 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:56,738 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:57,002 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 17:05:57,873 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:58,233 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:58,594 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:58,881 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 17:05:59,593 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:05:59,873 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:06:59,122 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:07:00,465 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 17:07:01,329 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 18:10:47,558 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 18:10:47,562 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 18:13:02,785 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 18:13:03,570 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 20:23:04,484 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 20:23:04,489 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-04 20:43:47,370 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-04 20:43:51,207 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 57)
+2025-03-04 20:43:54,031 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 26)
+2025-03-04 20:43:55,266 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 57)
+2025-03-04 20:43:56,121 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 26)
+2025-03-04 20:43:56,806 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 48) (<unknown>, line 48)
+2025-03-04 20:43:57,418 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 20:43:57,977 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-04 20:43:59,450 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 48) (<unknown>, line 48)
+2025-03-04 20:43:59,674 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 26)
+2025-03-04 20:43:59,914 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 26)
+2025-03-04 20:44:00,114 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 57)
+2025-03-04 20:44:00,306 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 57)
+2025-03-04 20:44:00,586 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-04 20:44:00,825 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-04 20:44:01,126 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 27) (<unknown>, line 27)
+2025-03-04 20:44:01,449 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 27) (<unknown>, line 27)
+2025-03-04 20:44:01,937 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 20) (<unknown>, line 20)
+2025-03-04 20:44:05,929 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 20:44:06,281 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 20:44:06,473 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 20:44:06,753 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-04 20:44:07,298 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 20:44:08,386 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 32)
+2025-03-04 20:44:08,762 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 36)
+2025-03-04 22:11:49,002 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-04 22:11:59,082 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:12:01,369 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:12:19,994 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:13:40,870 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:24,160 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:27,796 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:28,054 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:28,204 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:28,348 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:28,512 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:29,104 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:29,262 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:29,425 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:32,858 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:14:33,272 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:14:42,263 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:14:56,749 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:07,333 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:30,273 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:34,595 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:39,002 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:40,959 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:45,258 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:47,287 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:54,376 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:54,556 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:56,114 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-04 22:15:57,218 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-04 22:15:57,738 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-04 22:15:58,734 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:08,066 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:08,497 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:08,649 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:09,290 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 32)
+2025-03-04 22:16:09,945 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:12,748 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:23,380 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:35,200 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-04 22:16:35,381 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-05 11:33:35,183 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 11:33:35,420 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-05 11:34:13,223 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 11:34:13,647 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 11:34:13,951 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-05 11:34:15,096 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 11:34:35,215 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 11:34:41,365 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 57)
+2025-03-05 11:34:47,312 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-05 11:34:53,549 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 27) (<unknown>, line 27)
+2025-03-05 11:34:56,000 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 20) (<unknown>, line 20)
+2025-03-05 11:35:08,613 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 46)
+2025-03-05 11:35:51,520 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 33) (<unknown>, line 33)
+2025-03-05 11:35:54,029 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 88) (<unknown>, line 88)
+2025-03-05 11:35:56,312 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 36)
+2025-03-05 11:35:58,517 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 32)
+2025-03-05 11:36:02,583 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-05 11:36:03,981 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-05 11:36:15,943 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-05 11:36:16,935 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-05 11:36:17,764 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:37:58,528 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:37:59,592 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:00,096 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:00,440 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:00,704 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:01,032 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:01,464 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:01,688 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:01,904 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:02,144 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:02,345 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-05 11:38:02,584 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-05 11:38:10,151 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-05 11:38:14,344 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-05 11:38:15,576 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 40)
+2025-03-05 11:38:16,648 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:38:25,719 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 46)
+2025-03-05 11:38:30,800 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-05 11:38:31,584 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 26)
+2025-03-05 11:38:32,840 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 57)
+2025-03-05 11:38:33,783 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-05 11:40:14,815 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 11:40:25,760 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 33)
+2025-03-05 11:40:26,671 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-05 11:40:32,160 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 14)
+2025-03-05 11:40:39,552 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 32)
+2025-03-05 11:40:41,423 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 36)
+2025-03-05 17:05:12,880 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-05 17:37:45,135 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-05 19:24:57,182 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 19:24:57,449 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-05 23:22:25,375 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 23:22:53,816 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 23:22:54,504 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 23:22:55,160 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 23:22:55,696 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 23:22:56,368 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 23:28:55,534 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-05 23:28:55,759 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 10:52:33,084 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 10:52:33,375 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 19:45:17,161 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 19:45:17,344 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 19:50:21,667 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 19:50:26,835 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 19:50:27,836 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-06 19:50:28,795 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 29)
+2025-03-06 19:50:29,396 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 27) (<unknown>, line 27)
+2025-03-06 19:50:29,836 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 57)
+2025-03-06 19:50:30,460 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 37) (<unknown>, line 37)
+2025-03-06 20:04:20,099 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-06 20:04:24,107 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 21) (<unknown>, line 21)
+2025-03-06 20:04:24,691 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 21) (<unknown>, line 21)
+2025-03-06 20:04:25,026 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:27,690 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:27,858 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:28,634 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:28,754 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:35,619 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 21) (<unknown>, line 21)
+2025-03-06 20:04:36,002 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:36,266 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:36,795 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 21) (<unknown>, line 21)
+2025-03-06 20:04:37,962 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 20:04:38,531 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 13) (<unknown>, line 13)
+2025-03-06 20:04:40,203 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 39) (<unknown>, line 39)
+2025-03-06 20:04:40,299 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 39) (<unknown>, line 39)
+2025-03-06 20:04:43,043 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 39) (<unknown>, line 39)
+2025-03-06 20:04:43,787 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 32)
+2025-03-06 20:04:51,138 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-06 20:04:58,122 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 34) (<unknown>, line 34)
+2025-03-06 20:05:00,098 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 43) (<unknown>, line 43)
+2025-03-06 20:05:02,747 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 42) (<unknown>, line 42)
+2025-03-06 20:05:04,962 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 76) (<unknown>, line 76)
+2025-03-06 20:05:08,355 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 59) (<unknown>, line 59)
+2025-03-06 20:05:09,547 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 35)
+2025-03-06 20:05:17,691 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 36) (<unknown>, line 36)
+2025-03-06 21:41:36,597 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 14) (<unknown>, line 14)
+2025-03-06 21:41:37,478 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 14) (<unknown>, line 14)
+2025-03-06 21:41:42,190 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 14) (<unknown>, line 14)
+2025-03-06 21:41:43,557 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 8) (<unknown>, line 8)
+2025-03-06 21:46:56,283 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 8)
+2025-03-06 21:46:59,589 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:00,881 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:01,417 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:01,889 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:02,685 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:02,850 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:02,960 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:05,118 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 22) (<unknown>, line 22)
+2025-03-06 21:47:05,598 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 12) (<unknown>, line 12)
+2025-03-06 21:47:05,965 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 12) (<unknown>, line 12)
+2025-03-06 21:47:06,270 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 9) (<unknown>, line 9)
+2025-03-06 21:47:06,542 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 12) (<unknown>, line 12)
+2025-03-06 21:47:06,822 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 16)
+2025-03-06 21:47:08,037 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 12) (<unknown>, line 12)
+2025-03-06 21:47:09,229 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 9) (<unknown>, line 9)
+2025-03-06 21:47:09,685 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 16)
+2025-03-06 21:47:10,197 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 17) (<unknown>, line 17)
+2025-03-06 21:47:14,389 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 14) (<unknown>, line 14)
+2025-03-06 21:47:26,658 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 14) (<unknown>, line 14)
+2025-03-06 21:47:29,903 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 14) (<unknown>, line 14)
+2025-03-06 22:01:19,853 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 13) (<unknown>, line 13)
+2025-03-06 22:01:28,772 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 22:01:31,829 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-06 22:01:32,500 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 18) (<unknown>, line 18)
+2025-03-06 22:01:32,988 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 18) (<unknown>, line 18)
+2025-03-06 22:01:33,669 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 15) (<unknown>, line 15)
+2025-03-06 23:20:33,353 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 13) (<unknown>, line 13)
+2025-03-06 23:20:34,913 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 23:20:35,073 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 23:20:36,361 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-06 23:20:36,553 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-06 23:20:36,945 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 18) (<unknown>, line 18)
+2025-03-06 23:20:37,136 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 18) (<unknown>, line 18)
+2025-03-06 23:20:37,273 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 18) (<unknown>, line 18)
+2025-03-06 23:20:37,425 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 18) (<unknown>, line 18)
+2025-03-06 23:20:37,624 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 15) (<unknown>, line 15)
+2025-03-06 23:20:37,792 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 15) (<unknown>, line 15)
+2025-03-06 23:20:37,960 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 15) (<unknown>, line 15)
+2025-03-06 23:20:38,128 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 15) (<unknown>, line 15)
+2025-03-06 23:20:40,560 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 21) (<unknown>, line 21)
+2025-03-06 23:20:41,001 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 31) (<unknown>, line 31)
+2025-03-06 23:20:41,433 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 31) (<unknown>, line 31)
+2025-03-06 23:20:42,481 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 19) (<unknown>, line 19)
+2025-03-06 23:20:46,385 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 31) (<unknown>, line 31)
+2025-03-06 23:20:47,752 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 19) (<unknown>, line 19)
+2025-03-06 23:20:49,321 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 20) (<unknown>, line 20)
+2025-03-06 23:20:51,929 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-06 23:20:52,785 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 23:20:53,249 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 23:20:53,521 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 23) (<unknown>, line 23)
+2025-03-06 23:20:54,392 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 23) (<unknown>, line 23)
+2025-03-06 23:20:54,664 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 23:20:54,936 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 16) (<unknown>, line 16)
+2025-03-06 23:20:55,225 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 26) (<unknown>, line 26)
+2025-03-06 23:20:56,624 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 21) (<unknown>, line 21)
+2025-03-06 23:20:56,913 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 34) (<unknown>, line 34)
+2025-03-06 23:20:57,921 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 34) (<unknown>, line 34)
+2025-03-06 23:20:58,336 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 21) (<unknown>, line 21)
+2025-03-06 23:20:58,752 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 27) (<unknown>, line 27)
+2025-03-06 23:20:59,857 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 23) (<unknown>, line 23)
+2025-03-06 23:21:00,721 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 23:21:13,818 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 23:21:34,758 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 25) (<unknown>, line 25)
+2025-03-06 23:21:39,049 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 23) (<unknown>, line 23)
+2025-03-07 02:55:58,230 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 8)
+2025-03-07 02:55:58,536 - ERROR - Errore nell'interpretazione delle entità: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 8)
+2025-03-07 03:13:37,063 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 9) (<unknown>, line 9)
+2025-03-07 03:16:08,189 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 41) (<unknown>, line 41)
+2025-03-07 03:36:11,990 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:15,102 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:16,502 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:17,918 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:18,286 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:19,542 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:19,702 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:19,822 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:19,934 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,053 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,173 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,301 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,422 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,526 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,646 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,742 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,853 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:20,973 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:21,093 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:21,205 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:21,325 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:21,454 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:21,558 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:22,670 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:24,982 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:25,118 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:25,230 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:25,430 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:25,558 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:25,645 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:25,758 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:26,205 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:27,742 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:27,870 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:27,982 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:28,094 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:28,206 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:28,310 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:28,430 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:28,534 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:28,862 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:38,462 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:38,662 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:39,294 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:36:39,429 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 93) (<unknown>, line 93)
+2025-03-07 03:38:18,629 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 65) (<unknown>, line 65)
+2025-03-07 03:38:27,483 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 54) (<unknown>, line 54)
+2025-03-07 03:38:30,098 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 66) (<unknown>, line 66)
+2025-03-07 03:38:30,766 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 65) (<unknown>, line 65)
+2025-03-07 03:38:31,286 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 65) (<unknown>, line 65)
+2025-03-07 03:38:31,690 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-07 03:38:33,542 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-07 03:38:36,741 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-07 03:38:40,317 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-10 00:23:12,514 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 32) (<unknown>, line 32)
+2025-03-10 00:26:39,866 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 66) (<unknown>, line 66)
+2025-03-10 00:26:40,377 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 66) (<unknown>, line 66)
+2025-03-10 00:45:10,281 - ERROR - Errore nell'interpretazione delle entità: unterminated string literal (detected at line 47) (<unknown>, line 47)

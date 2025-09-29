@@ -1,0 +1,207 @@
+{
+    "Camera": {
+        "category": "sala",
+        "confidence": 0.6,
+        "occurrences": 68
+    },
+    "Azkaban": {
+        "category": "carcere magico",
+        "confidence": 0.9,
+        "occurrences": 52
+    },
+    "Hogwarts": {
+        "category": "Castello incantato",
+        "confidence": 0.6,
+        "occurrences": 35
+    },
+    "Sala Grande": {
+        "category": "scuola di magia",
+        "confidence": 0.6,
+        "occurrences": 32
+    },
+    "Alley": {
+        "category": "strada",
+        "confidence": 0.9,
+        "occurrences": 25
+    },
+    "Picchiatore": {
+        "category": "foresta magica",
+        "confidence": 0.9,
+        "occurrences": 20
+    },
+    "Mielandia": {
+        "category": "negozio magico",
+        "confidence": 0.9,
+        "occurrences": 18
+    },
+    "Diagon": {
+        "category": "strada",
+        "confidence": 0.9,
+        "occurrences": 18
+    },
+    "Hogsmeade": {
+        "category": "villaggio magico",
+        "confidence": 0.6,
+        "occurrences": 17
+    },
+    "Ingresso": {
+        "category": "sala",
+        "confidence": 0.9,
+        "occurrences": 17
+    },
+    "Sinister": {
+        "category": "negozio magico",
+        "confidence": 0.9,
+        "occurrences": 16
+    },
+    "Privet": {
+        "category": "strada",
+        "confidence": 0.9,
+        "occurrences": 16
+    },
+    "Drive": {
+        "category": "strada",
+        "confidence": 0.9,
+        "occurrences": 16
+    },
+    "Londra": {
+        "category": "paese",
+        "confidence": 0.9,
+        "occurrences": 15
+    },
+    "Torre": {
+        "category": "castello",
+        "confidence": 0.6,
+        "occurrences": 15
+    },
+    "Nottetempo": {
+        "category": "veicolo magico",
+        "confidence": 0.9,
+        "occurrences": 14
+    },
+    "Sala d'Ingresso": {
+        "category": "sala magica",
+        "confidence": 0.3,
+        "occurrences": 13
+    },
+    "Gringott": {
+        "category": "banca magica",
+        "confidence": 0.9,
+        "occurrences": 12
+    },
+    "Platano": {
+        "category": "foresta magica",
+        "confidence": 0.9,
+        "occurrences": 11
+    },
+    "Paiolo": {
+        "category": "Pub",
+        "confidence": 0.6,
+        "occurrences": 10
+    },
+    "Egitto": {
+        "category": "paese",
+        "confidence": 0.9,
+        "occurrences": 9
+    },
+    "Zonko": {
+        "category": "negozio magico",
+        "confidence": 0.9,
+        "occurrences": 8
+    },
+    "Ghirigoro": {
+        "category": "libreria",
+        "confidence": 0.9,
+        "occurrences": 7
+    },
+    "Torre dei Grifondoro": {
+        "category": "sala magica",
+        "confidence": 0.6,
+        "occurrences": 7
+    },
+    "Torre del Grifondoro": {
+        "category": "sala magica",
+        "confidence": 0.6,
+        "occurrences": 6
+    },
+    "Torre di Grifondoro": {
+        "category": "edificio magico",
+        "confidence": 0.9,
+        "occurrences": 5
+    },
+    "Magnolia": {
+        "category": "strada",
+        "confidence": 0.9,
+        "occurrences": 5
+    },
+    "Crescent": {
+        "category": "strada",
+        "confidence": 0.9,
+        "occurrences": 5
+    },
+    "Casa di Grifondoro": {
+        "category": "casa",
+        "confidence": 0.9,
+        "occurrences": 4
+    },
+    "Classe": {
+        "category": "sala",
+        "confidence": 0.9,
+        "occurrences": 4
+    },
+    "Sala\nGrande": {
+        "category": "sala magica",
+        "confidence": 0.6,
+        "occurrences": 4
+    },
+    "Bruto": {
+        "category": "carcere magico",
+        "confidence": 0.9,
+        "occurrences": 4
+    },
+    "Scuola di Magia": {
+        "category": "scuola di magia",
+        "confidence": 0.9,
+        "occurrences": 4
+    },
+    "King's Cross": {
+        "category": "stazione magica",
+        "confidence": 0.9,
+        "occurrences": 4
+    },
+    "prato": {
+        "category": "terreno naturale",
+        "confidence": 0.9,
+        "occurrences": 4
+    },
+    "Sala\nd'Ingresso": {
+        "category": "scuola di magia",
+        "confidence": 0.6,
+        "occurrences": 3
+    },
+    "Palude": {
+        "category": "lago",
+        "confidence": 0.6,
+        "occurrences": 3
+    },
+    "Torre Nord": {
+        "category": "scuola",
+        "confidence": 0.6,
+        "occurrences": 3
+    },
+    "SCUOLA": {
+        "category": "scuola",
+        "confidence": 0.9,
+        "occurrences": 3
+    },
+    "Notturn Alley": {
+        "category": "strada",
+        "confidence": 0.9,
+        "occurrences": 3
+    },
+    "Torre Ovest": {
+        "category": "castello",
+        "confidence": 0.6,
+        "occurrences": 3
+    }
+}
